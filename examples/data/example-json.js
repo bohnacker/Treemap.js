@@ -1,4 +1,4 @@
-dataObj = {
+dataJSON = {
   "type": "directory",
   "name": "p5js",
   "children": [

@@ -1,0 +1,32 @@
+{
+  "name": "Treemap.js",
+  "version": "0.1.0",
+  "description": "A javascript library for calculating a treemap.",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "bundle": "browserify index.js --standalone Treemap -o dist/Treemap.js",
+    "dist": "npm run bundle && browserify index.js --standalone Treemap | uglifyjs > dist/Treemap.min.js",
+    "documentation": "documentation readme index.js --section=Reference"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bohnacker/Treemap.js"
+  },
+  "keywords": [
+    "dataviz",
+    "graph",
+    "treemap",
+    "recursive"
+  ],
+  "author": "Hartmut Bohnacker <mail@hartmut-bohnacker.de>",
+  "bugs": {
+    "url": "https://github.com/bohnacker/Treemap.js/issues"
+  },
+  "homepage": "https://github.com/bohnacker/Treemap.js",
+  "devDependencies": {
+    "browserify": "^14.4.0",
+    "documentation": "^5.2.2",
+    "uglify-js": "^3.0.28"
+  }
+}

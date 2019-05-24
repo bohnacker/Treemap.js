@@ -123,16 +123,16 @@ and ignore flags are updated.
 
 ### draw
 
-A simple recursive drawing routine. Draws only the rectangles. If you want to draw more of the
-content you can supply a function for drawing one item. This function gets the actual item 
-as a parameter and has access to all the fields of that item, most important x, y, w, and h.
+A simple recursive drawing routine. You have to supply a function for drawing one item. This function gets the actual item 
+as a parameter and has access to all the fields of that item, most important `x`, `y`, `w`, and `h`.
+`level` and `depth` tells you, how deep this item is nested in the tree. The root node has level 0, an end node has depth 0. `itemCount` gives you the number of items inside this item, counted recursively and the `index` of item inside the parents sorted items array.
 Example:         
 
     myTreemap.draw(function(item) { 
-      var r = min(item.w/4, item.h/4, 5);
+      var r = Math.min(item.w/4, item.h/4, 5);
       rect(item.x, item.y, item.w, item.h, r); 
     }); 
 
 **Parameters**
 
--   `drawItemFunction` **[Function](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/function)?** a function that draws one item
+-   `drawItemFunction` **[Function](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/function)** a function that draws one item

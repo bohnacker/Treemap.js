@@ -2,7 +2,7 @@
   <head>
     <meta charset="UTF-8">
     <script src="p5.js"></script>
-    <script src="../dist/generative-design-library.js"></script>
+    <script src="../dist/Treemap.js"></script>
     <script src="treemap_json_data.js"></script>
     <style> body {padding: 0; margin: 0;} canvas {vertical-align: top;} </style>
   </head>
@@ -42,7 +42,7 @@
         createCanvas(windowWidth, windowHeight);
 
         // create the treemap
-        treemap = new gd.Treemap(1, 1, width - 3, height - 3, {
+        treemap = new Treemap(1, 1, width - 3, height - 3, {
           sort: true,
           direction: 'both',
           padding: 0.5,

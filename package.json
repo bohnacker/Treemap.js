@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "bundle": "browserify index.js --standalone Treemap -o dist/Treemap.js",
-    "dist": "npm run bundle && browserify index.js --standalone Treemap | uglifyjs > dist/Treemap.min.js",
+    "dist": "npm run bundle && browserify index.js --standalone Treemap | uglifyjs > dist/Treemap.min.js && copyfiles -u 1 dist/Treemap.js examples/lib/",
     "documentation": "documentation readme index.js --section=Reference"
   },
   "repository": {

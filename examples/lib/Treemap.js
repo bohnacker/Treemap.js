@@ -242,9 +242,9 @@ function Treemap() {
       for (var i = 0; i < this.items.length; i++) {
         var sum = this.items[i].sumUpCounters();
         this.count += sum;
-        this.minCount = min(this.minCount, sum);
-        this.maxCount = max(this.maxCount, sum);
-        this.depth = max(this.depth, this.items[i].depth + 1);
+        this.minCount = Math.min(this.minCount, sum);
+        this.maxCount = Math.max(this.maxCount, sum);
+        this.depth = Math.max(this.depth, this.items[i].depth + 1);
         this.itemCount += this.items[i].itemCount;
       }
     }
@@ -367,8 +367,8 @@ function Treemap() {
               this.items[j].h = aPart;
             }
             // negative width or height not allowed
-            this.items[j].w = max(this.items[j].w, 0);
-            this.items[j].h = max(this.items[j].h, 0);
+            this.items[j].w = Math.max(this.items[j].w, 0);
+            this.items[j].h = Math.max(this.items[j].h, 0);
 
             // now that the position, width and height is set, it's possible to calculate the nested treemap.
             this.items[j].calculate();
@@ -396,26 +396,29 @@ function Treemap() {
   };
 
   /**
-    * A simple recursive drawing routine. Draws only the rectangles. If you want to draw more of the
-    * content you can supply a function for drawing one item. This function gets the actual item 
-    * as a parameter and has access to all the fields of that item, most important x, y, w, and h.
+    * A simple recursive drawing routine. You have to supply a function for drawing one item. This function gets the actual item 
+    * as a parameter and has access to all the fields of that item, most important `x`, `y`, `w`, and `h`.
+    * `level` and `depth` tells you, how deep this item is nested in the tree. The root node has level 0, an end node has depth 0. `itemCount` gives you the number of items inside this item, counted recursively and the `index` of item inside the parents sorted items array.
     * Example:         
     * ``` 
     * myTreemap.draw(function(item) { 
-    *   var r = min(item.w/4, item.h/4, 5);
+    *   var r = Math.min(item.w/4, item.h/4, 5);
     *   rect(item.x, item.y, item.w, item.h, r); 
     * }); 
     * ```
     *
     * @method draw
-    * @param {Function} [drawItemFunction] a function that draws one item 
+    * @param {Function} drawItemFunction a function that draws one item 
   */
   Treemap.prototype.draw = function(drawItemFunction) {
-    if (!this.ignored) {
+    if (!drawItemFunction) {
+      console.warn('You have to supply a drawing function to see something');
+      return;
+    }
 
-      // use the drawing function if given, otherwise draw a simple rect.
-      if (drawItemFunction) drawItemFunction(this);
-      else rect(this.x, this.y, this.w, this.h);
+    if (!this.ignored) {
+      // use the drawing function if given, otherwise draw a simple rect using p5js. This will cause an error, if p5.js is not there.
+      drawItemFunction(this);
 
       for (var i = 0; i < this.items.length; i++) {
         this.items[i].draw(drawItemFunction);
@@ -433,7 +436,7 @@ function Treemap() {
  */
 function shuffleArray(array) {
   for (var i = array.length - 1; i > 0; i--) {
-    var j = floor(random() * (i + 1));
+    var j = Math.floor(Math.random() * (i + 1));
     var temp = array[i];
     array[i] = array[j];
     array[j] = temp;

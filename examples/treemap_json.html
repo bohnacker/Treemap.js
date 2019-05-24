@@ -1,8 +1,8 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <script src="p5.js"></script>
-    <script src="../dist/Treemap.js"></script>
+    <script src="lib/p5.min.js"></script>
+    <script src="lib/Treemap.js"></script>
     <script src="treemap_json_data.js"></script>
     <style> body {padding: 0; margin: 0;} canvas {vertical-align: top;} </style>
   </head>
@@ -52,8 +52,8 @@
         // the size/count value and optionally what data to store.
         // Uncomment one of the following:
         treemap.addData(dataObj, {children:"children", count:"size"});
-        //treemap.addData(dataArray1, {count:"size"});
-        //treemap.addData(dataArray2, {});
+        // treemap.addData(dataArray1, {count:"size"});
+        // treemap.addData(dataArray2, {});
 
         // calculate the treemap
         treemap.calculate();

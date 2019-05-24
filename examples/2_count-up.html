@@ -1,0 +1,68 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script src="lib/Treemap.js"></script>
+    <script src="treemap_json_data.js"></script>
+    <style> 
+      body {padding: 0; margin: 0; font-family: sans-serif; font-size: 11px;} 
+      canvas {vertical-align: top;}
+      div.treemap-item {position: absolute; border: 1px solid black; text-align: center;}
+    </style>
+  </head>
+  <body>
+    <script type="text/javascript">
+      
+      // Create an empty treemap
+      let w = window.innerWidth;
+      let h = window.innerHeight;
+      let treemap = new Treemap(2, 2, w - 4, h - 4, {
+        sort: true,
+        direction: 'both',
+        padding: 4,
+      });
+
+
+      // You can feed the treemap with items. If an item is already in the treemap, the counter for this item will be increased by 1. This way you don't have to build your data structure beforehand. In this example, all the letters that appear in the following text will be counted.
+      let text = "The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators. To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words. If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages. The new common language will be more simple and regular than the existing European languages. It will be as simple as Occidental; in fact, it will be Occidental. To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is.";
+      
+      for (var i = 0; i < text.length; i++) {
+        // add each letter seperately to the treemap 
+        let letter = text[i].toUpperCase();
+        treemap.addData(letter);
+      }
+
+
+      // Calculate the treemap
+      treemap.calculate();
+
+
+      // Draw the treemap. Drawing is always done with a customized drawing function. To this library is independ of any library that helps with drawing stuff. For this example, the elements are drawn to the document as divs. 
+
+      // When going through the treemap, item holds all the information of the treemap element. There is lots of information you could use for drawing:
+      // item.x, item.y, item.w, item.h – Dimensions of the rect
+      // item.minCount, item.maxCount - Smallest and largest item in this item
+      // item.level, item.depth - How deep is this item nested in the tree? The root node has level 0, an end node has depth 0 
+      // item.itemCount - Number of items inside this item, counted recursively
+      // item.index - Index of this item inside the parents sorted items array
+
+      treemap.draw(function(item) {
+        let div = document.createElement('div');
+        document.body.appendChild(div);
+
+        div.setAttribute('class', 'treemap-item')
+        div.style.left = item.x;
+        div.style.top = item.y;
+        div.style.width = item.w - 2;
+        div.style.height = item.h - 2;
+
+        if (item.data) {
+          let textNode = document.createTextNode(item.data);
+          div.style['line-height'] = item.h + 'px';
+          div.appendChild(textNode);
+        }
+
+      });
+
+    </script>
+  </body>
+</html>

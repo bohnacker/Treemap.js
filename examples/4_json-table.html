@@ -22,11 +22,11 @@
       });
 
 
-      // add data giving a json object and the keys where to find the children, 
-      // the size/count value and optionally what data to store.
+      // Add data giving a json object and the keys where to find the children, 
+      // The size/count value and optionally what data to store.
       for (var i = 0; i < dataJSON.length; i++) {
-        // add each line of the table seperately to the treemap 
-        treemap.addItem(dataJSON[i], ['mcat', 'cat']);
+        // Add each line of the table seperately to the treemap. 
+        treemap.addItem(dataJSON[i], ['mcat', 'cat'], dataJSON[i].pledged);
       }
 
 

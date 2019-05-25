@@ -9,7 +9,7 @@
 // "deadline"     -> "dl",
 // "goal"         -> "goal",
 // "launched"     -> "laun",
-// "pledged"      -> "pled",
+// "pledgedged"      -> "pledgedged",
 // "state"        -> "state",
 // "backers"      -> "back",
 // "country"      -> "country",
@@ -23,7 +23,7 @@ dataJSON = [{
   "dl": "2017-06-20",
   "goal": 10000,
   "laun": "2017-05-21 03:47:43",
-  "pled": 289,
+  "pledged": 289,
   "state": "canceled",
   "backers": 2,
   "country": "US"
@@ -35,7 +35,7 @@ dataJSON = [{
   "dl": "2015-04-09",
   "goal": 90,
   "laun": "2015-03-10 03:42:32",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -47,7 +47,7 @@ dataJSON = [{
   "dl": "2015-04-29",
   "goal": 200,
   "laun": "2015-04-01 01:24:04",
-  "pled": 92,
+  "pledged": 92,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -59,7 +59,7 @@ dataJSON = [{
   "dl": "2014-08-29",
   "goal": 2000,
   "laun": "2014-07-30 02:31:56",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -71,7 +71,7 @@ dataJSON = [{
   "dl": "2014-08-13",
   "goal": 3500,
   "laun": "2014-07-14 19:01:11",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "GB"
@@ -83,7 +83,7 @@ dataJSON = [{
   "dl": "2014-08-30",
   "goal": 2500,
   "laun": "2014-07-24 13:39:04",
-  "pled": 12190,
+  "pledged": 12190,
   "state": "successful",
   "backers": 146,
   "country": "US"
@@ -95,7 +95,7 @@ dataJSON = [{
   "dl": "2013-10-28",
   "goal": 800,
   "laun": "2013-10-04 16:21:48",
-  "pled": 810,
+  "pledged": 810,
   "state": "successful",
   "backers": 26,
   "country": "US"
@@ -107,7 +107,7 @@ dataJSON = [{
   "dl": "2014-08-29",
   "goal": 50000,
   "laun": "2014-07-30 23:01:41",
-  "pled": 1181,
+  "pledged": 1181,
   "state": "failed",
   "backers": 7,
   "country": "US"
@@ -119,7 +119,7 @@ dataJSON = [{
   "dl": "2015-11-01",
   "goal": 8000,
   "laun": "2015-10-02 02:01:09",
-  "pled": 176,
+  "pledged": 176,
   "state": "undefined",
   "backers": 0,
   "country": "N,0"
@@ -131,7 +131,7 @@ dataJSON = [{
   "dl": "2016-11-03",
   "goal": 3000,
   "laun": "2016-10-04 19:11:40",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -143,7 +143,7 @@ dataJSON = [{
   "dl": "2015-04-20",
   "goal": 1000,
   "laun": "2015-03-01 04:12:19",
-  "pled": 36,
+  "pledged": 36,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -155,7 +155,7 @@ dataJSON = [{
   "dl": "2011-12-17",
   "goal": 10000,
   "laun": "2011-11-02 02:40:16",
-  "pled": 10325,
+  "pledged": 10325,
   "state": "successful",
   "backers": 222,
   "country": "US"
@@ -167,7 +167,7 @@ dataJSON = [{
   "dl": "2017-10-04",
   "goal": 7500,
   "laun": "2017-09-04 00:42:47",
-  "pled": 11341,
+  "pledged": 11341,
   "state": "successful",
   "backers": 122,
   "country": "US"
@@ -179,7 +179,7 @@ dataJSON = [{
   "dl": "2014-08-01",
   "goal": 3500,
   "laun": "2014-06-27 06:04:59",
-  "pled": 3815,
+  "pledged": 3815,
   "state": "successful",
   "backers": 148,
   "country": "US"
@@ -191,7 +191,7 @@ dataJSON = [{
   "dl": "2016-03-02",
   "goal": 2500,
   "laun": "2016-02-01 22:07:44",
-  "pled": 924,
+  "pledged": 924,
   "state": "failed",
   "backers": 25,
   "country": "US"
@@ -203,7 +203,7 @@ dataJSON = [{
   "dl": "2015-03-26",
   "goal": 1000,
   "laun": "2015-02-24 23:03:12",
-  "pled": 145,
+  "pledged": 145,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -215,7 +215,7 @@ dataJSON = [{
   "dl": "2014-06-15",
   "goal": 8000,
   "laun": "2014-05-16 02:10:10",
-  "pled": 8191,
+  "pledged": 8191,
   "state": "successful",
   "backers": 70,
   "country": "US"
@@ -227,7 +227,7 @@ dataJSON = [{
   "dl": "2016-05-25",
   "goal": 3000,
   "laun": "2016-03-26 07:23:06",
-  "pled": 4,
+  "pledged": 4,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -239,7 +239,7 @@ dataJSON = [{
   "dl": "2014-03-06",
   "goal": 6000,
   "laun": "2014-02-04 04:49:24",
-  "pled": 6604,
+  "pledged": 6604,
   "state": "successful",
   "backers": 107,
   "country": "US"
@@ -251,7 +251,7 @@ dataJSON = [{
   "dl": "2014-08-29",
   "goal": 2600,
   "laun": "2014-07-30 19:11:54",
-  "pled": 30,
+  "pledged": 30,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -263,7 +263,7 @@ dataJSON = [{
   "dl": "2015-10-16",
   "goal": 50000,
   "laun": "2015-09-16 05:26:05",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "DE"
@@ -275,7 +275,7 @@ dataJSON = [{
   "dl": "2015-08-21",
   "goal": 15000,
   "laun": "2015-07-22 01:19:17",
-  "pled": 452,
+  "pledged": 452,
   "state": "failed",
   "backers": 17,
   "country": "US"
@@ -287,7 +287,7 @@ dataJSON = [{
   "dl": "2015-11-20",
   "goal": 40000,
   "laun": "2015-10-21 17:45:24",
-  "pled": 5,
+  "pledged": 5,
   "state": "canceled",
   "backers": 1,
   "country": "US"
@@ -299,7 +299,7 @@ dataJSON = [{
   "dl": "2011-07-04",
   "goal": 20000,
   "laun": "2011-05-05 16:57:58",
-  "pled": 3385.33,
+  "pledged": 3385.33,
   "state": "failed",
   "backers": 63,
   "country": "US"
@@ -311,7 +311,7 @@ dataJSON = [{
   "dl": "2015-11-02",
   "goal": 6000,
   "laun": "2015-10-02 00:09:36",
-  "pled": 7030,
+  "pledged": 7030,
   "state": "successful",
   "backers": 93,
   "country": "US"
@@ -323,7 +323,7 @@ dataJSON = [{
   "dl": "2016-10-30",
   "goal": 5500,
   "laun": "2016-09-30 06:53:37",
-  "pled": 270,
+  "pledged": 270,
   "state": "failed",
   "backers": 7,
   "country": "US"
@@ -335,7 +335,7 @@ dataJSON = [{
   "dl": "2013-11-10",
   "goal": 5800,
   "laun": "2013-10-15 02:22:25",
-  "pled": 550,
+  "pledged": 550,
   "state": "failed",
   "backers": 12,
   "country": "US"
@@ -347,7 +347,7 @@ dataJSON = [{
   "dl": "2012-09-14",
   "goal": 2000,
   "laun": "2012-08-15 02:41:57",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -359,7 +359,7 @@ dataJSON = [{
   "dl": "2018-01-18",
   "goal": 3200,
   "laun": "2017-12-19 03:56:33",
-  "pled": 1660,
+  "pledged": 1660,
   "state": "live",
   "backers": 18,
   "country": "US"
@@ -371,7 +371,7 @@ dataJSON = [{
   "dl": "2013-06-07",
   "goal": 400,
   "laun": "2013-05-03 18:14:52",
-  "pled": 550,
+  "pledged": 550,
   "state": "successful",
   "backers": 13,
   "country": "US"
@@ -383,7 +383,7 @@ dataJSON = [{
   "dl": "2013-08-15",
   "goal": 1850,
   "laun": "2013-07-16 19:32:30",
-  "pled": 270,
+  "pledged": 270,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -395,7 +395,7 @@ dataJSON = [{
   "dl": "2015-05-14",
   "goal": 15000,
   "laun": "2015-04-14 01:01:49",
-  "pled": 101,
+  "pledged": 101,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -407,7 +407,7 @@ dataJSON = [{
   "dl": "2011-06-18",
   "goal": 10000,
   "laun": "2011-05-16 14:36:17",
-  "pled": 1743,
+  "pledged": 1743,
   "state": "canceled",
   "backers": 26,
   "country": "US"
@@ -419,7 +419,7 @@ dataJSON = [{
   "dl": "2017-06-14",
   "goal": 2000,
   "laun": "2017-05-21 23:04:35",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "GB"
@@ -431,7 +431,7 @@ dataJSON = [{
   "dl": "2015-02-26",
   "goal": 1000,
   "laun": "2015-01-27 17:03:34",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -443,7 +443,7 @@ dataJSON = [{
   "dl": "2012-03-09",
   "goal": 4000,
   "laun": "2012-01-09 22:32:26",
-  "pled": 5246,
+  "pledged": 5246,
   "state": "successful",
   "backers": 78,
   "country": "US"
@@ -455,7 +455,7 @@ dataJSON = [{
   "dl": "2016-03-01",
   "goal": 10000,
   "laun": "2016-01-26 02:55:54",
-  "pled": 420,
+  "pledged": 420,
   "state": "failed",
   "backers": 9,
   "country": "US"
@@ -467,7 +467,7 @@ dataJSON = [{
   "dl": "2011-08-08",
   "goal": 8500,
   "laun": "2011-07-09 03:22:08",
-  "pled": 35,
+  "pledged": 35,
   "state": "canceled",
   "backers": 2,
   "country": "US"
@@ -479,7 +479,7 @@ dataJSON = [{
   "dl": "2014-03-15",
   "goal": 700,
   "laun": "2014-01-24 20:04:52",
-  "pled": 85,
+  "pledged": 85,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -491,7 +491,7 @@ dataJSON = [{
   "dl": "2014-08-23",
   "goal": 10000,
   "laun": "2014-07-24 21:47:00",
-  "pled": 276.27,
+  "pledged": 276.27,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -503,7 +503,7 @@ dataJSON = [{
   "dl": "2013-06-30",
   "goal": 15000,
   "laun": "2013-06-10 13:25:15",
-  "pled": 409,
+  "pledged": 409,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -515,7 +515,7 @@ dataJSON = [{
   "dl": "2012-05-27",
   "goal": 7000,
   "laun": "2012-04-26 20:42:52",
-  "pled": 12190,
+  "pledged": 12190,
   "state": "successful",
   "backers": 270,
   "country": "US"
@@ -527,7 +527,7 @@ dataJSON = [{
   "dl": "2013-12-08",
   "goal": 20000,
   "laun": "2013-11-08 06:15:53",
-  "pled": 210,
+  "pledged": 210,
   "state": "failed",
   "backers": 9,
   "country": "US"
@@ -539,7 +539,7 @@ dataJSON = [{
   "dl": "2014-01-04",
   "goal": 20000,
   "laun": "2013-12-12 23:15:40",
-  "pled": 601,
+  "pledged": 601,
   "state": "failed",
   "backers": 15,
   "country": "US"
@@ -551,7 +551,7 @@ dataJSON = [{
   "dl": "2013-11-07",
   "goal": 12000,
   "laun": "2013-10-08 03:42:19",
-  "pled": 50,
+  "pledged": 50,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -563,7 +563,7 @@ dataJSON = [{
   "dl": "2012-10-05",
   "goal": 82450,
   "laun": "2012-09-06 23:07:14",
-  "pled": 2824,
+  "pledged": 2824,
   "state": "failed",
   "backers": 17,
   "country": "US"
@@ -575,7 +575,7 @@ dataJSON = [{
   "dl": "2017-10-27",
   "goal": 2000,
   "laun": "2017-09-22 13:17:15",
-  "pled": 2,
+  "pledged": 2,
   "state": "failed",
   "backers": 2,
   "country": "ES"
@@ -587,7 +587,7 @@ dataJSON = [{
   "dl": "2013-08-09",
   "goal": 12000,
   "laun": "2013-07-10 05:52:14",
-  "pled": 1016,
+  "pledged": 1016,
   "state": "failed",
   "backers": 12,
   "country": "US"
@@ -599,7 +599,7 @@ dataJSON = [{
   "dl": "2010-09-01",
   "goal": 10000,
   "laun": "2010-07-09 00:48:48",
-  "pled": 10100.66,
+  "pledged": 10100.66,
   "state": "successful",
   "backers": 72,
   "country": "US"
@@ -611,7 +611,7 @@ dataJSON = [{
   "dl": "2017-04-27",
   "goal": 10000,
   "laun": "2017-03-28 11:11:43",
-  "pled": 30905,
+  "pledged": 30905,
   "state": "successful",
   "backers": 423,
   "country": "US"
@@ -623,7 +623,7 @@ dataJSON = [{
   "dl": "2014-03-20",
   "goal": 60000,
   "laun": "2014-02-05 09:30:37",
-  "pled": 70,
+  "pledged": 70,
   "state": "failed",
   "backers": 5,
   "country": "GB"
@@ -635,7 +635,7 @@ dataJSON = [{
   "dl": "2015-11-25",
   "goal": 8000,
   "laun": "2015-10-28 19:01:23",
-  "pled": 40541,
+  "pledged": 40541,
   "state": "successful",
   "backers": 1955,
   "country": "US"
@@ -647,7 +647,7 @@ dataJSON = [{
   "dl": "2017-11-06",
   "goal": 500,
   "laun": "2017-10-07 18:40:58",
-  "pled": 5,
+  "pledged": 5,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -659,7 +659,7 @@ dataJSON = [{
   "dl": "2015-03-05",
   "goal": 3000,
   "laun": "2015-02-12 02:11:14",
-  "pled": 3116,
+  "pledged": 3116,
   "state": "successful",
   "backers": 29,
   "country": "US"
@@ -671,7 +671,7 @@ dataJSON = [{
   "dl": "2016-08-07",
   "goal": 11000,
   "laun": "2016-06-15 20:52:48",
-  "pled": 5,
+  "pledged": 5,
   "state": "failed",
   "backers": 1,
   "country": "FR"
@@ -683,7 +683,7 @@ dataJSON = [{
   "dl": "2018-01-07",
   "goal": 200000,
   "laun": "2017-11-08 11:43:26",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "NO"
@@ -695,7 +695,7 @@ dataJSON = [{
   "dl": "2012-05-13",
   "goal": 58000,
   "laun": "2012-03-29 02:05:15",
-  "pled": 300,
+  "pledged": 300,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -707,7 +707,7 @@ dataJSON = [{
   "dl": "2013-06-22",
   "goal": 5000,
   "laun": "2013-04-02 08:16:26",
-  "pled": 71334,
+  "pledged": 71334,
   "state": "successful",
   "backers": 1139,
   "country": "US"
@@ -719,7 +719,7 @@ dataJSON = [{
   "dl": "2015-12-14",
   "goal": 100,
   "laun": "2015-11-14 00:11:20",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "DE"
@@ -731,7 +731,7 @@ dataJSON = [{
   "dl": "2013-11-19",
   "goal": 2500,
   "laun": "2013-10-20 20:22:25",
-  "pled": 617,
+  "pledged": 617,
   "state": "failed",
   "backers": 41,
   "country": "GB"
@@ -743,7 +743,7 @@ dataJSON = [{
   "dl": "2013-04-25",
   "goal": 25000,
   "laun": "2013-03-26 04:01:47",
-  "pled": 55,
+  "pledged": 55,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -755,7 +755,7 @@ dataJSON = [{
   "dl": "2013-11-23",
   "goal": 750000,
   "laun": "2013-10-24 03:01:05",
-  "pled": 86835,
+  "pledged": 86835,
   "state": "canceled",
   "backers": 349,
   "country": "US"
@@ -767,7 +767,7 @@ dataJSON = [{
   "dl": "2015-03-02",
   "goal": 900,
   "laun": "2015-01-28 02:30:06",
-  "pled": 1890,
+  "pledged": 1890,
   "state": "successful",
   "backers": 49,
   "country": "US"
@@ -779,7 +779,7 @@ dataJSON = [{
   "dl": "2017-12-15",
   "goal": 100000,
   "laun": "2017-11-14 10:59:58",
-  "pled": 200274.5,
+  "pledged": 200274.5,
   "state": "successful",
   "backers": 509,
   "country": "NL"
@@ -791,7 +791,7 @@ dataJSON = [{
   "dl": "2015-05-07",
   "goal": 2000,
   "laun": "2015-03-23 17:10:14",
-  "pled": 2086,
+  "pledged": 2086,
   "state": "undefined",
   "backers": 0,
   "country": "N,0"
@@ -803,7 +803,7 @@ dataJSON = [{
   "dl": "2014-10-03",
   "goal": 1000,
   "laun": "2014-09-03 19:51:34",
-  "pled": 2358,
+  "pledged": 2358,
   "state": "successful",
   "backers": 59,
   "country": "CA"
@@ -815,7 +815,7 @@ dataJSON = [{
   "dl": "2014-11-14",
   "goal": 2500,
   "laun": "2014-10-15 18:01:45",
-  "pled": 2976,
+  "pledged": 2976,
   "state": "undefined",
   "backers": 0,
   "country": "N,0"
@@ -827,7 +827,7 @@ dataJSON = [{
   "dl": "2014-10-07",
   "goal": 5000,
   "laun": "2014-09-07 21:16:23",
-  "pled": 225,
+  "pledged": 225,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -839,7 +839,7 @@ dataJSON = [{
   "dl": "2015-01-07",
   "goal": 10000,
   "laun": "2014-11-08 17:12:11",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -851,7 +851,7 @@ dataJSON = [{
   "dl": "2013-11-25",
   "goal": 70000,
   "laun": "2013-10-11 16:01:35",
-  "pled": 1170,
+  "pledged": 1170,
   "state": "failed",
   "backers": 30,
   "country": "US"
@@ -863,7 +863,7 @@ dataJSON = [{
   "dl": "2010-08-01",
   "goal": 7500,
   "laun": "2010-05-27 19:39:02",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -875,7 +875,7 @@ dataJSON = [{
   "dl": "2013-10-25",
   "goal": 1000,
   "laun": "2013-09-25 16:29:23",
-  "pled": 1340,
+  "pledged": 1340,
   "state": "successful",
   "backers": 19,
   "country": "US"
@@ -887,7 +887,7 @@ dataJSON = [{
   "dl": "2012-03-17",
   "goal": 1000,
   "laun": "2012-02-17 00:06:38",
-  "pled": 246,
+  "pledged": 246,
   "state": "failed",
   "backers": 16,
   "country": "US"
@@ -899,7 +899,7 @@ dataJSON = [{
   "dl": "2011-12-01",
   "goal": 10000,
   "laun": "2011-10-27 19:58:19",
-  "pled": 100,
+  "pledged": 100,
   "state": "canceled",
   "backers": 1,
   "country": "US"
@@ -911,7 +911,7 @@ dataJSON = [{
   "dl": "2015-02-22",
   "goal": 12000,
   "laun": "2015-01-23 09:16:02",
-  "pled": 245,
+  "pledged": 245,
   "state": "failed",
   "backers": 7,
   "country": "CA"
@@ -923,7 +923,7 @@ dataJSON = [{
   "dl": "2014-11-23",
   "goal": 1800,
   "laun": "2014-11-03 18:34:48",
-  "pled": 2863,
+  "pledged": 2863,
   "state": "successful",
   "backers": 60,
   "country": "US"
@@ -935,7 +935,7 @@ dataJSON = [{
   "dl": "2015-04-20",
   "goal": 500,
   "laun": "2015-03-05 00:50:25",
-  "pled": 3406,
+  "pledged": 3406,
   "state": "successful",
   "backers": 69,
   "country": "US"
@@ -947,7 +947,7 @@ dataJSON = [{
   "dl": "2018-01-06",
   "goal": 5000,
   "laun": "2017-12-07 01:09:58",
-  "pled": 5,
+  "pledged": 5,
   "state": "live",
   "backers": 1,
   "country": "US"
@@ -959,7 +959,7 @@ dataJSON = [{
   "dl": "2013-12-21",
   "goal": 300000,
   "laun": "2013-11-05 15:46:36",
-  "pled": 4588,
+  "pledged": 4588,
   "state": "failed",
   "backers": 34,
   "country": "US"
@@ -971,7 +971,7 @@ dataJSON = [{
   "dl": "2013-12-10",
   "goal": 35000,
   "laun": "2013-10-12 00:35:44",
-  "pled": 155,
+  "pledged": 155,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -983,7 +983,7 @@ dataJSON = [{
   "dl": "2013-03-09",
   "goal": 10000,
   "laun": "2013-02-06 19:33:14",
-  "pled": 10131,
+  "pledged": 10131,
   "state": "successful",
   "backers": 90,
   "country": "US"
@@ -995,7 +995,7 @@ dataJSON = [{
   "dl": "2015-03-20",
   "goal": 1065,
   "laun": "2015-02-18 19:26:16",
-  "pled": 277,
+  "pledged": 277,
   "state": "failed",
   "backers": 11,
   "country": "US"
@@ -1007,7 +1007,7 @@ dataJSON = [{
   "dl": "2013-05-26",
   "goal": 500,
   "laun": "2013-04-22 19:05:11",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -1019,7 +1019,7 @@ dataJSON = [{
   "dl": "2016-09-27",
   "goal": 5000,
   "laun": "2016-08-28 22:27:37",
-  "pled": 787,
+  "pledged": 787,
   "state": "failed",
   "backers": 9,
   "country": "US"
@@ -1031,7 +1031,7 @@ dataJSON = [{
   "dl": "2011-03-19",
   "goal": 500,
   "laun": "2011-02-22 09:50:57",
-  "pled": 540,
+  "pledged": 540,
   "state": "successful",
   "backers": 23,
   "country": "US"
@@ -1043,7 +1043,7 @@ dataJSON = [{
   "dl": "2015-01-30",
   "goal": 1000,
   "laun": "2015-01-10 01:42:01",
-  "pled": 1040,
+  "pledged": 1040,
   "state": "successful",
   "backers": 19,
   "country": "US"
@@ -1055,7 +1055,7 @@ dataJSON = [{
   "dl": "2015-03-18",
   "goal": 1500,
   "laun": "2015-02-25 17:03:01",
-  "pled": 1701,
+  "pledged": 1701,
   "state": "successful",
   "backers": 33,
   "country": "US"
@@ -1067,7 +1067,7 @@ dataJSON = [{
   "dl": "2016-06-25",
   "goal": 20000,
   "laun": "2016-05-26 23:46:01",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -1079,7 +1079,7 @@ dataJSON = [{
   "dl": "2015-08-29",
   "goal": 100000,
   "laun": "2015-07-25 16:41:42",
-  "pled": 9997,
+  "pledged": 9997,
   "state": "failed",
   "backers": 24,
   "country": "CA"
@@ -1091,7 +1091,7 @@ dataJSON = [{
   "dl": "2013-11-28",
   "goal": 600,
   "laun": "2013-10-29 09:39:06",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "GB"
@@ -1103,7 +1103,7 @@ dataJSON = [{
   "dl": "2014-06-30",
   "goal": 3000,
   "laun": "2014-05-07 20:59:35",
-  "pled": 3028.5,
+  "pledged": 3028.5,
   "state": "successful",
   "backers": 139,
   "country": "NL"
@@ -1115,7 +1115,7 @@ dataJSON = [{
   "dl": "2014-04-26",
   "goal": 3000,
   "laun": "2014-03-27 17:02:15",
-  "pled": 542,
+  "pledged": 542,
   "state": "failed",
   "backers": 13,
   "country": "US"
@@ -1127,7 +1127,7 @@ dataJSON = [{
   "dl": "2015-12-11",
   "goal": 1000,
   "laun": "2015-11-11 23:49:57",
-  "pled": 111,
+  "pledged": 111,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -1139,7 +1139,7 @@ dataJSON = [{
   "dl": "2013-06-29",
   "goal": 1500,
   "laun": "2013-05-30 13:55:47",
-  "pled": 1554,
+  "pledged": 1554,
   "state": "successful",
   "backers": 60,
   "country": "US"
@@ -1151,7 +1151,7 @@ dataJSON = [{
   "dl": "2012-06-22",
   "goal": 1500,
   "laun": "2012-05-23 02:36:12",
-  "pled": 1795,
+  "pledged": 1795,
   "state": "successful",
   "backers": 16,
   "country": "US"
@@ -1163,7 +1163,7 @@ dataJSON = [{
   "dl": "2010-12-04",
   "goal": 3000,
   "laun": "2010-11-04 19:08:59",
-  "pled": 80,
+  "pledged": 80,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -1175,7 +1175,7 @@ dataJSON = [{
   "dl": "2014-09-18",
   "goal": 39000,
   "laun": "2014-08-19 21:15:53",
-  "pled": 10155,
+  "pledged": 10155,
   "state": "failed",
   "backers": 458,
   "country": "US"
@@ -1187,7 +1187,7 @@ dataJSON = [{
   "dl": "2013-10-19",
   "goal": 15000,
   "laun": "2013-09-18 03:16:31",
-  "pled": 5425,
+  "pledged": 5425,
   "state": "failed",
   "backers": 93,
   "country": "US"
@@ -1199,7 +1199,7 @@ dataJSON = [{
   "dl": "2017-05-18",
   "goal": 850,
   "laun": "2017-04-18 03:36:57",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -1211,7 +1211,7 @@ dataJSON = [{
   "dl": "2017-12-31",
   "goal": 1000,
   "laun": "2017-11-22 20:21:25",
-  "pled": 88,
+  "pledged": 88,
   "state": "failed",
   "backers": 3,
   "country": "AU"
@@ -1223,7 +1223,7 @@ dataJSON = [{
   "dl": "2015-05-18",
   "goal": 300,
   "laun": "2015-05-08 18:01:36",
-  "pled": 812,
+  "pledged": 812,
   "state": "successful",
   "backers": 22,
   "country": "US"
@@ -1235,7 +1235,7 @@ dataJSON = [{
   "dl": "2014-11-13",
   "goal": 300,
   "laun": "2014-10-14 21:51:50",
-  "pled": 3,
+  "pledged": 3,
   "state": "failed",
   "backers": 1,
   "country": "GB"
@@ -1247,7 +1247,7 @@ dataJSON = [{
   "dl": "2017-09-18",
   "goal": 10000,
   "laun": "2017-08-19 17:02:59",
-  "pled": 825,
+  "pledged": 825,
   "state": "failed",
   "backers": 7,
   "country": "US"
@@ -1259,7 +1259,7 @@ dataJSON = [{
   "dl": "2016-07-16",
   "goal": 2500,
   "laun": "2016-06-15 21:09:47",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -1271,7 +1271,7 @@ dataJSON = [{
   "dl": "2014-11-27",
   "goal": 2500,
   "laun": "2014-11-05 23:30:58",
-  "pled": 179,
+  "pledged": 179,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -1283,7 +1283,7 @@ dataJSON = [{
   "dl": "2013-01-13",
   "goal": 8000,
   "laun": "2012-12-14 22:57:06",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "GB"
@@ -1295,7 +1295,7 @@ dataJSON = [{
   "dl": "2017-11-09",
   "goal": 10000,
   "laun": "2017-10-10 10:09:44",
-  "pled": 174,
+  "pledged": 174,
   "state": "canceled",
   "backers": 5,
   "country": "GB"
@@ -1307,7 +1307,7 @@ dataJSON = [{
   "dl": "2013-10-04",
   "goal": 6000,
   "laun": "2013-09-04 19:37:51",
-  "pled": 301,
+  "pledged": 301,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -1319,7 +1319,7 @@ dataJSON = [{
   "dl": "2017-09-15",
   "goal": 430000,
   "laun": "2017-07-17 12:04:26",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "DE"
@@ -1331,7 +1331,7 @@ dataJSON = [{
   "dl": "2015-10-11",
   "goal": 7000,
   "laun": "2015-09-03 18:27:25",
-  "pled": 3598,
+  "pledged": 3598,
   "state": "failed",
   "backers": 57,
   "country": "US"
@@ -1343,7 +1343,7 @@ dataJSON = [{
   "dl": "2017-05-21",
   "goal": 30000,
   "laun": "2017-04-21 20:05:13",
-  "pled": 25,
+  "pledged": 25,
   "state": "failed",
   "backers": 1,
   "country": "CA"
@@ -1355,7 +1355,7 @@ dataJSON = [{
   "dl": "2014-01-25",
   "goal": 50000,
   "laun": "2013-12-11 17:58:20",
-  "pled": 67020,
+  "pledged": 67020,
   "state": "successful",
   "backers": 602,
   "country": "US"
@@ -1367,7 +1367,7 @@ dataJSON = [{
   "dl": "2014-02-01",
   "goal": 4321,
   "laun": "2014-01-18 04:25:01",
-  "pled": 4803,
+  "pledged": 4803,
   "state": "successful",
   "backers": 62,
   "country": "US"
@@ -1379,7 +1379,7 @@ dataJSON = [{
   "dl": "2015-09-06",
   "goal": 450,
   "laun": "2015-07-08 00:05:11",
-  "pled": 75,
+  "pledged": 75,
   "state": "failed",
   "backers": 3,
   "country": "DE"
@@ -1391,7 +1391,7 @@ dataJSON = [{
   "dl": "2012-03-16",
   "goal": 1200,
   "laun": "2012-02-15 06:28:01",
-  "pled": 2025,
+  "pledged": 2025,
   "state": "successful",
   "backers": 21,
   "country": "US"
@@ -1403,7 +1403,7 @@ dataJSON = [{
   "dl": "2013-05-29",
   "goal": 25000,
   "laun": "2013-04-29 04:33:50",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -1415,7 +1415,7 @@ dataJSON = [{
   "dl": "2014-07-02",
   "goal": 3000,
   "laun": "2014-06-02 20:29:49",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -1427,7 +1427,7 @@ dataJSON = [{
   "dl": "2018-01-20",
   "goal": 25000,
   "laun": "2017-12-06 17:14:44",
-  "pled": 9102,
+  "pledged": 9102,
   "state": "live",
   "backers": 52,
   "country": "CH"
@@ -1439,7 +1439,7 @@ dataJSON = [{
   "dl": "2011-11-12",
   "goal": 22000,
   "laun": "2011-10-13 19:24:01",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -1451,7 +1451,7 @@ dataJSON = [{
   "dl": "2015-02-04",
   "goal": 5000,
   "laun": "2015-01-05 21:36:23",
-  "pled": 563,
+  "pledged": 563,
   "state": "failed",
   "backers": 11,
   "country": "US"
@@ -1463,7 +1463,7 @@ dataJSON = [{
   "dl": "2017-12-22",
   "goal": 11000,
   "laun": "2017-12-05 05:06:48",
-  "pled": 2675,
+  "pledged": 2675,
   "state": "failed",
   "backers": 13,
   "country": "US"
@@ -1475,7 +1475,7 @@ dataJSON = [{
   "dl": "2016-10-08",
   "goal": 222222,
   "laun": "2016-09-08 16:36:06",
-  "pled": 3500,
+  "pledged": 3500,
   "state": "failed",
   "backers": 4,
   "country": "SE"
@@ -1487,7 +1487,7 @@ dataJSON = [{
   "dl": "2014-08-21",
   "goal": 250,
   "laun": "2014-07-22 20:41:20",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -1499,7 +1499,7 @@ dataJSON = [{
   "dl": "2016-12-30",
   "goal": 250000,
   "laun": "2016-11-15 16:48:40",
-  "pled": 980,
+  "pledged": 980,
   "state": "canceled",
   "backers": 3,
   "country": "MX"
@@ -1511,7 +1511,7 @@ dataJSON = [{
   "dl": "2015-07-03",
   "goal": 57500,
   "laun": "2015-06-03 15:11:12",
-  "pled": 151,
+  "pledged": 151,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -1523,7 +1523,7 @@ dataJSON = [{
   "dl": "2017-09-08",
   "goal": 10000,
   "laun": "2017-08-09 02:27:20",
-  "pled": 39,
+  "pledged": 39,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -1535,7 +1535,7 @@ dataJSON = [{
   "dl": "2012-03-31",
   "goal": 4000,
   "laun": "2012-02-15 23:42:02",
-  "pled": 4000,
+  "pledged": 4000,
   "state": "successful",
   "backers": 41,
   "country": "US"
@@ -1547,7 +1547,7 @@ dataJSON = [{
   "dl": "2013-07-19",
   "goal": 500,
   "laun": "2013-06-19 05:11:15",
-  "pled": 727,
+  "pledged": 727,
   "state": "successful",
   "backers": 24,
   "country": "US"
@@ -1559,7 +1559,7 @@ dataJSON = [{
   "dl": "2015-11-14",
   "goal": 6500,
   "laun": "2015-10-15 01:30:16",
-  "pled": 55,
+  "pledged": 55,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -1571,7 +1571,7 @@ dataJSON = [{
   "dl": "2016-01-08",
   "goal": 3000,
   "laun": "2015-12-22 23:43:28",
-  "pled": 3093,
+  "pledged": 3093,
   "state": "successful",
   "backers": 36,
   "country": "NL"
@@ -1583,7 +1583,7 @@ dataJSON = [{
   "dl": "2013-09-29",
   "goal": 12000,
   "laun": "2013-09-03 21:44:42",
-  "pled": 12455,
+  "pledged": 12455,
   "state": "successful",
   "backers": 114,
   "country": "US"
@@ -1595,7 +1595,7 @@ dataJSON = [{
   "dl": "2011-07-30",
   "goal": 3000,
   "laun": "2011-06-25 15:34:24",
-  "pled": 3079,
+  "pledged": 3079,
   "state": "successful",
   "backers": 16,
   "country": "US"
@@ -1607,7 +1607,7 @@ dataJSON = [{
   "dl": "2014-09-15",
   "goal": 1000,
   "laun": "2014-08-29 16:17:46",
-  "pled": 451,
+  "pledged": 451,
   "state": "failed",
   "backers": 10,
   "country": "CA"
@@ -1619,7 +1619,7 @@ dataJSON = [{
   "dl": "2011-07-01",
   "goal": 7000,
   "laun": "2011-04-28 22:03:35",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -1631,7 +1631,7 @@ dataJSON = [{
   "dl": "2014-11-23",
   "goal": 400,
   "laun": "2014-11-18 21:24:09",
-  "pled": 401,
+  "pledged": 401,
   "state": "successful",
   "backers": 7,
   "country": "US"
@@ -1643,7 +1643,7 @@ dataJSON = [{
   "dl": "2013-11-21",
   "goal": 90000,
   "laun": "2013-10-22 06:28:34",
-  "pled": 96,
+  "pledged": 96,
   "state": "canceled",
   "backers": 6,
   "country": "US"
@@ -1655,7 +1655,7 @@ dataJSON = [{
   "dl": "2014-02-23",
   "goal": 15000,
   "laun": "2014-01-24 22:35:04",
-  "pled": 511,
+  "pledged": 511,
   "state": "failed",
   "backers": 7,
   "country": "US"
@@ -1667,7 +1667,7 @@ dataJSON = [{
   "dl": "2012-10-27",
   "goal": 3000,
   "laun": "2012-09-27 19:05:37",
-  "pled": 274,
+  "pledged": 274,
   "state": "failed",
   "backers": 7,
   "country": "US"
@@ -1679,7 +1679,7 @@ dataJSON = [{
   "dl": "2011-05-17",
   "goal": 3000,
   "laun": "2011-03-17 03:46:10",
-  "pled": 5,
+  "pledged": 5,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -1691,7 +1691,7 @@ dataJSON = [{
   "dl": "2012-03-26",
   "goal": 2500,
   "laun": "2012-02-25 23:13:35",
-  "pled": 372,
+  "pledged": 372,
   "state": "failed",
   "backers": 20,
   "country": "US"
@@ -1703,7 +1703,7 @@ dataJSON = [{
   "dl": "2013-08-26",
   "goal": 6000,
   "laun": "2013-07-09 16:10:13",
-  "pled": 275368.09,
+  "pledged": 275368.09,
   "state": "successful",
   "backers": 6791,
   "country": "US"
@@ -1715,7 +1715,7 @@ dataJSON = [{
   "dl": "2016-10-23",
   "goal": 350,
   "laun": "2016-09-21 18:41:14",
-  "pled": 175,
+  "pledged": 175,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -1727,7 +1727,7 @@ dataJSON = [{
   "dl": "2011-05-25",
   "goal": 1650,
   "laun": "2011-04-25 21:51:45",
-  "pled": 2395,
+  "pledged": 2395,
   "state": "successful",
   "backers": 41,
   "country": "US"
@@ -1739,7 +1739,7 @@ dataJSON = [{
   "dl": "2016-08-15",
   "goal": 20000,
   "laun": "2016-07-26 05:19:03",
-  "pled": 8304,
+  "pledged": 8304,
   "state": "failed",
   "backers": 54,
   "country": "US"
@@ -1751,7 +1751,7 @@ dataJSON = [{
   "dl": "2016-01-24",
   "goal": 80000,
   "laun": "2015-11-25 21:48:27",
-  "pled": 105,
+  "pledged": 105,
   "state": "canceled",
   "backers": 3,
   "country": "US"
@@ -1763,7 +1763,7 @@ dataJSON = [{
   "dl": "2015-01-31",
   "goal": 30000,
   "laun": "2014-12-15 18:00:21",
-  "pled": 30150,
+  "pledged": 30150,
   "state": "successful",
   "backers": 164,
   "country": "US"
@@ -1775,7 +1775,7 @@ dataJSON = [{
   "dl": "2016-01-11",
   "goal": 24000,
   "laun": "2015-12-12 04:51:50",
-  "pled": 664,
+  "pledged": 664,
   "state": "failed",
   "backers": 11,
   "country": "US"
@@ -1787,7 +1787,7 @@ dataJSON = [{
   "dl": "2011-06-20",
   "goal": 2000,
   "laun": "2011-05-21 02:15:27",
-  "pled": 45,
+  "pledged": 45,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -1799,7 +1799,7 @@ dataJSON = [{
   "dl": "2015-04-22",
   "goal": 2000,
   "laun": "2015-03-23 00:57:36",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 1,
   "country": "NZ"
@@ -1811,7 +1811,7 @@ dataJSON = [{
   "dl": "2012-10-09",
   "goal": 45000,
   "laun": "2012-08-22 02:55:50",
-  "pled": 1105,
+  "pledged": 1105,
   "state": "failed",
   "backers": 21,
   "country": "US"
@@ -1823,7 +1823,7 @@ dataJSON = [{
   "dl": "2014-10-21",
   "goal": 264698,
   "laun": "2014-08-23 16:20:24",
-  "pled": 5300,
+  "pledged": 5300,
   "state": "failed",
   "backers": 13,
   "country": "US"
@@ -1835,7 +1835,7 @@ dataJSON = [{
   "dl": "2017-06-24",
   "goal": 15000,
   "laun": "2017-05-21 22:47:29",
-  "pled": 7646,
+  "pledged": 7646,
   "state": "failed",
   "backers": 89,
   "country": "US"
@@ -1847,7 +1847,7 @@ dataJSON = [{
   "dl": "2016-09-24",
   "goal": 4500,
   "laun": "2016-08-25 11:06:13",
-  "pled": 1108,
+  "pledged": 1108,
   "state": "failed",
   "backers": 24,
   "country": "AU"
@@ -1859,7 +1859,7 @@ dataJSON = [{
   "dl": "2014-12-22",
   "goal": 1500,
   "laun": "2014-11-21 06:39:03",
-  "pled": 1755,
+  "pledged": 1755,
   "state": "undefined",
   "backers": 0,
   "country": "N,0"
@@ -1871,7 +1871,7 @@ dataJSON = [{
   "dl": "2012-10-20",
   "goal": 5000,
   "laun": "2012-09-25 23:02:42",
-  "pled": 5825,
+  "pledged": 5825,
   "state": "successful",
   "backers": 64,
   "country": "US"
@@ -1883,7 +1883,7 @@ dataJSON = [{
   "dl": "2017-02-09",
   "goal": 25000,
   "laun": "2017-01-20 18:50:45",
-  "pled": 15234,
+  "pledged": 15234,
   "state": "failed",
   "backers": 264,
   "country": "US"
@@ -1895,7 +1895,7 @@ dataJSON = [{
   "dl": "2011-12-31",
   "goal": 3500,
   "laun": "2011-11-28 19:07:03",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -1907,7 +1907,7 @@ dataJSON = [{
   "dl": "2012-07-18",
   "goal": 2500,
   "laun": "2012-06-18 16:02:39",
-  "pled": 25,
+  "pledged": 25,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -1919,7 +1919,7 @@ dataJSON = [{
   "dl": "2015-09-16",
   "goal": 50000,
   "laun": "2015-08-17 09:27:55",
-  "pled": 1125,
+  "pledged": 1125,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -1931,7 +1931,7 @@ dataJSON = [{
   "dl": "2015-10-30",
   "goal": 10250,
   "laun": "2015-09-30 06:25:32",
-  "pled": 9069,
+  "pledged": 9069,
   "state": "canceled",
   "backers": 139,
   "country": "US"
@@ -1943,7 +1943,7 @@ dataJSON = [{
   "dl": "2016-09-20",
   "goal": 4500,
   "laun": "2016-08-22 23:36:15",
-  "pled": 1710,
+  "pledged": 1710,
   "state": "failed",
   "backers": 22,
   "country": "US"
@@ -1955,7 +1955,7 @@ dataJSON = [{
   "dl": "2013-05-14",
   "goal": 1500,
   "laun": "2013-04-18 17:38:17",
-  "pled": 1587,
+  "pledged": 1587,
   "state": "successful",
   "backers": 37,
   "country": "US"
@@ -1967,7 +1967,7 @@ dataJSON = [{
   "dl": "2014-10-24",
   "goal": 30000,
   "laun": "2014-09-24 23:17:47",
-  "pled": 221,
+  "pledged": 221,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -1979,7 +1979,7 @@ dataJSON = [{
   "dl": "2013-04-27",
   "goal": 2000,
   "laun": "2013-03-28 18:32:57",
-  "pled": 2137,
+  "pledged": 2137,
   "state": "successful",
   "backers": 65,
   "country": "US"
@@ -1991,7 +1991,7 @@ dataJSON = [{
   "dl": "2017-03-23",
   "goal": 4000,
   "laun": "2017-02-21 06:00:54",
-  "pled": 7039,
+  "pledged": 7039,
   "state": "successful",
   "backers": 184,
   "country": "US"
@@ -2003,7 +2003,7 @@ dataJSON = [{
   "dl": "2017-12-08",
   "goal": 3000,
   "laun": "2017-11-08 18:06:33",
-  "pled": 90,
+  "pledged": 90,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -2015,7 +2015,7 @@ dataJSON = [{
   "dl": "2016-10-16",
   "goal": 4600,
   "laun": "2016-10-03 19:36:48",
-  "pled": 4683,
+  "pledged": 4683,
   "state": "successful",
   "backers": 63,
   "country": "US"
@@ -2027,7 +2027,7 @@ dataJSON = [{
   "dl": "2015-07-17",
   "goal": 22500,
   "laun": "2015-06-17 20:39:55",
-  "pled": 25,
+  "pledged": 25,
   "state": "canceled",
   "backers": 1,
   "country": "US"
@@ -2039,7 +2039,7 @@ dataJSON = [{
   "dl": "2015-05-16",
   "goal": 100000,
   "laun": "2015-04-16 21:00:52",
-  "pled": 8695,
+  "pledged": 8695,
   "state": "failed",
   "backers": 74,
   "country": "US"
@@ -2051,7 +2051,7 @@ dataJSON = [{
   "dl": "2017-04-17",
   "goal": 380,
   "laun": "2017-04-03 21:26:57",
-  "pled": 391.27,
+  "pledged": 391.27,
   "state": "successful",
   "backers": 12,
   "country": "GB"
@@ -2063,7 +2063,7 @@ dataJSON = [{
   "dl": "2015-03-09",
   "goal": 15000,
   "laun": "2015-01-23 21:58:29",
-  "pled": 6227,
+  "pledged": 6227,
   "state": "failed",
   "backers": 17,
   "country": "US"
@@ -2075,7 +2075,7 @@ dataJSON = [{
   "dl": "2012-04-30",
   "goal": 10000,
   "laun": "2012-03-16 06:03:38",
-  "pled": 1575,
+  "pledged": 1575,
   "state": "failed",
   "backers": 16,
   "country": "US"
@@ -2087,7 +2087,7 @@ dataJSON = [{
   "dl": "2014-09-25",
   "goal": 2000,
   "laun": "2014-08-26 01:46:46",
-  "pled": 1158,
+  "pledged": 1158,
   "state": "failed",
   "backers": 44,
   "country": "US"
@@ -2099,7 +2099,7 @@ dataJSON = [{
   "dl": "2015-12-26",
   "goal": 13000,
   "laun": "2015-10-27 18:53:03",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "FR"
@@ -2111,7 +2111,7 @@ dataJSON = [{
   "dl": "2014-12-06",
   "goal": 19000,
   "laun": "2014-11-16 10:49:31",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "GB"
@@ -2123,7 +2123,7 @@ dataJSON = [{
   "dl": "2014-09-05",
   "goal": 5000,
   "laun": "2014-07-25 04:55:42",
-  "pled": 426.69,
+  "pledged": 426.69,
   "state": "failed",
   "backers": 15,
   "country": "US"
@@ -2135,7 +2135,7 @@ dataJSON = [{
   "dl": "2017-03-16",
   "goal": 5000,
   "laun": "2017-02-14 18:53:45",
-  "pled": 5724,
+  "pledged": 5724,
   "state": "successful",
   "backers": 222,
   "country": "US"
@@ -2147,7 +2147,7 @@ dataJSON = [{
   "dl": "2015-05-26",
   "goal": 60000,
   "laun": "2015-03-27 21:19:39",
-  "pled": 200,
+  "pledged": 200,
   "state": "canceled",
   "backers": 1,
   "country": "US"
@@ -2159,7 +2159,7 @@ dataJSON = [{
   "dl": "2014-12-28",
   "goal": 25000,
   "laun": "2014-11-28 01:37:29",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -2171,7 +2171,7 @@ dataJSON = [{
   "dl": "2015-04-24",
   "goal": 3500,
   "laun": "2015-03-25 02:44:09",
-  "pled": 1,
+  "pledged": 1,
   "state": "undefined",
   "backers": 0,
   "country": "N,0"
@@ -2183,7 +2183,7 @@ dataJSON = [{
   "dl": "2015-06-01",
   "goal": 3000,
   "laun": "2015-04-02 12:51:16",
-  "pled": 0,
+  "pledged": 0,
   "state": "undefined",
   "backers": 0,
   "country": "N,0"
@@ -2195,7 +2195,7 @@ dataJSON = [{
   "dl": "2014-03-16",
   "goal": 7000,
   "laun": "2014-02-14 05:18:18",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -2207,7 +2207,7 @@ dataJSON = [{
   "dl": "2016-09-22",
   "goal": 200,
   "laun": "2016-09-08 04:12:32",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -2219,7 +2219,7 @@ dataJSON = [{
   "dl": "2015-12-03",
   "goal": 2700,
   "laun": "2015-11-03 18:05:15",
-  "pled": 4428,
+  "pledged": 4428,
   "state": "successful",
   "backers": 63,
   "country": "IE"
@@ -2231,7 +2231,7 @@ dataJSON = [{
   "dl": "2016-05-27",
   "goal": 5000,
   "laun": "2016-05-04 20:48:34",
-  "pled": 5,
+  "pledged": 5,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -2243,7 +2243,7 @@ dataJSON = [{
   "dl": "2013-09-28",
   "goal": 1000,
   "laun": "2013-08-19 20:10:58",
-  "pled": 1433,
+  "pledged": 1433,
   "state": "successful",
   "backers": 34,
   "country": "US"
@@ -2255,7 +2255,7 @@ dataJSON = [{
   "dl": "2014-09-13",
   "goal": 15000,
   "laun": "2014-07-15 15:18:04",
-  "pled": 150,
+  "pledged": 150,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -2267,7 +2267,7 @@ dataJSON = [{
   "dl": "2014-06-02",
   "goal": 250000,
   "laun": "2014-04-18 20:37:07",
-  "pled": 25.13,
+  "pledged": 25.13,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -2279,7 +2279,7 @@ dataJSON = [{
   "dl": "2014-10-19",
   "goal": 10000,
   "laun": "2014-09-19 17:03:57",
-  "pled": 12231,
+  "pledged": 12231,
   "state": "successful",
   "backers": 151,
   "country": "CA"
@@ -2291,7 +2291,7 @@ dataJSON = [{
   "dl": "2011-09-15",
   "goal": 5000,
   "laun": "2011-08-16 16:23:59",
-  "pled": 5458,
+  "pledged": 5458,
   "state": "successful",
   "backers": 71,
   "country": "US"
@@ -2303,7 +2303,7 @@ dataJSON = [{
   "dl": "2015-05-16",
   "goal": 1000,
   "laun": "2015-04-16 00:25:22",
-  "pled": 5,
+  "pledged": 5,
   "state": "failed",
   "backers": 1,
   "country": "NZ"
@@ -2315,7 +2315,7 @@ dataJSON = [{
   "dl": "2016-08-29",
   "goal": 10000,
   "laun": "2016-07-30 22:44:41",
-  "pled": 9,
+  "pledged": 9,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -2327,7 +2327,7 @@ dataJSON = [{
   "dl": "2016-05-06",
   "goal": 9000,
   "laun": "2016-03-07 04:17:33",
-  "pled": 2,
+  "pledged": 2,
   "state": "failed",
   "backers": 0,
   "country": "N,0"
@@ -2339,7 +2339,7 @@ dataJSON = [{
   "dl": "2017-04-20",
   "goal": 9000,
   "laun": "2017-03-20 22:39:02",
-  "pled": 12100,
+  "pledged": 12100,
   "state": "successful",
   "backers": 112,
   "country": "US"
@@ -2351,7 +2351,7 @@ dataJSON = [{
   "dl": "2014-08-01",
   "goal": 2000,
   "laun": "2014-07-09 17:27:47",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -2363,7 +2363,7 @@ dataJSON = [{
   "dl": "2017-07-10",
   "goal": 175000,
   "laun": "2017-06-20 18:31:29",
-  "pled": 23,
+  "pledged": 23,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -2375,7 +2375,7 @@ dataJSON = [{
   "dl": "2014-12-30",
   "goal": 2500,
   "laun": "2014-11-30 16:35:26",
-  "pled": 2690,
+  "pledged": 2690,
   "state": "successful",
   "backers": 37,
   "country": "US"
@@ -2387,7 +2387,7 @@ dataJSON = [{
   "dl": "2015-03-12",
   "goal": 10000,
   "laun": "2015-02-09 15:01:41",
-  "pled": 6847,
+  "pledged": 6847,
   "state": "failed",
   "backers": 240,
   "country": "US"
@@ -2399,7 +2399,7 @@ dataJSON = [{
   "dl": "2011-09-23",
   "goal": 6000,
   "laun": "2011-08-09 06:57:52",
-  "pled": 400,
+  "pledged": 400,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -2411,7 +2411,7 @@ dataJSON = [{
   "dl": "2014-04-11",
   "goal": 5000,
   "laun": "2014-03-12 20:38:51",
-  "pled": 40,
+  "pledged": 40,
   "state": "failed",
   "backers": 2,
   "country": "GB"
@@ -2423,7 +2423,7 @@ dataJSON = [{
   "dl": "2017-12-23",
   "goal": 11000,
   "laun": "2017-11-23 01:03:19",
-  "pled": 11133,
+  "pledged": 11133,
   "state": "successful",
   "backers": 29,
   "country": "US"
@@ -2435,7 +2435,7 @@ dataJSON = [{
   "dl": "2015-08-25",
   "goal": 300,
   "laun": "2015-07-27 15:09:02",
-  "pled": 155,
+  "pledged": 155,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -2447,7 +2447,7 @@ dataJSON = [{
   "dl": "2015-02-20",
   "goal": 20000,
   "laun": "2015-01-18 01:01:13",
-  "pled": 10222,
+  "pledged": 10222,
   "state": "failed",
   "backers": 185,
   "country": "US"
@@ -2459,7 +2459,7 @@ dataJSON = [{
   "dl": "2013-09-23",
   "goal": 9000,
   "laun": "2013-08-24 11:04:46",
-  "pled": 10322,
+  "pledged": 10322,
   "state": "successful",
   "backers": 79,
   "country": "GB"
@@ -2471,7 +2471,7 @@ dataJSON = [{
   "dl": "2012-08-18",
   "goal": 3300,
   "laun": "2012-07-18 01:15:35",
-  "pled": 3395,
+  "pledged": 3395,
   "state": "successful",
   "backers": 62,
   "country": "US"
@@ -2483,7 +2483,7 @@ dataJSON = [{
   "dl": "2014-05-21",
   "goal": 40000,
   "laun": "2014-04-21 17:12:26",
-  "pled": 2800,
+  "pledged": 2800,
   "state": "failed",
   "backers": 12,
   "country": "US"
@@ -2495,7 +2495,7 @@ dataJSON = [{
   "dl": "2015-12-21",
   "goal": 15000,
   "laun": "2015-11-20 04:18:50",
-  "pled": 3287,
+  "pledged": 3287,
   "state": "failed",
   "backers": 66,
   "country": "US"
@@ -2507,7 +2507,7 @@ dataJSON = [{
   "dl": "2017-10-14",
   "goal": 500,
   "laun": "2017-09-13 13:28:44",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "ES"
@@ -2519,7 +2519,7 @@ dataJSON = [{
   "dl": "2015-09-18",
   "goal": 15000,
   "laun": "2015-08-19 20:45:33",
-  "pled": 26,
+  "pledged": 26,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -2531,7 +2531,7 @@ dataJSON = [{
   "dl": "2016-01-21",
   "goal": 15000,
   "laun": "2015-12-22 17:59:27",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -2543,7 +2543,7 @@ dataJSON = [{
   "dl": "2014-07-28",
   "goal": 15,
   "laun": "2014-07-13 16:50:11",
-  "pled": 5,
+  "pledged": 5,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -2555,7 +2555,7 @@ dataJSON = [{
   "dl": "2017-11-29",
   "goal": 2500,
   "laun": "2017-10-25 19:29:05",
-  "pled": 2829,
+  "pledged": 2829,
   "state": "successful",
   "backers": 16,
   "country": "US"
@@ -2567,7 +2567,7 @@ dataJSON = [{
   "dl": "2016-02-17",
   "goal": 3000,
   "laun": "2016-01-10 21:37:18",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -2579,7 +2579,7 @@ dataJSON = [{
   "dl": "2011-12-08",
   "goal": 29000,
   "laun": "2011-11-08 03:31:40",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -2591,7 +2591,7 @@ dataJSON = [{
   "dl": "2015-06-05",
   "goal": 10000,
   "laun": "2015-05-06 20:23:44",
-  "pled": 510,
+  "pledged": 510,
   "state": "failed",
   "backers": 15,
   "country": "US"
@@ -2603,7 +2603,7 @@ dataJSON = [{
   "dl": "2014-09-16",
   "goal": 18,
   "laun": "2014-08-11 02:53:08",
-  "pled": 23,
+  "pledged": 23,
   "state": "successful",
   "backers": 2,
   "country": "US"
@@ -2615,7 +2615,7 @@ dataJSON = [{
   "dl": "2010-04-03",
   "goal": 2100,
   "laun": "2010-03-01 19:14:35",
-  "pled": 200,
+  "pledged": 200,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -2627,7 +2627,7 @@ dataJSON = [{
   "dl": "2015-06-05",
   "goal": 100,
   "laun": "2015-04-06 21:40:57",
-  "pled": 3,
+  "pledged": 3,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -2639,7 +2639,7 @@ dataJSON = [{
   "dl": "2013-02-14",
   "goal": 700,
   "laun": "2013-01-15 22:20:58",
-  "pled": 284,
+  "pledged": 284,
   "state": "failed",
   "backers": 21,
   "country": "GB"
@@ -2651,7 +2651,7 @@ dataJSON = [{
   "dl": "2014-08-14",
   "goal": 15000,
   "laun": "2014-07-15 20:35:03",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 2,
   "country": "CA"
@@ -2663,7 +2663,7 @@ dataJSON = [{
   "dl": "2017-10-26",
   "goal": 35000,
   "laun": "2017-09-14 08:06:38",
-  "pled": 64929,
+  "pledged": 64929,
   "state": "successful",
   "backers": 670,
   "country": "US"
@@ -2675,7 +2675,7 @@ dataJSON = [{
   "dl": "2012-10-10",
   "goal": 5000,
   "laun": "2012-09-10 05:12:54",
-  "pled": 100,
+  "pledged": 100,
   "state": "canceled",
   "backers": 4,
   "country": "US"
@@ -2687,7 +2687,7 @@ dataJSON = [{
   "dl": "2016-01-20",
   "goal": 15000,
   "laun": "2015-12-21 00:51:41",
-  "pled": 3050,
+  "pledged": 3050,
   "state": "failed",
   "backers": 75,
   "country": "US"
@@ -2699,7 +2699,7 @@ dataJSON = [{
   "dl": "2016-04-11",
   "goal": 3000,
   "laun": "2016-03-22 20:03:25",
-  "pled": 361,
+  "pledged": 361,
   "state": "failed",
   "backers": 56,
   "country": "DE"
@@ -2711,7 +2711,7 @@ dataJSON = [{
   "dl": "2012-04-26",
   "goal": 5000,
   "laun": "2012-04-11 16:52:54",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -2723,7 +2723,7 @@ dataJSON = [{
   "dl": "2015-07-19",
   "goal": 15000,
   "laun": "2015-06-19 00:07:22",
-  "pled": 3,
+  "pledged": 3,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -2735,7 +2735,7 @@ dataJSON = [{
   "dl": "2010-11-14",
   "goal": 1000,
   "laun": "2010-10-25 23:37:40",
-  "pled": 200,
+  "pledged": 200,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -2747,7 +2747,7 @@ dataJSON = [{
   "dl": "2015-11-05",
   "goal": 50000,
   "laun": "2015-10-06 16:39:27",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -2759,7 +2759,7 @@ dataJSON = [{
   "dl": "2018-01-12",
   "goal": 20000,
   "laun": "2017-12-13 23:04:07",
-  "pled": 130,
+  "pledged": 130,
   "state": "live",
   "backers": 4,
   "country": "GB"
@@ -2771,7 +2771,7 @@ dataJSON = [{
   "dl": "2014-03-31",
   "goal": 3000,
   "laun": "2014-01-30 21:58:32",
-  "pled": 3410,
+  "pledged": 3410,
   "state": "successful",
   "backers": 58,
   "country": "US"
@@ -2783,7 +2783,7 @@ dataJSON = [{
   "dl": "2015-02-07",
   "goal": 2500,
   "laun": "2015-01-08 11:56:25",
-  "pled": 2732,
+  "pledged": 2732,
   "state": "successful",
   "backers": 94,
   "country": "GB"
@@ -2795,7 +2795,7 @@ dataJSON = [{
   "dl": "2012-01-04",
   "goal": 2500,
   "laun": "2011-12-05 03:54:26",
-  "pled": 1576,
+  "pledged": 1576,
   "state": "failed",
   "backers": 29,
   "country": "US"
@@ -2807,7 +2807,7 @@ dataJSON = [{
   "dl": "2013-04-21",
   "goal": 250,
   "laun": "2013-04-01 23:23:28",
-  "pled": 97,
+  "pledged": 97,
   "state": "failed",
   "backers": 9,
   "country": "US"
@@ -2819,7 +2819,7 @@ dataJSON = [{
   "dl": "2012-12-08",
   "goal": 3500,
   "laun": "2012-11-08 20:57:41",
-  "pled": 3531,
+  "pledged": 3531,
   "state": "successful",
   "backers": 36,
   "country": "US"
@@ -2831,7 +2831,7 @@ dataJSON = [{
   "dl": "2016-08-01",
   "goal": 250,
   "laun": "2016-07-20 17:01:43",
-  "pled": 270,
+  "pledged": 270,
   "state": "successful",
   "backers": 7,
   "country": "GB"
@@ -2843,7 +2843,7 @@ dataJSON = [{
   "dl": "2011-08-24",
   "goal": 3500,
   "laun": "2011-05-26 08:01:44",
-  "pled": 435,
+  "pledged": 435,
   "state": "failed",
   "backers": 8,
   "country": "US"
@@ -2855,7 +2855,7 @@ dataJSON = [{
   "dl": "2013-03-24",
   "goal": 2500,
   "laun": "2013-01-23 15:56:10",
-  "pled": 2669,
+  "pledged": 2669,
   "state": "successful",
   "backers": 38,
   "country": "US"
@@ -2867,7 +2867,7 @@ dataJSON = [{
   "dl": "2014-04-14",
   "goal": 12000,
   "laun": "2014-03-05 15:27:06",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "CA"
@@ -2879,7 +2879,7 @@ dataJSON = [{
   "dl": "2017-05-13",
   "goal": 800,
   "laun": "2017-05-05 00:27:02",
-  "pled": 1300,
+  "pledged": 1300,
   "state": "successful",
   "backers": 21,
   "country": "US"
@@ -2891,7 +2891,7 @@ dataJSON = [{
   "dl": "2015-12-31",
   "goal": 5000,
   "laun": "2015-12-01 15:58:32",
-  "pled": 123,
+  "pledged": 123,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -2903,7 +2903,7 @@ dataJSON = [{
   "dl": "2012-04-21",
   "goal": 6000,
   "laun": "2012-03-22 14:33:27",
-  "pled": 6010,
+  "pledged": 6010,
   "state": "successful",
   "backers": 87,
   "country": "US"
@@ -2915,7 +2915,7 @@ dataJSON = [{
   "dl": "2014-09-29",
   "goal": 2500,
   "laun": "2014-08-30 06:13:59",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -2927,7 +2927,7 @@ dataJSON = [{
   "dl": "2014-08-12",
   "goal": 11204,
   "laun": "2014-07-12 14:51:54",
-  "pled": 576,
+  "pledged": 576,
   "state": "failed",
   "backers": 13,
   "country": "US"
@@ -2939,7 +2939,7 @@ dataJSON = [{
   "dl": "2017-05-25",
   "goal": 3000,
   "laun": "2017-04-25 11:26:57",
-  "pled": 535,
+  "pledged": 535,
   "state": "failed",
   "backers": 12,
   "country": "NL"
@@ -2951,7 +2951,7 @@ dataJSON = [{
   "dl": "2011-07-25",
   "goal": 16830.41,
   "laun": "2011-06-20 08:00:18",
-  "pled": 561,
+  "pledged": 561,
   "state": "failed",
   "backers": 12,
   "country": "US"
@@ -2963,7 +2963,7 @@ dataJSON = [{
   "dl": "2015-04-07",
   "goal": 1000,
   "laun": "2015-02-16 15:38:33",
-  "pled": 86,
+  "pledged": 86,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -2975,7 +2975,7 @@ dataJSON = [{
   "dl": "2014-09-06",
   "goal": 2500,
   "laun": "2014-08-07 03:10:21",
-  "pled": 2710.5,
+  "pledged": 2710.5,
   "state": "successful",
   "backers": 64,
   "country": "US"
@@ -2987,7 +2987,7 @@ dataJSON = [{
   "dl": "2014-05-15",
   "goal": 125000,
   "laun": "2014-04-14 15:45:45",
-  "pled": 20143,
+  "pledged": 20143,
   "state": "failed",
   "backers": 496,
   "country": "US"
@@ -2999,7 +2999,7 @@ dataJSON = [{
   "dl": "2016-10-04",
   "goal": 65000,
   "laun": "2016-09-03 01:49:25",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "IT"
@@ -3011,7 +3011,7 @@ dataJSON = [{
   "dl": "2017-08-02",
   "goal": 25000,
   "laun": "2017-07-03 22:59:00",
-  "pled": 25325,
+  "pledged": 25325,
   "state": "successful",
   "backers": 214,
   "country": "US"
@@ -3023,7 +3023,7 @@ dataJSON = [{
   "dl": "2015-07-23",
   "goal": 6000,
   "laun": "2015-06-23 11:33:14",
-  "pled": 6689,
+  "pledged": 6689,
   "state": "successful",
   "backers": 45,
   "country": "GB"
@@ -3035,7 +3035,7 @@ dataJSON = [{
   "dl": "2015-01-11",
   "goal": 12000,
   "laun": "2014-12-04 17:50:08",
-  "pled": 12778,
+  "pledged": 12778,
   "state": "successful",
   "backers": 204,
   "country": "US"
@@ -3047,7 +3047,7 @@ dataJSON = [{
   "dl": "2014-07-22",
   "goal": 20000,
   "laun": "2014-07-15 07:45:52",
-  "pled": 30,
+  "pledged": 30,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -3059,7 +3059,7 @@ dataJSON = [{
   "dl": "2012-03-20",
   "goal": 10000,
   "laun": "2012-02-04 21:40:33",
-  "pled": 10687.06,
+  "pledged": 10687.06,
   "state": "successful",
   "backers": 176,
   "country": "US"
@@ -3071,7 +3071,7 @@ dataJSON = [{
   "dl": "2016-06-11",
   "goal": 2500,
   "laun": "2016-05-31 19:25:52",
-  "pled": 2550.27,
+  "pledged": 2550.27,
   "state": "successful",
   "backers": 13,
   "country": "US"
@@ -3083,7 +3083,7 @@ dataJSON = [{
   "dl": "2011-11-12",
   "goal": 7800,
   "laun": "2011-10-18 00:43:31",
-  "pled": 254,
+  "pledged": 254,
   "state": "failed",
   "backers": 11,
   "country": "US"
@@ -3095,7 +3095,7 @@ dataJSON = [{
   "dl": "2015-05-01",
   "goal": 100000,
   "laun": "2015-04-01 02:23:08",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -3107,7 +3107,7 @@ dataJSON = [{
   "dl": "2014-01-15",
   "goal": 50000,
   "laun": "2013-12-04 17:14:31",
-  "pled": 1144,
+  "pledged": 1144,
   "state": "canceled",
   "backers": 15,
   "country": "CA"
@@ -3119,7 +3119,7 @@ dataJSON = [{
   "dl": "2011-09-21",
   "goal": 1000,
   "laun": "2011-08-22 21:18:32",
-  "pled": 252,
+  "pledged": 252,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -3131,7 +3131,7 @@ dataJSON = [{
   "dl": "2012-08-01",
   "goal": 1575,
   "laun": "2012-07-10 06:00:40",
-  "pled": 2004,
+  "pledged": 2004,
   "state": "successful",
   "backers": 29,
   "country": "US"
@@ -3143,7 +3143,7 @@ dataJSON = [{
   "dl": "2012-11-17",
   "goal": 2000,
   "laun": "2012-10-17 03:30:18",
-  "pled": 2171,
+  "pledged": 2171,
   "state": "successful",
   "backers": 51,
   "country": "US"
@@ -3155,7 +3155,7 @@ dataJSON = [{
   "dl": "2013-10-11",
   "goal": 75000,
   "laun": "2013-09-10 15:32:22",
-  "pled": 255669.5,
+  "pledged": 255669.5,
   "state": "successful",
   "backers": 1090,
   "country": "US"
@@ -3167,7 +3167,7 @@ dataJSON = [{
   "dl": "2016-11-01",
   "goal": 5000,
   "laun": "2016-09-13 22:05:56",
-  "pled": 6364,
+  "pledged": 6364,
   "state": "successful",
   "backers": 72,
   "country": "AT"
@@ -3179,7 +3179,7 @@ dataJSON = [{
   "dl": "2011-04-30",
   "goal": 2900,
   "laun": "2011-03-25 19:51:30",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -3191,7 +3191,7 @@ dataJSON = [{
   "dl": "2014-03-24",
   "goal": 750,
   "laun": "2014-01-27 21:38:48",
-  "pled": 53,
+  "pledged": 53,
   "state": "failed",
   "backers": 3,
   "country": "GB"
@@ -3203,7 +3203,7 @@ dataJSON = [{
   "dl": "2009-10-24",
   "goal": 5000,
   "laun": "2009-09-28 18:34:27",
-  "pled": 5117,
+  "pledged": 5117,
   "state": "successful",
   "backers": 32,
   "country": "US"
@@ -3215,7 +3215,7 @@ dataJSON = [{
   "dl": "2012-12-24",
   "goal": 1300,
   "laun": "2012-11-09 22:07:41",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "GB"
@@ -3227,7 +3227,7 @@ dataJSON = [{
   "dl": "2012-07-24",
   "goal": 10000,
   "laun": "2012-06-26 22:15:19",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -3239,7 +3239,7 @@ dataJSON = [{
   "dl": "2013-07-18",
   "goal": 15000,
   "laun": "2013-06-18 01:00:26",
-  "pled": 1533,
+  "pledged": 1533,
   "state": "failed",
   "backers": 36,
   "country": "US"
@@ -3251,7 +3251,7 @@ dataJSON = [{
   "dl": "2014-05-17",
   "goal": 50000,
   "laun": "2014-04-14 14:58:48",
-  "pled": 125,
+  "pledged": 125,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -3263,7 +3263,7 @@ dataJSON = [{
   "dl": "2012-09-29",
   "goal": 275000,
   "laun": "2012-08-15 13:46:54",
-  "pled": 2500,
+  "pledged": 2500,
   "state": "canceled",
   "backers": 1,
   "country": "US"
@@ -3275,7 +3275,7 @@ dataJSON = [{
   "dl": "2016-06-30",
   "goal": 20000,
   "laun": "2016-05-25 00:31:16",
-  "pled": 150,
+  "pledged": 150,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -3287,7 +3287,7 @@ dataJSON = [{
   "dl": "2017-11-30",
   "goal": 25000,
   "laun": "2017-10-16 17:00:03",
-  "pled": 100159,
+  "pledged": 100159,
   "state": "successful",
   "backers": 939,
   "country": "US"
@@ -3299,7 +3299,7 @@ dataJSON = [{
   "dl": "2017-12-10",
   "goal": 3000,
   "laun": "2017-11-10 00:21:07",
-  "pled": 65,
+  "pledged": 65,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -3311,7 +3311,7 @@ dataJSON = [{
   "dl": "2016-08-18",
   "goal": 7500,
   "laun": "2016-07-19 12:06:05",
-  "pled": 251,
+  "pledged": 251,
   "state": "canceled",
   "backers": 7,
   "country": "CA"
@@ -3323,7 +3323,7 @@ dataJSON = [{
   "dl": "2015-06-04",
   "goal": 14000,
   "laun": "2015-05-05 01:10:52",
-  "pled": 1278,
+  "pledged": 1278,
   "state": "failed",
   "backers": 66,
   "country": "US"
@@ -3335,7 +3335,7 @@ dataJSON = [{
   "dl": "2016-01-04",
   "goal": 50000,
   "laun": "2015-12-05 01:24:42",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "AU"
@@ -3347,7 +3347,7 @@ dataJSON = [{
   "dl": "2013-01-20",
   "goal": 7500,
   "laun": "2012-12-23 19:04:56",
-  "pled": 7553.01,
+  "pledged": 7553.01,
   "state": "successful",
   "backers": 58,
   "country": "US"
@@ -3359,7 +3359,7 @@ dataJSON = [{
   "dl": "2012-02-29",
   "goal": 1600,
   "laun": "2012-01-30 13:56:40",
-  "pled": 1850.11,
+  "pledged": 1850.11,
   "state": "successful",
   "backers": 38,
   "country": "US"
@@ -3371,7 +3371,7 @@ dataJSON = [{
   "dl": "2015-01-01",
   "goal": 7000,
   "laun": "2014-11-28 23:33:09",
-  "pled": 2062,
+  "pledged": 2062,
   "state": "failed",
   "backers": 50,
   "country": "US"
@@ -3383,7 +3383,7 @@ dataJSON = [{
   "dl": "2011-06-06",
   "goal": 3500,
   "laun": "2011-04-22 21:03:20",
-  "pled": 3560,
+  "pledged": 3560,
   "state": "successful",
   "backers": 40,
   "country": "US"
@@ -3395,7 +3395,7 @@ dataJSON = [{
   "dl": "2011-08-24",
   "goal": 3000,
   "laun": "2011-06-25 07:36:25",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -3407,7 +3407,7 @@ dataJSON = [{
   "dl": "2012-03-19",
   "goal": 3000,
   "laun": "2012-02-13 03:38:40",
-  "pled": 25,
+  "pledged": 25,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -3419,7 +3419,7 @@ dataJSON = [{
   "dl": "2013-12-20",
   "goal": 13000,
   "laun": "2013-11-20 14:00:55",
-  "pled": 5137.77,
+  "pledged": 5137.77,
   "state": "failed",
   "backers": 146,
   "country": "US"
@@ -3431,7 +3431,7 @@ dataJSON = [{
   "dl": "2014-08-27",
   "goal": 1000,
   "laun": "2014-07-28 01:59:21",
-  "pled": 1051,
+  "pledged": 1051,
   "state": "successful",
   "backers": 33,
   "country": "US"
@@ -3443,7 +3443,7 @@ dataJSON = [{
   "dl": "2012-04-26",
   "goal": 525,
   "laun": "2012-03-27 03:30:32",
-  "pled": 1137,
+  "pledged": 1137,
   "state": "successful",
   "backers": 34,
   "country": "US"
@@ -3455,7 +3455,7 @@ dataJSON = [{
   "dl": "2014-08-30",
   "goal": 1,
   "laun": "2014-07-31 06:32:01",
-  "pled": 26,
+  "pledged": 26,
   "state": "successful",
   "backers": 6,
   "country": "US"
@@ -3467,7 +3467,7 @@ dataJSON = [{
   "dl": "2014-06-05",
   "goal": 9500,
   "laun": "2014-05-06 07:30:15",
-  "pled": 40,
+  "pledged": 40,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -3479,7 +3479,7 @@ dataJSON = [{
   "dl": "2012-03-17",
   "goal": 2500,
   "laun": "2012-03-03 06:34:34",
-  "pled": 2880,
+  "pledged": 2880,
   "state": "successful",
   "backers": 61,
   "country": "US"
@@ -3491,7 +3491,7 @@ dataJSON = [{
   "dl": "2012-06-08",
   "goal": 21000,
   "laun": "2012-05-09 04:27:25",
-  "pled": 280,
+  "pledged": 280,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -3503,7 +3503,7 @@ dataJSON = [{
   "dl": "2010-07-20",
   "goal": 20000,
   "laun": "2010-04-21 08:42:21",
-  "pled": 3085,
+  "pledged": 3085,
   "state": "failed",
   "backers": 28,
   "country": "US"
@@ -3515,7 +3515,7 @@ dataJSON = [{
   "dl": "2012-08-02",
   "goal": 2500,
   "laun": "2012-07-23 22:29:52",
-  "pled": 2540,
+  "pledged": 2540,
   "state": "successful",
   "backers": 25,
   "country": "US"
@@ -3527,7 +3527,7 @@ dataJSON = [{
   "dl": "2017-05-30",
   "goal": 1350,
   "laun": "2017-05-02 14:43:05",
-  "pled": 2786,
+  "pledged": 2786,
   "state": "successful",
   "backers": 54,
   "country": "GB"
@@ -3539,7 +3539,7 @@ dataJSON = [{
   "dl": "2017-11-29",
   "goal": 500,
   "laun": "2017-10-30 05:11:47",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -3551,7 +3551,7 @@ dataJSON = [{
   "dl": "2016-06-17",
   "goal": 80000,
   "laun": "2016-05-18 17:06:43",
-  "pled": 53026,
+  "pledged": 53026,
   "state": "canceled",
   "backers": 116,
   "country": "DK"
@@ -3563,7 +3563,7 @@ dataJSON = [{
   "dl": "2015-05-28",
   "goal": 300,
   "laun": "2015-04-28 22:03:26",
-  "pled": 160,
+  "pledged": 160,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -3575,7 +3575,7 @@ dataJSON = [{
   "dl": "2010-07-07",
   "goal": 8500,
   "laun": "2010-04-08 19:48:59",
-  "pled": 2082,
+  "pledged": 2082,
   "state": "failed",
   "backers": 40,
   "country": "US"
@@ -3587,7 +3587,7 @@ dataJSON = [{
   "dl": "2016-07-14",
   "goal": 7000,
   "laun": "2016-06-14 07:18:11",
-  "pled": 939,
+  "pledged": 939,
   "state": "canceled",
   "backers": 30,
   "country": "US"
@@ -3599,7 +3599,7 @@ dataJSON = [{
   "dl": "2016-05-28",
   "goal": 30000,
   "laun": "2016-05-14 18:11:42",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "NO"
@@ -3611,7 +3611,7 @@ dataJSON = [{
   "dl": "2017-09-05",
   "goal": 12000,
   "laun": "2017-07-22 16:31:36",
-  "pled": 632,
+  "pledged": 632,
   "state": "failed",
   "backers": 17,
   "country": "US"
@@ -3623,7 +3623,7 @@ dataJSON = [{
   "dl": "2012-09-06",
   "goal": 6000,
   "laun": "2012-08-07 19:37:50",
-  "pled": 305,
+  "pledged": 305,
   "state": "failed",
   "backers": 8,
   "country": "US"
@@ -3635,7 +3635,7 @@ dataJSON = [{
   "dl": "2016-11-20",
   "goal": 2000,
   "laun": "2016-09-23 23:57:00",
-  "pled": 100,
+  "pledged": 100,
   "state": "failed",
   "backers": 1,
   "country": "GB"
@@ -3647,7 +3647,7 @@ dataJSON = [{
   "dl": "2012-02-28",
   "goal": 6500,
   "laun": "2012-01-24 21:09:03",
-  "pled": 6918,
+  "pledged": 6918,
   "state": "successful",
   "backers": 143,
   "country": "US"
@@ -3659,7 +3659,7 @@ dataJSON = [{
   "dl": "2018-01-14",
   "goal": 850,
   "laun": "2017-11-15 18:18:13",
-  "pled": 403,
+  "pledged": 403,
   "state": "live",
   "backers": 13,
   "country": "FR"
@@ -3671,7 +3671,7 @@ dataJSON = [{
   "dl": "2017-11-17",
   "goal": 500,
   "laun": "2017-10-18 15:48:04",
-  "pled": 545,
+  "pledged": 545,
   "state": "successful",
   "backers": 38,
   "country": "US"
@@ -3683,7 +3683,7 @@ dataJSON = [{
   "dl": "2014-10-03",
   "goal": 170000,
   "laun": "2014-08-29 22:26:04",
-  "pled": 7281.1,
+  "pledged": 7281.1,
   "state": "failed",
   "backers": 91,
   "country": "US"
@@ -3695,7 +3695,7 @@ dataJSON = [{
   "dl": "2015-06-24",
   "goal": 25000,
   "laun": "2015-05-25 01:46:42",
-  "pled": 5,
+  "pledged": 5,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -3707,7 +3707,7 @@ dataJSON = [{
   "dl": "2010-11-05",
   "goal": 700,
   "laun": "2010-09-06 02:55:20",
-  "pled": 891,
+  "pledged": 891,
   "state": "successful",
   "backers": 21,
   "country": "US"
@@ -3719,7 +3719,7 @@ dataJSON = [{
   "dl": "2011-07-30",
   "goal": 1000,
   "laun": "2011-07-22 03:57:39",
-  "pled": 1100,
+  "pledged": 1100,
   "state": "successful",
   "backers": 16,
   "country": "US"
@@ -3731,7 +3731,7 @@ dataJSON = [{
   "dl": "2016-07-11",
   "goal": 1750,
   "laun": "2016-06-27 16:43:20",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "GB"
@@ -3743,7 +3743,7 @@ dataJSON = [{
   "dl": "2016-08-01",
   "goal": 4000,
   "laun": "2016-07-10 22:00:51",
-  "pled": 8541,
+  "pledged": 8541,
   "state": "successful",
   "backers": 303,
   "country": "US"
@@ -3755,7 +3755,7 @@ dataJSON = [{
   "dl": "2014-06-11",
   "goal": 2500,
   "laun": "2014-04-15 19:37:28",
-  "pled": 3069.67,
+  "pledged": 3069.67,
   "state": "successful",
   "backers": 205,
   "country": "US"
@@ -3767,7 +3767,7 @@ dataJSON = [{
   "dl": "2013-07-12",
   "goal": 30000,
   "laun": "2013-06-12 01:21:33",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "GB"
@@ -3779,7 +3779,7 @@ dataJSON = [{
   "dl": "2016-03-08",
   "goal": 800,
   "laun": "2016-02-27 10:20:43",
-  "pled": 811,
+  "pledged": 811,
   "state": "successful",
   "backers": 3,
   "country": "US"
@@ -3791,7 +3791,7 @@ dataJSON = [{
   "dl": "2014-05-02",
   "goal": 1000,
   "laun": "2014-04-02 21:20:50",
-  "pled": 450,
+  "pledged": 450,
   "state": "failed",
   "backers": 7,
   "country": "CA"
@@ -3803,7 +3803,7 @@ dataJSON = [{
   "dl": "2017-10-26",
   "goal": 200,
   "laun": "2017-09-26 01:46:22",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -3815,7 +3815,7 @@ dataJSON = [{
   "dl": "2015-11-25",
   "goal": 750,
   "laun": "2015-10-25 23:35:19",
-  "pled": 4269,
+  "pledged": 4269,
   "state": "successful",
   "backers": 96,
   "country": "US"
@@ -3827,7 +3827,7 @@ dataJSON = [{
   "dl": "2011-06-17",
   "goal": 1000,
   "laun": "2011-05-18 00:30:54",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -3839,7 +3839,7 @@ dataJSON = [{
   "dl": "2011-12-02",
   "goal": 45000,
   "laun": "2011-10-03 17:38:04",
-  "pled": 250,
+  "pledged": 250,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -3851,7 +3851,7 @@ dataJSON = [{
   "dl": "2015-02-16",
   "goal": 2500,
   "laun": "2015-01-17 02:47:59",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "AU"
@@ -3863,7 +3863,7 @@ dataJSON = [{
   "dl": "2014-08-07",
   "goal": 10000,
   "laun": "2014-07-08 02:53:33",
-  "pled": 10884,
+  "pledged": 10884,
   "state": "successful",
   "backers": 100,
   "country": "US"
@@ -3875,7 +3875,7 @@ dataJSON = [{
   "dl": "2015-05-12",
   "goal": 600,
   "laun": "2015-04-20 17:59:30",
-  "pled": 30,
+  "pledged": 30,
   "state": "canceled",
   "backers": 1,
   "country": "GB"
@@ -3887,7 +3887,7 @@ dataJSON = [{
   "dl": "2012-10-16",
   "goal": 3000,
   "laun": "2012-10-01 20:33:43",
-  "pled": 25,
+  "pledged": 25,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -3899,7 +3899,7 @@ dataJSON = [{
   "dl": "2011-09-30",
   "goal": 10000,
   "laun": "2011-08-01 05:34:17",
-  "pled": 10657,
+  "pledged": 10657,
   "state": "successful",
   "backers": 34,
   "country": "US"
@@ -3911,7 +3911,7 @@ dataJSON = [{
   "dl": "2017-08-06",
   "goal": 1565,
   "laun": "2017-07-07 07:58:16",
-  "pled": 25,
+  "pledged": 25,
   "state": "canceled",
   "backers": 2,
   "country": "GB"
@@ -3923,7 +3923,7 @@ dataJSON = [{
   "dl": "2016-02-06",
   "goal": 1000,
   "laun": "2015-12-10 20:36:20",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -3935,7 +3935,7 @@ dataJSON = [{
   "dl": "2017-01-07",
   "goal": 50,
   "laun": "2016-12-03 16:03:51",
-  "pled": 5472,
+  "pledged": 5472,
   "state": "successful",
   "backers": 210,
   "country": "GB"
@@ -3947,7 +3947,7 @@ dataJSON = [{
   "dl": "2016-03-23",
   "goal": 2500,
   "laun": "2016-02-22 17:39:29",
-  "pled": 4486,
+  "pledged": 4486,
   "state": "successful",
   "backers": 84,
   "country": "US"
@@ -3959,7 +3959,7 @@ dataJSON = [{
   "dl": "2017-05-14",
   "goal": 500,
   "laun": "2017-04-24 22:22:14",
-  "pled": 2121,
+  "pledged": 2121,
   "state": "successful",
   "backers": 101,
   "country": "US"
@@ -3971,7 +3971,7 @@ dataJSON = [{
   "dl": "2012-11-08",
   "goal": 13500,
   "laun": "2012-10-08 13:51:10",
-  "pled": 1111,
+  "pledged": 1111,
   "state": "failed",
   "backers": 21,
   "country": "US"
@@ -3983,7 +3983,7 @@ dataJSON = [{
   "dl": "2016-01-06",
   "goal": 4000,
   "laun": "2015-12-02 22:57:47",
-  "pled": 201,
+  "pledged": 201,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -3995,7 +3995,7 @@ dataJSON = [{
   "dl": "2012-08-07",
   "goal": 2300,
   "laun": "2012-07-03 17:48:39",
-  "pled": 2419,
+  "pledged": 2419,
   "state": "successful",
   "backers": 80,
   "country": "US"
@@ -4007,7 +4007,7 @@ dataJSON = [{
   "dl": "2016-01-07",
   "goal": 300,
   "laun": "2015-12-08 20:21:00",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -4019,7 +4019,7 @@ dataJSON = [{
   "dl": "2014-10-22",
   "goal": 2000,
   "laun": "2014-09-22 16:02:35",
-  "pled": 25,
+  "pledged": 25,
   "state": "failed",
   "backers": 2,
   "country": "CA"
@@ -4031,7 +4031,7 @@ dataJSON = [{
   "dl": "2014-03-10",
   "goal": 200,
   "laun": "2014-02-10 22:32:22",
-  "pled": 260,
+  "pledged": 260,
   "state": "suspended",
   "backers": 6,
   "country": "US"
@@ -4043,7 +4043,7 @@ dataJSON = [{
   "dl": "2013-11-06",
   "goal": 3000,
   "laun": "2013-10-07 23:39:30",
-  "pled": 3001,
+  "pledged": 3001,
   "state": "successful",
   "backers": 40,
   "country": "US"
@@ -4055,7 +4055,7 @@ dataJSON = [{
   "dl": "2016-05-29",
   "goal": 8000,
   "laun": "2016-04-29 15:06:27",
-  "pled": 2554,
+  "pledged": 2554,
   "state": "failed",
   "backers": 23,
   "country": "CA"
@@ -4067,7 +4067,7 @@ dataJSON = [{
   "dl": "2014-01-15",
   "goal": 5500,
   "laun": "2013-12-14 00:03:08",
-  "pled": 240,
+  "pledged": 240,
   "state": "canceled",
   "backers": 9,
   "country": "US"
@@ -4079,7 +4079,7 @@ dataJSON = [{
   "dl": "2015-05-04",
   "goal": 20000,
   "laun": "2015-03-05 12:43:33",
-  "pled": 140,
+  "pledged": 140,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -4091,7 +4091,7 @@ dataJSON = [{
   "dl": "2013-02-04",
   "goal": 6500,
   "laun": "2013-01-10 23:17:11",
-  "pled": 6835,
+  "pledged": 6835,
   "state": "successful",
   "backers": 35,
   "country": "US"
@@ -4103,7 +4103,7 @@ dataJSON = [{
   "dl": "2017-11-25",
   "goal": 6400,
   "laun": "2017-10-05 17:50:14",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "GB"
@@ -4115,7 +4115,7 @@ dataJSON = [{
   "dl": "2011-04-07",
   "goal": 500,
   "laun": "2011-03-07 02:09:21",
-  "pled": 933.92,
+  "pledged": 933.92,
   "state": "successful",
   "backers": 45,
   "country": "US"
@@ -4127,7 +4127,7 @@ dataJSON = [{
   "dl": "2016-05-05",
   "goal": 8500,
   "laun": "2016-04-07 01:52:04",
-  "pled": 1563,
+  "pledged": 1563,
   "state": "failed",
   "backers": 36,
   "country": "CA"
@@ -4139,7 +4139,7 @@ dataJSON = [{
   "dl": "2013-08-06",
   "goal": 125000,
   "laun": "2013-07-02 02:07:56",
-  "pled": 28872.36,
+  "pledged": 28872.36,
   "state": "failed",
   "backers": 567,
   "country": "US"
@@ -4151,7 +4151,7 @@ dataJSON = [{
   "dl": "2017-09-28",
   "goal": 23000,
   "laun": "2017-08-29 05:50:55",
-  "pled": 2039,
+  "pledged": 2039,
   "state": "failed",
   "backers": 9,
   "country": "CA"
@@ -4163,7 +4163,7 @@ dataJSON = [{
   "dl": "2016-01-05",
   "goal": 8000,
   "laun": "2015-11-19 23:43:09",
-  "pled": 8025,
+  "pledged": 8025,
   "state": "undefined",
   "backers": 0,
   "country": "N,0"
@@ -4175,7 +4175,7 @@ dataJSON = [{
   "dl": "2015-05-18",
   "goal": 1000,
   "laun": "2015-04-20 23:15:46",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "NZ"
@@ -4187,7 +4187,7 @@ dataJSON = [{
   "dl": "2014-07-21",
   "goal": 5000,
   "laun": "2014-06-21 09:01:56",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 1,
   "country": "GB"
@@ -4199,7 +4199,7 @@ dataJSON = [{
   "dl": "2014-12-16",
   "goal": 15000,
   "laun": "2014-10-17 01:41:40",
-  "pled": 845,
+  "pledged": 845,
   "state": "failed",
   "backers": 18,
   "country": "US"
@@ -4211,7 +4211,7 @@ dataJSON = [{
   "dl": "2017-11-23",
   "goal": 2220,
   "laun": "2017-10-24 17:00:02",
-  "pled": 2220,
+  "pledged": 2220,
   "state": "successful",
   "backers": 38,
   "country": "US"
@@ -4223,7 +4223,7 @@ dataJSON = [{
   "dl": "2013-03-19",
   "goal": 20000,
   "laun": "2013-02-14 03:07:53",
-  "pled": 660,
+  "pledged": 660,
   "state": "failed",
   "backers": 7,
   "country": "US"
@@ -4235,7 +4235,7 @@ dataJSON = [{
   "dl": "2015-05-23",
   "goal": 6550,
   "laun": "2015-04-23 22:15:48",
-  "pled": 6623,
+  "pledged": 6623,
   "state": "successful",
   "backers": 11,
   "country": "GB"
@@ -4247,7 +4247,7 @@ dataJSON = [{
   "dl": "2015-08-08",
   "goal": 8469,
   "laun": "2015-07-08 23:31:08",
-  "pled": 263,
+  "pledged": 263,
   "state": "canceled",
   "backers": 5,
   "country": "US"
@@ -4259,7 +4259,7 @@ dataJSON = [{
   "dl": "2016-04-17",
   "goal": 5000,
   "laun": "2016-03-18 03:59:52",
-  "pled": 907,
+  "pledged": 907,
   "state": "failed",
   "backers": 29,
   "country": "GB"
@@ -4271,7 +4271,7 @@ dataJSON = [{
   "dl": "2014-05-29",
   "goal": 4500,
   "laun": "2014-05-06 04:48:01",
-  "pled": 86,
+  "pledged": 86,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -4283,7 +4283,7 @@ dataJSON = [{
   "dl": "2016-11-01",
   "goal": 90000,
   "laun": "2016-09-22 19:59:38",
-  "pled": 123,
+  "pledged": 123,
   "state": "failed",
   "backers": 5,
   "country": "GB"
@@ -4295,7 +4295,7 @@ dataJSON = [{
   "dl": "2014-08-11",
   "goal": 2000,
   "laun": "2014-07-12 21:32:07",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -4307,7 +4307,7 @@ dataJSON = [{
   "dl": "2014-11-19",
   "goal": 4000,
   "laun": "2014-10-08 22:55:34",
-  "pled": 1165,
+  "pledged": 1165,
   "state": "canceled",
   "backers": 40,
   "country": "GB"
@@ -4319,7 +4319,7 @@ dataJSON = [{
   "dl": "2016-09-04",
   "goal": 35000,
   "laun": "2016-07-06 19:55:14",
-  "pled": 7840,
+  "pledged": 7840,
   "state": "failed",
   "backers": 14,
   "country": "FR"
@@ -4331,7 +4331,7 @@ dataJSON = [{
   "dl": "2013-11-01",
   "goal": 50000,
   "laun": "2013-10-02 22:29:01",
-  "pled": 51904,
+  "pledged": 51904,
   "state": "successful",
   "backers": 218,
   "country": "US"
@@ -4343,7 +4343,7 @@ dataJSON = [{
   "dl": "2015-04-18",
   "goal": 3500,
   "laun": "2015-02-17 04:02:05",
-  "pled": 740,
+  "pledged": 740,
   "state": "failed",
   "backers": 19,
   "country": "US"
@@ -4355,7 +4355,7 @@ dataJSON = [{
   "dl": "2013-08-16",
   "goal": 12500,
   "laun": "2013-07-03 17:05:24",
-  "pled": 20,
+  "pledged": 20,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -4367,7 +4367,7 @@ dataJSON = [{
   "dl": "2013-07-10",
   "goal": 500,
   "laun": "2013-06-05 18:19:16",
-  "pled": 570,
+  "pledged": 570,
   "state": "successful",
   "backers": 12,
   "country": "US"
@@ -4379,7 +4379,7 @@ dataJSON = [{
   "dl": "2017-08-01",
   "goal": 10000,
   "laun": "2017-06-20 16:03:06",
-  "pled": 50066,
+  "pledged": 50066,
   "state": "successful",
   "backers": 528,
   "country": "US"
@@ -4391,7 +4391,7 @@ dataJSON = [{
   "dl": "2016-08-11",
   "goal": 200000,
   "laun": "2016-07-12 15:22:25",
-  "pled": 4872,
+  "pledged": 4872,
   "state": "failed",
   "backers": 43,
   "country": "US"
@@ -4403,7 +4403,7 @@ dataJSON = [{
   "dl": "2015-12-23",
   "goal": 3500,
   "laun": "2015-11-13 04:44:50",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -4415,7 +4415,7 @@ dataJSON = [{
   "dl": "2017-05-03",
   "goal": 6500,
   "laun": "2017-04-03 06:18:57",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -4427,7 +4427,7 @@ dataJSON = [{
   "dl": "2017-02-09",
   "goal": 1800,
   "laun": "2017-01-10 17:25:22",
-  "pled": 1935,
+  "pledged": 1935,
   "state": "successful",
   "backers": 17,
   "country": "US"
@@ -4439,7 +4439,7 @@ dataJSON = [{
   "dl": "2015-05-22",
   "goal": 750,
   "laun": "2015-04-07 02:35:28",
-  "pled": 85,
+  "pledged": 85,
   "state": "failed",
   "backers": 7,
   "country": "US"
@@ -4451,7 +4451,7 @@ dataJSON = [{
   "dl": "2016-01-29",
   "goal": 2000,
   "laun": "2015-11-30 23:10:46",
-  "pled": 171,
+  "pledged": 171,
   "state": "failed",
   "backers": 19,
   "country": "US"
@@ -4463,7 +4463,7 @@ dataJSON = [{
   "dl": "2016-12-25",
   "goal": 122630,
   "laun": "2016-11-15 16:48:57",
-  "pled": 19050,
+  "pledged": 19050,
   "state": "failed",
   "backers": 15,
   "country": "MX"
@@ -4475,7 +4475,7 @@ dataJSON = [{
   "dl": "2012-02-16",
   "goal": 4200,
   "laun": "2011-12-24 17:27:42",
-  "pled": 2195,
+  "pledged": 2195,
   "state": "failed",
   "backers": 147,
   "country": "US"
@@ -4487,7 +4487,7 @@ dataJSON = [{
   "dl": "2017-04-27",
   "goal": 2260,
   "laun": "2017-03-28 22:13:01",
-  "pled": 76,
+  "pledged": 76,
   "state": "failed",
   "backers": 8,
   "country": "AU"
@@ -4499,7 +4499,7 @@ dataJSON = [{
   "dl": "2016-09-02",
   "goal": 10000,
   "laun": "2016-08-03 00:35:13",
-  "pled": 10611,
+  "pledged": 10611,
   "state": "successful",
   "backers": 71,
   "country": "US"
@@ -4511,7 +4511,7 @@ dataJSON = [{
   "dl": "2013-05-18",
   "goal": 1400,
   "laun": "2013-03-23 19:38:33",
-  "pled": 2024,
+  "pledged": 2024,
   "state": "successful",
   "backers": 30,
   "country": "US"
@@ -4523,7 +4523,7 @@ dataJSON = [{
   "dl": "2015-07-27",
   "goal": 8500,
   "laun": "2015-06-27 00:03:26",
-  "pled": 9696,
+  "pledged": 9696,
   "state": "successful",
   "backers": 165,
   "country": "US"
@@ -4535,7 +4535,7 @@ dataJSON = [{
   "dl": "2016-04-16",
   "goal": 22000,
   "laun": "2016-03-14 21:09:54",
-  "pled": 22550,
+  "pledged": 22550,
   "state": "successful",
   "backers": 139,
   "country": "US"
@@ -4547,7 +4547,7 @@ dataJSON = [{
   "dl": "2015-05-22",
   "goal": 5000,
   "laun": "2015-03-23 20:21:51",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -4559,7 +4559,7 @@ dataJSON = [{
   "dl": "2012-08-13",
   "goal": 300,
   "laun": "2012-07-24 00:19:11",
-  "pled": 453,
+  "pledged": 453,
   "state": "successful",
   "backers": 24,
   "country": "US"
@@ -4571,7 +4571,7 @@ dataJSON = [{
   "dl": "2013-10-02",
   "goal": 18950,
   "laun": "2013-09-02 19:01:46",
-  "pled": 5652,
+  "pledged": 5652,
   "state": "failed",
   "backers": 89,
   "country": "GB"
@@ -4583,7 +4583,7 @@ dataJSON = [{
   "dl": "2014-12-25",
   "goal": 18000,
   "laun": "2014-11-24 09:36:55",
-  "pled": 5722,
+  "pledged": 5722,
   "state": "canceled",
   "backers": 67,
   "country": "US"
@@ -4595,7 +4595,7 @@ dataJSON = [{
   "dl": "2011-08-06",
   "goal": 6500,
   "laun": "2011-07-07 06:11:29",
-  "pled": 285,
+  "pledged": 285,
   "state": "canceled",
   "backers": 5,
   "country": "US"
@@ -4607,7 +4607,7 @@ dataJSON = [{
   "dl": "2012-07-01",
   "goal": 55000,
   "laun": "2012-06-01 17:55:41",
-  "pled": 162,
+  "pledged": 162,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -4619,7 +4619,7 @@ dataJSON = [{
   "dl": "2015-02-08",
   "goal": 7000,
   "laun": "2015-01-09 20:25:07",
-  "pled": 15,
+  "pledged": 15,
   "state": "failed",
   "backers": 6,
   "country": "GB"
@@ -4631,7 +4631,7 @@ dataJSON = [{
   "dl": "2013-08-23",
   "goal": 1000,
   "laun": "2013-07-24 20:25:30",
-  "pled": 142,
+  "pledged": 142,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -4643,7 +4643,7 @@ dataJSON = [{
   "dl": "2016-11-17",
   "goal": 50000,
   "laun": "2016-10-18 19:45:57",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -4655,7 +4655,7 @@ dataJSON = [{
   "dl": "2016-02-28",
   "goal": 250,
   "laun": "2016-02-27 04:40:59",
-  "pled": 500,
+  "pledged": 500,
   "state": "successful",
   "backers": 8,
   "country": "US"
@@ -4667,7 +4667,7 @@ dataJSON = [{
   "dl": "2016-07-02",
   "goal": 100000,
   "laun": "2016-05-31 07:00:49",
-  "pled": 196788,
+  "pledged": 196788,
   "state": "successful",
   "backers": 375,
   "country": "DK"
@@ -4679,7 +4679,7 @@ dataJSON = [{
   "dl": "2013-06-21",
   "goal": 15000,
   "laun": "2013-05-22 01:30:44",
-  "pled": 16035,
+  "pledged": 16035,
   "state": "successful",
   "backers": 334,
   "country": "US"
@@ -4691,7 +4691,7 @@ dataJSON = [{
   "dl": "2015-04-11",
   "goal": 30000,
   "laun": "2015-02-25 09:36:24",
-  "pled": 3458,
+  "pledged": 3458,
   "state": "canceled",
   "backers": 33,
   "country": "US"
@@ -4703,7 +4703,7 @@ dataJSON = [{
   "dl": "2014-07-10",
   "goal": 17000,
   "laun": "2014-05-31 06:22:58",
-  "pled": 3210,
+  "pledged": 3210,
   "state": "failed",
   "backers": 58,
   "country": "US"
@@ -4715,7 +4715,7 @@ dataJSON = [{
   "dl": "2015-09-03",
   "goal": 3000,
   "laun": "2015-08-04 17:54:08",
-  "pled": 6431,
+  "pledged": 6431,
   "state": "successful",
   "backers": 126,
   "country": "CA"
@@ -4727,7 +4727,7 @@ dataJSON = [{
   "dl": "2011-03-10",
   "goal": 30000,
   "laun": "2010-12-10 12:25:59",
-  "pled": 5975,
+  "pledged": 5975,
   "state": "failed",
   "backers": 38,
   "country": "US"
@@ -4739,7 +4739,7 @@ dataJSON = [{
   "dl": "2013-10-09",
   "goal": 4250,
   "laun": "2013-09-09 22:49:33",
-  "pled": 125,
+  "pledged": 125,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -4751,7 +4751,7 @@ dataJSON = [{
   "dl": "2015-02-28",
   "goal": 20000,
   "laun": "2014-12-30 20:27:01",
-  "pled": 936,
+  "pledged": 936,
   "state": "failed",
   "backers": 41,
   "country": "US"
@@ -4763,7 +4763,7 @@ dataJSON = [{
   "dl": "2015-03-04",
   "goal": 20000,
   "laun": "2015-02-02 22:28:16",
-  "pled": 3653,
+  "pledged": 3653,
   "state": "failed",
   "backers": 28,
   "country": "US"
@@ -4775,7 +4775,7 @@ dataJSON = [{
   "dl": "2015-03-06",
   "goal": 500,
   "laun": "2015-02-04 23:43:42",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -4787,7 +4787,7 @@ dataJSON = [{
   "dl": "2016-06-03",
   "goal": 100000,
   "laun": "2016-04-04 18:37:05",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -4799,7 +4799,7 @@ dataJSON = [{
   "dl": "2016-01-09",
   "goal": 10000,
   "laun": "2015-12-10 01:40:17",
-  "pled": 720,
+  "pledged": 720,
   "state": "failed",
   "backers": 11,
   "country": "US"
@@ -4811,7 +4811,7 @@ dataJSON = [{
   "dl": "2014-08-18",
   "goal": 1500,
   "laun": "2014-07-19 06:21:57",
-  "pled": 1651.73,
+  "pledged": 1651.73,
   "state": "successful",
   "backers": 9,
   "country": "CA"
@@ -4823,7 +4823,7 @@ dataJSON = [{
   "dl": "2015-06-13",
   "goal": 18000,
   "laun": "2015-05-14 01:50:57",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -4835,7 +4835,7 @@ dataJSON = [{
   "dl": "2016-08-22",
   "goal": 15000,
   "laun": "2016-07-23 02:26:46",
-  "pled": 17005,
+  "pledged": 17005,
   "state": "successful",
   "backers": 206,
   "country": "US"
@@ -4847,7 +4847,7 @@ dataJSON = [{
   "dl": "2013-09-10",
   "goal": 11600,
   "laun": "2013-08-22 19:38:51",
-  "pled": 1954,
+  "pledged": 1954,
   "state": "failed",
   "backers": 27,
   "country": "US"
@@ -4859,7 +4859,7 @@ dataJSON = [{
   "dl": "2012-12-06",
   "goal": 10723,
   "laun": "2012-11-08 15:54:40",
-  "pled": 24257.83,
+  "pledged": 24257.83,
   "state": "successful",
   "backers": 683,
   "country": "US"
@@ -4871,7 +4871,7 @@ dataJSON = [{
   "dl": "2014-08-09",
   "goal": 20,
   "laun": "2014-07-10 17:06:05",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -4883,7 +4883,7 @@ dataJSON = [{
   "dl": "2014-02-25",
   "goal": 3000,
   "laun": "2014-01-26 01:18:37",
-  "pled": 3285,
+  "pledged": 3285,
   "state": "successful",
   "backers": 26,
   "country": "US"
@@ -4895,7 +4895,7 @@ dataJSON = [{
   "dl": "2015-06-19",
   "goal": 4000,
   "laun": "2015-05-20 19:51:00",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -4907,7 +4907,7 @@ dataJSON = [{
   "dl": "2015-03-25",
   "goal": 8000,
   "laun": "2015-02-23 13:07:46",
-  "pled": 15191,
+  "pledged": 15191,
   "state": "successful",
   "backers": 330,
   "country": "US"
@@ -4919,7 +4919,7 @@ dataJSON = [{
   "dl": "2013-10-08",
   "goal": 14000,
   "laun": "2013-08-09 22:53:56",
-  "pled": 14509,
+  "pledged": 14509,
   "state": "successful",
   "backers": 76,
   "country": "US"
@@ -4931,7 +4931,7 @@ dataJSON = [{
   "dl": "2016-05-15",
   "goal": 40000,
   "laun": "2016-04-13 00:32:31",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "IE"
@@ -4943,7 +4943,7 @@ dataJSON = [{
   "dl": "2015-02-05",
   "goal": 16250,
   "laun": "2015-01-06 02:42:18",
-  "pled": 713,
+  "pledged": 713,
   "state": "failed",
   "backers": 12,
   "country": "AU"
@@ -4955,7 +4955,7 @@ dataJSON = [{
   "dl": "2012-06-23",
   "goal": 125000,
   "laun": "2012-04-24 16:48:58",
-  "pled": 25,
+  "pledged": 25,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -4967,7 +4967,7 @@ dataJSON = [{
   "dl": "2013-10-07",
   "goal": 3500,
   "laun": "2013-08-26 23:40:01",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -4979,7 +4979,7 @@ dataJSON = [{
   "dl": "2014-11-02",
   "goal": 4000,
   "laun": "2014-09-03 22:09:31",
-  "pled": 423564.66,
+  "pledged": 423564.66,
   "state": "successful",
   "backers": 7934,
   "country": "US"
@@ -4991,7 +4991,7 @@ dataJSON = [{
   "dl": "2017-12-19",
   "goal": 10000,
   "laun": "2017-10-20 09:55:56",
-  "pled": 41,
+  "pledged": 41,
   "state": "failed",
   "backers": 3,
   "country": "GB"
@@ -5003,7 +5003,7 @@ dataJSON = [{
   "dl": "2012-08-31",
   "goal": 25000,
   "laun": "2012-07-23 19:02:54",
-  "pled": 8370,
+  "pledged": 8370,
   "state": "failed",
   "backers": 54,
   "country": "US"
@@ -5015,7 +5015,7 @@ dataJSON = [{
   "dl": "2017-02-06",
   "goal": 1050,
   "laun": "2017-01-16 14:26:32",
-  "pled": 555,
+  "pledged": 555,
   "state": "failed",
   "backers": 3,
   "country": "GB"
@@ -5027,7 +5027,7 @@ dataJSON = [{
   "dl": "2013-04-20",
   "goal": 37000,
   "laun": "2013-03-21 20:30:52",
-  "pled": 3681,
+  "pledged": 3681,
   "state": "failed",
   "backers": 34,
   "country": "US"
@@ -5039,7 +5039,7 @@ dataJSON = [{
   "dl": "2012-05-12",
   "goal": 13500,
   "laun": "2012-04-12 10:51:22",
-  "pled": 14860,
+  "pledged": 14860,
   "state": "successful",
   "backers": 62,
   "country": "US"
@@ -5051,7 +5051,7 @@ dataJSON = [{
   "dl": "2016-11-06",
   "goal": 60000,
   "laun": "2016-09-07 10:03:13",
-  "pled": 231,
+  "pledged": 231,
   "state": "failed",
   "backers": 11,
   "country": "IT"
@@ -5063,7 +5063,7 @@ dataJSON = [{
   "dl": "2017-01-24",
   "goal": 100,
   "laun": "2017-01-17 16:26:43",
-  "pled": 111,
+  "pledged": 111,
   "state": "successful",
   "backers": 23,
   "country": "US"
@@ -5075,7 +5075,7 @@ dataJSON = [{
   "dl": "2016-12-15",
   "goal": 28000,
   "laun": "2016-11-26 22:23:48",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 1,
   "country": "ES"
@@ -5087,7 +5087,7 @@ dataJSON = [{
   "dl": "2017-08-02",
   "goal": 300,
   "laun": "2017-06-26 19:03:59",
-  "pled": 54,
+  "pledged": 54,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -5099,7 +5099,7 @@ dataJSON = [{
   "dl": "2015-09-11",
   "goal": 100000,
   "laun": "2015-08-11 06:27:26",
-  "pled": 3126114.96,
+  "pledged": 3126114.96,
   "state": "successful",
   "backers": 8559,
   "country": "US"
@@ -5111,7 +5111,7 @@ dataJSON = [{
   "dl": "2015-02-05",
   "goal": 10000,
   "laun": "2015-01-06 14:21:18",
-  "pled": 1302,
+  "pledged": 1302,
   "state": "failed",
   "backers": 2,
   "country": "GB"
@@ -5123,7 +5123,7 @@ dataJSON = [{
   "dl": "2014-10-31",
   "goal": 38220,
   "laun": "2014-09-26 01:05:08",
-  "pled": 205,
+  "pledged": 205,
   "state": "failed",
   "backers": 8,
   "country": "US"
@@ -5135,7 +5135,7 @@ dataJSON = [{
   "dl": "2012-08-13",
   "goal": 700,
   "laun": "2012-06-29 03:28:30",
-  "pled": 1066,
+  "pledged": 1066,
   "state": "successful",
   "backers": 14,
   "country": "US"
@@ -5147,7 +5147,7 @@ dataJSON = [{
   "dl": "2017-08-06",
   "goal": 5000,
   "laun": "2017-07-07 00:59:30",
-  "pled": 110,
+  "pledged": 110,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -5159,7 +5159,7 @@ dataJSON = [{
   "dl": "2015-11-15",
   "goal": 1000,
   "laun": "2015-10-19 21:16:51",
-  "pled": 60,
+  "pledged": 60,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -5171,7 +5171,7 @@ dataJSON = [{
   "dl": "2014-10-04",
   "goal": 10000,
   "laun": "2014-08-05 02:15:16",
-  "pled": 82,
+  "pledged": 82,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -5183,7 +5183,7 @@ dataJSON = [{
   "dl": "2016-12-11",
   "goal": 5400,
   "laun": "2016-11-27 16:04:12",
-  "pled": 100,
+  "pledged": 100,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -5195,7 +5195,7 @@ dataJSON = [{
   "dl": "2014-09-10",
   "goal": 500,
   "laun": "2014-08-11 19:49:09",
-  "pled": 2,
+  "pledged": 2,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -5207,7 +5207,7 @@ dataJSON = [{
   "dl": "2017-11-23",
   "goal": 3000,
   "laun": "2017-10-24 03:53:59",
-  "pled": 25,
+  "pledged": 25,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -5219,7 +5219,7 @@ dataJSON = [{
   "dl": "2017-08-10",
   "goal": 250,
   "laun": "2017-07-11 04:12:54",
-  "pled": 265,
+  "pledged": 265,
   "state": "successful",
   "backers": 6,
   "country": "CA"
@@ -5231,7 +5231,7 @@ dataJSON = [{
   "dl": "2017-04-22",
   "goal": 25000,
   "laun": "2017-03-22 07:27:57",
-  "pled": 6310,
+  "pledged": 6310,
   "state": "canceled",
   "backers": 8,
   "country": "MX"
@@ -5243,7 +5243,7 @@ dataJSON = [{
   "dl": "2014-04-05",
   "goal": 10000,
   "laun": "2014-02-19 19:06:51",
-  "pled": 540,
+  "pledged": 540,
   "state": "canceled",
   "backers": 7,
   "country": "US"
@@ -5255,7 +5255,7 @@ dataJSON = [{
   "dl": "2017-12-26",
   "goal": 10000,
   "laun": "2017-12-02 00:12:18",
-  "pled": 12581.01,
+  "pledged": 12581.01,
   "state": "successful",
   "backers": 117,
   "country": "US"
@@ -5267,7 +5267,7 @@ dataJSON = [{
   "dl": "2015-04-08",
   "goal": 1000,
   "laun": "2015-03-18 18:34:45",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 1,
   "country": "GB"
@@ -5279,7 +5279,7 @@ dataJSON = [{
   "dl": "2012-04-15",
   "goal": 2000,
   "laun": "2012-03-16 09:13:13",
-  "pled": 2105,
+  "pledged": 2105,
   "state": "successful",
   "backers": 13,
   "country": "US"
@@ -5291,7 +5291,7 @@ dataJSON = [{
   "dl": "2015-12-15",
   "goal": 3000,
   "laun": "2015-11-16 00:55:07",
-  "pled": 8616.45,
+  "pledged": 8616.45,
   "state": "successful",
   "backers": 236,
   "country": "US"
@@ -5303,7 +5303,7 @@ dataJSON = [{
   "dl": "2018-02-03",
   "goal": 1000,
   "laun": "2017-12-16 02:13:40",
-  "pled": 4125,
+  "pledged": 4125,
   "state": "live",
   "backers": 94,
   "country": "US"
@@ -5315,7 +5315,7 @@ dataJSON = [{
   "dl": "2014-07-14",
   "goal": 2500,
   "laun": "2014-06-30 20:05:21",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -5327,7 +5327,7 @@ dataJSON = [{
   "dl": "2015-07-05",
   "goal": 650,
   "laun": "2015-07-01 23:51:01",
-  "pled": 50,
+  "pledged": 50,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -5339,7 +5339,7 @@ dataJSON = [{
   "dl": "2015-08-14",
   "goal": 5000,
   "laun": "2015-08-07 21:04:26",
-  "pled": 5090.96,
+  "pledged": 5090.96,
   "state": "successful",
   "backers": 43,
   "country": "US"
@@ -5351,7 +5351,7 @@ dataJSON = [{
   "dl": "2016-03-16",
   "goal": 16320,
   "laun": "2016-02-15 07:01:26",
-  "pled": 16835,
+  "pledged": 16835,
   "state": "successful",
   "backers": 334,
   "country": "US"
@@ -5363,7 +5363,7 @@ dataJSON = [{
   "dl": "2013-09-09",
   "goal": 4500,
   "laun": "2013-07-11 23:24:24",
-  "pled": 611,
+  "pledged": 611,
   "state": "failed",
   "backers": 8,
   "country": "US"
@@ -5375,7 +5375,7 @@ dataJSON = [{
   "dl": "2017-03-10",
   "goal": 2000,
   "laun": "2017-01-28 22:08:39",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -5387,7 +5387,7 @@ dataJSON = [{
   "dl": "2012-08-13",
   "goal": 3000,
   "laun": "2012-07-13 05:19:21",
-  "pled": 75,
+  "pledged": 75,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -5399,7 +5399,7 @@ dataJSON = [{
   "dl": "2014-04-19",
   "goal": 500,
   "laun": "2014-03-20 01:49:22",
-  "pled": 2565,
+  "pledged": 2565,
   "state": "successful",
   "backers": 94,
   "country": "US"
@@ -5411,7 +5411,7 @@ dataJSON = [{
   "dl": "2016-12-27",
   "goal": 10500,
   "laun": "2016-12-02 20:32:43",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -5423,7 +5423,7 @@ dataJSON = [{
   "dl": "2015-04-20",
   "goal": 2500,
   "laun": "2015-03-21 19:30:41",
-  "pled": 350,
+  "pledged": 350,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -5435,7 +5435,7 @@ dataJSON = [{
   "dl": "2016-03-10",
   "goal": 100000,
   "laun": "2016-02-09 00:49:12",
-  "pled": 25,
+  "pledged": 25,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -5447,7 +5447,7 @@ dataJSON = [{
   "dl": "2012-07-19",
   "goal": 750,
   "laun": "2012-06-04 22:35:24",
-  "pled": 525,
+  "pledged": 525,
   "state": "failed",
   "backers": 16,
   "country": "US"
@@ -5459,7 +5459,7 @@ dataJSON = [{
   "dl": "2011-11-29",
   "goal": 10000,
   "laun": "2011-10-21 14:10:01",
-  "pled": 850,
+  "pledged": 850,
   "state": "failed",
   "backers": 28,
   "country": "US"
@@ -5471,7 +5471,7 @@ dataJSON = [{
   "dl": "2016-07-17",
   "goal": 2000,
   "laun": "2016-05-18 10:17:09",
-  "pled": 92,
+  "pledged": 92,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -5483,7 +5483,7 @@ dataJSON = [{
   "dl": "2017-08-18",
   "goal": 1500,
   "laun": "2017-07-19 08:59:57",
-  "pled": 207,
+  "pledged": 207,
   "state": "failed",
   "backers": 5,
   "country": "AU"
@@ -5495,7 +5495,7 @@ dataJSON = [{
   "dl": "2016-05-08",
   "goal": 1620,
   "laun": "2016-04-08 22:45:11",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -5507,7 +5507,7 @@ dataJSON = [{
   "dl": "2016-09-14",
   "goal": 19000,
   "laun": "2016-08-15 02:35:36",
-  "pled": 25133,
+  "pledged": 25133,
   "state": "successful",
   "backers": 721,
   "country": "US"
@@ -5519,7 +5519,7 @@ dataJSON = [{
   "dl": "2014-04-24",
   "goal": 725,
   "laun": "2014-03-25 00:41:08",
-  "pled": 1618,
+  "pledged": 1618,
   "state": "successful",
   "backers": 67,
   "country": "US"
@@ -5531,7 +5531,7 @@ dataJSON = [{
   "dl": "2016-04-30",
   "goal": 7110,
   "laun": "2016-03-31 01:50:46",
-  "pled": 40,
+  "pledged": 40,
   "state": "failed",
   "backers": 4,
   "country": "CA"
@@ -5543,7 +5543,7 @@ dataJSON = [{
   "dl": "2010-11-08",
   "goal": 850,
   "laun": "2010-09-29 23:07:35",
-  "pled": 850,
+  "pledged": 850,
   "state": "successful",
   "backers": 13,
   "country": "US"
@@ -5555,7 +5555,7 @@ dataJSON = [{
   "dl": "2014-08-02",
   "goal": 20000,
   "laun": "2014-06-30 06:03:39",
-  "pled": 2370,
+  "pledged": 2370,
   "state": "failed",
   "backers": 48,
   "country": "US"
@@ -5567,7 +5567,7 @@ dataJSON = [{
   "dl": "2017-08-29",
   "goal": 50000,
   "laun": "2017-07-30 19:43:36",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -5579,7 +5579,7 @@ dataJSON = [{
   "dl": "2015-09-25",
   "goal": 1000,
   "laun": "2015-08-26 19:22:49",
-  "pled": 1203,
+  "pledged": 1203,
   "state": "successful",
   "backers": 20,
   "country": "CA"
@@ -5591,7 +5591,7 @@ dataJSON = [{
   "dl": "2015-04-18",
   "goal": 12000,
   "laun": "2015-03-19 20:22:24",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "CA"
@@ -5603,7 +5603,7 @@ dataJSON = [{
   "dl": "2016-07-17",
   "goal": 60000,
   "laun": "2016-05-18 08:05:27",
-  "pled": 10,
+  "pledged": 10,
   "state": "canceled",
   "backers": 1,
   "country": "GB"
@@ -5615,7 +5615,7 @@ dataJSON = [{
   "dl": "2017-05-09",
   "goal": 5000,
   "laun": "2017-04-14 07:22:30",
-  "pled": 203,
+  "pledged": 203,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -5627,7 +5627,7 @@ dataJSON = [{
   "dl": "2014-12-25",
   "goal": 40000,
   "laun": "2014-11-14 19:57:00",
-  "pled": 185,
+  "pledged": 185,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -5639,7 +5639,7 @@ dataJSON = [{
   "dl": "2012-01-19",
   "goal": 10000,
   "laun": "2011-12-20 02:27:32",
-  "pled": 10025,
+  "pledged": 10025,
   "state": "successful",
   "backers": 167,
   "country": "US"
@@ -5651,7 +5651,7 @@ dataJSON = [{
   "dl": "2015-01-16",
   "goal": 5500,
   "laun": "2014-11-17 18:20:28",
-  "pled": 5665,
+  "pledged": 5665,
   "state": "successful",
   "backers": 105,
   "country": "GB"
@@ -5663,7 +5663,7 @@ dataJSON = [{
   "dl": "2011-03-16",
   "goal": 5000,
   "laun": "2011-02-14 18:03:38",
-  "pled": 5635,
+  "pledged": 5635,
   "state": "successful",
   "backers": 25,
   "country": "US"
@@ -5675,7 +5675,7 @@ dataJSON = [{
   "dl": "2014-04-25",
   "goal": 10000,
   "laun": "2014-03-26 19:12:16",
-  "pled": 51,
+  "pledged": 51,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -5687,7 +5687,7 @@ dataJSON = [{
   "dl": "2012-08-23",
   "goal": 10000,
   "laun": "2012-07-24 16:49:55",
-  "pled": 11011.29,
+  "pledged": 11011.29,
   "state": "successful",
   "backers": 155,
   "country": "US"
@@ -5699,7 +5699,7 @@ dataJSON = [{
   "dl": "2017-02-18",
   "goal": 2300,
   "laun": "2017-01-19 16:27:18",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "GB"
@@ -5711,7 +5711,7 @@ dataJSON = [{
   "dl": "2010-01-04",
   "goal": 1500,
   "laun": "2009-11-25 06:26:24",
-  "pled": 1603,
+  "pledged": 1603,
   "state": "successful",
   "backers": 31,
   "country": "US"
@@ -5723,7 +5723,7 @@ dataJSON = [{
   "dl": "2012-06-01",
   "goal": 1000,
   "laun": "2012-05-09 01:30:18",
-  "pled": 1131,
+  "pledged": 1131,
   "state": "successful",
   "backers": 38,
   "country": "US"
@@ -5735,7 +5735,7 @@ dataJSON = [{
   "dl": "2013-10-19",
   "goal": 5500,
   "laun": "2013-09-19 18:04:36",
-  "pled": 1191,
+  "pledged": 1191,
   "state": "failed",
   "backers": 20,
   "country": "US"
@@ -5747,7 +5747,7 @@ dataJSON = [{
   "dl": "2015-03-16",
   "goal": 1500,
   "laun": "2015-02-14 16:47:00",
-  "pled": 20,
+  "pledged": 20,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -5759,7 +5759,7 @@ dataJSON = [{
   "dl": "2013-01-13",
   "goal": 80000,
   "laun": "2012-12-11 09:03:18",
-  "pled": 22063.33,
+  "pledged": 22063.33,
   "state": "failed",
   "backers": 567,
   "country": "US"
@@ -5771,7 +5771,7 @@ dataJSON = [{
   "dl": "2016-11-17",
   "goal": 25000,
   "laun": "2016-10-03 05:48:56",
-  "pled": 1433,
+  "pledged": 1433,
   "state": "failed",
   "backers": 25,
   "country": "US"
@@ -5783,7 +5783,7 @@ dataJSON = [{
   "dl": "2014-09-27",
   "goal": 1000,
   "laun": "2014-07-29 12:31:13",
-  "pled": 1577,
+  "pledged": 1577,
   "state": "successful",
   "backers": 17,
   "country": "AU"
@@ -5795,7 +5795,7 @@ dataJSON = [{
   "dl": "2016-11-09",
   "goal": 6000,
   "laun": "2016-10-10 12:26:11",
-  "pled": 2422,
+  "pledged": 2422,
   "state": "failed",
   "backers": 81,
   "country": "DE"
@@ -5807,7 +5807,7 @@ dataJSON = [{
   "dl": "2012-10-05",
   "goal": 5000,
   "laun": "2012-09-05 02:29:06",
-  "pled": 6835.22,
+  "pledged": 6835.22,
   "state": "successful",
   "backers": 59,
   "country": "US"
@@ -5819,7 +5819,7 @@ dataJSON = [{
   "dl": "2015-05-09",
   "goal": 17800,
   "laun": "2015-03-10 01:10:19",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -5831,7 +5831,7 @@ dataJSON = [{
   "dl": "2014-11-04",
   "goal": 5000,
   "laun": "2014-10-15 18:02:41",
-  "pled": 5250,
+  "pledged": 5250,
   "state": "successful",
   "backers": 108,
   "country": "US"
@@ -5843,7 +5843,7 @@ dataJSON = [{
   "dl": "2012-09-17",
   "goal": 130000,
   "laun": "2012-08-15 07:33:10",
-  "pled": 18600.11,
+  "pledged": 18600.11,
   "state": "failed",
   "backers": 102,
   "country": "US"
@@ -5855,7 +5855,7 @@ dataJSON = [{
   "dl": "2015-12-13",
   "goal": 10000,
   "laun": "2015-11-20 17:59:42",
-  "pled": 60495.19,
+  "pledged": 60495.19,
   "state": "successful",
   "backers": 953,
   "country": "CA"
@@ -5867,7 +5867,7 @@ dataJSON = [{
   "dl": "2015-11-09",
   "goal": 700,
   "laun": "2015-10-10 03:02:34",
-  "pled": 1648,
+  "pledged": 1648,
   "state": "successful",
   "backers": 39,
   "country": "CA"
@@ -5879,7 +5879,7 @@ dataJSON = [{
   "dl": "2014-11-29",
   "goal": 2500,
   "laun": "2014-10-18 07:14:52",
-  "pled": 1148,
+  "pledged": 1148,
   "state": "failed",
   "backers": 13,
   "country": "US"
@@ -5891,7 +5891,7 @@ dataJSON = [{
   "dl": "2015-08-05",
   "goal": 75000,
   "laun": "2015-07-08 04:48:20",
-  "pled": 45,
+  "pledged": 45,
   "state": "failed",
   "backers": 1,
   "country": "AU"
@@ -5903,7 +5903,7 @@ dataJSON = [{
   "dl": "2015-12-21",
   "goal": 1000,
   "laun": "2015-10-22 18:53:41",
-  "pled": 40,
+  "pledged": 40,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -5915,7 +5915,7 @@ dataJSON = [{
   "dl": "2015-04-24",
   "goal": 8500,
   "laun": "2015-03-17 06:29:31",
-  "pled": 1595,
+  "pledged": 1595,
   "state": "failed",
   "backers": 38,
   "country": "US"
@@ -5927,7 +5927,7 @@ dataJSON = [{
   "dl": "2014-07-07",
   "goal": 25000,
   "laun": "2014-05-14 18:44:23",
-  "pled": 1777,
+  "pledged": 1777,
   "state": "failed",
   "backers": 68,
   "country": "US"
@@ -5939,7 +5939,7 @@ dataJSON = [{
   "dl": "2018-01-28",
   "goal": 60000,
   "laun": "2017-11-29 02:38:55",
-  "pled": 0,
+  "pledged": 0,
   "state": "live",
   "backers": 0,
   "country": "MX"
@@ -5951,7 +5951,7 @@ dataJSON = [{
   "dl": "2010-12-31",
   "goal": 3000,
   "laun": "2010-11-16 23:50:35",
-  "pled": 661,
+  "pledged": 661,
   "state": "failed",
   "backers": 21,
   "country": "US"
@@ -5963,7 +5963,7 @@ dataJSON = [{
   "dl": "2016-04-24",
   "goal": 170000,
   "laun": "2016-03-25 16:13:26",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -5975,7 +5975,7 @@ dataJSON = [{
   "dl": "2014-09-09",
   "goal": 1000,
   "laun": "2014-07-11 16:58:05",
-  "pled": 116,
+  "pledged": 116,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -5987,7 +5987,7 @@ dataJSON = [{
   "dl": "2012-04-08",
   "goal": 15000,
   "laun": "2012-02-27 09:44:49",
-  "pled": 50,
+  "pledged": 50,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -5999,7 +5999,7 @@ dataJSON = [{
   "dl": "2012-09-07",
   "goal": 11000,
   "laun": "2012-08-08 21:19:06",
-  "pled": 60,
+  "pledged": 60,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -6011,7 +6011,7 @@ dataJSON = [{
   "dl": "2013-07-07",
   "goal": 2500,
   "laun": "2013-06-07 20:54:06",
-  "pled": 304,
+  "pledged": 304,
   "state": "failed",
   "backers": 14,
   "country": "US"
@@ -6023,7 +6023,7 @@ dataJSON = [{
   "dl": "2016-01-18",
   "goal": 2000,
   "laun": "2016-01-04 23:38:09",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 1,
   "country": "GB"
@@ -6035,7 +6035,7 @@ dataJSON = [{
   "dl": "2015-06-28",
   "goal": 2000,
   "laun": "2015-05-29 22:07:39",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -6047,7 +6047,7 @@ dataJSON = [{
   "dl": "2012-04-06",
   "goal": 2000,
   "laun": "2012-03-07 01:23:22",
-  "pled": 50,
+  "pledged": 50,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -6059,7 +6059,7 @@ dataJSON = [{
   "dl": "2015-05-10",
   "goal": 5500,
   "laun": "2015-04-10 12:11:29",
-  "pled": 6186,
+  "pledged": 6186,
   "state": "successful",
   "backers": 126,
   "country": "GB"
@@ -6071,7 +6071,7 @@ dataJSON = [{
   "dl": "2015-06-05",
   "goal": 150,
   "laun": "2015-05-16 13:48:43",
-  "pled": 174,
+  "pledged": 174,
   "state": "successful",
   "backers": 8,
   "country": "DE"
@@ -6083,7 +6083,7 @@ dataJSON = [{
   "dl": "2016-07-28",
   "goal": 10000,
   "laun": "2016-06-13 17:22:31",
-  "pled": 2348,
+  "pledged": 2348,
   "state": "canceled",
   "backers": 18,
   "country": "US"
@@ -6095,7 +6095,7 @@ dataJSON = [{
   "dl": "2013-02-12",
   "goal": 750,
   "laun": "2012-12-14 11:51:23",
-  "pled": 80,
+  "pledged": 80,
   "state": "failed",
   "backers": 3,
   "country": "GB"
@@ -6107,7 +6107,7 @@ dataJSON = [{
   "dl": "2012-03-04",
   "goal": 1050,
   "laun": "2012-02-03 20:12:03",
-  "pled": 142,
+  "pledged": 142,
   "state": "failed",
   "backers": 8,
   "country": "US"
@@ -6119,7 +6119,7 @@ dataJSON = [{
   "dl": "2017-04-04",
   "goal": 450,
   "laun": "2017-03-05 00:16:36",
-  "pled": 207,
+  "pledged": 207,
   "state": "failed",
   "backers": 16,
   "country": "US"
@@ -6131,7 +6131,7 @@ dataJSON = [{
   "dl": "2015-06-02",
   "goal": 10000,
   "laun": "2015-04-23 17:27:49",
-  "pled": 530,
+  "pledged": 530,
   "state": "failed",
   "backers": 25,
   "country": "US"
@@ -6143,7 +6143,7 @@ dataJSON = [{
   "dl": "2015-10-06",
   "goal": 5999,
   "laun": "2015-09-06 16:02:53",
-  "pled": 820,
+  "pledged": 820,
   "state": "failed",
   "backers": 7,
   "country": "US"
@@ -6155,7 +6155,7 @@ dataJSON = [{
   "dl": "2015-05-06",
   "goal": 5000,
   "laun": "2015-04-06 22:17:39",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -6167,7 +6167,7 @@ dataJSON = [{
   "dl": "2013-09-23",
   "goal": 3500,
   "laun": "2013-08-19 22:16:46",
-  "pled": 1216,
+  "pledged": 1216,
   "state": "failed",
   "backers": 16,
   "country": "US"
@@ -6179,7 +6179,7 @@ dataJSON = [{
   "dl": "2011-04-06",
   "goal": 1500,
   "laun": "2011-02-04 02:07:55",
-  "pled": 1542,
+  "pledged": 1542,
   "state": "successful",
   "backers": 60,
   "country": "US"
@@ -6191,7 +6191,7 @@ dataJSON = [{
   "dl": "2016-11-26",
   "goal": 11500,
   "laun": "2016-09-27 17:03:13",
-  "pled": 19230,
+  "pledged": 19230,
   "state": "successful",
   "backers": 110,
   "country": "US"
@@ -6203,7 +6203,7 @@ dataJSON = [{
   "dl": "2016-06-02",
   "goal": 30000,
   "laun": "2016-05-03 13:26:35",
-  "pled": 1922,
+  "pledged": 1922,
   "state": "failed",
   "backers": 13,
   "country": "US"
@@ -6215,7 +6215,7 @@ dataJSON = [{
   "dl": "2015-06-20",
   "goal": 22000,
   "laun": "2015-05-21 01:45:22",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "CA"
@@ -6227,7 +6227,7 @@ dataJSON = [{
   "dl": "2013-12-11",
   "goal": 10000,
   "laun": "2013-11-11 02:02:36",
-  "pled": 1898,
+  "pledged": 1898,
   "state": "failed",
   "backers": 31,
   "country": "US"
@@ -6239,7 +6239,7 @@ dataJSON = [{
   "dl": "2015-12-21",
   "goal": 5000,
   "laun": "2015-11-21 04:01:27",
-  "pled": 50,
+  "pledged": 50,
   "state": "failed",
   "backers": 3,
   "country": "AU"
@@ -6251,7 +6251,7 @@ dataJSON = [{
   "dl": "2016-08-07",
   "goal": 1000,
   "laun": "2016-07-21 16:48:13",
-  "pled": 1120,
+  "pledged": 1120,
   "state": "successful",
   "backers": 19,
   "country": "US"
@@ -6263,7 +6263,7 @@ dataJSON = [{
   "dl": "2016-09-25",
   "goal": 10000,
   "laun": "2016-08-26 00:46:00",
-  "pled": 14622,
+  "pledged": 14622,
   "state": "successful",
   "backers": 327,
   "country": "US"
@@ -6275,7 +6275,7 @@ dataJSON = [{
   "dl": "2015-09-13",
   "goal": 10000,
   "laun": "2015-08-14 23:09:42",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -6287,7 +6287,7 @@ dataJSON = [{
   "dl": "2017-08-31",
   "goal": 10000,
   "laun": "2017-08-01 20:06:17",
-  "pled": 40,
+  "pledged": 40,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -6299,7 +6299,7 @@ dataJSON = [{
   "dl": "2017-09-01",
   "goal": 5000,
   "laun": "2017-08-02 18:17:57",
-  "pled": 6641.59,
+  "pledged": 6641.59,
   "state": "successful",
   "backers": 322,
   "country": "CA"
@@ -6311,7 +6311,7 @@ dataJSON = [{
   "dl": "2016-10-23",
   "goal": 10000,
   "laun": "2016-09-23 17:24:21",
-  "pled": 21,
+  "pledged": 21,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -6323,7 +6323,7 @@ dataJSON = [{
   "dl": "2011-12-12",
   "goal": 400,
   "laun": "2011-11-12 04:23:23",
-  "pled": 515,
+  "pledged": 515,
   "state": "successful",
   "backers": 10,
   "country": "US"
@@ -6335,7 +6335,7 @@ dataJSON = [{
   "dl": "2014-08-14",
   "goal": 22,
   "laun": "2014-07-15 17:57:35",
-  "pled": 45,
+  "pledged": 45,
   "state": "successful",
   "backers": 6,
   "country": "US"
@@ -6347,7 +6347,7 @@ dataJSON = [{
   "dl": "2014-11-13",
   "goal": 500,
   "laun": "2014-10-05 07:01:14",
-  "pled": 1214,
+  "pledged": 1214,
   "state": "successful",
   "backers": 26,
   "country": "US"
@@ -6359,7 +6359,7 @@ dataJSON = [{
   "dl": "2012-05-22",
   "goal": 800,
   "laun": "2012-03-23 18:53:08",
-  "pled": 800,
+  "pledged": 800,
   "state": "successful",
   "backers": 15,
   "country": "US"
@@ -6371,7 +6371,7 @@ dataJSON = [{
   "dl": "2017-10-13",
   "goal": 2870,
   "laun": "2017-09-13 04:10:55",
-  "pled": 3370,
+  "pledged": 3370,
   "state": "successful",
   "backers": 62,
   "country": "US"
@@ -6383,7 +6383,7 @@ dataJSON = [{
   "dl": "2015-08-29",
   "goal": 30000,
   "laun": "2015-07-30 18:06:08",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -6395,7 +6395,7 @@ dataJSON = [{
   "dl": "2016-01-02",
   "goal": 10000,
   "laun": "2015-12-03 05:12:04",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -6407,7 +6407,7 @@ dataJSON = [{
   "dl": "2011-05-24",
   "goal": 3850,
   "laun": "2011-05-02 21:07:36",
-  "pled": 4685,
+  "pledged": 4685,
   "state": "successful",
   "backers": 51,
   "country": "US"
@@ -6419,7 +6419,7 @@ dataJSON = [{
   "dl": "2016-08-28",
   "goal": 19500,
   "laun": "2016-08-12 01:21:37",
-  "pled": 19500,
+  "pledged": 19500,
   "state": "successful",
   "backers": 17,
   "country": "US"
@@ -6431,7 +6431,7 @@ dataJSON = [{
   "dl": "2017-02-28",
   "goal": 25000,
   "laun": "2017-01-13 03:34:55",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -6443,7 +6443,7 @@ dataJSON = [{
   "dl": "2016-09-28",
   "goal": 7500,
   "laun": "2016-07-30 17:20:40",
-  "pled": 232,
+  "pledged": 232,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -6455,7 +6455,7 @@ dataJSON = [{
   "dl": "2014-08-14",
   "goal": 120000,
   "laun": "2014-07-15 17:28:05",
-  "pled": 40,
+  "pledged": 40,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -6467,7 +6467,7 @@ dataJSON = [{
   "dl": "2015-07-01",
   "goal": 3316,
   "laun": "2015-06-02 17:01:16",
-  "pled": 3558,
+  "pledged": 3558,
   "state": "successful",
   "backers": 72,
   "country": "US"
@@ -6479,7 +6479,7 @@ dataJSON = [{
   "dl": "2015-10-12",
   "goal": 10000,
   "laun": "2015-09-12 01:28:26",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -6491,7 +6491,7 @@ dataJSON = [{
   "dl": "2014-01-01",
   "goal": 3500,
   "laun": "2013-12-02 19:21:48",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -6503,7 +6503,7 @@ dataJSON = [{
   "dl": "2014-09-09",
   "goal": 12000,
   "laun": "2014-07-29 01:55:37",
-  "pled": 16928,
+  "pledged": 16928,
   "state": "successful",
   "backers": 153,
   "country": "US"
@@ -6515,7 +6515,7 @@ dataJSON = [{
   "dl": "2015-08-11",
   "goal": 3000,
   "laun": "2015-07-12 03:57:57",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "NL"
@@ -6527,7 +6527,7 @@ dataJSON = [{
   "dl": "2017-05-24",
   "goal": 10000,
   "laun": "2017-04-24 22:00:15",
-  "pled": 742,
+  "pledged": 742,
   "state": "canceled",
   "backers": 21,
   "country": "US"
@@ -6539,7 +6539,7 @@ dataJSON = [{
   "dl": "2017-02-17",
   "goal": 17000,
   "laun": "2017-01-18 03:08:01",
-  "pled": 950,
+  "pledged": 950,
   "state": "failed",
   "backers": 1,
   "country": "MX"
@@ -6551,7 +6551,7 @@ dataJSON = [{
   "dl": "2015-08-01",
   "goal": 250,
   "laun": "2015-06-17 05:16:22",
-  "pled": 300,
+  "pledged": 300,
   "state": "successful",
   "backers": 8,
   "country": "US"
@@ -6563,7 +6563,7 @@ dataJSON = [{
   "dl": "2012-06-26",
   "goal": 1000,
   "laun": "2012-04-27 19:22:06",
-  "pled": 1221,
+  "pledged": 1221,
   "state": "successful",
   "backers": 13,
   "country": "US"
@@ -6575,7 +6575,7 @@ dataJSON = [{
   "dl": "2011-06-01",
   "goal": 10000,
   "laun": "2011-05-02 19:37:22",
-  "pled": 710,
+  "pledged": 710,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -6587,7 +6587,7 @@ dataJSON = [{
   "dl": "2015-05-09",
   "goal": 50000,
   "laun": "2015-04-09 03:15:11",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -6599,7 +6599,7 @@ dataJSON = [{
   "dl": "2015-11-02",
   "goal": 400,
   "laun": "2015-10-05 18:00:09",
-  "pled": 642,
+  "pledged": 642,
   "state": "successful",
   "backers": 17,
   "country": "CA"
@@ -6611,7 +6611,7 @@ dataJSON = [{
   "dl": "2014-09-13",
   "goal": 8000,
   "laun": "2014-08-14 21:07:11",
-  "pled": 915,
+  "pledged": 915,
   "state": "failed",
   "backers": 14,
   "country": "US"
@@ -6623,7 +6623,7 @@ dataJSON = [{
   "dl": "2012-08-19",
   "goal": 3700,
   "laun": "2012-07-05 21:20:28",
-  "pled": 366.08,
+  "pledged": 366.08,
   "state": "canceled",
   "backers": 15,
   "country": "US"
@@ -6635,7 +6635,7 @@ dataJSON = [{
   "dl": "2013-02-27",
   "goal": 8500,
   "laun": "2013-01-28 16:17:06",
-  "pled": 11888.42,
+  "pledged": 11888.42,
   "state": "successful",
   "backers": 414,
   "country": "US"
@@ -6647,7 +6647,7 @@ dataJSON = [{
   "dl": "2011-11-01",
   "goal": 400,
   "laun": "2011-09-21 23:01:24",
-  "pled": 612,
+  "pledged": 612,
   "state": "successful",
   "backers": 13,
   "country": "US"
@@ -6659,7 +6659,7 @@ dataJSON = [{
   "dl": "2014-06-24",
   "goal": 5000,
   "laun": "2014-05-09 00:35:41",
-  "pled": 975,
+  "pledged": 975,
   "state": "failed",
   "backers": 27,
   "country": "US"
@@ -6671,7 +6671,7 @@ dataJSON = [{
   "dl": "2016-07-10",
   "goal": 110,
   "laun": "2016-06-20 19:56:56",
-  "pled": 36,
+  "pledged": 36,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -6683,7 +6683,7 @@ dataJSON = [{
   "dl": "2015-11-23",
   "goal": 9000,
   "laun": "2015-11-12 19:57:05",
-  "pled": 0,
+  "pledged": 0,
   "state": "suspended",
   "backers": 0,
   "country": "US"
@@ -6695,7 +6695,7 @@ dataJSON = [{
   "dl": "2013-06-06",
   "goal": 5000,
   "laun": "2013-05-07 18:40:42",
-  "pled": 2945,
+  "pledged": 2945,
   "state": "failed",
   "backers": 40,
   "country": "US"
@@ -6707,7 +6707,7 @@ dataJSON = [{
   "dl": "2010-08-07",
   "goal": 2000,
   "laun": "2010-07-07 02:26:14",
-  "pled": 400,
+  "pledged": 400,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -6719,7 +6719,7 @@ dataJSON = [{
   "dl": "2014-12-24",
   "goal": 850,
   "laun": "2014-11-24 21:38:59",
-  "pled": 850,
+  "pledged": 850,
   "state": "successful",
   "backers": 18,
   "country": "US"
@@ -6731,7 +6731,7 @@ dataJSON = [{
   "dl": "2015-08-05",
   "goal": 500,
   "laun": "2015-07-06 13:59:05",
-  "pled": 50,
+  "pledged": 50,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -6743,7 +6743,7 @@ dataJSON = [{
   "dl": "2014-05-29",
   "goal": 500,
   "laun": "2014-04-29 20:53:29",
-  "pled": 861,
+  "pledged": 861,
   "state": "successful",
   "backers": 11,
   "country": "US"
@@ -6755,7 +6755,7 @@ dataJSON = [{
   "dl": "2016-01-15",
   "goal": 29000,
   "laun": "2015-11-16 17:30:18",
-  "pled": 55664,
+  "pledged": 55664,
   "state": "successful",
   "backers": 1670,
   "country": "US"
@@ -6767,7 +6767,7 @@ dataJSON = [{
   "dl": "2017-05-26",
   "goal": 5000,
   "laun": "2017-04-18 16:47:07",
-  "pled": 48137,
+  "pledged": 48137,
   "state": "successful",
   "backers": 928,
   "country": "US"
@@ -6779,7 +6779,7 @@ dataJSON = [{
   "dl": "2015-03-04",
   "goal": 1000,
   "laun": "2015-02-01 23:14:54",
-  "pled": 75,
+  "pledged": 75,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -6791,7 +6791,7 @@ dataJSON = [{
   "dl": "2015-11-04",
   "goal": 15000,
   "laun": "2015-10-05 18:10:30",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -6803,7 +6803,7 @@ dataJSON = [{
   "dl": "2017-05-21",
   "goal": 8000,
   "laun": "2017-04-21 18:16:26",
-  "pled": 8645,
+  "pledged": 8645,
   "state": "successful",
   "backers": 82,
   "country": "US"
@@ -6815,7 +6815,7 @@ dataJSON = [{
   "dl": "2014-06-15",
   "goal": 35000,
   "laun": "2014-05-01 02:30:27",
-  "pled": 5,
+  "pledged": 5,
   "state": "failed",
   "backers": 1,
   "country": "CA"
@@ -6827,7 +6827,7 @@ dataJSON = [{
   "dl": "2013-07-27",
   "goal": 15000,
   "laun": "2013-07-02 20:59:09",
-  "pled": 3046,
+  "pledged": 3046,
   "state": "failed",
   "backers": 28,
   "country": "US"
@@ -6839,7 +6839,7 @@ dataJSON = [{
   "dl": "2016-01-01",
   "goal": 30000,
   "laun": "2015-12-02 09:15:45",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -6851,7 +6851,7 @@ dataJSON = [{
   "dl": "2014-08-17",
   "goal": 20000,
   "laun": "2014-07-18 19:53:16",
-  "pled": 170,
+  "pledged": 170,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -6863,7 +6863,7 @@ dataJSON = [{
   "dl": "2014-08-08",
   "goal": 25,
   "laun": "2014-07-09 00:54:25",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -6875,7 +6875,7 @@ dataJSON = [{
   "dl": "2017-06-29",
   "goal": 600,
   "laun": "2017-06-14 21:09:18",
-  "pled": 660,
+  "pledged": 660,
   "state": "successful",
   "backers": 25,
   "country": "US"
@@ -6887,7 +6887,7 @@ dataJSON = [{
   "dl": "2016-09-14",
   "goal": 700000,
   "laun": "2016-07-16 04:37:55",
-  "pled": 487,
+  "pledged": 487,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -6899,7 +6899,7 @@ dataJSON = [{
   "dl": "2015-10-31",
   "goal": 5000,
   "laun": "2015-10-01 17:05:46",
-  "pled": 1776,
+  "pledged": 1776,
   "state": "failed",
   "backers": 16,
   "country": "CA"
@@ -6911,7 +6911,7 @@ dataJSON = [{
   "dl": "2013-06-28",
   "goal": 10000,
   "laun": "2013-05-14 20:01:30",
-  "pled": 215,
+  "pledged": 215,
   "state": "failed",
   "backers": 9,
   "country": "US"
@@ -6923,7 +6923,7 @@ dataJSON = [{
   "dl": "2010-07-19",
   "goal": 5000,
   "laun": "2010-06-18 07:56:23",
-  "pled": 5971,
+  "pledged": 5971,
   "state": "successful",
   "backers": 119,
   "country": "US"
@@ -6935,7 +6935,7 @@ dataJSON = [{
   "dl": "2012-10-08",
   "goal": 20000,
   "laun": "2012-09-25 01:26:34",
-  "pled": 20000,
+  "pledged": 20000,
   "state": "successful",
   "backers": 68,
   "country": "US"
@@ -6947,7 +6947,7 @@ dataJSON = [{
   "dl": "2015-05-22",
   "goal": 10000,
   "laun": "2015-04-27 18:42:12",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -6959,7 +6959,7 @@ dataJSON = [{
   "dl": "2013-10-05",
   "goal": 1500,
   "laun": "2013-09-05 17:39:30",
-  "pled": 22,
+  "pledged": 22,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -6971,7 +6971,7 @@ dataJSON = [{
   "dl": "2015-03-13",
   "goal": 6600,
   "laun": "2015-02-10 09:27:03",
-  "pled": 353,
+  "pledged": 353,
   "state": "canceled",
   "backers": 16,
   "country": "US"
@@ -6983,7 +6983,7 @@ dataJSON = [{
   "dl": "2017-05-10",
   "goal": 500,
   "laun": "2017-03-18 22:00:49",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "DE"
@@ -6995,7 +6995,7 @@ dataJSON = [{
   "dl": "2014-10-01",
   "goal": 15000,
   "laun": "2014-09-01 16:06:27",
-  "pled": 2235,
+  "pledged": 2235,
   "state": "failed",
   "backers": 22,
   "country": "GB"
@@ -7007,7 +7007,7 @@ dataJSON = [{
   "dl": "2013-10-11",
   "goal": 4000,
   "laun": "2013-09-11 00:17:39",
-  "pled": 75,
+  "pledged": 75,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -7019,7 +7019,7 @@ dataJSON = [{
   "dl": "2012-01-30",
   "goal": 10000,
   "laun": "2011-12-26 17:56:24",
-  "pled": 15660.02,
+  "pledged": 15660.02,
   "state": "successful",
   "backers": 217,
   "country": "US"
@@ -7031,7 +7031,7 @@ dataJSON = [{
   "dl": "2015-06-18",
   "goal": 150,
   "laun": "2015-05-24 21:41:30",
-  "pled": 178,
+  "pledged": 178,
   "state": "successful",
   "backers": 26,
   "country": "US"
@@ -7043,7 +7043,7 @@ dataJSON = [{
   "dl": "2014-09-15",
   "goal": 635,
   "laun": "2014-08-01 23:33:53",
-  "pled": 367,
+  "pledged": 367,
   "state": "failed",
   "backers": 19,
   "country": "US"
@@ -7055,7 +7055,7 @@ dataJSON = [{
   "dl": "2011-01-27",
   "goal": 2000,
   "laun": "2010-12-18 01:09:33",
-  "pled": 235,
+  "pledged": 235,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -7067,7 +7067,7 @@ dataJSON = [{
   "dl": "2016-04-30",
   "goal": 400,
   "laun": "2016-03-31 21:29:12",
-  "pled": 46,
+  "pledged": 46,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -7079,7 +7079,7 @@ dataJSON = [{
   "dl": "2011-12-16",
   "goal": 450,
   "laun": "2011-12-06 17:36:34",
-  "pled": 550.23,
+  "pledged": 550.23,
   "state": "successful",
   "backers": 31,
   "country": "US"
@@ -7091,7 +7091,7 @@ dataJSON = [{
   "dl": "2014-10-10",
   "goal": 108000,
   "laun": "2014-09-10 13:15:43",
-  "pled": 802812.9,
+  "pledged": 802812.9,
   "state": "successful",
   "backers": 6718,
   "country": "US"
@@ -7103,7 +7103,7 @@ dataJSON = [{
   "dl": "2015-10-07",
   "goal": 300000,
   "laun": "2015-08-28 08:06:47",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "IT"
@@ -7115,7 +7115,7 @@ dataJSON = [{
   "dl": "2013-05-06",
   "goal": 10000,
   "laun": "2013-04-15 22:24:35",
-  "pled": 25,
+  "pledged": 25,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -7127,7 +7127,7 @@ dataJSON = [{
   "dl": "2010-08-06",
   "goal": 3000,
   "laun": "2010-06-23 06:00:11",
-  "pled": 3230,
+  "pledged": 3230,
   "state": "successful",
   "backers": 49,
   "country": "US"
@@ -7139,7 +7139,7 @@ dataJSON = [{
   "dl": "2012-02-24",
   "goal": 5000,
   "laun": "2012-01-25 05:52:31",
-  "pled": 5136,
+  "pledged": 5136,
   "state": "successful",
   "backers": 69,
   "country": "US"
@@ -7151,7 +7151,7 @@ dataJSON = [{
   "dl": "2017-07-16",
   "goal": 1000,
   "laun": "2017-06-25 17:07:44",
-  "pled": 6497,
+  "pledged": 6497,
   "state": "successful",
   "backers": 259,
   "country": "GB"
@@ -7163,7 +7163,7 @@ dataJSON = [{
   "dl": "2016-05-25",
   "goal": 125000,
   "laun": "2016-04-25 18:09:55",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "ES"
@@ -7175,7 +7175,7 @@ dataJSON = [{
   "dl": "2014-05-27",
   "goal": 18000,
   "laun": "2014-05-06 14:41:23",
-  "pled": 615,
+  "pledged": 615,
   "state": "canceled",
   "backers": 2,
   "country": "CA"
@@ -7187,7 +7187,7 @@ dataJSON = [{
   "dl": "2014-09-30",
   "goal": 20,
   "laun": "2014-09-05 18:10:42",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -7199,7 +7199,7 @@ dataJSON = [{
   "dl": "2014-05-17",
   "goal": 8000,
   "laun": "2014-04-21 21:52:55",
-  "pled": 8562,
+  "pledged": 8562,
   "state": "undefined",
   "backers": 0,
   "country": "N,0"
@@ -7211,7 +7211,7 @@ dataJSON = [{
   "dl": "2014-05-06",
   "goal": 4000,
   "laun": "2014-03-07 20:50:50",
-  "pled": 1218.5,
+  "pledged": 1218.5,
   "state": "failed",
   "backers": 17,
   "country": "US"
@@ -7223,7 +7223,7 @@ dataJSON = [{
   "dl": "2016-02-09",
   "goal": 15000,
   "laun": "2016-01-10 22:55:06",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -7235,7 +7235,7 @@ dataJSON = [{
   "dl": "2014-09-20",
   "goal": 1500,
   "laun": "2014-09-04 16:31:33",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -7247,7 +7247,7 @@ dataJSON = [{
   "dl": "2017-02-05",
   "goal": 85000,
   "laun": "2017-01-06 23:34:03",
-  "pled": 85300,
+  "pledged": 85300,
   "state": "successful",
   "backers": 56,
   "country": "MX"
@@ -7259,7 +7259,7 @@ dataJSON = [{
   "dl": "2013-04-28",
   "goal": 25000,
   "laun": "2013-03-28 23:47:24",
-  "pled": 50,
+  "pledged": 50,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -7271,7 +7271,7 @@ dataJSON = [{
   "dl": "2016-12-25",
   "goal": 5000,
   "laun": "2016-11-25 18:01:45",
-  "pled": 15954,
+  "pledged": 15954,
   "state": "successful",
   "backers": 236,
   "country": "CA"
@@ -7283,7 +7283,7 @@ dataJSON = [{
   "dl": "2015-06-03",
   "goal": 20000,
   "laun": "2015-05-04 23:57:14",
-  "pled": 20,
+  "pledged": 20,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -7295,7 +7295,7 @@ dataJSON = [{
   "dl": "2015-06-01",
   "goal": 3000,
   "laun": "2015-05-01 15:32:12",
-  "pled": 6060,
+  "pledged": 6060,
   "state": "successful",
   "backers": 66,
   "country": "US"
@@ -7307,7 +7307,7 @@ dataJSON = [{
   "dl": "2014-09-30",
   "goal": 6250,
   "laun": "2014-09-04 14:33:00",
-  "pled": 8876,
+  "pledged": 8876,
   "state": "successful",
   "backers": 170,
   "country": "US"
@@ -7319,7 +7319,7 @@ dataJSON = [{
   "dl": "2014-09-10",
   "goal": 20000,
   "laun": "2014-08-11 23:35:07",
-  "pled": 35,
+  "pledged": 35,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -7331,7 +7331,7 @@ dataJSON = [{
   "dl": "2015-05-29",
   "goal": 13500,
   "laun": "2015-04-29 18:20:26",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -7343,7 +7343,7 @@ dataJSON = [{
   "dl": "2014-11-20",
   "goal": 20000,
   "laun": "2014-10-21 22:24:04",
-  "pled": 23853.16,
+  "pledged": 23853.16,
   "state": "successful",
   "backers": 745,
   "country": "US"
@@ -7355,7 +7355,7 @@ dataJSON = [{
   "dl": "2014-07-25",
   "goal": 5000,
   "laun": "2014-07-11 23:21:46",
-  "pled": 2002,
+  "pledged": 2002,
   "state": "canceled",
   "backers": 23,
   "country": "US"
@@ -7367,7 +7367,7 @@ dataJSON = [{
   "dl": "2016-07-08",
   "goal": 1100,
   "laun": "2016-06-13 23:54:13",
-  "pled": 50,
+  "pledged": 50,
   "state": "failed",
   "backers": 1,
   "country": "FR"
@@ -7379,7 +7379,7 @@ dataJSON = [{
   "dl": "2017-11-19",
   "goal": 10000,
   "laun": "2017-10-20 16:40:16",
-  "pled": 358,
+  "pledged": 358,
   "state": "failed",
   "backers": 13,
   "country": "GB"
@@ -7391,7 +7391,7 @@ dataJSON = [{
   "dl": "2013-05-10",
   "goal": 10000,
   "laun": "2013-04-10 20:40:36",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -7403,7 +7403,7 @@ dataJSON = [{
   "dl": "2012-09-14",
   "goal": 40000,
   "laun": "2012-08-15 07:30:58",
-  "pled": 42581.01,
+  "pledged": 42581.01,
   "state": "successful",
   "backers": 177,
   "country": "US"
@@ -7415,7 +7415,7 @@ dataJSON = [{
   "dl": "2014-03-03",
   "goal": 25000,
   "laun": "2014-02-01 06:44:00",
-  "pled": 75,
+  "pledged": 75,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -7427,7 +7427,7 @@ dataJSON = [{
   "dl": "2017-09-23",
   "goal": 400,
   "laun": "2017-08-29 23:09:19",
-  "pled": 219,
+  "pledged": 219,
   "state": "failed",
   "backers": 14,
   "country": "NL"
@@ -7439,7 +7439,7 @@ dataJSON = [{
   "dl": "2015-06-13",
   "goal": 650,
   "laun": "2015-05-12 08:29:56",
-  "pled": 760,
+  "pledged": 760,
   "state": "successful",
   "backers": 15,
   "country": "US"
@@ -7451,7 +7451,7 @@ dataJSON = [{
   "dl": "2014-08-23",
   "goal": 3500,
   "laun": "2014-07-24 09:08:35",
-  "pled": 635,
+  "pledged": 635,
   "state": "failed",
   "backers": 6,
   "country": "GB"
@@ -7463,7 +7463,7 @@ dataJSON = [{
   "dl": "2016-10-21",
   "goal": 35000,
   "laun": "2016-09-21 23:08:34",
-  "pled": 296,
+  "pledged": 296,
   "state": "failed",
   "backers": 7,
   "country": "GB"
@@ -7475,7 +7475,7 @@ dataJSON = [{
   "dl": "2017-05-11",
   "goal": 15000,
   "laun": "2017-03-27 03:02:35",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -7487,7 +7487,7 @@ dataJSON = [{
   "dl": "2014-12-26",
   "goal": 2000,
   "laun": "2014-11-26 20:36:07",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "GB"
@@ -7499,7 +7499,7 @@ dataJSON = [{
   "dl": "2014-10-04",
   "goal": 3000,
   "laun": "2014-09-04 18:17:34",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -7511,7 +7511,7 @@ dataJSON = [{
   "dl": "2015-12-11",
   "goal": 30000,
   "laun": "2015-11-11 16:09:56",
-  "pled": 14900,
+  "pledged": 14900,
   "state": "failed",
   "backers": 164,
   "country": "US"
@@ -7523,7 +7523,7 @@ dataJSON = [{
   "dl": "2013-04-12",
   "goal": 5500,
   "laun": "2013-03-22 22:19:17",
-  "pled": 5895,
+  "pledged": 5895,
   "state": "successful",
   "backers": 72,
   "country": "US"
@@ -7535,7 +7535,7 @@ dataJSON = [{
   "dl": "2014-12-06",
   "goal": 30000,
   "laun": "2014-10-22 14:04:54",
-  "pled": 7778,
+  "pledged": 7778,
   "state": "failed",
   "backers": 30,
   "country": "CA"
@@ -7547,7 +7547,7 @@ dataJSON = [{
   "dl": "2015-01-06",
   "goal": 11000,
   "laun": "2014-11-07 20:06:12",
-  "pled": 531,
+  "pledged": 531,
   "state": "failed",
   "backers": 12,
   "country": "US"
@@ -7559,7 +7559,7 @@ dataJSON = [{
   "dl": "2011-10-28",
   "goal": 10000,
   "laun": "2011-09-15 03:17:46",
-  "pled": 1481,
+  "pledged": 1481,
   "state": "failed",
   "backers": 22,
   "country": "US"
@@ -7571,7 +7571,7 @@ dataJSON = [{
   "dl": "2014-05-30",
   "goal": 1000,
   "laun": "2014-04-15 23:00:35",
-  "pled": 141,
+  "pledged": 141,
   "state": "failed",
   "backers": 6,
   "country": "AU"
@@ -7583,7 +7583,7 @@ dataJSON = [{
   "dl": "2016-12-10",
   "goal": 20000,
   "laun": "2016-11-10 23:02:49",
-  "pled": 40,
+  "pledged": 40,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -7595,7 +7595,7 @@ dataJSON = [{
   "dl": "2016-05-25",
   "goal": 1500,
   "laun": "2016-04-14 15:32:09",
-  "pled": 2046,
+  "pledged": 2046,
   "state": "successful",
   "backers": 32,
   "country": "US"
@@ -7607,7 +7607,7 @@ dataJSON = [{
   "dl": "2013-01-31",
   "goal": 2000,
   "laun": "2013-01-13 20:54:12",
-  "pled": 3127,
+  "pledged": 3127,
   "state": "successful",
   "backers": 60,
   "country": "GB"
@@ -7619,7 +7619,7 @@ dataJSON = [{
   "dl": "2013-04-21",
   "goal": 3500,
   "laun": "2013-03-22 14:01:39",
-  "pled": 3838,
+  "pledged": 3838,
   "state": "successful",
   "backers": 112,
   "country": "US"
@@ -7631,7 +7631,7 @@ dataJSON = [{
   "dl": "2017-03-12",
   "goal": 10000,
   "laun": "2017-02-20 00:10:31",
-  "pled": 1296,
+  "pledged": 1296,
   "state": "failed",
   "backers": 44,
   "country": "US"
@@ -7643,7 +7643,7 @@ dataJSON = [{
   "dl": "2012-08-16",
   "goal": 7900,
   "laun": "2012-07-17 18:56:51",
-  "pled": 105,
+  "pledged": 105,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -7655,7 +7655,7 @@ dataJSON = [{
   "dl": "2016-04-29",
   "goal": 50000,
   "laun": "2016-03-30 18:39:34",
-  "pled": 5528,
+  "pledged": 5528,
   "state": "failed",
   "backers": 58,
   "country": "US"
@@ -7667,7 +7667,7 @@ dataJSON = [{
   "dl": "2014-01-18",
   "goal": 5000,
   "laun": "2013-12-04 03:34:42",
-  "pled": 55,
+  "pledged": 55,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -7679,7 +7679,7 @@ dataJSON = [{
   "dl": "2014-07-25",
   "goal": 50000,
   "laun": "2014-06-26 08:19:05",
-  "pled": 988,
+  "pledged": 988,
   "state": "canceled",
   "backers": 26,
   "country": "AU"
@@ -7691,7 +7691,7 @@ dataJSON = [{
   "dl": "2012-06-04",
   "goal": 250000,
   "laun": "2012-04-05 06:34:31",
-  "pled": 6808.51,
+  "pledged": 6808.51,
   "state": "failed",
   "backers": 313,
   "country": "US"
@@ -7703,7 +7703,7 @@ dataJSON = [{
   "dl": "2017-07-21",
   "goal": 4000,
   "laun": "2017-06-21 22:45:43",
-  "pled": 100,
+  "pledged": 100,
   "state": "failed",
   "backers": 1,
   "country": "MX"
@@ -7715,7 +7715,7 @@ dataJSON = [{
   "dl": "2013-06-20",
   "goal": 3500,
   "laun": "2013-05-16 03:02:45",
-  "pled": 4033,
+  "pledged": 4033,
   "state": "successful",
   "backers": 47,
   "country": "US"
@@ -7727,7 +7727,7 @@ dataJSON = [{
   "dl": "2012-03-21",
   "goal": 9500,
   "laun": "2012-02-20 01:35:50",
-  "pled": 27544,
+  "pledged": 27544,
   "state": "successful",
   "backers": 723,
   "country": "US"
@@ -7739,7 +7739,7 @@ dataJSON = [{
   "dl": "2012-12-15",
   "goal": 5700,
   "laun": "2012-11-13 21:09:12",
-  "pled": 877,
+  "pledged": 877,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -7751,7 +7751,7 @@ dataJSON = [{
   "dl": "2016-08-25",
   "goal": 12164,
   "laun": "2016-07-26 20:24:30",
-  "pled": 101,
+  "pledged": 101,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -7763,7 +7763,7 @@ dataJSON = [{
   "dl": "2016-04-29",
   "goal": 3000,
   "laun": "2016-03-11 00:09:05",
-  "pled": 362,
+  "pledged": 362,
   "state": "failed",
   "backers": 18,
   "country": "GB"
@@ -7775,7 +7775,7 @@ dataJSON = [{
   "dl": "2011-05-03",
   "goal": 700,
   "laun": "2011-04-05 22:00:40",
-  "pled": 747,
+  "pledged": 747,
   "state": "successful",
   "backers": 26,
   "country": "US"
@@ -7787,7 +7787,7 @@ dataJSON = [{
   "dl": "2015-07-27",
   "goal": 70000,
   "laun": "2015-05-28 18:15:28",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -7799,7 +7799,7 @@ dataJSON = [{
   "dl": "2014-10-13",
   "goal": 2000,
   "laun": "2014-09-13 13:20:52",
-  "pled": 2229.5,
+  "pledged": 2229.5,
   "state": "successful",
   "backers": 107,
   "country": "GB"
@@ -7811,7 +7811,7 @@ dataJSON = [{
   "dl": "2011-05-03",
   "goal": 20000,
   "laun": "2011-03-22 19:22:16",
-  "pled": 160,
+  "pledged": 160,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -7823,7 +7823,7 @@ dataJSON = [{
   "dl": "2016-08-09",
   "goal": 2500,
   "laun": "2016-06-10 22:27:10",
-  "pled": 711,
+  "pledged": 711,
   "state": "failed",
   "backers": 12,
   "country": "IT"
@@ -7835,7 +7835,7 @@ dataJSON = [{
   "dl": "2010-08-14",
   "goal": 2000,
   "laun": "2010-06-10 05:41:00",
-  "pled": 2280.54,
+  "pledged": 2280.54,
   "state": "successful",
   "backers": 54,
   "country": "US"
@@ -7847,7 +7847,7 @@ dataJSON = [{
   "dl": "2014-06-24",
   "goal": 3000,
   "laun": "2014-04-25 14:29:47",
-  "pled": 3001,
+  "pledged": 3001,
   "state": "successful",
   "backers": 63,
   "country": "US"
@@ -7859,7 +7859,7 @@ dataJSON = [{
   "dl": "2012-05-05",
   "goal": 10000,
   "laun": "2012-04-05 22:11:13",
-  "pled": 5171,
+  "pledged": 5171,
   "state": "failed",
   "backers": 43,
   "country": "US"
@@ -7871,7 +7871,7 @@ dataJSON = [{
   "dl": "2015-12-30",
   "goal": 6000,
   "laun": "2015-11-19 16:32:10",
-  "pled": 2240,
+  "pledged": 2240,
   "state": "failed",
   "backers": 28,
   "country": "US"
@@ -7883,7 +7883,7 @@ dataJSON = [{
   "dl": "2015-11-05",
   "goal": 600,
   "laun": "2015-10-06 09:51:47",
-  "pled": 58,
+  "pledged": 58,
   "state": "canceled",
   "backers": 3,
   "country": "IT"
@@ -7895,7 +7895,7 @@ dataJSON = [{
   "dl": "2016-11-26",
   "goal": 20000,
   "laun": "2016-10-26 08:48:57",
-  "pled": 20238,
+  "pledged": 20238,
   "state": "successful",
   "backers": 150,
   "country": "US"
@@ -7907,7 +7907,7 @@ dataJSON = [{
   "dl": "2012-06-18",
   "goal": 1000,
   "laun": "2012-05-18 16:37:24",
-  "pled": 1657,
+  "pledged": 1657,
   "state": "successful",
   "backers": 61,
   "country": "US"
@@ -7919,7 +7919,7 @@ dataJSON = [{
   "dl": "2015-06-26",
   "goal": 3500,
   "laun": "2015-06-16 00:17:53",
-  "pled": 1209,
+  "pledged": 1209,
   "state": "failed",
   "backers": 14,
   "country": "US"
@@ -7931,7 +7931,7 @@ dataJSON = [{
   "dl": "2014-06-22",
   "goal": 2000,
   "laun": "2014-05-23 18:56:42",
-  "pled": 705,
+  "pledged": 705,
   "state": "failed",
   "backers": 14,
   "country": "GB"
@@ -7943,7 +7943,7 @@ dataJSON = [{
   "dl": "2014-09-24",
   "goal": 40000,
   "laun": "2014-09-04 14:41:03",
-  "pled": 100,
+  "pledged": 100,
   "state": "failed",
   "backers": 1,
   "country": "CA"
@@ -7955,7 +7955,7 @@ dataJSON = [{
   "dl": "2011-07-11",
   "goal": 2750,
   "laun": "2011-06-11 21:23:37",
-  "pled": 3025,
+  "pledged": 3025,
   "state": "successful",
   "backers": 32,
   "country": "US"
@@ -7967,7 +7967,7 @@ dataJSON = [{
   "dl": "2017-07-07",
   "goal": 450,
   "laun": "2017-06-07 15:55:18",
-  "pled": 0,
+  "pledged": 0,
   "state": "suspended",
   "backers": 0,
   "country": "US"
@@ -7979,7 +7979,7 @@ dataJSON = [{
   "dl": "2012-11-15",
   "goal": 10000,
   "laun": "2012-10-16 17:40:38",
-  "pled": 1123,
+  "pledged": 1123,
   "state": "failed",
   "backers": 11,
   "country": "US"
@@ -7991,7 +7991,7 @@ dataJSON = [{
   "dl": "2015-07-01",
   "goal": 10000,
   "laun": "2015-05-05 21:48:35",
-  "pled": 650,
+  "pledged": 650,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -8003,7 +8003,7 @@ dataJSON = [{
   "dl": "2016-07-14",
   "goal": 6600,
   "laun": "2016-06-14 10:55:22",
-  "pled": 122,
+  "pledged": 122,
   "state": "failed",
   "backers": 4,
   "country": "AU"
@@ -8015,7 +8015,7 @@ dataJSON = [{
   "dl": "2015-07-10",
   "goal": 7500,
   "laun": "2015-06-10 13:22:18",
-  "pled": 110,
+  "pledged": 110,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -8027,7 +8027,7 @@ dataJSON = [{
   "dl": "2016-11-20",
   "goal": 45000,
   "laun": "2016-10-09 22:18:20",
-  "pled": 1520,
+  "pledged": 1520,
   "state": "failed",
   "backers": 14,
   "country": "DE"
@@ -8039,7 +8039,7 @@ dataJSON = [{
   "dl": "2012-11-08",
   "goal": 850,
   "laun": "2012-10-09 19:55:15",
-  "pled": 870,
+  "pledged": 870,
   "state": "successful",
   "backers": 23,
   "country": "US"
@@ -8051,7 +8051,7 @@ dataJSON = [{
   "dl": "2013-12-26",
   "goal": 4000,
   "laun": "2013-12-03 18:46:47",
-  "pled": 4118,
+  "pledged": 4118,
   "state": "successful",
   "backers": 25,
   "country": "CA"
@@ -8063,7 +8063,7 @@ dataJSON = [{
   "dl": "2015-05-08",
   "goal": 4000,
   "laun": "2015-03-09 18:16:45",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "NL"
@@ -8075,7 +8075,7 @@ dataJSON = [{
   "dl": "2014-08-15",
   "goal": 10,
   "laun": "2014-07-16 00:49:00",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -8087,7 +8087,7 @@ dataJSON = [{
   "dl": "2012-07-13",
   "goal": 50000,
   "laun": "2012-06-13 20:24:26",
-  "pled": 26,
+  "pledged": 26,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -8099,7 +8099,7 @@ dataJSON = [{
   "dl": "2014-09-20",
   "goal": 2000,
   "laun": "2014-08-21 04:15:14",
-  "pled": 25,
+  "pledged": 25,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -8111,7 +8111,7 @@ dataJSON = [{
   "dl": "2016-11-05",
   "goal": 10000,
   "laun": "2016-09-22 00:47:19",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -8123,7 +8123,7 @@ dataJSON = [{
   "dl": "2016-04-22",
   "goal": 12000,
   "laun": "2016-03-08 00:59:50",
-  "pled": 225,
+  "pledged": 225,
   "state": "failed",
   "backers": 5,
   "country": "CA"
@@ -8135,7 +8135,7 @@ dataJSON = [{
   "dl": "2012-12-21",
   "goal": 1000,
   "laun": "2012-10-22 00:22:47",
-  "pled": 75,
+  "pledged": 75,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -8147,7 +8147,7 @@ dataJSON = [{
   "dl": "2015-10-05",
   "goal": 150000,
   "laun": "2015-08-06 03:22:15",
-  "pled": 2,
+  "pledged": 2,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -8159,7 +8159,7 @@ dataJSON = [{
   "dl": "2014-05-01",
   "goal": 8000,
   "laun": "2014-03-31 17:15:15",
-  "pled": 10170.52,
+  "pledged": 10170.52,
   "state": "successful",
   "backers": 153,
   "country": "US"
@@ -8171,7 +8171,7 @@ dataJSON = [{
   "dl": "2016-05-13",
   "goal": 3500,
   "laun": "2016-04-13 23:00:08",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "GB"
@@ -8183,7 +8183,7 @@ dataJSON = [{
   "dl": "2014-04-24",
   "goal": 3500,
   "laun": "2014-03-25 17:25:41",
-  "pled": 5707.5,
+  "pledged": 5707.5,
   "state": "successful",
   "backers": 217,
   "country": "US"
@@ -8195,7 +8195,7 @@ dataJSON = [{
   "dl": "2015-11-25",
   "goal": 8500,
   "laun": "2015-10-26 17:53:30",
-  "pled": 31,
+  "pledged": 31,
   "state": "failed",
   "backers": 2,
   "country": "CA"
@@ -8207,7 +8207,7 @@ dataJSON = [{
   "dl": "2015-11-08",
   "goal": 5000,
   "laun": "2015-10-09 20:16:46",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "GB"
@@ -8219,7 +8219,7 @@ dataJSON = [{
   "dl": "2014-11-06",
   "goal": 47,
   "laun": "2014-10-07 18:28:05",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -8231,7 +8231,7 @@ dataJSON = [{
   "dl": "2016-11-13",
   "goal": 1000,
   "laun": "2016-10-07 01:12:07",
-  "pled": 2280,
+  "pledged": 2280,
   "state": "successful",
   "backers": 36,
   "country": "US"
@@ -8243,7 +8243,7 @@ dataJSON = [{
   "dl": "2016-04-24",
   "goal": 1000,
   "laun": "2016-03-25 06:51:13",
-  "pled": 91,
+  "pledged": 91,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -8255,7 +8255,7 @@ dataJSON = [{
   "dl": "2014-08-17",
   "goal": 3000,
   "laun": "2014-07-18 04:26:49",
-  "pled": 400,
+  "pledged": 400,
   "state": "failed",
   "backers": 12,
   "country": "US"
@@ -8267,7 +8267,7 @@ dataJSON = [{
   "dl": "2018-01-10",
   "goal": 4000,
   "laun": "2017-12-10 23:32:09",
-  "pled": 125,
+  "pledged": 125,
   "state": "canceled",
   "backers": 6,
   "country": "GB"
@@ -8279,7 +8279,7 @@ dataJSON = [{
   "dl": "2017-12-02",
   "goal": 10000,
   "laun": "2017-11-02 13:42:51",
-  "pled": 635,
+  "pledged": 635,
   "state": "failed",
   "backers": 8,
   "country": "FR"
@@ -8291,7 +8291,7 @@ dataJSON = [{
   "dl": "2012-07-14",
   "goal": 50000,
   "laun": "2012-06-14 22:29:39",
-  "pled": 96772.71,
+  "pledged": 96772.71,
   "state": "successful",
   "backers": 1724,
   "country": "US"
@@ -8303,7 +8303,7 @@ dataJSON = [{
   "dl": "2014-08-16",
   "goal": 300,
   "laun": "2014-07-07 20:11:49",
-  "pled": 560,
+  "pledged": 560,
   "state": "successful",
   "backers": 13,
   "country": "US"
@@ -8315,7 +8315,7 @@ dataJSON = [{
   "dl": "2011-05-15",
   "goal": 3500,
   "laun": "2011-04-05 09:20:58",
-  "pled": 90,
+  "pledged": 90,
   "state": "canceled",
   "backers": 4,
   "country": "US"
@@ -8327,7 +8327,7 @@ dataJSON = [{
   "dl": "2015-05-20",
   "goal": 25000,
   "laun": "2015-04-20 22:59:23",
-  "pled": 126,
+  "pledged": 126,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -8339,7 +8339,7 @@ dataJSON = [{
   "dl": "2014-08-07",
   "goal": 3000,
   "laun": "2014-07-08 06:23:31",
-  "pled": 25,
+  "pledged": 25,
   "state": "failed",
   "backers": 1,
   "country": "AU"
@@ -8351,7 +8351,7 @@ dataJSON = [{
   "dl": "2012-07-07",
   "goal": 500,
   "laun": "2012-06-03 23:59:01",
-  "pled": 595,
+  "pledged": 595,
   "state": "successful",
   "backers": 16,
   "country": "US"
@@ -8363,7 +8363,7 @@ dataJSON = [{
   "dl": "2017-01-09",
   "goal": 25000,
   "laun": "2016-12-10 19:48:03",
-  "pled": 175,
+  "pledged": 175,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -8375,7 +8375,7 @@ dataJSON = [{
   "dl": "2016-04-18",
   "goal": 15000,
   "laun": "2016-03-19 02:57:37",
-  "pled": 34724,
+  "pledged": 34724,
   "state": "successful",
   "backers": 256,
   "country": "US"
@@ -8387,7 +8387,7 @@ dataJSON = [{
   "dl": "2015-12-06",
   "goal": 2000,
   "laun": "2015-11-06 17:11:47",
-  "pled": 10,
+  "pledged": 10,
   "state": "canceled",
   "backers": 1,
   "country": "GB"
@@ -8399,7 +8399,7 @@ dataJSON = [{
   "dl": "2012-03-02",
   "goal": 32000,
   "laun": "2012-01-02 20:23:57",
-  "pled": 445,
+  "pledged": 445,
   "state": "failed",
   "backers": 10,
   "country": "US"
@@ -8411,7 +8411,7 @@ dataJSON = [{
   "dl": "2015-10-14",
   "goal": 3000,
   "laun": "2015-08-25 15:21:51",
-  "pled": 3256,
+  "pledged": 3256,
   "state": "successful",
   "backers": 38,
   "country": "US"
@@ -8423,7 +8423,7 @@ dataJSON = [{
   "dl": "2017-06-09",
   "goal": 10000,
   "laun": "2017-05-10 23:59:22",
-  "pled": 1377,
+  "pledged": 1377,
   "state": "canceled",
   "backers": 19,
   "country": "US"
@@ -8435,7 +8435,7 @@ dataJSON = [{
   "dl": "2013-09-10",
   "goal": 8000,
   "laun": "2013-08-01 19:14:15",
-  "pled": 6,
+  "pledged": 6,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -8447,7 +8447,7 @@ dataJSON = [{
   "dl": "2015-02-15",
   "goal": 1000,
   "laun": "2014-12-17 04:03:03",
-  "pled": 1101,
+  "pledged": 1101,
   "state": "successful",
   "backers": 11,
   "country": "US"
@@ -8459,7 +8459,7 @@ dataJSON = [{
   "dl": "2014-04-09",
   "goal": 500,
   "laun": "2014-03-10 17:41:03",
-  "pled": 516,
+  "pledged": 516,
   "state": "successful",
   "backers": 19,
   "country": "GB"
@@ -8471,7 +8471,7 @@ dataJSON = [{
   "dl": "2017-06-16",
   "goal": 50000,
   "laun": "2017-05-17 13:50:32",
-  "pled": 0,
+  "pledged": 0,
   "state": "suspended",
   "backers": 0,
   "country": "US"
@@ -8483,7 +8483,7 @@ dataJSON = [{
   "dl": "2013-09-05",
   "goal": 14000,
   "laun": "2013-08-06 07:00:01",
-  "pled": 166097.62,
+  "pledged": 166097.62,
   "state": "successful",
   "backers": 303,
   "country": "US"
@@ -8495,7 +8495,7 @@ dataJSON = [{
   "dl": "2011-03-22",
   "goal": 9500,
   "laun": "2011-02-20 03:17:36",
-  "pled": 85,
+  "pledged": 85,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -8507,7 +8507,7 @@ dataJSON = [{
   "dl": "2017-12-10",
   "goal": 20000,
   "laun": "2017-11-22 12:43:10",
-  "pled": 20450,
+  "pledged": 20450,
   "state": "successful",
   "backers": 7,
   "country": "NO"
@@ -8519,7 +8519,7 @@ dataJSON = [{
   "dl": "2017-08-31",
   "goal": 40000,
   "laun": "2017-07-08 06:41:44",
-  "pled": 2010,
+  "pledged": 2010,
   "state": "failed",
   "backers": 7,
   "country": "US"
@@ -8531,7 +8531,7 @@ dataJSON = [{
   "dl": "2013-07-15",
   "goal": 16000,
   "laun": "2013-07-01 21:04:58",
-  "pled": 16993,
+  "pledged": 16993,
   "state": "successful",
   "backers": 184,
   "country": "US"
@@ -8543,7 +8543,7 @@ dataJSON = [{
   "dl": "2015-02-16",
   "goal": 1000,
   "laun": "2015-01-17 21:30:01",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -8555,7 +8555,7 @@ dataJSON = [{
   "dl": "2016-11-20",
   "goal": 125,
   "laun": "2016-11-02 12:51:10",
-  "pled": 126,
+  "pledged": 126,
   "state": "successful",
   "backers": 8,
   "country": "GB"
@@ -8567,7 +8567,7 @@ dataJSON = [{
   "dl": "2010-08-31",
   "goal": 1500,
   "laun": "2010-08-13 21:36:12",
-  "pled": 1550,
+  "pledged": 1550,
   "state": "successful",
   "backers": 37,
   "country": "US"
@@ -8579,7 +8579,7 @@ dataJSON = [{
   "dl": "2016-06-20",
   "goal": 2500,
   "laun": "2016-05-21 15:51:57",
-  "pled": 422,
+  "pledged": 422,
   "state": "canceled",
   "backers": 6,
   "country": "CA"
@@ -8591,7 +8591,7 @@ dataJSON = [{
   "dl": "2016-12-15",
   "goal": 2500,
   "laun": "2016-11-15 14:46:17",
-  "pled": 405,
+  "pledged": 405,
   "state": "canceled",
   "backers": 8,
   "country": "US"
@@ -8603,7 +8603,7 @@ dataJSON = [{
   "dl": "2010-10-11",
   "goal": 4000,
   "laun": "2010-08-09 00:39:16",
-  "pled": 4889,
+  "pledged": 4889,
   "state": "successful",
   "backers": 145,
   "country": "US"
@@ -8615,7 +8615,7 @@ dataJSON = [{
   "dl": "2018-01-03",
   "goal": 9000,
   "laun": "2017-11-04 09:25:49",
-  "pled": 5,
+  "pledged": 5,
   "state": "live",
   "backers": 1,
   "country": "ES"
@@ -8627,7 +8627,7 @@ dataJSON = [{
   "dl": "2014-07-12",
   "goal": 4500,
   "laun": "2014-06-16 23:29:57",
-  "pled": 380,
+  "pledged": 380,
   "state": "failed",
   "backers": 9,
   "country": "US"
@@ -8639,7 +8639,7 @@ dataJSON = [{
   "dl": "2014-08-09",
   "goal": 2500,
   "laun": "2014-07-06 01:33:40",
-  "pled": 2036,
+  "pledged": 2036,
   "state": "failed",
   "backers": 75,
   "country": "GB"
@@ -8651,7 +8651,7 @@ dataJSON = [{
   "dl": "2017-02-19",
   "goal": 250,
   "laun": "2017-01-20 21:26:33",
-  "pled": 502,
+  "pledged": 502,
   "state": "successful",
   "backers": 36,
   "country": "GB"
@@ -8663,7 +8663,7 @@ dataJSON = [{
   "dl": "2017-08-25",
   "goal": 2000,
   "laun": "2017-07-31 17:00:28",
-  "pled": 5304,
+  "pledged": 5304,
   "state": "successful",
   "backers": 116,
   "country": "US"
@@ -8675,7 +8675,7 @@ dataJSON = [{
   "dl": "2012-08-15",
   "goal": 50000,
   "laun": "2012-07-16 19:38:04",
-  "pled": 1045,
+  "pledged": 1045,
   "state": "canceled",
   "backers": 6,
   "country": "US"
@@ -8687,7 +8687,7 @@ dataJSON = [{
   "dl": "2015-08-03",
   "goal": 2500,
   "laun": "2015-07-04 09:06:14",
-  "pled": 4103,
+  "pledged": 4103,
   "state": "successful",
   "backers": 97,
   "country": "US"
@@ -8699,7 +8699,7 @@ dataJSON = [{
   "dl": "2015-07-05",
   "goal": 2000,
   "laun": "2015-06-15 16:35:11",
-  "pled": 2146,
+  "pledged": 2146,
   "state": "successful",
   "backers": 46,
   "country": "US"
@@ -8711,7 +8711,7 @@ dataJSON = [{
   "dl": "2015-03-31",
   "goal": 4500,
   "laun": "2015-03-01 14:10:41",
-  "pled": 15899,
+  "pledged": 15899,
   "state": "successful",
   "backers": 413,
   "country": "NL"
@@ -8723,7 +8723,7 @@ dataJSON = [{
   "dl": "2013-02-23",
   "goal": 2500,
   "laun": "2013-01-14 20:59:12",
-  "pled": 186,
+  "pledged": 186,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -8735,7 +8735,7 @@ dataJSON = [{
   "dl": "2016-05-21",
   "goal": 15000,
   "laun": "2016-04-21 22:26:31",
-  "pled": 516,
+  "pledged": 516,
   "state": "failed",
   "backers": 8,
   "country": "IE"
@@ -8747,7 +8747,7 @@ dataJSON = [{
   "dl": "2012-08-24",
   "goal": 3000,
   "laun": "2012-08-03 00:40:55",
-  "pled": 3222.77,
+  "pledged": 3222.77,
   "state": "successful",
   "backers": 79,
   "country": "US"
@@ -8759,7 +8759,7 @@ dataJSON = [{
   "dl": "2012-06-07",
   "goal": 17250,
   "laun": "2012-04-23 18:17:49",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -8771,7 +8771,7 @@ dataJSON = [{
   "dl": "2015-09-05",
   "goal": 2000,
   "laun": "2015-08-03 20:58:40",
-  "pled": 181,
+  "pledged": 181,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -8783,7 +8783,7 @@ dataJSON = [{
   "dl": "2015-02-27",
   "goal": 3000,
   "laun": "2015-01-28 19:24:33",
-  "pled": 3150,
+  "pledged": 3150,
   "state": "successful",
   "backers": 60,
   "country": "GB"
@@ -8795,7 +8795,7 @@ dataJSON = [{
   "dl": "2015-11-08",
   "goal": 25000,
   "laun": "2015-10-09 07:54:54",
-  "pled": 922,
+  "pledged": 922,
   "state": "failed",
   "backers": 17,
   "country": "US"
@@ -8807,7 +8807,7 @@ dataJSON = [{
   "dl": "2013-06-29",
   "goal": 25000,
   "laun": "2013-06-01 12:13:13",
-  "pled": 4612,
+  "pledged": 4612,
   "state": "failed",
   "backers": 43,
   "country": "US"
@@ -8819,7 +8819,7 @@ dataJSON = [{
   "dl": "2012-10-22",
   "goal": 1000,
   "laun": "2012-09-22 03:42:24",
-  "pled": 25,
+  "pledged": 25,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -8831,7 +8831,7 @@ dataJSON = [{
   "dl": "2011-01-04",
   "goal": 1000,
   "laun": "2010-11-16 02:17:00",
-  "pled": 1037,
+  "pledged": 1037,
   "state": "successful",
   "backers": 39,
   "country": "US"
@@ -8843,7 +8843,7 @@ dataJSON = [{
   "dl": "2012-03-21",
   "goal": 5500,
   "laun": "2012-02-20 11:41:55",
-  "pled": 7810,
+  "pledged": 7810,
   "state": "successful",
   "backers": 114,
   "country": "US"
@@ -8855,7 +8855,7 @@ dataJSON = [{
   "dl": "2018-01-01",
   "goal": 850,
   "laun": "2017-12-01 05:14:27",
-  "pled": 40,
+  "pledged": 40,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -8867,7 +8867,7 @@ dataJSON = [{
   "dl": "2016-08-12",
   "goal": 3000,
   "laun": "2016-07-13 03:40:49",
-  "pled": 92,
+  "pledged": 92,
   "state": "failed",
   "backers": 5,
   "country": "CA"
@@ -8879,7 +8879,7 @@ dataJSON = [{
   "dl": "2010-07-23",
   "goal": 2000,
   "laun": "2010-07-16 23:15:20",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -8891,7 +8891,7 @@ dataJSON = [{
   "dl": "2015-09-12",
   "goal": 5500,
   "laun": "2015-08-13 16:45:21",
-  "pled": 2118,
+  "pledged": 2118,
   "state": "failed",
   "backers": 40,
   "country": "CA"
@@ -8903,7 +8903,7 @@ dataJSON = [{
   "dl": "2010-09-23",
   "goal": 3000,
   "laun": "2010-07-13 20:27:12",
-  "pled": 3011,
+  "pledged": 3011,
   "state": "successful",
   "backers": 13,
   "country": "US"
@@ -8915,7 +8915,7 @@ dataJSON = [{
   "dl": "2015-03-23",
   "goal": 25000,
   "laun": "2015-02-21 23:53:24",
-  "pled": 3315,
+  "pledged": 3315,
   "state": "failed",
   "backers": 55,
   "country": "US"
@@ -8927,7 +8927,7 @@ dataJSON = [{
   "dl": "2017-01-01",
   "goal": 500,
   "laun": "2016-12-07 17:29:50",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "GB"
@@ -8939,7 +8939,7 @@ dataJSON = [{
   "dl": "2013-01-06",
   "goal": 10000,
   "laun": "2012-12-07 13:53:37",
-  "pled": 26,
+  "pledged": 26,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -8951,7 +8951,7 @@ dataJSON = [{
   "dl": "2017-04-18",
   "goal": 4800,
   "laun": "2017-03-19 21:03:39",
-  "pled": 7402.84,
+  "pledged": 7402.84,
   "state": "successful",
   "backers": 116,
   "country": "US"
@@ -8963,7 +8963,7 @@ dataJSON = [{
   "dl": "2012-03-15",
   "goal": 21000,
   "laun": "2012-02-08 14:41:59",
-  "pled": 23951,
+  "pledged": 23951,
   "state": "successful",
   "backers": 402,
   "country": "US"
@@ -8975,7 +8975,7 @@ dataJSON = [{
   "dl": "2010-08-21",
   "goal": 8500,
   "laun": "2010-06-30 15:22:51",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -8987,7 +8987,7 @@ dataJSON = [{
   "dl": "2015-02-18",
   "goal": 10500,
   "laun": "2015-02-02 19:09:38",
-  "pled": 12130.23,
+  "pledged": 12130.23,
   "state": "successful",
   "backers": 139,
   "country": "US"
@@ -8999,7 +8999,7 @@ dataJSON = [{
   "dl": "2016-10-15",
   "goal": 200,
   "laun": "2016-09-15 07:48:43",
-  "pled": 671,
+  "pledged": 671,
   "state": "successful",
   "backers": 41,
   "country": "CA"
@@ -9011,7 +9011,7 @@ dataJSON = [{
   "dl": "2013-02-07",
   "goal": 15000,
   "laun": "2013-01-08 01:20:12",
-  "pled": 6381,
+  "pledged": 6381,
   "state": "failed",
   "backers": 78,
   "country": "US"
@@ -9023,7 +9023,7 @@ dataJSON = [{
   "dl": "2015-11-14",
   "goal": 300,
   "laun": "2015-09-17 04:47:31",
-  "pled": 45,
+  "pledged": 45,
   "state": "failed",
   "backers": 1,
   "country": "AU"
@@ -9035,7 +9035,7 @@ dataJSON = [{
   "dl": "2011-06-23",
   "goal": 10500,
   "laun": "2011-06-03 21:13:05",
-  "pled": 3868,
+  "pledged": 3868,
   "state": "failed",
   "backers": 59,
   "country": "US"
@@ -9047,7 +9047,7 @@ dataJSON = [{
   "dl": "2015-12-18",
   "goal": 14500,
   "laun": "2015-11-18 20:38:59",
-  "pled": 39137,
+  "pledged": 39137,
   "state": "successful",
   "backers": 512,
   "country": "GB"
@@ -9059,7 +9059,7 @@ dataJSON = [{
   "dl": "2013-10-10",
   "goal": 50000,
   "laun": "2013-09-10 15:19:41",
-  "pled": 60,
+  "pledged": 60,
   "state": "failed",
   "backers": 2,
   "country": "GB"
@@ -9071,7 +9071,7 @@ dataJSON = [{
   "dl": "2016-02-09",
   "goal": 100,
   "laun": "2016-02-04 14:22:59",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -9083,7 +9083,7 @@ dataJSON = [{
   "dl": "2014-10-31",
   "goal": 420,
   "laun": "2014-09-20 00:26:22",
-  "pled": 110,
+  "pledged": 110,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -9095,7 +9095,7 @@ dataJSON = [{
   "dl": "2013-09-24",
   "goal": 1500,
   "laun": "2013-07-26 19:45:27",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -9107,7 +9107,7 @@ dataJSON = [{
   "dl": "2017-09-05",
   "goal": 600,
   "laun": "2017-08-06 02:07:57",
-  "pled": 606,
+  "pledged": 606,
   "state": "successful",
   "backers": 4,
   "country": "US"
@@ -9119,7 +9119,7 @@ dataJSON = [{
   "dl": "2014-06-10",
   "goal": 7000,
   "laun": "2014-05-11 20:34:32",
-  "pled": 80,
+  "pledged": 80,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -9131,7 +9131,7 @@ dataJSON = [{
   "dl": "2016-05-01",
   "goal": 5000,
   "laun": "2016-04-01 02:13:13",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -9143,7 +9143,7 @@ dataJSON = [{
   "dl": "2017-09-03",
   "goal": 5000,
   "laun": "2017-08-04 21:38:11",
-  "pled": 285,
+  "pledged": 285,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -9155,7 +9155,7 @@ dataJSON = [{
   "dl": "2012-12-10",
   "goal": 16500,
   "laun": "2012-11-12 23:33:39",
-  "pled": 16560,
+  "pledged": 16560,
   "state": "successful",
   "backers": 141,
   "country": "US"
@@ -9167,7 +9167,7 @@ dataJSON = [{
   "dl": "2014-06-15",
   "goal": 3415,
   "laun": "2014-06-05 01:41:36",
-  "pled": 3465,
+  "pledged": 3465,
   "state": "successful",
   "backers": 25,
   "country": "US"
@@ -9179,7 +9179,7 @@ dataJSON = [{
   "dl": "2014-10-21",
   "goal": 20000,
   "laun": "2014-09-10 01:37:27",
-  "pled": 2497,
+  "pledged": 2497,
   "state": "failed",
   "backers": 68,
   "country": "US"
@@ -9191,7 +9191,7 @@ dataJSON = [{
   "dl": "2015-11-04",
   "goal": 500,
   "laun": "2015-10-05 17:26:38",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 1,
   "country": "IE"
@@ -9203,7 +9203,7 @@ dataJSON = [{
   "dl": "2012-11-18",
   "goal": 500,
   "laun": "2012-10-19 02:18:54",
-  "pled": 30,
+  "pledged": 30,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -9215,7 +9215,7 @@ dataJSON = [{
   "dl": "2013-08-29",
   "goal": 4000,
   "laun": "2013-07-30 20:57:42",
-  "pled": 4135,
+  "pledged": 4135,
   "state": "successful",
   "backers": 53,
   "country": "US"
@@ -9227,7 +9227,7 @@ dataJSON = [{
   "dl": "2014-10-19",
   "goal": 25000,
   "laun": "2014-09-19 21:36:12",
-  "pled": 171,
+  "pledged": 171,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -9239,7 +9239,7 @@ dataJSON = [{
   "dl": "2012-07-07",
   "goal": 10500,
   "laun": "2012-06-07 22:55:30",
-  "pled": 15427.45,
+  "pledged": 15427.45,
   "state": "successful",
   "backers": 235,
   "country": "US"
@@ -9251,7 +9251,7 @@ dataJSON = [{
   "dl": "2014-05-24",
   "goal": 2000,
   "laun": "2014-04-28 20:37:23",
-  "pled": 2740,
+  "pledged": 2740,
   "state": "successful",
   "backers": 63,
   "country": "US"
@@ -9263,7 +9263,7 @@ dataJSON = [{
   "dl": "2014-01-05",
   "goal": 3165,
   "laun": "2013-11-21 22:26:47",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -9275,7 +9275,7 @@ dataJSON = [{
   "dl": "2014-12-23",
   "goal": 1500,
   "laun": "2014-11-08 02:51:25",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -9287,7 +9287,7 @@ dataJSON = [{
   "dl": "2016-06-08",
   "goal": 5000,
   "laun": "2016-05-04 23:05:45",
-  "pled": 265,
+  "pledged": 265,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -9299,7 +9299,7 @@ dataJSON = [{
   "dl": "2015-03-26",
   "goal": 400,
   "laun": "2015-02-24 20:19:21",
-  "pled": 0,
+  "pledged": 0,
   "state": "suspended",
   "backers": 0,
   "country": "US"
@@ -9311,7 +9311,7 @@ dataJSON = [{
   "dl": "2015-07-16",
   "goal": 25000,
   "laun": "2015-06-16 21:01:56",
-  "pled": 55,
+  "pledged": 55,
   "state": "canceled",
   "backers": 2,
   "country": "US"
@@ -9323,7 +9323,7 @@ dataJSON = [{
   "dl": "2017-10-18",
   "goal": 1000000,
   "laun": "2017-09-18 12:54:53",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "BE"
@@ -9335,7 +9335,7 @@ dataJSON = [{
   "dl": "2017-11-04",
   "goal": 5000,
   "laun": "2017-10-05 17:52:55",
-  "pled": 701,
+  "pledged": 701,
   "state": "failed",
   "backers": 22,
   "country": "US"
@@ -9347,7 +9347,7 @@ dataJSON = [{
   "dl": "2012-04-26",
   "goal": 1000,
   "laun": "2012-03-27 03:19:57",
-  "pled": 70,
+  "pledged": 70,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -9359,7 +9359,7 @@ dataJSON = [{
   "dl": "2016-07-16",
   "goal": 35000,
   "laun": "2016-06-06 20:01:55",
-  "pled": 102970,
+  "pledged": 102970,
   "state": "successful",
   "backers": 1643,
   "country": "GB"
@@ -9371,7 +9371,7 @@ dataJSON = [{
   "dl": "2017-04-16",
   "goal": 9000,
   "laun": "2017-03-15 23:55:48",
-  "pled": 9525,
+  "pledged": 9525,
   "state": "successful",
   "backers": 93,
   "country": "US"
@@ -9383,7 +9383,7 @@ dataJSON = [{
   "dl": "2017-08-04",
   "goal": 5000,
   "laun": "2017-07-01 21:20:14",
-  "pled": 457,
+  "pledged": 457,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -9395,7 +9395,7 @@ dataJSON = [{
   "dl": "2012-06-06",
   "goal": 8000,
   "laun": "2012-05-16 00:57:43",
-  "pled": 1035,
+  "pledged": 1035,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -9407,7 +9407,7 @@ dataJSON = [{
   "dl": "2015-12-11",
   "goal": 30000,
   "laun": "2015-11-11 16:59:09",
-  "pled": 65382,
+  "pledged": 65382,
   "state": "successful",
   "backers": 739,
   "country": "US"
@@ -9419,7 +9419,7 @@ dataJSON = [{
   "dl": "2017-06-19",
   "goal": 40000,
   "laun": "2017-05-18 17:59:38",
-  "pled": 1361,
+  "pledged": 1361,
   "state": "failed",
   "backers": 33,
   "country": "US"
@@ -9431,7 +9431,7 @@ dataJSON = [{
   "dl": "2015-04-29",
   "goal": 75000,
   "laun": "2015-03-30 18:32:41",
-  "pled": 4765,
+  "pledged": 4765,
   "state": "failed",
   "backers": 14,
   "country": "US"
@@ -9443,7 +9443,7 @@ dataJSON = [{
   "dl": "2017-07-25",
   "goal": 500000,
   "laun": "2017-06-24 03:36:23",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -9455,7 +9455,7 @@ dataJSON = [{
   "dl": "2012-12-15",
   "goal": 2500,
   "laun": "2012-12-01 01:41:28",
-  "pled": 185,
+  "pledged": 185,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -9467,7 +9467,7 @@ dataJSON = [{
   "dl": "2014-12-28",
   "goal": 12000,
   "laun": "2014-10-29 07:59:49",
-  "pled": 41,
+  "pledged": 41,
   "state": "failed",
   "backers": 6,
   "country": "IE"
@@ -9479,7 +9479,7 @@ dataJSON = [{
   "dl": "2014-12-29",
   "goal": 200000,
   "laun": "2014-11-14 17:55:15",
-  "pled": 12590,
+  "pledged": 12590,
   "state": "canceled",
   "backers": 34,
   "country": "US"
@@ -9491,7 +9491,7 @@ dataJSON = [{
   "dl": "2017-05-10",
   "goal": 30000,
   "laun": "2017-04-09 16:36:57",
-  "pled": 31886,
+  "pledged": 31886,
   "state": "successful",
   "backers": 485,
   "country": "US"
@@ -9503,7 +9503,7 @@ dataJSON = [{
   "dl": "2016-11-01",
   "goal": 5000,
   "laun": "2016-09-30 13:13:03",
-  "pled": 5140,
+  "pledged": 5140,
   "state": "successful",
   "backers": 82,
   "country": "US"
@@ -9515,7 +9515,7 @@ dataJSON = [{
   "dl": "2017-12-21",
   "goal": 7500,
   "laun": "2017-11-21 16:54:32",
-  "pled": 313,
+  "pledged": 313,
   "state": "canceled",
   "backers": 7,
   "country": "DE"
@@ -9527,7 +9527,7 @@ dataJSON = [{
   "dl": "2011-06-25",
   "goal": 6000,
   "laun": "2011-04-26 22:46:33",
-  "pled": 266,
+  "pledged": 266,
   "state": "failed",
   "backers": 8,
   "country": "US"
@@ -9539,7 +9539,7 @@ dataJSON = [{
   "dl": "2014-04-16",
   "goal": 7500,
   "laun": "2014-03-17 22:38:44",
-  "pled": 150,
+  "pledged": 150,
   "state": "failed",
   "backers": 4,
   "country": "CA"
@@ -9551,7 +9551,7 @@ dataJSON = [{
   "dl": "2013-05-01",
   "goal": 3000,
   "laun": "2013-04-09 09:26:07",
-  "pled": 3426,
+  "pledged": 3426,
   "state": "successful",
   "backers": 87,
   "country": "US"
@@ -9563,7 +9563,7 @@ dataJSON = [{
   "dl": "2015-12-17",
   "goal": 20000,
   "laun": "2015-11-12 18:09:01",
-  "pled": 21675,
+  "pledged": 21675,
   "state": "successful",
   "backers": 194,
   "country": "US"
@@ -9575,7 +9575,7 @@ dataJSON = [{
   "dl": "2016-11-21",
   "goal": 10000,
   "laun": "2016-10-22 12:32:13",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -9587,7 +9587,7 @@ dataJSON = [{
   "dl": "2012-07-21",
   "goal": 2960,
   "laun": "2012-06-21 02:25:50",
-  "pled": 977.42,
+  "pledged": 977.42,
   "state": "failed",
   "backers": 41,
   "country": "US"
@@ -9599,7 +9599,7 @@ dataJSON = [{
   "dl": "2013-01-12",
   "goal": 12500,
   "laun": "2012-12-12 17:30:44",
-  "pled": 16383.63,
+  "pledged": 16383.63,
   "state": "successful",
   "backers": 420,
   "country": "US"
@@ -9611,7 +9611,7 @@ dataJSON = [{
   "dl": "2015-04-30",
   "goal": 15000,
   "laun": "2015-03-31 12:01:38",
-  "pled": 15,
+  "pledged": 15,
   "state": "failed",
   "backers": 2,
   "country": "GB"
@@ -9623,7 +9623,7 @@ dataJSON = [{
   "dl": "2016-08-12",
   "goal": 18000,
   "laun": "2016-06-13 20:59:12",
-  "pled": 7318,
+  "pledged": 7318,
   "state": "failed",
   "backers": 33,
   "country": "US"
@@ -9635,7 +9635,7 @@ dataJSON = [{
   "dl": "2014-11-21",
   "goal": 300,
   "laun": "2014-10-22 14:55:17",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -9647,7 +9647,7 @@ dataJSON = [{
   "dl": "2012-06-15",
   "goal": 6250,
   "laun": "2012-04-16 16:07:07",
-  "pled": 150,
+  "pledged": 150,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -9659,7 +9659,7 @@ dataJSON = [{
   "dl": "2015-09-16",
   "goal": 35000,
   "laun": "2015-08-17 22:13:25",
-  "pled": 190,
+  "pledged": 190,
   "state": "failed",
   "backers": 16,
   "country": "US"
@@ -9671,7 +9671,7 @@ dataJSON = [{
   "dl": "2015-09-02",
   "goal": 100000,
   "laun": "2015-07-24 06:56:20",
-  "pled": 60,
+  "pledged": 60,
   "state": "failed",
   "backers": 3,
   "country": "AU"
@@ -9683,7 +9683,7 @@ dataJSON = [{
   "dl": "2014-06-14",
   "goal": 25000,
   "laun": "2014-05-29 03:35:07",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -9695,7 +9695,7 @@ dataJSON = [{
   "dl": "2012-05-26",
   "goal": 500,
   "laun": "2012-05-15 22:54:40",
-  "pled": 548,
+  "pledged": 548,
   "state": "successful",
   "backers": 23,
   "country": "US"
@@ -9707,7 +9707,7 @@ dataJSON = [{
   "dl": "2012-09-21",
   "goal": 6362,
   "laun": "2012-08-22 16:07:10",
-  "pled": 3110,
+  "pledged": 3110,
   "state": "canceled",
   "backers": 67,
   "country": "US"
@@ -9719,7 +9719,7 @@ dataJSON = [{
   "dl": "2013-02-22",
   "goal": 500,
   "laun": "2013-02-15 22:14:42",
-  "pled": 3121,
+  "pledged": 3121,
   "state": "successful",
   "backers": 25,
   "country": "US"
@@ -9731,7 +9731,7 @@ dataJSON = [{
   "dl": "2010-05-20",
   "goal": 1500,
   "laun": "2010-04-13 20:03:02",
-  "pled": 266,
+  "pledged": 266,
   "state": "failed",
   "backers": 7,
   "country": "US"
@@ -9743,7 +9743,7 @@ dataJSON = [{
   "dl": "2016-10-16",
   "goal": 2500,
   "laun": "2016-09-13 17:57:40",
-  "pled": 11213,
+  "pledged": 11213,
   "state": "successful",
   "backers": 312,
   "country": "AU"
@@ -9755,7 +9755,7 @@ dataJSON = [{
   "dl": "2014-07-15",
   "goal": 7000,
   "laun": "2014-06-09 07:09:55",
-  "pled": 13733,
+  "pledged": 13733,
   "state": "successful",
   "backers": 225,
   "country": "CA"
@@ -9767,7 +9767,7 @@ dataJSON = [{
   "dl": "2013-08-10",
   "goal": 5000,
   "laun": "2013-06-21 10:15:36",
-  "pled": 5000,
+  "pledged": 5000,
   "state": "successful",
   "backers": 63,
   "country": "GB"
@@ -9779,7 +9779,7 @@ dataJSON = [{
   "dl": "2015-02-28",
   "goal": 5000,
   "laun": "2015-01-29 17:43:13",
-  "pled": 0,
+  "pledged": 0,
   "state": "undefined",
   "backers": 0,
   "country": "N,0"
@@ -9791,7 +9791,7 @@ dataJSON = [{
   "dl": "2012-02-29",
   "goal": 500,
   "laun": "2012-01-29 03:36:31",
-  "pled": 605,
+  "pledged": 605,
   "state": "successful",
   "backers": 13,
   "country": "US"
@@ -9803,7 +9803,7 @@ dataJSON = [{
   "dl": "2014-10-25",
   "goal": 10000,
   "laun": "2014-10-10 05:11:59",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -9815,7 +9815,7 @@ dataJSON = [{
   "dl": "2014-07-10",
   "goal": 10000,
   "laun": "2014-06-10 11:07:49",
-  "pled": 10555,
+  "pledged": 10555,
   "state": "successful",
   "backers": 168,
   "country": "US"
@@ -9827,7 +9827,7 @@ dataJSON = [{
   "dl": "2014-12-31",
   "goal": 10000,
   "laun": "2014-12-01 19:51:08",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "GB"
@@ -9839,7 +9839,7 @@ dataJSON = [{
   "dl": "2015-07-01",
   "goal": 10000,
   "laun": "2015-06-01 18:32:33",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -9851,7 +9851,7 @@ dataJSON = [{
   "dl": "2014-12-20",
   "goal": 1000,
   "laun": "2014-11-06 17:38:01",
-  "pled": 5362,
+  "pledged": 5362,
   "state": "successful",
   "backers": 118,
   "country": "US"
@@ -9863,7 +9863,7 @@ dataJSON = [{
   "dl": "2016-03-21",
   "goal": 4000,
   "laun": "2016-01-21 02:58:44",
-  "pled": 96,
+  "pledged": 96,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -9875,7 +9875,7 @@ dataJSON = [{
   "dl": "2016-03-06",
   "goal": 15000,
   "laun": "2016-01-06 09:24:33",
-  "pled": 102,
+  "pledged": 102,
   "state": "failed",
   "backers": 9,
   "country": "AU"
@@ -9887,7 +9887,7 @@ dataJSON = [{
   "dl": "2012-06-30",
   "goal": 6000,
   "laun": "2012-05-31 18:25:46",
-  "pled": 6185,
+  "pledged": 6185,
   "state": "successful",
   "backers": 50,
   "country": "US"
@@ -9899,7 +9899,7 @@ dataJSON = [{
   "dl": "2014-10-02",
   "goal": 12500,
   "laun": "2014-09-02 02:31:19",
-  "pled": 594,
+  "pledged": 594,
   "state": "failed",
   "backers": 20,
   "country": "US"
@@ -9911,7 +9911,7 @@ dataJSON = [{
   "dl": "2014-09-11",
   "goal": 2000,
   "laun": "2014-08-13 21:52:51",
-  "pled": 20,
+  "pledged": 20,
   "state": "failed",
   "backers": 1,
   "country": "AU"
@@ -9923,7 +9923,7 @@ dataJSON = [{
   "dl": "2016-04-23",
   "goal": 3000,
   "laun": "2016-03-24 00:19:19",
-  "pled": 8045,
+  "pledged": 8045,
   "state": "successful",
   "backers": 162,
   "country": "US"
@@ -9935,7 +9935,7 @@ dataJSON = [{
   "dl": "2011-04-07",
   "goal": 1500,
   "laun": "2011-03-07 16:54:06",
-  "pled": 665,
+  "pledged": 665,
   "state": "failed",
   "backers": 12,
   "country": "US"
@@ -9947,7 +9947,7 @@ dataJSON = [{
   "dl": "2015-11-30",
   "goal": 4150,
   "laun": "2015-10-01 00:02:30",
-  "pled": 5,
+  "pledged": 5,
   "state": "canceled",
   "backers": 1,
   "country": "US"
@@ -9959,7 +9959,7 @@ dataJSON = [{
   "dl": "2016-09-26",
   "goal": 10000,
   "laun": "2016-08-23 17:15:55",
-  "pled": 581,
+  "pledged": 581,
   "state": "failed",
   "backers": 9,
   "country": "US"
@@ -9971,7 +9971,7 @@ dataJSON = [{
   "dl": "2017-07-07",
   "goal": 5000,
   "laun": "2017-06-07 04:12:22",
-  "pled": 28,
+  "pledged": 28,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -9983,7 +9983,7 @@ dataJSON = [{
   "dl": "2017-02-10",
   "goal": 25000,
   "laun": "2017-01-11 12:02:29",
-  "pled": 2,
+  "pledged": 2,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -9995,7 +9995,7 @@ dataJSON = [{
   "dl": "2013-05-04",
   "goal": 2500,
   "laun": "2013-04-05 05:46:45",
-  "pled": 2857,
+  "pledged": 2857,
   "state": "successful",
   "backers": 64,
   "country": "US"
@@ -10007,7 +10007,7 @@ dataJSON = [{
   "dl": "2015-03-07",
   "goal": 600,
   "laun": "2015-02-05 17:36:57",
-  "pled": 600,
+  "pledged": 600,
   "state": "successful",
   "backers": 11,
   "country": "US"
@@ -10019,7 +10019,7 @@ dataJSON = [{
   "dl": "2014-09-08",
   "goal": 350,
   "laun": "2014-08-09 01:21:06",
-  "pled": 625,
+  "pledged": 625,
   "state": "successful",
   "backers": 42,
   "country": "US"
@@ -10031,7 +10031,7 @@ dataJSON = [{
   "dl": "2015-03-06",
   "goal": 5000,
   "laun": "2015-02-04 23:28:46",
-  "pled": 5250,
+  "pledged": 5250,
   "state": "successful",
   "backers": 76,
   "country": "US"
@@ -10043,7 +10043,7 @@ dataJSON = [{
   "dl": "2012-03-02",
   "goal": 25000,
   "laun": "2012-02-11 14:59:10",
-  "pled": 9523,
+  "pledged": 9523,
   "state": "failed",
   "backers": 94,
   "country": "US"
@@ -10055,7 +10055,7 @@ dataJSON = [{
   "dl": "2016-09-22",
   "goal": 300,
   "laun": "2016-07-24 13:04:52",
-  "pled": 1064,
+  "pledged": 1064,
   "state": "successful",
   "backers": 31,
   "country": "GB"
@@ -10067,7 +10067,7 @@ dataJSON = [{
   "dl": "2014-10-01",
   "goal": 2500,
   "laun": "2014-08-27 16:44:20",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -10079,7 +10079,7 @@ dataJSON = [{
   "dl": "2015-08-31",
   "goal": 3500,
   "laun": "2015-07-27 02:43:32",
-  "pled": 5270,
+  "pledged": 5270,
   "state": "successful",
   "backers": 122,
   "country": "ES"
@@ -10091,7 +10091,7 @@ dataJSON = [{
   "dl": "2012-01-12",
   "goal": 11000,
   "laun": "2011-12-13 21:42:14",
-  "pled": 650,
+  "pledged": 650,
   "state": "failed",
   "backers": 10,
   "country": "US"
@@ -10103,7 +10103,7 @@ dataJSON = [{
   "dl": "2012-07-03",
   "goal": 5500,
   "laun": "2012-06-03 09:29:00",
-  "pled": 135,
+  "pledged": 135,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -10115,7 +10115,7 @@ dataJSON = [{
   "dl": "2017-05-17",
   "goal": 2400,
   "laun": "2017-04-17 04:38:52",
-  "pled": 1050,
+  "pledged": 1050,
   "state": "failed",
   "backers": 43,
   "country": "US"
@@ -10127,7 +10127,7 @@ dataJSON = [{
   "dl": "2014-12-16",
   "goal": 15000,
   "laun": "2014-11-01 00:42:35",
-  "pled": 6898,
+  "pledged": 6898,
   "state": "failed",
   "backers": 80,
   "country": "US"
@@ -10139,7 +10139,7 @@ dataJSON = [{
   "dl": "2014-04-01",
   "goal": 5000,
   "laun": "2014-02-28 16:16:03",
-  "pled": 9548,
+  "pledged": 9548,
   "state": "successful",
   "backers": 123,
   "country": "US"
@@ -10151,7 +10151,7 @@ dataJSON = [{
   "dl": "2016-03-15",
   "goal": 30000,
   "laun": "2016-01-15 19:45:59",
-  "pled": 563,
+  "pledged": 563,
   "state": "failed",
   "backers": 10,
   "country": "US"
@@ -10163,7 +10163,7 @@ dataJSON = [{
   "dl": "2013-11-06",
   "goal": 3000,
   "laun": "2013-10-17 08:25:38",
-  "pled": 15,
+  "pledged": 15,
   "state": "canceled",
   "backers": 1,
   "country": "GB"
@@ -10175,7 +10175,7 @@ dataJSON = [{
   "dl": "2015-05-22",
   "goal": 2000,
   "laun": "2015-04-22 17:32:29",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -10187,7 +10187,7 @@ dataJSON = [{
   "dl": "2015-11-14",
   "goal": 500,
   "laun": "2015-10-15 04:08:34",
-  "pled": 660,
+  "pledged": 660,
   "state": "successful",
   "backers": 17,
   "country": "US"
@@ -10199,7 +10199,7 @@ dataJSON = [{
   "dl": "2014-09-13",
   "goal": 13000,
   "laun": "2014-08-14 17:33:44",
-  "pled": 1777,
+  "pledged": 1777,
   "state": "failed",
   "backers": 17,
   "country": "US"
@@ -10211,7 +10211,7 @@ dataJSON = [{
   "dl": "2014-04-29",
   "goal": 600,
   "laun": "2014-04-09 03:11:39",
-  "pled": 30,
+  "pledged": 30,
   "state": "failed",
   "backers": 1,
   "country": "AU"
@@ -10223,7 +10223,7 @@ dataJSON = [{
   "dl": "2013-05-18",
   "goal": 4500,
   "laun": "2013-04-18 23:32:59",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -10235,7 +10235,7 @@ dataJSON = [{
   "dl": "2016-08-28",
   "goal": 500,
   "laun": "2016-07-29 10:15:26",
-  "pled": 9306,
+  "pledged": 9306,
   "state": "successful",
   "backers": 274,
   "country": "GB"
@@ -10247,7 +10247,7 @@ dataJSON = [{
   "dl": "2017-12-09",
   "goal": 40000,
   "laun": "2017-11-03 21:09:47",
-  "pled": 42227.43,
+  "pledged": 42227.43,
   "state": "successful",
   "backers": 478,
   "country": "US"
@@ -10259,7 +10259,7 @@ dataJSON = [{
   "dl": "2017-04-25",
   "goal": 7000,
   "laun": "2017-03-26 22:40:45",
-  "pled": 7186,
+  "pledged": 7186,
   "state": "successful",
   "backers": 75,
   "country": "US"
@@ -10271,7 +10271,7 @@ dataJSON = [{
   "dl": "2014-01-26",
   "goal": 35000,
   "laun": "2013-12-25 01:02:39",
-  "pled": 49323,
+  "pledged": 49323,
   "state": "successful",
   "backers": 341,
   "country": "US"
@@ -10283,7 +10283,7 @@ dataJSON = [{
   "dl": "2013-09-27",
   "goal": 500,
   "laun": "2013-08-28 20:46:14",
-  "pled": 544,
+  "pledged": 544,
   "state": "successful",
   "backers": 20,
   "country": "US"
@@ -10295,7 +10295,7 @@ dataJSON = [{
   "dl": "2010-08-17",
   "goal": 5000,
   "laun": "2010-05-20 06:47:21",
-  "pled": 75,
+  "pledged": 75,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -10307,7 +10307,7 @@ dataJSON = [{
   "dl": "2012-01-16",
   "goal": 30000,
   "laun": "2011-11-17 21:32:39",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -10319,7 +10319,7 @@ dataJSON = [{
   "dl": "2015-05-02",
   "goal": 2500,
   "laun": "2015-04-03 11:16:00",
-  "pled": 420,
+  "pledged": 420,
   "state": "undefined",
   "backers": 0,
   "country": "N,0"
@@ -10331,7 +10331,7 @@ dataJSON = [{
   "dl": "2015-04-25",
   "goal": 20000,
   "laun": "2015-03-25 23:25:47",
-  "pled": 500,
+  "pledged": 500,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -10343,7 +10343,7 @@ dataJSON = [{
   "dl": "2016-12-07",
   "goal": 3200,
   "laun": "2016-10-08 02:09:02",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -10355,7 +10355,7 @@ dataJSON = [{
   "dl": "2014-09-29",
   "goal": 4500,
   "laun": "2014-08-30 07:58:50",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -10367,7 +10367,7 @@ dataJSON = [{
   "dl": "2017-07-29",
   "goal": 7500,
   "laun": "2017-06-29 09:12:26",
-  "pled": 7612.11,
+  "pledged": 7612.11,
   "state": "successful",
   "backers": 71,
   "country": "US"
@@ -10379,7 +10379,7 @@ dataJSON = [{
   "dl": "2010-12-02",
   "goal": 4000,
   "laun": "2010-10-31 00:27:03",
-  "pled": 4570,
+  "pledged": 4570,
   "state": "successful",
   "backers": 32,
   "country": "US"
@@ -10391,7 +10391,7 @@ dataJSON = [{
   "dl": "2015-01-14",
   "goal": 10000,
   "laun": "2014-12-15 23:09:25",
-  "pled": 95,
+  "pledged": 95,
   "state": "canceled",
   "backers": 5,
   "country": "GB"
@@ -10403,7 +10403,7 @@ dataJSON = [{
   "dl": "2011-11-16",
   "goal": 90000,
   "laun": "2011-09-17 08:54:41",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -10415,7 +10415,7 @@ dataJSON = [{
   "dl": "2011-10-14",
   "goal": 1300,
   "laun": "2011-09-14 20:12:14",
-  "pled": 118,
+  "pledged": 118,
   "state": "canceled",
   "backers": 5,
   "country": "US"
@@ -10427,7 +10427,7 @@ dataJSON = [{
   "dl": "2010-07-02",
   "goal": 650,
   "laun": "2010-05-26 19:14:20",
-  "pled": 700,
+  "pledged": 700,
   "state": "successful",
   "backers": 13,
   "country": "US"
@@ -10439,7 +10439,7 @@ dataJSON = [{
   "dl": "2017-03-18",
   "goal": 1000,
   "laun": "2017-02-16 10:29:40",
-  "pled": 1762,
+  "pledged": 1762,
   "state": "successful",
   "backers": 65,
   "country": "GB"
@@ -10451,7 +10451,7 @@ dataJSON = [{
   "dl": "2017-07-14",
   "goal": 20000,
   "laun": "2017-06-14 18:00:18",
-  "pled": 21457,
+  "pledged": 21457,
   "state": "successful",
   "backers": 500,
   "country": "US"
@@ -10463,7 +10463,7 @@ dataJSON = [{
   "dl": "2012-12-06",
   "goal": 325,
   "laun": "2012-11-06 19:26:12",
-  "pled": 26,
+  "pledged": 26,
   "state": "failed",
   "backers": 2,
   "country": "GB"
@@ -10475,7 +10475,7 @@ dataJSON = [{
   "dl": "2013-09-10",
   "goal": 180000,
   "laun": "2013-08-11 20:25:13",
-  "pled": 315,
+  "pledged": 315,
   "state": "failed",
   "backers": 10,
   "country": "US"
@@ -10487,7 +10487,7 @@ dataJSON = [{
   "dl": "2016-04-18",
   "goal": 50000,
   "laun": "2016-03-21 14:31:12",
-  "pled": 55791,
+  "pledged": 55791,
   "state": "successful",
   "backers": 451,
   "country": "US"
@@ -10499,7 +10499,7 @@ dataJSON = [{
   "dl": "2012-04-04",
   "goal": 3500,
   "laun": "2012-03-05 21:46:22",
-  "pled": 3510,
+  "pledged": 3510,
   "state": "successful",
   "backers": 47,
   "country": "US"
@@ -10511,7 +10511,7 @@ dataJSON = [{
   "dl": "2014-10-18",
   "goal": 2000,
   "laun": "2014-08-19 01:22:04",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "AU"
@@ -10523,7 +10523,7 @@ dataJSON = [{
   "dl": "2013-06-14",
   "goal": 250,
   "laun": "2013-05-15 18:49:22",
-  "pled": 275,
+  "pledged": 275,
   "state": "successful",
   "backers": 10,
   "country": "US"
@@ -10535,7 +10535,7 @@ dataJSON = [{
   "dl": "2011-10-07",
   "goal": 25000,
   "laun": "2011-08-08 19:43:40",
-  "pled": 130,
+  "pledged": 130,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -10547,7 +10547,7 @@ dataJSON = [{
   "dl": "2017-11-29",
   "goal": 500,
   "laun": "2017-10-30 15:22:19",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -10559,7 +10559,7 @@ dataJSON = [{
   "dl": "2017-05-26",
   "goal": 500000,
   "laun": "2017-04-26 12:11:51",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "DK"
@@ -10571,7 +10571,7 @@ dataJSON = [{
   "dl": "2014-09-08",
   "goal": 30000,
   "laun": "2014-08-09 02:59:53",
-  "pled": 1633.22,
+  "pledged": 1633.22,
   "state": "failed",
   "backers": 36,
   "country": "US"
@@ -10583,7 +10583,7 @@ dataJSON = [{
   "dl": "2013-03-01",
   "goal": 9500,
   "laun": "2013-01-30 19:14:09",
-  "pled": 45,
+  "pledged": 45,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -10595,7 +10595,7 @@ dataJSON = [{
   "dl": "2015-03-15",
   "goal": 500,
   "laun": "2015-02-13 02:16:21",
-  "pled": 1000,
+  "pledged": 1000,
   "state": "suspended",
   "backers": 1,
   "country": "US"
@@ -10607,7 +10607,7 @@ dataJSON = [{
   "dl": "2012-05-15",
   "goal": 1000,
   "laun": "2012-04-19 18:18:17",
-  "pled": 230,
+  "pledged": 230,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -10619,7 +10619,7 @@ dataJSON = [{
   "dl": "2017-05-23",
   "goal": 950,
   "laun": "2017-04-18 01:07:52",
-  "pled": 86,
+  "pledged": 86,
   "state": "failed",
   "backers": 5,
   "country": "GB"
@@ -10631,7 +10631,7 @@ dataJSON = [{
   "dl": "2014-09-15",
   "goal": 5500,
   "laun": "2014-08-16 00:04:57",
-  "pled": 270,
+  "pledged": 270,
   "state": "failed",
   "backers": 10,
   "country": "US"
@@ -10643,7 +10643,7 @@ dataJSON = [{
   "dl": "2015-04-18",
   "goal": 40000,
   "laun": "2015-03-19 16:01:21",
-  "pled": 5865,
+  "pledged": 5865,
   "state": "canceled",
   "backers": 71,
   "country": "US"
@@ -10655,7 +10655,7 @@ dataJSON = [{
   "dl": "2017-02-06",
   "goal": 15000,
   "laun": "2016-12-08 06:04:33",
-  "pled": 17144,
+  "pledged": 17144,
   "state": "successful",
   "backers": 152,
   "country": "US"
@@ -10667,7 +10667,7 @@ dataJSON = [{
   "dl": "2014-04-09",
   "goal": 2000,
   "laun": "2014-03-19 13:20:35",
-  "pled": 3720,
+  "pledged": 3720,
   "state": "successful",
   "backers": 38,
   "country": "US"
@@ -10679,7 +10679,7 @@ dataJSON = [{
   "dl": "2014-02-10",
   "goal": 7000,
   "laun": "2014-01-09 11:01:41",
-  "pled": 2613,
+  "pledged": 2613,
   "state": "failed",
   "backers": 165,
   "country": "GB"
@@ -10691,7 +10691,7 @@ dataJSON = [{
   "dl": "2016-05-04",
   "goal": 15000,
   "laun": "2016-03-30 17:40:24",
-  "pled": 2129,
+  "pledged": 2129,
   "state": "failed",
   "backers": 67,
   "country": "GB"
@@ -10703,7 +10703,7 @@ dataJSON = [{
   "dl": "2014-03-08",
   "goal": 500,
   "laun": "2014-02-12 06:29:18",
-  "pled": 50,
+  "pledged": 50,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -10715,7 +10715,7 @@ dataJSON = [{
   "dl": "2014-04-21",
   "goal": 7000,
   "laun": "2014-04-01 01:21:22",
-  "pled": 7741,
+  "pledged": 7741,
   "state": "successful",
   "backers": 122,
   "country": "US"
@@ -10727,7 +10727,7 @@ dataJSON = [{
   "dl": "2015-02-15",
   "goal": 15000,
   "laun": "2015-01-16 15:11:08",
-  "pled": 12584,
+  "pledged": 12584,
   "state": "failed",
   "backers": 154,
   "country": "US"
@@ -10739,7 +10739,7 @@ dataJSON = [{
   "dl": "2016-07-14",
   "goal": 750,
   "laun": "2016-05-15 17:23:46",
-  "pled": 1332,
+  "pledged": 1332,
   "state": "successful",
   "backers": 29,
   "country": "US"
@@ -10751,7 +10751,7 @@ dataJSON = [{
   "dl": "2012-11-13",
   "goal": 2500,
   "laun": "2012-10-24 01:02:26",
-  "pled": 261,
+  "pledged": 261,
   "state": "failed",
   "backers": 9,
   "country": "US"
@@ -10763,7 +10763,7 @@ dataJSON = [{
   "dl": "2015-12-17",
   "goal": 1000,
   "laun": "2015-10-20 03:46:08",
-  "pled": 187,
+  "pledged": 187,
   "state": "failed",
   "backers": 15,
   "country": "US"
@@ -10775,7 +10775,7 @@ dataJSON = [{
   "dl": "2012-12-16",
   "goal": 18000,
   "laun": "2012-10-23 03:08:00",
-  "pled": 19056,
+  "pledged": 19056,
   "state": "successful",
   "backers": 96,
   "country": "US"
@@ -10787,7 +10787,7 @@ dataJSON = [{
   "dl": "2011-03-18",
   "goal": 12500,
   "laun": "2011-02-01 18:04:37",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -10799,7 +10799,7 @@ dataJSON = [{
   "dl": "2013-05-23",
   "goal": 2000,
   "laun": "2013-04-23 18:46:15",
-  "pled": 191,
+  "pledged": 191,
   "state": "failed",
   "backers": 7,
   "country": "US"
@@ -10811,7 +10811,7 @@ dataJSON = [{
   "dl": "2012-01-28",
   "goal": 20000,
   "laun": "2011-12-29 19:46:19",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -10823,7 +10823,7 @@ dataJSON = [{
   "dl": "2015-05-01",
   "goal": 3500,
   "laun": "2015-04-15 18:13:58",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -10835,7 +10835,7 @@ dataJSON = [{
   "dl": "2014-09-25",
   "goal": 60000,
   "laun": "2014-08-25 18:24:24",
-  "pled": 35,
+  "pledged": 35,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -10847,7 +10847,7 @@ dataJSON = [{
   "dl": "2017-04-09",
   "goal": 10000,
   "laun": "2017-03-09 21:57:41",
-  "pled": 10145,
+  "pledged": 10145,
   "state": "successful",
   "backers": 87,
   "country": "GB"
@@ -10859,7 +10859,7 @@ dataJSON = [{
   "dl": "2013-09-28",
   "goal": 7500,
   "laun": "2013-08-29 21:32:01",
-  "pled": 7673.51,
+  "pledged": 7673.51,
   "state": "successful",
   "backers": 120,
   "country": "US"
@@ -10871,7 +10871,7 @@ dataJSON = [{
   "dl": "2015-11-10",
   "goal": 15000,
   "laun": "2015-10-11 05:11:51",
-  "pled": 1035,
+  "pledged": 1035,
   "state": "failed",
   "backers": 7,
   "country": "CA"
@@ -10883,7 +10883,7 @@ dataJSON = [{
   "dl": "2012-07-16",
   "goal": 5500,
   "laun": "2012-06-13 17:52:41",
-  "pled": 5615,
+  "pledged": 5615,
   "state": "successful",
   "backers": 181,
   "country": "US"
@@ -10895,7 +10895,7 @@ dataJSON = [{
   "dl": "2011-11-18",
   "goal": 20000,
   "laun": "2011-10-19 18:12:41",
-  "pled": 1935,
+  "pledged": 1935,
   "state": "failed",
   "backers": 31,
   "country": "US"
@@ -10907,7 +10907,7 @@ dataJSON = [{
   "dl": "2013-03-28",
   "goal": 500,
   "laun": "2013-03-12 23:19:42",
-  "pled": 650,
+  "pledged": 650,
   "state": "successful",
   "backers": 11,
   "country": "US"
@@ -10919,7 +10919,7 @@ dataJSON = [{
   "dl": "2017-04-08",
   "goal": 35000,
   "laun": "2017-03-09 22:01:22",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "MX"
@@ -10931,7 +10931,7 @@ dataJSON = [{
   "dl": "2014-11-28",
   "goal": 5000,
   "laun": "2014-10-29 16:00:26",
-  "pled": 441,
+  "pledged": 441,
   "state": "failed",
   "backers": 8,
   "country": "US"
@@ -10943,7 +10943,7 @@ dataJSON = [{
   "dl": "2014-08-29",
   "goal": 10000,
   "laun": "2014-07-15 00:53:34",
-  "pled": 10041,
+  "pledged": 10041,
   "state": "successful",
   "backers": 85,
   "country": "US"
@@ -10955,7 +10955,7 @@ dataJSON = [{
   "dl": "2014-09-28",
   "goal": 200,
   "laun": "2014-07-30 19:30:45",
-  "pled": 26,
+  "pledged": 26,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -10967,7 +10967,7 @@ dataJSON = [{
   "dl": "2014-06-27",
   "goal": 225000,
   "laun": "2014-05-13 00:34:31",
-  "pled": 186,
+  "pledged": 186,
   "state": "canceled",
   "backers": 6,
   "country": "US"
@@ -10979,7 +10979,7 @@ dataJSON = [{
   "dl": "2015-03-15",
   "goal": 50000,
   "laun": "2015-02-13 20:45:30",
-  "pled": 80939,
+  "pledged": 80939,
   "state": "successful",
   "backers": 574,
   "country": "CA"
@@ -10991,7 +10991,7 @@ dataJSON = [{
   "dl": "2012-04-22",
   "goal": 8000,
   "laun": "2012-02-22 15:45:56",
-  "pled": 20,
+  "pledged": 20,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -11003,7 +11003,7 @@ dataJSON = [{
   "dl": "2010-08-10",
   "goal": 10000,
   "laun": "2010-06-10 09:17:49",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -11015,7 +11015,7 @@ dataJSON = [{
   "dl": "2013-02-20",
   "goal": 27000,
   "laun": "2013-01-21 18:53:44",
-  "pled": 576,
+  "pledged": 576,
   "state": "failed",
   "backers": 19,
   "country": "US"
@@ -11027,7 +11027,7 @@ dataJSON = [{
   "dl": "2013-10-07",
   "goal": 10000,
   "laun": "2013-09-17 20:17:53",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -11039,7 +11039,7 @@ dataJSON = [{
   "dl": "2015-12-17",
   "goal": 5000,
   "laun": "2015-11-02 18:24:29",
-  "pled": 100,
+  "pledged": 100,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -11051,7 +11051,7 @@ dataJSON = [{
   "dl": "2012-02-09",
   "goal": 6000,
   "laun": "2012-01-05 10:08:53",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -11063,7 +11063,7 @@ dataJSON = [{
   "dl": "2012-04-08",
   "goal": 6500,
   "laun": "2012-02-16 20:55:54",
-  "pled": 30,
+  "pledged": 30,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -11075,7 +11075,7 @@ dataJSON = [{
   "dl": "2011-02-09",
   "goal": 2200,
   "laun": "2010-11-11 20:49:26",
-  "pled": 190,
+  "pledged": 190,
   "state": "failed",
   "backers": 8,
   "country": "US"
@@ -11087,7 +11087,7 @@ dataJSON = [{
   "dl": "2015-06-02",
   "goal": 12000,
   "laun": "2015-04-23 18:58:45",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -11099,7 +11099,7 @@ dataJSON = [{
   "dl": "2016-03-31",
   "goal": 10000,
   "laun": "2016-02-15 07:22:37",
-  "pled": 617,
+  "pledged": 617,
   "state": "failed",
   "backers": 11,
   "country": "US"
@@ -11111,7 +11111,7 @@ dataJSON = [{
   "dl": "2016-04-29",
   "goal": 2500,
   "laun": "2016-03-30 02:00:06",
-  "pled": 2680,
+  "pledged": 2680,
   "state": "successful",
   "backers": 48,
   "country": "US"
@@ -11123,7 +11123,7 @@ dataJSON = [{
   "dl": "2011-06-17",
   "goal": 5500,
   "laun": "2011-04-18 14:34:33",
-  "pled": 60,
+  "pledged": 60,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -11135,7 +11135,7 @@ dataJSON = [{
   "dl": "2016-09-09",
   "goal": 9900,
   "laun": "2016-08-10 16:20:10",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "AU"
@@ -11147,7 +11147,7 @@ dataJSON = [{
   "dl": "2017-12-14",
   "goal": 3750,
   "laun": "2017-11-29 12:26:32",
-  "pled": 482,
+  "pledged": 482,
   "state": "failed",
   "backers": 4,
   "country": "GB"
@@ -11159,7 +11159,7 @@ dataJSON = [{
   "dl": "2014-06-22",
   "goal": 20000,
   "laun": "2014-05-23 23:08:43",
-  "pled": 73.23,
+  "pledged": 73.23,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -11171,7 +11171,7 @@ dataJSON = [{
   "dl": "2013-07-13",
   "goal": 20000,
   "laun": "2013-06-13 22:07:33",
-  "pled": 220,
+  "pledged": 220,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -11183,7 +11183,7 @@ dataJSON = [{
   "dl": "2016-05-10",
   "goal": 5000,
   "laun": "2016-03-11 21:00:25",
-  "pled": 3257,
+  "pledged": 3257,
   "state": "failed",
   "backers": 21,
   "country": "US"
@@ -11195,7 +11195,7 @@ dataJSON = [{
   "dl": "2016-05-31",
   "goal": 2400,
   "laun": "2016-05-15 06:08:34",
-  "pled": 253,
+  "pledged": 253,
   "state": "failed",
   "backers": 10,
   "country": "US"
@@ -11207,7 +11207,7 @@ dataJSON = [{
   "dl": "2016-07-18",
   "goal": 15000,
   "laun": "2016-06-18 19:41:22",
-  "pled": 30,
+  "pledged": 30,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -11219,7 +11219,7 @@ dataJSON = [{
   "dl": "2015-02-01",
   "goal": 20000,
   "laun": "2015-01-02 06:18:02",
-  "pled": 309,
+  "pledged": 309,
   "state": "failed",
   "backers": 10,
   "country": "US"
@@ -11231,7 +11231,7 @@ dataJSON = [{
   "dl": "2017-06-30",
   "goal": 5000,
   "laun": "2017-05-31 04:40:36",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -11243,7 +11243,7 @@ dataJSON = [{
   "dl": "2014-09-27",
   "goal": 200,
   "laun": "2014-09-17 06:36:18",
-  "pled": 15,
+  "pledged": 15,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -11255,7 +11255,7 @@ dataJSON = [{
   "dl": "2017-11-01",
   "goal": 1000,
   "laun": "2017-10-09 07:03:53",
-  "pled": 395,
+  "pledged": 395,
   "state": "failed",
   "backers": 8,
   "country": "US"
@@ -11267,7 +11267,7 @@ dataJSON = [{
   "dl": "2016-08-08",
   "goal": 50000,
   "laun": "2016-07-06 14:53:17",
-  "pled": 64614,
+  "pledged": 64614,
   "state": "successful",
   "backers": 541,
   "country": "US"
@@ -11279,7 +11279,7 @@ dataJSON = [{
   "dl": "2015-04-10",
   "goal": 600,
   "laun": "2015-03-11 16:44:13",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -11291,7 +11291,7 @@ dataJSON = [{
   "dl": "2012-01-08",
   "goal": 5000,
   "laun": "2011-12-09 23:33:03",
-  "pled": 100,
+  "pledged": 100,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -11303,7 +11303,7 @@ dataJSON = [{
   "dl": "2014-06-06",
   "goal": 11750,
   "laun": "2014-05-08 22:44:23",
-  "pled": 12175,
+  "pledged": 12175,
   "state": "successful",
   "backers": 128,
   "country": "US"
@@ -11315,7 +11315,7 @@ dataJSON = [{
   "dl": "2012-01-27",
   "goal": 11500,
   "laun": "2011-12-13 00:43:20",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -11327,7 +11327,7 @@ dataJSON = [{
   "dl": "2015-04-06",
   "goal": 35000,
   "laun": "2015-03-07 00:17:45",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -11339,7 +11339,7 @@ dataJSON = [{
   "dl": "2015-01-11",
   "goal": 3500,
   "laun": "2014-12-09 16:46:51",
-  "pled": 3703,
+  "pledged": 3703,
   "state": "successful",
   "backers": 79,
   "country": "US"
@@ -11351,7 +11351,7 @@ dataJSON = [{
   "dl": "2014-09-15",
   "goal": 17000,
   "laun": "2014-09-01 17:51:38",
-  "pled": 19114,
+  "pledged": 19114,
   "state": "successful",
   "backers": 90,
   "country": "US"
@@ -11363,7 +11363,7 @@ dataJSON = [{
   "dl": "2015-09-27",
   "goal": 15000,
   "laun": "2015-08-31 21:13:39",
-  "pled": 15270.99,
+  "pledged": 15270.99,
   "state": "successful",
   "backers": 194,
   "country": "CA"
@@ -11375,7 +11375,7 @@ dataJSON = [{
   "dl": "2014-08-07",
   "goal": 500000,
   "laun": "2014-07-08 03:08:10",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -11387,7 +11387,7 @@ dataJSON = [{
   "dl": "2015-05-26",
   "goal": 4000,
   "laun": "2015-04-26 00:48:23",
-  "pled": 4250,
+  "pledged": 4250,
   "state": "successful",
   "backers": 56,
   "country": "CA"
@@ -11399,7 +11399,7 @@ dataJSON = [{
   "dl": "2016-07-29",
   "goal": 6000,
   "laun": "2016-06-24 21:06:04",
-  "pled": 664,
+  "pledged": 664,
   "state": "canceled",
   "backers": 6,
   "country": "US"
@@ -11411,7 +11411,7 @@ dataJSON = [{
   "dl": "2012-04-28",
   "goal": 12000,
   "laun": "2012-03-29 17:31:03",
-  "pled": 15,
+  "pledged": 15,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -11423,7 +11423,7 @@ dataJSON = [{
   "dl": "2016-06-05",
   "goal": 12500,
   "laun": "2016-05-14 23:39:32",
-  "pled": 12569,
+  "pledged": 12569,
   "state": "successful",
   "backers": 24,
   "country": "DE"
@@ -11435,7 +11435,7 @@ dataJSON = [{
   "dl": "2012-04-01",
   "goal": 2000,
   "laun": "2012-02-01 22:29:22",
-  "pled": 2179.74,
+  "pledged": 2179.74,
   "state": "successful",
   "backers": 43,
   "country": "US"
@@ -11447,7 +11447,7 @@ dataJSON = [{
   "dl": "2016-07-22",
   "goal": 930,
   "laun": "2016-07-02 21:17:18",
-  "pled": 1126,
+  "pledged": 1126,
   "state": "successful",
   "backers": 30,
   "country": "US"
@@ -11459,7 +11459,7 @@ dataJSON = [{
   "dl": "2014-12-05",
   "goal": 30000,
   "laun": "2014-11-05 16:33:05",
-  "pled": 52694,
+  "pledged": 52694,
   "state": "successful",
   "backers": 1137,
   "country": "US"
@@ -11471,7 +11471,7 @@ dataJSON = [{
   "dl": "2015-08-19",
   "goal": 5000,
   "laun": "2015-07-05 03:26:14",
-  "pled": 100,
+  "pledged": 100,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -11483,7 +11483,7 @@ dataJSON = [{
   "dl": "2016-08-11",
   "goal": 20000,
   "laun": "2016-07-12 20:15:00",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -11495,7 +11495,7 @@ dataJSON = [{
   "dl": "2012-07-14",
   "goal": 6000,
   "laun": "2012-06-14 17:00:55",
-  "pled": 11285,
+  "pledged": 11285,
   "state": "successful",
   "backers": 132,
   "country": "US"
@@ -11507,7 +11507,7 @@ dataJSON = [{
   "dl": "2017-05-25",
   "goal": 75000,
   "laun": "2017-04-19 17:39:03",
-  "pled": 78971,
+  "pledged": 78971,
   "state": "successful",
   "backers": 696,
   "country": "US"
@@ -11519,7 +11519,7 @@ dataJSON = [{
   "dl": "2018-01-26",
   "goal": 600,
   "laun": "2017-12-27 20:16:36",
-  "pled": 498,
+  "pledged": 498,
   "state": "live",
   "backers": 4,
   "country": "CA"
@@ -11531,7 +11531,7 @@ dataJSON = [{
   "dl": "2014-09-04",
   "goal": 5000,
   "laun": "2014-08-05 00:08:15",
-  "pled": 275,
+  "pledged": 275,
   "state": "canceled",
   "backers": 8,
   "country": "US"
@@ -11543,7 +11543,7 @@ dataJSON = [{
   "dl": "2012-08-01",
   "goal": 8000,
   "laun": "2012-07-20 20:09:42",
-  "pled": 100,
+  "pledged": 100,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -11555,7 +11555,7 @@ dataJSON = [{
   "dl": "2016-05-16",
   "goal": 27000,
   "laun": "2016-04-14 12:53:39",
-  "pled": 28450,
+  "pledged": 28450,
   "state": "successful",
   "backers": 390,
   "country": "US"
@@ -11567,7 +11567,7 @@ dataJSON = [{
   "dl": "2018-01-03",
   "goal": 10000,
   "laun": "2017-12-04 05:33:06",
-  "pled": 100,
+  "pledged": 100,
   "state": "canceled",
   "backers": 5,
   "country": "US"
@@ -11579,7 +11579,7 @@ dataJSON = [{
   "dl": "2016-03-29",
   "goal": 100000,
   "laun": "2016-02-17 16:23:39",
-  "pled": 23890,
+  "pledged": 23890,
   "state": "failed",
   "backers": 155,
   "country": "US"
@@ -11591,7 +11591,7 @@ dataJSON = [{
   "dl": "2017-11-22",
   "goal": 70000,
   "laun": "2017-10-23 01:17:58",
-  "pled": 2600,
+  "pledged": 2600,
   "state": "failed",
   "backers": 8,
   "country": "MX"
@@ -11603,7 +11603,7 @@ dataJSON = [{
   "dl": "2014-01-25",
   "goal": 9200,
   "laun": "2013-12-16 15:08:05",
-  "pled": 401,
+  "pledged": 401,
   "state": "failed",
   "backers": 15,
   "country": "GB"
@@ -11615,7 +11615,7 @@ dataJSON = [{
   "dl": "2011-12-23",
   "goal": 3000,
   "laun": "2011-10-24 09:16:19",
-  "pled": 80,
+  "pledged": 80,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -11627,7 +11627,7 @@ dataJSON = [{
   "dl": "2016-04-05",
   "goal": 65000,
   "laun": "2016-03-06 08:44:50",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -11639,7 +11639,7 @@ dataJSON = [{
   "dl": "2013-01-24",
   "goal": 7500,
   "laun": "2012-12-10 20:43:04",
-  "pled": 2700,
+  "pledged": 2700,
   "state": "failed",
   "backers": 37,
   "country": "US"
@@ -11651,7 +11651,7 @@ dataJSON = [{
   "dl": "2013-06-15",
   "goal": 1500,
   "laun": "2013-05-16 07:39:24",
-  "pled": 2715,
+  "pledged": 2715,
   "state": "successful",
   "backers": 69,
   "country": "US"
@@ -11663,7 +11663,7 @@ dataJSON = [{
   "dl": "2014-04-09",
   "goal": 400,
   "laun": "2014-02-18 21:47:20",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "GB"
@@ -11675,7 +11675,7 @@ dataJSON = [{
   "dl": "2014-06-04",
   "goal": 20000,
   "laun": "2014-05-05 18:56:07",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "GB"
@@ -11687,7 +11687,7 @@ dataJSON = [{
   "dl": "2013-10-07",
   "goal": 25000,
   "laun": "2013-09-04 13:02:41",
-  "pled": 85480.67,
+  "pledged": 85480.67,
   "state": "successful",
   "backers": 1546,
   "country": "US"
@@ -11699,7 +11699,7 @@ dataJSON = [{
   "dl": "2016-11-05",
   "goal": 1500,
   "laun": "2016-10-14 19:52:17",
-  "pled": 3322,
+  "pledged": 3322,
   "state": "successful",
   "backers": 137,
   "country": "US"
@@ -11711,7 +11711,7 @@ dataJSON = [{
   "dl": "2015-09-28",
   "goal": 17500,
   "laun": "2015-08-29 03:46:31",
-  "pled": 50,
+  "pledged": 50,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -11723,7 +11723,7 @@ dataJSON = [{
   "dl": "2010-05-31",
   "goal": 1500,
   "laun": "2010-04-11 03:56:51",
-  "pled": 435,
+  "pledged": 435,
   "state": "failed",
   "backers": 22,
   "country": "US"
@@ -11735,7 +11735,7 @@ dataJSON = [{
   "dl": "2014-09-01",
   "goal": 1200,
   "laun": "2014-07-28 21:06:01",
-  "pled": 2,
+  "pledged": 2,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -11747,7 +11747,7 @@ dataJSON = [{
   "dl": "2010-09-24",
   "goal": 30000,
   "laun": "2010-06-26 20:46:21",
-  "pled": 35319.9,
+  "pledged": 35319.9,
   "state": "successful",
   "backers": 239,
   "country": "US"
@@ -11759,7 +11759,7 @@ dataJSON = [{
   "dl": "2012-10-08",
   "goal": 6000,
   "laun": "2012-08-09 21:25:12",
-  "pled": 6155,
+  "pledged": 6155,
   "state": "successful",
   "backers": 110,
   "country": "US"
@@ -11771,7 +11771,7 @@ dataJSON = [{
   "dl": "2016-02-06",
   "goal": 7500,
   "laun": "2016-01-07 01:58:33",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -11783,7 +11783,7 @@ dataJSON = [{
   "dl": "2017-02-05",
   "goal": 1000,
   "laun": "2017-02-01 23:22:11",
-  "pled": 1005,
+  "pledged": 1005,
   "state": "successful",
   "backers": 1,
   "country": "US"
@@ -11795,7 +11795,7 @@ dataJSON = [{
   "dl": "2016-09-05",
   "goal": 20000,
   "laun": "2016-08-06 01:57:34",
-  "pled": 270,
+  "pledged": 270,
   "state": "failed",
   "backers": 7,
   "country": "AU"
@@ -11807,7 +11807,7 @@ dataJSON = [{
   "dl": "2011-06-23",
   "goal": 5050,
   "laun": "2011-05-24 01:19:00",
-  "pled": 1905,
+  "pledged": 1905,
   "state": "failed",
   "backers": 11,
   "country": "US"
@@ -11819,7 +11819,7 @@ dataJSON = [{
   "dl": "2014-04-09",
   "goal": 1000,
   "laun": "2014-02-08 20:20:47",
-  "pled": 1005,
+  "pledged": 1005,
   "state": "successful",
   "backers": 16,
   "country": "US"
@@ -11831,7 +11831,7 @@ dataJSON = [{
   "dl": "2011-05-22",
   "goal": 5000,
   "laun": "2011-04-18 01:58:32",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -11843,7 +11843,7 @@ dataJSON = [{
   "dl": "2015-03-24",
   "goal": 6000,
   "laun": "2015-02-22 01:36:16",
-  "pled": 3779,
+  "pledged": 3779,
   "state": "canceled",
   "backers": 20,
   "country": "GB"
@@ -11855,7 +11855,7 @@ dataJSON = [{
   "dl": "2012-09-29",
   "goal": 500,
   "laun": "2012-09-04 22:53:57",
-  "pled": 373,
+  "pledged": 373,
   "state": "failed",
   "backers": 18,
   "country": "US"
@@ -11867,7 +11867,7 @@ dataJSON = [{
   "dl": "2017-04-30",
   "goal": 20000,
   "laun": "2017-04-13 12:20:54",
-  "pled": 12,
+  "pledged": 12,
   "state": "failed",
   "backers": 3,
   "country": "GB"
@@ -11879,7 +11879,7 @@ dataJSON = [{
   "dl": "2016-03-17",
   "goal": 60000,
   "laun": "2016-02-16 16:03:25",
-  "pled": 60290,
+  "pledged": 60290,
   "state": "successful",
   "backers": 778,
   "country": "US"
@@ -11891,7 +11891,7 @@ dataJSON = [{
   "dl": "2017-01-03",
   "goal": 100000,
   "laun": "2016-11-03 23:51:09",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -11903,7 +11903,7 @@ dataJSON = [{
   "dl": "2017-05-31",
   "goal": 500,
   "laun": "2017-05-01 20:38:50",
-  "pled": 15,
+  "pledged": 15,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -11915,7 +11915,7 @@ dataJSON = [{
   "dl": "2012-08-20",
   "goal": 4000,
   "laun": "2012-08-02 18:25:40",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -11927,7 +11927,7 @@ dataJSON = [{
   "dl": "2014-01-05",
   "goal": 3990,
   "laun": "2013-12-11 18:00:21",
-  "pled": 4060,
+  "pledged": 4060,
   "state": "successful",
   "backers": 109,
   "country": "US"
@@ -11939,7 +11939,7 @@ dataJSON = [{
   "dl": "2011-09-12",
   "goal": 643.5,
   "laun": "2011-08-13 23:28:03",
-  "pled": 71,
+  "pledged": 71,
   "state": "canceled",
   "backers": 7,
   "country": "US"
@@ -11951,7 +11951,7 @@ dataJSON = [{
   "dl": "2015-10-09",
   "goal": 850,
   "laun": "2015-09-09 21:17:54",
-  "pled": 223,
+  "pledged": 223,
   "state": "failed",
   "backers": 8,
   "country": "ES"
@@ -11963,7 +11963,7 @@ dataJSON = [{
   "dl": "2014-07-19",
   "goal": 1000,
   "laun": "2014-06-19 00:20:07",
-  "pled": 1077,
+  "pledged": 1077,
   "state": "successful",
   "backers": 10,
   "country": "US"
@@ -11975,7 +11975,7 @@ dataJSON = [{
   "dl": "2012-07-09",
   "goal": 45000,
   "laun": "2012-06-09 00:42:13",
-  "pled": 176,
+  "pledged": 176,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -11987,7 +11987,7 @@ dataJSON = [{
   "dl": "2016-08-21",
   "goal": 5000,
   "laun": "2016-07-23 21:45:52",
-  "pled": 1797,
+  "pledged": 1797,
   "state": "failed",
   "backers": 30,
   "country": "US"
@@ -11999,7 +11999,7 @@ dataJSON = [{
   "dl": "2016-10-01",
   "goal": 1200,
   "laun": "2016-09-15 20:40:45",
-  "pled": 1787,
+  "pledged": 1787,
   "state": "successful",
   "backers": 34,
   "country": "US"
@@ -12011,7 +12011,7 @@ dataJSON = [{
   "dl": "2014-08-07",
   "goal": 5000,
   "laun": "2014-07-21 23:00:58",
-  "pled": 25000,
+  "pledged": 25000,
   "state": "successful",
   "backers": 497,
   "country": "US"
@@ -12023,7 +12023,7 @@ dataJSON = [{
   "dl": "2017-04-11",
   "goal": 19669,
   "laun": "2017-03-28 12:57:36",
-  "pled": 1662,
+  "pledged": 1662,
   "state": "failed",
   "backers": 6,
   "country": "GB"
@@ -12035,7 +12035,7 @@ dataJSON = [{
   "dl": "2016-07-06",
   "goal": 15000,
   "laun": "2016-05-07 21:52:54",
-  "pled": 700,
+  "pledged": 700,
   "state": "canceled",
   "backers": 2,
   "country": "US"
@@ -12047,7 +12047,7 @@ dataJSON = [{
   "dl": "2015-03-02",
   "goal": 4000,
   "laun": "2015-02-11 20:39:58",
-  "pled": 242,
+  "pledged": 242,
   "state": "failed",
   "backers": 15,
   "country": "US"
@@ -12059,7 +12059,7 @@ dataJSON = [{
   "dl": "2015-12-06",
   "goal": 1200,
   "laun": "2015-11-06 19:40:30",
-  "pled": 1322,
+  "pledged": 1322,
   "state": "successful",
   "backers": 24,
   "country": "CA"
@@ -12071,7 +12071,7 @@ dataJSON = [{
   "dl": "2013-02-02",
   "goal": 1500,
   "laun": "2013-01-03 00:58:22",
-  "pled": 3031,
+  "pledged": 3031,
   "state": "successful",
   "backers": 111,
   "country": "US"
@@ -12083,7 +12083,7 @@ dataJSON = [{
   "dl": "2016-08-08",
   "goal": 50000,
   "laun": "2016-06-24 23:04:33",
-  "pled": 20,
+  "pledged": 20,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -12095,7 +12095,7 @@ dataJSON = [{
   "dl": "2010-08-11",
   "goal": 2000,
   "laun": "2010-06-21 22:17:17",
-  "pled": 505,
+  "pledged": 505,
   "state": "failed",
   "backers": 15,
   "country": "US"
@@ -12107,7 +12107,7 @@ dataJSON = [{
   "dl": "2015-09-13",
   "goal": 6500,
   "laun": "2015-08-14 14:53:40",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "CA"
@@ -12119,7 +12119,7 @@ dataJSON = [{
   "dl": "2012-08-15",
   "goal": 32000,
   "laun": "2012-07-16 21:36:29",
-  "pled": 5,
+  "pledged": 5,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -12131,7 +12131,7 @@ dataJSON = [{
   "dl": "2014-04-13",
   "goal": 60,
   "laun": "2014-04-03 23:32:28",
-  "pled": 200,
+  "pledged": 200,
   "state": "successful",
   "backers": 8,
   "country": "GB"
@@ -12143,7 +12143,7 @@ dataJSON = [{
   "dl": "2016-02-22",
   "goal": 575,
   "laun": "2016-01-08 21:56:56",
-  "pled": 180,
+  "pledged": 180,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -12155,7 +12155,7 @@ dataJSON = [{
   "dl": "2016-06-08",
   "goal": 16000,
   "laun": "2016-05-09 16:39:58",
-  "pled": 408,
+  "pledged": 408,
   "state": "failed",
   "backers": 16,
   "country": "ES"
@@ -12167,7 +12167,7 @@ dataJSON = [{
   "dl": "2016-03-31",
   "goal": 25000,
   "laun": "2016-03-01 02:44:12",
-  "pled": 30559,
+  "pledged": 30559,
   "state": "successful",
   "backers": 535,
   "country": "US"
@@ -12179,7 +12179,7 @@ dataJSON = [{
   "dl": "2012-07-17",
   "goal": 115000,
   "laun": "2012-06-02 00:56:48",
-  "pled": 17,
+  "pledged": 17,
   "state": "canceled",
   "backers": 2,
   "country": "US"
@@ -12191,7 +12191,7 @@ dataJSON = [{
   "dl": "2015-05-25",
   "goal": 900,
   "laun": "2015-04-24 19:39:06",
-  "pled": 20532.2,
+  "pledged": 20532.2,
   "state": "successful",
   "backers": 2201,
   "country": "US"
@@ -12203,7 +12203,7 @@ dataJSON = [{
   "dl": "2015-12-06",
   "goal": 10000,
   "laun": "2015-11-06 11:51:48",
-  "pled": 326,
+  "pledged": 326,
   "state": "failed",
   "backers": 18,
   "country": "GB"
@@ -12215,7 +12215,7 @@ dataJSON = [{
   "dl": "2015-03-30",
   "goal": 1000,
   "laun": "2015-01-29 02:21:17",
-  "pled": 1165,
+  "pledged": 1165,
   "state": "successful",
   "backers": 15,
   "country": "US"
@@ -12227,7 +12227,7 @@ dataJSON = [{
   "dl": "2016-06-23",
   "goal": 664,
   "laun": "2016-05-24 23:25:35",
-  "pled": 105,
+  "pledged": 105,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -12239,7 +12239,7 @@ dataJSON = [{
   "dl": "2015-03-12",
   "goal": 3000,
   "laun": "2015-02-10 15:08:53",
-  "pled": 902,
+  "pledged": 902,
   "state": "failed",
   "backers": 26,
   "country": "US"
@@ -12251,7 +12251,7 @@ dataJSON = [{
   "dl": "2010-10-15",
   "goal": 5000,
   "laun": "2010-07-21 08:29:08",
-  "pled": 575,
+  "pledged": 575,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -12263,7 +12263,7 @@ dataJSON = [{
   "dl": "2016-04-16",
   "goal": 33000,
   "laun": "2016-03-17 13:42:54",
-  "pled": 1105,
+  "pledged": 1105,
   "state": "undefined",
   "backers": 0,
   "country": "N,0"
@@ -12275,7 +12275,7 @@ dataJSON = [{
   "dl": "2015-12-03",
   "goal": 3000,
   "laun": "2015-11-03 11:57:31",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -12287,7 +12287,7 @@ dataJSON = [{
   "dl": "2015-05-17",
   "goal": 3000,
   "laun": "2015-04-17 18:52:00",
-  "pled": 1155,
+  "pledged": 1155,
   "state": "canceled",
   "backers": 14,
   "country": "NL"
@@ -12299,7 +12299,7 @@ dataJSON = [{
   "dl": "2014-10-07",
   "goal": 10000,
   "laun": "2014-08-08 22:53:16",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -12311,7 +12311,7 @@ dataJSON = [{
   "dl": "2015-05-16",
   "goal": 3500,
   "laun": "2015-04-06 17:34:56",
-  "pled": 2333,
+  "pledged": 2333,
   "state": "failed",
   "backers": 112,
   "country": "CA"
@@ -12323,7 +12323,7 @@ dataJSON = [{
   "dl": "2015-02-13",
   "goal": 2000,
   "laun": "2015-01-14 21:26:56",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -12335,7 +12335,7 @@ dataJSON = [{
   "dl": "2014-06-12",
   "goal": 15000,
   "laun": "2014-04-28 21:20:52",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -12347,7 +12347,7 @@ dataJSON = [{
   "dl": "2015-12-19",
   "goal": 20000,
   "laun": "2015-11-15 00:06:42",
-  "pled": 23079,
+  "pledged": 23079,
   "state": "successful",
   "backers": 265,
   "country": "GB"
@@ -12359,7 +12359,7 @@ dataJSON = [{
   "dl": "2013-08-08",
   "goal": 25000,
   "laun": "2013-07-09 13:33:14",
-  "pled": 1136,
+  "pledged": 1136,
   "state": "failed",
   "backers": 28,
   "country": "US"
@@ -12371,7 +12371,7 @@ dataJSON = [{
   "dl": "2017-01-20",
   "goal": 250000,
   "laun": "2016-12-21 16:09:25",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "GB"
@@ -12383,7 +12383,7 @@ dataJSON = [{
   "dl": "2010-08-15",
   "goal": 5000,
   "laun": "2010-06-15 23:24:12",
-  "pled": 365,
+  "pledged": 365,
   "state": "failed",
   "backers": 11,
   "country": "US"
@@ -12395,7 +12395,7 @@ dataJSON = [{
   "dl": "2014-09-20",
   "goal": 1000,
   "laun": "2014-08-21 01:26:46",
-  "pled": 30,
+  "pledged": 30,
   "state": "canceled",
   "backers": 1,
   "country": "GB"
@@ -12407,7 +12407,7 @@ dataJSON = [{
   "dl": "2015-07-20",
   "goal": 300,
   "laun": "2015-06-29 18:17:23",
-  "pled": 741,
+  "pledged": 741,
   "state": "successful",
   "backers": 34,
   "country": "DE"
@@ -12419,7 +12419,7 @@ dataJSON = [{
   "dl": "2015-07-24",
   "goal": 8000,
   "laun": "2015-06-16 20:51:14",
-  "pled": 40,
+  "pledged": 40,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -12431,7 +12431,7 @@ dataJSON = [{
   "dl": "2015-12-03",
   "goal": 1700,
   "laun": "2015-11-03 22:22:37",
-  "pled": 164,
+  "pledged": 164,
   "state": "canceled",
   "backers": 14,
   "country": "US"
@@ -12443,7 +12443,7 @@ dataJSON = [{
   "dl": "2016-07-31",
   "goal": 15000,
   "laun": "2016-07-01 00:58:23",
-  "pled": 20,
+  "pledged": 20,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -12455,7 +12455,7 @@ dataJSON = [{
   "dl": "2012-02-02",
   "goal": 12000,
   "laun": "2012-01-03 23:18:04",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -12467,7 +12467,7 @@ dataJSON = [{
   "dl": "2013-11-12",
   "goal": 7500,
   "laun": "2013-10-11 22:36:53",
-  "pled": 7850,
+  "pledged": 7850,
   "state": "successful",
   "backers": 59,
   "country": "US"
@@ -12479,7 +12479,7 @@ dataJSON = [{
   "dl": "2013-03-27",
   "goal": 15000,
   "laun": "2013-02-25 22:06:36",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 1,
   "country": "GB"
@@ -12491,7 +12491,7 @@ dataJSON = [{
   "dl": "2015-09-06",
   "goal": 200,
   "laun": "2015-07-08 01:22:25",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "AU"
@@ -12503,7 +12503,7 @@ dataJSON = [{
   "dl": "2017-01-30",
   "goal": 3000,
   "laun": "2017-01-09 01:06:49",
-  "pled": 6271,
+  "pledged": 6271,
   "state": "successful",
   "backers": 55,
   "country": "US"
@@ -12515,7 +12515,7 @@ dataJSON = [{
   "dl": "2015-08-03",
   "goal": 355,
   "laun": "2015-06-04 17:29:35",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "NL"
@@ -12527,7 +12527,7 @@ dataJSON = [{
   "dl": "2016-05-16",
   "goal": 5000,
   "laun": "2016-04-16 22:37:07",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "ES"
@@ -12539,7 +12539,7 @@ dataJSON = [{
   "dl": "2016-01-30",
   "goal": 1500,
   "laun": "2015-12-01 17:40:49",
-  "pled": 199,
+  "pledged": 199,
   "state": "failed",
   "backers": 11,
   "country": "US"
@@ -12551,7 +12551,7 @@ dataJSON = [{
   "dl": "2011-07-18",
   "goal": 1000,
   "laun": "2011-04-19 18:56:00",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -12563,7 +12563,7 @@ dataJSON = [{
   "dl": "2017-06-19",
   "goal": 30,
   "laun": "2017-05-26 15:26:12",
-  "pled": 2251,
+  "pledged": 2251,
   "state": "successful",
   "backers": 103,
   "country": "US"
@@ -12575,7 +12575,7 @@ dataJSON = [{
   "dl": "2013-12-04",
   "goal": 6000,
   "laun": "2013-11-04 21:51:11",
-  "pled": 15270,
+  "pledged": 15270,
   "state": "successful",
   "backers": 219,
   "country": "US"
@@ -12587,7 +12587,7 @@ dataJSON = [{
   "dl": "2013-01-04",
   "goal": 37000,
   "laun": "2012-12-05 03:42:16",
-  "pled": 66,
+  "pledged": 66,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -12599,7 +12599,7 @@ dataJSON = [{
   "dl": "2013-08-16",
   "goal": 2500,
   "laun": "2013-07-17 03:10:51",
-  "pled": 200,
+  "pledged": 200,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -12611,7 +12611,7 @@ dataJSON = [{
   "dl": "2014-09-01",
   "goal": 25000,
   "laun": "2014-08-08 04:58:19",
-  "pled": 1915,
+  "pledged": 1915,
   "state": "failed",
   "backers": 50,
   "country": "US"
@@ -12623,7 +12623,7 @@ dataJSON = [{
   "dl": "2016-05-09",
   "goal": 12000,
   "laun": "2016-04-19 21:34:15",
-  "pled": 71,
+  "pledged": 71,
   "state": "failed",
   "backers": 9,
   "country": "DE"
@@ -12635,7 +12635,7 @@ dataJSON = [{
   "dl": "2016-06-23",
   "goal": 50000,
   "laun": "2016-05-24 18:35:51",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -12647,7 +12647,7 @@ dataJSON = [{
   "dl": "2014-08-14",
   "goal": 3000,
   "laun": "2014-07-15 19:53:09",
-  "pled": 136,
+  "pledged": 136,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -12659,7 +12659,7 @@ dataJSON = [{
   "dl": "2017-09-20",
   "goal": 50000,
   "laun": "2017-08-20 21:08:08",
-  "pled": 1003,
+  "pledged": 1003,
   "state": "canceled",
   "backers": 29,
   "country": "NL"
@@ -12671,7 +12671,7 @@ dataJSON = [{
   "dl": "2014-05-12",
   "goal": 7000,
   "laun": "2014-04-02 13:12:37",
-  "pled": 30,
+  "pledged": 30,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -12683,7 +12683,7 @@ dataJSON = [{
   "dl": "2016-11-17",
   "goal": 1500,
   "laun": "2016-10-18 19:36:05",
-  "pled": 2030,
+  "pledged": 2030,
   "state": "successful",
   "backers": 120,
   "country": "GB"
@@ -12695,7 +12695,7 @@ dataJSON = [{
   "dl": "2016-06-19",
   "goal": 18500,
   "laun": "2016-05-13 02:34:38",
-  "pled": 18948,
+  "pledged": 18948,
   "state": "successful",
   "backers": 103,
   "country": "US"
@@ -12707,7 +12707,7 @@ dataJSON = [{
   "dl": "2012-04-26",
   "goal": 6000,
   "laun": "2012-03-22 01:44:31",
-  "pled": 175,
+  "pledged": 175,
   "state": "failed",
   "backers": 8,
   "country": "US"
@@ -12719,7 +12719,7 @@ dataJSON = [{
   "dl": "2016-06-10",
   "goal": 65000,
   "laun": "2016-05-06 21:47:22",
-  "pled": 2455,
+  "pledged": 2455,
   "state": "failed",
   "backers": 18,
   "country": "US"
@@ -12731,7 +12731,7 @@ dataJSON = [{
   "dl": "2012-12-17",
   "goal": 102364,
   "laun": "2012-10-31 14:46:12",
-  "pled": 109970.36,
+  "pledged": 109970.36,
   "state": "successful",
   "backers": 1327,
   "country": "US"
@@ -12743,7 +12743,7 @@ dataJSON = [{
   "dl": "2015-10-31",
   "goal": 1437,
   "laun": "2015-09-01 03:28:39",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -12755,7 +12755,7 @@ dataJSON = [{
   "dl": "2015-01-08",
   "goal": 12000,
   "laun": "2014-12-19 00:53:36",
-  "pled": 126,
+  "pledged": 126,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -12767,7 +12767,7 @@ dataJSON = [{
   "dl": "2012-06-17",
   "goal": 2000,
   "laun": "2012-05-18 09:00:08",
-  "pled": 2320.01,
+  "pledged": 2320.01,
   "state": "successful",
   "backers": 31,
   "country": "US"
@@ -12779,7 +12779,7 @@ dataJSON = [{
   "dl": "2015-02-25",
   "goal": 25000,
   "laun": "2015-01-26 22:14:27",
-  "pled": 2281,
+  "pledged": 2281,
   "state": "failed",
   "backers": 15,
   "country": "US"
@@ -12791,7 +12791,7 @@ dataJSON = [{
   "dl": "2013-04-07",
   "goal": 10000,
   "laun": "2013-03-08 18:18:21",
-  "pled": 2244,
+  "pledged": 2244,
   "state": "failed",
   "backers": 34,
   "country": "US"
@@ -12803,7 +12803,7 @@ dataJSON = [{
   "dl": "2016-05-16",
   "goal": 2500,
   "laun": "2016-04-16 09:59:46",
-  "pled": 30,
+  "pledged": 30,
   "state": "failed",
   "backers": 1,
   "country": "FR"
@@ -12815,7 +12815,7 @@ dataJSON = [{
   "dl": "2009-08-11",
   "goal": 19000,
   "laun": "2009-05-13 16:54:34",
-  "pled": 875,
+  "pledged": 875,
   "state": "failed",
   "backers": 26,
   "country": "US"
@@ -12827,7 +12827,7 @@ dataJSON = [{
   "dl": "2014-10-17",
   "goal": 20000,
   "laun": "2014-08-18 00:05:38",
-  "pled": 106,
+  "pledged": 106,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -12839,7 +12839,7 @@ dataJSON = [{
   "dl": "2014-04-18",
   "goal": 1000,
   "laun": "2014-03-19 22:46:12",
-  "pled": 1005,
+  "pledged": 1005,
   "state": "successful",
   "backers": 24,
   "country": "AU"
@@ -12851,7 +12851,7 @@ dataJSON = [{
   "dl": "2012-11-17",
   "goal": 20000,
   "laun": "2012-09-18 21:37:08",
-  "pled": 21767.23,
+  "pledged": 21767.23,
   "state": "successful",
   "backers": 324,
   "country": "US"
@@ -12863,7 +12863,7 @@ dataJSON = [{
   "dl": "2014-04-30",
   "goal": 10000,
   "laun": "2014-03-01 02:13:19",
-  "pled": 564.5,
+  "pledged": 564.5,
   "state": "failed",
   "backers": 22,
   "country": "US"
@@ -12875,7 +12875,7 @@ dataJSON = [{
   "dl": "2014-08-27",
   "goal": 1000,
   "laun": "2014-07-30 00:21:54",
-  "pled": 27,
+  "pledged": 27,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -12887,7 +12887,7 @@ dataJSON = [{
   "dl": "2017-05-29",
   "goal": 5000,
   "laun": "2017-04-13 23:53:18",
-  "pled": 303,
+  "pledged": 303,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -12899,7 +12899,7 @@ dataJSON = [{
   "dl": "2017-10-24",
   "goal": 3000,
   "laun": "2017-09-14 00:39:58",
-  "pled": 180,
+  "pledged": 180,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -12911,7 +12911,7 @@ dataJSON = [{
   "dl": "2013-03-06",
   "goal": 10000,
   "laun": "2013-02-04 15:17:24",
-  "pled": 4251,
+  "pledged": 4251,
   "state": "failed",
   "backers": 64,
   "country": "US"
@@ -12923,7 +12923,7 @@ dataJSON = [{
   "dl": "2015-08-27",
   "goal": 4000,
   "laun": "2015-07-28 20:01:07",
-  "pled": 4783,
+  "pledged": 4783,
   "state": "successful",
   "backers": 41,
   "country": "US"
@@ -12935,7 +12935,7 @@ dataJSON = [{
   "dl": "2015-07-15",
   "goal": 150000,
   "laun": "2015-06-15 16:00:58",
-  "pled": 500,
+  "pledged": 500,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -12947,7 +12947,7 @@ dataJSON = [{
   "dl": "2011-08-09",
   "goal": 8000,
   "laun": "2011-06-28 06:45:08",
-  "pled": 1522,
+  "pledged": 1522,
   "state": "canceled",
   "backers": 43,
   "country": "US"
@@ -12959,7 +12959,7 @@ dataJSON = [{
   "dl": "2014-01-17",
   "goal": 1200,
   "laun": "2013-12-06 18:52:56",
-  "pled": 775,
+  "pledged": 775,
   "state": "failed",
   "backers": 20,
   "country": "US"
@@ -12971,7 +12971,7 @@ dataJSON = [{
   "dl": "2014-03-31",
   "goal": 4000,
   "laun": "2014-02-17 03:36:08",
-  "pled": 1168,
+  "pledged": 1168,
   "state": "failed",
   "backers": 7,
   "country": "CA"
@@ -12983,7 +12983,7 @@ dataJSON = [{
   "dl": "2012-11-14",
   "goal": 13000,
   "laun": "2012-10-02 03:27:19",
-  "pled": 39,
+  "pledged": 39,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -12995,7 +12995,7 @@ dataJSON = [{
   "dl": "2015-09-04",
   "goal": 500,
   "laun": "2015-07-06 21:27:23",
-  "pled": 30,
+  "pledged": 30,
   "state": "failed",
   "backers": 1,
   "country": "CA"
@@ -13007,7 +13007,7 @@ dataJSON = [{
   "dl": "2012-12-11",
   "goal": 14000,
   "laun": "2012-11-11 21:26:02",
-  "pled": 3595,
+  "pledged": 3595,
   "state": "failed",
   "backers": 32,
   "country": "US"
@@ -13019,7 +13019,7 @@ dataJSON = [{
   "dl": "2015-03-03",
   "goal": 1000,
   "laun": "2015-01-29 15:54:11",
-  "pled": 102,
+  "pledged": 102,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -13031,7 +13031,7 @@ dataJSON = [{
   "dl": "2014-10-20",
   "goal": 5000,
   "laun": "2014-09-10 07:01:21",
-  "pled": 302,
+  "pledged": 302,
   "state": "failed",
   "backers": 8,
   "country": "US"
@@ -13043,7 +13043,7 @@ dataJSON = [{
   "dl": "2013-11-07",
   "goal": 3200,
   "laun": "2013-10-08 00:22:19",
-  "pled": 780,
+  "pledged": 780,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -13055,7 +13055,7 @@ dataJSON = [{
   "dl": "2014-04-26",
   "goal": 15000,
   "laun": "2014-02-25 23:29:03",
-  "pled": 16964,
+  "pledged": 16964,
   "state": "successful",
   "backers": 155,
   "country": "US"
@@ -13067,7 +13067,7 @@ dataJSON = [{
   "dl": "2017-06-23",
   "goal": 1500,
   "laun": "2017-05-24 05:09:47",
-  "pled": 195,
+  "pledged": 195,
   "state": "failed",
   "backers": 8,
   "country": "US"
@@ -13079,7 +13079,7 @@ dataJSON = [{
   "dl": "2014-11-09",
   "goal": 10000,
   "laun": "2014-09-15 21:39:29",
-  "pled": 17406,
+  "pledged": 17406,
   "state": "successful",
   "backers": 590,
   "country": "US"
@@ -13091,7 +13091,7 @@ dataJSON = [{
   "dl": "2017-11-24",
   "goal": 30000,
   "laun": "2017-10-10 19:39:14",
-  "pled": 155712,
+  "pledged": 155712,
   "state": "successful",
   "backers": 1236,
   "country": "US"
@@ -13103,7 +13103,7 @@ dataJSON = [{
   "dl": "2017-04-04",
   "goal": 4000,
   "laun": "2017-03-15 17:58:49",
-  "pled": 33316.99,
+  "pledged": 33316.99,
   "state": "successful",
   "backers": 1006,
   "country": "US"
@@ -13115,7 +13115,7 @@ dataJSON = [{
   "dl": "2010-09-14",
   "goal": 2100,
   "laun": "2010-07-25 01:15:14",
-  "pled": 3440,
+  "pledged": 3440,
   "state": "successful",
   "backers": 31,
   "country": "US"
@@ -13127,7 +13127,7 @@ dataJSON = [{
   "dl": "2016-10-08",
   "goal": 1000,
   "laun": "2016-09-08 03:51:15",
-  "pled": 117,
+  "pledged": 117,
   "state": "failed",
   "backers": 7,
   "country": "US"
@@ -13139,7 +13139,7 @@ dataJSON = [{
   "dl": "2016-09-06",
   "goal": 3000,
   "laun": "2016-08-09 18:07:43",
-  "pled": 5926,
+  "pledged": 5926,
   "state": "successful",
   "backers": 259,
   "country": "US"
@@ -13151,7 +13151,7 @@ dataJSON = [{
   "dl": "2013-12-02",
   "goal": 60000,
   "laun": "2013-11-02 16:50:07",
-  "pled": 17684.4,
+  "pledged": 17684.4,
   "state": "failed",
   "backers": 147,
   "country": "US"
@@ -13163,7 +13163,7 @@ dataJSON = [{
   "dl": "2014-11-14",
   "goal": 3000,
   "laun": "2014-10-15 10:02:02",
-  "pled": 4408.5,
+  "pledged": 4408.5,
   "state": "successful",
   "backers": 80,
   "country": "GB"
@@ -13175,7 +13175,7 @@ dataJSON = [{
   "dl": "2015-11-28",
   "goal": 4000,
   "laun": "2015-10-26 00:55:32",
-  "pled": 1020,
+  "pledged": 1020,
   "state": "failed",
   "backers": 11,
   "country": "US"
@@ -13187,7 +13187,7 @@ dataJSON = [{
   "dl": "2011-12-15",
   "goal": 8000,
   "laun": "2011-10-26 21:48:59",
-  "pled": 8086,
+  "pledged": 8086,
   "state": "successful",
   "backers": 48,
   "country": "US"
@@ -13199,7 +13199,7 @@ dataJSON = [{
   "dl": "2017-11-30",
   "goal": 20000,
   "laun": "2017-11-16 16:43:53",
-  "pled": 21011,
+  "pledged": 21011,
   "state": "successful",
   "backers": 253,
   "country": "US"
@@ -13211,7 +13211,7 @@ dataJSON = [{
   "dl": "2014-06-03",
   "goal": 5700,
   "laun": "2014-05-03 16:50:18",
-  "pled": 5810,
+  "pledged": 5810,
   "state": "successful",
   "backers": 61,
   "country": "US"
@@ -13223,7 +13223,7 @@ dataJSON = [{
   "dl": "2012-06-22",
   "goal": 12000,
   "laun": "2012-05-18 15:30:59",
-  "pled": 452.25,
+  "pledged": 452.25,
   "state": "failed",
   "backers": 11,
   "country": "US"
@@ -13235,7 +13235,7 @@ dataJSON = [{
   "dl": "2017-05-29",
   "goal": 250,
   "laun": "2017-05-17 22:53:12",
-  "pled": 271,
+  "pledged": 271,
   "state": "successful",
   "backers": 28,
   "country": "GB"
@@ -13247,7 +13247,7 @@ dataJSON = [{
   "dl": "2012-12-09",
   "goal": 15000,
   "laun": "2012-11-09 21:35:57",
-  "pled": 2933,
+  "pledged": 2933,
   "state": "failed",
   "backers": 47,
   "country": "US"
@@ -13259,7 +13259,7 @@ dataJSON = [{
   "dl": "2014-12-09",
   "goal": 60000,
   "laun": "2014-10-10 12:53:27",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "GB"
@@ -13271,7 +13271,7 @@ dataJSON = [{
   "dl": "2013-12-13",
   "goal": 10000,
   "laun": "2013-11-20 01:43:33",
-  "pled": 825,
+  "pledged": 825,
   "state": "failed",
   "backers": 8,
   "country": "US"
@@ -13283,7 +13283,7 @@ dataJSON = [{
   "dl": "2013-05-15",
   "goal": 4000,
   "laun": "2013-04-15 21:46:04",
-  "pled": 5161,
+  "pledged": 5161,
   "state": "successful",
   "backers": 69,
   "country": "US"
@@ -13295,7 +13295,7 @@ dataJSON = [{
   "dl": "2015-09-03",
   "goal": 2000,
   "laun": "2015-08-04 17:51:05",
-  "pled": 48003.16,
+  "pledged": 48003.16,
   "state": "successful",
   "backers": 968,
   "country": "US"
@@ -13307,7 +13307,7 @@ dataJSON = [{
   "dl": "2017-07-26",
   "goal": 350,
   "laun": "2017-06-26 19:01:05",
-  "pled": 80,
+  "pledged": 80,
   "state": "failed",
   "backers": 7,
   "country": "US"
@@ -13319,7 +13319,7 @@ dataJSON = [{
   "dl": "2015-03-05",
   "goal": 12200,
   "laun": "2015-02-03 01:11:54",
-  "pled": 215,
+  "pledged": 215,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -13331,7 +13331,7 @@ dataJSON = [{
   "dl": "2014-04-04",
   "goal": 10000,
   "laun": "2014-03-05 16:51:24",
-  "pled": 10591.22,
+  "pledged": 10591.22,
   "state": "successful",
   "backers": 217,
   "country": "US"
@@ -13343,7 +13343,7 @@ dataJSON = [{
   "dl": "2016-02-05",
   "goal": 400,
   "laun": "2015-12-22 00:50:15",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -13355,7 +13355,7 @@ dataJSON = [{
   "dl": "2016-12-16",
   "goal": 7000,
   "laun": "2016-11-15 17:30:12",
-  "pled": 16184,
+  "pledged": 16184,
   "state": "successful",
   "backers": 529,
   "country": "US"
@@ -13367,7 +13367,7 @@ dataJSON = [{
   "dl": "2013-08-24",
   "goal": 2000,
   "laun": "2013-07-25 21:30:46",
-  "pled": 1106,
+  "pledged": 1106,
   "state": "failed",
   "backers": 14,
   "country": "US"
@@ -13379,7 +13379,7 @@ dataJSON = [{
   "dl": "2015-10-03",
   "goal": 500,
   "laun": "2015-09-18 16:23:47",
-  "pled": 535,
+  "pledged": 535,
   "state": "successful",
   "backers": 7,
   "country": "US"
@@ -13391,7 +13391,7 @@ dataJSON = [{
   "dl": "2013-11-14",
   "goal": 3500,
   "laun": "2013-10-15 17:38:45",
-  "pled": 3765,
+  "pledged": 3765,
   "state": "successful",
   "backers": 54,
   "country": "US"
@@ -13403,7 +13403,7 @@ dataJSON = [{
   "dl": "2014-07-31",
   "goal": 1500,
   "laun": "2014-07-01 20:16:12",
-  "pled": 1527.69,
+  "pledged": 1527.69,
   "state": "successful",
   "backers": 23,
   "country": "US"
@@ -13415,7 +13415,7 @@ dataJSON = [{
   "dl": "2015-12-02",
   "goal": 8500,
   "laun": "2015-11-02 18:50:56",
-  "pled": 3,
+  "pledged": 3,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -13427,7 +13427,7 @@ dataJSON = [{
   "dl": "2016-07-09",
   "goal": 3500,
   "laun": "2016-06-14 20:24:41",
-  "pled": 3695,
+  "pledged": 3695,
   "state": "successful",
   "backers": 52,
   "country": "ES"
@@ -13439,7 +13439,7 @@ dataJSON = [{
   "dl": "2014-01-29",
   "goal": 60000,
   "laun": "2013-12-30 18:05:17",
-  "pled": 2373,
+  "pledged": 2373,
   "state": "failed",
   "backers": 134,
   "country": "US"
@@ -13451,7 +13451,7 @@ dataJSON = [{
   "dl": "2017-03-30",
   "goal": 15000,
   "laun": "2017-02-13 14:54:20",
-  "pled": 670,
+  "pledged": 670,
   "state": "failed",
   "backers": 10,
   "country": "US"
@@ -13463,7 +13463,7 @@ dataJSON = [{
   "dl": "2016-09-03",
   "goal": 15000,
   "laun": "2016-08-04 03:56:03",
-  "pled": 281,
+  "pledged": 281,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -13475,7 +13475,7 @@ dataJSON = [{
   "dl": "2012-02-10",
   "goal": 4000,
   "laun": "2012-01-26 16:01:20",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -13487,7 +13487,7 @@ dataJSON = [{
   "dl": "2011-05-13",
   "goal": 5000,
   "laun": "2011-03-28 20:41:33",
-  "pled": 445,
+  "pledged": 445,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -13499,7 +13499,7 @@ dataJSON = [{
   "dl": "2014-06-18",
   "goal": 15000,
   "laun": "2014-06-03 21:19:14",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -13511,7 +13511,7 @@ dataJSON = [{
   "dl": "2015-03-22",
   "goal": 1000,
   "laun": "2015-02-16 02:14:19",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "NZ"
@@ -13523,7 +13523,7 @@ dataJSON = [{
   "dl": "2013-08-31",
   "goal": 1200,
   "laun": "2013-08-01 21:33:00",
-  "pled": 43,
+  "pledged": 43,
   "state": "failed",
   "backers": 3,
   "country": "GB"
@@ -13535,7 +13535,7 @@ dataJSON = [{
   "dl": "2016-11-30",
   "goal": 3200,
   "laun": "2016-10-31 01:02:23",
-  "pled": 5011.2,
+  "pledged": 5011.2,
   "state": "successful",
   "backers": 116,
   "country": "GB"
@@ -13547,7 +13547,7 @@ dataJSON = [{
   "dl": "2013-10-14",
   "goal": 25000,
   "laun": "2013-08-15 09:46:21",
-  "pled": 39505,
+  "pledged": 39505,
   "state": "successful",
   "backers": 129,
   "country": "US"
@@ -13559,7 +13559,7 @@ dataJSON = [{
   "dl": "2015-03-11",
   "goal": 10000,
   "laun": "2015-01-25 19:05:01",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -13571,7 +13571,7 @@ dataJSON = [{
   "dl": "2015-07-15",
   "goal": 10000,
   "laun": "2015-06-15 16:49:11",
-  "pled": 780,
+  "pledged": 780,
   "state": "failed",
   "backers": 17,
   "country": "US"
@@ -13583,7 +13583,7 @@ dataJSON = [{
   "dl": "2014-06-04",
   "goal": 2700,
   "laun": "2014-05-05 18:56:14",
-  "pled": 440,
+  "pledged": 440,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -13595,7 +13595,7 @@ dataJSON = [{
   "dl": "2011-08-18",
   "goal": 20000,
   "laun": "2011-05-20 02:24:24",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -13607,7 +13607,7 @@ dataJSON = [{
   "dl": "2011-09-16",
   "goal": 1000,
   "laun": "2011-07-18 21:14:50",
-  "pled": 1045.21,
+  "pledged": 1045.21,
   "state": "successful",
   "backers": 12,
   "country": "US"
@@ -13619,7 +13619,7 @@ dataJSON = [{
   "dl": "2014-05-18",
   "goal": 2000,
   "laun": "2014-04-18 00:01:52",
-  "pled": 2310,
+  "pledged": 2310,
   "state": "successful",
   "backers": 72,
   "country": "US"
@@ -13631,7 +13631,7 @@ dataJSON = [{
   "dl": "2014-05-23",
   "goal": 900,
   "laun": "2014-05-07 21:55:36",
-  "pled": 1907,
+  "pledged": 1907,
   "state": "successful",
   "backers": 61,
   "country": "US"
@@ -13643,7 +13643,7 @@ dataJSON = [{
   "dl": "2016-10-08",
   "goal": 3000,
   "laun": "2016-09-06 22:04:36",
-  "pled": 3110,
+  "pledged": 3110,
   "state": "successful",
   "backers": 43,
   "country": "US"
@@ -13655,7 +13655,7 @@ dataJSON = [{
   "dl": "2017-06-12",
   "goal": 25000,
   "laun": "2017-05-13 08:44:08",
-  "pled": 705,
+  "pledged": 705,
   "state": "canceled",
   "backers": 12,
   "country": "US"
@@ -13667,7 +13667,7 @@ dataJSON = [{
   "dl": "2014-11-18",
   "goal": 5000,
   "laun": "2014-09-19 14:19:16",
-  "pled": 20,
+  "pledged": 20,
   "state": "failed",
   "backers": 1,
   "country": "AU"
@@ -13679,7 +13679,7 @@ dataJSON = [{
   "dl": "2011-08-19",
   "goal": 1000,
   "laun": "2011-08-11 14:33:19",
-  "pled": 1036,
+  "pledged": 1036,
   "state": "successful",
   "backers": 29,
   "country": "US"
@@ -13691,7 +13691,7 @@ dataJSON = [{
   "dl": "2011-12-19",
   "goal": 10000,
   "laun": "2011-11-12 00:56:41",
-  "pled": 120,
+  "pledged": 120,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -13703,7 +13703,7 @@ dataJSON = [{
   "dl": "2016-10-01",
   "goal": 3000,
   "laun": "2016-09-07 19:52:25",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -13715,7 +13715,7 @@ dataJSON = [{
   "dl": "2014-11-05",
   "goal": 6000,
   "laun": "2014-10-01 10:00:11",
-  "pled": 6140.25,
+  "pledged": 6140.25,
   "state": "successful",
   "backers": 180,
   "country": "GB"
@@ -13727,7 +13727,7 @@ dataJSON = [{
   "dl": "2014-06-30",
   "goal": 1430,
   "laun": "2014-06-09 23:21:53",
-  "pled": 25,
+  "pledged": 25,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -13739,7 +13739,7 @@ dataJSON = [{
   "dl": "2017-10-01",
   "goal": 15000,
   "laun": "2017-09-01 12:28:44",
-  "pled": 2708,
+  "pledged": 2708,
   "state": "canceled",
   "backers": 31,
   "country": "US"
@@ -13751,7 +13751,7 @@ dataJSON = [{
   "dl": "2010-08-03",
   "goal": 1000,
   "laun": "2010-06-28 21:20:34",
-  "pled": 2782,
+  "pledged": 2782,
   "state": "successful",
   "backers": 37,
   "country": "US"
@@ -13763,7 +13763,7 @@ dataJSON = [{
   "dl": "2017-09-18",
   "goal": 45000,
   "laun": "2017-07-20 17:13:22",
-  "pled": 35,
+  "pledged": 35,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -13775,7 +13775,7 @@ dataJSON = [{
   "dl": "2015-10-15",
   "goal": 42000,
   "laun": "2015-09-18 08:06:17",
-  "pled": 46884,
+  "pledged": 46884,
   "state": "successful",
   "backers": 109,
   "country": "SE"
@@ -13787,7 +13787,7 @@ dataJSON = [{
   "dl": "2015-06-02",
   "goal": 12000,
   "laun": "2015-04-30 19:25:33",
-  "pled": 12120,
+  "pledged": 12120,
   "state": "successful",
   "backers": 156,
   "country": "US"
@@ -13799,7 +13799,7 @@ dataJSON = [{
   "dl": "2014-01-02",
   "goal": 775,
   "laun": "2013-12-03 03:55:37",
-  "pled": 847,
+  "pledged": 847,
   "state": "successful",
   "backers": 13,
   "country": "US"
@@ -13811,7 +13811,7 @@ dataJSON = [{
   "dl": "2013-09-04",
   "goal": 75000,
   "laun": "2013-07-21 14:50:32",
-  "pled": 11884,
+  "pledged": 11884,
   "state": "canceled",
   "backers": 32,
   "country": "US"
@@ -13823,7 +13823,7 @@ dataJSON = [{
   "dl": "2013-04-01",
   "goal": 13433,
   "laun": "2013-02-15 15:56:48",
-  "pled": 13726.5,
+  "pledged": 13726.5,
   "state": "successful",
   "backers": 108,
   "country": "US"
@@ -13835,7 +13835,7 @@ dataJSON = [{
   "dl": "2012-04-02",
   "goal": 3500,
   "laun": "2012-03-13 02:04:46",
-  "pled": 3810,
+  "pledged": 3810,
   "state": "successful",
   "backers": 56,
   "country": "US"
@@ -13847,7 +13847,7 @@ dataJSON = [{
   "dl": "2014-10-03",
   "goal": 10000,
   "laun": "2014-09-03 22:12:35",
-  "pled": 4258,
+  "pledged": 4258,
   "state": "failed",
   "backers": 57,
   "country": "US"
@@ -13859,7 +13859,7 @@ dataJSON = [{
   "dl": "2015-12-02",
   "goal": 10000,
   "laun": "2015-11-02 18:47:59",
-  "pled": 10715,
+  "pledged": 10715,
   "state": "successful",
   "backers": 157,
   "country": "GB"
@@ -13871,7 +13871,7 @@ dataJSON = [{
   "dl": "2017-09-01",
   "goal": 28000,
   "laun": "2017-07-29 16:44:27",
-  "pled": 31616,
+  "pledged": 31616,
   "state": "successful",
   "backers": 384,
   "country": "US"
@@ -13883,7 +13883,7 @@ dataJSON = [{
   "dl": "2014-01-15",
   "goal": 2000,
   "laun": "2013-11-26 21:28:47",
-  "pled": 2317,
+  "pledged": 2317,
   "state": "successful",
   "backers": 34,
   "country": "US"
@@ -13895,7 +13895,7 @@ dataJSON = [{
   "dl": "2015-03-31",
   "goal": 200,
   "laun": "2015-03-01 19:41:14",
-  "pled": 552.5,
+  "pledged": 552.5,
   "state": "successful",
   "backers": 31,
   "country": "US"
@@ -13907,7 +13907,7 @@ dataJSON = [{
   "dl": "2015-05-24",
   "goal": 2500,
   "laun": "2015-04-24 12:55:57",
-  "pled": 641,
+  "pledged": 641,
   "state": "failed",
   "backers": 21,
   "country": "GB"
@@ -13919,7 +13919,7 @@ dataJSON = [{
   "dl": "2016-05-08",
   "goal": 3750,
   "laun": "2016-04-09 00:17:26",
-  "pled": 3750,
+  "pledged": 3750,
   "state": "successful",
   "backers": 17,
   "country": "US"
@@ -13931,7 +13931,7 @@ dataJSON = [{
   "dl": "2017-05-20",
   "goal": 200,
   "laun": "2017-04-05 19:00:01",
-  "pled": 462,
+  "pledged": 462,
   "state": "successful",
   "backers": 19,
   "country": "US"
@@ -13943,7 +13943,7 @@ dataJSON = [{
   "dl": "2014-07-19",
   "goal": 200,
   "laun": "2014-07-08 21:35:18",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "GB"
@@ -13955,7 +13955,7 @@ dataJSON = [{
   "dl": "2014-07-28",
   "goal": 16000,
   "laun": "2014-06-24 12:35:19",
-  "pled": 16200,
+  "pledged": 16200,
   "state": "successful",
   "backers": 87,
   "country": "GB"
@@ -13967,7 +13967,7 @@ dataJSON = [{
   "dl": "2012-02-27",
   "goal": 5000,
   "laun": "2012-01-28 16:33:19",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -13979,7 +13979,7 @@ dataJSON = [{
   "dl": "2014-06-01",
   "goal": 5000,
   "laun": "2014-05-07 03:44:24",
-  "pled": 1065,
+  "pledged": 1065,
   "state": "failed",
   "backers": 19,
   "country": "US"
@@ -13991,7 +13991,7 @@ dataJSON = [{
   "dl": "2017-10-06",
   "goal": 1500,
   "laun": "2017-09-06 17:14:01",
-  "pled": 15,
+  "pledged": 15,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -14003,7 +14003,7 @@ dataJSON = [{
   "dl": "2012-01-31",
   "goal": 5000,
   "laun": "2011-12-22 22:18:03",
-  "pled": 695,
+  "pledged": 695,
   "state": "failed",
   "backers": 29,
   "country": "US"
@@ -14015,7 +14015,7 @@ dataJSON = [{
   "dl": "2016-05-13",
   "goal": 1500,
   "laun": "2016-04-13 18:24:52",
-  "pled": 30,
+  "pledged": 30,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -14027,7 +14027,7 @@ dataJSON = [{
   "dl": "2016-06-18",
   "goal": 4000,
   "laun": "2016-05-19 20:24:46",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -14039,7 +14039,7 @@ dataJSON = [{
   "dl": "2016-12-30",
   "goal": 15,
   "laun": "2016-12-20 20:37:44",
-  "pled": 2,
+  "pledged": 2,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -14051,7 +14051,7 @@ dataJSON = [{
   "dl": "2017-09-21",
   "goal": 5000,
   "laun": "2017-08-22 03:08:18",
-  "pled": 50,
+  "pledged": 50,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -14063,7 +14063,7 @@ dataJSON = [{
   "dl": "2015-01-06",
   "goal": 16000,
   "laun": "2014-12-10 18:06:29",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "GB"
@@ -14075,7 +14075,7 @@ dataJSON = [{
   "dl": "2011-05-03",
   "goal": 1500,
   "laun": "2011-03-24 20:51:58",
-  "pled": 2125,
+  "pledged": 2125,
   "state": "successful",
   "backers": 24,
   "country": "US"
@@ -14087,7 +14087,7 @@ dataJSON = [{
   "dl": "2013-08-16",
   "goal": 24425,
   "laun": "2013-08-01 18:02:18",
-  "pled": 475,
+  "pledged": 475,
   "state": "failed",
   "backers": 15,
   "country": "US"
@@ -14099,7 +14099,7 @@ dataJSON = [{
   "dl": "2014-01-05",
   "goal": 1375,
   "laun": "2013-11-06 02:44:07",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -14111,7 +14111,7 @@ dataJSON = [{
   "dl": "2013-11-06",
   "goal": 5000,
   "laun": "2013-10-07 20:29:32",
-  "pled": 5004,
+  "pledged": 5004,
   "state": "successful",
   "backers": 25,
   "country": "US"
@@ -14123,7 +14123,7 @@ dataJSON = [{
   "dl": "2017-03-24",
   "goal": 250000,
   "laun": "2017-02-23 02:44:36",
-  "pled": 113,
+  "pledged": 113,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -14135,7 +14135,7 @@ dataJSON = [{
   "dl": "2013-11-02",
   "goal": 20000,
   "laun": "2013-10-03 01:52:35",
-  "pled": 125,
+  "pledged": 125,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -14147,7 +14147,7 @@ dataJSON = [{
   "dl": "2017-01-17",
   "goal": 17500,
   "laun": "2017-01-04 01:42:41",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -14159,7 +14159,7 @@ dataJSON = [{
   "dl": "2010-12-01",
   "goal": 50000,
   "laun": "2010-10-02 17:37:58",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -14171,7 +14171,7 @@ dataJSON = [{
   "dl": "2012-10-26",
   "goal": 450,
   "laun": "2012-10-11 19:59:25",
-  "pled": 450,
+  "pledged": 450,
   "state": "successful",
   "backers": 7,
   "country": "US"
@@ -14183,7 +14183,7 @@ dataJSON = [{
   "dl": "2013-10-06",
   "goal": 5600,
   "laun": "2013-09-06 23:00:39",
-  "pled": 6488,
+  "pledged": 6488,
   "state": "successful",
   "backers": 139,
   "country": "US"
@@ -14195,7 +14195,7 @@ dataJSON = [{
   "dl": "2017-10-22",
   "goal": 15000,
   "laun": "2017-09-18 15:03:03",
-  "pled": 2651,
+  "pledged": 2651,
   "state": "failed",
   "backers": 11,
   "country": "US"
@@ -14207,7 +14207,7 @@ dataJSON = [{
   "dl": "2017-03-21",
   "goal": 3000,
   "laun": "2017-02-09 09:21:20",
-  "pled": 87,
+  "pledged": 87,
   "state": "failed",
   "backers": 4,
   "country": "AU"
@@ -14219,7 +14219,7 @@ dataJSON = [{
   "dl": "2015-01-08",
   "goal": 550,
   "laun": "2014-12-09 03:25:27",
-  "pled": 17,
+  "pledged": 17,
   "state": "failed",
   "backers": 2,
   "country": "CA"
@@ -14231,7 +14231,7 @@ dataJSON = [{
   "dl": "2013-04-06",
   "goal": 4000,
   "laun": "2013-03-07 01:14:06",
-  "pled": 4635.08,
+  "pledged": 4635.08,
   "state": "successful",
   "backers": 73,
   "country": "US"
@@ -14243,7 +14243,7 @@ dataJSON = [{
   "dl": "2012-05-26",
   "goal": 5000,
   "laun": "2012-04-26 22:22:20",
-  "pled": 200,
+  "pledged": 200,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -14255,7 +14255,7 @@ dataJSON = [{
   "dl": "2016-09-22",
   "goal": 1500,
   "laun": "2016-08-23 09:47:25",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -14267,7 +14267,7 @@ dataJSON = [{
   "dl": "2011-12-19",
   "goal": 10000,
   "laun": "2011-10-20 21:52:43",
-  "pled": 35,
+  "pledged": 35,
   "state": "canceled",
   "backers": 2,
   "country": "US"
@@ -14279,7 +14279,7 @@ dataJSON = [{
   "dl": "2012-09-05",
   "goal": 350,
   "laun": "2012-08-31 17:04:39",
-  "pled": 608,
+  "pledged": 608,
   "state": "successful",
   "backers": 40,
   "country": "US"
@@ -14291,7 +14291,7 @@ dataJSON = [{
   "dl": "2016-01-18",
   "goal": 20000,
   "laun": "2015-11-30 01:29:14",
-  "pled": 20493,
+  "pledged": 20493,
   "state": "successful",
   "backers": 70,
   "country": "US"
@@ -14303,7 +14303,7 @@ dataJSON = [{
   "dl": "2012-07-03",
   "goal": 7500,
   "laun": "2012-05-24 07:18:11",
-  "pled": 705,
+  "pledged": 705,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -14315,7 +14315,7 @@ dataJSON = [{
   "dl": "2013-03-27",
   "goal": 1,
   "laun": "2013-03-22 18:37:03",
-  "pled": 12,
+  "pledged": 12,
   "state": "successful",
   "backers": 3,
   "country": "GB"
@@ -14327,7 +14327,7 @@ dataJSON = [{
   "dl": "2017-09-02",
   "goal": 5000,
   "laun": "2017-08-03 16:33:51",
-  "pled": 271,
+  "pledged": 271,
   "state": "failed",
   "backers": 7,
   "country": "CA"
@@ -14339,7 +14339,7 @@ dataJSON = [{
   "dl": "2014-03-07",
   "goal": 60000,
   "laun": "2014-01-06 19:38:42",
-  "pled": 66848.11,
+  "pledged": 66848.11,
   "state": "successful",
   "backers": 503,
   "country": "US"
@@ -14351,7 +14351,7 @@ dataJSON = [{
   "dl": "2017-01-01",
   "goal": 500,
   "laun": "2016-11-22 01:50:42",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -14363,7 +14363,7 @@ dataJSON = [{
   "dl": "2017-04-05",
   "goal": 800,
   "laun": "2017-03-06 21:03:32",
-  "pled": 800,
+  "pledged": 800,
   "state": "successful",
   "backers": 7,
   "country": "US"
@@ -14375,7 +14375,7 @@ dataJSON = [{
   "dl": "2012-09-17",
   "goal": 5000,
   "laun": "2012-08-15 16:59:16",
-  "pled": 5882,
+  "pledged": 5882,
   "state": "successful",
   "backers": 53,
   "country": "US"
@@ -14387,7 +14387,7 @@ dataJSON = [{
   "dl": "2014-12-29",
   "goal": 160000,
   "laun": "2014-12-01 14:46:23",
-  "pled": 53,
+  "pledged": 53,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -14399,7 +14399,7 @@ dataJSON = [{
   "dl": "2010-12-17",
   "goal": 5000,
   "laun": "2010-09-18 01:11:53",
-  "pled": 5073.98,
+  "pledged": 5073.98,
   "state": "successful",
   "backers": 37,
   "country": "US"
@@ -14411,7 +14411,7 @@ dataJSON = [{
   "dl": "2013-08-11",
   "goal": 10000,
   "laun": "2013-06-12 06:04:37",
-  "pled": 50,
+  "pledged": 50,
   "state": "canceled",
   "backers": 1,
   "country": "US"
@@ -14423,7 +14423,7 @@ dataJSON = [{
   "dl": "2014-11-23",
   "goal": 10500,
   "laun": "2014-10-24 21:25:25",
-  "pled": 15591,
+  "pledged": 15591,
   "state": "successful",
   "backers": 177,
   "country": "US"
@@ -14435,7 +14435,7 @@ dataJSON = [{
   "dl": "2013-03-22",
   "goal": 4000,
   "laun": "2013-02-20 22:00:34",
-  "pled": 4390,
+  "pledged": 4390,
   "state": "successful",
   "backers": 76,
   "country": "US"
@@ -14447,7 +14447,7 @@ dataJSON = [{
   "dl": "2013-03-01",
   "goal": 400,
   "laun": "2013-02-20 07:10:57",
-  "pled": 425,
+  "pledged": 425,
   "state": "successful",
   "backers": 10,
   "country": "US"
@@ -14459,7 +14459,7 @@ dataJSON = [{
   "dl": "2017-03-15",
   "goal": 15000,
   "laun": "2017-01-30 19:39:48",
-  "pled": 1300,
+  "pledged": 1300,
   "state": "canceled",
   "backers": 4,
   "country": "NO"
@@ -14471,7 +14471,7 @@ dataJSON = [{
   "dl": "2017-06-14",
   "goal": 50000,
   "laun": "2017-05-15 20:49:49",
-  "pled": 5075,
+  "pledged": 5075,
   "state": "failed",
   "backers": 52,
   "country": "GB"
@@ -14483,7 +14483,7 @@ dataJSON = [{
   "dl": "2011-02-14",
   "goal": 4500,
   "laun": "2011-01-14 03:54:16",
-  "pled": 4750.89,
+  "pledged": 4750.89,
   "state": "successful",
   "backers": 35,
   "country": "US"
@@ -14495,7 +14495,7 @@ dataJSON = [{
   "dl": "2015-11-08",
   "goal": 150000,
   "laun": "2015-10-09 04:46:35",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -14507,7 +14507,7 @@ dataJSON = [{
   "dl": "2015-07-11",
   "goal": 7500,
   "laun": "2015-05-12 06:51:52",
-  "pled": 1032.5,
+  "pledged": 1032.5,
   "state": "failed",
   "backers": 49,
   "country": "DE"
@@ -14519,7 +14519,7 @@ dataJSON = [{
   "dl": "2013-08-09",
   "goal": 10000,
   "laun": "2013-07-10 04:25:02",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "GB"
@@ -14531,7 +14531,7 @@ dataJSON = [{
   "dl": "2013-06-26",
   "goal": 5000,
   "laun": "2013-06-06 12:07:41",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -14543,7 +14543,7 @@ dataJSON = [{
   "dl": "2014-12-13",
   "goal": 50000,
   "laun": "2014-11-12 10:58:02",
-  "pled": 5929,
+  "pledged": 5929,
   "state": "failed",
   "backers": 33,
   "country": "US"
@@ -14555,7 +14555,7 @@ dataJSON = [{
   "dl": "2018-01-15",
   "goal": 7000,
   "laun": "2017-12-14 15:31:22",
-  "pled": 2949,
+  "pledged": 2949,
   "state": "live",
   "backers": 41,
   "country": "US"
@@ -14567,7 +14567,7 @@ dataJSON = [{
   "dl": "2015-04-09",
   "goal": 3500,
   "laun": "2015-03-10 08:08:47",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "NZ"
@@ -14579,7 +14579,7 @@ dataJSON = [{
   "dl": "2015-12-18",
   "goal": 1500,
   "laun": "2015-11-17 17:21:04",
-  "pled": 789,
+  "pledged": 789,
   "state": "canceled",
   "backers": 15,
   "country": "US"
@@ -14591,7 +14591,7 @@ dataJSON = [{
   "dl": "2012-11-29",
   "goal": 650,
   "laun": "2012-10-30 19:36:47",
-  "pled": 125,
+  "pledged": 125,
   "state": "canceled",
   "backers": 8,
   "country": "US"
@@ -14603,7 +14603,7 @@ dataJSON = [{
   "dl": "2013-06-03",
   "goal": 2250,
   "laun": "2013-05-18 00:27:23",
-  "pled": 2250,
+  "pledged": 2250,
   "state": "successful",
   "backers": 16,
   "country": "US"
@@ -14615,7 +14615,7 @@ dataJSON = [{
   "dl": "2014-12-22",
   "goal": 4500,
   "laun": "2014-11-19 03:24:46",
-  "pled": 4500,
+  "pledged": 4500,
   "state": "successful",
   "backers": 43,
   "country": "CA"
@@ -14627,7 +14627,7 @@ dataJSON = [{
   "dl": "2013-02-27",
   "goal": 5000,
   "laun": "2013-02-05 15:56:07",
-  "pled": 5208.45,
+  "pledged": 5208.45,
   "state": "successful",
   "backers": 72,
   "country": "US"
@@ -14639,7 +14639,7 @@ dataJSON = [{
   "dl": "2011-12-16",
   "goal": 10000,
   "laun": "2011-11-16 01:28:09",
-  "pled": 711,
+  "pledged": 711,
   "state": "failed",
   "backers": 7,
   "country": "US"
@@ -14651,7 +14651,7 @@ dataJSON = [{
   "dl": "2015-02-25",
   "goal": 2000,
   "laun": "2015-01-26 17:43:48",
-  "pled": 2,
+  "pledged": 2,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -14663,7 +14663,7 @@ dataJSON = [{
   "dl": "2015-12-01",
   "goal": 10000,
   "laun": "2015-10-02 00:02:06",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "NL"
@@ -14675,7 +14675,7 @@ dataJSON = [{
   "dl": "2012-02-29",
   "goal": 5000,
   "laun": "2012-01-20 14:42:52",
-  "pled": 50,
+  "pledged": 50,
   "state": "canceled",
   "backers": 1,
   "country": "US"
@@ -14687,7 +14687,7 @@ dataJSON = [{
   "dl": "2012-04-19",
   "goal": 450,
   "laun": "2012-04-02 02:43:32",
-  "pled": 160,
+  "pledged": 160,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -14699,7 +14699,7 @@ dataJSON = [{
   "dl": "2014-09-25",
   "goal": 80,
   "laun": "2014-08-26 22:06:50",
-  "pled": 0,
+  "pledged": 0,
   "state": "suspended",
   "backers": 0,
   "country": "US"
@@ -14711,7 +14711,7 @@ dataJSON = [{
   "dl": "2015-03-12",
   "goal": 80000,
   "laun": "2015-02-10 15:48:46",
-  "pled": 508,
+  "pledged": 508,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -14723,7 +14723,7 @@ dataJSON = [{
   "dl": "2016-12-04",
   "goal": 7000,
   "laun": "2016-11-10 22:59:52",
-  "pled": 7043,
+  "pledged": 7043,
   "state": "successful",
   "backers": 38,
   "country": "AU"
@@ -14735,7 +14735,7 @@ dataJSON = [{
   "dl": "2014-01-02",
   "goal": 25000,
   "laun": "2013-11-12 04:12:34",
-  "pled": 17797,
+  "pledged": 17797,
   "state": "failed",
   "backers": 50,
   "country": "US"
@@ -14747,7 +14747,7 @@ dataJSON = [{
   "dl": "2017-11-22",
   "goal": 1000,
   "laun": "2017-10-23 18:31:14",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -14759,7 +14759,7 @@ dataJSON = [{
   "dl": "2017-01-14",
   "goal": 2500,
   "laun": "2016-12-15 20:06:48",
-  "pled": 70702,
+  "pledged": 70702,
   "state": "successful",
   "backers": 1535,
   "country": "US"
@@ -14771,7 +14771,7 @@ dataJSON = [{
   "dl": "2012-06-19",
   "goal": 500,
   "laun": "2012-06-14 10:53:32",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -14783,7 +14783,7 @@ dataJSON = [{
   "dl": "2014-04-23",
   "goal": 450,
   "laun": "2014-04-02 20:48:58",
-  "pled": 540,
+  "pledged": 540,
   "state": "successful",
   "backers": 19,
   "country": "GB"
@@ -14795,7 +14795,7 @@ dataJSON = [{
   "dl": "2015-07-29",
   "goal": 15000,
   "laun": "2015-06-29 20:10:02",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "DE"
@@ -14807,7 +14807,7 @@ dataJSON = [{
   "dl": "2017-06-04",
   "goal": 2000,
   "laun": "2017-05-18 02:56:13",
-  "pled": 235,
+  "pledged": 235,
   "state": "failed",
   "backers": 21,
   "country": "US"
@@ -14819,7 +14819,7 @@ dataJSON = [{
   "dl": "2017-04-18",
   "goal": 100000,
   "laun": "2017-03-16 18:00:48",
-  "pled": 129040,
+  "pledged": 129040,
   "state": "successful",
   "backers": 366,
   "country": "NO"
@@ -14831,7 +14831,7 @@ dataJSON = [{
   "dl": "2013-09-27",
   "goal": 7500,
   "laun": "2013-08-23 00:51:19",
-  "pled": 450,
+  "pledged": 450,
   "state": "failed",
   "backers": 7,
   "country": "US"
@@ -14843,7 +14843,7 @@ dataJSON = [{
   "dl": "2015-06-26",
   "goal": 100000,
   "laun": "2015-05-12 19:00:40",
-  "pled": 1065761.15,
+  "pledged": 1065761.15,
   "state": "successful",
   "backers": 5072,
   "country": "US"
@@ -14855,7 +14855,7 @@ dataJSON = [{
   "dl": "2015-09-04",
   "goal": 45000,
   "laun": "2015-07-28 14:48:44",
-  "pled": 4416,
+  "pledged": 4416,
   "state": "failed",
   "backers": 69,
   "country": "US"
@@ -14867,7 +14867,7 @@ dataJSON = [{
   "dl": "2011-11-10",
   "goal": 13500,
   "laun": "2011-10-11 21:00:00",
-  "pled": 2290,
+  "pledged": 2290,
   "state": "failed",
   "backers": 19,
   "country": "US"
@@ -14879,7 +14879,7 @@ dataJSON = [{
   "dl": "2012-10-18",
   "goal": 3500,
   "laun": "2012-08-19 19:12:30",
-  "pled": 8545,
+  "pledged": 8545,
   "state": "successful",
   "backers": 141,
   "country": "US"
@@ -14891,7 +14891,7 @@ dataJSON = [{
   "dl": "2013-12-22",
   "goal": 1320,
   "laun": "2013-11-22 23:33:20",
-  "pled": 266.3,
+  "pledged": 266.3,
   "state": "failed",
   "backers": 19,
   "country": "GB"
@@ -14903,7 +14903,7 @@ dataJSON = [{
   "dl": "2013-07-21",
   "goal": 6000,
   "laun": "2013-06-18 00:48:46",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -14915,7 +14915,7 @@ dataJSON = [{
   "dl": "2017-10-01",
   "goal": 10000,
   "laun": "2017-09-01 17:20:54",
-  "pled": 21645,
+  "pledged": 21645,
   "state": "successful",
   "backers": 401,
   "country": "US"
@@ -14927,7 +14927,7 @@ dataJSON = [{
   "dl": "2015-07-14",
   "goal": 10000,
   "laun": "2015-06-09 07:42:31",
-  "pled": 215,
+  "pledged": 215,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -14939,7 +14939,7 @@ dataJSON = [{
   "dl": "2011-08-29",
   "goal": 5000,
   "laun": "2011-06-30 02:00:46",
-  "pled": 704,
+  "pledged": 704,
   "state": "canceled",
   "backers": 17,
   "country": "US"
@@ -14951,7 +14951,7 @@ dataJSON = [{
   "dl": "2011-10-28",
   "goal": 2500,
   "laun": "2011-09-22 23:51:16",
-  "pled": 2660,
+  "pledged": 2660,
   "state": "successful",
   "backers": 48,
   "country": "US"
@@ -14963,7 +14963,7 @@ dataJSON = [{
   "dl": "2017-03-12",
   "goal": 40000,
   "laun": "2017-01-21 16:11:22",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -14975,7 +14975,7 @@ dataJSON = [{
   "dl": "2014-10-28",
   "goal": 2000,
   "laun": "2014-09-28 08:01:46",
-  "pled": 2950,
+  "pledged": 2950,
   "state": "successful",
   "backers": 112,
   "country": "US"
@@ -14987,7 +14987,7 @@ dataJSON = [{
   "dl": "2014-01-29",
   "goal": 10000,
   "laun": "2014-01-07 01:19:10",
-  "pled": 11267,
+  "pledged": 11267,
   "state": "successful",
   "backers": 217,
   "country": "US"
@@ -14999,7 +14999,7 @@ dataJSON = [{
   "dl": "2013-04-20",
   "goal": 20000,
   "laun": "2013-03-21 02:04:57",
-  "pled": 21006,
+  "pledged": 21006,
   "state": "successful",
   "backers": 143,
   "country": "US"
@@ -15011,7 +15011,7 @@ dataJSON = [{
   "dl": "2016-12-19",
   "goal": 3000,
   "laun": "2016-11-27 19:42:23",
-  "pled": 40,
+  "pledged": 40,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -15023,7 +15023,7 @@ dataJSON = [{
   "dl": "2010-09-12",
   "goal": 8000,
   "laun": "2010-07-31 01:50:41",
-  "pled": 4326,
+  "pledged": 4326,
   "state": "failed",
   "backers": 72,
   "country": "US"
@@ -15035,7 +15035,7 @@ dataJSON = [{
   "dl": "2011-05-09",
   "goal": 5000,
   "laun": "2011-03-10 07:00:07",
-  "pled": 215,
+  "pledged": 215,
   "state": "canceled",
   "backers": 5,
   "country": "US"
@@ -15047,7 +15047,7 @@ dataJSON = [{
   "dl": "2015-05-23",
   "goal": 20000,
   "laun": "2015-04-13 17:02:10",
-  "pled": 500,
+  "pledged": 500,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -15059,7 +15059,7 @@ dataJSON = [{
   "dl": "2015-08-01",
   "goal": 30000,
   "laun": "2015-06-16 14:06:04",
-  "pled": 18805,
+  "pledged": 18805,
   "state": "failed",
   "backers": 174,
   "country": "US"
@@ -15071,7 +15071,7 @@ dataJSON = [{
   "dl": "2016-12-05",
   "goal": 10000,
   "laun": "2016-11-10 23:13:43",
-  "pled": 1202,
+  "pledged": 1202,
   "state": "failed",
   "backers": 26,
   "country": "US"
@@ -15083,7 +15083,7 @@ dataJSON = [{
   "dl": "2015-08-09",
   "goal": 850,
   "laun": "2015-07-10 15:05:25",
-  "pled": 70,
+  "pledged": 70,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -15095,7 +15095,7 @@ dataJSON = [{
   "dl": "2010-03-12",
   "goal": 4000,
   "laun": "2010-02-04 11:32:35",
-  "pled": 449.59,
+  "pledged": 449.59,
   "state": "failed",
   "backers": 7,
   "country": "US"
@@ -15107,7 +15107,7 @@ dataJSON = [{
   "dl": "2016-05-01",
   "goal": 14000,
   "laun": "2016-03-02 09:49:28",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "BE"
@@ -15119,7 +15119,7 @@ dataJSON = [{
   "dl": "2017-07-01",
   "goal": 10000,
   "laun": "2017-05-17 21:49:26",
-  "pled": 1850,
+  "pledged": 1850,
   "state": "failed",
   "backers": 8,
   "country": "US"
@@ -15131,7 +15131,7 @@ dataJSON = [{
   "dl": "2017-12-22",
   "goal": 750000,
   "laun": "2017-12-11 22:57:53",
-  "pled": 4750,
+  "pledged": 4750,
   "state": "canceled",
   "backers": 1,
   "country": "MX"
@@ -15143,7 +15143,7 @@ dataJSON = [{
   "dl": "2013-07-29",
   "goal": 20000,
   "laun": "2013-06-25 19:47:26",
-  "pled": 20536,
+  "pledged": 20536,
   "state": "successful",
   "backers": 110,
   "country": "US"
@@ -15155,7 +15155,7 @@ dataJSON = [{
   "dl": "2015-06-07",
   "goal": 2500,
   "laun": "2015-05-08 15:31:57",
-  "pled": 795,
+  "pledged": 795,
   "state": "failed",
   "backers": 11,
   "country": "GB"
@@ -15167,7 +15167,7 @@ dataJSON = [{
   "dl": "2012-01-01",
   "goal": 3500,
   "laun": "2011-12-02 13:23:49",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -15179,7 +15179,7 @@ dataJSON = [{
   "dl": "2017-06-20",
   "goal": 2000,
   "laun": "2017-05-31 19:50:26",
-  "pled": 215,
+  "pledged": 215,
   "state": "failed",
   "backers": 8,
   "country": "US"
@@ -15191,7 +15191,7 @@ dataJSON = [{
   "dl": "2015-05-02",
   "goal": 300,
   "laun": "2015-04-02 11:28:36",
-  "pled": 300,
+  "pledged": 300,
   "state": "successful",
   "backers": 5,
   "country": "GB"
@@ -15203,7 +15203,7 @@ dataJSON = [{
   "dl": "2015-05-13",
   "goal": 20000,
   "laun": "2015-04-13 18:03:32",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -15215,7 +15215,7 @@ dataJSON = [{
   "dl": "2014-08-02",
   "goal": 4000,
   "laun": "2014-07-03 03:27:05",
-  "pled": 4476,
+  "pledged": 4476,
   "state": "successful",
   "backers": 55,
   "country": "US"
@@ -15227,7 +15227,7 @@ dataJSON = [{
   "dl": "2014-12-17",
   "goal": 10000,
   "laun": "2014-11-18 08:33:46",
-  "pled": 11532,
+  "pledged": 11532,
   "state": "successful",
   "backers": 131,
   "country": "US"
@@ -15239,7 +15239,7 @@ dataJSON = [{
   "dl": "2015-06-28",
   "goal": 12500,
   "laun": "2015-04-29 01:44:00",
-  "pled": 1,
+  "pledged": 1,
   "state": "canceled",
   "backers": 1,
   "country": "US"
@@ -15251,7 +15251,7 @@ dataJSON = [{
   "dl": "2015-09-03",
   "goal": 25000,
   "laun": "2015-08-04 21:22:30",
-  "pled": 802,
+  "pledged": 802,
   "state": "canceled",
   "backers": 16,
   "country": "US"
@@ -15263,7 +15263,7 @@ dataJSON = [{
   "dl": "2014-09-10",
   "goal": 1500,
   "laun": "2014-08-11 09:13:24",
-  "pled": 1699,
+  "pledged": 1699,
   "state": "successful",
   "backers": 86,
   "country": "GB"
@@ -15275,7 +15275,7 @@ dataJSON = [{
   "dl": "2014-03-20",
   "goal": 15000,
   "laun": "2014-02-18 21:20:29",
-  "pled": 29381.7,
+  "pledged": 29381.7,
   "state": "successful",
   "backers": 394,
   "country": "US"
@@ -15287,7 +15287,7 @@ dataJSON = [{
   "dl": "2014-06-14",
   "goal": 25000,
   "laun": "2014-04-15 18:31:26",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -15299,7 +15299,7 @@ dataJSON = [{
   "dl": "2014-05-24",
   "goal": 2400,
   "laun": "2014-04-24 22:30:41",
-  "pled": 286,
+  "pledged": 286,
   "state": "failed",
   "backers": 10,
   "country": "US"
@@ -15311,7 +15311,7 @@ dataJSON = [{
   "dl": "2014-10-02",
   "goal": 10000,
   "laun": "2014-08-03 04:03:53",
-  "pled": 48,
+  "pledged": 48,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -15323,7 +15323,7 @@ dataJSON = [{
   "dl": "2015-04-03",
   "goal": 10000,
   "laun": "2015-02-17 22:15:18",
-  "pled": 150,
+  "pledged": 150,
   "state": "failed",
   "backers": 2,
   "country": "CA"
@@ -15335,7 +15335,7 @@ dataJSON = [{
   "dl": "2016-01-15",
   "goal": 2000,
   "laun": "2015-12-01 02:33:30",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -15347,7 +15347,7 @@ dataJSON = [{
   "dl": "2010-10-17",
   "goal": 5000,
   "laun": "2010-09-17 00:57:25",
-  "pled": 5000,
+  "pledged": 5000,
   "state": "successful",
   "backers": 17,
   "country": "US"
@@ -15359,7 +15359,7 @@ dataJSON = [{
   "dl": "2016-11-02",
   "goal": 5000,
   "laun": "2016-10-03 16:53:28",
-  "pled": 1072,
+  "pledged": 1072,
   "state": "failed",
   "backers": 34,
   "country": "US"
@@ -15371,7 +15371,7 @@ dataJSON = [{
   "dl": "2013-11-06",
   "goal": 500,
   "laun": "2013-10-29 21:01:36",
-  "pled": 750,
+  "pledged": 750,
   "state": "successful",
   "backers": 21,
   "country": "US"
@@ -15383,7 +15383,7 @@ dataJSON = [{
   "dl": "2014-11-26",
   "goal": 10000,
   "laun": "2014-10-27 15:24:20",
-  "pled": 13630,
+  "pledged": 13630,
   "state": "successful",
   "backers": 319,
   "country": "US"
@@ -15395,7 +15395,7 @@ dataJSON = [{
   "dl": "2014-11-07",
   "goal": 2600,
   "laun": "2014-10-08 21:46:37",
-  "pled": 5763.25,
+  "pledged": 5763.25,
   "state": "successful",
   "backers": 113,
   "country": "CA"
@@ -15407,7 +15407,7 @@ dataJSON = [{
   "dl": "2014-04-30",
   "goal": 7000,
   "laun": "2014-03-21 15:33:23",
-  "pled": 7407,
+  "pledged": 7407,
   "state": "successful",
   "backers": 104,
   "country": "GB"
@@ -15419,7 +15419,7 @@ dataJSON = [{
   "dl": "2015-03-05",
   "goal": 100000,
   "laun": "2015-01-24 01:41:42",
-  "pled": 50,
+  "pledged": 50,
   "state": "canceled",
   "backers": 1,
   "country": "US"
@@ -15431,7 +15431,7 @@ dataJSON = [{
   "dl": "2012-06-04",
   "goal": 1500,
   "laun": "2012-05-05 01:23:04",
-  "pled": 125,
+  "pledged": 125,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -15443,7 +15443,7 @@ dataJSON = [{
   "dl": "2016-03-06",
   "goal": 2000,
   "laun": "2016-02-05 21:52:26",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -15455,7 +15455,7 @@ dataJSON = [{
   "dl": "2016-02-18",
   "goal": 20000,
   "laun": "2016-01-14 16:00:56",
-  "pled": 20625.8,
+  "pledged": 20625.8,
   "state": "successful",
   "backers": 293,
   "country": "NL"
@@ -15467,7 +15467,7 @@ dataJSON = [{
   "dl": "2013-08-29",
   "goal": 5000,
   "laun": "2013-08-08 18:30:58",
-  "pled": 5026,
+  "pledged": 5026,
   "state": "successful",
   "backers": 58,
   "country": "US"
@@ -15479,7 +15479,7 @@ dataJSON = [{
   "dl": "2014-09-10",
   "goal": 25000,
   "laun": "2014-07-12 02:53:20",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "GB"
@@ -15491,7 +15491,7 @@ dataJSON = [{
   "dl": "2016-05-07",
   "goal": 75000,
   "laun": "2016-04-07 02:30:03",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "CA"
@@ -15503,7 +15503,7 @@ dataJSON = [{
   "dl": "2017-03-15",
   "goal": 200,
   "laun": "2017-02-13 14:03:55",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "GB"
@@ -15515,7 +15515,7 @@ dataJSON = [{
   "dl": "2014-10-12",
   "goal": 8000,
   "laun": "2014-09-12 16:42:42",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -15527,7 +15527,7 @@ dataJSON = [{
   "dl": "2012-04-06",
   "goal": 3200,
   "laun": "2012-02-06 05:56:31",
-  "pled": 209,
+  "pledged": 209,
   "state": "failed",
   "backers": 8,
   "country": "US"
@@ -15539,7 +15539,7 @@ dataJSON = [{
   "dl": "2013-07-16",
   "goal": 7350,
   "laun": "2013-06-17 20:48:05",
-  "pled": 43127.07,
+  "pledged": 43127.07,
   "state": "successful",
   "backers": 516,
   "country": "US"
@@ -15551,7 +15551,7 @@ dataJSON = [{
   "dl": "2011-06-08",
   "goal": 15000,
   "laun": "2011-04-24 20:03:49",
-  "pled": 20212.09,
+  "pledged": 20212.09,
   "state": "successful",
   "backers": 156,
   "country": "US"
@@ -15563,7 +15563,7 @@ dataJSON = [{
   "dl": "2015-10-29",
   "goal": 40000,
   "laun": "2015-09-29 17:57:21",
-  "pled": 4474,
+  "pledged": 4474,
   "state": "failed",
   "backers": 52,
   "country": "US"
@@ -15575,7 +15575,7 @@ dataJSON = [{
   "dl": "2016-02-29",
   "goal": 75000,
   "laun": "2016-01-25 00:05:09",
-  "pled": 1,
+  "pledged": 1,
   "state": "canceled",
   "backers": 1,
   "country": "US"
@@ -15587,7 +15587,7 @@ dataJSON = [{
   "dl": "2014-11-26",
   "goal": 999,
   "laun": "2014-11-11 20:18:04",
-  "pled": 2025,
+  "pledged": 2025,
   "state": "successful",
   "backers": 87,
   "country": "US"
@@ -15599,7 +15599,7 @@ dataJSON = [{
   "dl": "2015-09-19",
   "goal": 2000,
   "laun": "2015-08-20 23:06:35",
-  "pled": 100,
+  "pledged": 100,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -15611,7 +15611,7 @@ dataJSON = [{
   "dl": "2016-02-26",
   "goal": 200000,
   "laun": "2015-12-28 22:31:59",
-  "pled": 36,
+  "pledged": 36,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -15623,7 +15623,7 @@ dataJSON = [{
   "dl": "2015-12-15",
   "goal": 25000,
   "laun": "2015-11-20 19:42:05",
-  "pled": 1217,
+  "pledged": 1217,
   "state": "failed",
   "backers": 17,
   "country": "US"
@@ -15635,7 +15635,7 @@ dataJSON = [{
   "dl": "2017-12-12",
   "goal": 50000,
   "laun": "2017-11-21 17:21:09",
-  "pled": 39,
+  "pledged": 39,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -15647,7 +15647,7 @@ dataJSON = [{
   "dl": "2017-08-31",
   "goal": 300,
   "laun": "2017-08-17 22:01:38",
-  "pled": 126,
+  "pledged": 126,
   "state": "failed",
   "backers": 7,
   "country": "GB"
@@ -15659,7 +15659,7 @@ dataJSON = [{
   "dl": "2015-12-03",
   "goal": 6500,
   "laun": "2015-10-04 00:55:19",
-  "pled": 7814,
+  "pledged": 7814,
   "state": "undefined",
   "backers": 0,
   "country": "N,0"
@@ -15671,7 +15671,7 @@ dataJSON = [{
   "dl": "2015-03-03",
   "goal": 3000,
   "laun": "2015-01-27 05:26:34",
-  "pled": 291,
+  "pledged": 291,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -15683,7 +15683,7 @@ dataJSON = [{
   "dl": "2013-12-07",
   "goal": 1200,
   "laun": "2013-11-21 21:50:04",
-  "pled": 815,
+  "pledged": 815,
   "state": "failed",
   "backers": 15,
   "country": "US"
@@ -15695,7 +15695,7 @@ dataJSON = [{
   "dl": "2014-09-04",
   "goal": 1500,
   "laun": "2014-08-05 18:11:20",
-  "pled": 15,
+  "pledged": 15,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -15707,7 +15707,7 @@ dataJSON = [{
   "dl": "2012-09-25",
   "goal": 100,
   "laun": "2012-09-11 00:47:22",
-  "pled": 280,
+  "pledged": 280,
   "state": "successful",
   "backers": 6,
   "country": "US"
@@ -15719,7 +15719,7 @@ dataJSON = [{
   "dl": "2013-01-30",
   "goal": 100000,
   "laun": "2012-12-31 07:22:29",
-  "pled": 2944.25,
+  "pledged": 2944.25,
   "state": "failed",
   "backers": 15,
   "country": "US"
@@ -15731,7 +15731,7 @@ dataJSON = [{
   "dl": "2011-05-21",
   "goal": 20000,
   "laun": "2011-02-19 00:58:58",
-  "pled": 20000,
+  "pledged": 20000,
   "state": "successful",
   "backers": 74,
   "country": "US"
@@ -15743,7 +15743,7 @@ dataJSON = [{
   "dl": "2017-01-03",
   "goal": 8000,
   "laun": "2016-12-04 23:56:28",
-  "pled": 299,
+  "pledged": 299,
   "state": "failed",
   "backers": 16,
   "country": "GB"
@@ -15755,7 +15755,7 @@ dataJSON = [{
   "dl": "2012-11-18",
   "goal": 10000,
   "laun": "2012-10-19 17:48:09",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -15767,7 +15767,7 @@ dataJSON = [{
   "dl": "2018-01-10",
   "goal": 2000,
   "laun": "2017-12-11 19:17:56",
-  "pled": 5,
+  "pledged": 5,
   "state": "live",
   "backers": 1,
   "country": "GB"
@@ -15779,7 +15779,7 @@ dataJSON = [{
   "dl": "2011-04-17",
   "goal": 750,
   "laun": "2011-03-01 19:12:59",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -15791,7 +15791,7 @@ dataJSON = [{
   "dl": "2017-11-25",
   "goal": 500,
   "laun": "2017-11-19 04:53:23",
-  "pled": 360,
+  "pledged": 360,
   "state": "failed",
   "backers": 16,
   "country": "US"
@@ -15803,7 +15803,7 @@ dataJSON = [{
   "dl": "2013-08-18",
   "goal": 3000,
   "laun": "2013-07-19 23:37:52",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -15815,7 +15815,7 @@ dataJSON = [{
   "dl": "2012-11-01",
   "goal": 2000,
   "laun": "2012-09-07 21:58:53",
-  "pled": 2000,
+  "pledged": 2000,
   "state": "successful",
   "backers": 34,
   "country": "US"
@@ -15827,7 +15827,7 @@ dataJSON = [{
   "dl": "2014-12-06",
   "goal": 2400,
   "laun": "2014-11-06 01:02:03",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -15839,7 +15839,7 @@ dataJSON = [{
   "dl": "2014-06-30",
   "goal": 35000,
   "laun": "2014-05-31 19:10:25",
-  "pled": 40,
+  "pledged": 40,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -15851,7 +15851,7 @@ dataJSON = [{
   "dl": "2012-01-19",
   "goal": 9999,
   "laun": "2011-12-19 23:19:54",
-  "pled": 137.99,
+  "pledged": 137.99,
   "state": "canceled",
   "backers": 6,
   "country": "US"
@@ -15863,7 +15863,7 @@ dataJSON = [{
   "dl": "2012-05-18",
   "goal": 5000,
   "laun": "2012-04-20 06:12:23",
-  "pled": 5294,
+  "pledged": 5294,
   "state": "successful",
   "backers": 87,
   "country": "US"
@@ -15875,7 +15875,7 @@ dataJSON = [{
   "dl": "2016-01-09",
   "goal": 20000,
   "laun": "2015-12-10 17:28:09",
-  "pled": 20000,
+  "pledged": 20000,
   "state": "successful",
   "backers": 78,
   "country": "US"
@@ -15887,7 +15887,7 @@ dataJSON = [{
   "dl": "2017-09-01",
   "goal": 98000,
   "laun": "2017-07-18 02:00:23",
-  "pled": 50,
+  "pledged": 50,
   "state": "failed",
   "backers": 4,
   "country": "AU"
@@ -15899,7 +15899,7 @@ dataJSON = [{
   "dl": "2012-10-01",
   "goal": 3400,
   "laun": "2012-09-10 23:14:04",
-  "pled": 3852,
+  "pledged": 3852,
   "state": "successful",
   "backers": 139,
   "country": "US"
@@ -15911,7 +15911,7 @@ dataJSON = [{
   "dl": "2010-08-08",
   "goal": 7000,
   "laun": "2010-06-24 10:16:10",
-  "pled": 135,
+  "pledged": 135,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -15923,7 +15923,7 @@ dataJSON = [{
   "dl": "2014-11-21",
   "goal": 6000,
   "laun": "2014-10-22 15:58:46",
-  "pled": 51,
+  "pledged": 51,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -15935,7 +15935,7 @@ dataJSON = [{
   "dl": "2013-10-09",
   "goal": 100,
   "laun": "2013-08-10 06:34:09",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -15947,7 +15947,7 @@ dataJSON = [{
   "dl": "2016-07-09",
   "goal": 20000,
   "laun": "2016-06-06 16:03:46",
-  "pled": 20708,
+  "pledged": 20708,
   "state": "successful",
   "backers": 260,
   "country": "US"
@@ -15959,7 +15959,7 @@ dataJSON = [{
   "dl": "2016-03-06",
   "goal": 1000,
   "laun": "2016-02-05 14:50:38",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -15971,7 +15971,7 @@ dataJSON = [{
   "dl": "2017-01-16",
   "goal": 500,
   "laun": "2016-12-02 00:05:47",
-  "pled": 30,
+  "pledged": 30,
   "state": "failed",
   "backers": 2,
   "country": "GB"
@@ -15983,7 +15983,7 @@ dataJSON = [{
   "dl": "2015-01-16",
   "goal": 50000,
   "laun": "2014-11-25 18:07:37",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -15995,7 +15995,7 @@ dataJSON = [{
   "dl": "2017-05-21",
   "goal": 100,
   "laun": "2017-05-01 23:39:34",
-  "pled": 935,
+  "pledged": 935,
   "state": "successful",
   "backers": 33,
   "country": "CA"
@@ -16007,7 +16007,7 @@ dataJSON = [{
   "dl": "2016-08-08",
   "goal": 10000,
   "laun": "2016-07-09 03:25:12",
-  "pled": 15,
+  "pledged": 15,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -16019,7 +16019,7 @@ dataJSON = [{
   "dl": "2017-03-28",
   "goal": 10000,
   "laun": "2017-02-26 17:59:34",
-  "pled": 17377,
+  "pledged": 17377,
   "state": "successful",
   "backers": 187,
   "country": "US"
@@ -16031,7 +16031,7 @@ dataJSON = [{
   "dl": "2011-11-17",
   "goal": 22400,
   "laun": "2011-10-03 22:53:04",
-  "pled": 1377,
+  "pledged": 1377,
   "state": "failed",
   "backers": 19,
   "country": "US"
@@ -16043,7 +16043,7 @@ dataJSON = [{
   "dl": "2014-08-22",
   "goal": 3000,
   "laun": "2014-07-23 22:52:26",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -16055,7 +16055,7 @@ dataJSON = [{
   "dl": "2015-04-29",
   "goal": 100000,
   "laun": "2015-03-30 17:56:14",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -16067,7 +16067,7 @@ dataJSON = [{
   "dl": "2011-08-29",
   "goal": 5000,
   "laun": "2011-06-30 18:55:06",
-  "pled": 75,
+  "pledged": 75,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -16079,7 +16079,7 @@ dataJSON = [{
   "dl": "2011-10-18",
   "goal": 2300,
   "laun": "2011-09-25 19:05:55",
-  "pled": 2330,
+  "pledged": 2330,
   "state": "successful",
   "backers": 30,
   "country": "US"
@@ -16091,7 +16091,7 @@ dataJSON = [{
   "dl": "2013-04-15",
   "goal": 8500,
   "laun": "2013-03-16 00:29:42",
-  "pled": 10670,
+  "pledged": 10670,
   "state": "successful",
   "backers": 159,
   "country": "US"
@@ -16103,7 +16103,7 @@ dataJSON = [{
   "dl": "2017-01-08",
   "goal": 200000,
   "laun": "2016-11-24 23:53:08",
-  "pled": 2473,
+  "pledged": 2473,
   "state": "failed",
   "backers": 60,
   "country": "SG"
@@ -16115,7 +16115,7 @@ dataJSON = [{
   "dl": "2015-07-29",
   "goal": 2800,
   "laun": "2015-06-29 18:46:31",
-  "pled": 50,
+  "pledged": 50,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -16127,7 +16127,7 @@ dataJSON = [{
   "dl": "2011-04-05",
   "goal": 5000,
   "laun": "2011-03-05 01:11:10",
-  "pled": 5311,
+  "pledged": 5311,
   "state": "successful",
   "backers": 66,
   "country": "US"
@@ -16139,7 +16139,7 @@ dataJSON = [{
   "dl": "2017-03-15",
   "goal": 10000,
   "laun": "2017-02-13 17:45:40",
-  "pled": 490,
+  "pledged": 490,
   "state": "failed",
   "backers": 4,
   "country": "ES"
@@ -16151,7 +16151,7 @@ dataJSON = [{
   "dl": "2015-11-12",
   "goal": 16582,
   "laun": "2015-10-13 15:00:51",
-  "pled": 2027,
+  "pledged": 2027,
   "state": "failed",
   "backers": 22,
   "country": "US"
@@ -16163,7 +16163,7 @@ dataJSON = [{
   "dl": "2014-01-31",
   "goal": 500,
   "laun": "2014-01-01 05:12:02",
-  "pled": 5314,
+  "pledged": 5314,
   "state": "successful",
   "backers": 245,
   "country": "AU"
@@ -16175,7 +16175,7 @@ dataJSON = [{
   "dl": "2013-11-23",
   "goal": 10000,
   "laun": "2013-10-24 05:59:57",
-  "pled": 10171,
+  "pledged": 10171,
   "state": "successful",
   "backers": 139,
   "country": "US"
@@ -16187,7 +16187,7 @@ dataJSON = [{
   "dl": "2016-04-13",
   "goal": 20000,
   "laun": "2016-03-14 16:57:57",
-  "pled": 29202,
+  "pledged": 29202,
   "state": "successful",
   "backers": 419,
   "country": "US"
@@ -16199,7 +16199,7 @@ dataJSON = [{
   "dl": "2017-11-01",
   "goal": 10000,
   "laun": "2017-10-20 23:15:57",
-  "pled": 510,
+  "pledged": 510,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -16211,7 +16211,7 @@ dataJSON = [{
   "dl": "2014-10-18",
   "goal": 1000,
   "laun": "2014-09-17 19:09:48",
-  "pled": 20,
+  "pledged": 20,
   "state": "canceled",
   "backers": 2,
   "country": "GB"
@@ -16223,7 +16223,7 @@ dataJSON = [{
   "dl": "2013-07-28",
   "goal": 900,
   "laun": "2013-06-28 04:20:22",
-  "pled": 321,
+  "pledged": 321,
   "state": "failed",
   "backers": 17,
   "country": "GB"
@@ -16235,7 +16235,7 @@ dataJSON = [{
   "dl": "2015-11-26",
   "goal": 30855,
   "laun": "2015-10-16 08:25:29",
-  "pled": 5051,
+  "pledged": 5051,
   "state": "failed",
   "backers": 60,
   "country": "AU"
@@ -16247,7 +16247,7 @@ dataJSON = [{
   "dl": "2016-06-08",
   "goal": 1,
   "laun": "2016-05-09 19:03:27",
-  "pled": 58,
+  "pledged": 58,
   "state": "successful",
   "backers": 2,
   "country": "US"
@@ -16259,7 +16259,7 @@ dataJSON = [{
   "dl": "2013-05-19",
   "goal": 7000,
   "laun": "2013-03-20 22:36:51",
-  "pled": 630,
+  "pledged": 630,
   "state": "failed",
   "backers": 10,
   "country": "US"
@@ -16271,7 +16271,7 @@ dataJSON = [{
   "dl": "2015-01-02",
   "goal": 1200,
   "laun": "2014-11-12 17:31:12",
-  "pled": 2399,
+  "pledged": 2399,
   "state": "successful",
   "backers": 97,
   "country": "US"
@@ -16283,7 +16283,7 @@ dataJSON = [{
   "dl": "2014-08-05",
   "goal": 10000,
   "laun": "2014-07-21 21:25:50",
-  "pled": 11,
+  "pledged": 11,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -16295,7 +16295,7 @@ dataJSON = [{
   "dl": "2015-08-12",
   "goal": 1000,
   "laun": "2015-07-13 18:41:33",
-  "pled": 681,
+  "pledged": 681,
   "state": "failed",
   "backers": 9,
   "country": "US"
@@ -16307,7 +16307,7 @@ dataJSON = [{
   "dl": "2016-03-04",
   "goal": 200,
   "laun": "2016-02-05 16:36:58",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -16319,7 +16319,7 @@ dataJSON = [{
   "dl": "2016-03-08",
   "goal": 37500,
   "laun": "2016-02-07 12:02:20",
-  "pled": 43471,
+  "pledged": 43471,
   "state": "successful",
   "backers": 183,
   "country": "US"
@@ -16331,7 +16331,7 @@ dataJSON = [{
   "dl": "2012-04-05",
   "goal": 3500,
   "laun": "2012-03-06 02:34:49",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -16343,7 +16343,7 @@ dataJSON = [{
   "dl": "2012-11-14",
   "goal": 50000,
   "laun": "2012-09-15 18:14:08",
-  "pled": 34237,
+  "pledged": 34237,
   "state": "failed",
   "backers": 145,
   "country": "US"
@@ -16355,7 +16355,7 @@ dataJSON = [{
   "dl": "2017-05-09",
   "goal": 11600,
   "laun": "2017-05-02 18:51:15",
-  "pled": 2470,
+  "pledged": 2470,
   "state": "failed",
   "backers": 25,
   "country": "US"
@@ -16367,7 +16367,7 @@ dataJSON = [{
   "dl": "2014-03-19",
   "goal": 6000,
   "laun": "2014-03-05 03:54:43",
-  "pled": 155,
+  "pledged": 155,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -16379,7 +16379,7 @@ dataJSON = [{
   "dl": "2014-02-13",
   "goal": 40000,
   "laun": "2014-01-14 00:51:14",
-  "pled": 5466,
+  "pledged": 5466,
   "state": "failed",
   "backers": 69,
   "country": "US"
@@ -16391,7 +16391,7 @@ dataJSON = [{
   "dl": "2014-08-12",
   "goal": 15000,
   "laun": "2014-07-08 04:50:23",
-  "pled": 600,
+  "pledged": 600,
   "state": "failed",
   "backers": 7,
   "country": "US"
@@ -16403,7 +16403,7 @@ dataJSON = [{
   "dl": "2014-09-06",
   "goal": 147000,
   "laun": "2014-08-07 02:31:41",
-  "pled": 6,
+  "pledged": 6,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -16415,7 +16415,7 @@ dataJSON = [{
   "dl": "2017-10-06",
   "goal": 30000,
   "laun": "2017-09-06 15:51:35",
-  "pled": 5030,
+  "pledged": 5030,
   "state": "failed",
   "backers": 53,
   "country": "US"
@@ -16427,7 +16427,7 @@ dataJSON = [{
   "dl": "2015-02-27",
   "goal": 1200,
   "laun": "2015-01-28 05:12:10",
-  "pled": 3400,
+  "pledged": 3400,
   "state": "successful",
   "backers": 82,
   "country": "US"
@@ -16439,7 +16439,7 @@ dataJSON = [{
   "dl": "2013-03-22",
   "goal": 9000,
   "laun": "2013-02-21 23:37:40",
-  "pled": 3712,
+  "pledged": 3712,
   "state": "failed",
   "backers": 24,
   "country": "US"
@@ -16451,7 +16451,7 @@ dataJSON = [{
   "dl": "2017-02-05",
   "goal": 1500,
   "laun": "2017-01-08 12:18:33",
-  "pled": 2141,
+  "pledged": 2141,
   "state": "successful",
   "backers": 12,
   "country": "US"
@@ -16463,7 +16463,7 @@ dataJSON = [{
   "dl": "2014-04-26",
   "goal": 5000,
   "laun": "2014-03-27 01:47:21",
-  "pled": 990,
+  "pledged": 990,
   "state": "canceled",
   "backers": 11,
   "country": "CA"
@@ -16475,7 +16475,7 @@ dataJSON = [{
   "dl": "2013-07-01",
   "goal": 2500,
   "laun": "2013-05-24 04:30:13",
-  "pled": 7903,
+  "pledged": 7903,
   "state": "successful",
   "backers": 201,
   "country": "US"
@@ -16487,7 +16487,7 @@ dataJSON = [{
   "dl": "2015-10-18",
   "goal": 400,
   "laun": "2015-09-18 23:23:35",
-  "pled": 405.56,
+  "pledged": 405.56,
   "state": "successful",
   "backers": 13,
   "country": "US"
@@ -16499,7 +16499,7 @@ dataJSON = [{
   "dl": "2011-08-13",
   "goal": 1500,
   "laun": "2011-06-29 20:43:54",
-  "pled": 1509,
+  "pledged": 1509,
   "state": "successful",
   "backers": 31,
   "country": "US"
@@ -16511,7 +16511,7 @@ dataJSON = [{
   "dl": "2015-12-30",
   "goal": 9000,
   "laun": "2015-12-06 18:01:12",
-  "pled": 10859,
+  "pledged": 10859,
   "state": "successful",
   "backers": 247,
   "country": "US"
@@ -16523,7 +16523,7 @@ dataJSON = [{
   "dl": "2015-11-18",
   "goal": 8000,
   "laun": "2015-10-19 17:09:07",
-  "pled": 9015,
+  "pledged": 9015,
   "state": "successful",
   "backers": 84,
   "country": "US"
@@ -16535,7 +16535,7 @@ dataJSON = [{
   "dl": "2017-03-12",
   "goal": 2000,
   "laun": "2017-02-08 06:16:10",
-  "pled": 5,
+  "pledged": 5,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -16547,7 +16547,7 @@ dataJSON = [{
   "dl": "2012-04-08",
   "goal": 10000,
   "laun": "2012-03-08 07:48:45",
-  "pled": 265,
+  "pledged": 265,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -16559,7 +16559,7 @@ dataJSON = [{
   "dl": "2015-04-06",
   "goal": 80000,
   "laun": "2015-03-17 11:39:30",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "AU"
@@ -16571,7 +16571,7 @@ dataJSON = [{
   "dl": "2015-12-17",
   "goal": 19800,
   "laun": "2015-11-02 14:18:36",
-  "pled": 20,
+  "pledged": 20,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -16583,7 +16583,7 @@ dataJSON = [{
   "dl": "2014-11-09",
   "goal": 44400,
   "laun": "2014-09-10 12:31:30",
-  "pled": 15044,
+  "pledged": 15044,
   "state": "failed",
   "backers": 185,
   "country": "US"
@@ -16595,7 +16595,7 @@ dataJSON = [{
   "dl": "2015-04-21",
   "goal": 20000,
   "laun": "2015-03-22 03:17:13",
-  "pled": 4239.13,
+  "pledged": 4239.13,
   "state": "failed",
   "backers": 45,
   "country": "US"
@@ -16607,7 +16607,7 @@ dataJSON = [{
   "dl": "2016-01-15",
   "goal": 5460,
   "laun": "2015-12-11 21:14:26",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "AT"
@@ -16619,7 +16619,7 @@ dataJSON = [{
   "dl": "2014-08-15",
   "goal": 1000,
   "laun": "2014-06-16 08:44:03",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -16631,7 +16631,7 @@ dataJSON = [{
   "dl": "2017-06-21",
   "goal": 7000,
   "laun": "2017-05-22 06:04:58",
-  "pled": 7561,
+  "pledged": 7561,
   "state": "successful",
   "backers": 112,
   "country": "US"
@@ -16643,7 +16643,7 @@ dataJSON = [{
   "dl": "2016-11-25",
   "goal": 5000,
   "laun": "2016-10-26 15:18:37",
-  "pled": 5260,
+  "pledged": 5260,
   "state": "successful",
   "backers": 86,
   "country": "GB"
@@ -16655,7 +16655,7 @@ dataJSON = [{
   "dl": "2015-05-06",
   "goal": 2500,
   "laun": "2015-04-06 17:41:09",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -16667,7 +16667,7 @@ dataJSON = [{
   "dl": "2015-11-07",
   "goal": 1000,
   "laun": "2015-10-08 10:31:16",
-  "pled": 227,
+  "pledged": 227,
   "state": "failed",
   "backers": 14,
   "country": "US"
@@ -16679,7 +16679,7 @@ dataJSON = [{
   "dl": "2015-11-13",
   "goal": 50000,
   "laun": "2015-10-10 05:29:37",
-  "pled": 102410,
+  "pledged": 102410,
   "state": "successful",
   "backers": 819,
   "country": "US"
@@ -16691,7 +16691,7 @@ dataJSON = [{
   "dl": "2016-11-21",
   "goal": 30000,
   "laun": "2016-09-22 16:32:17",
-  "pled": 13,
+  "pledged": 13,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -16703,7 +16703,7 @@ dataJSON = [{
   "dl": "2015-02-22",
   "goal": 10000,
   "laun": "2015-01-20 09:59:59",
-  "pled": 65014.44,
+  "pledged": 65014.44,
   "state": "successful",
   "backers": 1006,
   "country": "US"
@@ -16715,7 +16715,7 @@ dataJSON = [{
   "dl": "2017-09-17",
   "goal": 2700000,
   "laun": "2017-07-19 11:42:10",
-  "pled": 30,
+  "pledged": 30,
   "state": "failed",
   "backers": 2,
   "country": "AU"
@@ -16727,7 +16727,7 @@ dataJSON = [{
   "dl": "2015-09-28",
   "goal": 1500,
   "laun": "2015-08-31 15:32:23",
-  "pled": 478,
+  "pledged": 478,
   "state": "failed",
   "backers": 9,
   "country": "US"
@@ -16739,7 +16739,7 @@ dataJSON = [{
   "dl": "2014-11-19",
   "goal": 1300,
   "laun": "2014-10-22 22:22:14",
-  "pled": 2,
+  "pledged": 2,
   "state": "undefined",
   "backers": 0,
   "country": "N,0"
@@ -16751,7 +16751,7 @@ dataJSON = [{
   "dl": "2012-09-20",
   "goal": 5000,
   "laun": "2012-08-20 22:47:32",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -16763,7 +16763,7 @@ dataJSON = [{
   "dl": "2013-04-06",
   "goal": 3400,
   "laun": "2013-03-07 23:54:38",
-  "pled": 4025,
+  "pledged": 4025,
   "state": "successful",
   "backers": 60,
   "country": "US"
@@ -16775,7 +16775,7 @@ dataJSON = [{
   "dl": "2011-10-20",
   "goal": 20000,
   "laun": "2011-09-17 01:05:56",
-  "pled": 6410,
+  "pledged": 6410,
   "state": "failed",
   "backers": 43,
   "country": "US"
@@ -16787,7 +16787,7 @@ dataJSON = [{
   "dl": "2017-09-07",
   "goal": 1000,
   "laun": "2017-08-08 18:58:16",
-  "pled": 185,
+  "pledged": 185,
   "state": "failed",
   "backers": 12,
   "country": "US"
@@ -16799,7 +16799,7 @@ dataJSON = [{
   "dl": "2015-03-11",
   "goal": 5000,
   "laun": "2015-02-09 19:55:30",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -16811,7 +16811,7 @@ dataJSON = [{
   "dl": "2017-11-17",
   "goal": 5300,
   "laun": "2017-10-17 19:36:11",
-  "pled": 5331,
+  "pledged": 5331,
   "state": "successful",
   "backers": 42,
   "country": "US"
@@ -16823,7 +16823,7 @@ dataJSON = [{
   "dl": "2016-04-01",
   "goal": 8000,
   "laun": "2016-03-02 04:49:06",
-  "pled": 15,
+  "pledged": 15,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -16835,7 +16835,7 @@ dataJSON = [{
   "dl": "2014-03-31",
   "goal": 100000,
   "laun": "2014-02-20 17:01:58",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "AU"
@@ -16847,7 +16847,7 @@ dataJSON = [{
   "dl": "2015-08-15",
   "goal": 200,
   "laun": "2015-07-16 11:48:28",
-  "pled": 56,
+  "pledged": 56,
   "state": "failed",
   "backers": 3,
   "country": "AU"
@@ -16859,7 +16859,7 @@ dataJSON = [{
   "dl": "2015-10-22",
   "goal": 100000,
   "laun": "2015-09-22 01:00:04",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -16871,7 +16871,7 @@ dataJSON = [{
   "dl": "2015-07-13",
   "goal": 7500,
   "laun": "2015-06-13 17:47:53",
-  "pled": 3105,
+  "pledged": 3105,
   "state": "failed",
   "backers": 43,
   "country": "US"
@@ -16883,7 +16883,7 @@ dataJSON = [{
   "dl": "2015-06-20",
   "goal": 10000,
   "laun": "2015-05-24 22:53:33",
-  "pled": 170,
+  "pledged": 170,
   "state": "failed",
   "backers": 3,
   "country": "CA"
@@ -16895,7 +16895,7 @@ dataJSON = [{
   "dl": "2013-12-02",
   "goal": 10000,
   "laun": "2013-11-02 01:50:09",
-  "pled": 130,
+  "pledged": 130,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -16907,7 +16907,7 @@ dataJSON = [{
   "dl": "2015-07-15",
   "goal": 7000,
   "laun": "2015-05-16 03:00:57",
-  "pled": 7055,
+  "pledged": 7055,
   "state": "successful",
   "backers": 54,
   "country": "US"
@@ -16919,7 +16919,7 @@ dataJSON = [{
   "dl": "2015-10-26",
   "goal": 500,
   "laun": "2015-10-12 19:50:19",
-  "pled": 60,
+  "pledged": 60,
   "state": "suspended",
   "backers": 2,
   "country": "US"
@@ -16931,7 +16931,7 @@ dataJSON = [{
   "dl": "2013-12-07",
   "goal": 500,
   "laun": "2013-11-19 00:35:12",
-  "pled": 500,
+  "pledged": 500,
   "state": "successful",
   "backers": 15,
   "country": "US"
@@ -16943,7 +16943,7 @@ dataJSON = [{
   "dl": "2012-12-25",
   "goal": 1000,
   "laun": "2012-11-27 01:01:25",
-  "pled": 1897.01,
+  "pledged": 1897.01,
   "state": "successful",
   "backers": 83,
   "country": "GB"
@@ -16955,7 +16955,7 @@ dataJSON = [{
   "dl": "2017-04-30",
   "goal": 2500,
   "laun": "2017-04-10 18:26:28",
-  "pled": 102,
+  "pledged": 102,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -16967,7 +16967,7 @@ dataJSON = [{
   "dl": "2013-12-14",
   "goal": 3000,
   "laun": "2013-11-14 20:17:25",
-  "pled": 3110,
+  "pledged": 3110,
   "state": "successful",
   "backers": 24,
   "country": "US"
@@ -16979,7 +16979,7 @@ dataJSON = [{
   "dl": "2017-09-01",
   "goal": 50000,
   "laun": "2017-07-28 01:51:39",
-  "pled": 24299.6,
+  "pledged": 24299.6,
   "state": "canceled",
   "backers": 357,
   "country": "AU"
@@ -16991,7 +16991,7 @@ dataJSON = [{
   "dl": "2015-10-29",
   "goal": 1800,
   "laun": "2015-09-29 16:27:55",
-  "pled": 4691,
+  "pledged": 4691,
   "state": "successful",
   "backers": 65,
   "country": "US"
@@ -17003,7 +17003,7 @@ dataJSON = [{
   "dl": "2017-04-16",
   "goal": 777,
   "laun": "2017-03-23 21:38:33",
-  "pled": 20,
+  "pledged": 20,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -17015,7 +17015,7 @@ dataJSON = [{
   "dl": "2012-05-20",
   "goal": 3000,
   "laun": "2012-03-20 23:13:54",
-  "pled": 50,
+  "pledged": 50,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -17027,7 +17027,7 @@ dataJSON = [{
   "dl": "2013-07-21",
   "goal": 3000,
   "laun": "2013-06-21 19:50:38",
-  "pled": 3823,
+  "pledged": 3823,
   "state": "successful",
   "backers": 68,
   "country": "US"
@@ -17039,7 +17039,7 @@ dataJSON = [{
   "dl": "2017-08-19",
   "goal": 12000,
   "laun": "2017-07-11 17:42:25",
-  "pled": 13844,
+  "pledged": 13844,
   "state": "successful",
   "backers": 55,
   "country": "US"
@@ -17051,7 +17051,7 @@ dataJSON = [{
   "dl": "2017-11-02",
   "goal": 58950,
   "laun": "2017-10-03 06:25:04",
-  "pled": 655,
+  "pledged": 655,
   "state": "failed",
   "backers": 8,
   "country": "US"
@@ -17063,7 +17063,7 @@ dataJSON = [{
   "dl": "2015-03-09",
   "goal": 15000,
   "laun": "2015-02-07 08:31:50",
-  "pled": 373,
+  "pledged": 373,
   "state": "failed",
   "backers": 18,
   "country": "US"
@@ -17075,7 +17075,7 @@ dataJSON = [{
   "dl": "2014-11-02",
   "goal": 150000,
   "laun": "2014-09-13 06:30:28",
-  "pled": 1655,
+  "pledged": 1655,
   "state": "canceled",
   "backers": 30,
   "country": "US"
@@ -17087,7 +17087,7 @@ dataJSON = [{
   "dl": "2013-03-12",
   "goal": 750,
   "laun": "2013-02-10 22:13:27",
-  "pled": 760,
+  "pledged": 760,
   "state": "successful",
   "backers": 17,
   "country": "US"
@@ -17099,7 +17099,7 @@ dataJSON = [{
   "dl": "2017-11-13",
   "goal": 2000,
   "laun": "2017-10-09 19:43:59",
-  "pled": 2300,
+  "pledged": 2300,
   "state": "successful",
   "backers": 16,
   "country": "DK"
@@ -17111,7 +17111,7 @@ dataJSON = [{
   "dl": "2016-02-17",
   "goal": 8000,
   "laun": "2016-01-18 04:56:31",
-  "pled": 265,
+  "pledged": 265,
   "state": "failed",
   "backers": 8,
   "country": "US"
@@ -17123,7 +17123,7 @@ dataJSON = [{
   "dl": "2015-03-08",
   "goal": 45000,
   "laun": "2015-02-03 11:01:16",
-  "pled": 28096,
+  "pledged": 28096,
   "state": "canceled",
   "backers": 218,
   "country": "US"
@@ -17135,7 +17135,7 @@ dataJSON = [{
   "dl": "2013-11-09",
   "goal": 6000,
   "laun": "2013-09-10 01:44:29",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -17147,7 +17147,7 @@ dataJSON = [{
   "dl": "2018-02-05",
   "goal": 550,
   "laun": "2017-12-10 21:25:10",
-  "pled": 230,
+  "pledged": 230,
   "state": "live",
   "backers": 3,
   "country": "GB"
@@ -17159,7 +17159,7 @@ dataJSON = [{
   "dl": "2014-09-13",
   "goal": 700,
   "laun": "2014-08-14 06:17:55",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -17171,7 +17171,7 @@ dataJSON = [{
   "dl": "2013-08-24",
   "goal": 700,
   "laun": "2013-08-03 22:17:47",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -17183,7 +17183,7 @@ dataJSON = [{
   "dl": "2015-07-21",
   "goal": 10000,
   "laun": "2015-06-15 05:18:50",
-  "pled": 4171,
+  "pledged": 4171,
   "state": "failed",
   "backers": 99,
   "country": "US"
@@ -17195,7 +17195,7 @@ dataJSON = [{
   "dl": "2017-10-31",
   "goal": 3333,
   "laun": "2017-10-01 23:00:30",
-  "pled": 7957,
+  "pledged": 7957,
   "state": "successful",
   "backers": 87,
   "country": "US"
@@ -17207,7 +17207,7 @@ dataJSON = [{
   "dl": "2013-12-12",
   "goal": 900,
   "laun": "2013-11-12 01:42:03",
-  "pled": 15,
+  "pledged": 15,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -17219,7 +17219,7 @@ dataJSON = [{
   "dl": "2015-08-31",
   "goal": 15000,
   "laun": "2015-07-20 09:35:02",
-  "pled": 1012,
+  "pledged": 1012,
   "state": "canceled",
   "backers": 8,
   "country": "US"
@@ -17231,7 +17231,7 @@ dataJSON = [{
   "dl": "2014-06-21",
   "goal": 3000,
   "laun": "2014-04-22 22:17:34",
-  "pled": 110,
+  "pledged": 110,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -17243,7 +17243,7 @@ dataJSON = [{
   "dl": "2017-11-06",
   "goal": 1000,
   "laun": "2017-10-23 19:03:09",
-  "pled": 10584,
+  "pledged": 10584,
   "state": "successful",
   "backers": 236,
   "country": "US"
@@ -17255,7 +17255,7 @@ dataJSON = [{
   "dl": "2016-04-11",
   "goal": 2500,
   "laun": "2016-03-12 23:22:51",
-  "pled": 80,
+  "pledged": 80,
   "state": "undefined",
   "backers": 0,
   "country": "N,0"
@@ -17267,7 +17267,7 @@ dataJSON = [{
   "dl": "2015-04-23",
   "goal": 300,
   "laun": "2015-03-24 17:24:36",
-  "pled": 20,
+  "pledged": 20,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -17279,7 +17279,7 @@ dataJSON = [{
   "dl": "2015-06-21",
   "goal": 10000,
   "laun": "2015-05-22 22:04:09",
-  "pled": 15696,
+  "pledged": 15696,
   "state": "successful",
   "backers": 107,
   "country": "US"
@@ -17291,7 +17291,7 @@ dataJSON = [{
   "dl": "2015-11-05",
   "goal": 30000,
   "laun": "2015-10-06 01:01:12",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -17303,7 +17303,7 @@ dataJSON = [{
   "dl": "2012-12-08",
   "goal": 1000,
   "laun": "2012-11-08 22:18:02",
-  "pled": 1530,
+  "pledged": 1530,
   "state": "successful",
   "backers": 43,
   "country": "US"
@@ -17315,7 +17315,7 @@ dataJSON = [{
   "dl": "2015-05-08",
   "goal": 75000,
   "laun": "2015-04-10 19:33:16",
-  "pled": 80359.5,
+  "pledged": 80359.5,
   "state": "successful",
   "backers": 1030,
   "country": "GB"
@@ -17327,7 +17327,7 @@ dataJSON = [{
   "dl": "2012-09-12",
   "goal": 17000,
   "laun": "2012-08-13 23:17:18",
-  "pled": 653,
+  "pledged": 653,
   "state": "failed",
   "backers": 7,
   "country": "US"
@@ -17339,7 +17339,7 @@ dataJSON = [{
   "dl": "2016-03-25",
   "goal": 5000,
   "laun": "2016-03-05 16:55:30",
-  "pled": 12961,
+  "pledged": 12961,
   "state": "successful",
   "backers": 320,
   "country": "US"
@@ -17351,7 +17351,7 @@ dataJSON = [{
   "dl": "2014-09-26",
   "goal": 50000,
   "laun": "2014-08-27 19:14:01",
-  "pled": 170,
+  "pledged": 170,
   "state": "failed",
   "backers": 2,
   "country": "CA"
@@ -17363,7 +17363,7 @@ dataJSON = [{
   "dl": "2015-06-03",
   "goal": 1000,
   "laun": "2015-05-04 23:34:21",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -17375,7 +17375,7 @@ dataJSON = [{
   "dl": "2012-06-02",
   "goal": 15000,
   "laun": "2012-05-03 21:32:12",
-  "pled": 750,
+  "pledged": 750,
   "state": "failed",
   "backers": 8,
   "country": "US"
@@ -17387,7 +17387,7 @@ dataJSON = [{
   "dl": "2015-05-10",
   "goal": 8000,
   "laun": "2015-04-10 09:46:30",
-  "pled": 22845,
+  "pledged": 22845,
   "state": "successful",
   "backers": 559,
   "country": "GB"
@@ -17399,7 +17399,7 @@ dataJSON = [{
   "dl": "2010-11-30",
   "goal": 400,
   "laun": "2010-10-21 21:01:35",
-  "pled": 426,
+  "pledged": 426,
   "state": "successful",
   "backers": 35,
   "country": "US"
@@ -17411,7 +17411,7 @@ dataJSON = [{
   "dl": "2017-02-17",
   "goal": 300,
   "laun": "2017-01-27 16:12:06",
-  "pled": 2052,
+  "pledged": 2052,
   "state": "successful",
   "backers": 57,
   "country": "US"
@@ -17423,7 +17423,7 @@ dataJSON = [{
   "dl": "2016-05-13",
   "goal": 5000,
   "laun": "2016-04-13 22:16:37",
-  "pled": 541,
+  "pledged": 541,
   "state": "failed",
   "backers": 15,
   "country": "US"
@@ -17435,7 +17435,7 @@ dataJSON = [{
   "dl": "2016-06-21",
   "goal": 30000,
   "laun": "2016-05-22 00:47:35",
-  "pled": 15,
+  "pledged": 15,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -17447,7 +17447,7 @@ dataJSON = [{
   "dl": "2012-02-01",
   "goal": 5000,
   "laun": "2011-12-27 22:29:25",
-  "pled": 100,
+  "pledged": 100,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -17459,7 +17459,7 @@ dataJSON = [{
   "dl": "2014-09-30",
   "goal": 4000,
   "laun": "2014-09-14 21:03:52",
-  "pled": 70,
+  "pledged": 70,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -17471,7 +17471,7 @@ dataJSON = [{
   "dl": "2015-04-17",
   "goal": 700,
   "laun": "2015-02-18 04:07:59",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -17483,7 +17483,7 @@ dataJSON = [{
   "dl": "2017-04-27",
   "goal": 10000,
   "laun": "2017-04-05 17:56:35",
-  "pled": 72223.2,
+  "pledged": 72223.2,
   "state": "successful",
   "backers": 1397,
   "country": "US"
@@ -17495,7 +17495,7 @@ dataJSON = [{
   "dl": "2014-08-12",
   "goal": 30000,
   "laun": "2014-07-08 19:30:38",
-  "pled": 80,
+  "pledged": 80,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -17507,7 +17507,7 @@ dataJSON = [{
   "dl": "2016-04-21",
   "goal": 2500,
   "laun": "2016-04-07 21:28:31",
-  "pled": 178,
+  "pledged": 178,
   "state": "failed",
   "backers": 4,
   "country": "GB"
@@ -17519,7 +17519,7 @@ dataJSON = [{
   "dl": "2013-10-12",
   "goal": 6500,
   "laun": "2013-09-12 00:23:31",
-  "pled": 252,
+  "pledged": 252,
   "state": "failed",
   "backers": 15,
   "country": "US"
@@ -17531,7 +17531,7 @@ dataJSON = [{
   "dl": "2013-03-22",
   "goal": 1600,
   "laun": "2013-02-25 15:03:20",
-  "pled": 1750,
+  "pledged": 1750,
   "state": "successful",
   "backers": 23,
   "country": "US"
@@ -17543,7 +17543,7 @@ dataJSON = [{
   "dl": "2016-03-12",
   "goal": 350,
   "laun": "2016-02-11 07:23:37",
-  "pled": 146,
+  "pledged": 146,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -17555,7 +17555,7 @@ dataJSON = [{
   "dl": "2015-02-21",
   "goal": 4000,
   "laun": "2015-01-23 00:35:55",
-  "pled": 4576,
+  "pledged": 4576,
   "state": "successful",
   "backers": 137,
   "country": "US"
@@ -17567,7 +17567,7 @@ dataJSON = [{
   "dl": "2017-08-15",
   "goal": 5000,
   "laun": "2017-07-11 16:54:21",
-  "pled": 177226,
+  "pledged": 177226,
   "state": "successful",
   "backers": 2651,
   "country": "US"
@@ -17579,7 +17579,7 @@ dataJSON = [{
   "dl": "2012-07-28",
   "goal": 150000,
   "laun": "2012-05-29 22:52:40",
-  "pled": 1341,
+  "pledged": 1341,
   "state": "failed",
   "backers": 30,
   "country": "US"
@@ -17591,7 +17591,7 @@ dataJSON = [{
   "dl": "2017-11-18",
   "goal": 15000,
   "laun": "2017-11-02 03:11:07",
-  "pled": 18852,
+  "pledged": 18852,
   "state": "successful",
   "backers": 212,
   "country": "US"
@@ -17603,7 +17603,7 @@ dataJSON = [{
   "dl": "2012-06-16",
   "goal": 3000,
   "laun": "2012-04-18 05:57:55",
-  "pled": 105,
+  "pledged": 105,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -17615,7 +17615,7 @@ dataJSON = [{
   "dl": "2015-09-27",
   "goal": 11000,
   "laun": "2015-08-19 02:12:53",
-  "pled": 252,
+  "pledged": 252,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -17627,7 +17627,7 @@ dataJSON = [{
   "dl": "2013-05-11",
   "goal": 5000,
   "laun": "2013-04-11 00:54:09",
-  "pled": 256,
+  "pledged": 256,
   "state": "failed",
   "backers": 8,
   "country": "US"
@@ -17639,7 +17639,7 @@ dataJSON = [{
   "dl": "2014-12-31",
   "goal": 10000,
   "laun": "2014-12-01 23:09:52",
-  "pled": 101,
+  "pledged": 101,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -17651,7 +17651,7 @@ dataJSON = [{
   "dl": "2017-08-31",
   "goal": 111111,
   "laun": "2017-07-31 17:34:25",
-  "pled": 12100.7,
+  "pledged": 12100.7,
   "state": "failed",
   "backers": 233,
   "country": "DE"
@@ -17663,7 +17663,7 @@ dataJSON = [{
   "dl": "2014-03-20",
   "goal": 1000,
   "laun": "2014-03-05 19:35:28",
-  "pled": 1888,
+  "pledged": 1888,
   "state": "successful",
   "backers": 46,
   "country": "US"
@@ -17675,7 +17675,7 @@ dataJSON = [{
   "dl": "2016-08-04",
   "goal": 10000,
   "laun": "2016-07-05 17:10:42",
-  "pled": 10215,
+  "pledged": 10215,
   "state": "successful",
   "backers": 77,
   "country": "GB"
@@ -17687,7 +17687,7 @@ dataJSON = [{
   "dl": "2013-08-03",
   "goal": 25000,
   "laun": "2013-07-04 06:07:41",
-  "pled": 251,
+  "pledged": 251,
   "state": "failed",
   "backers": 9,
   "country": "US"
@@ -17699,7 +17699,7 @@ dataJSON = [{
   "dl": "2012-11-28",
   "goal": 2050,
   "laun": "2012-10-29 22:46:01",
-  "pled": 115,
+  "pledged": 115,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -17711,7 +17711,7 @@ dataJSON = [{
   "dl": "2017-07-11",
   "goal": 150000,
   "laun": "2017-06-11 02:48:09",
-  "pled": 20,
+  "pledged": 20,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -17723,7 +17723,7 @@ dataJSON = [{
   "dl": "2017-01-28",
   "goal": 7000,
   "laun": "2016-12-19 19:18:55",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "ES"
@@ -17735,7 +17735,7 @@ dataJSON = [{
   "dl": "2012-06-30",
   "goal": 6000,
   "laun": "2012-05-31 01:50:26",
-  "pled": 6000,
+  "pledged": 6000,
   "state": "successful",
   "backers": 67,
   "country": "US"
@@ -17747,7 +17747,7 @@ dataJSON = [{
   "dl": "2017-10-21",
   "goal": 3000,
   "laun": "2017-09-21 18:39:14",
-  "pled": 375,
+  "pledged": 375,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -17759,7 +17759,7 @@ dataJSON = [{
   "dl": "2014-06-25",
   "goal": 4000,
   "laun": "2014-06-03 17:50:20",
-  "pled": 659,
+  "pledged": 659,
   "state": "failed",
   "backers": 46,
   "country": "US"
@@ -17771,7 +17771,7 @@ dataJSON = [{
   "dl": "2012-09-22",
   "goal": 30000,
   "laun": "2012-08-23 18:08:23",
-  "pled": 34182,
+  "pledged": 34182,
   "state": "successful",
   "backers": 308,
   "country": "US"
@@ -17783,7 +17783,7 @@ dataJSON = [{
   "dl": "2010-11-13",
   "goal": 2500,
   "laun": "2010-10-14 03:32:47",
-  "pled": 3310,
+  "pledged": 3310,
   "state": "successful",
   "backers": 37,
   "country": "US"
@@ -17795,7 +17795,7 @@ dataJSON = [{
   "dl": "2014-12-22",
   "goal": 5000,
   "laun": "2014-11-28 18:39:14",
-  "pled": 1388,
+  "pledged": 1388,
   "state": "failed",
   "backers": 26,
   "country": "US"
@@ -17807,7 +17807,7 @@ dataJSON = [{
   "dl": "2015-02-04",
   "goal": 1000,
   "laun": "2015-01-28 02:18:48",
-  "pled": 299,
+  "pledged": 299,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -17819,7 +17819,7 @@ dataJSON = [{
   "dl": "2013-11-30",
   "goal": 15000,
   "laun": "2013-10-31 18:29:37",
-  "pled": 130,
+  "pledged": 130,
   "state": "canceled",
   "backers": 3,
   "country": "US"
@@ -17831,7 +17831,7 @@ dataJSON = [{
   "dl": "2013-12-10",
   "goal": 30000,
   "laun": "2013-10-24 16:37:13",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -17843,7 +17843,7 @@ dataJSON = [{
   "dl": "2018-02-01",
   "goal": 40000,
   "laun": "2017-12-17 21:33:59",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "GB"
@@ -17855,7 +17855,7 @@ dataJSON = [{
   "dl": "2014-06-12",
   "goal": 10,
   "laun": "2014-04-30 16:38:35",
-  "pled": 21,
+  "pledged": 21,
   "state": "successful",
   "backers": 2,
   "country": "GB"
@@ -17867,7 +17867,7 @@ dataJSON = [{
   "dl": "2017-01-31",
   "goal": 1000,
   "laun": "2016-12-02 18:33:02",
-  "pled": 2069,
+  "pledged": 2069,
   "state": "successful",
   "backers": 29,
   "country": "US"
@@ -17879,7 +17879,7 @@ dataJSON = [{
   "dl": "2013-05-20",
   "goal": 5000,
   "laun": "2013-03-21 19:29:48",
-  "pled": 5180,
+  "pledged": 5180,
   "state": "successful",
   "backers": 131,
   "country": "US"
@@ -17891,7 +17891,7 @@ dataJSON = [{
   "dl": "2016-10-21",
   "goal": 5000,
   "laun": "2016-09-21 18:17:16",
-  "pled": 57,
+  "pledged": 57,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -17903,7 +17903,7 @@ dataJSON = [{
   "dl": "2015-08-07",
   "goal": 2500,
   "laun": "2015-07-08 18:59:32",
-  "pled": 55,
+  "pledged": 55,
   "state": "failed",
   "backers": 5,
   "country": "CA"
@@ -17915,7 +17915,7 @@ dataJSON = [{
   "dl": "2017-05-19",
   "goal": 7000,
   "laun": "2017-04-29 22:50:38",
-  "pled": 116,
+  "pledged": 116,
   "state": "failed",
   "backers": 4,
   "country": "GB"
@@ -17927,7 +17927,7 @@ dataJSON = [{
   "dl": "2010-07-05",
   "goal": 10000,
   "laun": "2010-05-27 03:39:15",
-  "pled": 119,
+  "pledged": 119,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -17939,7 +17939,7 @@ dataJSON = [{
   "dl": "2014-10-09",
   "goal": 6500,
   "laun": "2014-09-09 01:02:12",
-  "pled": 140,
+  "pledged": 140,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -17951,7 +17951,7 @@ dataJSON = [{
   "dl": "2016-05-14",
   "goal": 100000,
   "laun": "2016-03-15 16:55:13",
-  "pled": 92,
+  "pledged": 92,
   "state": "failed",
   "backers": 3,
   "country": "AT"
@@ -17963,7 +17963,7 @@ dataJSON = [{
   "dl": "2016-07-21",
   "goal": 5000,
   "laun": "2016-06-20 17:15:10",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "CA"
@@ -17975,7 +17975,7 @@ dataJSON = [{
   "dl": "2017-10-10",
   "goal": 10000,
   "laun": "2017-08-11 06:58:03",
-  "pled": 190,
+  "pledged": 190,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -17987,7 +17987,7 @@ dataJSON = [{
   "dl": "2011-11-10",
   "goal": 7000,
   "laun": "2011-10-11 19:21:20",
-  "pled": 8425,
+  "pledged": 8425,
   "state": "successful",
   "backers": 106,
   "country": "US"
@@ -17999,7 +17999,7 @@ dataJSON = [{
   "dl": "2012-04-29",
   "goal": 15000,
   "laun": "2012-03-30 22:08:47",
-  "pled": 1317,
+  "pledged": 1317,
   "state": "failed",
   "backers": 15,
   "country": "US"
@@ -18011,7 +18011,7 @@ dataJSON = [{
   "dl": "2016-10-10",
   "goal": 500,
   "laun": "2016-08-13 22:58:41",
-  "pled": 625,
+  "pledged": 625,
   "state": "successful",
   "backers": 23,
   "country": "US"
@@ -18023,7 +18023,7 @@ dataJSON = [{
   "dl": "2013-07-24",
   "goal": 22000,
   "laun": "2013-06-24 16:02:38",
-  "pled": 22396,
+  "pledged": 22396,
   "state": "successful",
   "backers": 159,
   "country": "US"
@@ -18035,7 +18035,7 @@ dataJSON = [{
   "dl": "2010-01-15",
   "goal": 5000,
   "laun": "2009-10-18 19:39:36",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -18047,7 +18047,7 @@ dataJSON = [{
   "dl": "2011-04-02",
   "goal": 10000,
   "laun": "2011-01-30 23:10:57",
-  "pled": 25,
+  "pledged": 25,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -18059,7 +18059,7 @@ dataJSON = [{
   "dl": "2015-02-25",
   "goal": 150000,
   "laun": "2015-01-26 21:47:18",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -18071,7 +18071,7 @@ dataJSON = [{
   "dl": "2016-12-14",
   "goal": 15000,
   "laun": "2016-11-19 01:00:05",
-  "pled": 6716,
+  "pledged": 6716,
   "state": "failed",
   "backers": 95,
   "country": "US"
@@ -18083,7 +18083,7 @@ dataJSON = [{
   "dl": "2015-06-04",
   "goal": 10000,
   "laun": "2015-05-05 17:45:29",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -18095,7 +18095,7 @@ dataJSON = [{
   "dl": "2016-01-07",
   "goal": 7000,
   "laun": "2015-12-01 06:13:38",
-  "pled": 7997,
+  "pledged": 7997,
   "state": "successful",
   "backers": 121,
   "country": "US"
@@ -18107,7 +18107,7 @@ dataJSON = [{
   "dl": "2015-06-27",
   "goal": 3000,
   "laun": "2015-05-28 17:17:08",
-  "pled": 45,
+  "pledged": 45,
   "state": "undefined",
   "backers": 0,
   "country": "N,0"
@@ -18119,7 +18119,7 @@ dataJSON = [{
   "dl": "2014-03-23",
   "goal": 75,
   "laun": "2014-02-21 13:38:07",
-  "pled": 105,
+  "pledged": 105,
   "state": "successful",
   "backers": 8,
   "country": "GB"
@@ -18131,7 +18131,7 @@ dataJSON = [{
   "dl": "2013-03-01",
   "goal": 4000,
   "laun": "2013-02-25 20:04:55",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -18143,7 +18143,7 @@ dataJSON = [{
   "dl": "2016-05-03",
   "goal": 15000,
   "laun": "2016-03-29 22:32:37",
-  "pled": 18635,
+  "pledged": 18635,
   "state": "successful",
   "backers": 164,
   "country": "US"
@@ -18155,7 +18155,7 @@ dataJSON = [{
   "dl": "2017-08-05",
   "goal": 215,
   "laun": "2017-07-06 18:20:18",
-  "pled": 343,
+  "pledged": 343,
   "state": "successful",
   "backers": 33,
   "country": "GB"
@@ -18167,7 +18167,7 @@ dataJSON = [{
   "dl": "2015-07-15",
   "goal": 5000,
   "laun": "2015-06-02 02:13:49",
-  "pled": 10303,
+  "pledged": 10303,
   "state": "successful",
   "backers": 233,
   "country": "US"
@@ -18179,7 +18179,7 @@ dataJSON = [{
   "dl": "2014-11-26",
   "goal": 15000,
   "laun": "2014-10-27 16:34:24",
-  "pled": 50,
+  "pledged": 50,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -18191,7 +18191,7 @@ dataJSON = [{
   "dl": "2013-05-14",
   "goal": 10000,
   "laun": "2013-04-24 15:59:52",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -18203,7 +18203,7 @@ dataJSON = [{
   "dl": "2017-05-15",
   "goal": 6000,
   "laun": "2017-03-30 02:29:29",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -18215,7 +18215,7 @@ dataJSON = [{
   "dl": "2011-04-14",
   "goal": 2000,
   "laun": "2011-03-14 01:08:51",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -18227,7 +18227,7 @@ dataJSON = [{
   "dl": "2017-03-02",
   "goal": 10000,
   "laun": "2017-01-31 06:56:36",
-  "pled": 463,
+  "pledged": 463,
   "state": "canceled",
   "backers": 6,
   "country": "GB"
@@ -18239,7 +18239,7 @@ dataJSON = [{
   "dl": "2012-12-23",
   "goal": 13,
   "laun": "2012-12-21 18:00:02",
-  "pled": 46.56,
+  "pledged": 46.56,
   "state": "successful",
   "backers": 10,
   "country": "US"
@@ -18251,7 +18251,7 @@ dataJSON = [{
   "dl": "2012-07-23",
   "goal": 5000,
   "laun": "2012-07-02 15:00:22",
-  "pled": 8103.22,
+  "pledged": 8103.22,
   "state": "successful",
   "backers": 120,
   "country": "US"
@@ -18263,7 +18263,7 @@ dataJSON = [{
   "dl": "2015-11-02",
   "goal": 2500,
   "laun": "2015-10-10 15:37:51",
-  "pled": 3150,
+  "pledged": 3150,
   "state": "successful",
   "backers": 68,
   "country": "US"
@@ -18275,7 +18275,7 @@ dataJSON = [{
   "dl": "2015-07-17",
   "goal": 150000,
   "laun": "2015-05-18 19:16:01",
-  "pled": 107,
+  "pledged": 107,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -18287,7 +18287,7 @@ dataJSON = [{
   "dl": "2015-12-06",
   "goal": 25000,
   "laun": "2015-11-03 07:29:36",
-  "pled": 145015.8,
+  "pledged": 145015.8,
   "state": "successful",
   "backers": 2514,
   "country": "US"
@@ -18299,7 +18299,7 @@ dataJSON = [{
   "dl": "2013-03-16",
   "goal": 3200,
   "laun": "2013-02-14 05:36:17",
-  "pled": 160,
+  "pledged": 160,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -18311,7 +18311,7 @@ dataJSON = [{
   "dl": "2014-03-08",
   "goal": 120000,
   "laun": "2014-02-06 20:18:41",
-  "pled": 1090,
+  "pledged": 1090,
   "state": "failed",
   "backers": 25,
   "country": "US"
@@ -18323,7 +18323,7 @@ dataJSON = [{
   "dl": "2017-08-23",
   "goal": 1500,
   "laun": "2017-07-28 11:42:24",
-  "pled": 620,
+  "pledged": 620,
   "state": "failed",
   "backers": 32,
   "country": "IE"
@@ -18335,7 +18335,7 @@ dataJSON = [{
   "dl": "2015-06-01",
   "goal": 7500,
   "laun": "2015-04-27 09:43:20",
-  "pled": 155,
+  "pledged": 155,
   "state": "failed",
   "backers": 3,
   "country": "NO"
@@ -18347,7 +18347,7 @@ dataJSON = [{
   "dl": "2014-09-12",
   "goal": 7500,
   "laun": "2014-08-08 22:39:19",
-  "pled": 20,
+  "pledged": 20,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -18359,7 +18359,7 @@ dataJSON = [{
   "dl": "2012-04-20",
   "goal": 15000,
   "laun": "2012-03-21 04:12:34",
-  "pled": 175,
+  "pledged": 175,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -18371,7 +18371,7 @@ dataJSON = [{
   "dl": "2016-03-31",
   "goal": 15000,
   "laun": "2016-03-01 17:59:50",
-  "pled": 57615,
+  "pledged": 57615,
   "state": "successful",
   "backers": 642,
   "country": "US"
@@ -18383,7 +18383,7 @@ dataJSON = [{
   "dl": "2013-05-24",
   "goal": 2000,
   "laun": "2013-04-24 22:33:28",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -18395,7 +18395,7 @@ dataJSON = [{
   "dl": "2014-04-26",
   "goal": 1000,
   "laun": "2014-03-12 21:33:27",
-  "pled": 85,
+  "pledged": 85,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -18407,7 +18407,7 @@ dataJSON = [{
   "dl": "2016-01-17",
   "goal": 5000,
   "laun": "2015-12-18 15:13:29",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "IT"
@@ -18419,7 +18419,7 @@ dataJSON = [{
   "dl": "2015-04-26",
   "goal": 100000,
   "laun": "2015-02-25 19:53:06",
-  "pled": 1428519.56,
+  "pledged": 1428519.56,
   "state": "successful",
   "backers": 7493,
   "country": "US"
@@ -18431,7 +18431,7 @@ dataJSON = [{
   "dl": "2015-08-13",
   "goal": 2000,
   "laun": "2015-06-15 21:10:22",
-  "pled": 50,
+  "pledged": 50,
   "state": "failed",
   "backers": 2,
   "country": "CA"
@@ -18443,7 +18443,7 @@ dataJSON = [{
   "dl": "2014-06-16",
   "goal": 2000,
   "laun": "2014-05-16 18:21:17",
-  "pled": 140,
+  "pledged": 140,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -18455,7 +18455,7 @@ dataJSON = [{
   "dl": "2012-12-03",
   "goal": 10500,
   "laun": "2012-10-16 02:57:19",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -18467,7 +18467,7 @@ dataJSON = [{
   "dl": "2012-10-13",
   "goal": 1000,
   "laun": "2012-09-13 23:14:29",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -18479,7 +18479,7 @@ dataJSON = [{
   "dl": "2016-03-17",
   "goal": 675,
   "laun": "2016-03-02 21:00:35",
-  "pled": 80,
+  "pledged": 80,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -18491,7 +18491,7 @@ dataJSON = [{
   "dl": "2015-03-20",
   "goal": 25000,
   "laun": "2015-02-19 21:41:29",
-  "pled": 720,
+  "pledged": 720,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -18503,7 +18503,7 @@ dataJSON = [{
   "dl": "2016-08-12",
   "goal": 10000,
   "laun": "2016-07-13 01:39:07",
-  "pled": 476,
+  "pledged": 476,
   "state": "failed",
   "backers": 11,
   "country": "AU"
@@ -18515,7 +18515,7 @@ dataJSON = [{
   "dl": "2014-10-05",
   "goal": 5000,
   "laun": "2014-09-05 23:26:29",
-  "pled": 793,
+  "pledged": 793,
   "state": "failed",
   "backers": 21,
   "country": "US"
@@ -18527,7 +18527,7 @@ dataJSON = [{
   "dl": "2015-04-27",
   "goal": 15000,
   "laun": "2015-04-07 09:58:26",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "SE"
@@ -18539,7 +18539,7 @@ dataJSON = [{
   "dl": "2016-10-06",
   "goal": 120000,
   "laun": "2016-09-07 21:12:43",
-  "pled": 11,
+  "pledged": 11,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -18551,7 +18551,7 @@ dataJSON = [{
   "dl": "2015-07-13",
   "goal": 300,
   "laun": "2015-06-29 14:10:51",
-  "pled": 308,
+  "pledged": 308,
   "state": "successful",
   "backers": 21,
   "country": "GB"
@@ -18563,7 +18563,7 @@ dataJSON = [{
   "dl": "2011-12-28",
   "goal": 6000,
   "laun": "2011-11-28 16:40:45",
-  "pled": 1177.26,
+  "pledged": 1177.26,
   "state": "failed",
   "backers": 17,
   "country": "US"
@@ -18575,7 +18575,7 @@ dataJSON = [{
   "dl": "2016-05-30",
   "goal": 3500,
   "laun": "2016-04-30 03:09:47",
-  "pled": 25670,
+  "pledged": 25670,
   "state": "successful",
   "backers": 455,
   "country": "US"
@@ -18587,7 +18587,7 @@ dataJSON = [{
   "dl": "2014-08-10",
   "goal": 10000,
   "laun": "2014-07-11 19:46:06",
-  "pled": 875,
+  "pledged": 875,
   "state": "failed",
   "backers": 11,
   "country": "US"
@@ -18599,7 +18599,7 @@ dataJSON = [{
   "dl": "2012-04-01",
   "goal": 550,
   "laun": "2012-02-01 22:54:07",
-  "pled": 590,
+  "pledged": 590,
   "state": "successful",
   "backers": 12,
   "country": "US"
@@ -18611,7 +18611,7 @@ dataJSON = [{
   "dl": "2015-09-18",
   "goal": 3000,
   "laun": "2015-08-19 19:01:15",
-  "pled": 5711,
+  "pledged": 5711,
   "state": "successful",
   "backers": 157,
   "country": "US"
@@ -18623,7 +18623,7 @@ dataJSON = [{
   "dl": "2012-08-30",
   "goal": 120000,
   "laun": "2012-07-31 00:23:23",
-  "pled": 2938,
+  "pledged": 2938,
   "state": "failed",
   "backers": 29,
   "country": "US"
@@ -18635,7 +18635,7 @@ dataJSON = [{
   "dl": "2014-06-02",
   "goal": 280000,
   "laun": "2014-05-03 21:59:43",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -18647,7 +18647,7 @@ dataJSON = [{
   "dl": "2015-04-17",
   "goal": 400,
   "laun": "2015-03-18 18:47:02",
-  "pled": 1493,
+  "pledged": 1493,
   "state": "successful",
   "backers": 46,
   "country": "US"
@@ -18659,7 +18659,7 @@ dataJSON = [{
   "dl": "2014-08-14",
   "goal": 2000,
   "laun": "2014-07-15 08:49:43",
-  "pled": 218,
+  "pledged": 218,
   "state": "failed",
   "backers": 12,
   "country": "US"
@@ -18671,7 +18671,7 @@ dataJSON = [{
   "dl": "2014-09-29",
   "goal": 25000,
   "laun": "2014-07-31 11:47:06",
-  "pled": 20,
+  "pledged": 20,
   "state": "canceled",
   "backers": 1,
   "country": "CA"
@@ -18683,7 +18683,7 @@ dataJSON = [{
   "dl": "2017-08-17",
   "goal": 10700,
   "laun": "2017-07-12 18:30:57",
-  "pled": 50,
+  "pledged": 50,
   "state": "failed",
   "backers": 1,
   "country": "FR"
@@ -18695,7 +18695,7 @@ dataJSON = [{
   "dl": "2014-07-25",
   "goal": 1000,
   "laun": "2014-07-10 11:48:39",
-  "pled": 3,
+  "pledged": 3,
   "state": "canceled",
   "backers": 3,
   "country": "US"
@@ -18707,7 +18707,7 @@ dataJSON = [{
   "dl": "2013-03-08",
   "goal": 7400,
   "laun": "2013-02-05 00:09:55",
-  "pled": 2919,
+  "pledged": 2919,
   "state": "failed",
   "backers": 93,
   "country": "US"
@@ -18719,7 +18719,7 @@ dataJSON = [{
   "dl": "2016-01-01",
   "goal": 67000,
   "laun": "2015-11-02 12:22:35",
-  "pled": 328,
+  "pledged": 328,
   "state": "canceled",
   "backers": 24,
   "country": "US"
@@ -18731,7 +18731,7 @@ dataJSON = [{
   "dl": "2014-10-14",
   "goal": 10000,
   "laun": "2014-09-13 00:06:13",
-  "pled": 2251,
+  "pledged": 2251,
   "state": "failed",
   "backers": 23,
   "country": "US"
@@ -18743,7 +18743,7 @@ dataJSON = [{
   "dl": "2011-03-02",
   "goal": 1000,
   "laun": "2011-02-08 02:28:30",
-  "pled": 2200,
+  "pledged": 2200,
   "state": "successful",
   "backers": 26,
   "country": "US"
@@ -18755,7 +18755,7 @@ dataJSON = [{
   "dl": "2017-07-08",
   "goal": 500,
   "laun": "2017-06-08 21:16:26",
-  "pled": 5,
+  "pledged": 5,
   "state": "failed",
   "backers": 1,
   "country": "DE"
@@ -18767,7 +18767,7 @@ dataJSON = [{
   "dl": "2012-11-01",
   "goal": 2000,
   "laun": "2012-10-12 22:59:16",
-  "pled": 2696,
+  "pledged": 2696,
   "state": "successful",
   "backers": 62,
   "country": "US"
@@ -18779,7 +18779,7 @@ dataJSON = [{
   "dl": "2012-12-16",
   "goal": 2000,
   "laun": "2012-10-17 09:08:48",
-  "pled": 2007,
+  "pledged": 2007,
   "state": "successful",
   "backers": 35,
   "country": "US"
@@ -18791,7 +18791,7 @@ dataJSON = [{
   "dl": "2011-11-04",
   "goal": 2500,
   "laun": "2011-09-05 04:25:30",
-  "pled": 145,
+  "pledged": 145,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -18803,7 +18803,7 @@ dataJSON = [{
   "dl": "2017-01-27",
   "goal": 30000,
   "laun": "2016-12-28 02:46:15",
-  "pled": 3390,
+  "pledged": 3390,
   "state": "failed",
   "backers": 155,
   "country": "NZ"
@@ -18815,7 +18815,7 @@ dataJSON = [{
   "dl": "2015-09-26",
   "goal": 6000,
   "laun": "2015-09-01 23:33:37",
-  "pled": 1635.09,
+  "pledged": 1635.09,
   "state": "failed",
   "backers": 7,
   "country": "US"
@@ -18827,7 +18827,7 @@ dataJSON = [{
   "dl": "2013-07-01",
   "goal": 45000,
   "laun": "2013-05-30 09:07:00",
-  "pled": 84457.22,
+  "pledged": 84457.22,
   "state": "successful",
   "backers": 2565,
   "country": "US"
@@ -18839,7 +18839,7 @@ dataJSON = [{
   "dl": "2010-08-16",
   "goal": 10000,
   "laun": "2010-07-14 20:30:24",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -18851,7 +18851,7 @@ dataJSON = [{
   "dl": "2010-06-16",
   "goal": 2000,
   "laun": "2010-04-22 17:36:25",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -18863,7 +18863,7 @@ dataJSON = [{
   "dl": "2014-04-16",
   "goal": 35000,
   "laun": "2014-03-22 14:00:14",
-  "pled": 6669,
+  "pledged": 6669,
   "state": "failed",
   "backers": 105,
   "country": "US"
@@ -18875,7 +18875,7 @@ dataJSON = [{
   "dl": "2015-02-11",
   "goal": 10000,
   "laun": "2014-12-13 01:39:36",
-  "pled": 13550,
+  "pledged": 13550,
   "state": "successful",
   "backers": 168,
   "country": "US"
@@ -18887,7 +18887,7 @@ dataJSON = [{
   "dl": "2014-10-23",
   "goal": 600,
   "laun": "2014-09-08 12:32:05",
-  "pled": 21,
+  "pledged": 21,
   "state": "failed",
   "backers": 2,
   "country": "GB"
@@ -18899,7 +18899,7 @@ dataJSON = [{
   "dl": "2015-12-07",
   "goal": 15000,
   "laun": "2015-11-02 17:12:03",
-  "pled": 565,
+  "pledged": 565,
   "state": "failed",
   "backers": 21,
   "country": "US"
@@ -18911,7 +18911,7 @@ dataJSON = [{
   "dl": "2015-03-05",
   "goal": 190,
   "laun": "2015-01-10 19:38:33",
-  "pled": 293,
+  "pledged": 293,
   "state": "successful",
   "backers": 14,
   "country": "US"
@@ -18923,7 +18923,7 @@ dataJSON = [{
   "dl": "2012-02-09",
   "goal": 4000,
   "laun": "2012-01-10 13:15:32",
-  "pled": 4350,
+  "pledged": 4350,
   "state": "successful",
   "backers": 49,
   "country": "US"
@@ -18935,7 +18935,7 @@ dataJSON = [{
   "dl": "2014-01-08",
   "goal": 11000,
   "laun": "2013-12-09 19:04:03",
-  "pled": 11922.43,
+  "pledged": 11922.43,
   "state": "successful",
   "backers": 203,
   "country": "US"
@@ -18947,7 +18947,7 @@ dataJSON = [{
   "dl": "2017-09-05",
   "goal": 40000,
   "laun": "2017-07-07 16:07:19",
-  "pled": 2,
+  "pledged": 2,
   "state": "failed",
   "backers": 2,
   "country": "GB"
@@ -18959,7 +18959,7 @@ dataJSON = [{
   "dl": "2016-08-15",
   "goal": 13500,
   "laun": "2016-07-16 22:33:06",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "DE"
@@ -18971,7 +18971,7 @@ dataJSON = [{
   "dl": "2014-04-10",
   "goal": 1000,
   "laun": "2014-03-10 22:18:48",
-  "pled": 316,
+  "pledged": 316,
   "state": "failed",
   "backers": 10,
   "country": "US"
@@ -18983,7 +18983,7 @@ dataJSON = [{
   "dl": "2014-06-15",
   "goal": 1200,
   "laun": "2014-04-17 02:02:04",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -18995,7 +18995,7 @@ dataJSON = [{
   "dl": "2014-08-07",
   "goal": 100,
   "laun": "2014-07-08 22:13:20",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -19007,7 +19007,7 @@ dataJSON = [{
   "dl": "2012-06-20",
   "goal": 2000,
   "laun": "2012-05-21 01:23:54",
-  "pled": 2393,
+  "pledged": 2393,
   "state": "successful",
   "backers": 57,
   "country": "US"
@@ -19019,7 +19019,7 @@ dataJSON = [{
   "dl": "2016-10-01",
   "goal": 3500,
   "laun": "2016-08-31 19:32:19",
-  "pled": 3778,
+  "pledged": 3778,
   "state": "successful",
   "backers": 76,
   "country": "US"
@@ -19031,7 +19031,7 @@ dataJSON = [{
   "dl": "2015-07-28",
   "goal": 10000,
   "laun": "2015-06-28 18:12:47",
-  "pled": 90,
+  "pledged": 90,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -19043,7 +19043,7 @@ dataJSON = [{
   "dl": "2010-10-28",
   "goal": 2000,
   "laun": "2010-09-13 20:24:17",
-  "pled": 2062,
+  "pledged": 2062,
   "state": "successful",
   "backers": 39,
   "country": "US"
@@ -19055,7 +19055,7 @@ dataJSON = [{
   "dl": "2017-08-09",
   "goal": 95000,
   "laun": "2017-06-26 21:53:38",
-  "pled": 22,
+  "pledged": 22,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -19067,7 +19067,7 @@ dataJSON = [{
   "dl": "2013-10-05",
   "goal": 5000,
   "laun": "2013-09-03 05:42:01",
-  "pled": 14146,
+  "pledged": 14146,
   "state": "successful",
   "backers": 468,
   "country": "US"
@@ -19079,7 +19079,7 @@ dataJSON = [{
   "dl": "2011-08-27",
   "goal": 700,
   "laun": "2011-06-28 01:13:05",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -19091,7 +19091,7 @@ dataJSON = [{
   "dl": "2015-12-01",
   "goal": 5000,
   "laun": "2015-11-10 22:53:21",
-  "pled": 92,
+  "pledged": 92,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -19103,7 +19103,7 @@ dataJSON = [{
   "dl": "2014-08-10",
   "goal": 100,
   "laun": "2014-07-11 18:45:02",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -19115,7 +19115,7 @@ dataJSON = [{
   "dl": "2011-10-11",
   "goal": 2500,
   "laun": "2011-09-11 03:45:35",
-  "pled": 2870,
+  "pledged": 2870,
   "state": "successful",
   "backers": 61,
   "country": "US"
@@ -19127,7 +19127,7 @@ dataJSON = [{
   "dl": "2015-05-27",
   "goal": 3000,
   "laun": "2015-04-27 18:04:54",
-  "pled": 806,
+  "pledged": 806,
   "state": "failed",
   "backers": 18,
   "country": "US"
@@ -19139,7 +19139,7 @@ dataJSON = [{
   "dl": "2013-02-22",
   "goal": 2000,
   "laun": "2013-01-23 22:55:59",
-  "pled": 2002,
+  "pledged": 2002,
   "state": "successful",
   "backers": 15,
   "country": "US"
@@ -19151,7 +19151,7 @@ dataJSON = [{
   "dl": "2015-12-23",
   "goal": 10000,
   "laun": "2015-11-23 02:11:07",
-  "pled": 2300,
+  "pledged": 2300,
   "state": "failed",
   "backers": 33,
   "country": "GB"
@@ -19163,7 +19163,7 @@ dataJSON = [{
   "dl": "2016-11-26",
   "goal": 3000,
   "laun": "2016-10-27 20:16:22",
-  "pled": 5128,
+  "pledged": 5128,
   "state": "successful",
   "backers": 117,
   "country": "US"
@@ -19175,7 +19175,7 @@ dataJSON = [{
   "dl": "2016-06-17",
   "goal": 8000,
   "laun": "2016-05-26 03:43:46",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -19187,7 +19187,7 @@ dataJSON = [{
   "dl": "2016-10-15",
   "goal": 15000,
   "laun": "2016-08-16 20:43:20",
-  "pled": 15744,
+  "pledged": 15744,
   "state": "successful",
   "backers": 82,
   "country": "US"
@@ -19199,7 +19199,7 @@ dataJSON = [{
   "dl": "2016-09-01",
   "goal": 1,
   "laun": "2016-07-23 23:19:17",
-  "pled": 1826,
+  "pledged": 1826,
   "state": "successful",
   "backers": 68,
   "country": "US"
@@ -19211,7 +19211,7 @@ dataJSON = [{
   "dl": "2015-10-24",
   "goal": 10000,
   "laun": "2015-08-25 09:26:49",
-  "pled": 12903,
+  "pledged": 12903,
   "state": "successful",
   "backers": 287,
   "country": "US"
@@ -19223,7 +19223,7 @@ dataJSON = [{
   "dl": "2016-01-30",
   "goal": 600,
   "laun": "2015-12-31 15:44:03",
-  "pled": 620,
+  "pledged": 620,
   "state": "successful",
   "backers": 12,
   "country": "US"
@@ -19235,7 +19235,7 @@ dataJSON = [{
   "dl": "2012-07-28",
   "goal": 2000,
   "laun": "2012-06-28 21:58:13",
-  "pled": 94,
+  "pledged": 94,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -19247,7 +19247,7 @@ dataJSON = [{
   "dl": "2013-06-16",
   "goal": 10000,
   "laun": "2013-05-17 15:56:58",
-  "pled": 4513,
+  "pledged": 4513,
   "state": "failed",
   "backers": 19,
   "country": "US"
@@ -19259,7 +19259,7 @@ dataJSON = [{
   "dl": "2013-12-16",
   "goal": 750,
   "laun": "2013-11-26 00:07:42",
-  "pled": 805,
+  "pledged": 805,
   "state": "successful",
   "backers": 18,
   "country": "US"
@@ -19271,7 +19271,7 @@ dataJSON = [{
   "dl": "2014-12-04",
   "goal": 55000,
   "laun": "2014-10-23 20:03:35",
-  "pled": 65050,
+  "pledged": 65050,
   "state": "successful",
   "backers": 180,
   "country": "SE"
@@ -19283,7 +19283,7 @@ dataJSON = [{
   "dl": "2016-07-23",
   "goal": 11500,
   "laun": "2016-06-08 19:23:28",
-  "pled": 1,
+  "pledged": 1,
   "state": "canceled",
   "backers": 1,
   "country": "US"
@@ -19295,7 +19295,7 @@ dataJSON = [{
   "dl": "2014-01-08",
   "goal": 5000,
   "laun": "2013-12-09 23:10:14",
-  "pled": 5352,
+  "pledged": 5352,
   "state": "successful",
   "backers": 96,
   "country": "US"
@@ -19307,7 +19307,7 @@ dataJSON = [{
   "dl": "2016-11-18",
   "goal": 10500,
   "laun": "2016-10-19 19:47:55",
-  "pled": 452,
+  "pledged": 452,
   "state": "failed",
   "backers": 4,
   "country": "GB"
@@ -19319,7 +19319,7 @@ dataJSON = [{
   "dl": "2013-11-19",
   "goal": 15000,
   "laun": "2013-09-20 22:24:58",
-  "pled": 16902.36,
+  "pledged": 16902.36,
   "state": "successful",
   "backers": 139,
   "country": "US"
@@ -19331,7 +19331,7 @@ dataJSON = [{
   "dl": "2013-07-11",
   "goal": 25000,
   "laun": "2013-06-11 23:00:28",
-  "pled": 25036,
+  "pledged": 25036,
   "state": "successful",
   "backers": 242,
   "country": "US"
@@ -19343,7 +19343,7 @@ dataJSON = [{
   "dl": "2015-04-10",
   "goal": 1300,
   "laun": "2015-02-09 21:45:37",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "NL"
@@ -19355,7 +19355,7 @@ dataJSON = [{
   "dl": "2014-08-04",
   "goal": 3000,
   "laun": "2014-06-30 21:22:06",
-  "pled": 922.11,
+  "pledged": 922.11,
   "state": "failed",
   "backers": 32,
   "country": "CA"
@@ -19367,7 +19367,7 @@ dataJSON = [{
   "dl": "2015-02-27",
   "goal": 60,
   "laun": "2015-01-28 22:26:56",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -19379,7 +19379,7 @@ dataJSON = [{
   "dl": "2011-09-06",
   "goal": 400,
   "laun": "2011-08-06 15:36:39",
-  "pled": 61,
+  "pledged": 61,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -19391,7 +19391,7 @@ dataJSON = [{
   "dl": "2012-04-01",
   "goal": 8000,
   "laun": "2012-02-28 10:56:44",
-  "pled": 9575,
+  "pledged": 9575,
   "state": "successful",
   "backers": 95,
   "country": "US"
@@ -19403,7 +19403,7 @@ dataJSON = [{
   "dl": "2014-06-02",
   "goal": 600,
   "laun": "2014-05-13 18:58:38",
-  "pled": 1211,
+  "pledged": 1211,
   "state": "successful",
   "backers": 66,
   "country": "US"
@@ -19415,7 +19415,7 @@ dataJSON = [{
   "dl": "2016-06-09",
   "goal": 5000,
   "laun": "2016-05-10 17:55:28",
-  "pled": 10348,
+  "pledged": 10348,
   "state": "successful",
   "backers": 112,
   "country": "US"
@@ -19427,7 +19427,7 @@ dataJSON = [{
   "dl": "2012-09-26",
   "goal": 5000,
   "laun": "2012-08-27 21:43:18",
-  "pled": 5396,
+  "pledged": 5396,
   "state": "successful",
   "backers": 60,
   "country": "US"
@@ -19439,7 +19439,7 @@ dataJSON = [{
   "dl": "2015-07-22",
   "goal": 20000,
   "laun": "2015-06-22 18:39:33",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -19451,7 +19451,7 @@ dataJSON = [{
   "dl": "2013-11-10",
   "goal": 5000,
   "laun": "2013-10-11 21:28:53",
-  "pled": 21,
+  "pledged": 21,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -19463,7 +19463,7 @@ dataJSON = [{
   "dl": "2017-10-11",
   "goal": 20000,
   "laun": "2017-09-11 22:45:26",
-  "pled": 5,
+  "pledged": 5,
   "state": "canceled",
   "backers": 1,
   "country": "CA"
@@ -19475,7 +19475,7 @@ dataJSON = [{
   "dl": "2015-03-22",
   "goal": 4500,
   "laun": "2015-02-20 02:58:42",
-  "pled": 5156,
+  "pledged": 5156,
   "state": "successful",
   "backers": 84,
   "country": "US"
@@ -19487,7 +19487,7 @@ dataJSON = [{
   "dl": "2015-07-10",
   "goal": 2000,
   "laun": "2015-06-16 02:50:12",
-  "pled": 2155,
+  "pledged": 2155,
   "state": "successful",
   "backers": 19,
   "country": "US"
@@ -19499,7 +19499,7 @@ dataJSON = [{
   "dl": "2013-01-01",
   "goal": 13000,
   "laun": "2012-11-02 18:23:40",
-  "pled": 18848.46,
+  "pledged": 18848.46,
   "state": "successful",
   "backers": 524,
   "country": "GB"
@@ -19511,7 +19511,7 @@ dataJSON = [{
   "dl": "2016-12-01",
   "goal": 17500,
   "laun": "2016-10-18 18:00:58",
-  "pled": 19870,
+  "pledged": 19870,
   "state": "successful",
   "backers": 383,
   "country": "US"
@@ -19523,7 +19523,7 @@ dataJSON = [{
   "dl": "2017-03-25",
   "goal": 20000,
   "laun": "2017-02-06 13:07:42",
-  "pled": 26300,
+  "pledged": 26300,
   "state": "successful",
   "backers": 138,
   "country": "US"
@@ -19535,7 +19535,7 @@ dataJSON = [{
   "dl": "2012-10-18",
   "goal": 7500,
   "laun": "2012-09-18 07:13:13",
-  "pled": 1159,
+  "pledged": 1159,
   "state": "failed",
   "backers": 22,
   "country": "US"
@@ -19547,7 +19547,7 @@ dataJSON = [{
   "dl": "2011-06-28",
   "goal": 12000,
   "laun": "2011-04-29 22:12:22",
-  "pled": 1135,
+  "pledged": 1135,
   "state": "failed",
   "backers": 17,
   "country": "US"
@@ -19559,7 +19559,7 @@ dataJSON = [{
   "dl": "2015-06-17",
   "goal": 25000,
   "laun": "2015-05-18 04:45:02",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -19571,7 +19571,7 @@ dataJSON = [{
   "dl": "2017-10-21",
   "goal": 25000,
   "laun": "2017-09-21 08:50:38",
-  "pled": 7038,
+  "pledged": 7038,
   "state": "failed",
   "backers": 146,
   "country": "IT"
@@ -19583,7 +19583,7 @@ dataJSON = [{
   "dl": "2012-12-10",
   "goal": 6900,
   "laun": "2012-11-10 19:48:13",
-  "pled": 7030,
+  "pledged": 7030,
   "state": "successful",
   "backers": 39,
   "country": "US"
@@ -19595,7 +19595,7 @@ dataJSON = [{
   "dl": "2012-07-18",
   "goal": 5000,
   "laun": "2012-06-27 02:17:55",
-  "pled": 15,
+  "pledged": 15,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -19607,7 +19607,7 @@ dataJSON = [{
   "dl": "2014-12-14",
   "goal": 75000,
   "laun": "2014-10-15 03:01:02",
-  "pled": 5,
+  "pledged": 5,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -19619,7 +19619,7 @@ dataJSON = [{
   "dl": "2014-09-26",
   "goal": 10,
   "laun": "2014-08-27 04:41:53",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "CA"
@@ -19631,7 +19631,7 @@ dataJSON = [{
   "dl": "2016-07-25",
   "goal": 500,
   "laun": "2016-07-04 18:33:19",
-  "pled": 1107,
+  "pledged": 1107,
   "state": "successful",
   "backers": 32,
   "country": "US"
@@ -19643,7 +19643,7 @@ dataJSON = [{
   "dl": "2014-06-26",
   "goal": 65000,
   "laun": "2014-05-27 21:41:37",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -19655,7 +19655,7 @@ dataJSON = [{
   "dl": "2012-05-09",
   "goal": 2500,
   "laun": "2012-04-09 23:23:11",
-  "pled": 2775,
+  "pledged": 2775,
   "state": "successful",
   "backers": 39,
   "country": "US"
@@ -19667,7 +19667,7 @@ dataJSON = [{
   "dl": "2011-08-21",
   "goal": 5000,
   "laun": "2011-06-24 04:09:19",
-  "pled": 135,
+  "pledged": 135,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -19679,7 +19679,7 @@ dataJSON = [{
   "dl": "2015-12-26",
   "goal": 5000,
   "laun": "2015-11-26 10:08:27",
-  "pled": 80,
+  "pledged": 80,
   "state": "failed",
   "backers": 5,
   "country": "GB"
@@ -19691,7 +19691,7 @@ dataJSON = [{
   "dl": "2013-03-10",
   "goal": 6000,
   "laun": "2013-02-03 00:42:17",
-  "pled": 6400.47,
+  "pledged": 6400.47,
   "state": "successful",
   "backers": 107,
   "country": "US"
@@ -19703,7 +19703,7 @@ dataJSON = [{
   "dl": "2017-08-31",
   "goal": 8000,
   "laun": "2017-07-02 17:55:05",
-  "pled": 1251,
+  "pledged": 1251,
   "state": "failed",
   "backers": 12,
   "country": "AU"
@@ -19715,7 +19715,7 @@ dataJSON = [{
   "dl": "2015-03-23",
   "goal": 2300,
   "laun": "2015-03-08 19:49:48",
-  "pled": 3262,
+  "pledged": 3262,
   "state": "successful",
   "backers": 66,
   "country": "US"
@@ -19727,7 +19727,7 @@ dataJSON = [{
   "dl": "2015-01-09",
   "goal": 12000,
   "laun": "2014-11-25 16:18:40",
-  "pled": 14535,
+  "pledged": 14535,
   "state": "successful",
   "backers": 130,
   "country": "CA"
@@ -19739,7 +19739,7 @@ dataJSON = [{
   "dl": "2017-06-04",
   "goal": 7600,
   "laun": "2017-04-20 13:12:05",
-  "pled": 422,
+  "pledged": 422,
   "state": "failed",
   "backers": 5,
   "country": "AU"
@@ -19751,7 +19751,7 @@ dataJSON = [{
   "dl": "2012-06-13",
   "goal": 2500,
   "laun": "2012-05-14 15:07:22",
-  "pled": 4210,
+  "pledged": 4210,
   "state": "successful",
   "backers": 47,
   "country": "US"
@@ -19763,7 +19763,7 @@ dataJSON = [{
   "dl": "2017-12-06",
   "goal": 5000,
   "laun": "2017-11-06 16:23:08",
-  "pled": 77,
+  "pledged": 77,
   "state": "failed",
   "backers": 4,
   "country": "CA"
@@ -19775,7 +19775,7 @@ dataJSON = [{
   "dl": "2012-11-22",
   "goal": 10000,
   "laun": "2012-11-01 09:09:12",
-  "pled": 10100,
+  "pledged": 10100,
   "state": "successful",
   "backers": 57,
   "country": "US"
@@ -19787,7 +19787,7 @@ dataJSON = [{
   "dl": "2013-05-09",
   "goal": 2000,
   "laun": "2013-04-11 01:45:21",
-  "pled": 2452.66,
+  "pledged": 2452.66,
   "state": "successful",
   "backers": 33,
   "country": "US"
@@ -19799,7 +19799,7 @@ dataJSON = [{
   "dl": "2014-04-02",
   "goal": 8000,
   "laun": "2014-02-01 06:02:40",
-  "pled": 1784.36,
+  "pledged": 1784.36,
   "state": "failed",
   "backers": 29,
   "country": "US"
@@ -19811,7 +19811,7 @@ dataJSON = [{
   "dl": "2015-01-08",
   "goal": 75000,
   "laun": "2014-12-04 22:24:30",
-  "pled": 8522,
+  "pledged": 8522,
   "state": "canceled",
   "backers": 30,
   "country": "AU"
@@ -19823,7 +19823,7 @@ dataJSON = [{
   "dl": "2014-02-24",
   "goal": 20000,
   "laun": "2014-01-23 06:22:08",
-  "pled": 27858.01,
+  "pledged": 27858.01,
   "state": "successful",
   "backers": 207,
   "country": "US"
@@ -19835,7 +19835,7 @@ dataJSON = [{
   "dl": "2018-01-01",
   "goal": 15000,
   "laun": "2017-11-15 00:16:40",
-  "pled": 15427,
+  "pledged": 15427,
   "state": "successful",
   "backers": 187,
   "country": "US"
@@ -19847,7 +19847,7 @@ dataJSON = [{
   "dl": "2016-11-07",
   "goal": 650,
   "laun": "2016-10-08 05:29:08",
-  "pled": 51,
+  "pledged": 51,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -19859,7 +19859,7 @@ dataJSON = [{
   "dl": "2016-06-14",
   "goal": 5000,
   "laun": "2016-04-15 14:16:07",
-  "pled": 700,
+  "pledged": 700,
   "state": "failed",
   "backers": 8,
   "country": "US"
@@ -19871,7 +19871,7 @@ dataJSON = [{
   "dl": "2014-06-11",
   "goal": 3000,
   "laun": "2014-05-12 04:58:38",
-  "pled": 3011,
+  "pledged": 3011,
   "state": "successful",
   "backers": 38,
   "country": "US"
@@ -19883,7 +19883,7 @@ dataJSON = [{
   "dl": "2014-12-25",
   "goal": 50000,
   "laun": "2014-11-25 18:44:57",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "GB"
@@ -19895,7 +19895,7 @@ dataJSON = [{
   "dl": "2014-08-08",
   "goal": 3500,
   "laun": "2014-07-09 16:55:26",
-  "pled": 1086,
+  "pledged": 1086,
   "state": "failed",
   "backers": 25,
   "country": "US"
@@ -19907,7 +19907,7 @@ dataJSON = [{
   "dl": "2015-04-28",
   "goal": 700,
   "laun": "2015-03-29 14:32:36",
-  "pled": 771,
+  "pledged": 771,
   "state": "successful",
   "backers": 33,
   "country": "GB"
@@ -19919,7 +19919,7 @@ dataJSON = [{
   "dl": "2016-09-25",
   "goal": 2500,
   "laun": "2016-08-26 02:59:36",
-  "pled": 302,
+  "pledged": 302,
   "state": "failed",
   "backers": 8,
   "country": "US"
@@ -19931,7 +19931,7 @@ dataJSON = [{
   "dl": "2014-12-16",
   "goal": 2000,
   "laun": "2014-11-16 23:21:28",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -19943,7 +19943,7 @@ dataJSON = [{
   "dl": "2015-09-18",
   "goal": 1500,
   "laun": "2015-08-19 17:25:51",
-  "pled": 1588,
+  "pledged": 1588,
   "state": "successful",
   "backers": 87,
   "country": "GB"
@@ -19955,7 +19955,7 @@ dataJSON = [{
   "dl": "2015-04-17",
   "goal": 6000,
   "laun": "2015-03-18 02:02:37",
-  "pled": 6160,
+  "pledged": 6160,
   "state": "successful",
   "backers": 53,
   "country": "CA"
@@ -19967,7 +19967,7 @@ dataJSON = [{
   "dl": "2013-04-17",
   "goal": 35000,
   "laun": "2013-03-18 15:00:31",
-  "pled": 179,
+  "pledged": 179,
   "state": "failed",
   "backers": 10,
   "country": "US"
@@ -19979,7 +19979,7 @@ dataJSON = [{
   "dl": "2013-01-14",
   "goal": 4000,
   "laun": "2012-12-06 00:34:03",
-  "pled": 272,
+  "pledged": 272,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -19991,7 +19991,7 @@ dataJSON = [{
   "dl": "2012-01-07",
   "goal": 20000,
   "laun": "2011-12-08 17:05:05",
-  "pled": 10400,
+  "pledged": 10400,
   "state": "failed",
   "backers": 106,
   "country": "US"
@@ -20003,7 +20003,7 @@ dataJSON = [{
   "dl": "2015-07-26",
   "goal": 999,
   "laun": "2015-07-01 19:47:29",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -20015,7 +20015,7 @@ dataJSON = [{
   "dl": "2014-11-02",
   "goal": 15000,
   "laun": "2014-10-03 23:02:11",
-  "pled": 3240,
+  "pledged": 3240,
   "state": "failed",
   "backers": 75,
   "country": "US"
@@ -20027,7 +20027,7 @@ dataJSON = [{
   "dl": "2012-11-11",
   "goal": 8000,
   "laun": "2012-10-12 19:20:56",
-  "pled": 8350.8,
+  "pledged": 8350.8,
   "state": "successful",
   "backers": 111,
   "country": "US"
@@ -20039,7 +20039,7 @@ dataJSON = [{
   "dl": "2014-05-21",
   "goal": 3750,
   "laun": "2014-04-21 19:35:44",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -20051,7 +20051,7 @@ dataJSON = [{
   "dl": "2017-11-13",
   "goal": 330,
   "laun": "2017-10-14 04:56:34",
-  "pled": 330,
+  "pledged": 330,
   "state": "successful",
   "backers": 6,
   "country": "SG"
@@ -20063,7 +20063,7 @@ dataJSON = [{
   "dl": "2016-05-20",
   "goal": 25000,
   "laun": "2016-04-20 20:28:25",
-  "pled": 57,
+  "pledged": 57,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -20075,7 +20075,7 @@ dataJSON = [{
   "dl": "2011-08-18",
   "goal": 1500,
   "laun": "2011-07-19 16:58:12",
-  "pled": 1821,
+  "pledged": 1821,
   "state": "successful",
   "backers": 72,
   "country": "US"
@@ -20087,7 +20087,7 @@ dataJSON = [{
   "dl": "2017-06-21",
   "goal": 25000,
   "laun": "2017-05-22 18:24:38",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -20099,7 +20099,7 @@ dataJSON = [{
   "dl": "2012-06-01",
   "goal": 6000,
   "laun": "2012-04-26 02:18:48",
-  "pled": 6099,
+  "pledged": 6099,
   "state": "successful",
   "backers": 57,
   "country": "US"
@@ -20111,7 +20111,7 @@ dataJSON = [{
   "dl": "2011-05-14",
   "goal": 2000,
   "laun": "2011-04-14 00:16:03",
-  "pled": 2580,
+  "pledged": 2580,
   "state": "successful",
   "backers": 36,
   "country": "US"
@@ -20123,7 +20123,7 @@ dataJSON = [{
   "dl": "2017-07-05",
   "goal": 5000,
   "laun": "2017-06-05 02:50:49",
-  "pled": 5325,
+  "pledged": 5325,
   "state": "successful",
   "backers": 59,
   "country": "US"
@@ -20135,7 +20135,7 @@ dataJSON = [{
   "dl": "2013-11-25",
   "goal": 9000,
   "laun": "2013-10-26 01:54:00",
-  "pled": 2121.22,
+  "pledged": 2121.22,
   "state": "failed",
   "backers": 21,
   "country": "US"
@@ -20147,7 +20147,7 @@ dataJSON = [{
   "dl": "2014-08-19",
   "goal": 25000,
   "laun": "2014-07-20 22:41:52",
-  "pled": 106,
+  "pledged": 106,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -20159,7 +20159,7 @@ dataJSON = [{
   "dl": "2012-09-01",
   "goal": 3000,
   "laun": "2012-08-02 22:47:41",
-  "pled": 300,
+  "pledged": 300,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -20171,7 +20171,7 @@ dataJSON = [{
   "dl": "2017-05-22",
   "goal": 15000,
   "laun": "2017-05-02 06:08:44",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -20183,7 +20183,7 @@ dataJSON = [{
   "dl": "2011-07-14",
   "goal": 8000,
   "laun": "2011-06-14 01:25:02",
-  "pled": 245,
+  "pledged": 245,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -20195,7 +20195,7 @@ dataJSON = [{
   "dl": "2013-06-28",
   "goal": 3000,
   "laun": "2013-05-29 01:00:11",
-  "pled": 3700.69,
+  "pledged": 3700.69,
   "state": "successful",
   "backers": 84,
   "country": "US"
@@ -20207,7 +20207,7 @@ dataJSON = [{
   "dl": "2014-03-27",
   "goal": 10000,
   "laun": "2014-02-10 18:31:28",
-  "pled": 895,
+  "pledged": 895,
   "state": "failed",
   "backers": 26,
   "country": "US"
@@ -20219,7 +20219,7 @@ dataJSON = [{
   "dl": "2016-10-10",
   "goal": 100000,
   "laun": "2016-08-11 18:46:50",
-  "pled": 12,
+  "pledged": 12,
   "state": "failed",
   "backers": 3,
   "country": "CA"
@@ -20231,7 +20231,7 @@ dataJSON = [{
   "dl": "2012-09-15",
   "goal": 16500,
   "laun": "2012-08-16 23:51:39",
-  "pled": 29382.99,
+  "pledged": 29382.99,
   "state": "successful",
   "backers": 529,
   "country": "US"
@@ -20243,7 +20243,7 @@ dataJSON = [{
   "dl": "2016-01-04",
   "goal": 10000,
   "laun": "2015-11-05 10:52:07",
-  "pled": 50,
+  "pledged": 50,
   "state": "canceled",
   "backers": 2,
   "country": "GB"
@@ -20255,7 +20255,7 @@ dataJSON = [{
   "dl": "2015-02-07",
   "goal": 50000,
   "laun": "2015-01-08 21:21:05",
-  "pled": 25,
+  "pledged": 25,
   "state": "suspended",
   "backers": 1,
   "country": "US"
@@ -20267,7 +20267,7 @@ dataJSON = [{
   "dl": "2017-04-21",
   "goal": 10000,
   "laun": "2017-03-22 12:50:29",
-  "pled": 2659,
+  "pledged": 2659,
   "state": "failed",
   "backers": 64,
   "country": "GB"
@@ -20279,7 +20279,7 @@ dataJSON = [{
   "dl": "2015-11-22",
   "goal": 8000,
   "laun": "2015-10-24 01:41:47",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -20291,7 +20291,7 @@ dataJSON = [{
   "dl": "2015-03-06",
   "goal": 6000,
   "laun": "2015-02-02 22:27:45",
-  "pled": 6095,
+  "pledged": 6095,
   "state": "successful",
   "backers": 86,
   "country": "US"
@@ -20303,7 +20303,7 @@ dataJSON = [{
   "dl": "2015-02-27",
   "goal": 4500,
   "laun": "2015-01-29 19:03:27",
-  "pled": 7570,
+  "pledged": 7570,
   "state": "successful",
   "backers": 221,
   "country": "US"
@@ -20315,7 +20315,7 @@ dataJSON = [{
   "dl": "2015-08-01",
   "goal": 700,
   "laun": "2015-06-28 08:21:19",
-  "pled": 86.73,
+  "pledged": 86.73,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -20327,7 +20327,7 @@ dataJSON = [{
   "dl": "2015-06-04",
   "goal": 60000,
   "laun": "2015-04-13 15:55:28",
-  "pled": 1470,
+  "pledged": 1470,
   "state": "failed",
   "backers": 14,
   "country": "US"
@@ -20339,7 +20339,7 @@ dataJSON = [{
   "dl": "2011-03-17",
   "goal": 15000,
   "laun": "2011-01-31 09:12:07",
-  "pled": 18065,
+  "pledged": 18065,
   "state": "successful",
   "backers": 146,
   "country": "US"
@@ -20351,7 +20351,7 @@ dataJSON = [{
   "dl": "2011-07-03",
   "goal": 3400,
   "laun": "2011-06-03 23:52:49",
-  "pled": 4850,
+  "pledged": 4850,
   "state": "successful",
   "backers": 34,
   "country": "US"
@@ -20363,7 +20363,7 @@ dataJSON = [{
   "dl": "2012-08-18",
   "goal": 70000,
   "laun": "2012-07-19 22:48:03",
-  "pled": 31063,
+  "pledged": 31063,
   "state": "canceled",
   "backers": 101,
   "country": "US"
@@ -20375,7 +20375,7 @@ dataJSON = [{
   "dl": "2015-02-12",
   "goal": 600,
   "laun": "2015-01-13 02:31:07",
-  "pled": 2004.31,
+  "pledged": 2004.31,
   "state": "successful",
   "backers": 143,
   "country": "US"
@@ -20387,7 +20387,7 @@ dataJSON = [{
   "dl": "2016-03-09",
   "goal": 3000,
   "laun": "2016-02-08 07:06:19",
-  "pled": 3415,
+  "pledged": 3415,
   "state": "successful",
   "backers": 121,
   "country": "US"
@@ -20399,7 +20399,7 @@ dataJSON = [{
   "dl": "2010-11-30",
   "goal": 6000,
   "laun": "2010-09-16 23:55:45",
-  "pled": 417,
+  "pledged": 417,
   "state": "failed",
   "backers": 7,
   "country": "US"
@@ -20411,7 +20411,7 @@ dataJSON = [{
   "dl": "2014-05-21",
   "goal": 3000,
   "laun": "2014-04-30 01:24:23",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -20423,7 +20423,7 @@ dataJSON = [{
   "dl": "2015-07-03",
   "goal": 500,
   "laun": "2015-06-23 05:20:56",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -20435,7 +20435,7 @@ dataJSON = [{
   "dl": "2013-11-16",
   "goal": 6500,
   "laun": "2013-10-16 02:27:48",
-  "pled": 10170,
+  "pledged": 10170,
   "state": "successful",
   "backers": 169,
   "country": "US"
@@ -20447,7 +20447,7 @@ dataJSON = [{
   "dl": "2017-04-28",
   "goal": 20000,
   "laun": "2017-03-29 02:18:48",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "CA"
@@ -20459,7 +20459,7 @@ dataJSON = [{
   "dl": "2015-11-15",
   "goal": 4500,
   "laun": "2015-10-16 20:31:52",
-  "pled": 342,
+  "pledged": 342,
   "state": "failed",
   "backers": 10,
   "country": "US"
@@ -20471,7 +20471,7 @@ dataJSON = [{
   "dl": "2012-08-07",
   "goal": 350,
   "laun": "2012-07-30 23:11:21",
-  "pled": 545,
+  "pledged": 545,
   "state": "successful",
   "backers": 19,
   "country": "US"
@@ -20483,7 +20483,7 @@ dataJSON = [{
   "dl": "2017-04-21",
   "goal": 30000,
   "laun": "2017-02-20 01:38:04",
-  "pled": 30030,
+  "pledged": 30030,
   "state": "successful",
   "backers": 18,
   "country": "MX"
@@ -20495,7 +20495,7 @@ dataJSON = [{
   "dl": "2011-07-28",
   "goal": 20000,
   "laun": "2011-06-13 17:33:47",
-  "pled": 21180,
+  "pledged": 21180,
   "state": "successful",
   "backers": 142,
   "country": "US"
@@ -20507,7 +20507,7 @@ dataJSON = [{
   "dl": "2010-09-02",
   "goal": 3000,
   "laun": "2010-07-26 19:18:35",
-  "pled": 4836.12,
+  "pledged": 4836.12,
   "state": "successful",
   "backers": 21,
   "country": "US"
@@ -20519,7 +20519,7 @@ dataJSON = [{
   "dl": "2017-03-12",
   "goal": 4000,
   "laun": "2017-02-10 15:53:11",
-  "pled": 4727,
+  "pledged": 4727,
   "state": "successful",
   "backers": 115,
   "country": "US"
@@ -20531,7 +20531,7 @@ dataJSON = [{
   "dl": "2017-01-23",
   "goal": 8500,
   "laun": "2016-12-16 23:28:33",
-  "pled": 10028,
+  "pledged": 10028,
   "state": "successful",
   "backers": 84,
   "country": "US"
@@ -20543,7 +20543,7 @@ dataJSON = [{
   "dl": "2017-03-02",
   "goal": 5000,
   "laun": "2017-01-16 22:45:55",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -20555,7 +20555,7 @@ dataJSON = [{
   "dl": "2017-05-24",
   "goal": 2000,
   "laun": "2017-04-19 09:51:03",
-  "pled": 2349,
+  "pledged": 2349,
   "state": "successful",
   "backers": 71,
   "country": "AU"
@@ -20567,7 +20567,7 @@ dataJSON = [{
   "dl": "2013-08-16",
   "goal": 35000,
   "laun": "2013-08-01 18:43:31",
-  "pled": 151,
+  "pledged": 151,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -20579,7 +20579,7 @@ dataJSON = [{
   "dl": "2016-05-22",
   "goal": 10000,
   "laun": "2016-04-22 00:07:38",
-  "pled": 25,
+  "pledged": 25,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -20591,7 +20591,7 @@ dataJSON = [{
   "dl": "2012-05-15",
   "goal": 6000,
   "laun": "2012-04-05 05:00:05",
-  "pled": 6000,
+  "pledged": 6000,
   "state": "successful",
   "backers": 35,
   "country": "US"
@@ -20603,7 +20603,7 @@ dataJSON = [{
   "dl": "2016-04-23",
   "goal": 900,
   "laun": "2016-04-03 21:11:11",
-  "pled": 1050,
+  "pledged": 1050,
   "state": "successful",
   "backers": 31,
   "country": "GB"
@@ -20615,7 +20615,7 @@ dataJSON = [{
   "dl": "2012-04-25",
   "goal": 2000,
   "laun": "2012-03-25 04:12:31",
-  "pled": 2310,
+  "pledged": 2310,
   "state": "successful",
   "backers": 46,
   "country": "US"
@@ -20627,7 +20627,7 @@ dataJSON = [{
   "dl": "2012-12-27",
   "goal": 5000,
   "laun": "2012-11-12 22:50:13",
-  "pled": 1780,
+  "pledged": 1780,
   "state": "failed",
   "backers": 36,
   "country": "US"
@@ -20639,7 +20639,7 @@ dataJSON = [{
   "dl": "2016-01-09",
   "goal": 9980,
   "laun": "2015-12-10 17:31:27",
-  "pled": 500,
+  "pledged": 500,
   "state": "failed",
   "backers": 1,
   "country": "CA"
@@ -20651,7 +20651,7 @@ dataJSON = [{
   "dl": "2015-07-04",
   "goal": 135000,
   "laun": "2015-06-04 18:18:00",
-  "pled": 14115,
+  "pledged": 14115,
   "state": "failed",
   "backers": 12,
   "country": "DK"
@@ -20663,7 +20663,7 @@ dataJSON = [{
   "dl": "2015-02-09",
   "goal": 2000,
   "laun": "2015-01-15 01:18:11",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "CA"
@@ -20675,7 +20675,7 @@ dataJSON = [{
   "dl": "2017-05-26",
   "goal": 2500,
   "laun": "2017-04-26 10:00:47",
-  "pled": 3314,
+  "pledged": 3314,
   "state": "successful",
   "backers": 88,
   "country": "FR"
@@ -20687,7 +20687,7 @@ dataJSON = [{
   "dl": "2015-04-12",
   "goal": 10000,
   "laun": "2015-03-13 20:42:38",
-  "pled": 2389,
+  "pledged": 2389,
   "state": "failed",
   "backers": 22,
   "country": "US"
@@ -20699,7 +20699,7 @@ dataJSON = [{
   "dl": "2016-06-10",
   "goal": 25000,
   "laun": "2016-05-11 17:03:10",
-  "pled": 3999,
+  "pledged": 3999,
   "state": "canceled",
   "backers": 45,
   "country": "US"
@@ -20711,7 +20711,7 @@ dataJSON = [{
   "dl": "2014-07-31",
   "goal": 2500,
   "laun": "2014-07-01 00:32:43",
-  "pled": 2,
+  "pledged": 2,
   "state": "failed",
   "backers": 2,
   "country": "GB"
@@ -20723,7 +20723,7 @@ dataJSON = [{
   "dl": "2012-02-19",
   "goal": 6000,
   "laun": "2012-01-20 21:53:44",
-  "pled": 6065,
+  "pledged": 6065,
   "state": "successful",
   "backers": 103,
   "country": "US"
@@ -20735,7 +20735,7 @@ dataJSON = [{
   "dl": "2015-06-06",
   "goal": 150000,
   "laun": "2015-05-04 18:51:28",
-  "pled": 257080.63,
+  "pledged": 257080.63,
   "state": "successful",
   "backers": 3419,
   "country": "US"
@@ -20747,7 +20747,7 @@ dataJSON = [{
   "dl": "2015-04-24",
   "goal": 20000,
   "laun": "2015-03-21 19:13:05",
-  "pled": 2590,
+  "pledged": 2590,
   "state": "failed",
   "backers": 23,
   "country": "US"
@@ -20759,7 +20759,7 @@ dataJSON = [{
   "dl": "2013-03-07",
   "goal": 7475,
   "laun": "2013-02-05 01:44:14",
-  "pled": 15,
+  "pledged": 15,
   "state": "canceled",
   "backers": 2,
   "country": "US"
@@ -20771,7 +20771,7 @@ dataJSON = [{
   "dl": "2012-06-10",
   "goal": 5000,
   "laun": "2012-05-17 23:23:06",
-  "pled": 400,
+  "pledged": 400,
   "state": "failed",
   "backers": 9,
   "country": "US"
@@ -20783,7 +20783,7 @@ dataJSON = [{
   "dl": "2015-07-01",
   "goal": 15000,
   "laun": "2015-06-01 03:23:14",
-  "pled": 17170,
+  "pledged": 17170,
   "state": "successful",
   "backers": 508,
   "country": "AU"
@@ -20795,7 +20795,7 @@ dataJSON = [{
   "dl": "2015-12-15",
   "goal": 15,
   "laun": "2015-10-16 21:34:36",
-  "pled": 31,
+  "pledged": 31,
   "state": "successful",
   "backers": 4,
   "country": "US"
@@ -20807,7 +20807,7 @@ dataJSON = [{
   "dl": "2016-10-01",
   "goal": 150000,
   "laun": "2016-08-02 15:35:57",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -20819,7 +20819,7 @@ dataJSON = [{
   "dl": "2017-11-23",
   "goal": 950,
   "laun": "2017-11-03 20:07:03",
-  "pled": 1600,
+  "pledged": 1600,
   "state": "successful",
   "backers": 53,
   "country": "US"
@@ -20831,7 +20831,7 @@ dataJSON = [{
   "dl": "2015-06-28",
   "goal": 1000,
   "laun": "2015-06-05 02:27:53",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -20843,7 +20843,7 @@ dataJSON = [{
   "dl": "2015-04-30",
   "goal": 50000,
   "laun": "2015-03-31 22:24:10",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -20855,7 +20855,7 @@ dataJSON = [{
   "dl": "2017-08-25",
   "goal": 15000,
   "laun": "2017-07-26 10:47:09",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "GB"
@@ -20867,7 +20867,7 @@ dataJSON = [{
   "dl": "2012-10-08",
   "goal": 3000,
   "laun": "2012-08-24 23:58:28",
-  "pled": 25,
+  "pledged": 25,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -20879,7 +20879,7 @@ dataJSON = [{
   "dl": "2011-09-23",
   "goal": 15000,
   "laun": "2011-08-09 16:20:07",
-  "pled": 15560,
+  "pledged": 15560,
   "state": "successful",
   "backers": 112,
   "country": "US"
@@ -20891,7 +20891,7 @@ dataJSON = [{
   "dl": "2016-10-16",
   "goal": 2000,
   "laun": "2016-09-16 17:07:11",
-  "pled": 12,
+  "pledged": 12,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -20903,7 +20903,7 @@ dataJSON = [{
   "dl": "2014-08-27",
   "goal": 1000,
   "laun": "2014-08-12 23:00:17",
-  "pled": 245,
+  "pledged": 245,
   "state": "failed",
   "backers": 7,
   "country": "US"
@@ -20915,7 +20915,7 @@ dataJSON = [{
   "dl": "2012-12-19",
   "goal": 200000,
   "laun": "2012-11-09 00:42:30",
-  "pled": 54168,
+  "pledged": 54168,
   "state": "failed",
   "backers": 180,
   "country": "US"
@@ -20927,7 +20927,7 @@ dataJSON = [{
   "dl": "2014-12-08",
   "goal": 50000,
   "laun": "2014-10-24 02:38:42",
-  "pled": 85,
+  "pledged": 85,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -20939,7 +20939,7 @@ dataJSON = [{
   "dl": "2017-12-03",
   "goal": 500,
   "laun": "2017-11-03 03:11:54",
-  "pled": 25,
+  "pledged": 25,
   "state": "canceled",
   "backers": 4,
   "country": "US"
@@ -20951,7 +20951,7 @@ dataJSON = [{
   "dl": "2015-10-25",
   "goal": 3000,
   "laun": "2015-09-25 01:04:18",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -20963,7 +20963,7 @@ dataJSON = [{
   "dl": "2016-06-12",
   "goal": 200,
   "laun": "2016-05-05 05:06:48",
-  "pled": 1024,
+  "pledged": 1024,
   "state": "successful",
   "backers": 40,
   "country": "US"
@@ -20975,7 +20975,7 @@ dataJSON = [{
   "dl": "2017-07-15",
   "goal": 26000,
   "laun": "2017-06-20 18:50:33",
-  "pled": 28350,
+  "pledged": 28350,
   "state": "successful",
   "backers": 49,
   "country": "MX"
@@ -20987,7 +20987,7 @@ dataJSON = [{
   "dl": "2016-06-06",
   "goal": 16000,
   "laun": "2016-04-07 18:54:56",
-  "pled": 2,
+  "pledged": 2,
   "state": "failed",
   "backers": 1,
   "country": "GB"
@@ -20999,7 +20999,7 @@ dataJSON = [{
   "dl": "2015-10-29",
   "goal": 60000,
   "laun": "2015-09-29 05:41:10",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "AU"
@@ -21011,7 +21011,7 @@ dataJSON = [{
   "dl": "2014-10-05",
   "goal": 500,
   "laun": "2014-08-26 00:25:32",
-  "pled": 1998,
+  "pledged": 1998,
   "state": "successful",
   "backers": 52,
   "country": "US"
@@ -21023,7 +21023,7 @@ dataJSON = [{
   "dl": "2015-12-29",
   "goal": 500,
   "laun": "2015-12-09 03:40:29",
-  "pled": 24,
+  "pledged": 24,
   "state": "failed",
   "backers": 13,
   "country": "CA"
@@ -21035,7 +21035,7 @@ dataJSON = [{
   "dl": "2014-12-14",
   "goal": 1200,
   "laun": "2014-11-14 23:48:13",
-  "pled": 486,
+  "pledged": 486,
   "state": "failed",
   "backers": 15,
   "country": "CA"
@@ -21047,7 +21047,7 @@ dataJSON = [{
   "dl": "2016-05-25",
   "goal": 85000,
   "laun": "2016-04-25 18:18:14",
-  "pled": 21,
+  "pledged": 21,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -21059,7 +21059,7 @@ dataJSON = [{
   "dl": "2015-01-03",
   "goal": 2500,
   "laun": "2014-12-04 16:27:18",
-  "pled": 45,
+  "pledged": 45,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -21071,7 +21071,7 @@ dataJSON = [{
   "dl": "2014-01-21",
   "goal": 10000,
   "laun": "2013-12-22 21:31:30",
-  "pled": 227,
+  "pledged": 227,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -21083,7 +21083,7 @@ dataJSON = [{
   "dl": "2012-03-16",
   "goal": 1500,
   "laun": "2012-02-15 21:52:10",
-  "pled": 1621,
+  "pledged": 1621,
   "state": "successful",
   "backers": 71,
   "country": "US"
@@ -21095,7 +21095,7 @@ dataJSON = [{
   "dl": "2015-07-27",
   "goal": 5000,
   "laun": "2015-06-12 01:13:44",
-  "pled": 1015,
+  "pledged": 1015,
   "state": "failed",
   "backers": 22,
   "country": "US"
@@ -21107,7 +21107,7 @@ dataJSON = [{
   "dl": "2012-07-01",
   "goal": 500,
   "laun": "2012-05-11 14:04:44",
-  "pled": 15,
+  "pledged": 15,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -21119,7 +21119,7 @@ dataJSON = [{
   "dl": "2015-12-25",
   "goal": 1000,
   "laun": "2015-11-04 00:52:50",
-  "pled": 1591,
+  "pledged": 1591,
   "state": "successful",
   "backers": 26,
   "country": "CA"
@@ -21131,7 +21131,7 @@ dataJSON = [{
   "dl": "2013-12-09",
   "goal": 5500,
   "laun": "2013-11-22 19:28:29",
-  "pled": 320,
+  "pledged": 320,
   "state": "canceled",
   "backers": 6,
   "country": "US"
@@ -21143,7 +21143,7 @@ dataJSON = [{
   "dl": "2016-04-19",
   "goal": 5500,
   "laun": "2016-03-10 22:22:50",
-  "pled": 37,
+  "pledged": 37,
   "state": "failed",
   "backers": 3,
   "country": "DE"
@@ -21155,7 +21155,7 @@ dataJSON = [{
   "dl": "2012-04-24",
   "goal": 2500,
   "laun": "2012-04-12 21:47:23",
-  "pled": 2550,
+  "pledged": 2550,
   "state": "successful",
   "backers": 35,
   "country": "US"
@@ -21167,7 +21167,7 @@ dataJSON = [{
   "dl": "2017-09-11",
   "goal": 20000,
   "laun": "2017-08-07 00:31:08",
-  "pled": 59,
+  "pledged": 59,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -21179,7 +21179,7 @@ dataJSON = [{
   "dl": "2011-07-02",
   "goal": 27000,
   "laun": "2011-06-02 16:20:07",
-  "pled": 3,
+  "pledged": 3,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -21191,7 +21191,7 @@ dataJSON = [{
   "dl": "2016-10-07",
   "goal": 12500,
   "laun": "2016-09-07 00:05:09",
-  "pled": 16790.11,
+  "pledged": 16790.11,
   "state": "successful",
   "backers": 68,
   "country": "US"
@@ -21203,7 +21203,7 @@ dataJSON = [{
   "dl": "2014-10-19",
   "goal": 3000,
   "laun": "2014-09-27 03:46:01",
-  "pled": 797,
+  "pledged": 797,
   "state": "failed",
   "backers": 16,
   "country": "US"
@@ -21215,7 +21215,7 @@ dataJSON = [{
   "dl": "2017-07-16",
   "goal": 3000,
   "laun": "2017-05-17 23:11:00",
-  "pled": 12,
+  "pledged": 12,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -21227,7 +21227,7 @@ dataJSON = [{
   "dl": "2016-02-24",
   "goal": 4500,
   "laun": "2016-01-25 01:33:30",
-  "pled": 2567,
+  "pledged": 2567,
   "state": "failed",
   "backers": 122,
   "country": "US"
@@ -21239,7 +21239,7 @@ dataJSON = [{
   "dl": "2010-08-05",
   "goal": 1200,
   "laun": "2010-07-05 18:52:55",
-  "pled": 1215,
+  "pledged": 1215,
   "state": "successful",
   "backers": 8,
   "country": "US"
@@ -21251,7 +21251,7 @@ dataJSON = [{
   "dl": "2016-11-24",
   "goal": 9000,
   "laun": "2016-10-23 08:19:18",
-  "pled": 38786,
+  "pledged": 38786,
   "state": "successful",
   "backers": 90,
   "country": "AU"
@@ -21263,7 +21263,7 @@ dataJSON = [{
   "dl": "2013-07-11",
   "goal": 7500,
   "laun": "2013-06-11 22:30:37",
-  "pled": 26777,
+  "pledged": 26777,
   "state": "successful",
   "backers": 357,
   "country": "GB"
@@ -21275,7 +21275,7 @@ dataJSON = [{
   "dl": "2016-06-05",
   "goal": 20000,
   "laun": "2016-05-06 17:20:27",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "FR"
@@ -21287,7 +21287,7 @@ dataJSON = [{
   "dl": "2012-08-02",
   "goal": 5000,
   "laun": "2012-06-13 20:58:43",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -21299,7 +21299,7 @@ dataJSON = [{
   "dl": "2015-11-19",
   "goal": 150000,
   "laun": "2015-10-20 06:01:43",
-  "pled": 162401,
+  "pledged": 162401,
   "state": "successful",
   "backers": 1030,
   "country": "US"
@@ -21311,7 +21311,7 @@ dataJSON = [{
   "dl": "2016-11-01",
   "goal": 1500,
   "laun": "2016-10-02 19:18:44",
-  "pled": 1515,
+  "pledged": 1515,
   "state": "successful",
   "backers": 42,
   "country": "US"
@@ -21323,7 +21323,7 @@ dataJSON = [{
   "dl": "2015-06-01",
   "goal": 172493,
   "laun": "2015-04-02 09:52:41",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "GB"
@@ -21335,7 +21335,7 @@ dataJSON = [{
   "dl": "2014-04-23",
   "goal": 500,
   "laun": "2014-03-24 11:02:23",
-  "pled": 6454,
+  "pledged": 6454,
   "state": "successful",
   "backers": 201,
   "country": "US"
@@ -21347,7 +21347,7 @@ dataJSON = [{
   "dl": "2015-07-29",
   "goal": 600,
   "laun": "2015-06-29 18:33:22",
-  "pled": 802,
+  "pledged": 802,
   "state": "successful",
   "backers": 52,
   "country": "GB"
@@ -21359,7 +21359,7 @@ dataJSON = [{
   "dl": "2012-02-22",
   "goal": 3000,
   "laun": "2012-01-23 06:49:00",
-  "pled": 125,
+  "pledged": 125,
   "state": "canceled",
   "backers": 2,
   "country": "US"
@@ -21371,7 +21371,7 @@ dataJSON = [{
   "dl": "2013-10-15",
   "goal": 1500,
   "laun": "2013-09-05 16:55:57",
-  "pled": 3209,
+  "pledged": 3209,
   "state": "successful",
   "backers": 135,
   "country": "US"
@@ -21383,7 +21383,7 @@ dataJSON = [{
   "dl": "2015-05-25",
   "goal": 6000,
   "laun": "2015-04-20 17:46:14",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "AU"
@@ -21395,7 +21395,7 @@ dataJSON = [{
   "dl": "2017-05-07",
   "goal": 5000,
   "laun": "2017-04-05 17:01:11",
-  "pled": 51369,
+  "pledged": 51369,
   "state": "successful",
   "backers": 1082,
   "country": "IT"
@@ -21407,7 +21407,7 @@ dataJSON = [{
   "dl": "2013-01-05",
   "goal": 4000,
   "laun": "2012-11-06 17:52:08",
-  "pled": 120,
+  "pledged": 120,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -21419,7 +21419,7 @@ dataJSON = [{
   "dl": "2016-06-30",
   "goal": 1000,
   "laun": "2016-05-29 17:18:59",
-  "pled": 4249,
+  "pledged": 4249,
   "state": "successful",
   "backers": 230,
   "country": "GB"
@@ -21431,7 +21431,7 @@ dataJSON = [{
   "dl": "2015-05-22",
   "goal": 800,
   "laun": "2015-04-22 01:19:47",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -21443,7 +21443,7 @@ dataJSON = [{
   "dl": "2012-07-14",
   "goal": 3500,
   "laun": "2012-06-14 16:49:14",
-  "pled": 85,
+  "pledged": 85,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -21455,7 +21455,7 @@ dataJSON = [{
   "dl": "2009-11-09",
   "goal": 12500,
   "laun": "2009-09-09 03:58:23",
-  "pled": 12805.26,
+  "pledged": 12805.26,
   "state": "successful",
   "backers": 238,
   "country": "US"
@@ -21467,7 +21467,7 @@ dataJSON = [{
   "dl": "2011-05-15",
   "goal": 300,
   "laun": "2011-04-15 09:47:09",
-  "pled": 300,
+  "pledged": 300,
   "state": "successful",
   "backers": 13,
   "country": "US"
@@ -21479,7 +21479,7 @@ dataJSON = [{
   "dl": "2012-11-06",
   "goal": 1000,
   "laun": "2012-10-07 23:10:22",
-  "pled": 1080,
+  "pledged": 1080,
   "state": "successful",
   "backers": 25,
   "country": "US"
@@ -21491,7 +21491,7 @@ dataJSON = [{
   "dl": "2014-04-15",
   "goal": 700,
   "laun": "2014-03-28 20:32:15",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -21503,7 +21503,7 @@ dataJSON = [{
   "dl": "2017-02-27",
   "goal": 3000,
   "laun": "2017-01-18 03:04:14",
-  "pled": 530,
+  "pledged": 530,
   "state": "failed",
   "backers": 9,
   "country": "CA"
@@ -21515,7 +21515,7 @@ dataJSON = [{
   "dl": "2014-10-12",
   "goal": 10000,
   "laun": "2014-09-11 19:33:26",
-  "pled": 1437,
+  "pledged": 1437,
   "state": "failed",
   "backers": 15,
   "country": "US"
@@ -21527,7 +21527,7 @@ dataJSON = [{
   "dl": "2011-06-04",
   "goal": 20000,
   "laun": "2011-04-25 17:06:03",
-  "pled": 20001,
+  "pledged": 20001,
   "state": "successful",
   "backers": 49,
   "country": "US"
@@ -21539,7 +21539,7 @@ dataJSON = [{
   "dl": "2017-03-04",
   "goal": 25000,
   "laun": "2017-02-02 20:19:11",
-  "pled": 43,
+  "pledged": 43,
   "state": "failed",
   "backers": 1,
   "country": "GB"
@@ -21551,7 +21551,7 @@ dataJSON = [{
   "dl": "2017-07-20",
   "goal": 130000,
   "laun": "2017-06-20 20:52:49",
-  "pled": 7929,
+  "pledged": 7929,
   "state": "failed",
   "backers": 29,
   "country": "US"
@@ -21563,7 +21563,7 @@ dataJSON = [{
   "dl": "2014-09-11",
   "goal": 500,
   "laun": "2014-08-12 14:44:49",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -21575,7 +21575,7 @@ dataJSON = [{
   "dl": "2014-05-09",
   "goal": 24000,
   "laun": "2014-03-10 22:43:48",
-  "pled": 4658,
+  "pledged": 4658,
   "state": "failed",
   "backers": 68,
   "country": "US"
@@ -21587,7 +21587,7 @@ dataJSON = [{
   "dl": "2017-10-07",
   "goal": 5000,
   "laun": "2017-08-23 14:59:21",
-  "pled": 31898,
+  "pledged": 31898,
   "state": "successful",
   "backers": 576,
   "country": "US"
@@ -21599,7 +21599,7 @@ dataJSON = [{
   "dl": "2012-12-06",
   "goal": 150000,
   "laun": "2012-11-06 00:29:21",
-  "pled": 2538,
+  "pledged": 2538,
   "state": "canceled",
   "backers": 30,
   "country": "US"
@@ -21611,7 +21611,7 @@ dataJSON = [{
   "dl": "2017-10-09",
   "goal": 85000,
   "laun": "2017-08-10 04:19:25",
-  "pled": 9715,
+  "pledged": 9715,
   "state": "failed",
   "backers": 135,
   "country": "US"
@@ -21623,7 +21623,7 @@ dataJSON = [{
   "dl": "2016-11-21",
   "goal": 20000,
   "laun": "2016-10-31 23:20:19",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "NZ"
@@ -21635,7 +21635,7 @@ dataJSON = [{
   "dl": "2015-12-10",
   "goal": 420,
   "laun": "2015-11-26 11:12:49",
-  "pled": 420,
+  "pledged": 420,
   "state": "successful",
   "backers": 10,
   "country": "US"
@@ -21647,7 +21647,7 @@ dataJSON = [{
   "dl": "2016-08-07",
   "goal": 3000,
   "laun": "2016-07-07 01:49:55",
-  "pled": 3550,
+  "pledged": 3550,
   "state": "successful",
   "backers": 40,
   "country": "US"
@@ -21659,7 +21659,7 @@ dataJSON = [{
   "dl": "2015-02-28",
   "goal": 5500,
   "laun": "2015-01-29 02:58:24",
-  "pled": 5763,
+  "pledged": 5763,
   "state": "undefined",
   "backers": 0,
   "country": "N,0"
@@ -21671,7 +21671,7 @@ dataJSON = [{
   "dl": "2014-10-24",
   "goal": 5000,
   "laun": "2014-09-19 03:16:50",
-  "pled": 5417,
+  "pledged": 5417,
   "state": "successful",
   "backers": 155,
   "country": "US"
@@ -21683,7 +21683,7 @@ dataJSON = [{
   "dl": "2013-11-27",
   "goal": 30000,
   "laun": "2013-10-28 19:25:54",
-  "pled": 9052.5,
+  "pledged": 9052.5,
   "state": "failed",
   "backers": 144,
   "country": "CA"
@@ -21695,7 +21695,7 @@ dataJSON = [{
   "dl": "2010-12-13",
   "goal": 5000,
   "laun": "2010-10-29 23:32:13",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -21707,7 +21707,7 @@ dataJSON = [{
   "dl": "2012-08-19",
   "goal": 16500,
   "laun": "2012-07-20 01:18:06",
-  "pled": 2606.47,
+  "pledged": 2606.47,
   "state": "failed",
   "backers": 40,
   "country": "US"
@@ -21719,7 +21719,7 @@ dataJSON = [{
   "dl": "2015-03-01",
   "goal": 500,
   "laun": "2015-02-27 22:43:06",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -21731,7 +21731,7 @@ dataJSON = [{
   "dl": "2013-01-05",
   "goal": 60000,
   "laun": "2012-11-06 19:06:52",
-  "pled": 260,
+  "pledged": 260,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -21743,7 +21743,7 @@ dataJSON = [{
   "dl": "2017-08-30",
   "goal": 3500,
   "laun": "2017-08-08 16:37:05",
-  "pled": 5565,
+  "pledged": 5565,
   "state": "successful",
   "backers": 104,
   "country": "US"
@@ -21755,7 +21755,7 @@ dataJSON = [{
   "dl": "2017-02-07",
   "goal": 5000,
   "laun": "2017-01-08 12:14:34",
-  "pled": 602,
+  "pledged": 602,
   "state": "failed",
   "backers": 8,
   "country": "AU"
@@ -21767,7 +21767,7 @@ dataJSON = [{
   "dl": "2012-07-28",
   "goal": 1000,
   "laun": "2012-06-28 04:16:39",
-  "pled": 1070,
+  "pledged": 1070,
   "state": "successful",
   "backers": 35,
   "country": "US"
@@ -21779,7 +21779,7 @@ dataJSON = [{
   "dl": "2010-10-04",
   "goal": 5000,
   "laun": "2010-07-26 07:13:57",
-  "pled": 195,
+  "pledged": 195,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -21791,7 +21791,7 @@ dataJSON = [{
   "dl": "2010-11-05",
   "goal": 1200,
   "laun": "2010-10-07 00:29:48",
-  "pled": 687,
+  "pledged": 687,
   "state": "failed",
   "backers": 25,
   "country": "US"
@@ -21803,7 +21803,7 @@ dataJSON = [{
   "dl": "2014-04-03",
   "goal": 20000,
   "laun": "2014-02-17 09:41:24",
-  "pled": 1941,
+  "pledged": 1941,
   "state": "failed",
   "backers": 11,
   "country": "GB"
@@ -21815,7 +21815,7 @@ dataJSON = [{
   "dl": "2013-10-24",
   "goal": 10000,
   "laun": "2013-09-09 18:55:11",
-  "pled": 3678,
+  "pledged": 3678,
   "state": "failed",
   "backers": 64,
   "country": "US"
@@ -21827,7 +21827,7 @@ dataJSON = [{
   "dl": "2015-12-20",
   "goal": 3400,
   "laun": "2015-12-05 05:10:10",
-  "pled": 3435,
+  "pledged": 3435,
   "state": "undefined",
   "backers": 0,
   "country": "N,0"
@@ -21839,7 +21839,7 @@ dataJSON = [{
   "dl": "2017-07-19",
   "goal": 21000000,
   "laun": "2017-06-14 19:43:53",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "IT"
@@ -21851,7 +21851,7 @@ dataJSON = [{
   "dl": "2017-01-06",
   "goal": 50000,
   "laun": "2016-12-07 19:04:48",
-  "pled": 75264,
+  "pledged": 75264,
   "state": "successful",
   "backers": 152,
   "country": "US"
@@ -21863,7 +21863,7 @@ dataJSON = [{
   "dl": "2017-02-26",
   "goal": 250000,
   "laun": "2017-01-27 20:31:31",
-  "pled": 39,
+  "pledged": 39,
   "state": "failed",
   "backers": 6,
   "country": "NL"
@@ -21875,7 +21875,7 @@ dataJSON = [{
   "dl": "2015-09-22",
   "goal": 50000,
   "laun": "2015-08-23 07:03:49",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -21887,7 +21887,7 @@ dataJSON = [{
   "dl": "2013-12-08",
   "goal": 3000,
   "laun": "2013-11-23 03:19:29",
-  "pled": 3582,
+  "pledged": 3582,
   "state": "successful",
   "backers": 25,
   "country": "US"
@@ -21899,7 +21899,7 @@ dataJSON = [{
   "dl": "2011-05-14",
   "goal": 2000,
   "laun": "2011-04-14 19:58:00",
-  "pled": 2080,
+  "pledged": 2080,
   "state": "successful",
   "backers": 56,
   "country": "US"
@@ -21911,7 +21911,7 @@ dataJSON = [{
   "dl": "2010-05-02",
   "goal": 3000,
   "laun": "2010-04-02 01:29:37",
-  "pled": 3265,
+  "pledged": 3265,
   "state": "successful",
   "backers": 41,
   "country": "US"
@@ -21923,7 +21923,7 @@ dataJSON = [{
   "dl": "2011-03-28",
   "goal": 4000,
   "laun": "2011-02-16 20:21:21",
-  "pled": 4043,
+  "pledged": 4043,
   "state": "successful",
   "backers": 55,
   "country": "US"
@@ -21935,7 +21935,7 @@ dataJSON = [{
   "dl": "2011-05-18",
   "goal": 2500,
   "laun": "2011-03-23 21:24:15",
-  "pled": 75,
+  "pledged": 75,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -21947,7 +21947,7 @@ dataJSON = [{
   "dl": "2017-06-04",
   "goal": 72000,
   "laun": "2017-05-03 09:00:37",
-  "pled": 46212,
+  "pledged": 46212,
   "state": "failed",
   "backers": 57,
   "country": "NZ"
@@ -21959,7 +21959,7 @@ dataJSON = [{
   "dl": "2015-08-24",
   "goal": 1500,
   "laun": "2015-07-16 05:58:11",
-  "pled": 280,
+  "pledged": 280,
   "state": "failed",
   "backers": 8,
   "country": "US"
@@ -21971,7 +21971,7 @@ dataJSON = [{
   "dl": "2014-08-27",
   "goal": 500,
   "laun": "2014-07-28 11:39:02",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -21983,7 +21983,7 @@ dataJSON = [{
   "dl": "2017-05-15",
   "goal": 2000,
   "laun": "2017-04-30 17:48:59",
-  "pled": 2020,
+  "pledged": 2020,
   "state": "successful",
   "backers": 22,
   "country": "US"
@@ -21995,7 +21995,7 @@ dataJSON = [{
   "dl": "2014-02-23",
   "goal": 20000,
   "laun": "2014-01-24 23:03:38",
-  "pled": 315,
+  "pledged": 315,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -22007,7 +22007,7 @@ dataJSON = [{
   "dl": "2016-03-09",
   "goal": 20000,
   "laun": "2016-02-08 15:28:15",
-  "pled": 20599,
+  "pledged": 20599,
   "state": "successful",
   "backers": 278,
   "country": "US"
@@ -22019,7 +22019,7 @@ dataJSON = [{
   "dl": "2014-12-31",
   "goal": 4000,
   "laun": "2014-12-01 13:58:23",
-  "pled": 11870,
+  "pledged": 11870,
   "state": "successful",
   "backers": 114,
   "country": "US"
@@ -22031,7 +22031,7 @@ dataJSON = [{
   "dl": "2014-09-13",
   "goal": 5000,
   "laun": "2014-07-15 20:53:18",
-  "pled": 285,
+  "pledged": 285,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -22043,7 +22043,7 @@ dataJSON = [{
   "dl": "2013-05-20",
   "goal": 2500,
   "laun": "2013-04-30 03:32:13",
-  "pled": 2693,
+  "pledged": 2693,
   "state": "successful",
   "backers": 64,
   "country": "US"
@@ -22055,7 +22055,7 @@ dataJSON = [{
   "dl": "2011-05-15",
   "goal": 2500,
   "laun": "2011-04-15 05:17:16",
-  "pled": 35,
+  "pledged": 35,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -22067,7 +22067,7 @@ dataJSON = [{
   "dl": "2010-09-14",
   "goal": 6900,
   "laun": "2010-08-03 06:44:33",
-  "pled": 280,
+  "pledged": 280,
   "state": "failed",
   "backers": 9,
   "country": "US"
@@ -22079,7 +22079,7 @@ dataJSON = [{
   "dl": "2016-01-10",
   "goal": 2000,
   "laun": "2015-12-11 06:38:09",
-  "pled": 208,
+  "pledged": 208,
   "state": "failed",
   "backers": 7,
   "country": "IT"
@@ -22091,7 +22091,7 @@ dataJSON = [{
   "dl": "2016-05-05",
   "goal": 25000,
   "laun": "2016-03-30 01:55:40",
-  "pled": 50,
+  "pledged": 50,
   "state": "canceled",
   "backers": 2,
   "country": "US"
@@ -22103,7 +22103,7 @@ dataJSON = [{
   "dl": "2011-11-30",
   "goal": 25000,
   "laun": "2011-10-01 21:06:26",
-  "pled": 3786,
+  "pledged": 3786,
   "state": "canceled",
   "backers": 30,
   "country": "US"
@@ -22115,7 +22115,7 @@ dataJSON = [{
   "dl": "2017-02-01",
   "goal": 1500,
   "laun": "2016-12-14 07:53:35",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -22127,7 +22127,7 @@ dataJSON = [{
   "dl": "2011-04-09",
   "goal": 7500,
   "laun": "2011-03-08 05:50:05",
-  "pled": 8000,
+  "pledged": 8000,
   "state": "successful",
   "backers": 29,
   "country": "US"
@@ -22139,7 +22139,7 @@ dataJSON = [{
   "dl": "2015-10-26",
   "goal": 1000,
   "laun": "2015-09-10 22:44:16",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -22151,7 +22151,7 @@ dataJSON = [{
   "dl": "2015-11-22",
   "goal": 5000,
   "laun": "2015-10-23 02:02:01",
-  "pled": 5321,
+  "pledged": 5321,
   "state": "successful",
   "backers": 134,
   "country": "US"
@@ -22163,7 +22163,7 @@ dataJSON = [{
   "dl": "2012-10-10",
   "goal": 2500,
   "laun": "2012-09-10 17:01:27",
-  "pled": 1007,
+  "pledged": 1007,
   "state": "failed",
   "backers": 33,
   "country": "US"
@@ -22175,7 +22175,7 @@ dataJSON = [{
   "dl": "2015-03-27",
   "goal": 2000,
   "laun": "2015-02-25 15:17:11",
-  "pled": 111,
+  "pledged": 111,
   "state": "failed",
   "backers": 6,
   "country": "GB"
@@ -22187,7 +22187,7 @@ dataJSON = [{
   "dl": "2012-01-07",
   "goal": 8500,
   "laun": "2011-11-08 23:03:13",
-  "pled": 8567.27,
+  "pledged": 8567.27,
   "state": "successful",
   "backers": 56,
   "country": "US"
@@ -22199,7 +22199,7 @@ dataJSON = [{
   "dl": "2015-12-18",
   "goal": 400000,
   "laun": "2015-11-18 01:40:24",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -22211,7 +22211,7 @@ dataJSON = [{
   "dl": "2013-03-18",
   "goal": 7000,
   "laun": "2013-01-17 05:14:02",
-  "pled": 7050,
+  "pledged": 7050,
   "state": "successful",
   "backers": 46,
   "country": "US"
@@ -22223,7 +22223,7 @@ dataJSON = [{
   "dl": "2016-06-15",
   "goal": 26000,
   "laun": "2016-05-16 09:48:41",
-  "pled": 1429,
+  "pledged": 1429,
   "state": "failed",
   "backers": 20,
   "country": "FR"
@@ -22235,7 +22235,7 @@ dataJSON = [{
   "dl": "2012-07-06",
   "goal": 20000,
   "laun": "2012-06-06 17:49:50",
-  "pled": 21777.54,
+  "pledged": 21777.54,
   "state": "successful",
   "backers": 234,
   "country": "US"
@@ -22247,7 +22247,7 @@ dataJSON = [{
   "dl": "2015-01-12",
   "goal": 100,
   "laun": "2014-12-01 07:06:51",
-  "pled": 1314,
+  "pledged": 1314,
   "state": "successful",
   "backers": 38,
   "country": "US"
@@ -22259,7 +22259,7 @@ dataJSON = [{
   "dl": "2014-01-11",
   "goal": 6000,
   "laun": "2013-12-12 17:19:59",
-  "pled": 6662,
+  "pledged": 6662,
   "state": "successful",
   "backers": 115,
   "country": "US"
@@ -22271,7 +22271,7 @@ dataJSON = [{
   "dl": "2014-08-09",
   "goal": 12000,
   "laun": "2014-07-05 19:21:58",
-  "pled": 655,
+  "pledged": 655,
   "state": "failed",
   "backers": 5,
   "country": "GB"
@@ -22283,7 +22283,7 @@ dataJSON = [{
   "dl": "2011-03-03",
   "goal": 5000,
   "laun": "2011-01-27 19:41:59",
-  "pled": 5704,
+  "pledged": 5704,
   "state": "successful",
   "backers": 103,
   "country": "US"
@@ -22295,7 +22295,7 @@ dataJSON = [{
   "dl": "2014-08-13",
   "goal": 49000,
   "laun": "2014-07-14 14:28:30",
-  "pled": 6,
+  "pledged": 6,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -22307,7 +22307,7 @@ dataJSON = [{
   "dl": "2017-04-27",
   "goal": 1140,
   "laun": "2017-04-03 03:54:36",
-  "pled": 3510,
+  "pledged": 3510,
   "state": "successful",
   "backers": 59,
   "country": "US"
@@ -22319,7 +22319,7 @@ dataJSON = [{
   "dl": "2011-10-21",
   "goal": 10000,
   "laun": "2011-09-21 04:20:29",
-  "pled": 10055.01,
+  "pledged": 10055.01,
   "state": "successful",
   "backers": 173,
   "country": "US"
@@ -22331,7 +22331,7 @@ dataJSON = [{
   "dl": "2014-03-27",
   "goal": 2500,
   "laun": "2014-02-25 01:24:10",
-  "pled": 8173,
+  "pledged": 8173,
   "state": "successful",
   "backers": 84,
   "country": "US"
@@ -22343,7 +22343,7 @@ dataJSON = [{
   "dl": "2015-06-10",
   "goal": 10000,
   "laun": "2015-05-11 15:03:25",
-  "pled": 11320,
+  "pledged": 11320,
   "state": "successful",
   "backers": 208,
   "country": "US"
@@ -22355,7 +22355,7 @@ dataJSON = [{
   "dl": "2013-09-09",
   "goal": 55000,
   "laun": "2013-07-26 21:17:38",
-  "pled": 730,
+  "pledged": 730,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -22367,7 +22367,7 @@ dataJSON = [{
   "dl": "2015-11-05",
   "goal": 2000,
   "laun": "2015-10-06 23:55:42",
-  "pled": 61,
+  "pledged": 61,
   "state": "canceled",
   "backers": 2,
   "country": "US"
@@ -22379,7 +22379,7 @@ dataJSON = [{
   "dl": "2012-10-18",
   "goal": 10000,
   "laun": "2012-09-18 22:10:30",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -22391,7 +22391,7 @@ dataJSON = [{
   "dl": "2015-05-29",
   "goal": 500,
   "laun": "2015-03-30 18:54:18",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "GB"
@@ -22403,7 +22403,7 @@ dataJSON = [{
   "dl": "2015-09-07",
   "goal": 10000,
   "laun": "2015-08-08 06:07:21",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -22415,7 +22415,7 @@ dataJSON = [{
   "dl": "2011-08-25",
   "goal": 500,
   "laun": "2011-07-26 15:51:33",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -22427,7 +22427,7 @@ dataJSON = [{
   "dl": "2016-11-27",
   "goal": 2000,
   "laun": "2016-10-28 20:09:40",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "GB"
@@ -22439,7 +22439,7 @@ dataJSON = [{
   "dl": "2010-06-16",
   "goal": 2000,
   "laun": "2010-05-01 05:50:56",
-  "pled": 30,
+  "pledged": 30,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -22451,7 +22451,7 @@ dataJSON = [{
   "dl": "2014-07-26",
   "goal": 2000,
   "laun": "2014-07-11 21:17:33",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -22463,7 +22463,7 @@ dataJSON = [{
   "dl": "2017-03-12",
   "goal": 15000,
   "laun": "2017-02-10 17:19:56",
-  "pled": 100,
+  "pledged": 100,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -22475,7 +22475,7 @@ dataJSON = [{
   "dl": "2012-11-06",
   "goal": 1000,
   "laun": "2012-10-07 23:19:42",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -22487,7 +22487,7 @@ dataJSON = [{
   "dl": "2014-09-18",
   "goal": 2500,
   "laun": "2014-08-17 09:11:01",
-  "pled": 3090,
+  "pledged": 3090,
   "state": "successful",
   "backers": 25,
   "country": "US"
@@ -22499,7 +22499,7 @@ dataJSON = [{
   "dl": "2013-10-02",
   "goal": 5000,
   "laun": "2013-09-17 00:17:30",
-  "pled": 5035,
+  "pledged": 5035,
   "state": "successful",
   "backers": 41,
   "country": "US"
@@ -22511,7 +22511,7 @@ dataJSON = [{
   "dl": "2017-11-28",
   "goal": 2500,
   "laun": "2017-11-04 00:06:02",
-  "pled": 3027,
+  "pledged": 3027,
   "state": "successful",
   "backers": 80,
   "country": "US"
@@ -22523,7 +22523,7 @@ dataJSON = [{
   "dl": "2018-01-15",
   "goal": 15000,
   "laun": "2017-12-01 10:11:00",
-  "pled": 1282,
+  "pledged": 1282,
   "state": "live",
   "backers": 39,
   "country": "SG"
@@ -22535,7 +22535,7 @@ dataJSON = [{
   "dl": "2015-05-15",
   "goal": 8000,
   "laun": "2015-04-15 00:07:51",
-  "pled": 8156,
+  "pledged": 8156,
   "state": "undefined",
   "backers": 0,
   "country": "N,0"
@@ -22547,7 +22547,7 @@ dataJSON = [{
   "dl": "2013-04-21",
   "goal": 45000,
   "laun": "2013-02-20 02:00:43",
-  "pled": 4523,
+  "pledged": 4523,
   "state": "canceled",
   "backers": 74,
   "country": "US"
@@ -22559,7 +22559,7 @@ dataJSON = [{
   "dl": "2013-12-15",
   "goal": 37000,
   "laun": "2013-11-15 07:52:32",
-  "pled": 21988,
+  "pledged": 21988,
   "state": "failed",
   "backers": 26,
   "country": "US"
@@ -22571,7 +22571,7 @@ dataJSON = [{
   "dl": "2015-06-21",
   "goal": 12000,
   "laun": "2015-06-11 15:56:15",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "GB"
@@ -22583,7 +22583,7 @@ dataJSON = [{
   "dl": "2013-06-07",
   "goal": 1910,
   "laun": "2013-05-08 16:45:14",
-  "pled": 2268,
+  "pledged": 2268,
   "state": "successful",
   "backers": 107,
   "country": "GB"
@@ -22595,7 +22595,7 @@ dataJSON = [{
   "dl": "2014-09-30",
   "goal": 5000,
   "laun": "2014-09-08 21:13:20",
-  "pled": 5506,
+  "pledged": 5506,
   "state": "successful",
   "backers": 78,
   "country": "CA"
@@ -22607,7 +22607,7 @@ dataJSON = [{
   "dl": "2017-08-03",
   "goal": 1250,
   "laun": "2017-07-02 20:31:52",
-  "pled": 1422,
+  "pledged": 1422,
   "state": "successful",
   "backers": 40,
   "country": "US"
@@ -22619,7 +22619,7 @@ dataJSON = [{
   "dl": "2013-01-28",
   "goal": 800,
   "laun": "2012-12-19 04:49:10",
-  "pled": 235,
+  "pledged": 235,
   "state": "canceled",
   "backers": 6,
   "country": "US"
@@ -22631,7 +22631,7 @@ dataJSON = [{
   "dl": "2014-10-12",
   "goal": 6670,
   "laun": "2014-09-22 15:43:47",
-  "pled": 1375,
+  "pledged": 1375,
   "state": "failed",
   "backers": 16,
   "country": "US"
@@ -22643,7 +22643,7 @@ dataJSON = [{
   "dl": "2016-01-06",
   "goal": 25000,
   "laun": "2015-12-07 17:30:48",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "DE"
@@ -22655,7 +22655,7 @@ dataJSON = [{
   "dl": "2016-09-24",
   "goal": 50000,
   "laun": "2016-09-01 02:37:52",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -22667,7 +22667,7 @@ dataJSON = [{
   "dl": "2015-11-17",
   "goal": 20000,
   "laun": "2015-10-08 23:48:50",
-  "pled": 214,
+  "pledged": 214,
   "state": "failed",
   "backers": 7,
   "country": "US"
@@ -22679,7 +22679,7 @@ dataJSON = [{
   "dl": "2017-11-20",
   "goal": 5000,
   "laun": "2017-10-21 16:06:57",
-  "pled": 5400,
+  "pledged": 5400,
   "state": "successful",
   "backers": 35,
   "country": "NL"
@@ -22691,7 +22691,7 @@ dataJSON = [{
   "dl": "2012-05-29",
   "goal": 3000,
   "laun": "2012-05-09 20:52:34",
-  "pled": 3125,
+  "pledged": 3125,
   "state": "successful",
   "backers": 85,
   "country": "US"
@@ -22703,7 +22703,7 @@ dataJSON = [{
   "dl": "2017-05-01",
   "goal": 5200,
   "laun": "2017-04-01 10:40:20",
-  "pled": 152,
+  "pledged": 152,
   "state": "failed",
   "backers": 8,
   "country": "US"
@@ -22715,7 +22715,7 @@ dataJSON = [{
   "dl": "2018-01-19",
   "goal": 20000,
   "laun": "2017-11-20 21:36:12",
-  "pled": 426,
+  "pledged": 426,
   "state": "live",
   "backers": 15,
   "country": "US"
@@ -22727,7 +22727,7 @@ dataJSON = [{
   "dl": "2014-09-17",
   "goal": 15000,
   "laun": "2014-08-18 23:00:07",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 1,
   "country": "GB"
@@ -22739,7 +22739,7 @@ dataJSON = [{
   "dl": "2011-03-19",
   "goal": 2500,
   "laun": "2011-02-17 06:34:53",
-  "pled": 4295,
+  "pledged": 4295,
   "state": "successful",
   "backers": 146,
   "country": "US"
@@ -22751,7 +22751,7 @@ dataJSON = [{
   "dl": "2017-07-16",
   "goal": 15000,
   "laun": "2017-05-17 03:27:45",
-  "pled": 3,
+  "pledged": 3,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -22763,7 +22763,7 @@ dataJSON = [{
   "dl": "2015-08-18",
   "goal": 2000,
   "laun": "2015-08-04 17:00:19",
-  "pled": 5745.34,
+  "pledged": 5745.34,
   "state": "successful",
   "backers": 126,
   "country": "US"
@@ -22775,7 +22775,7 @@ dataJSON = [{
   "dl": "2017-09-22",
   "goal": 150,
   "laun": "2017-09-02 08:20:09",
-  "pled": 911,
+  "pledged": 911,
   "state": "successful",
   "backers": 80,
   "country": "GB"
@@ -22787,7 +22787,7 @@ dataJSON = [{
   "dl": "2014-11-10",
   "goal": 8000,
   "laun": "2014-10-12 04:56:53",
-  "pled": 8501,
+  "pledged": 8501,
   "state": "successful",
   "backers": 137,
   "country": "US"
@@ -22799,7 +22799,7 @@ dataJSON = [{
   "dl": "2016-10-20",
   "goal": 20000,
   "laun": "2016-09-15 16:01:32",
-  "pled": 548,
+  "pledged": 548,
   "state": "failed",
   "backers": 19,
   "country": "US"
@@ -22811,7 +22811,7 @@ dataJSON = [{
   "dl": "2014-03-11",
   "goal": 5000,
   "laun": "2014-02-09 18:09:56",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -22823,7 +22823,7 @@ dataJSON = [{
   "dl": "2015-08-28",
   "goal": 5000,
   "laun": "2015-07-14 14:00:32",
-  "pled": 8033,
+  "pledged": 8033,
   "state": "successful",
   "backers": 225,
   "country": "US"
@@ -22835,7 +22835,7 @@ dataJSON = [{
   "dl": "2010-07-20",
   "goal": 1500,
   "laun": "2010-06-02 01:21:39",
-  "pled": 1565,
+  "pledged": 1565,
   "state": "successful",
   "backers": 29,
   "country": "US"
@@ -22847,7 +22847,7 @@ dataJSON = [{
   "dl": "2012-10-29",
   "goal": 2500,
   "laun": "2012-09-11 15:47:59",
-  "pled": 665,
+  "pledged": 665,
   "state": "failed",
   "backers": 20,
   "country": "US"
@@ -22859,7 +22859,7 @@ dataJSON = [{
   "dl": "2015-02-03",
   "goal": 100000,
   "laun": "2015-01-05 21:59:38",
-  "pled": 2150,
+  "pledged": 2150,
   "state": "canceled",
   "backers": 6,
   "country": "AU"
@@ -22871,7 +22871,7 @@ dataJSON = [{
   "dl": "2015-10-28",
   "goal": 50000,
   "laun": "2015-09-01 01:56:27",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "CA"
@@ -22883,7 +22883,7 @@ dataJSON = [{
   "dl": "2017-04-19",
   "goal": 2000,
   "laun": "2017-03-29 19:01:07",
-  "pled": 12103,
+  "pledged": 12103,
   "state": "successful",
   "backers": 209,
   "country": "US"
@@ -22895,7 +22895,7 @@ dataJSON = [{
   "dl": "2011-08-05",
   "goal": 17000,
   "laun": "2011-07-21 17:14:38",
-  "pled": 18574.99,
+  "pledged": 18574.99,
   "state": "successful",
   "backers": 420,
   "country": "US"
@@ -22907,7 +22907,7 @@ dataJSON = [{
   "dl": "2016-01-15",
   "goal": 10000,
   "laun": "2015-12-15 04:30:26",
-  "pled": 15,
+  "pledged": 15,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -22919,7 +22919,7 @@ dataJSON = [{
   "dl": "2011-07-14",
   "goal": 10000,
   "laun": "2011-06-14 20:05:35",
-  "pled": 335,
+  "pledged": 335,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -22931,7 +22931,7 @@ dataJSON = [{
   "dl": "2016-04-09",
   "goal": 48500,
   "laun": "2016-02-16 17:52:32",
-  "pled": 766,
+  "pledged": 766,
   "state": "failed",
   "backers": 8,
   "country": "US"
@@ -22943,7 +22943,7 @@ dataJSON = [{
   "dl": "2016-04-25",
   "goal": 2500,
   "laun": "2016-02-25 21:40:09",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "CA"
@@ -22955,7 +22955,7 @@ dataJSON = [{
   "dl": "2012-08-24",
   "goal": 35000,
   "laun": "2012-07-24 09:58:24",
-  "pled": 12289,
+  "pledged": 12289,
   "state": "failed",
   "backers": 160,
   "country": "US"
@@ -22967,7 +22967,7 @@ dataJSON = [{
   "dl": "2015-01-01",
   "goal": 9500,
   "laun": "2014-11-20 01:47:01",
-  "pled": 114,
+  "pledged": 114,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -22979,7 +22979,7 @@ dataJSON = [{
   "dl": "2012-12-13",
   "goal": 5000,
   "laun": "2012-11-13 16:28:57",
-  "pled": 1226,
+  "pledged": 1226,
   "state": "failed",
   "backers": 15,
   "country": "US"
@@ -22991,7 +22991,7 @@ dataJSON = [{
   "dl": "2017-09-30",
   "goal": 99999,
   "laun": "2017-08-03 04:27:01",
-  "pled": 100,
+  "pledged": 100,
   "state": "failed",
   "backers": 2,
   "country": "AU"
@@ -23003,7 +23003,7 @@ dataJSON = [{
   "dl": "2017-07-10",
   "goal": 6500,
   "laun": "2017-05-11 21:01:19",
-  "pled": 50,
+  "pledged": 50,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -23015,7 +23015,7 @@ dataJSON = [{
   "dl": "2015-05-31",
   "goal": 5000,
   "laun": "2015-05-01 15:33:04",
-  "pled": 36,
+  "pledged": 36,
   "state": "failed",
   "backers": 3,
   "country": "GB"
@@ -23027,7 +23027,7 @@ dataJSON = [{
   "dl": "2014-11-18",
   "goal": 38000,
   "laun": "2014-10-09 21:08:54",
-  "pled": 2891,
+  "pledged": 2891,
   "state": "failed",
   "backers": 31,
   "country": "US"
@@ -23039,7 +23039,7 @@ dataJSON = [{
   "dl": "2015-11-29",
   "goal": 1500,
   "laun": "2015-09-30 22:24:15",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -23051,7 +23051,7 @@ dataJSON = [{
   "dl": "2016-12-26",
   "goal": 25000,
   "laun": "2016-10-27 18:11:33",
-  "pled": 200,
+  "pledged": 200,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -23063,7 +23063,7 @@ dataJSON = [{
   "dl": "2015-11-28",
   "goal": 33000,
   "laun": "2015-10-29 18:32:41",
-  "pled": 17,
+  "pledged": 17,
   "state": "failed",
   "backers": 4,
   "country": "GB"
@@ -23075,7 +23075,7 @@ dataJSON = [{
   "dl": "2017-06-24",
   "goal": 40000,
   "laun": "2017-05-25 15:41:53",
-  "pled": 42,
+  "pledged": 42,
   "state": "failed",
   "backers": 3,
   "country": "CA"
@@ -23087,7 +23087,7 @@ dataJSON = [{
   "dl": "2015-04-04",
   "goal": 4000,
   "laun": "2015-03-05 20:03:13",
-  "pled": 4000,
+  "pledged": 4000,
   "state": "successful",
   "backers": 41,
   "country": "US"
@@ -23099,7 +23099,7 @@ dataJSON = [{
   "dl": "2012-08-11",
   "goal": 10500,
   "laun": "2012-07-12 22:06:57",
-  "pled": 5565,
+  "pledged": 5565,
   "state": "failed",
   "backers": 9,
   "country": "US"
@@ -23111,7 +23111,7 @@ dataJSON = [{
   "dl": "2012-08-16",
   "goal": 4000,
   "laun": "2012-07-17 22:22:46",
-  "pled": 5045,
+  "pledged": 5045,
   "state": "successful",
   "backers": 60,
   "country": "US"
@@ -23123,7 +23123,7 @@ dataJSON = [{
   "dl": "2015-06-26",
   "goal": 1300,
   "laun": "2015-05-27 02:52:05",
-  "pled": 25,
+  "pledged": 25,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -23135,7 +23135,7 @@ dataJSON = [{
   "dl": "2015-04-05",
   "goal": 100000,
   "laun": "2015-03-06 21:49:35",
-  "pled": 20176,
+  "pledged": 20176,
   "state": "failed",
   "backers": 8,
   "country": "AU"
@@ -23147,7 +23147,7 @@ dataJSON = [{
   "dl": "2016-03-23",
   "goal": 500,
   "laun": "2016-02-22 20:37:54",
-  "pled": 115,
+  "pledged": 115,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -23159,7 +23159,7 @@ dataJSON = [{
   "dl": "2012-06-14",
   "goal": 5000,
   "laun": "2012-05-15 11:03:29",
-  "pled": 5392,
+  "pledged": 5392,
   "state": "successful",
   "backers": 125,
   "country": "US"
@@ -23171,7 +23171,7 @@ dataJSON = [{
   "dl": "2012-07-14",
   "goal": 2222,
   "laun": "2012-06-11 23:00:51",
-  "pled": 2379.22,
+  "pledged": 2379.22,
   "state": "successful",
   "backers": 44,
   "country": "US"
@@ -23183,7 +23183,7 @@ dataJSON = [{
   "dl": "2014-08-07",
   "goal": 10000,
   "laun": "2014-07-08 21:27:51",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -23195,7 +23195,7 @@ dataJSON = [{
   "dl": "2017-08-18",
   "goal": 17000,
   "laun": "2017-07-06 12:15:20",
-  "pled": 65203.5,
+  "pledged": 65203.5,
   "state": "successful",
   "backers": 1885,
   "country": "US"
@@ -23207,7 +23207,7 @@ dataJSON = [{
   "dl": "2016-06-25",
   "goal": 10000,
   "laun": "2016-06-05 03:26:43",
-  "pled": 1187,
+  "pledged": 1187,
   "state": "failed",
   "backers": 16,
   "country": "US"
@@ -23219,7 +23219,7 @@ dataJSON = [{
   "dl": "2014-12-22",
   "goal": 19000,
   "laun": "2014-11-24 16:52:01",
-  "pled": 25626,
+  "pledged": 25626,
   "state": "successful",
   "backers": 137,
   "country": "US"
@@ -23231,7 +23231,7 @@ dataJSON = [{
   "dl": "2011-07-18",
   "goal": 1500,
   "laun": "2011-06-08 09:06:32",
-  "pled": 2145,
+  "pledged": 2145,
   "state": "successful",
   "backers": 26,
   "country": "US"
@@ -23243,7 +23243,7 @@ dataJSON = [{
   "dl": "2010-06-02",
   "goal": 7800,
   "laun": "2010-03-14 19:15:56",
-  "pled": 760,
+  "pledged": 760,
   "state": "failed",
   "backers": 21,
   "country": "US"
@@ -23255,7 +23255,7 @@ dataJSON = [{
   "dl": "2013-06-14",
   "goal": 10000,
   "laun": "2013-05-15 19:03:52",
-  "pled": 26,
+  "pledged": 26,
   "state": "canceled",
   "backers": 2,
   "country": "US"
@@ -23267,7 +23267,7 @@ dataJSON = [{
   "dl": "2017-01-27",
   "goal": 2000,
   "laun": "2017-01-17 20:58:47",
-  "pled": 11133,
+  "pledged": 11133,
   "state": "successful",
   "backers": 183,
   "country": "US"
@@ -23279,7 +23279,7 @@ dataJSON = [{
   "dl": "2016-11-10",
   "goal": 100,
   "laun": "2016-09-11 11:55:39",
-  "pled": 101,
+  "pledged": 101,
   "state": "successful",
   "backers": 5,
   "country": "GB"
@@ -23291,7 +23291,7 @@ dataJSON = [{
   "dl": "2017-10-10",
   "goal": 15000,
   "laun": "2017-08-11 19:46:11",
-  "pled": 25,
+  "pledged": 25,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -23303,7 +23303,7 @@ dataJSON = [{
   "dl": "2017-03-20",
   "goal": 2225,
   "laun": "2017-02-14 17:45:47",
-  "pled": 211,
+  "pledged": 211,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -23315,7 +23315,7 @@ dataJSON = [{
   "dl": "2018-01-21",
   "goal": 2800,
   "laun": "2017-11-24 21:55:13",
-  "pled": 1871,
+  "pledged": 1871,
   "state": "live",
   "backers": 63,
   "country": "US"
@@ -23327,7 +23327,7 @@ dataJSON = [{
   "dl": "2012-12-17",
   "goal": 5000,
   "laun": "2012-11-16 10:40:59",
-  "pled": 8679.57,
+  "pledged": 8679.57,
   "state": "successful",
   "backers": 83,
   "country": "US"
@@ -23339,7 +23339,7 @@ dataJSON = [{
   "dl": "2010-09-26",
   "goal": 500,
   "laun": "2010-08-27 16:46:33",
-  "pled": 305,
+  "pledged": 305,
   "state": "failed",
   "backers": 12,
   "country": "US"
@@ -23351,7 +23351,7 @@ dataJSON = [{
   "dl": "2015-04-21",
   "goal": 5000,
   "laun": "2015-03-22 17:40:04",
-  "pled": 55,
+  "pledged": 55,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -23363,7 +23363,7 @@ dataJSON = [{
   "dl": "2017-11-30",
   "goal": 135000,
   "laun": "2017-11-09 17:16:51",
-  "pled": 322,
+  "pledged": 322,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -23375,7 +23375,7 @@ dataJSON = [{
   "dl": "2014-09-19",
   "goal": 1500,
   "laun": "2014-08-20 04:39:52",
-  "pled": 216,
+  "pledged": 216,
   "state": "canceled",
   "backers": 6,
   "country": "US"
@@ -23387,7 +23387,7 @@ dataJSON = [{
   "dl": "2017-07-28",
   "goal": 10000,
   "laun": "2017-06-27 16:32:31",
-  "pled": 3900,
+  "pledged": 3900,
   "state": "failed",
   "backers": 109,
   "country": "US"
@@ -23399,7 +23399,7 @@ dataJSON = [{
   "dl": "2010-05-31",
   "goal": 55000,
   "laun": "2010-03-02 22:21:53",
-  "pled": 920,
+  "pledged": 920,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -23411,7 +23411,7 @@ dataJSON = [{
   "dl": "2013-04-25",
   "goal": 11000,
   "laun": "2013-03-26 06:59:02",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -23423,7 +23423,7 @@ dataJSON = [{
   "dl": "2012-12-09",
   "goal": 5200,
   "laun": "2012-11-19 18:29:19",
-  "pled": 2556,
+  "pledged": 2556,
   "state": "failed",
   "backers": 61,
   "country": "US"
@@ -23435,7 +23435,7 @@ dataJSON = [{
   "dl": "2014-10-18",
   "goal": 85000,
   "laun": "2014-09-09 15:01:32",
-  "pled": 9401.04,
+  "pledged": 9401.04,
   "state": "failed",
   "backers": 338,
   "country": "US"
@@ -23447,7 +23447,7 @@ dataJSON = [{
   "dl": "2017-06-01",
   "goal": 20000,
   "laun": "2017-05-01 17:53:57",
-  "pled": 20578,
+  "pledged": 20578,
   "state": "successful",
   "backers": 177,
   "country": "US"
@@ -23459,7 +23459,7 @@ dataJSON = [{
   "dl": "2011-01-15",
   "goal": 2280,
   "laun": "2010-12-16 23:10:52",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -23471,7 +23471,7 @@ dataJSON = [{
   "dl": "2017-08-14",
   "goal": 240,
   "laun": "2017-07-31 19:02:27",
-  "pled": 295,
+  "pledged": 295,
   "state": "successful",
   "backers": 8,
   "country": "US"
@@ -23483,7 +23483,7 @@ dataJSON = [{
   "dl": "2011-09-22",
   "goal": 5000,
   "laun": "2011-08-23 19:08:08",
-  "pled": 5336,
+  "pledged": 5336,
   "state": "successful",
   "backers": 39,
   "country": "US"
@@ -23495,7 +23495,7 @@ dataJSON = [{
   "dl": "2016-03-04",
   "goal": 2000,
   "laun": "2016-01-26 15:41:13",
-  "pled": 2323,
+  "pledged": 2323,
   "state": "successful",
   "backers": 36,
   "country": "US"
@@ -23507,7 +23507,7 @@ dataJSON = [{
   "dl": "2015-08-29",
   "goal": 5000,
   "laun": "2015-07-30 13:40:14",
-  "pled": 10,
+  "pledged": 10,
   "state": "canceled",
   "backers": 1,
   "country": "GB"
@@ -23519,7 +23519,7 @@ dataJSON = [{
   "dl": "2015-11-26",
   "goal": 2500,
   "laun": "2015-10-27 19:30:51",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -23531,7 +23531,7 @@ dataJSON = [{
   "dl": "2011-05-30",
   "goal": 2000,
   "laun": "2011-05-09 15:34:12",
-  "pled": 2045,
+  "pledged": 2045,
   "state": "successful",
   "backers": 40,
   "country": "US"
@@ -23543,7 +23543,7 @@ dataJSON = [{
   "dl": "2014-12-06",
   "goal": 25000,
   "laun": "2014-11-05 03:05:57",
-  "pled": 3165,
+  "pledged": 3165,
   "state": "failed",
   "backers": 29,
   "country": "US"
@@ -23555,7 +23555,7 @@ dataJSON = [{
   "dl": "2012-02-17",
   "goal": 20000,
   "laun": "2012-01-18 14:30:35",
-  "pled": 581,
+  "pledged": 581,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -23567,7 +23567,7 @@ dataJSON = [{
   "dl": "2017-03-19",
   "goal": 77000,
   "laun": "2017-02-17 07:32:04",
-  "pled": 80391,
+  "pledged": 80391,
   "state": "successful",
   "backers": 35,
   "country": "MX"
@@ -23579,7 +23579,7 @@ dataJSON = [{
   "dl": "2014-10-03",
   "goal": 2500,
   "laun": "2014-08-04 17:18:59",
-  "pled": 3341.5,
+  "pledged": 3341.5,
   "state": "successful",
   "backers": 121,
   "country": "GB"
@@ -23591,7 +23591,7 @@ dataJSON = [{
   "dl": "2014-03-18",
   "goal": 1500,
   "laun": "2014-03-05 00:28:22",
-  "pled": 150,
+  "pledged": 150,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -23603,7 +23603,7 @@ dataJSON = [{
   "dl": "2016-03-09",
   "goal": 25000,
   "laun": "2016-02-08 17:34:48",
-  "pled": 2,
+  "pledged": 2,
   "state": "failed",
   "backers": 2,
   "country": "GB"
@@ -23615,7 +23615,7 @@ dataJSON = [{
   "dl": "2017-05-12",
   "goal": 10000,
   "laun": "2017-04-20 01:53:49",
-  "pled": 45,
+  "pledged": 45,
   "state": "failed",
   "backers": 2,
   "country": "NZ"
@@ -23627,7 +23627,7 @@ dataJSON = [{
   "dl": "2011-02-16",
   "goal": 2000,
   "laun": "2010-12-18 22:34:47",
-  "pled": 75,
+  "pledged": 75,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -23639,7 +23639,7 @@ dataJSON = [{
   "dl": "2013-10-02",
   "goal": 9200,
   "laun": "2013-09-04 21:09:34",
-  "pled": 621,
+  "pledged": 621,
   "state": "failed",
   "backers": 17,
   "country": "GB"
@@ -23651,7 +23651,7 @@ dataJSON = [{
   "dl": "2016-08-10",
   "goal": 3000,
   "laun": "2016-08-03 17:49:20",
-  "pled": 3500,
+  "pledged": 3500,
   "state": "successful",
   "backers": 7,
   "country": "SE"
@@ -23663,7 +23663,7 @@ dataJSON = [{
   "dl": "2017-07-22",
   "goal": 2300,
   "laun": "2017-06-22 18:46:56",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -23675,7 +23675,7 @@ dataJSON = [{
   "dl": "2015-11-03",
   "goal": 350,
   "laun": "2015-10-12 09:01:16",
-  "pled": 1416,
+  "pledged": 1416,
   "state": "successful",
   "backers": 41,
   "country": "US"
@@ -23687,7 +23687,7 @@ dataJSON = [{
   "dl": "2015-11-09",
   "goal": 5000000,
   "laun": "2015-09-10 23:08:39",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -23699,7 +23699,7 @@ dataJSON = [{
   "dl": "2011-05-19",
   "goal": 6000,
   "laun": "2011-04-20 22:15:44",
-  "pled": 6361,
+  "pledged": 6361,
   "state": "successful",
   "backers": 76,
   "country": "US"
@@ -23711,7 +23711,7 @@ dataJSON = [{
   "dl": "2012-03-07",
   "goal": 20000,
   "laun": "2012-01-07 04:54:04",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -23723,7 +23723,7 @@ dataJSON = [{
   "dl": "2012-11-18",
   "goal": 13000,
   "laun": "2012-10-19 23:52:26",
-  "pled": 80,
+  "pledged": 80,
   "state": "canceled",
   "backers": 3,
   "country": "US"
@@ -23735,7 +23735,7 @@ dataJSON = [{
   "dl": "2011-04-04",
   "goal": 4000,
   "laun": "2011-01-31 02:17:31",
-  "pled": 5424.5,
+  "pledged": 5424.5,
   "state": "successful",
   "backers": 137,
   "country": "US"
@@ -23747,7 +23747,7 @@ dataJSON = [{
   "dl": "2016-04-26",
   "goal": 5000,
   "laun": "2016-03-12 03:24:35",
-  "pled": 1158,
+  "pledged": 1158,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -23759,7 +23759,7 @@ dataJSON = [{
   "dl": "2016-02-17",
   "goal": 12000,
   "laun": "2016-01-18 04:50:58",
-  "pled": 12670,
+  "pledged": 12670,
   "state": "successful",
   "backers": 28,
   "country": "US"
@@ -23771,7 +23771,7 @@ dataJSON = [{
   "dl": "2012-11-26",
   "goal": 1000,
   "laun": "2012-11-19 06:23:25",
-  "pled": 276,
+  "pledged": 276,
   "state": "failed",
   "backers": 15,
   "country": "US"
@@ -23783,7 +23783,7 @@ dataJSON = [{
   "dl": "2014-06-12",
   "goal": 3000,
   "laun": "2014-05-13 18:18:08",
-  "pled": 20,
+  "pledged": 20,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -23795,7 +23795,7 @@ dataJSON = [{
   "dl": "2017-07-31",
   "goal": 500,
   "laun": "2017-07-11 21:30:16",
-  "pled": 930,
+  "pledged": 930,
   "state": "successful",
   "backers": 20,
   "country": "US"
@@ -23807,7 +23807,7 @@ dataJSON = [{
   "dl": "2016-05-19",
   "goal": 48000,
   "laun": "2016-04-19 06:01:55",
-  "pled": 549486.23,
+  "pledged": 549486.23,
   "state": "successful",
   "backers": 8616,
   "country": "US"
@@ -23819,7 +23819,7 @@ dataJSON = [{
   "dl": "2011-12-16",
   "goal": 1500,
   "laun": "2011-11-16 17:34:38",
-  "pled": 105,
+  "pledged": 105,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -23831,7 +23831,7 @@ dataJSON = [{
   "dl": "2017-12-26",
   "goal": 12000,
   "laun": "2017-11-26 22:30:20",
-  "pled": 110,
+  "pledged": 110,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -23843,7 +23843,7 @@ dataJSON = [{
   "dl": "2016-04-08",
   "goal": 5000,
   "laun": "2016-03-09 22:23:20",
-  "pled": 195,
+  "pledged": 195,
   "state": "failed",
   "backers": 7,
   "country": "US"
@@ -23855,7 +23855,7 @@ dataJSON = [{
   "dl": "2012-09-01",
   "goal": 15000,
   "laun": "2012-08-02 17:13:35",
-  "pled": 2080,
+  "pledged": 2080,
   "state": "failed",
   "backers": 28,
   "country": "US"
@@ -23867,7 +23867,7 @@ dataJSON = [{
   "dl": "2016-04-05",
   "goal": 2798,
   "laun": "2016-03-06 03:21:39",
-  "pled": 12,
+  "pledged": 12,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -23879,7 +23879,7 @@ dataJSON = [{
   "dl": "2017-04-07",
   "goal": 15000,
   "laun": "2017-03-08 19:37:47",
-  "pled": 36961,
+  "pledged": 36961,
   "state": "successful",
   "backers": 209,
   "country": "FR"
@@ -23891,7 +23891,7 @@ dataJSON = [{
   "dl": "2014-11-19",
   "goal": 20000,
   "laun": "2014-10-20 15:16:07",
-  "pled": 261,
+  "pledged": 261,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -23903,7 +23903,7 @@ dataJSON = [{
   "dl": "2012-09-13",
   "goal": 35000,
   "laun": "2012-08-14 06:00:51",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -23915,7 +23915,7 @@ dataJSON = [{
   "dl": "2014-12-24",
   "goal": 8500,
   "laun": "2014-11-24 20:47:45",
-  "pled": 9146,
+  "pledged": 9146,
   "state": "undefined",
   "backers": 0,
   "country": "N,0"
@@ -23927,7 +23927,7 @@ dataJSON = [{
   "dl": "2015-01-07",
   "goal": 1500,
   "laun": "2014-12-23 17:58:34",
-  "pled": 273,
+  "pledged": 273,
   "state": "failed",
   "backers": 10,
   "country": "AU"
@@ -23939,7 +23939,7 @@ dataJSON = [{
   "dl": "2011-03-01",
   "goal": 3036,
   "laun": "2011-02-02 07:54:48",
-  "pled": 51,
+  "pledged": 51,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -23951,7 +23951,7 @@ dataJSON = [{
   "dl": "2011-12-08",
   "goal": 12000,
   "laun": "2011-11-21 22:25:49",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -23963,7 +23963,7 @@ dataJSON = [{
   "dl": "2013-08-15",
   "goal": 50000,
   "laun": "2013-06-16 23:29:00",
-  "pled": 9750,
+  "pledged": 9750,
   "state": "failed",
   "backers": 153,
   "country": "GB"
@@ -23975,7 +23975,7 @@ dataJSON = [{
   "dl": "2013-07-27",
   "goal": 1000,
   "laun": "2013-06-27 20:50:32",
-  "pled": 2112,
+  "pledged": 2112,
   "state": "successful",
   "backers": 30,
   "country": "US"
@@ -23987,7 +23987,7 @@ dataJSON = [{
   "dl": "2014-11-09",
   "goal": 1000,
   "laun": "2014-10-10 21:16:06",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -23999,7 +23999,7 @@ dataJSON = [{
   "dl": "2016-09-19",
   "goal": 5000,
   "laun": "2016-08-20 21:00:35",
-  "pled": 5,
+  "pledged": 5,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -24011,7 +24011,7 @@ dataJSON = [{
   "dl": "2017-12-16",
   "goal": 4200,
   "laun": "2017-11-16 04:02:46",
-  "pled": 93,
+  "pledged": 93,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -24023,7 +24023,7 @@ dataJSON = [{
   "dl": "2012-11-10",
   "goal": 20000,
   "laun": "2012-09-11 18:01:57",
-  "pled": 28326,
+  "pledged": 28326,
   "state": "successful",
   "backers": 205,
   "country": "US"
@@ -24035,7 +24035,7 @@ dataJSON = [{
   "dl": "2014-07-23",
   "goal": 30000,
   "laun": "2014-06-23 16:02:09",
-  "pled": 34030,
+  "pledged": 34030,
   "state": "successful",
   "backers": 188,
   "country": "US"
@@ -24047,7 +24047,7 @@ dataJSON = [{
   "dl": "2009-09-01",
   "goal": 3000,
   "laun": "2009-07-13 18:54:07",
-  "pled": 3132.63,
+  "pledged": 3132.63,
   "state": "successful",
   "backers": 68,
   "country": "US"
@@ -24059,7 +24059,7 @@ dataJSON = [{
   "dl": "2012-02-23",
   "goal": 16500,
   "laun": "2012-01-24 15:42:19",
-  "pled": 765,
+  "pledged": 765,
   "state": "canceled",
   "backers": 10,
   "country": "US"
@@ -24071,7 +24071,7 @@ dataJSON = [{
   "dl": "2014-09-24",
   "goal": 5000,
   "laun": "2014-08-20 16:29:22",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -24083,7 +24083,7 @@ dataJSON = [{
   "dl": "2017-11-06",
   "goal": 75000,
   "laun": "2017-10-01 19:28:47",
-  "pled": 11186,
+  "pledged": 11186,
   "state": "canceled",
   "backers": 24,
   "country": "US"
@@ -24095,7 +24095,7 @@ dataJSON = [{
   "dl": "2016-04-20",
   "goal": 600,
   "laun": "2016-02-20 20:36:26",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -24107,7 +24107,7 @@ dataJSON = [{
   "dl": "2015-04-12",
   "goal": 3000,
   "laun": "2015-03-07 06:18:32",
-  "pled": 1336,
+  "pledged": 1336,
   "state": "failed",
   "backers": 27,
   "country": "US"
@@ -24119,7 +24119,7 @@ dataJSON = [{
   "dl": "2014-07-19",
   "goal": 3600,
   "laun": "2014-06-19 21:53:49",
-  "pled": 55,
+  "pledged": 55,
   "state": "failed",
   "backers": 1,
   "country": "GB"
@@ -24131,7 +24131,7 @@ dataJSON = [{
   "dl": "2013-04-13",
   "goal": 1500,
   "laun": "2013-03-12 23:36:03",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -24143,7 +24143,7 @@ dataJSON = [{
   "dl": "2018-01-05",
   "goal": 50000,
   "laun": "2017-11-21 19:07:59",
-  "pled": 1.11,
+  "pledged": 1.11,
   "state": "live",
   "backers": 1,
   "country": "US"
@@ -24155,7 +24155,7 @@ dataJSON = [{
   "dl": "2013-12-08",
   "goal": 8000,
   "laun": "2013-11-18 13:56:31",
-  "pled": 11450,
+  "pledged": 11450,
   "state": "successful",
   "backers": 528,
   "country": "US"
@@ -24167,7 +24167,7 @@ dataJSON = [{
   "dl": "2012-01-28",
   "goal": 3000,
   "laun": "2011-12-01 22:53:40",
-  "pled": 3080,
+  "pledged": 3080,
   "state": "successful",
   "backers": 67,
   "country": "US"
@@ -24179,7 +24179,7 @@ dataJSON = [{
   "dl": "2013-12-08",
   "goal": 35000,
   "laun": "2013-10-28 23:31:12",
-  "pled": 1768,
+  "pledged": 1768,
   "state": "failed",
   "backers": 52,
   "country": "CA"
@@ -24191,7 +24191,7 @@ dataJSON = [{
   "dl": "2012-09-12",
   "goal": 900,
   "laun": "2012-08-08 22:42:05",
-  "pled": 1249,
+  "pledged": 1249,
   "state": "successful",
   "backers": 24,
   "country": "US"
@@ -24203,7 +24203,7 @@ dataJSON = [{
   "dl": "2015-06-05",
   "goal": 1200,
   "laun": "2015-05-11 19:07:31",
-  "pled": 43,
+  "pledged": 43,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -24215,7 +24215,7 @@ dataJSON = [{
   "dl": "2012-03-15",
   "goal": 8500,
   "laun": "2012-02-14 05:05:36",
-  "pled": 78,
+  "pledged": 78,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -24227,7 +24227,7 @@ dataJSON = [{
   "dl": "2015-01-08",
   "goal": 20000,
   "laun": "2014-12-09 01:00:41",
-  "pled": 4711,
+  "pledged": 4711,
   "state": "failed",
   "backers": 90,
   "country": "US"
@@ -24239,7 +24239,7 @@ dataJSON = [{
   "dl": "2014-08-29",
   "goal": 13090,
   "laun": "2014-08-05 01:39:14",
-  "pled": 1035,
+  "pledged": 1035,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -24251,7 +24251,7 @@ dataJSON = [{
   "dl": "2014-02-23",
   "goal": 2000,
   "laun": "2014-01-24 07:23:12",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -24263,7 +24263,7 @@ dataJSON = [{
   "dl": "2011-05-18",
   "goal": 10000,
   "laun": "2011-02-16 05:47:36",
-  "pled": 10757,
+  "pledged": 10757,
   "state": "successful",
   "backers": 96,
   "country": "US"
@@ -24275,7 +24275,7 @@ dataJSON = [{
   "dl": "2017-02-01",
   "goal": 5000,
   "laun": "2017-01-10 03:28:22",
-  "pled": 118528,
+  "pledged": 118528,
   "state": "successful",
   "backers": 860,
   "country": "US"
@@ -24287,7 +24287,7 @@ dataJSON = [{
   "dl": "2013-08-24",
   "goal": 5000,
   "laun": "2013-07-23 20:51:25",
-  "pled": 180,
+  "pledged": 180,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -24299,7 +24299,7 @@ dataJSON = [{
   "dl": "2011-11-09",
   "goal": 2000,
   "laun": "2011-09-20 06:26:55",
-  "pled": 2009,
+  "pledged": 2009,
   "state": "successful",
   "backers": 67,
   "country": "US"
@@ -24311,7 +24311,7 @@ dataJSON = [{
   "dl": "2011-10-24",
   "goal": 4000,
   "laun": "2011-09-18 00:04:39",
-  "pled": 4490,
+  "pledged": 4490,
   "state": "successful",
   "backers": 47,
   "country": "US"
@@ -24323,7 +24323,7 @@ dataJSON = [{
   "dl": "2016-03-07",
   "goal": 1500,
   "laun": "2016-02-16 17:52:43",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -24335,7 +24335,7 @@ dataJSON = [{
   "dl": "2014-09-19",
   "goal": 222000,
   "laun": "2014-08-05 21:25:38",
-  "pled": 20,
+  "pledged": 20,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -24347,7 +24347,7 @@ dataJSON = [{
   "dl": "2011-02-13",
   "goal": 2000,
   "laun": "2011-01-14 06:03:53",
-  "pled": 2415,
+  "pledged": 2415,
   "state": "successful",
   "backers": 66,
   "country": "US"
@@ -24359,7 +24359,7 @@ dataJSON = [{
   "dl": "2017-12-02",
   "goal": 10000,
   "laun": "2017-10-18 00:30:39",
-  "pled": 6111,
+  "pledged": 6111,
   "state": "failed",
   "backers": 39,
   "country": "US"
@@ -24371,7 +24371,7 @@ dataJSON = [{
   "dl": "2015-08-21",
   "goal": 50000,
   "laun": "2015-07-22 16:56:53",
-  "pled": 350,
+  "pledged": 350,
   "state": "failed",
   "backers": 11,
   "country": "US"
@@ -24383,7 +24383,7 @@ dataJSON = [{
   "dl": "2014-07-02",
   "goal": 1300,
   "laun": "2014-05-08 18:53:24",
-  "pled": 1316,
+  "pledged": 1316,
   "state": "successful",
   "backers": 20,
   "country": "US"
@@ -24395,7 +24395,7 @@ dataJSON = [{
   "dl": "2017-10-01",
   "goal": 5000,
   "laun": "2017-08-18 16:26:55",
-  "pled": 5811,
+  "pledged": 5811,
   "state": "successful",
   "backers": 55,
   "country": "US"
@@ -24407,7 +24407,7 @@ dataJSON = [{
   "dl": "2012-10-19",
   "goal": 50000,
   "laun": "2012-09-19 10:31:00",
-  "pled": 2569.11,
+  "pledged": 2569.11,
   "state": "failed",
   "backers": 51,
   "country": "US"
@@ -24419,7 +24419,7 @@ dataJSON = [{
   "dl": "2016-12-07",
   "goal": 16500,
   "laun": "2016-11-07 17:31:27",
-  "pled": 266,
+  "pledged": 266,
   "state": "failed",
   "backers": 7,
   "country": "DE"
@@ -24431,7 +24431,7 @@ dataJSON = [{
   "dl": "2014-08-09",
   "goal": 10000000,
   "laun": "2014-07-10 06:11:48",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -24443,7 +24443,7 @@ dataJSON = [{
   "dl": "2017-03-01",
   "goal": 15000,
   "laun": "2017-02-01 19:25:58",
-  "pled": 4989,
+  "pledged": 4989,
   "state": "canceled",
   "backers": 206,
   "country": "US"
@@ -24455,7 +24455,7 @@ dataJSON = [{
   "dl": "2014-10-09",
   "goal": 4250,
   "laun": "2014-09-09 01:59:46",
-  "pled": 111,
+  "pledged": 111,
   "state": "failed",
   "backers": 3,
   "country": "CA"
@@ -24467,7 +24467,7 @@ dataJSON = [{
   "dl": "2013-12-15",
   "goal": 500,
   "laun": "2013-12-11 01:55:19",
-  "pled": 207,
+  "pledged": 207,
   "state": "failed",
   "backers": 9,
   "country": "US"
@@ -24479,7 +24479,7 @@ dataJSON = [{
   "dl": "2013-07-16",
   "goal": 100000,
   "laun": "2013-05-17 16:17:16",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -24491,7 +24491,7 @@ dataJSON = [{
   "dl": "2015-04-18",
   "goal": 5000,
   "laun": "2015-03-19 18:13:58",
-  "pled": 5001,
+  "pledged": 5001,
   "state": "successful",
   "backers": 68,
   "country": "US"
@@ -24503,7 +24503,7 @@ dataJSON = [{
   "dl": "2015-11-29",
   "goal": 60000,
   "laun": "2015-10-30 19:26:34",
-  "pled": 35,
+  "pledged": 35,
   "state": "canceled",
   "backers": 3,
   "country": "US"
@@ -24515,7 +24515,7 @@ dataJSON = [{
   "dl": "2012-10-01",
   "goal": 3000,
   "laun": "2012-08-29 19:41:23",
-  "pled": 3205,
+  "pledged": 3205,
   "state": "successful",
   "backers": 42,
   "country": "US"
@@ -24527,7 +24527,7 @@ dataJSON = [{
   "dl": "2016-04-07",
   "goal": 20000,
   "laun": "2016-03-08 07:11:36",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -24539,7 +24539,7 @@ dataJSON = [{
   "dl": "2017-04-14",
   "goal": 2500,
   "laun": "2017-03-14 14:35:10",
-  "pled": 9125,
+  "pledged": 9125,
   "state": "successful",
   "backers": 333,
   "country": "US"
@@ -24551,7 +24551,7 @@ dataJSON = [{
   "dl": "2014-07-24",
   "goal": 1125,
   "laun": "2014-06-24 15:00:19",
-  "pled": 70,
+  "pledged": 70,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -24563,7 +24563,7 @@ dataJSON = [{
   "dl": "2013-12-22",
   "goal": 2500,
   "laun": "2013-11-22 18:30:26",
-  "pled": 2525,
+  "pledged": 2525,
   "state": "successful",
   "backers": 26,
   "country": "GB"
@@ -24575,7 +24575,7 @@ dataJSON = [{
   "dl": "2017-07-20",
   "goal": 16000,
   "laun": "2017-06-15 20:05:48",
-  "pled": 54830,
+  "pledged": 54830,
   "state": "successful",
   "backers": 286,
   "country": "FR"
@@ -24587,7 +24587,7 @@ dataJSON = [{
   "dl": "2016-11-28",
   "goal": 4000,
   "laun": "2016-10-24 16:18:56",
-  "pled": 4100,
+  "pledged": 4100,
   "state": "successful",
   "backers": 102,
   "country": "US"
@@ -24599,7 +24599,7 @@ dataJSON = [{
   "dl": "2015-09-13",
   "goal": 500,
   "laun": "2015-08-29 03:47:59",
-  "pled": 540,
+  "pledged": 540,
   "state": "successful",
   "backers": 16,
   "country": "US"
@@ -24611,7 +24611,7 @@ dataJSON = [{
   "dl": "2013-09-25",
   "goal": 230,
   "laun": "2013-09-10 00:35:50",
-  "pled": 90,
+  "pledged": 90,
   "state": "failed",
   "backers": 11,
   "country": "US"
@@ -24623,7 +24623,7 @@ dataJSON = [{
   "dl": "2015-02-03",
   "goal": 1000,
   "laun": "2014-12-05 16:29:35",
-  "pled": 123,
+  "pledged": 123,
   "state": "failed",
   "backers": 6,
   "country": "CA"
@@ -24635,7 +24635,7 @@ dataJSON = [{
   "dl": "2015-02-10",
   "goal": 1800,
   "laun": "2015-01-11 04:17:33",
-  "pled": 2826,
+  "pledged": 2826,
   "state": "successful",
   "backers": 102,
   "country": "US"
@@ -24647,7 +24647,7 @@ dataJSON = [{
   "dl": "2011-08-12",
   "goal": 3000,
   "laun": "2011-07-13 07:42:05",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -24659,7 +24659,7 @@ dataJSON = [{
   "dl": "2014-06-05",
   "goal": 7500,
   "laun": "2014-05-06 20:22:41",
-  "pled": 20,
+  "pledged": 20,
   "state": "failed",
   "backers": 1,
   "country": "NL"
@@ -24671,7 +24671,7 @@ dataJSON = [{
   "dl": "2010-04-15",
   "goal": 525,
   "laun": "2010-02-17 18:12:21",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -24683,7 +24683,7 @@ dataJSON = [{
   "dl": "2014-12-03",
   "goal": 500,
   "laun": "2014-11-03 20:06:51",
-  "pled": 80,
+  "pledged": 80,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -24695,7 +24695,7 @@ dataJSON = [{
   "dl": "2014-08-26",
   "goal": 50000,
   "laun": "2014-06-27 03:36:04",
-  "pled": 21492.66,
+  "pledged": 21492.66,
   "state": "failed",
   "backers": 216,
   "country": "US"
@@ -24707,7 +24707,7 @@ dataJSON = [{
   "dl": "2018-01-27",
   "goal": 7500,
   "laun": "2017-12-28 17:18:52",
-  "pled": 450,
+  "pledged": 450,
   "state": "live",
   "backers": 8,
   "country": "US"
@@ -24719,7 +24719,7 @@ dataJSON = [{
   "dl": "2015-12-27",
   "goal": 300000,
   "laun": "2015-10-28 14:41:43",
-  "pled": 5,
+  "pledged": 5,
   "state": "failed",
   "backers": 1,
   "country": "GB"
@@ -24731,7 +24731,7 @@ dataJSON = [{
   "dl": "2013-07-17",
   "goal": 7000,
   "laun": "2013-06-17 19:54:44",
-  "pled": 11207,
+  "pledged": 11207,
   "state": "successful",
   "backers": 112,
   "country": "US"
@@ -24743,7 +24743,7 @@ dataJSON = [{
   "dl": "2016-07-26",
   "goal": 250000,
   "laun": "2016-07-16 00:35:21",
-  "pled": 501,
+  "pledged": 501,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -24755,7 +24755,7 @@ dataJSON = [{
   "dl": "2014-12-28",
   "goal": 232,
   "laun": "2014-12-10 14:21:04",
-  "pled": 232,
+  "pledged": 232,
   "state": "successful",
   "backers": 9,
   "country": "US"
@@ -24767,7 +24767,7 @@ dataJSON = [{
   "dl": "2014-11-11",
   "goal": 4430,
   "laun": "2014-10-27 16:20:22",
-  "pled": 4445,
+  "pledged": 4445,
   "state": "successful",
   "backers": 47,
   "country": "US"
@@ -24779,7 +24779,7 @@ dataJSON = [{
   "dl": "2014-03-22",
   "goal": 15000,
   "laun": "2014-02-05 03:19:07",
-  "pled": 85,
+  "pledged": 85,
   "state": "failed",
   "backers": 13,
   "country": "US"
@@ -24791,7 +24791,7 @@ dataJSON = [{
   "dl": "2016-11-10",
   "goal": 2500,
   "laun": "2016-10-11 18:09:15",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -24803,7 +24803,7 @@ dataJSON = [{
   "dl": "2015-06-11",
   "goal": 400,
   "laun": "2015-05-12 15:45:28",
-  "pled": 401,
+  "pledged": 401,
   "state": "successful",
   "backers": 6,
   "country": "NL"
@@ -24815,7 +24815,7 @@ dataJSON = [{
   "dl": "2012-11-09",
   "goal": 1000,
   "laun": "2012-10-10 01:07:22",
-  "pled": 1240,
+  "pledged": 1240,
   "state": "successful",
   "backers": 22,
   "country": "US"
@@ -24827,7 +24827,7 @@ dataJSON = [{
   "dl": "2012-02-20",
   "goal": 5000,
   "laun": "2012-01-21 15:40:52",
-  "pled": 250,
+  "pledged": 250,
   "state": "failed",
   "backers": 8,
   "country": "US"
@@ -24839,7 +24839,7 @@ dataJSON = [{
   "dl": "2013-11-15",
   "goal": 25000,
   "laun": "2013-10-16 18:18:24",
-  "pled": 27,
+  "pledged": 27,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -24851,7 +24851,7 @@ dataJSON = [{
   "dl": "2012-03-26",
   "goal": 2000,
   "laun": "2012-02-25 23:44:55",
-  "pled": 2246,
+  "pledged": 2246,
   "state": "successful",
   "backers": 35,
   "country": "US"
@@ -24863,7 +24863,7 @@ dataJSON = [{
   "dl": "2014-11-11",
   "goal": 50000,
   "laun": "2014-10-12 16:10:03",
-  "pled": 10,
+  "pledged": 10,
   "state": "canceled",
   "backers": 2,
   "country": "CA"
@@ -24875,7 +24875,7 @@ dataJSON = [{
   "dl": "2014-03-14",
   "goal": 10000,
   "laun": "2014-01-13 19:20:13",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -24887,7 +24887,7 @@ dataJSON = [{
   "dl": "2016-04-18",
   "goal": 3800,
   "laun": "2016-03-16 16:18:04",
-  "pled": 3831.15,
+  "pledged": 3831.15,
   "state": "successful",
   "backers": 96,
   "country": "US"
@@ -24899,7 +24899,7 @@ dataJSON = [{
   "dl": "2012-12-15",
   "goal": 6000,
   "laun": "2012-11-15 00:52:43",
-  "pled": 6675.01,
+  "pledged": 6675.01,
   "state": "successful",
   "backers": 80,
   "country": "US"
@@ -24911,7 +24911,7 @@ dataJSON = [{
   "dl": "2011-02-01",
   "goal": 700,
   "laun": "2010-11-03 04:09:39",
-  "pled": 45,
+  "pledged": 45,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -24923,7 +24923,7 @@ dataJSON = [{
   "dl": "2017-07-31",
   "goal": 5000,
   "laun": "2017-07-01 16:42:08",
-  "pled": 593,
+  "pledged": 593,
   "state": "failed",
   "backers": 8,
   "country": "US"
@@ -24935,7 +24935,7 @@ dataJSON = [{
   "dl": "2017-09-29",
   "goal": 300,
   "laun": "2017-08-31 18:09:46",
-  "pled": 818,
+  "pledged": 818,
   "state": "successful",
   "backers": 72,
   "country": "GB"
@@ -24947,7 +24947,7 @@ dataJSON = [{
   "dl": "2013-10-17",
   "goal": 10000,
   "laun": "2013-09-17 17:31:25",
-  "pled": 150,
+  "pledged": 150,
   "state": "canceled",
   "backers": 2,
   "country": "US"
@@ -24959,7 +24959,7 @@ dataJSON = [{
   "dl": "2016-08-27",
   "goal": 21450,
   "laun": "2016-07-27 16:25:18",
-  "pled": 22241,
+  "pledged": 22241,
   "state": "successful",
   "backers": 671,
   "country": "GB"
@@ -24971,7 +24971,7 @@ dataJSON = [{
   "dl": "2014-11-20",
   "goal": 8000,
   "laun": "2014-10-23 20:58:57",
-  "pled": 16311.37,
+  "pledged": 16311.37,
   "state": "successful",
   "backers": 358,
   "country": "US"
@@ -24983,7 +24983,7 @@ dataJSON = [{
   "dl": "2012-04-16",
   "goal": 8000,
   "laun": "2012-03-17 22:05:20",
-  "pled": 9730,
+  "pledged": 9730,
   "state": "successful",
   "backers": 189,
   "country": "US"
@@ -24995,7 +24995,7 @@ dataJSON = [{
   "dl": "2014-03-25",
   "goal": 100000,
   "laun": "2014-01-25 00:36:00",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -25007,7 +25007,7 @@ dataJSON = [{
   "dl": "2014-06-19",
   "goal": 15000,
   "laun": "2014-05-17 11:34:36",
-  "pled": 18174.55,
+  "pledged": 18174.55,
   "state": "successful",
   "backers": 138,
   "country": "US"
@@ -25019,7 +25019,7 @@ dataJSON = [{
   "dl": "2015-03-30",
   "goal": 10000,
   "laun": "2015-03-08 01:13:07",
-  "pled": 10483,
+  "pledged": 10483,
   "state": "successful",
   "backers": 166,
   "country": "US"
@@ -25031,7 +25031,7 @@ dataJSON = [{
   "dl": "2017-04-27",
   "goal": 4000,
   "laun": "2017-03-29 17:04:52",
-  "pled": 1578,
+  "pledged": 1578,
   "state": "failed",
   "backers": 54,
   "country": "IT"
@@ -25043,7 +25043,7 @@ dataJSON = [{
   "dl": "2017-06-20",
   "goal": 5000,
   "laun": "2017-05-16 07:43:00",
-  "pled": 1540,
+  "pledged": 1540,
   "state": "failed",
   "backers": 15,
   "country": "CA"
@@ -25055,7 +25055,7 @@ dataJSON = [{
   "dl": "2012-02-19",
   "goal": 9000,
   "laun": "2012-01-20 19:08:36",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -25067,7 +25067,7 @@ dataJSON = [{
   "dl": "2014-04-12",
   "goal": 10000,
   "laun": "2014-03-13 20:09:39",
-  "pled": 12,
+  "pledged": 12,
   "state": "failed",
   "backers": 1,
   "country": "GB"
@@ -25079,7 +25079,7 @@ dataJSON = [{
   "dl": "2015-08-20",
   "goal": 2000,
   "laun": "2015-07-06 19:50:41",
-  "pled": 2100,
+  "pledged": 2100,
   "state": "successful",
   "backers": 31,
   "country": "US"
@@ -25091,7 +25091,7 @@ dataJSON = [{
   "dl": "2014-03-12",
   "goal": 6000,
   "laun": "2014-01-22 21:46:00",
-  "pled": 2355,
+  "pledged": 2355,
   "state": "failed",
   "backers": 30,
   "country": "US"
@@ -25103,7 +25103,7 @@ dataJSON = [{
   "dl": "2011-12-17",
   "goal": 13000,
   "laun": "2011-11-13 15:31:56",
-  "pled": 14325,
+  "pledged": 14325,
   "state": "successful",
   "backers": 149,
   "country": "US"
@@ -25115,7 +25115,7 @@ dataJSON = [{
   "dl": "2017-11-28",
   "goal": 100,
   "laun": "2017-11-24 14:06:07",
-  "pled": 1969.82,
+  "pledged": 1969.82,
   "state": "successful",
   "backers": 684,
   "country": "US"
@@ -25127,7 +25127,7 @@ dataJSON = [{
   "dl": "2016-01-11",
   "goal": 8000,
   "laun": "2015-11-12 17:50:09",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -25139,7 +25139,7 @@ dataJSON = [{
   "dl": "2014-07-23",
   "goal": 18000,
   "laun": "2014-06-23 22:38:04",
-  "pled": 827,
+  "pledged": 827,
   "state": "failed",
   "backers": 18,
   "country": "US"
@@ -25151,7 +25151,7 @@ dataJSON = [{
   "dl": "2016-03-04",
   "goal": 5000,
   "laun": "2016-01-04 17:53:38",
-  "pled": 100,
+  "pledged": 100,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -25163,7 +25163,7 @@ dataJSON = [{
   "dl": "2016-06-02",
   "goal": 8000,
   "laun": "2016-05-03 23:12:48",
-  "pled": 8500,
+  "pledged": 8500,
   "state": "successful",
   "backers": 57,
   "country": "FR"
@@ -25175,7 +25175,7 @@ dataJSON = [{
   "dl": "2015-12-11",
   "goal": 300000,
   "laun": "2015-11-11 20:36:33",
-  "pled": 29588,
+  "pledged": 29588,
   "state": "failed",
   "backers": 28,
   "country": "SE"
@@ -25187,7 +25187,7 @@ dataJSON = [{
   "dl": "2015-11-27",
   "goal": 5000,
   "laun": "2015-10-28 12:48:33",
-  "pled": 11,
+  "pledged": 11,
   "state": "failed",
   "backers": 3,
   "country": "GB"
@@ -25199,7 +25199,7 @@ dataJSON = [{
   "dl": "2018-01-17",
   "goal": 32000,
   "laun": "2017-12-18 20:26:07",
-  "pled": 43573,
+  "pledged": 43573,
   "state": "live",
   "backers": 85,
   "country": "HK"
@@ -25211,7 +25211,7 @@ dataJSON = [{
   "dl": "2012-11-10",
   "goal": 34500,
   "laun": "2012-10-11 22:32:18",
-  "pled": 2696,
+  "pledged": 2696,
   "state": "failed",
   "backers": 55,
   "country": "US"
@@ -25223,7 +25223,7 @@ dataJSON = [{
   "dl": "2014-06-08",
   "goal": 1000,
   "laun": "2014-05-09 02:40:47",
-  "pled": 1050,
+  "pledged": 1050,
   "state": "successful",
   "backers": 32,
   "country": "US"
@@ -25235,7 +25235,7 @@ dataJSON = [{
   "dl": "2016-10-02",
   "goal": 2222,
   "laun": "2016-09-02 18:09:06",
-  "pled": 2896,
+  "pledged": 2896,
   "state": "successful",
   "backers": 331,
   "country": "GB"
@@ -25247,7 +25247,7 @@ dataJSON = [{
   "dl": "2013-07-26",
   "goal": 20000,
   "laun": "2013-06-11 22:10:38",
-  "pled": 575,
+  "pledged": 575,
   "state": "failed",
   "backers": 25,
   "country": "US"
@@ -25259,7 +25259,7 @@ dataJSON = [{
   "dl": "2014-09-03",
   "goal": 15000,
   "laun": "2014-08-04 20:03:22",
-  "pled": 494,
+  "pledged": 494,
   "state": "failed",
   "backers": 11,
   "country": "US"
@@ -25271,7 +25271,7 @@ dataJSON = [{
   "dl": "2014-07-09",
   "goal": 15000,
   "laun": "2014-06-19 07:53:47",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "CA"
@@ -25283,7 +25283,7 @@ dataJSON = [{
   "dl": "2016-11-03",
   "goal": 35000,
   "laun": "2016-09-19 13:07:44",
-  "pled": 6216,
+  "pledged": 6216,
   "state": "failed",
   "backers": 27,
   "country": "US"
@@ -25295,7 +25295,7 @@ dataJSON = [{
   "dl": "2017-01-11",
   "goal": 30000,
   "laun": "2016-11-27 14:00:26",
-  "pled": 32946,
+  "pledged": 32946,
   "state": "successful",
   "backers": 107,
   "country": "AU"
@@ -25307,7 +25307,7 @@ dataJSON = [{
   "dl": "2017-03-07",
   "goal": 106000,
   "laun": "2017-02-02 15:43:14",
-  "pled": 109411.66,
+  "pledged": 109411.66,
   "state": "successful",
   "backers": 70,
   "country": "MX"
@@ -25319,7 +25319,7 @@ dataJSON = [{
   "dl": "2015-05-01",
   "goal": 5000,
   "laun": "2015-04-02 05:49:37",
-  "pled": 7027,
+  "pledged": 7027,
   "state": "successful",
   "backers": 66,
   "country": "US"
@@ -25331,7 +25331,7 @@ dataJSON = [{
   "dl": "2017-02-01",
   "goal": 5000,
   "laun": "2017-01-02 22:54:19",
-  "pled": 50,
+  "pledged": 50,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -25343,7 +25343,7 @@ dataJSON = [{
   "dl": "2017-12-05",
   "goal": 1500,
   "laun": "2017-10-11 18:06:51",
-  "pled": 1784,
+  "pledged": 1784,
   "state": "successful",
   "backers": 28,
   "country": "US"
@@ -25355,7 +25355,7 @@ dataJSON = [{
   "dl": "2015-08-12",
   "goal": 700,
   "laun": "2015-07-13 18:48:23",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "GB"
@@ -25367,7 +25367,7 @@ dataJSON = [{
   "dl": "2016-05-04",
   "goal": 1200,
   "laun": "2016-04-04 16:34:05",
-  "pled": 1493,
+  "pledged": 1493,
   "state": "successful",
   "backers": 17,
   "country": "GB"
@@ -25379,7 +25379,7 @@ dataJSON = [{
   "dl": "2016-03-14",
   "goal": 29500,
   "laun": "2016-01-14 18:44:02",
-  "pled": 1483,
+  "pledged": 1483,
   "state": "canceled",
   "backers": 30,
   "country": "AU"
@@ -25391,7 +25391,7 @@ dataJSON = [{
   "dl": "2017-05-05",
   "goal": 4000,
   "laun": "2017-04-05 16:29:25",
-  "pled": 5771,
+  "pledged": 5771,
   "state": "successful",
   "backers": 247,
   "country": "US"
@@ -25403,7 +25403,7 @@ dataJSON = [{
   "dl": "2016-02-28",
   "goal": 5500,
   "laun": "2016-01-29 03:38:53",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -25415,7 +25415,7 @@ dataJSON = [{
   "dl": "2017-10-19",
   "goal": 1500,
   "laun": "2017-10-04 22:47:35",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -25427,7 +25427,7 @@ dataJSON = [{
   "dl": "2011-05-11",
   "goal": 3000,
   "laun": "2011-04-11 12:40:23",
-  "pled": 4715,
+  "pledged": 4715,
   "state": "successful",
   "backers": 82,
   "country": "US"
@@ -25439,7 +25439,7 @@ dataJSON = [{
   "dl": "2017-02-27",
   "goal": 1000,
   "laun": "2017-01-28 01:46:04",
-  "pled": 39112,
+  "pledged": 39112,
   "state": "successful",
   "backers": 339,
   "country": "US"
@@ -25451,7 +25451,7 @@ dataJSON = [{
   "dl": "2015-06-29",
   "goal": 10000,
   "laun": "2015-05-30 23:01:17",
-  "pled": 83,
+  "pledged": 83,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -25463,7 +25463,7 @@ dataJSON = [{
   "dl": "2011-02-03",
   "goal": 2100,
   "laun": "2010-12-22 01:41:29",
-  "pled": 625,
+  "pledged": 625,
   "state": "failed",
   "backers": 14,
   "country": "US"
@@ -25475,7 +25475,7 @@ dataJSON = [{
   "dl": "2012-10-26",
   "goal": 3000,
   "laun": "2012-09-26 19:20:29",
-  "pled": 3262,
+  "pledged": 3262,
   "state": "successful",
   "backers": 51,
   "country": "US"
@@ -25487,7 +25487,7 @@ dataJSON = [{
   "dl": "2014-04-03",
   "goal": 1700,
   "laun": "2014-03-04 14:52:09",
-  "pled": 1700,
+  "pledged": 1700,
   "state": "successful",
   "backers": 28,
   "country": "US"
@@ -25499,7 +25499,7 @@ dataJSON = [{
   "dl": "2015-05-04",
   "goal": 10000,
   "laun": "2015-04-14 03:53:13",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -25511,7 +25511,7 @@ dataJSON = [{
   "dl": "2016-05-06",
   "goal": 30000,
   "laun": "2016-04-05 14:45:37",
-  "pled": 189714.7,
+  "pledged": 189714.7,
   "state": "successful",
   "backers": 2814,
   "country": "US"
@@ -25523,7 +25523,7 @@ dataJSON = [{
   "dl": "2013-12-03",
   "goal": 7000,
   "laun": "2013-11-08 23:08:07",
-  "pled": 1100,
+  "pledged": 1100,
   "state": "failed",
   "backers": 15,
   "country": "US"
@@ -25535,7 +25535,7 @@ dataJSON = [{
   "dl": "2014-03-05",
   "goal": 1200,
   "laun": "2014-02-03 21:54:12",
-  "pled": 345,
+  "pledged": 345,
   "state": "failed",
   "backers": 8,
   "country": "US"
@@ -25547,7 +25547,7 @@ dataJSON = [{
   "dl": "2011-03-10",
   "goal": 2000,
   "laun": "2011-01-19 19:01:45",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -25559,7 +25559,7 @@ dataJSON = [{
   "dl": "2011-07-02",
   "goal": 1000,
   "laun": "2011-05-29 23:23:05",
-  "pled": 1026,
+  "pledged": 1026,
   "state": "successful",
   "backers": 21,
   "country": "US"
@@ -25571,7 +25571,7 @@ dataJSON = [{
   "dl": "2015-05-09",
   "goal": 5000,
   "laun": "2015-04-09 03:39:53",
-  "pled": 15,
+  "pledged": 15,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -25583,7 +25583,7 @@ dataJSON = [{
   "dl": "2017-06-02",
   "goal": 2000,
   "laun": "2017-04-18 15:03:33",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -25595,7 +25595,7 @@ dataJSON = [{
   "dl": "2016-11-11",
   "goal": 350,
   "laun": "2016-10-28 00:22:13",
-  "pled": 376,
+  "pledged": 376,
   "state": "successful",
   "backers": 16,
   "country": "US"
@@ -25607,7 +25607,7 @@ dataJSON = [{
   "dl": "2013-11-24",
   "goal": 5000,
   "laun": "2013-10-26 17:50:27",
-  "pled": 46,
+  "pledged": 46,
   "state": "failed",
   "backers": 3,
   "country": "GB"
@@ -25619,7 +25619,7 @@ dataJSON = [{
   "dl": "2015-10-11",
   "goal": 12000,
   "laun": "2015-09-11 17:30:58",
-  "pled": 550,
+  "pledged": 550,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -25631,7 +25631,7 @@ dataJSON = [{
   "dl": "2012-06-01",
   "goal": 250000,
   "laun": "2012-05-01 20:49:58",
-  "pled": 23680.54,
+  "pledged": 23680.54,
   "state": "failed",
   "backers": 409,
   "country": "US"
@@ -25643,7 +25643,7 @@ dataJSON = [{
   "dl": "2012-06-23",
   "goal": 5000,
   "laun": "2012-04-24 06:07:15",
-  "pled": 315,
+  "pledged": 315,
   "state": "failed",
   "backers": 8,
   "country": "US"
@@ -25655,7 +25655,7 @@ dataJSON = [{
   "dl": "2013-02-03",
   "goal": 2000,
   "laun": "2012-12-05 19:49:52",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -25667,7 +25667,7 @@ dataJSON = [{
   "dl": "2017-06-30",
   "goal": 30000,
   "laun": "2017-05-21 01:00:07",
-  "pled": 526,
+  "pledged": 526,
   "state": "failed",
   "backers": 2,
   "country": "MX"
@@ -25679,7 +25679,7 @@ dataJSON = [{
   "dl": "2013-08-07",
   "goal": 5000,
   "laun": "2013-06-26 21:12:31",
-  "pled": 77,
+  "pledged": 77,
   "state": "failed",
   "backers": 10,
   "country": "US"
@@ -25691,7 +25691,7 @@ dataJSON = [{
   "dl": "2012-02-23",
   "goal": 1200,
   "laun": "2012-01-24 06:55:38",
-  "pled": 2002,
+  "pledged": 2002,
   "state": "successful",
   "backers": 48,
   "country": "US"
@@ -25703,7 +25703,7 @@ dataJSON = [{
   "dl": "2011-05-31",
   "goal": 20000,
   "laun": "2011-04-11 23:55:23",
-  "pled": 4945,
+  "pledged": 4945,
   "state": "canceled",
   "backers": 52,
   "country": "US"
@@ -25715,7 +25715,7 @@ dataJSON = [{
   "dl": "2017-07-24",
   "goal": 10000,
   "laun": "2017-05-25 20:40:53",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -25727,7 +25727,7 @@ dataJSON = [{
   "dl": "2014-07-13",
   "goal": 30000,
   "laun": "2014-06-13 02:54:26",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -25739,7 +25739,7 @@ dataJSON = [{
   "dl": "2012-03-14",
   "goal": 1000,
   "laun": "2012-02-09 02:00:49",
-  "pled": 1006,
+  "pledged": 1006,
   "state": "successful",
   "backers": 19,
   "country": "US"
@@ -25751,7 +25751,7 @@ dataJSON = [{
   "dl": "2017-12-15",
   "goal": 1000,
   "laun": "2017-12-14 09:01:39",
-  "pled": 9244,
+  "pledged": 9244,
   "state": "successful",
   "backers": 59,
   "country": "US"
@@ -25763,7 +25763,7 @@ dataJSON = [{
   "dl": "2014-08-04",
   "goal": 5000,
   "laun": "2014-06-21 13:57:02",
-  "pled": 75,
+  "pledged": 75,
   "state": "canceled",
   "backers": 2,
   "country": "GB"
@@ -25775,7 +25775,7 @@ dataJSON = [{
   "dl": "2011-11-21",
   "goal": 5000,
   "laun": "2011-10-15 04:15:26",
-  "pled": 46,
+  "pledged": 46,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -25787,7 +25787,7 @@ dataJSON = [{
   "dl": "2017-10-26",
   "goal": 15000,
   "laun": "2017-09-26 12:44:46",
-  "pled": 38,
+  "pledged": 38,
   "state": "failed",
   "backers": 7,
   "country": "IT"
@@ -25799,7 +25799,7 @@ dataJSON = [{
   "dl": "2013-12-17",
   "goal": 6500,
   "laun": "2013-11-14 00:21:25",
-  "pled": 6696,
+  "pledged": 6696,
   "state": "successful",
   "backers": 26,
   "country": "US"
@@ -25811,7 +25811,7 @@ dataJSON = [{
   "dl": "2016-04-09",
   "goal": 15000,
   "laun": "2016-03-08 17:28:48",
-  "pled": 15352,
+  "pledged": 15352,
   "state": "successful",
   "backers": 107,
   "country": "US"
@@ -25823,7 +25823,7 @@ dataJSON = [{
   "dl": "2016-05-07",
   "goal": 25000,
   "laun": "2016-04-07 12:00:53",
-  "pled": 471,
+  "pledged": 471,
   "state": "failed",
   "backers": 13,
   "country": "US"
@@ -25835,7 +25835,7 @@ dataJSON = [{
   "dl": "2015-09-08",
   "goal": 10500,
   "laun": "2015-08-08 21:19:49",
-  "pled": 10765,
+  "pledged": 10765,
   "state": "successful",
   "backers": 142,
   "country": "US"
@@ -25847,7 +25847,7 @@ dataJSON = [{
   "dl": "2016-04-07",
   "goal": 15000,
   "laun": "2016-02-22 09:05:12",
-  "pled": 12924,
+  "pledged": 12924,
   "state": "failed",
   "backers": 125,
   "country": "DE"
@@ -25859,7 +25859,7 @@ dataJSON = [{
   "dl": "2016-05-03",
   "goal": 15000,
   "laun": "2016-03-29 02:08:13",
-  "pled": 452,
+  "pledged": 452,
   "state": "failed",
   "backers": 6,
   "country": "AU"
@@ -25871,7 +25871,7 @@ dataJSON = [{
   "dl": "2016-04-05",
   "goal": 6600,
   "laun": "2016-02-25 23:16:41",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -25883,7 +25883,7 @@ dataJSON = [{
   "dl": "2016-01-07",
   "goal": 1000,
   "laun": "2015-11-18 02:42:50",
-  "pled": 999,
+  "pledged": 999,
   "state": "failed",
   "backers": 1,
   "country": "AU"
@@ -25895,7 +25895,7 @@ dataJSON = [{
   "dl": "2012-10-17",
   "goal": 350,
   "laun": "2012-09-20 19:24:08",
-  "pled": 371,
+  "pledged": 371,
   "state": "successful",
   "backers": 13,
   "country": "US"
@@ -25907,7 +25907,7 @@ dataJSON = [{
   "dl": "2015-06-30",
   "goal": 900,
   "laun": "2015-06-04 07:49:34",
-  "pled": 15,
+  "pledged": 15,
   "state": "failed",
   "backers": 3,
   "country": "AU"
@@ -25919,7 +25919,7 @@ dataJSON = [{
   "dl": "2018-01-13",
   "goal": 6500,
   "laun": "2017-12-14 01:22:37",
-  "pled": 0,
+  "pledged": 0,
   "state": "live",
   "backers": 0,
   "country": "US"
@@ -25931,7 +25931,7 @@ dataJSON = [{
   "dl": "2010-11-04",
   "goal": 300,
   "laun": "2010-10-04 08:57:11",
-  "pled": 355,
+  "pledged": 355,
   "state": "successful",
   "backers": 9,
   "country": "US"
@@ -25943,7 +25943,7 @@ dataJSON = [{
   "dl": "2013-01-22",
   "goal": 4000,
   "laun": "2012-12-22 01:03:08",
-  "pled": 4000,
+  "pledged": 4000,
   "state": "successful",
   "backers": 28,
   "country": "US"
@@ -25955,7 +25955,7 @@ dataJSON = [{
   "dl": "2017-11-28",
   "goal": 5000,
   "laun": "2017-11-07 15:41:10",
-  "pled": 1544,
+  "pledged": 1544,
   "state": "failed",
   "backers": 39,
   "country": "US"
@@ -25967,7 +25967,7 @@ dataJSON = [{
   "dl": "2016-03-23",
   "goal": 1000,
   "laun": "2016-02-22 22:41:44",
-  "pled": 7006,
+  "pledged": 7006,
   "state": "successful",
   "backers": 81,
   "country": "US"
@@ -25979,7 +25979,7 @@ dataJSON = [{
   "dl": "2016-06-15",
   "goal": 40000,
   "laun": "2016-05-16 20:32:23",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -25991,7 +25991,7 @@ dataJSON = [{
   "dl": "2012-03-05",
   "goal": 10000,
   "laun": "2012-02-04 04:43:45",
-  "pled": 146,
+  "pledged": 146,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -26003,7 +26003,7 @@ dataJSON = [{
   "dl": "2013-08-28",
   "goal": 10000,
   "laun": "2013-07-29 22:20:45",
-  "pled": 10177,
+  "pledged": 10177,
   "state": "successful",
   "backers": 8,
   "country": "US"
@@ -26015,7 +26015,7 @@ dataJSON = [{
   "dl": "2010-03-11",
   "goal": 500,
   "laun": "2010-02-22 06:31:14",
-  "pled": 1779,
+  "pledged": 1779,
   "state": "successful",
   "backers": 110,
   "country": "US"
@@ -26027,7 +26027,7 @@ dataJSON = [{
   "dl": "2012-10-03",
   "goal": 12500,
   "laun": "2012-08-04 03:33:24",
-  "pled": 100,
+  "pledged": 100,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -26039,7 +26039,7 @@ dataJSON = [{
   "dl": "2015-10-06",
   "goal": 84617,
   "laun": "2015-09-05 17:51:19",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -26051,7 +26051,7 @@ dataJSON = [{
   "dl": "2013-03-10",
   "goal": 8000,
   "laun": "2013-02-08 00:12:33",
-  "pled": 300,
+  "pledged": 300,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -26063,7 +26063,7 @@ dataJSON = [{
   "dl": "2012-12-01",
   "goal": 170,
   "laun": "2012-11-01 18:05:48",
-  "pled": 276,
+  "pledged": 276,
   "state": "successful",
   "backers": 8,
   "country": "US"
@@ -26075,7 +26075,7 @@ dataJSON = [{
   "dl": "2014-07-04",
   "goal": 5000,
   "laun": "2014-06-04 04:02:50",
-  "pled": 1046,
+  "pledged": 1046,
   "state": "failed",
   "backers": 16,
   "country": "CA"
@@ -26087,7 +26087,7 @@ dataJSON = [{
   "dl": "2012-04-27",
   "goal": 1445,
   "laun": "2012-03-28 01:33:55",
-  "pled": 3150,
+  "pledged": 3150,
   "state": "successful",
   "backers": 21,
   "country": "US"
@@ -26099,7 +26099,7 @@ dataJSON = [{
   "dl": "2015-04-13",
   "goal": 8000,
   "laun": "2015-03-14 03:12:01",
-  "pled": 51,
+  "pledged": 51,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -26111,7 +26111,7 @@ dataJSON = [{
   "dl": "2014-10-23",
   "goal": 15000,
   "laun": "2014-09-23 22:23:02",
-  "pled": 15736,
+  "pledged": 15736,
   "state": "successful",
   "backers": 112,
   "country": "US"
@@ -26123,7 +26123,7 @@ dataJSON = [{
   "dl": "2011-09-15",
   "goal": 1000,
   "laun": "2011-07-17 23:52:57",
-  "pled": 1318,
+  "pledged": 1318,
   "state": "successful",
   "backers": 32,
   "country": "US"
@@ -26135,7 +26135,7 @@ dataJSON = [{
   "dl": "2015-04-29",
   "goal": 40000,
   "laun": "2015-03-15 22:31:48",
-  "pled": 74,
+  "pledged": 74,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -26147,7 +26147,7 @@ dataJSON = [{
   "dl": "2015-10-23",
   "goal": 25000,
   "laun": "2015-10-12 23:03:26",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -26159,7 +26159,7 @@ dataJSON = [{
   "dl": "2017-11-01",
   "goal": 850,
   "laun": "2017-10-18 17:06:26",
-  "pled": 4360,
+  "pledged": 4360,
   "state": "successful",
   "backers": 91,
   "country": "US"
@@ -26171,7 +26171,7 @@ dataJSON = [{
   "dl": "2011-07-04",
   "goal": 5000,
   "laun": "2011-05-05 12:20:24",
-  "pled": 36,
+  "pledged": 36,
   "state": "canceled",
   "backers": 3,
   "country": "US"
@@ -26183,7 +26183,7 @@ dataJSON = [{
   "dl": "2016-11-27",
   "goal": 200,
   "laun": "2016-11-07 18:10:15",
-  "pled": 3097,
+  "pledged": 3097,
   "state": "successful",
   "backers": 252,
   "country": "GB"
@@ -26195,7 +26195,7 @@ dataJSON = [{
   "dl": "2014-11-30",
   "goal": 39000,
   "laun": "2014-10-16 00:53:18",
-  "pled": 49475,
+  "pledged": 49475,
   "state": "successful",
   "backers": 160,
   "country": "US"
@@ -26207,7 +26207,7 @@ dataJSON = [{
   "dl": "2013-02-04",
   "goal": 6000,
   "laun": "2013-01-23 23:49:09",
-  "pled": 6150,
+  "pledged": 6150,
   "state": "successful",
   "backers": 103,
   "country": "US"
@@ -26219,7 +26219,7 @@ dataJSON = [{
   "dl": "2016-06-15",
   "goal": 1250,
   "laun": "2016-06-01 18:25:43",
-  "pled": 3780,
+  "pledged": 3780,
   "state": "successful",
   "backers": 133,
   "country": "US"
@@ -26231,7 +26231,7 @@ dataJSON = [{
   "dl": "2013-04-05",
   "goal": 4400,
   "laun": "2013-03-14 02:58:34",
-  "pled": 4593,
+  "pledged": 4593,
   "state": "successful",
   "backers": 89,
   "country": "US"
@@ -26243,7 +26243,7 @@ dataJSON = [{
   "dl": "2016-05-03",
   "goal": 1500,
   "laun": "2016-04-04 00:53:30",
-  "pled": 2,
+  "pledged": 2,
   "state": "failed",
   "backers": 2,
   "country": "GB"
@@ -26255,7 +26255,7 @@ dataJSON = [{
   "dl": "2013-12-08",
   "goal": 39000,
   "laun": "2013-11-08 04:34:54",
-  "pled": 5,
+  "pledged": 5,
   "state": "canceled",
   "backers": 1,
   "country": "US"
@@ -26267,7 +26267,7 @@ dataJSON = [{
   "dl": "2015-09-15",
   "goal": 1000,
   "laun": "2015-08-18 03:49:00",
-  "pled": 1202,
+  "pledged": 1202,
   "state": "successful",
   "backers": 35,
   "country": "US"
@@ -26279,7 +26279,7 @@ dataJSON = [{
   "dl": "2014-10-05",
   "goal": 6000,
   "laun": "2014-09-03 07:49:47",
-  "pled": 1125,
+  "pledged": 1125,
   "state": "failed",
   "backers": 41,
   "country": "US"
@@ -26291,7 +26291,7 @@ dataJSON = [{
   "dl": "2013-01-01",
   "goal": 5000,
   "laun": "2012-12-07 16:34:29",
-  "pled": 210,
+  "pledged": 210,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -26303,7 +26303,7 @@ dataJSON = [{
   "dl": "2017-11-15",
   "goal": 30000,
   "laun": "2017-10-16 09:20:23",
-  "pled": 27748,
+  "pledged": 27748,
   "state": "failed",
   "backers": 57,
   "country": "US"
@@ -26315,7 +26315,7 @@ dataJSON = [{
   "dl": "2014-09-19",
   "goal": 5000,
   "laun": "2014-08-20 03:45:40",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -26327,7 +26327,7 @@ dataJSON = [{
   "dl": "2015-11-15",
   "goal": 1500,
   "laun": "2015-10-16 03:48:27",
-  "pled": 164,
+  "pledged": 164,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -26339,7 +26339,7 @@ dataJSON = [{
   "dl": "2016-03-08",
   "goal": 6000,
   "laun": "2016-01-08 02:15:38",
-  "pled": 5,
+  "pledged": 5,
   "state": "failed",
   "backers": 1,
   "country": "GB"
@@ -26351,7 +26351,7 @@ dataJSON = [{
   "dl": "2011-02-17",
   "goal": 10000,
   "laun": "2011-01-17 07:02:24",
-  "pled": 17686.8,
+  "pledged": 17686.8,
   "state": "successful",
   "backers": 371,
   "country": "US"
@@ -26363,7 +26363,7 @@ dataJSON = [{
   "dl": "2017-05-25",
   "goal": 8700,
   "laun": "2017-04-25 11:12:14",
-  "pled": 1275,
+  "pledged": 1275,
   "state": "canceled",
   "backers": 10,
   "country": "AU"
@@ -26375,7 +26375,7 @@ dataJSON = [{
   "dl": "2014-06-28",
   "goal": 7500,
   "laun": "2014-05-20 18:15:05",
-  "pled": 11450.43,
+  "pledged": 11450.43,
   "state": "successful",
   "backers": 171,
   "country": "US"
@@ -26387,7 +26387,7 @@ dataJSON = [{
   "dl": "2012-10-11",
   "goal": 5000,
   "laun": "2012-09-11 04:58:09",
-  "pled": 181,
+  "pledged": 181,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -26399,7 +26399,7 @@ dataJSON = [{
   "dl": "2016-05-02",
   "goal": 30000,
   "laun": "2016-03-31 14:31:26",
-  "pled": 1483,
+  "pledged": 1483,
   "state": "failed",
   "backers": 26,
   "country": "US"
@@ -26411,7 +26411,7 @@ dataJSON = [{
   "dl": "2015-12-05",
   "goal": 10000,
   "laun": "2015-11-03 03:00:02",
-  "pled": 40088,
+  "pledged": 40088,
   "state": "successful",
   "backers": 790,
   "country": "US"
@@ -26423,7 +26423,7 @@ dataJSON = [{
   "dl": "2013-07-25",
   "goal": 10500,
   "laun": "2013-06-24 23:10:08",
-  "pled": 11150,
+  "pledged": 11150,
   "state": "successful",
   "backers": 70,
   "country": "US"
@@ -26435,7 +26435,7 @@ dataJSON = [{
   "dl": "2014-11-05",
   "goal": 50000,
   "laun": "2014-10-06 09:36:13",
-  "pled": 23,
+  "pledged": 23,
   "state": "failed",
   "backers": 5,
   "country": "GB"
@@ -26447,7 +26447,7 @@ dataJSON = [{
   "dl": "2015-05-31",
   "goal": 3000,
   "laun": "2015-04-16 19:53:17",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -26459,7 +26459,7 @@ dataJSON = [{
   "dl": "2016-02-07",
   "goal": 2000,
   "laun": "2016-01-10 19:46:44",
-  "pled": 2000,
+  "pledged": 2000,
   "state": "successful",
   "backers": 45,
   "country": "GB"
@@ -26471,7 +26471,7 @@ dataJSON = [{
   "dl": "2011-09-26",
   "goal": 1500,
   "laun": "2011-08-28 23:05:19",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -26483,7 +26483,7 @@ dataJSON = [{
   "dl": "2017-05-18",
   "goal": 5000,
   "laun": "2017-04-18 23:06:56",
-  "pled": 64,
+  "pledged": 64,
   "state": "failed",
   "backers": 4,
   "country": "GB"
@@ -26495,7 +26495,7 @@ dataJSON = [{
   "dl": "2015-08-31",
   "goal": 3500,
   "laun": "2015-08-07 03:49:01",
-  "pled": 202,
+  "pledged": 202,
   "state": "canceled",
   "backers": 4,
   "country": "US"
@@ -26507,7 +26507,7 @@ dataJSON = [{
   "dl": "2016-11-17",
   "goal": 3000,
   "laun": "2016-10-18 02:40:36",
-  "pled": 2313,
+  "pledged": 2313,
   "state": "failed",
   "backers": 70,
   "country": "US"
@@ -26519,7 +26519,7 @@ dataJSON = [{
   "dl": "2018-01-05",
   "goal": 15000,
   "laun": "2017-12-06 16:00:18",
-  "pled": 23397,
+  "pledged": 23397,
   "state": "live",
   "backers": 140,
   "country": "US"
@@ -26531,7 +26531,7 @@ dataJSON = [{
   "dl": "2013-12-08",
   "goal": 666,
   "laun": "2013-11-01 04:16:44",
-  "pled": 828,
+  "pledged": 828,
   "state": "successful",
   "backers": 10,
   "country": "CA"
@@ -26543,7 +26543,7 @@ dataJSON = [{
   "dl": "2017-05-20",
   "goal": 1500,
   "laun": "2017-03-21 01:20:18",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -26555,7 +26555,7 @@ dataJSON = [{
   "dl": "2013-04-28",
   "goal": 14000,
   "laun": "2013-03-29 12:02:57",
-  "pled": 14810,
+  "pledged": 14810,
   "state": "successful",
   "backers": 104,
   "country": "GB"
@@ -26567,7 +26567,7 @@ dataJSON = [{
   "dl": "2010-09-01",
   "goal": 1200,
   "laun": "2010-06-18 01:30:09",
-  "pled": 1625,
+  "pledged": 1625,
   "state": "successful",
   "backers": 43,
   "country": "US"
@@ -26579,7 +26579,7 @@ dataJSON = [{
   "dl": "2014-05-26",
   "goal": 10000,
   "laun": "2014-04-26 05:52:57",
-  "pled": 37,
+  "pledged": 37,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -26591,7 +26591,7 @@ dataJSON = [{
   "dl": "2017-04-01",
   "goal": 16500,
   "laun": "2017-03-02 01:48:09",
-  "pled": 2421,
+  "pledged": 2421,
   "state": "failed",
   "backers": 20,
   "country": "US"
@@ -26603,7 +26603,7 @@ dataJSON = [{
   "dl": "2015-03-06",
   "goal": 250000,
   "laun": "2015-02-04 05:12:26",
-  "pled": 1466,
+  "pledged": 1466,
   "state": "canceled",
   "backers": 4,
   "country": "US"
@@ -26615,7 +26615,7 @@ dataJSON = [{
   "dl": "2014-08-21",
   "goal": 600,
   "laun": "2014-08-05 02:59:49",
-  "pled": 1429,
+  "pledged": 1429,
   "state": "successful",
   "backers": 22,
   "country": "US"
@@ -26627,7 +26627,7 @@ dataJSON = [{
   "dl": "2013-04-18",
   "goal": 6500,
   "laun": "2013-03-29 16:56:52",
-  "pled": 20,
+  "pledged": 20,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -26639,7 +26639,7 @@ dataJSON = [{
   "dl": "2012-07-01",
   "goal": 1500,
   "laun": "2012-06-06 01:46:01",
-  "pled": 25,
+  "pledged": 25,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -26651,7 +26651,7 @@ dataJSON = [{
   "dl": "2016-07-26",
   "goal": 400,
   "laun": "2016-06-26 01:50:44",
-  "pled": 76,
+  "pledged": 76,
   "state": "failed",
   "backers": 3,
   "country": "CA"
@@ -26663,7 +26663,7 @@ dataJSON = [{
   "dl": "2014-10-12",
   "goal": 8000,
   "laun": "2014-09-05 14:26:25",
-  "pled": 2326,
+  "pledged": 2326,
   "state": "failed",
   "backers": 26,
   "country": "US"
@@ -26675,7 +26675,7 @@ dataJSON = [{
   "dl": "2016-06-07",
   "goal": 20000,
   "laun": "2016-04-08 19:33:13",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "DE"
@@ -26687,7 +26687,7 @@ dataJSON = [{
   "dl": "2014-10-08",
   "goal": 3000,
   "laun": "2014-09-08 20:54:27",
-  "pled": 512,
+  "pledged": 512,
   "state": "failed",
   "backers": 16,
   "country": "GB"
@@ -26699,7 +26699,7 @@ dataJSON = [{
   "dl": "2013-02-22",
   "goal": 950,
   "laun": "2013-01-24 00:30:19",
-  "pled": 205,
+  "pledged": 205,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -26711,7 +26711,7 @@ dataJSON = [{
   "dl": "2015-09-13",
   "goal": 400,
   "laun": "2015-08-14 16:14:56",
-  "pled": 2,
+  "pledged": 2,
   "state": "failed",
   "backers": 2,
   "country": "NL"
@@ -26723,7 +26723,7 @@ dataJSON = [{
   "dl": "2015-08-19",
   "goal": 2000,
   "laun": "2015-06-30 19:36:02",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "GB"
@@ -26735,7 +26735,7 @@ dataJSON = [{
   "dl": "2013-11-13",
   "goal": 50000,
   "laun": "2013-10-04 00:59:22",
-  "pled": 64185.24,
+  "pledged": 64185.24,
   "state": "successful",
   "backers": 508,
   "country": "US"
@@ -26747,7 +26747,7 @@ dataJSON = [{
   "dl": "2016-11-25",
   "goal": 1500,
   "laun": "2016-10-25 14:00:57",
-  "pled": 2067.7,
+  "pledged": 2067.7,
   "state": "successful",
   "backers": 61,
   "country": "US"
@@ -26759,7 +26759,7 @@ dataJSON = [{
   "dl": "2016-03-21",
   "goal": 2000,
   "laun": "2016-03-01 18:39:33",
-  "pled": 1,
+  "pledged": 1,
   "state": "canceled",
   "backers": 1,
   "country": "US"
@@ -26771,7 +26771,7 @@ dataJSON = [{
   "dl": "2013-03-01",
   "goal": 38000,
   "laun": "2013-01-16 01:13:55",
-  "pled": 120,
+  "pledged": 120,
   "state": "failed",
   "backers": 7,
   "country": "US"
@@ -26783,7 +26783,7 @@ dataJSON = [{
   "dl": "2012-12-04",
   "goal": 5000,
   "laun": "2012-11-13 09:00:47",
-  "pled": 9564.55,
+  "pledged": 9564.55,
   "state": "successful",
   "backers": 355,
   "country": "US"
@@ -26795,7 +26795,7 @@ dataJSON = [{
   "dl": "2015-02-22",
   "goal": 5000,
   "laun": "2015-01-23 21:07:53",
-  "pled": 50,
+  "pledged": 50,
   "state": "failed",
   "backers": 4,
   "country": "GB"
@@ -26807,7 +26807,7 @@ dataJSON = [{
   "dl": "2014-11-30",
   "goal": 50000,
   "laun": "2014-10-31 20:23:22",
-  "pled": 261,
+  "pledged": 261,
   "state": "failed",
   "backers": 10,
   "country": "US"
@@ -26819,7 +26819,7 @@ dataJSON = [{
   "dl": "2012-10-08",
   "goal": 1801,
   "laun": "2012-09-07 15:01:06",
-  "pled": 73,
+  "pledged": 73,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -26831,7 +26831,7 @@ dataJSON = [{
   "dl": "2010-11-09",
   "goal": 5000,
   "laun": "2010-10-10 09:12:16",
-  "pled": 8,
+  "pledged": 8,
   "state": "canceled",
   "backers": 1,
   "country": "US"
@@ -26843,7 +26843,7 @@ dataJSON = [{
   "dl": "2017-07-28",
   "goal": 1560,
   "laun": "2017-06-23 08:43:35",
-  "pled": 1562,
+  "pledged": 1562,
   "state": "successful",
   "backers": 52,
   "country": "GB"
@@ -26855,7 +26855,7 @@ dataJSON = [{
   "dl": "2014-04-09",
   "goal": 2000,
   "laun": "2014-03-10 18:51:26",
-  "pled": 2004.99,
+  "pledged": 2004.99,
   "state": "successful",
   "backers": 33,
   "country": "US"
@@ -26867,7 +26867,7 @@ dataJSON = [{
   "dl": "2013-12-04",
   "goal": 7000,
   "laun": "2013-11-01 00:04:23",
-  "pled": 8836.53,
+  "pledged": 8836.53,
   "state": "successful",
   "backers": 143,
   "country": "US"
@@ -26879,7 +26879,7 @@ dataJSON = [{
   "dl": "2013-01-24",
   "goal": 200,
   "laun": "2013-01-02 00:26:11",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -26891,7 +26891,7 @@ dataJSON = [{
   "dl": "2017-06-14",
   "goal": 500,
   "laun": "2017-05-15 20:50:28",
-  "pled": 595,
+  "pledged": 595,
   "state": "successful",
   "backers": 10,
   "country": "US"
@@ -26903,7 +26903,7 @@ dataJSON = [{
   "dl": "2011-01-19",
   "goal": 10000,
   "laun": "2010-12-20 20:09:40",
-  "pled": 3960,
+  "pledged": 3960,
   "state": "failed",
   "backers": 69,
   "country": "US"
@@ -26915,7 +26915,7 @@ dataJSON = [{
   "dl": "2013-08-29",
   "goal": 5000,
   "laun": "2013-07-30 07:57:32",
-  "pled": 252,
+  "pledged": 252,
   "state": "canceled",
   "backers": 6,
   "country": "US"
@@ -26927,7 +26927,7 @@ dataJSON = [{
   "dl": "2015-03-23",
   "goal": 3200,
   "laun": "2015-01-22 23:06:43",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -26939,7 +26939,7 @@ dataJSON = [{
   "dl": "2014-03-23",
   "goal": 9000,
   "laun": "2014-02-21 12:22:06",
-  "pled": 17,
+  "pledged": 17,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -26951,7 +26951,7 @@ dataJSON = [{
   "dl": "2016-05-31",
   "goal": 2048,
   "laun": "2016-05-24 09:51:37",
-  "pled": 16013,
+  "pledged": 16013,
   "state": "successful",
   "backers": 914,
   "country": "GB"
@@ -26963,7 +26963,7 @@ dataJSON = [{
   "dl": "2014-04-25",
   "goal": 14000,
   "laun": "2014-04-02 01:17:28",
-  "pled": 14922.5,
+  "pledged": 14922.5,
   "state": "successful",
   "backers": 62,
   "country": "US"
@@ -26975,7 +26975,7 @@ dataJSON = [{
   "dl": "2011-10-20",
   "goal": 4000,
   "laun": "2011-09-20 02:17:56",
-  "pled": 4935,
+  "pledged": 4935,
   "state": "successful",
   "backers": 60,
   "country": "US"
@@ -26987,7 +26987,7 @@ dataJSON = [{
   "dl": "2015-03-06",
   "goal": 75000,
   "laun": "2015-02-04 02:22:12",
-  "pled": 6,
+  "pledged": 6,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -26999,7 +26999,7 @@ dataJSON = [{
   "dl": "2017-05-08",
   "goal": 3000,
   "laun": "2017-05-01 16:29:21",
-  "pled": 3790,
+  "pledged": 3790,
   "state": "successful",
   "backers": 45,
   "country": "CA"
@@ -27011,7 +27011,7 @@ dataJSON = [{
   "dl": "2013-06-13",
   "goal": 500,
   "laun": "2013-05-14 20:44:26",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -27023,7 +27023,7 @@ dataJSON = [{
   "dl": "2011-05-13",
   "goal": 1200,
   "laun": "2011-04-21 16:11:01",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -27035,7 +27035,7 @@ dataJSON = [{
   "dl": "2012-11-04",
   "goal": 5000,
   "laun": "2012-09-05 03:53:29",
-  "pled": 325,
+  "pledged": 325,
   "state": "failed",
   "backers": 9,
   "country": "US"
@@ -27047,7 +27047,7 @@ dataJSON = [{
   "dl": "2018-01-18",
   "goal": 67000,
   "laun": "2017-12-19 04:41:30",
-  "pled": 863,
+  "pledged": 863,
   "state": "live",
   "backers": 24,
   "country": "AU"
@@ -27059,7 +27059,7 @@ dataJSON = [{
   "dl": "2016-11-16",
   "goal": 40000,
   "laun": "2016-10-17 21:56:22",
-  "pled": 15,
+  "pledged": 15,
   "state": "failed",
   "backers": 2,
   "country": "GB"
@@ -27071,7 +27071,7 @@ dataJSON = [{
   "dl": "2015-04-20",
   "goal": 1575,
   "laun": "2015-03-21 21:05:42",
-  "pled": 80,
+  "pledged": 80,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -27083,7 +27083,7 @@ dataJSON = [{
   "dl": "2017-10-23",
   "goal": 10000,
   "laun": "2017-09-23 16:00:26",
-  "pled": 2955,
+  "pledged": 2955,
   "state": "failed",
   "backers": 112,
   "country": "US"
@@ -27095,7 +27095,7 @@ dataJSON = [{
   "dl": "2016-10-25",
   "goal": 5000,
   "laun": "2016-09-15 22:25:20",
-  "pled": 1191,
+  "pledged": 1191,
   "state": "failed",
   "backers": 4,
   "country": "GB"
@@ -27107,7 +27107,7 @@ dataJSON = [{
   "dl": "2011-03-07",
   "goal": 350,
   "laun": "2011-02-25 02:02:52",
-  "pled": 510,
+  "pledged": 510,
   "state": "successful",
   "backers": 9,
   "country": "US"
@@ -27119,7 +27119,7 @@ dataJSON = [{
   "dl": "2016-05-25",
   "goal": 25000,
   "laun": "2016-04-25 15:52:21",
-  "pled": 31,
+  "pledged": 31,
   "state": "failed",
   "backers": 3,
   "country": "IT"
@@ -27131,7 +27131,7 @@ dataJSON = [{
   "dl": "2016-03-09",
   "goal": 220,
   "laun": "2016-02-08 20:56:06",
-  "pled": 221,
+  "pledged": 221,
   "state": "successful",
   "backers": 12,
   "country": "US"
@@ -27143,7 +27143,7 @@ dataJSON = [{
   "dl": "2017-08-08",
   "goal": 150000,
   "laun": "2017-07-05 22:37:21",
-  "pled": 270,
+  "pledged": 270,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -27155,7 +27155,7 @@ dataJSON = [{
   "dl": "2017-04-20",
   "goal": 65000,
   "laun": "2017-03-21 16:03:26",
-  "pled": 78833,
+  "pledged": 78833,
   "state": "successful",
   "backers": 388,
   "country": "US"
@@ -27167,7 +27167,7 @@ dataJSON = [{
   "dl": "2013-06-16",
   "goal": 1000,
   "laun": "2013-05-13 00:51:03",
-  "pled": 60,
+  "pledged": 60,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -27179,7 +27179,7 @@ dataJSON = [{
   "dl": "2011-03-23",
   "goal": 350,
   "laun": "2011-03-07 01:18:28",
-  "pled": 160,
+  "pledged": 160,
   "state": "canceled",
   "backers": 5,
   "country": "US"
@@ -27191,7 +27191,7 @@ dataJSON = [{
   "dl": "2016-03-05",
   "goal": 1500,
   "laun": "2016-02-04 06:41:05",
-  "pled": 285,
+  "pledged": 285,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -27203,7 +27203,7 @@ dataJSON = [{
   "dl": "2014-09-01",
   "goal": 4000,
   "laun": "2014-08-02 05:06:37",
-  "pled": 391,
+  "pledged": 391,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -27215,7 +27215,7 @@ dataJSON = [{
   "dl": "2017-07-31",
   "goal": 6000,
   "laun": "2017-06-26 00:59:51",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -27227,7 +27227,7 @@ dataJSON = [{
   "dl": "2017-03-06",
   "goal": 5000,
   "laun": "2017-01-05 02:38:42",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -27239,7 +27239,7 @@ dataJSON = [{
   "dl": "2015-02-18",
   "goal": 1200,
   "laun": "2015-01-19 17:29:47",
-  "pled": 2,
+  "pledged": 2,
   "state": "failed",
   "backers": 2,
   "country": "GB"
@@ -27251,7 +27251,7 @@ dataJSON = [{
   "dl": "2011-02-16",
   "goal": 10000,
   "laun": "2011-01-26 23:38:41",
-  "pled": 18269.62,
+  "pledged": 18269.62,
   "state": "successful",
   "backers": 423,
   "country": "US"
@@ -27263,7 +27263,7 @@ dataJSON = [{
   "dl": "2015-05-21",
   "goal": 10000,
   "laun": "2015-04-21 21:29:52",
-  "pled": 688,
+  "pledged": 688,
   "state": "failed",
   "backers": 8,
   "country": "US"
@@ -27275,7 +27275,7 @@ dataJSON = [{
   "dl": "2017-04-14",
   "goal": 20000,
   "laun": "2017-03-15 08:17:23",
-  "pled": 7106,
+  "pledged": 7106,
   "state": "failed",
   "backers": 107,
   "country": "ES"
@@ -27287,7 +27287,7 @@ dataJSON = [{
   "dl": "2015-07-03",
   "goal": 200,
   "laun": "2015-06-03 17:34:35",
-  "pled": 7,
+  "pledged": 7,
   "state": "suspended",
   "backers": 2,
   "country": "ES"
@@ -27299,7 +27299,7 @@ dataJSON = [{
   "dl": "2012-11-14",
   "goal": 1500,
   "laun": "2012-10-31 01:14:28",
-  "pled": 2115,
+  "pledged": 2115,
   "state": "successful",
   "backers": 54,
   "country": "US"
@@ -27311,7 +27311,7 @@ dataJSON = [{
   "dl": "2017-05-20",
   "goal": 1,
   "laun": "2017-04-20 16:34:05",
-  "pled": 2000,
+  "pledged": 2000,
   "state": "successful",
   "backers": 42,
   "country": "CA"
@@ -27323,7 +27323,7 @@ dataJSON = [{
   "dl": "2013-06-03",
   "goal": 800,
   "laun": "2013-05-09 19:52:17",
-  "pled": 2207,
+  "pledged": 2207,
   "state": "successful",
   "backers": 32,
   "country": "US"
@@ -27335,7 +27335,7 @@ dataJSON = [{
   "dl": "2017-06-21",
   "goal": 7000,
   "laun": "2017-05-16 14:00:39",
-  "pled": 14464,
+  "pledged": 14464,
   "state": "successful",
   "backers": 406,
   "country": "US"
@@ -27347,7 +27347,7 @@ dataJSON = [{
   "dl": "2014-12-20",
   "goal": 50000000,
   "laun": "2014-10-23 01:46:17",
-  "pled": 240,
+  "pledged": 240,
   "state": "failed",
   "backers": 8,
   "country": "US"
@@ -27359,7 +27359,7 @@ dataJSON = [{
   "dl": "2014-04-11",
   "goal": 500000,
   "laun": "2014-02-11 17:30:53",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -27371,7 +27371,7 @@ dataJSON = [{
   "dl": "2017-06-24",
   "goal": 200,
   "laun": "2017-05-25 13:21:50",
-  "pled": 50,
+  "pledged": 50,
   "state": "failed",
   "backers": 1,
   "country": "AU"
@@ -27383,7 +27383,7 @@ dataJSON = [{
   "dl": "2013-10-25",
   "goal": 1500,
   "laun": "2013-09-30 20:37:46",
-  "pled": 1649.99,
+  "pledged": 1649.99,
   "state": "successful",
   "backers": 55,
   "country": "US"
@@ -27395,7 +27395,7 @@ dataJSON = [{
   "dl": "2012-02-24",
   "goal": 1200,
   "laun": "2012-01-25 01:11:29",
-  "pled": 2667,
+  "pledged": 2667,
   "state": "successful",
   "backers": 84,
   "country": "US"
@@ -27407,7 +27407,7 @@ dataJSON = [{
   "dl": "2014-05-25",
   "goal": 15000,
   "laun": "2014-04-25 15:02:14",
-  "pled": 16088,
+  "pledged": 16088,
   "state": "successful",
   "backers": 502,
   "country": "US"
@@ -27419,7 +27419,7 @@ dataJSON = [{
   "dl": "2014-05-02",
   "goal": 15000,
   "laun": "2014-04-02 03:42:26",
-  "pled": 16933,
+  "pledged": 16933,
   "state": "successful",
   "backers": 78,
   "country": "US"
@@ -27431,7 +27431,7 @@ dataJSON = [{
   "dl": "2015-07-10",
   "goal": 15000,
   "laun": "2015-06-10 15:11:29",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -27443,7 +27443,7 @@ dataJSON = [{
   "dl": "2014-01-04",
   "goal": 200,
   "laun": "2013-12-05 04:37:14",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -27455,7 +27455,7 @@ dataJSON = [{
   "dl": "2014-08-24",
   "goal": 40000,
   "laun": "2014-07-18 00:51:12",
-  "pled": 41168,
+  "pledged": 41168,
   "state": "successful",
   "backers": 88,
   "country": "US"
@@ -27467,7 +27467,7 @@ dataJSON = [{
   "dl": "2016-12-17",
   "goal": 5000,
   "laun": "2016-10-18 11:30:24",
-  "pled": 20,
+  "pledged": 20,
   "state": "failed",
   "backers": 2,
   "country": "FR"
@@ -27479,7 +27479,7 @@ dataJSON = [{
   "dl": "2017-04-20",
   "goal": 7500,
   "laun": "2017-03-19 18:02:59",
-  "pled": 3278,
+  "pledged": 3278,
   "state": "canceled",
   "backers": 60,
   "country": "US"
@@ -27491,7 +27491,7 @@ dataJSON = [{
   "dl": "2013-03-29",
   "goal": 2000,
   "laun": "2013-03-05 01:24:32",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "GB"
@@ -27503,7 +27503,7 @@ dataJSON = [{
   "dl": "2015-01-04",
   "goal": 5000,
   "laun": "2014-12-05 19:41:26",
-  "pled": 5035,
+  "pledged": 5035,
   "state": "successful",
   "backers": 37,
   "country": "US"
@@ -27515,7 +27515,7 @@ dataJSON = [{
   "dl": "2017-10-12",
   "goal": 25000,
   "laun": "2017-09-12 22:55:25",
-  "pled": 1264,
+  "pledged": 1264,
   "state": "canceled",
   "backers": 5,
   "country": "US"
@@ -27527,7 +27527,7 @@ dataJSON = [{
   "dl": "2014-09-23",
   "goal": 150000,
   "laun": "2014-08-24 00:07:40",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -27539,7 +27539,7 @@ dataJSON = [{
   "dl": "2017-06-17",
   "goal": 47000,
   "laun": "2017-05-08 18:08:36",
-  "pled": 21,
+  "pledged": 21,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -27551,7 +27551,7 @@ dataJSON = [{
   "dl": "2017-12-02",
   "goal": 15000,
   "laun": "2017-11-02 18:03:36",
-  "pled": 3962.22,
+  "pledged": 3962.22,
   "state": "failed",
   "backers": 223,
   "country": "DE"
@@ -27563,7 +27563,7 @@ dataJSON = [{
   "dl": "2013-08-16",
   "goal": 12900,
   "laun": "2013-07-17 17:28:43",
-  "pled": 17278,
+  "pledged": 17278,
   "state": "successful",
   "backers": 175,
   "country": "US"
@@ -27575,7 +27575,7 @@ dataJSON = [{
   "dl": "2013-03-05",
   "goal": 25000,
   "laun": "2013-02-04 18:01:40",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -27587,7 +27587,7 @@ dataJSON = [{
   "dl": "2017-04-17",
   "goal": 18000,
   "laun": "2017-03-18 04:02:07",
-  "pled": 26071,
+  "pledged": 26071,
   "state": "successful",
   "backers": 242,
   "country": "US"
@@ -27599,7 +27599,7 @@ dataJSON = [{
   "dl": "2014-03-31",
   "goal": 10000,
   "laun": "2014-03-01 02:45:02",
-  "pled": 842,
+  "pledged": 842,
   "state": "failed",
   "backers": 15,
   "country": "AU"
@@ -27611,7 +27611,7 @@ dataJSON = [{
   "dl": "2014-03-03",
   "goal": 500,
   "laun": "2014-02-01 01:21:05",
-  "pled": 792,
+  "pledged": 792,
   "state": "successful",
   "backers": 31,
   "country": "US"
@@ -27623,7 +27623,7 @@ dataJSON = [{
   "dl": "2016-09-11",
   "goal": 30000,
   "laun": "2016-08-13 13:28:31",
-  "pled": 31286,
+  "pledged": 31286,
   "state": "successful",
   "backers": 354,
   "country": "AU"
@@ -27635,7 +27635,7 @@ dataJSON = [{
   "dl": "2013-11-16",
   "goal": 5000,
   "laun": "2013-10-10 21:48:23",
-  "pled": 7901,
+  "pledged": 7901,
   "state": "successful",
   "backers": 236,
   "country": "CA"
@@ -27647,7 +27647,7 @@ dataJSON = [{
   "dl": "2017-03-15",
   "goal": 1200,
   "laun": "2017-02-13 16:05:54",
-  "pled": 1220,
+  "pledged": 1220,
   "state": "successful",
   "backers": 52,
   "country": "US"
@@ -27659,7 +27659,7 @@ dataJSON = [{
   "dl": "2017-08-24",
   "goal": 700,
   "laun": "2017-07-25 00:29:06",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -27671,7 +27671,7 @@ dataJSON = [{
   "dl": "2013-01-15",
   "goal": 2750,
   "laun": "2012-12-16 23:01:37",
-  "pled": 2977,
+  "pledged": 2977,
   "state": "successful",
   "backers": 76,
   "country": "US"
@@ -27683,7 +27683,7 @@ dataJSON = [{
   "dl": "2014-08-19",
   "goal": 3000,
   "laun": "2014-07-18 03:42:11",
-  "pled": 3175,
+  "pledged": 3175,
   "state": "undefined",
   "backers": 0,
   "country": "N,0"
@@ -27695,7 +27695,7 @@ dataJSON = [{
   "dl": "2011-09-07",
   "goal": 2500,
   "laun": "2011-08-08 19:28:16",
-  "pled": 2730,
+  "pledged": 2730,
   "state": "successful",
   "backers": 68,
   "country": "US"
@@ -27707,7 +27707,7 @@ dataJSON = [{
   "dl": "2017-12-14",
   "goal": 4500,
   "laun": "2017-11-09 23:48:50",
-  "pled": 70,
+  "pledged": 70,
   "state": "failed",
   "backers": 4,
   "country": "GB"
@@ -27719,7 +27719,7 @@ dataJSON = [{
   "dl": "2015-10-29",
   "goal": 40000,
   "laun": "2015-09-21 12:22:34",
-  "pled": 8906,
+  "pledged": 8906,
   "state": "canceled",
   "backers": 180,
   "country": "US"
@@ -27731,7 +27731,7 @@ dataJSON = [{
   "dl": "2013-04-30",
   "goal": 1000,
   "laun": "2013-03-18 18:26:10",
-  "pled": 1594,
+  "pledged": 1594,
   "state": "successful",
   "backers": 47,
   "country": "US"
@@ -27743,7 +27743,7 @@ dataJSON = [{
   "dl": "2014-09-03",
   "goal": 12000,
   "laun": "2014-08-04 18:03:08",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -27755,7 +27755,7 @@ dataJSON = [{
   "dl": "2015-03-16",
   "goal": 30000,
   "laun": "2015-02-14 21:57:12",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -27767,7 +27767,7 @@ dataJSON = [{
   "dl": "2011-06-08",
   "goal": 5526,
   "laun": "2011-05-09 21:13:33",
-  "pled": 5838,
+  "pledged": 5838,
   "state": "successful",
   "backers": 87,
   "country": "US"
@@ -27779,7 +27779,7 @@ dataJSON = [{
   "dl": "2012-10-22",
   "goal": 7500,
   "laun": "2012-09-07 13:23:32",
-  "pled": 8041,
+  "pledged": 8041,
   "state": "successful",
   "backers": 115,
   "country": "US"
@@ -27791,7 +27791,7 @@ dataJSON = [{
   "dl": "2015-12-04",
   "goal": 35000,
   "laun": "2015-10-20 15:33:54",
-  "pled": 501964.79,
+  "pledged": 501964.79,
   "state": "suspended",
   "backers": 8180,
   "country": "AU"
@@ -27803,7 +27803,7 @@ dataJSON = [{
   "dl": "2015-10-07",
   "goal": 2500,
   "laun": "2015-08-08 06:22:15",
-  "pled": 100,
+  "pledged": 100,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -27815,7 +27815,7 @@ dataJSON = [{
   "dl": "2012-12-14",
   "goal": 600,
   "laun": "2012-11-29 21:00:47",
-  "pled": 1690,
+  "pledged": 1690,
   "state": "successful",
   "backers": 52,
   "country": "US"
@@ -27827,7 +27827,7 @@ dataJSON = [{
   "dl": "2015-06-12",
   "goal": 8000,
   "laun": "2015-05-13 03:52:23",
-  "pled": 2110,
+  "pledged": 2110,
   "state": "failed",
   "backers": 114,
   "country": "US"
@@ -27839,7 +27839,7 @@ dataJSON = [{
   "dl": "2015-09-28",
   "goal": 100,
   "laun": "2015-08-30 22:37:59",
-  "pled": 0,
+  "pledged": 0,
   "state": "suspended",
   "backers": 0,
   "country": "US"
@@ -27851,7 +27851,7 @@ dataJSON = [{
   "dl": "2013-07-25",
   "goal": 2000,
   "laun": "2013-06-25 02:39:22",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -27863,7 +27863,7 @@ dataJSON = [{
   "dl": "2016-04-18",
   "goal": 20000,
   "laun": "2016-03-18 23:10:08",
-  "pled": 62,
+  "pledged": 62,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -27875,7 +27875,7 @@ dataJSON = [{
   "dl": "2017-02-23",
   "goal": 3000,
   "laun": "2017-01-24 19:30:17",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -27887,7 +27887,7 @@ dataJSON = [{
   "dl": "2015-12-19",
   "goal": 120000,
   "laun": "2015-10-20 00:49:06",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "CA"
@@ -27899,7 +27899,7 @@ dataJSON = [{
   "dl": "2014-07-21",
   "goal": 40000,
   "laun": "2014-06-16 22:12:21",
-  "pled": 50,
+  "pledged": 50,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -27911,7 +27911,7 @@ dataJSON = [{
   "dl": "2017-08-05",
   "goal": 20000,
   "laun": "2017-07-06 13:18:46",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "SG"
@@ -27923,7 +27923,7 @@ dataJSON = [{
   "dl": "2013-01-24",
   "goal": 1000,
   "laun": "2012-12-10 19:42:02",
-  "pled": 3708.97,
+  "pledged": 3708.97,
   "state": "successful",
   "backers": 93,
   "country": "US"
@@ -27935,7 +27935,7 @@ dataJSON = [{
   "dl": "2010-04-09",
   "goal": 75000,
   "laun": "2010-03-08 21:49:57",
-  "pled": 425,
+  "pledged": 425,
   "state": "canceled",
   "backers": 5,
   "country": "US"
@@ -27947,7 +27947,7 @@ dataJSON = [{
   "dl": "2014-07-16",
   "goal": 15000,
   "laun": "2014-06-16 03:58:46",
-  "pled": 950,
+  "pledged": 950,
   "state": "failed",
   "backers": 12,
   "country": "US"
@@ -27959,7 +27959,7 @@ dataJSON = [{
   "dl": "2013-11-13",
   "goal": 9000,
   "laun": "2013-10-14 21:11:59",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "GB"
@@ -27971,7 +27971,7 @@ dataJSON = [{
   "dl": "2011-09-29",
   "goal": 5000,
   "laun": "2011-07-31 05:18:00",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -27983,7 +27983,7 @@ dataJSON = [{
   "dl": "2014-09-09",
   "goal": 5000,
   "laun": "2014-08-26 13:31:59",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "AU"
@@ -27995,7 +27995,7 @@ dataJSON = [{
   "dl": "2014-12-01",
   "goal": 75000,
   "laun": "2014-10-22 17:04:56",
-  "pled": 126,
+  "pledged": 126,
   "state": "canceled",
   "backers": 3,
   "country": "US"
@@ -28007,7 +28007,7 @@ dataJSON = [{
   "dl": "2012-09-07",
   "goal": 500,
   "laun": "2012-07-09 23:23:43",
-  "pled": 31,
+  "pledged": 31,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -28019,7 +28019,7 @@ dataJSON = [{
   "dl": "2015-05-28",
   "goal": 10000,
   "laun": "2015-05-13 20:58:19",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -28031,7 +28031,7 @@ dataJSON = [{
   "dl": "2011-06-21",
   "goal": 1000,
   "laun": "2011-06-01 20:14:16",
-  "pled": 411,
+  "pledged": 411,
   "state": "failed",
   "backers": 13,
   "country": "US"
@@ -28043,7 +28043,7 @@ dataJSON = [{
   "dl": "2015-12-19",
   "goal": 5270,
   "laun": "2015-11-21 02:21:15",
-  "pled": 3031.66,
+  "pledged": 3031.66,
   "state": "failed",
   "backers": 74,
   "country": "US"
@@ -28055,7 +28055,7 @@ dataJSON = [{
   "dl": "2016-08-23",
   "goal": 1000,
   "laun": "2016-07-24 02:36:43",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -28067,7 +28067,7 @@ dataJSON = [{
   "dl": "2016-06-02",
   "goal": 5000,
   "laun": "2016-05-03 14:13:14",
-  "pled": 16,
+  "pledged": 16,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -28079,7 +28079,7 @@ dataJSON = [{
   "dl": "2015-04-08",
   "goal": 7000,
   "laun": "2015-02-07 01:09:18",
-  "pled": 9746,
+  "pledged": 9746,
   "state": "successful",
   "backers": 201,
   "country": "US"
@@ -28091,7 +28091,7 @@ dataJSON = [{
   "dl": "2015-08-02",
   "goal": 2000,
   "laun": "2015-07-03 18:46:21",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -28103,7 +28103,7 @@ dataJSON = [{
   "dl": "2017-04-02",
   "goal": 8250,
   "laun": "2017-03-03 10:04:46",
-  "pled": 26,
+  "pledged": 26,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -28115,7 +28115,7 @@ dataJSON = [{
   "dl": "2012-04-02",
   "goal": 8500,
   "laun": "2012-03-03 04:59:04",
-  "pled": 2058,
+  "pledged": 2058,
   "state": "failed",
   "backers": 40,
   "country": "US"
@@ -28127,7 +28127,7 @@ dataJSON = [{
   "dl": "2014-07-11",
   "goal": 1200,
   "laun": "2014-06-27 17:33:52",
-  "pled": 50,
+  "pledged": 50,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -28139,7 +28139,7 @@ dataJSON = [{
   "dl": "2015-10-23",
   "goal": 10000,
   "laun": "2015-09-23 21:25:16",
-  "pled": 100,
+  "pledged": 100,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -28151,7 +28151,7 @@ dataJSON = [{
   "dl": "2016-10-08",
   "goal": 9000,
   "laun": "2016-09-08 18:01:47",
-  "pled": 10290,
+  "pledged": 10290,
   "state": "successful",
   "backers": 255,
   "country": "US"
@@ -28163,7 +28163,7 @@ dataJSON = [{
   "dl": "2011-05-13",
   "goal": 5500,
   "laun": "2011-04-13 18:31:22",
-  "pled": 10351,
+  "pledged": 10351,
   "state": "successful",
   "backers": 71,
   "country": "US"
@@ -28175,7 +28175,7 @@ dataJSON = [{
   "dl": "2014-10-10",
   "goal": 165000,
   "laun": "2014-08-26 13:59:35",
-  "pled": 4494,
+  "pledged": 4494,
   "state": "failed",
   "backers": 66,
   "country": "NL"
@@ -28187,7 +28187,7 @@ dataJSON = [{
   "dl": "2014-07-24",
   "goal": 4000,
   "laun": "2014-06-24 20:07:27",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "GB"
@@ -28199,7 +28199,7 @@ dataJSON = [{
   "dl": "2013-10-06",
   "goal": 30000,
   "laun": "2013-09-06 19:54:28",
-  "pled": 2600,
+  "pledged": 2600,
   "state": "failed",
   "backers": 12,
   "country": "US"
@@ -28211,7 +28211,7 @@ dataJSON = [{
   "dl": "2012-11-18",
   "goal": 20000,
   "laun": "2012-10-19 23:30:39",
-  "pled": 729.99,
+  "pledged": 729.99,
   "state": "failed",
   "backers": 25,
   "country": "US"
@@ -28223,7 +28223,7 @@ dataJSON = [{
   "dl": "2014-12-07",
   "goal": 5000,
   "laun": "2014-11-07 20:22:50",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -28235,7 +28235,7 @@ dataJSON = [{
   "dl": "2015-11-29",
   "goal": 1000,
   "laun": "2015-11-01 15:34:39",
-  "pled": 2376,
+  "pledged": 2376,
   "state": "successful",
   "backers": 56,
   "country": "AU"
@@ -28247,7 +28247,7 @@ dataJSON = [{
   "dl": "2016-10-06",
   "goal": 15000,
   "laun": "2016-09-07 20:05:27",
-  "pled": 28550,
+  "pledged": 28550,
   "state": "successful",
   "backers": 207,
   "country": "US"
@@ -28259,7 +28259,7 @@ dataJSON = [{
   "dl": "2014-02-26",
   "goal": 500,
   "laun": "2014-01-27 05:44:06",
-  "pled": 1021,
+  "pledged": 1021,
   "state": "successful",
   "backers": 22,
   "country": "US"
@@ -28271,7 +28271,7 @@ dataJSON = [{
   "dl": "2015-04-09",
   "goal": 100000,
   "laun": "2015-03-10 22:08:56",
-  "pled": 360,
+  "pledged": 360,
   "state": "canceled",
   "backers": 6,
   "country": "US"
@@ -28283,7 +28283,7 @@ dataJSON = [{
   "dl": "2015-11-14",
   "goal": 15500,
   "laun": "2015-10-05 18:16:44",
-  "pled": 5452,
+  "pledged": 5452,
   "state": "failed",
   "backers": 52,
   "country": "US"
@@ -28295,7 +28295,7 @@ dataJSON = [{
   "dl": "2011-07-15",
   "goal": 165,
   "laun": "2011-06-30 04:40:45",
-  "pled": 220,
+  "pledged": 220,
   "state": "successful",
   "backers": 9,
   "country": "US"
@@ -28307,7 +28307,7 @@ dataJSON = [{
   "dl": "2016-04-22",
   "goal": 5555,
   "laun": "2016-04-06 23:29:50",
-  "pled": 220,
+  "pledged": 220,
   "state": "failed",
   "backers": 7,
   "country": "DE"
@@ -28319,7 +28319,7 @@ dataJSON = [{
   "dl": "2014-12-13",
   "goal": 3500,
   "laun": "2014-11-13 16:00:34",
-  "pled": 15,
+  "pledged": 15,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -28331,7 +28331,7 @@ dataJSON = [{
   "dl": "2014-09-27",
   "goal": 7000,
   "laun": "2014-09-02 09:47:19",
-  "pled": 5127,
+  "pledged": 5127,
   "state": "failed",
   "backers": 56,
   "country": "US"
@@ -28343,7 +28343,7 @@ dataJSON = [{
   "dl": "2015-04-23",
   "goal": 40000,
   "laun": "2015-03-19 05:08:51",
-  "pled": 210,
+  "pledged": 210,
   "state": "canceled",
   "backers": 2,
   "country": "US"
@@ -28355,7 +28355,7 @@ dataJSON = [{
   "dl": "2014-10-08",
   "goal": 3700,
   "laun": "2014-09-11 21:48:53",
-  "pled": 3700,
+  "pledged": 3700,
   "state": "successful",
   "backers": 48,
   "country": "US"
@@ -28367,7 +28367,7 @@ dataJSON = [{
   "dl": "2014-12-12",
   "goal": 68000,
   "laun": "2014-11-12 22:51:15",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -28379,7 +28379,7 @@ dataJSON = [{
   "dl": "2014-12-24",
   "goal": 26748,
   "laun": "2014-11-26 18:36:03",
-  "pled": 26748,
+  "pledged": 26748,
   "state": "successful",
   "backers": 132,
   "country": "US"
@@ -28391,7 +28391,7 @@ dataJSON = [{
   "dl": "2014-09-07",
   "goal": 33000,
   "laun": "2014-08-08 17:59:24",
-  "pled": 1230,
+  "pledged": 1230,
   "state": "canceled",
   "backers": 26,
   "country": "CA"
@@ -28403,7 +28403,7 @@ dataJSON = [{
   "dl": "2015-03-12",
   "goal": 69,
   "laun": "2015-02-10 18:11:27",
-  "pled": 12,
+  "pledged": 12,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -28415,7 +28415,7 @@ dataJSON = [{
   "dl": "2016-03-25",
   "goal": 3000,
   "laun": "2016-02-23 20:28:01",
-  "pled": 13481,
+  "pledged": 13481,
   "state": "successful",
   "backers": 472,
   "country": "US"
@@ -28427,7 +28427,7 @@ dataJSON = [{
   "dl": "2015-07-29",
   "goal": 45000,
   "laun": "2015-06-19 12:32:36",
-  "pled": 4471,
+  "pledged": 4471,
   "state": "canceled",
   "backers": 116,
   "country": "AU"
@@ -28439,7 +28439,7 @@ dataJSON = [{
   "dl": "2011-04-16",
   "goal": 2000,
   "laun": "2011-03-15 02:31:35",
-  "pled": 2105,
+  "pledged": 2105,
   "state": "successful",
   "backers": 32,
   "country": "US"
@@ -28451,7 +28451,7 @@ dataJSON = [{
   "dl": "2015-02-23",
   "goal": 400,
   "laun": "2015-01-24 17:28:15",
-  "pled": 558,
+  "pledged": 558,
   "state": "successful",
   "backers": 27,
   "country": "GB"
@@ -28463,7 +28463,7 @@ dataJSON = [{
   "dl": "2011-02-26",
   "goal": 2500,
   "laun": "2010-12-17 22:50:02",
-  "pled": 115,
+  "pledged": 115,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -28475,7 +28475,7 @@ dataJSON = [{
   "dl": "2015-02-06",
   "goal": 5000,
   "laun": "2015-01-07 05:52:07",
-  "pled": 7410,
+  "pledged": 7410,
   "state": "successful",
   "backers": 99,
   "country": "US"
@@ -28487,7 +28487,7 @@ dataJSON = [{
   "dl": "2015-04-11",
   "goal": 5000,
   "laun": "2015-03-12 15:17:42",
-  "pled": 6387,
+  "pledged": 6387,
   "state": "successful",
   "backers": 110,
   "country": "US"
@@ -28499,7 +28499,7 @@ dataJSON = [{
   "dl": "2018-01-02",
   "goal": 12000,
   "laun": "2017-12-05 11:36:46",
-  "pled": 12836,
+  "pledged": 12836,
   "state": "successful",
   "backers": 136,
   "country": "GB"
@@ -28511,7 +28511,7 @@ dataJSON = [{
   "dl": "2017-04-22",
   "goal": 10000,
   "laun": "2017-03-23 02:18:52",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -28523,7 +28523,7 @@ dataJSON = [{
   "dl": "2014-02-15",
   "goal": 40000,
   "laun": "2014-01-01 08:35:21",
-  "pled": 1492,
+  "pledged": 1492,
   "state": "canceled",
   "backers": 16,
   "country": "US"
@@ -28535,7 +28535,7 @@ dataJSON = [{
   "dl": "2016-12-31",
   "goal": 14000,
   "laun": "2016-12-01 23:49:56",
-  "pled": 82,
+  "pledged": 82,
   "state": "canceled",
   "backers": 1,
   "country": "CA"
@@ -28547,7 +28547,7 @@ dataJSON = [{
   "dl": "2013-12-25",
   "goal": 75000,
   "laun": "2013-11-25 16:35:48",
-  "pled": 89,
+  "pledged": 89,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -28559,7 +28559,7 @@ dataJSON = [{
   "dl": "2016-10-27",
   "goal": 1000,
   "laun": "2016-09-27 04:13:41",
-  "pled": 1411,
+  "pledged": 1411,
   "state": "successful",
   "backers": 53,
   "country": "AU"
@@ -28571,7 +28571,7 @@ dataJSON = [{
   "dl": "2014-05-20",
   "goal": 5000,
   "laun": "2014-05-05 04:58:29",
-  "pled": 7075,
+  "pledged": 7075,
   "state": "successful",
   "backers": 116,
   "country": "US"
@@ -28583,7 +28583,7 @@ dataJSON = [{
   "dl": "2011-04-17",
   "goal": 7000,
   "laun": "2011-03-02 04:50:49",
-  "pled": 7401,
+  "pledged": 7401,
   "state": "successful",
   "backers": 128,
   "country": "US"
@@ -28595,7 +28595,7 @@ dataJSON = [{
   "dl": "2017-10-10",
   "goal": 3000,
   "laun": "2017-08-31 17:39:19",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -28607,7 +28607,7 @@ dataJSON = [{
   "dl": "2016-12-19",
   "goal": 500,
   "laun": "2016-11-30 14:39:30",
-  "pled": 545,
+  "pledged": 545,
   "state": "successful",
   "backers": 31,
   "country": "GB"
@@ -28619,7 +28619,7 @@ dataJSON = [{
   "dl": "2011-12-18",
   "goal": 10000,
   "laun": "2011-11-18 21:07:48",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -28631,7 +28631,7 @@ dataJSON = [{
   "dl": "2014-12-16",
   "goal": 50000,
   "laun": "2014-10-17 22:32:49",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "GB"
@@ -28643,7 +28643,7 @@ dataJSON = [{
   "dl": "2016-09-19",
   "goal": 25000,
   "laun": "2016-08-20 16:25:53",
-  "pled": 7,
+  "pledged": 7,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -28655,7 +28655,7 @@ dataJSON = [{
   "dl": "2014-06-09",
   "goal": 30000,
   "laun": "2014-05-10 07:42:19",
-  "pled": 1674,
+  "pledged": 1674,
   "state": "failed",
   "backers": 34,
   "country": "US"
@@ -28667,7 +28667,7 @@ dataJSON = [{
   "dl": "2015-02-26",
   "goal": 60000,
   "laun": "2015-01-27 04:19:55",
-  "pled": 71,
+  "pledged": 71,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -28679,7 +28679,7 @@ dataJSON = [{
   "dl": "2016-06-21",
   "goal": 1500,
   "laun": "2016-06-07 01:40:19",
-  "pled": 25,
+  "pledged": 25,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -28691,7 +28691,7 @@ dataJSON = [{
   "dl": "2011-12-16",
   "goal": 550,
   "laun": "2011-11-26 18:31:18",
-  "pled": 650,
+  "pledged": 650,
   "state": "successful",
   "backers": 18,
   "country": "US"
@@ -28703,7 +28703,7 @@ dataJSON = [{
   "dl": "2014-11-08",
   "goal": 3000,
   "laun": "2014-10-24 18:33:07",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "CA"
@@ -28715,7 +28715,7 @@ dataJSON = [{
   "dl": "2015-04-19",
   "goal": 2000,
   "laun": "2015-03-28 20:07:04",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -28727,7 +28727,7 @@ dataJSON = [{
   "dl": "2013-10-07",
   "goal": 10000,
   "laun": "2013-09-15 23:06:41",
-  "pled": 740,
+  "pledged": 740,
   "state": "failed",
   "backers": 18,
   "country": "US"
@@ -28739,7 +28739,7 @@ dataJSON = [{
   "dl": "2015-10-21",
   "goal": 25000,
   "laun": "2015-09-21 14:45:33",
-  "pled": 2630,
+  "pledged": 2630,
   "state": "canceled",
   "backers": 27,
   "country": "GB"
@@ -28751,7 +28751,7 @@ dataJSON = [{
   "dl": "2014-03-08",
   "goal": 25000,
   "laun": "2014-02-06 15:34:12",
-  "pled": 5,
+  "pledged": 5,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -28763,7 +28763,7 @@ dataJSON = [{
   "dl": "2012-07-18",
   "goal": 5000,
   "laun": "2012-06-20 15:49:43",
-  "pled": 6636,
+  "pledged": 6636,
   "state": "successful",
   "backers": 192,
   "country": "US"
@@ -28775,7 +28775,7 @@ dataJSON = [{
   "dl": "2012-12-31",
   "goal": 2500,
   "laun": "2012-12-07 14:41:36",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -28787,7 +28787,7 @@ dataJSON = [{
   "dl": "2013-02-12",
   "goal": 7000,
   "laun": "2013-01-13 16:02:58",
-  "pled": 125,
+  "pledged": 125,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -28799,7 +28799,7 @@ dataJSON = [{
   "dl": "2017-03-16",
   "goal": 15000,
   "laun": "2017-02-14 20:47:28",
-  "pled": 311,
+  "pledged": 311,
   "state": "failed",
   "backers": 15,
   "country": "US"
@@ -28811,7 +28811,7 @@ dataJSON = [{
   "dl": "2017-12-27",
   "goal": 500,
   "laun": "2017-11-27 17:10:19",
-  "pled": 526,
+  "pledged": 526,
   "state": "successful",
   "backers": 16,
   "country": "ES"
@@ -28823,7 +28823,7 @@ dataJSON = [{
   "dl": "2012-06-29",
   "goal": 1500,
   "laun": "2012-05-30 23:21:38",
-  "pled": 17,
+  "pledged": 17,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -28835,7 +28835,7 @@ dataJSON = [{
   "dl": "2014-07-11",
   "goal": 40000,
   "laun": "2014-06-03 15:57:18",
-  "pled": 47770,
+  "pledged": 47770,
   "state": "successful",
   "backers": 391,
   "country": "US"
@@ -28847,7 +28847,7 @@ dataJSON = [{
   "dl": "2016-01-01",
   "goal": 8000,
   "laun": "2015-12-03 20:25:41",
-  "pled": 8061,
+  "pledged": 8061,
   "state": "undefined",
   "backers": 0,
   "country": "N,0"
@@ -28859,7 +28859,7 @@ dataJSON = [{
   "dl": "2013-04-27",
   "goal": 80000,
   "laun": "2013-02-26 11:50:41",
-  "pled": 5403,
+  "pledged": 5403,
   "state": "failed",
   "backers": 60,
   "country": "GB"
@@ -28871,7 +28871,7 @@ dataJSON = [{
   "dl": "2013-06-09",
   "goal": 12000,
   "laun": "2013-05-10 08:55:54",
-  "pled": 72,
+  "pledged": 72,
   "state": "canceled",
   "backers": 2,
   "country": "US"
@@ -28883,7 +28883,7 @@ dataJSON = [{
   "dl": "2016-02-09",
   "goal": 3275,
   "laun": "2016-01-10 01:09:13",
-  "pled": 2244,
+  "pledged": 2244,
   "state": "failed",
   "backers": 64,
   "country": "US"
@@ -28895,7 +28895,7 @@ dataJSON = [{
   "dl": "2012-12-21",
   "goal": 300,
   "laun": "2012-11-21 22:58:21",
-  "pled": 315,
+  "pledged": 315,
   "state": "successful",
   "backers": 4,
   "country": "US"
@@ -28907,7 +28907,7 @@ dataJSON = [{
   "dl": "2016-06-05",
   "goal": 15000,
   "laun": "2016-05-06 01:02:37",
-  "pled": 576,
+  "pledged": 576,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -28919,7 +28919,7 @@ dataJSON = [{
   "dl": "2014-03-04",
   "goal": 1000,
   "laun": "2014-02-07 07:06:40",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -28931,7 +28931,7 @@ dataJSON = [{
   "dl": "2012-02-14",
   "goal": 900,
   "laun": "2012-01-15 01:52:51",
-  "pled": 116,
+  "pledged": 116,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -28943,7 +28943,7 @@ dataJSON = [{
   "dl": "2015-05-04",
   "goal": 400,
   "laun": "2015-03-20 09:59:15",
-  "pled": 410,
+  "pledged": 410,
   "state": "successful",
   "backers": 16,
   "country": "US"
@@ -28955,7 +28955,7 @@ dataJSON = [{
   "dl": "2013-05-24",
   "goal": 5000,
   "laun": "2013-04-24 08:05:09",
-  "pled": 155,
+  "pledged": 155,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -28967,7 +28967,7 @@ dataJSON = [{
   "dl": "2015-12-11",
   "goal": 5000000,
   "laun": "2015-11-11 21:12:11",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "DK"
@@ -28979,7 +28979,7 @@ dataJSON = [{
   "dl": "2013-04-03",
   "goal": 40000,
   "laun": "2013-03-04 21:58:13",
-  "pled": 50391.47,
+  "pledged": 50391.47,
   "state": "successful",
   "backers": 717,
   "country": "US"
@@ -28991,7 +28991,7 @@ dataJSON = [{
   "dl": "2012-06-30",
   "goal": 600,
   "laun": "2012-06-18 23:21:27",
-  "pled": 1553.78,
+  "pledged": 1553.78,
   "state": "successful",
   "backers": 35,
   "country": "US"
@@ -29003,7 +29003,7 @@ dataJSON = [{
   "dl": "2014-10-02",
   "goal": 1500,
   "laun": "2014-09-02 05:10:42",
-  "pled": 3106,
+  "pledged": 3106,
   "state": "successful",
   "backers": 54,
   "country": "US"
@@ -29015,7 +29015,7 @@ dataJSON = [{
   "dl": "2014-03-18",
   "goal": 10000,
   "laun": "2014-01-17 01:25:49",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -29027,7 +29027,7 @@ dataJSON = [{
   "dl": "2013-06-25",
   "goal": 10000,
   "laun": "2013-05-27 09:41:56",
-  "pled": 12265.99,
+  "pledged": 12265.99,
   "state": "successful",
   "backers": 166,
   "country": "US"
@@ -29039,7 +29039,7 @@ dataJSON = [{
   "dl": "2016-02-01",
   "goal": 15000,
   "laun": "2015-12-21 06:04:30",
-  "pled": 315,
+  "pledged": 315,
   "state": "canceled",
   "backers": 9,
   "country": "US"
@@ -29051,7 +29051,7 @@ dataJSON = [{
   "dl": "2013-08-22",
   "goal": 500,
   "laun": "2013-07-04 19:08:13",
-  "pled": 500,
+  "pledged": 500,
   "state": "successful",
   "backers": 14,
   "country": "US"
@@ -29063,7 +29063,7 @@ dataJSON = [{
   "dl": "2013-01-24",
   "goal": 3200,
   "laun": "2013-01-15 18:18:56",
-  "pled": 4085,
+  "pledged": 4085,
   "state": "successful",
   "backers": 106,
   "country": "US"
@@ -29075,7 +29075,7 @@ dataJSON = [{
   "dl": "2015-06-16",
   "goal": 1500,
   "laun": "2015-05-30 04:03:13",
-  "pled": 1555,
+  "pledged": 1555,
   "state": "successful",
   "backers": 46,
   "country": "CA"
@@ -29087,7 +29087,7 @@ dataJSON = [{
   "dl": "2015-08-08",
   "goal": 675,
   "laun": "2015-07-09 23:03:03",
-  "pled": 780.45,
+  "pledged": 780.45,
   "state": "successful",
   "backers": 31,
   "country": "US"
@@ -29099,7 +29099,7 @@ dataJSON = [{
   "dl": "2017-04-26",
   "goal": 5900,
   "laun": "2017-03-27 08:50:58",
-  "pled": 5941,
+  "pledged": 5941,
   "state": "successful",
   "backers": 135,
   "country": "GB"
@@ -29111,7 +29111,7 @@ dataJSON = [{
   "dl": "2012-04-03",
   "goal": 1200,
   "laun": "2012-03-16 20:50:22",
-  "pled": 1450,
+  "pledged": 1450,
   "state": "successful",
   "backers": 17,
   "country": "US"
@@ -29123,7 +29123,7 @@ dataJSON = [{
   "dl": "2015-11-09",
   "goal": 2000,
   "laun": "2015-10-10 06:47:23",
-  "pled": 2345,
+  "pledged": 2345,
   "state": "successful",
   "backers": 19,
   "country": "US"
@@ -29135,7 +29135,7 @@ dataJSON = [{
   "dl": "2014-06-29",
   "goal": 10000,
   "laun": "2014-04-30 20:45:09",
-  "pled": 420,
+  "pledged": 420,
   "state": "canceled",
   "backers": 8,
   "country": "US"
@@ -29147,7 +29147,7 @@ dataJSON = [{
   "dl": "2013-10-17",
   "goal": 5000,
   "laun": "2013-09-17 17:15:09",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -29159,7 +29159,7 @@ dataJSON = [{
   "dl": "2012-01-11",
   "goal": 1000,
   "laun": "2011-12-12 05:34:03",
-  "pled": 205,
+  "pledged": 205,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -29171,7 +29171,7 @@ dataJSON = [{
   "dl": "2017-06-22",
   "goal": 10000,
   "laun": "2017-05-23 16:00:06",
-  "pled": 46737,
+  "pledged": 46737,
   "state": "successful",
   "backers": 1093,
   "country": "US"
@@ -29183,7 +29183,7 @@ dataJSON = [{
   "dl": "2013-03-27",
   "goal": 1500,
   "laun": "2013-02-25 22:08:01",
-  "pled": 86,
+  "pledged": 86,
   "state": "failed",
   "backers": 10,
   "country": "US"
@@ -29195,7 +29195,7 @@ dataJSON = [{
   "dl": "2009-09-30",
   "goal": 250,
   "laun": "2009-08-14 21:49:01",
-  "pled": 691,
+  "pledged": 691,
   "state": "successful",
   "backers": 29,
   "country": "US"
@@ -29207,7 +29207,7 @@ dataJSON = [{
   "dl": "2012-03-03",
   "goal": 3500,
   "laun": "2012-01-03 18:11:10",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -29219,7 +29219,7 @@ dataJSON = [{
   "dl": "2016-11-09",
   "goal": 2500,
   "laun": "2016-10-10 04:49:46",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -29231,7 +29231,7 @@ dataJSON = [{
   "dl": "2014-09-14",
   "goal": 3700,
   "laun": "2014-07-25 20:15:15",
-  "pled": 170,
+  "pledged": 170,
   "state": "failed",
   "backers": 3,
   "country": "CA"
@@ -29243,7 +29243,7 @@ dataJSON = [{
   "dl": "2015-12-10",
   "goal": 1500,
   "laun": "2015-11-10 18:16:38",
-  "pled": 3725,
+  "pledged": 3725,
   "state": "successful",
   "backers": 47,
   "country": "GB"
@@ -29255,7 +29255,7 @@ dataJSON = [{
   "dl": "2012-03-07",
   "goal": 3000,
   "laun": "2012-02-06 05:15:03",
-  "pled": 740,
+  "pledged": 740,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -29267,7 +29267,7 @@ dataJSON = [{
   "dl": "2015-08-08",
   "goal": 16000,
   "laun": "2015-07-09 20:30:41",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -29279,7 +29279,7 @@ dataJSON = [{
   "dl": "2014-06-05",
   "goal": 10590,
   "laun": "2014-05-08 04:41:17",
-  "pled": 1011,
+  "pledged": 1011,
   "state": "failed",
   "backers": 15,
   "country": "NZ"
@@ -29291,7 +29291,7 @@ dataJSON = [{
   "dl": "2017-03-22",
   "goal": 15000,
   "laun": "2017-03-02 07:30:21",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -29303,7 +29303,7 @@ dataJSON = [{
   "dl": "2015-09-07",
   "goal": 25000,
   "laun": "2015-08-08 04:27:43",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -29315,7 +29315,7 @@ dataJSON = [{
   "dl": "2016-09-21",
   "goal": 12500,
   "laun": "2016-08-17 23:28:48",
-  "pled": 12811.95,
+  "pledged": 12811.95,
   "state": "successful",
   "backers": 96,
   "country": "US"
@@ -29327,7 +29327,7 @@ dataJSON = [{
   "dl": "2012-12-20",
   "goal": 26000,
   "laun": "2012-11-20 01:19:12",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -29339,7 +29339,7 @@ dataJSON = [{
   "dl": "2016-10-17",
   "goal": 500,
   "laun": "2016-09-17 04:51:27",
-  "pled": 25,
+  "pledged": 25,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -29351,7 +29351,7 @@ dataJSON = [{
   "dl": "2015-05-07",
   "goal": 2000,
   "laun": "2015-04-07 20:50:04",
-  "pled": 4000,
+  "pledged": 4000,
   "state": "successful",
   "backers": 67,
   "country": "US"
@@ -29363,7 +29363,7 @@ dataJSON = [{
   "dl": "2014-10-03",
   "goal": 5000,
   "laun": "2014-09-03 20:32:33",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -29375,7 +29375,7 @@ dataJSON = [{
   "dl": "2016-10-03",
   "goal": 1600,
   "laun": "2016-09-19 16:45:20",
-  "pled": 1885,
+  "pledged": 1885,
   "state": "successful",
   "backers": 22,
   "country": "US"
@@ -29387,7 +29387,7 @@ dataJSON = [{
   "dl": "2014-12-02",
   "goal": 5000,
   "laun": "2014-10-25 00:34:15",
-  "pled": 1994,
+  "pledged": 1994,
   "state": "failed",
   "backers": 22,
   "country": "US"
@@ -29399,7 +29399,7 @@ dataJSON = [{
   "dl": "2015-03-06",
   "goal": 3000,
   "laun": "2015-02-04 23:18:25",
-  "pled": 220,
+  "pledged": 220,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -29411,7 +29411,7 @@ dataJSON = [{
   "dl": "2014-12-30",
   "goal": 3000,
   "laun": "2014-12-10 19:36:13",
-  "pled": 11,
+  "pledged": 11,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -29423,7 +29423,7 @@ dataJSON = [{
   "dl": "2015-04-16",
   "goal": 30000,
   "laun": "2015-03-17 19:10:33",
-  "pled": 2725,
+  "pledged": 2725,
   "state": "failed",
   "backers": 7,
   "country": "CA"
@@ -29435,7 +29435,7 @@ dataJSON = [{
   "dl": "2015-04-13",
   "goal": 1500,
   "laun": "2015-03-23 19:24:48",
-  "pled": 20,
+  "pledged": 20,
   "state": "failed",
   "backers": 1,
   "country": "CA"
@@ -29447,7 +29447,7 @@ dataJSON = [{
   "dl": "2014-07-21",
   "goal": 20000,
   "laun": "2014-05-22 00:19:11",
-  "pled": 862,
+  "pledged": 862,
   "state": "canceled",
   "backers": 17,
   "country": "US"
@@ -29459,7 +29459,7 @@ dataJSON = [{
   "dl": "2016-03-04",
   "goal": 15000,
   "laun": "2016-01-19 17:00:36",
-  "pled": 624474,
+  "pledged": 624474,
   "state": "successful",
   "backers": 3478,
   "country": "US"
@@ -29471,7 +29471,7 @@ dataJSON = [{
   "dl": "2015-11-27",
   "goal": 1249,
   "laun": "2015-10-28 22:15:13",
-  "pled": 502,
+  "pledged": 502,
   "state": "failed",
   "backers": 13,
   "country": "US"
@@ -29483,7 +29483,7 @@ dataJSON = [{
   "dl": "2014-11-12",
   "goal": 4000,
   "laun": "2014-10-13 23:37:10",
-  "pled": 4205,
+  "pledged": 4205,
   "state": "successful",
   "backers": 56,
   "country": "US"
@@ -29495,7 +29495,7 @@ dataJSON = [{
   "dl": "2013-12-08",
   "goal": 12500,
   "laun": "2013-11-06 06:13:01",
-  "pled": 993,
+  "pledged": 993,
   "state": "canceled",
   "backers": 20,
   "country": "US"
@@ -29507,7 +29507,7 @@ dataJSON = [{
   "dl": "2011-06-19",
   "goal": 500,
   "laun": "2011-05-20 03:16:03",
-  "pled": 100,
+  "pledged": 100,
   "state": "canceled",
   "backers": 2,
   "country": "US"
@@ -29519,7 +29519,7 @@ dataJSON = [{
   "dl": "2017-02-14",
   "goal": 100,
   "laun": "2017-02-09 21:45:57",
-  "pled": 115,
+  "pledged": 115,
   "state": "successful",
   "backers": 6,
   "country": "US"
@@ -29531,7 +29531,7 @@ dataJSON = [{
   "dl": "2016-06-16",
   "goal": 500,
   "laun": "2016-05-17 00:11:01",
-  "pled": 61,
+  "pledged": 61,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -29543,7 +29543,7 @@ dataJSON = [{
   "dl": "2014-10-20",
   "goal": 30000,
   "laun": "2014-09-17 14:18:11",
-  "pled": 970,
+  "pledged": 970,
   "state": "failed",
   "backers": 34,
   "country": "US"
@@ -29555,7 +29555,7 @@ dataJSON = [{
   "dl": "2014-04-01",
   "goal": 800,
   "laun": "2014-03-07 18:31:37",
-  "pled": 2145,
+  "pledged": 2145,
   "state": "successful",
   "backers": 55,
   "country": "US"
@@ -29567,7 +29567,7 @@ dataJSON = [{
   "dl": "2016-03-02",
   "goal": 2700,
   "laun": "2016-02-01 18:13:24",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -29579,7 +29579,7 @@ dataJSON = [{
   "dl": "2014-11-23",
   "goal": 5000,
   "laun": "2014-10-24 01:56:23",
-  "pled": 5476.23,
+  "pledged": 5476.23,
   "state": "successful",
   "backers": 97,
   "country": "US"
@@ -29591,7 +29591,7 @@ dataJSON = [{
   "dl": "2017-04-24",
   "goal": 55000,
   "laun": "2017-03-10 00:37:04",
-  "pled": 20,
+  "pledged": 20,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -29603,7 +29603,7 @@ dataJSON = [{
   "dl": "2016-04-25",
   "goal": 10500,
   "laun": "2016-03-28 18:25:04",
-  "pled": 33,
+  "pledged": 33,
   "state": "failed",
   "backers": 5,
   "country": "IT"
@@ -29615,7 +29615,7 @@ dataJSON = [{
   "dl": "2015-04-30",
   "goal": 2000,
   "laun": "2015-03-31 17:41:57",
-  "pled": 390,
+  "pledged": 390,
   "state": "failed",
   "backers": 18,
   "country": "GB"
@@ -29627,7 +29627,7 @@ dataJSON = [{
   "dl": "2012-10-07",
   "goal": 1000,
   "laun": "2012-09-07 01:53:52",
-  "pled": 1430,
+  "pledged": 1430,
   "state": "successful",
   "backers": 36,
   "country": "US"
@@ -29639,7 +29639,7 @@ dataJSON = [{
   "dl": "2015-07-13",
   "goal": 24000,
   "laun": "2015-06-13 11:44:25",
-  "pled": 100,
+  "pledged": 100,
   "state": "failed",
   "backers": 1,
   "country": "AU"
@@ -29651,7 +29651,7 @@ dataJSON = [{
   "dl": "2017-12-22",
   "goal": 61500,
   "laun": "2017-11-09 06:19:31",
-  "pled": 38989,
+  "pledged": 38989,
   "state": "failed",
   "backers": 267,
   "country": "US"
@@ -29663,7 +29663,7 @@ dataJSON = [{
   "dl": "2016-08-31",
   "goal": 2000,
   "laun": "2016-08-16 15:47:34",
-  "pled": 3364,
+  "pledged": 3364,
   "state": "successful",
   "backers": 131,
   "country": "US"
@@ -29675,7 +29675,7 @@ dataJSON = [{
   "dl": "2014-12-22",
   "goal": 5000,
   "laun": "2014-11-22 00:56:04",
-  "pled": 0,
+  "pledged": 0,
   "state": "undefined",
   "backers": 0,
   "country": "N,0"
@@ -29687,7 +29687,7 @@ dataJSON = [{
   "dl": "2015-12-08",
   "goal": 750,
   "laun": "2015-11-20 15:48:55",
-  "pled": 1231.99,
+  "pledged": 1231.99,
   "state": "successful",
   "backers": 51,
   "country": "US"
@@ -29699,7 +29699,7 @@ dataJSON = [{
   "dl": "2015-05-11",
   "goal": 6500,
   "laun": "2015-03-25 03:55:53",
-  "pled": 6696,
+  "pledged": 6696,
   "state": "undefined",
   "backers": 0,
   "country": "N,0"
@@ -29711,7 +29711,7 @@ dataJSON = [{
   "dl": "2016-11-23",
   "goal": 8000,
   "laun": "2016-10-24 04:35:40",
-  "pled": 8322,
+  "pledged": 8322,
   "state": "successful",
   "backers": 75,
   "country": "US"
@@ -29723,7 +29723,7 @@ dataJSON = [{
   "dl": "2015-04-05",
   "goal": 10000,
   "laun": "2015-03-06 00:30:02",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -29735,7 +29735,7 @@ dataJSON = [{
   "dl": "2015-11-01",
   "goal": 40000,
   "laun": "2015-09-28 22:41:56",
-  "pled": 99,
+  "pledged": 99,
   "state": "failed",
   "backers": 1,
   "country": "AT"
@@ -29747,7 +29747,7 @@ dataJSON = [{
   "dl": "2011-11-29",
   "goal": 2000,
   "laun": "2011-11-08 21:52:20",
-  "pled": 2142,
+  "pledged": 2142,
   "state": "successful",
   "backers": 24,
   "country": "US"
@@ -29759,7 +29759,7 @@ dataJSON = [{
   "dl": "2015-03-09",
   "goal": 5000,
   "laun": "2015-02-07 05:44:52",
-  "pled": 5696,
+  "pledged": 5696,
   "state": "successful",
   "backers": 71,
   "country": "US"
@@ -29771,7 +29771,7 @@ dataJSON = [{
   "dl": "2016-02-01",
   "goal": 10000,
   "laun": "2015-12-11 17:52:45",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -29783,7 +29783,7 @@ dataJSON = [{
   "dl": "2016-06-25",
   "goal": 9000,
   "laun": "2016-05-26 07:53:37",
-  "pled": 166,
+  "pledged": 166,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -29795,7 +29795,7 @@ dataJSON = [{
   "dl": "2015-11-25",
   "goal": 15000,
   "laun": "2015-10-26 17:49:13",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -29807,7 +29807,7 @@ dataJSON = [{
   "dl": "2015-02-24",
   "goal": 39023437,
   "laun": "2015-01-31 09:05:34",
-  "pled": 5,
+  "pledged": 5,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -29819,7 +29819,7 @@ dataJSON = [{
   "dl": "2015-04-24",
   "goal": 8000,
   "laun": "2015-03-25 15:25:07",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "GB"
@@ -29831,7 +29831,7 @@ dataJSON = [{
   "dl": "2015-08-12",
   "goal": 50000,
   "laun": "2015-07-13 17:44:01",
-  "pled": 50,
+  "pledged": 50,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -29843,7 +29843,7 @@ dataJSON = [{
   "dl": "2015-05-23",
   "goal": 8000,
   "laun": "2015-04-08 21:53:23",
-  "pled": 50335,
+  "pledged": 50335,
   "state": "successful",
   "backers": 1963,
   "country": "US"
@@ -29855,7 +29855,7 @@ dataJSON = [{
   "dl": "2012-05-21",
   "goal": 25000,
   "laun": "2012-04-06 17:54:39",
-  "pled": 25280,
+  "pledged": 25280,
   "state": "successful",
   "backers": 141,
   "country": "US"
@@ -29867,7 +29867,7 @@ dataJSON = [{
   "dl": "2017-06-21",
   "goal": 50000,
   "laun": "2017-05-22 23:48:30",
-  "pled": 670,
+  "pledged": 670,
   "state": "failed",
   "backers": 2,
   "country": "CH"
@@ -29879,7 +29879,7 @@ dataJSON = [{
   "dl": "2016-09-22",
   "goal": 1500,
   "laun": "2016-08-23 04:37:41",
-  "pled": 270,
+  "pledged": 270,
   "state": "failed",
   "backers": 7,
   "country": "US"
@@ -29891,7 +29891,7 @@ dataJSON = [{
   "dl": "2013-02-28",
   "goal": 2300,
   "laun": "2013-01-29 00:19:26",
-  "pled": 2345.53,
+  "pledged": 2345.53,
   "state": "successful",
   "backers": 27,
   "country": "US"
@@ -29903,7 +29903,7 @@ dataJSON = [{
   "dl": "2017-11-25",
   "goal": 500,
   "laun": "2017-10-26 02:04:16",
-  "pled": 620,
+  "pledged": 620,
   "state": "successful",
   "backers": 14,
   "country": "US"
@@ -29915,7 +29915,7 @@ dataJSON = [{
   "dl": "2016-05-15",
   "goal": 7000,
   "laun": "2016-03-19 22:01:45",
-  "pled": 3,
+  "pledged": 3,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -29927,7 +29927,7 @@ dataJSON = [{
   "dl": "2017-05-16",
   "goal": 500,
   "laun": "2017-04-16 20:18:16",
-  "pled": 91,
+  "pledged": 91,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -29939,7 +29939,7 @@ dataJSON = [{
   "dl": "2013-11-19",
   "goal": 2500,
   "laun": "2013-10-20 19:45:31",
-  "pled": 210,
+  "pledged": 210,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -29951,7 +29951,7 @@ dataJSON = [{
   "dl": "2010-08-20",
   "goal": 4754.8,
   "laun": "2010-07-20 19:38:58",
-  "pled": 4755,
+  "pledged": 4755,
   "state": "successful",
   "backers": 17,
   "country": "US"
@@ -29963,7 +29963,7 @@ dataJSON = [{
   "dl": "2015-04-25",
   "goal": 15000,
   "laun": "2015-03-26 03:16:58",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -29975,7 +29975,7 @@ dataJSON = [{
   "dl": "2015-02-16",
   "goal": 2500,
   "laun": "2015-01-06 02:10:48",
-  "pled": 2510,
+  "pledged": 2510,
   "state": "successful",
   "backers": 20,
   "country": "US"
@@ -29987,7 +29987,7 @@ dataJSON = [{
   "dl": "2016-04-06",
   "goal": 3750,
   "laun": "2016-03-27 13:37:50",
-  "pled": 128,
+  "pledged": 128,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -29999,7 +29999,7 @@ dataJSON = [{
   "dl": "2015-06-13",
   "goal": 20000,
   "laun": "2015-05-14 17:36:22",
-  "pled": 1220,
+  "pledged": 1220,
   "state": "failed",
   "backers": 16,
   "country": "US"
@@ -30011,7 +30011,7 @@ dataJSON = [{
   "dl": "2017-02-22",
   "goal": 2000,
   "laun": "2017-01-23 06:25:45",
-  "pled": 4032,
+  "pledged": 4032,
   "state": "successful",
   "backers": 40,
   "country": "US"
@@ -30023,7 +30023,7 @@ dataJSON = [{
   "dl": "2013-09-19",
   "goal": 5000,
   "laun": "2013-08-20 20:06:33",
-  "pled": 126,
+  "pledged": 126,
   "state": "failed",
   "backers": 5,
   "country": "GB"
@@ -30035,7 +30035,7 @@ dataJSON = [{
   "dl": "2016-07-19",
   "goal": 8000,
   "laun": "2016-06-04 20:46:11",
-  "pled": 5281,
+  "pledged": 5281,
   "state": "failed",
   "backers": 33,
   "country": "US"
@@ -30047,7 +30047,7 @@ dataJSON = [{
   "dl": "2013-12-14",
   "goal": 30000,
   "laun": "2013-11-12 22:44:41",
-  "pled": 30550,
+  "pledged": 30550,
   "state": "successful",
   "backers": 261,
   "country": "US"
@@ -30059,7 +30059,7 @@ dataJSON = [{
   "dl": "2017-02-02",
   "goal": 25000,
   "laun": "2016-12-04 19:05:46",
-  "pled": 6,
+  "pledged": 6,
   "state": "failed",
   "backers": 2,
   "country": "CA"
@@ -30071,7 +30071,7 @@ dataJSON = [{
   "dl": "2015-08-16",
   "goal": 160000,
   "laun": "2015-07-02 23:33:13",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "FR"
@@ -30083,7 +30083,7 @@ dataJSON = [{
   "dl": "2017-07-20",
   "goal": 3300,
   "laun": "2017-06-20 15:02:21",
-  "pled": 519,
+  "pledged": 519,
   "state": "failed",
   "backers": 9,
   "country": "US"
@@ -30095,7 +30095,7 @@ dataJSON = [{
   "dl": "2011-12-02",
   "goal": 2500,
   "laun": "2011-10-27 22:11:07",
-  "pled": 2505,
+  "pledged": 2505,
   "state": "successful",
   "backers": 69,
   "country": "US"
@@ -30107,7 +30107,7 @@ dataJSON = [{
   "dl": "2014-11-02",
   "goal": 2000,
   "laun": "2014-10-03 22:45:31",
-  "pled": 50,
+  "pledged": 50,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -30119,7 +30119,7 @@ dataJSON = [{
   "dl": "2015-01-12",
   "goal": 5000,
   "laun": "2014-12-02 13:00:28",
-  "pled": 2277,
+  "pledged": 2277,
   "state": "failed",
   "backers": 125,
   "country": "US"
@@ -30131,7 +30131,7 @@ dataJSON = [{
   "dl": "2015-03-01",
   "goal": 300,
   "laun": "2015-02-16 23:54:14",
-  "pled": 300,
+  "pledged": 300,
   "state": "successful",
   "backers": 13,
   "country": "US"
@@ -30143,7 +30143,7 @@ dataJSON = [{
   "dl": "2015-12-18",
   "goal": 1000,
   "laun": "2015-11-17 22:23:29",
-  "pled": 3127,
+  "pledged": 3127,
   "state": "successful",
   "backers": 86,
   "country": "US"
@@ -30155,7 +30155,7 @@ dataJSON = [{
   "dl": "2014-02-09",
   "goal": 22500,
   "laun": "2014-01-10 21:04:13",
-  "pled": 23841,
+  "pledged": 23841,
   "state": "successful",
   "backers": 131,
   "country": "US"
@@ -30167,7 +30167,7 @@ dataJSON = [{
   "dl": "2014-08-23",
   "goal": 250,
   "laun": "2014-08-13 09:05:58",
-  "pled": 520,
+  "pledged": 520,
   "state": "successful",
   "backers": 14,
   "country": "US"
@@ -30179,7 +30179,7 @@ dataJSON = [{
   "dl": "2013-02-07",
   "goal": 2000,
   "laun": "2013-01-08 22:37:56",
-  "pled": 2071,
+  "pledged": 2071,
   "state": "successful",
   "backers": 53,
   "country": "US"
@@ -30191,7 +30191,7 @@ dataJSON = [{
   "dl": "2015-06-21",
   "goal": 2000,
   "laun": "2015-05-22 03:40:20",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -30203,7 +30203,7 @@ dataJSON = [{
   "dl": "2013-08-22",
   "goal": 6000,
   "laun": "2013-07-23 04:22:35",
-  "pled": 575,
+  "pledged": 575,
   "state": "failed",
   "backers": 10,
   "country": "US"
@@ -30215,7 +30215,7 @@ dataJSON = [{
   "dl": "2017-11-22",
   "goal": 9800,
   "laun": "2017-10-25 03:54:20",
-  "pled": 2641,
+  "pledged": 2641,
   "state": "failed",
   "backers": 41,
   "country": "US"
@@ -30227,7 +30227,7 @@ dataJSON = [{
   "dl": "2011-04-03",
   "goal": 6500,
   "laun": "2011-03-02 05:18:35",
-  "pled": 6886,
+  "pledged": 6886,
   "state": "successful",
   "backers": 106,
   "country": "US"
@@ -30239,7 +30239,7 @@ dataJSON = [{
   "dl": "2015-03-05",
   "goal": 1500,
   "laun": "2015-02-03 19:12:28",
-  "pled": 270,
+  "pledged": 270,
   "state": "failed",
   "backers": 7,
   "country": "US"
@@ -30251,7 +30251,7 @@ dataJSON = [{
   "dl": "2015-07-12",
   "goal": 4000,
   "laun": "2015-06-02 06:00:27",
-  "pled": 768,
+  "pledged": 768,
   "state": "failed",
   "backers": 29,
   "country": "ES"
@@ -30263,7 +30263,7 @@ dataJSON = [{
   "dl": "2015-08-01",
   "goal": 1000,
   "laun": "2015-06-05 18:32:10",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -30275,7 +30275,7 @@ dataJSON = [{
   "dl": "2013-10-10",
   "goal": 42000,
   "laun": "2013-09-10 21:55:02",
-  "pled": 5029,
+  "pledged": 5029,
   "state": "failed",
   "backers": 81,
   "country": "US"
@@ -30287,7 +30287,7 @@ dataJSON = [{
   "dl": "2011-11-04",
   "goal": 5000,
   "laun": "2011-09-05 04:47:34",
-  "pled": 27,
+  "pledged": 27,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -30299,7 +30299,7 @@ dataJSON = [{
   "dl": "2015-02-15",
   "goal": 30000,
   "laun": "2015-01-07 21:45:46",
-  "pled": 7238,
+  "pledged": 7238,
   "state": "failed",
   "backers": 70,
   "country": "US"
@@ -30311,7 +30311,7 @@ dataJSON = [{
   "dl": "2017-06-21",
   "goal": 18000,
   "laun": "2017-05-22 05:16:11",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -30323,7 +30323,7 @@ dataJSON = [{
   "dl": "2015-10-11",
   "goal": 50000,
   "laun": "2015-09-11 13:33:38",
-  "pled": 155,
+  "pledged": 155,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -30335,7 +30335,7 @@ dataJSON = [{
   "dl": "2013-12-26",
   "goal": 10000,
   "laun": "2013-11-26 06:20:51",
-  "pled": 165,
+  "pledged": 165,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -30347,7 +30347,7 @@ dataJSON = [{
   "dl": "2017-06-01",
   "goal": 7000,
   "laun": "2017-05-02 04:22:28",
-  "pled": 836,
+  "pledged": 836,
   "state": "canceled",
   "backers": 17,
   "country": "US"
@@ -30359,7 +30359,7 @@ dataJSON = [{
   "dl": "2016-08-13",
   "goal": 23000,
   "laun": "2016-06-21 10:03:37",
-  "pled": 23192,
+  "pledged": 23192,
   "state": "canceled",
   "backers": 74,
   "country": "IT"
@@ -30371,7 +30371,7 @@ dataJSON = [{
   "dl": "2011-10-30",
   "goal": 10000,
   "laun": "2011-08-31 09:01:33",
-  "pled": 25,
+  "pledged": 25,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -30383,7 +30383,7 @@ dataJSON = [{
   "dl": "2016-11-12",
   "goal": 60000,
   "laun": "2016-10-13 18:04:13",
-  "pled": 3723,
+  "pledged": 3723,
   "state": "failed",
   "backers": 94,
   "country": "IT"
@@ -30395,7 +30395,7 @@ dataJSON = [{
   "dl": "2011-12-01",
   "goal": 49000,
   "laun": "2011-11-12 01:04:06",
-  "pled": 79,
+  "pledged": 79,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -30407,7 +30407,7 @@ dataJSON = [{
   "dl": "2016-07-01",
   "goal": 80000,
   "laun": "2016-06-01 18:53:37",
-  "pled": 328579,
+  "pledged": 328579,
   "state": "successful",
   "backers": 1203,
   "country": "US"
@@ -30419,7 +30419,7 @@ dataJSON = [{
   "dl": "2013-06-20",
   "goal": 1000,
   "laun": "2013-05-06 22:12:14",
-  "pled": 1390,
+  "pledged": 1390,
   "state": "successful",
   "backers": 28,
   "country": "US"
@@ -30431,7 +30431,7 @@ dataJSON = [{
   "dl": "2017-06-27",
   "goal": 2300,
   "laun": "2017-06-08 15:00:04",
-  "pled": 2660,
+  "pledged": 2660,
   "state": "successful",
   "backers": 55,
   "country": "CA"
@@ -30443,7 +30443,7 @@ dataJSON = [{
   "dl": "2010-11-25",
   "goal": 5000,
   "laun": "2010-10-11 00:08:02",
-  "pled": 1425,
+  "pledged": 1425,
   "state": "failed",
   "backers": 26,
   "country": "US"
@@ -30455,7 +30455,7 @@ dataJSON = [{
   "dl": "2013-01-14",
   "goal": 3000,
   "laun": "2012-12-05 01:26:10",
-  "pled": 3235.01,
+  "pledged": 3235.01,
   "state": "successful",
   "backers": 60,
   "country": "GB"
@@ -30467,7 +30467,7 @@ dataJSON = [{
   "dl": "2013-04-25",
   "goal": 700,
   "laun": "2013-03-26 00:42:44",
-  "pled": 787,
+  "pledged": 787,
   "state": "successful",
   "backers": 16,
   "country": "US"
@@ -30479,7 +30479,7 @@ dataJSON = [{
   "dl": "2017-05-12",
   "goal": 20000,
   "laun": "2017-04-22 22:44:26",
-  "pled": 336,
+  "pledged": 336,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -30491,7 +30491,7 @@ dataJSON = [{
   "dl": "2014-11-14",
   "goal": 2500,
   "laun": "2014-10-15 03:50:08",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -30503,7 +30503,7 @@ dataJSON = [{
   "dl": "2014-08-21",
   "goal": 10000,
   "laun": "2014-07-22 18:46:13",
-  "pled": 3226,
+  "pledged": 3226,
   "state": "failed",
   "backers": 71,
   "country": "US"
@@ -30515,7 +30515,7 @@ dataJSON = [{
   "dl": "2016-08-25",
   "goal": 35000,
   "laun": "2016-07-26 17:48:59",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -30527,7 +30527,7 @@ dataJSON = [{
   "dl": "2014-04-09",
   "goal": 10000,
   "laun": "2014-03-10 18:37:17",
-  "pled": 205,
+  "pledged": 205,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -30539,7 +30539,7 @@ dataJSON = [{
   "dl": "2017-03-25",
   "goal": 2500,
   "laun": "2017-03-15 00:07:42",
-  "pled": 35,
+  "pledged": 35,
   "state": "canceled",
   "backers": 2,
   "country": "US"
@@ -30551,7 +30551,7 @@ dataJSON = [{
   "dl": "2012-04-18",
   "goal": 2500,
   "laun": "2012-03-14 13:17:50",
-  "pled": 766,
+  "pledged": 766,
   "state": "failed",
   "backers": 15,
   "country": "US"
@@ -30563,7 +30563,7 @@ dataJSON = [{
   "dl": "2011-02-16",
   "goal": 5000,
   "laun": "2011-01-15 21:05:36",
-  "pled": 305,
+  "pledged": 305,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -30575,7 +30575,7 @@ dataJSON = [{
   "dl": "2015-07-23",
   "goal": 150000,
   "laun": "2015-06-23 00:27:41",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -30587,7 +30587,7 @@ dataJSON = [{
   "dl": "2016-12-31",
   "goal": 30000,
   "laun": "2016-11-20 00:14:36",
-  "pled": 100,
+  "pledged": 100,
   "state": "canceled",
   "backers": 2,
   "country": "SE"
@@ -30599,7 +30599,7 @@ dataJSON = [{
   "dl": "2015-03-12",
   "goal": 25000,
   "laun": "2015-02-10 02:37:00",
-  "pled": 26229,
+  "pledged": 26229,
   "state": "successful",
   "backers": 215,
   "country": "CA"
@@ -30611,7 +30611,7 @@ dataJSON = [{
   "dl": "2009-07-25",
   "goal": 2000,
   "laun": "2009-05-13 19:00:27",
-  "pled": 5,
+  "pledged": 5,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -30623,7 +30623,7 @@ dataJSON = [{
   "dl": "2011-05-01",
   "goal": 2500,
   "laun": "2011-04-04 07:31:17",
-  "pled": 4505,
+  "pledged": 4505,
   "state": "successful",
   "backers": 61,
   "country": "US"
@@ -30635,7 +30635,7 @@ dataJSON = [{
   "dl": "2016-04-15",
   "goal": 3000,
   "laun": "2016-02-15 14:01:16",
-  "pled": 5152,
+  "pledged": 5152,
   "state": "successful",
   "backers": 245,
   "country": "DE"
@@ -30647,7 +30647,7 @@ dataJSON = [{
   "dl": "2015-12-05",
   "goal": 5000,
   "laun": "2015-10-21 22:13:17",
-  "pled": 5,
+  "pledged": 5,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -30659,7 +30659,7 @@ dataJSON = [{
   "dl": "2017-11-09",
   "goal": 8000,
   "laun": "2017-10-10 19:02:34",
-  "pled": 5061,
+  "pledged": 5061,
   "state": "failed",
   "backers": 15,
   "country": "HK"
@@ -30671,7 +30671,7 @@ dataJSON = [{
   "dl": "2017-04-01",
   "goal": 3500,
   "laun": "2017-03-02 20:25:42",
-  "pled": 26,
+  "pledged": 26,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -30683,7 +30683,7 @@ dataJSON = [{
   "dl": "2016-08-28",
   "goal": 150000,
   "laun": "2016-07-29 03:54:01",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -30695,7 +30695,7 @@ dataJSON = [{
   "dl": "2016-03-07",
   "goal": 25000,
   "laun": "2016-02-10 09:03:41",
-  "pled": 32449,
+  "pledged": 32449,
   "state": "successful",
   "backers": 474,
   "country": "US"
@@ -30707,7 +30707,7 @@ dataJSON = [{
   "dl": "2013-11-26",
   "goal": 10000,
   "laun": "2013-10-25 18:03:37",
-  "pled": 23375,
+  "pledged": 23375,
   "state": "successful",
   "backers": 271,
   "country": "US"
@@ -30719,7 +30719,7 @@ dataJSON = [{
   "dl": "2016-11-24",
   "goal": 36000,
   "laun": "2016-10-25 04:23:19",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -30731,7 +30731,7 @@ dataJSON = [{
   "dl": "2011-07-25",
   "goal": 530,
   "laun": "2011-06-15 02:10:25",
-  "pled": 865,
+  "pledged": 865,
   "state": "successful",
   "backers": 16,
   "country": "US"
@@ -30743,7 +30743,7 @@ dataJSON = [{
   "dl": "2015-01-15",
   "goal": 22222,
   "laun": "2014-12-11 03:16:50",
-  "pled": 34591.63,
+  "pledged": 34591.63,
   "state": "successful",
   "backers": 731,
   "country": "US"
@@ -30755,7 +30755,7 @@ dataJSON = [{
   "dl": "2015-04-14",
   "goal": 6850,
   "laun": "2015-02-13 02:31:51",
-  "pled": 7535,
+  "pledged": 7535,
   "state": "successful",
   "backers": 65,
   "country": "US"
@@ -30767,7 +30767,7 @@ dataJSON = [{
   "dl": "2013-05-11",
   "goal": 10000,
   "laun": "2013-04-09 09:06:39",
-  "pled": 10061,
+  "pledged": 10061,
   "state": "successful",
   "backers": 96,
   "country": "US"
@@ -30779,7 +30779,7 @@ dataJSON = [{
   "dl": "2017-12-09",
   "goal": 650,
   "laun": "2017-11-19 09:38:45",
-  "pled": 359,
+  "pledged": 359,
   "state": "canceled",
   "backers": 22,
   "country": "US"
@@ -30791,7 +30791,7 @@ dataJSON = [{
   "dl": "2017-12-14",
   "goal": 20000,
   "laun": "2017-11-14 15:00:17",
-  "pled": 11403,
+  "pledged": 11403,
   "state": "failed",
   "backers": 91,
   "country": "US"
@@ -30803,7 +30803,7 @@ dataJSON = [{
   "dl": "2013-10-17",
   "goal": 5000,
   "laun": "2013-09-27 04:30:20",
-  "pled": 1025,
+  "pledged": 1025,
   "state": "failed",
   "backers": 14,
   "country": "US"
@@ -30815,7 +30815,7 @@ dataJSON = [{
   "dl": "2016-08-27",
   "goal": 800,
   "laun": "2016-07-28 22:42:25",
-  "pled": 2,
+  "pledged": 2,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -30827,7 +30827,7 @@ dataJSON = [{
   "dl": "2013-07-16",
   "goal": 200,
   "laun": "2013-06-21 21:37:45",
-  "pled": 24,
+  "pledged": 24,
   "state": "failed",
   "backers": 3,
   "country": "GB"
@@ -30839,7 +30839,7 @@ dataJSON = [{
   "dl": "2012-06-15",
   "goal": 2000,
   "laun": "2012-04-16 21:49:37",
-  "pled": 2080,
+  "pledged": 2080,
   "state": "successful",
   "backers": 27,
   "country": "US"
@@ -30851,7 +30851,7 @@ dataJSON = [{
   "dl": "2011-02-26",
   "goal": 15000,
   "laun": "2011-01-11 01:27:15",
-  "pled": 1425,
+  "pledged": 1425,
   "state": "failed",
   "backers": 15,
   "country": "US"
@@ -30863,7 +30863,7 @@ dataJSON = [{
   "dl": "2015-08-20",
   "goal": 50000,
   "laun": "2015-07-21 01:02:59",
-  "pled": 254,
+  "pledged": 254,
   "state": "failed",
   "backers": 10,
   "country": "US"
@@ -30875,7 +30875,7 @@ dataJSON = [{
   "dl": "2014-09-11",
   "goal": 15000,
   "laun": "2014-08-12 19:05:30",
-  "pled": 71,
+  "pledged": 71,
   "state": "failed",
   "backers": 5,
   "country": "GB"
@@ -30887,7 +30887,7 @@ dataJSON = [{
   "dl": "2017-07-30",
   "goal": 20000,
   "laun": "2017-06-15 06:01:19",
-  "pled": 35105,
+  "pledged": 35105,
   "state": "successful",
   "backers": 580,
   "country": "US"
@@ -30899,7 +30899,7 @@ dataJSON = [{
   "dl": "2013-03-01",
   "goal": 300000,
   "laun": "2013-01-01 00:57:59",
-  "pled": 100533.5,
+  "pledged": 100533.5,
   "state": "canceled",
   "backers": 1008,
   "country": "GB"
@@ -30911,7 +30911,7 @@ dataJSON = [{
   "dl": "2013-10-05",
   "goal": 3000,
   "laun": "2013-09-05 00:22:33",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -30923,7 +30923,7 @@ dataJSON = [{
   "dl": "2014-07-07",
   "goal": 10000,
   "laun": "2014-06-07 06:03:05",
-  "pled": 1542,
+  "pledged": 1542,
   "state": "canceled",
   "backers": 42,
   "country": "US"
@@ -30935,7 +30935,7 @@ dataJSON = [{
   "dl": "2015-12-01",
   "goal": 1200,
   "laun": "2015-11-11 10:43:00",
-  "pled": 1284,
+  "pledged": 1284,
   "state": "successful",
   "backers": 53,
   "country": "GB"
@@ -30947,7 +30947,7 @@ dataJSON = [{
   "dl": "2016-12-31",
   "goal": 1250,
   "laun": "2016-12-08 01:49:44",
-  "pled": 5,
+  "pledged": 5,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -30959,7 +30959,7 @@ dataJSON = [{
   "dl": "2014-07-19",
   "goal": 120,
   "laun": "2014-07-14 19:00:11",
-  "pled": 164,
+  "pledged": 164,
   "state": "successful",
   "backers": 8,
   "country": "US"
@@ -30971,7 +30971,7 @@ dataJSON = [{
   "dl": "2013-12-21",
   "goal": 3500,
   "laun": "2013-11-22 08:10:22",
-  "pled": 4239,
+  "pledged": 4239,
   "state": "successful",
   "backers": 258,
   "country": "US"
@@ -30983,7 +30983,7 @@ dataJSON = [{
   "dl": "2015-10-01",
   "goal": 15000,
   "laun": "2015-08-31 14:22:33",
-  "pled": 17467,
+  "pledged": 17467,
   "state": "successful",
   "backers": 103,
   "country": "US"
@@ -30995,7 +30995,7 @@ dataJSON = [{
   "dl": "2012-06-02",
   "goal": 7000,
   "laun": "2012-04-09 10:45:01",
-  "pled": 7086,
+  "pledged": 7086,
   "state": "successful",
   "backers": 53,
   "country": "US"
@@ -31007,7 +31007,7 @@ dataJSON = [{
   "dl": "2015-09-20",
   "goal": 3000,
   "laun": "2015-08-21 23:26:23",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "CA"
@@ -31019,7 +31019,7 @@ dataJSON = [{
   "dl": "2014-04-28",
   "goal": 100000,
   "laun": "2014-03-14 14:02:01",
-  "pled": 68789.01,
+  "pledged": 68789.01,
   "state": "canceled",
   "backers": 691,
   "country": "US"
@@ -31031,7 +31031,7 @@ dataJSON = [{
   "dl": "2013-06-23",
   "goal": 4000,
   "laun": "2013-05-24 05:46:25",
-  "pled": 361,
+  "pledged": 361,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -31043,7 +31043,7 @@ dataJSON = [{
   "dl": "2015-07-01",
   "goal": 400,
   "laun": "2015-06-01 17:03:24",
-  "pled": 26,
+  "pledged": 26,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -31055,7 +31055,7 @@ dataJSON = [{
   "dl": "2015-08-19",
   "goal": 2500,
   "laun": "2015-07-20 17:24:16",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "DE"
@@ -31067,7 +31067,7 @@ dataJSON = [{
   "dl": "2015-10-28",
   "goal": 115250,
   "laun": "2015-09-28 23:22:16",
-  "pled": 1060,
+  "pledged": 1060,
   "state": "failed",
   "backers": 7,
   "country": "US"
@@ -31079,7 +31079,7 @@ dataJSON = [{
   "dl": "2016-12-04",
   "goal": 100000,
   "laun": "2016-10-20 18:03:31",
-  "pled": 530,
+  "pledged": 530,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -31091,7 +31091,7 @@ dataJSON = [{
   "dl": "2011-04-14",
   "goal": 10000,
   "laun": "2011-02-27 05:40:01",
-  "pled": 25,
+  "pledged": 25,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -31103,7 +31103,7 @@ dataJSON = [{
   "dl": "2014-09-14",
   "goal": 10,
   "laun": "2014-07-16 19:16:03",
-  "pled": 27,
+  "pledged": 27,
   "state": "successful",
   "backers": 8,
   "country": "US"
@@ -31115,7 +31115,7 @@ dataJSON = [{
   "dl": "2014-11-20",
   "goal": 2000,
   "laun": "2014-11-05 12:56:44",
-  "pled": 1240,
+  "pledged": 1240,
   "state": "failed",
   "backers": 28,
   "country": "GB"
@@ -31127,7 +31127,7 @@ dataJSON = [{
   "dl": "2016-11-13",
   "goal": 50000,
   "laun": "2016-09-29 22:15:59",
-  "pled": 122529,
+  "pledged": 122529,
   "state": "successful",
   "backers": 2404,
   "country": "US"
@@ -31139,7 +31139,7 @@ dataJSON = [{
   "dl": "2012-12-29",
   "goal": 20000,
   "laun": "2012-10-30 04:23:34",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -31151,7 +31151,7 @@ dataJSON = [{
   "dl": "2015-11-20",
   "goal": 300000,
   "laun": "2015-10-21 13:34:08",
-  "pled": 332620.81,
+  "pledged": 332620.81,
   "state": "successful",
   "backers": 5828,
   "country": "US"
@@ -31163,7 +31163,7 @@ dataJSON = [{
   "dl": "2015-06-27",
   "goal": 4000,
   "laun": "2015-05-28 04:28:23",
-  "pled": 4330,
+  "pledged": 4330,
   "state": "successful",
   "backers": 26,
   "country": "US"
@@ -31175,7 +31175,7 @@ dataJSON = [{
   "dl": "2015-12-20",
   "goal": 10000,
   "laun": "2015-11-27 17:54:22",
-  "pled": 847,
+  "pledged": 847,
   "state": "failed",
   "backers": 9,
   "country": "US"
@@ -31187,7 +31187,7 @@ dataJSON = [{
   "dl": "2011-03-01",
   "goal": 1500,
   "laun": "2011-01-25 06:35:25",
-  "pled": 1558,
+  "pledged": 1558,
   "state": "successful",
   "backers": 50,
   "country": "US"
@@ -31199,7 +31199,7 @@ dataJSON = [{
   "dl": "2011-07-15",
   "goal": 2500,
   "laun": "2011-06-15 03:00:28",
-  "pled": 2732,
+  "pledged": 2732,
   "state": "successful",
   "backers": 53,
   "country": "US"
@@ -31211,7 +31211,7 @@ dataJSON = [{
   "dl": "2012-07-09",
   "goal": 600,
   "laun": "2012-07-06 00:24:37",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -31223,7 +31223,7 @@ dataJSON = [{
   "dl": "2014-03-07",
   "goal": 4000,
   "laun": "2014-02-05 00:36:51",
-  "pled": 4080,
+  "pledged": 4080,
   "state": "successful",
   "backers": 49,
   "country": "US"
@@ -31235,7 +31235,7 @@ dataJSON = [{
   "dl": "2015-07-14",
   "goal": 5000,
   "laun": "2015-05-15 18:01:18",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 1,
   "country": "GB"
@@ -31247,7 +31247,7 @@ dataJSON = [{
   "dl": "2012-06-24",
   "goal": 10000,
   "laun": "2012-05-25 23:43:59",
-  "pled": 60,
+  "pledged": 60,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -31259,7 +31259,7 @@ dataJSON = [{
   "dl": "2011-09-16",
   "goal": 3000,
   "laun": "2011-08-07 03:04:22",
-  "pled": 2482.56,
+  "pledged": 2482.56,
   "state": "failed",
   "backers": 22,
   "country": "US"
@@ -31271,7 +31271,7 @@ dataJSON = [{
   "dl": "2014-06-04",
   "goal": 3000,
   "laun": "2014-05-20 17:51:46",
-  "pled": 3000,
+  "pledged": 3000,
   "state": "successful",
   "backers": 13,
   "country": "US"
@@ -31283,7 +31283,7 @@ dataJSON = [{
   "dl": "2012-06-09",
   "goal": 5000,
   "laun": "2012-05-09 15:59:23",
-  "pled": 5265.12,
+  "pledged": 5265.12,
   "state": "successful",
   "backers": 98,
   "country": "US"
@@ -31295,7 +31295,7 @@ dataJSON = [{
   "dl": "2017-04-04",
   "goal": 1200,
   "laun": "2017-03-10 08:23:47",
-  "pled": 1510,
+  "pledged": 1510,
   "state": "successful",
   "backers": 12,
   "country": "US"
@@ -31307,7 +31307,7 @@ dataJSON = [{
   "dl": "2017-05-23",
   "goal": 25000,
   "laun": "2017-04-23 00:29:49",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -31319,7 +31319,7 @@ dataJSON = [{
   "dl": "2016-01-14",
   "goal": 8000,
   "laun": "2015-12-15 15:09:51",
-  "pled": 8648,
+  "pledged": 8648,
   "state": "successful",
   "backers": 146,
   "country": "US"
@@ -31331,7 +31331,7 @@ dataJSON = [{
   "dl": "2010-12-30",
   "goal": 3000,
   "laun": "2010-11-30 22:58:53",
-  "pled": 3065,
+  "pledged": 3065,
   "state": "successful",
   "backers": 36,
   "country": "US"
@@ -31343,7 +31343,7 @@ dataJSON = [{
   "dl": "2016-06-22",
   "goal": 4000,
   "laun": "2016-06-15 16:57:17",
-  "pled": 7370,
+  "pledged": 7370,
   "state": "successful",
   "backers": 322,
   "country": "US"
@@ -31355,7 +31355,7 @@ dataJSON = [{
   "dl": "2015-07-11",
   "goal": 30000,
   "laun": "2015-06-05 16:14:59",
-  "pled": 36111,
+  "pledged": 36111,
   "state": "successful",
   "backers": 364,
   "country": "US"
@@ -31367,7 +31367,7 @@ dataJSON = [{
   "dl": "2016-12-14",
   "goal": 20000,
   "laun": "2016-11-21 19:02:20",
-  "pled": 5535,
+  "pledged": 5535,
   "state": "failed",
   "backers": 12,
   "country": "US"
@@ -31379,7 +31379,7 @@ dataJSON = [{
   "dl": "2017-03-29",
   "goal": 50,
   "laun": "2017-02-27 23:35:50",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -31391,7 +31391,7 @@ dataJSON = [{
   "dl": "2015-02-01",
   "goal": 80000,
   "laun": "2014-12-03 18:26:53",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -31403,7 +31403,7 @@ dataJSON = [{
   "dl": "2014-11-27",
   "goal": 35000,
   "laun": "2014-10-28 08:04:29",
-  "pled": 38931,
+  "pledged": 38931,
   "state": "successful",
   "backers": 510,
   "country": "US"
@@ -31415,7 +31415,7 @@ dataJSON = [{
   "dl": "2017-11-20",
   "goal": 85000,
   "laun": "2017-09-21 22:57:23",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "CA"
@@ -31427,7 +31427,7 @@ dataJSON = [{
   "dl": "2011-09-02",
   "goal": 1000,
   "laun": "2011-07-04 02:02:57",
-  "pled": 1010,
+  "pledged": 1010,
   "state": "successful",
   "backers": 28,
   "country": "US"
@@ -31439,7 +31439,7 @@ dataJSON = [{
   "dl": "2013-07-20",
   "goal": 100000,
   "laun": "2013-06-17 09:30:40",
-  "pled": 103916,
+  "pledged": 103916,
   "state": "successful",
   "backers": 555,
   "country": "US"
@@ -31451,7 +31451,7 @@ dataJSON = [{
   "dl": "2013-04-16",
   "goal": 10000,
   "laun": "2013-03-12 13:00:20",
-  "pled": 2969,
+  "pledged": 2969,
   "state": "failed",
   "backers": 42,
   "country": "US"
@@ -31463,7 +31463,7 @@ dataJSON = [{
   "dl": "2015-03-02",
   "goal": 2000,
   "laun": "2015-01-27 16:09:41",
-  "pled": 2505,
+  "pledged": 2505,
   "state": "successful",
   "backers": 21,
   "country": "US"
@@ -31475,7 +31475,7 @@ dataJSON = [{
   "dl": "2015-07-11",
   "goal": 30000,
   "laun": "2015-06-12 21:26:23",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -31487,7 +31487,7 @@ dataJSON = [{
   "dl": "2013-09-24",
   "goal": 500,
   "laun": "2013-09-09 18:34:07",
-  "pled": 1184,
+  "pledged": 1184,
   "state": "successful",
   "backers": 71,
   "country": "US"
@@ -31499,7 +31499,7 @@ dataJSON = [{
   "dl": "2015-12-09",
   "goal": 10000,
   "laun": "2015-11-09 18:40:00",
-  "pled": 15,
+  "pledged": 15,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -31511,7 +31511,7 @@ dataJSON = [{
   "dl": "2017-09-29",
   "goal": 27000,
   "laun": "2017-08-30 18:45:59",
-  "pled": 27071.21,
+  "pledged": 27071.21,
   "state": "successful",
   "backers": 350,
   "country": "US"
@@ -31523,7 +31523,7 @@ dataJSON = [{
   "dl": "2014-07-30",
   "goal": 20,
   "laun": "2014-07-10 18:10:15",
-  "pled": 6,
+  "pledged": 6,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -31535,7 +31535,7 @@ dataJSON = [{
   "dl": "2012-06-20",
   "goal": 4500,
   "laun": "2012-04-21 02:33:32",
-  "pled": 425,
+  "pledged": 425,
   "state": "failed",
   "backers": 15,
   "country": "US"
@@ -31547,7 +31547,7 @@ dataJSON = [{
   "dl": "2015-01-06",
   "goal": 2000,
   "laun": "2014-11-14 17:46:30",
-  "pled": 119,
+  "pledged": 119,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -31559,7 +31559,7 @@ dataJSON = [{
   "dl": "2017-04-05",
   "goal": 100000,
   "laun": "2017-03-06 00:35:22",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "GB"
@@ -31571,7 +31571,7 @@ dataJSON = [{
   "dl": "2015-09-08",
   "goal": 12000,
   "laun": "2015-07-30 01:55:37",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -31583,7 +31583,7 @@ dataJSON = [{
   "dl": "2017-05-20",
   "goal": 20000,
   "laun": "2017-04-20 19:11:26",
-  "pled": 600,
+  "pledged": 600,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -31595,7 +31595,7 @@ dataJSON = [{
   "dl": "2016-10-31",
   "goal": 299,
   "laun": "2016-10-24 18:24:11",
-  "pled": 855,
+  "pledged": 855,
   "state": "successful",
   "backers": 19,
   "country": "US"
@@ -31607,7 +31607,7 @@ dataJSON = [{
   "dl": "2012-08-01",
   "goal": 500,
   "laun": "2012-06-06 17:44:31",
-  "pled": 150,
+  "pledged": 150,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -31619,7 +31619,7 @@ dataJSON = [{
   "dl": "2015-10-19",
   "goal": 20000,
   "laun": "2015-09-19 06:00:08",
-  "pled": 22381,
+  "pledged": 22381,
   "state": "successful",
   "backers": 61,
   "country": "US"
@@ -31631,7 +31631,7 @@ dataJSON = [{
   "dl": "2017-02-19",
   "goal": 20000,
   "laun": "2017-01-20 12:42:28",
-  "pled": 150,
+  "pledged": 150,
   "state": "failed",
   "backers": 2,
   "country": "FR"
@@ -31643,7 +31643,7 @@ dataJSON = [{
   "dl": "2017-07-29",
   "goal": 82700,
   "laun": "2017-05-30 21:27:51",
-  "pled": 40,
+  "pledged": 40,
   "state": "canceled",
   "backers": 2,
   "country": "US"
@@ -31655,7 +31655,7 @@ dataJSON = [{
   "dl": "2015-03-09",
   "goal": 9500,
   "laun": "2015-02-16 18:02:31",
-  "pled": 2858,
+  "pledged": 2858,
   "state": "failed",
   "backers": 63,
   "country": "US"
@@ -31667,7 +31667,7 @@ dataJSON = [{
   "dl": "2015-07-31",
   "goal": 39000,
   "laun": "2015-06-30 11:02:28",
-  "pled": 7240.5,
+  "pledged": 7240.5,
   "state": "canceled",
   "backers": 543,
   "country": "GB"
@@ -31679,7 +31679,7 @@ dataJSON = [{
   "dl": "2016-10-09",
   "goal": 25000,
   "laun": "2016-08-30 07:36:19",
-  "pled": 1427,
+  "pledged": 1427,
   "state": "canceled",
   "backers": 45,
   "country": "US"
@@ -31691,7 +31691,7 @@ dataJSON = [{
   "dl": "2015-11-25",
   "goal": 15000,
   "laun": "2015-10-26 14:51:23",
-  "pled": 2001,
+  "pledged": 2001,
   "state": "canceled",
   "backers": 21,
   "country": "US"
@@ -31703,7 +31703,7 @@ dataJSON = [{
   "dl": "2015-02-26",
   "goal": 3000,
   "laun": "2015-01-27 03:03:19",
-  "pled": 11,
+  "pledged": 11,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -31715,7 +31715,7 @@ dataJSON = [{
   "dl": "2013-11-12",
   "goal": 60000,
   "laun": "2013-09-13 15:18:31",
-  "pled": 20577.8,
+  "pledged": 20577.8,
   "state": "failed",
   "backers": 75,
   "country": "US"
@@ -31727,7 +31727,7 @@ dataJSON = [{
   "dl": "2014-08-16",
   "goal": 8000,
   "laun": "2014-07-17 16:41:07",
-  "pled": 20512,
+  "pledged": 20512,
   "state": "successful",
   "backers": 846,
   "country": "US"
@@ -31739,7 +31739,7 @@ dataJSON = [{
   "dl": "2015-06-04",
   "goal": 150000,
   "laun": "2015-05-05 18:28:07",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -31751,7 +31751,7 @@ dataJSON = [{
   "dl": "2017-10-21",
   "goal": 13824,
   "laun": "2017-08-22 01:22:02",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "FR"
@@ -31763,7 +31763,7 @@ dataJSON = [{
   "dl": "2015-09-27",
   "goal": 1000,
   "laun": "2015-09-07 20:48:06",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -31775,7 +31775,7 @@ dataJSON = [{
   "dl": "2017-08-17",
   "goal": 6850,
   "laun": "2017-07-18 21:09:12",
-  "pled": 8665,
+  "pledged": 8665,
   "state": "successful",
   "backers": 109,
   "country": "CA"
@@ -31787,7 +31787,7 @@ dataJSON = [{
   "dl": "2015-09-18",
   "goal": 12500,
   "laun": "2015-09-03 23:46:19",
-  "pled": 136,
+  "pledged": 136,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -31799,7 +31799,7 @@ dataJSON = [{
   "dl": "2014-10-08",
   "goal": 433,
   "laun": "2014-09-22 22:33:28",
-  "pled": 1126.23,
+  "pledged": 1126.23,
   "state": "successful",
   "backers": 114,
   "country": "US"
@@ -31811,7 +31811,7 @@ dataJSON = [{
   "dl": "2011-08-08",
   "goal": 3000,
   "laun": "2011-07-25 20:23:21",
-  "pled": 4000,
+  "pledged": 4000,
   "state": "successful",
   "backers": 45,
   "country": "US"
@@ -31823,7 +31823,7 @@ dataJSON = [{
   "dl": "2015-06-26",
   "goal": 43000,
   "laun": "2015-05-27 21:58:59",
-  "pled": 2735,
+  "pledged": 2735,
   "state": "canceled",
   "backers": 38,
   "country": "NZ"
@@ -31835,7 +31835,7 @@ dataJSON = [{
   "dl": "2016-09-22",
   "goal": 5000,
   "laun": "2016-07-24 19:59:12",
-  "pled": 118463,
+  "pledged": 118463,
   "state": "successful",
   "backers": 434,
   "country": "CA"
@@ -31847,7 +31847,7 @@ dataJSON = [{
   "dl": "2016-12-15",
   "goal": 25000,
   "laun": "2016-11-14 17:01:57",
-  "pled": 26191,
+  "pledged": 26191,
   "state": "successful",
   "backers": 250,
   "country": "GB"
@@ -31859,7 +31859,7 @@ dataJSON = [{
   "dl": "2012-08-17",
   "goal": 50,
   "laun": "2012-07-18 20:53:06",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -31871,7 +31871,7 @@ dataJSON = [{
   "dl": "2015-05-22",
   "goal": 25000,
   "laun": "2015-04-22 15:45:00",
-  "pled": 78889,
+  "pledged": 78889,
   "state": "successful",
   "backers": 735,
   "country": "US"
@@ -31883,7 +31883,7 @@ dataJSON = [{
   "dl": "2011-02-07",
   "goal": 5000,
   "laun": "2010-12-29 15:04:41",
-  "pled": 110,
+  "pledged": 110,
   "state": "canceled",
   "backers": 2,
   "country": "US"
@@ -31895,7 +31895,7 @@ dataJSON = [{
   "dl": "2017-09-21",
   "goal": 2000,
   "laun": "2017-08-22 13:54:33",
-  "pled": 146,
+  "pledged": 146,
   "state": "failed",
   "backers": 4,
   "country": "GB"
@@ -31907,7 +31907,7 @@ dataJSON = [{
   "dl": "2014-03-31",
   "goal": 800,
   "laun": "2014-02-24 20:58:35",
-  "pled": 905,
+  "pledged": 905,
   "state": "successful",
   "backers": 25,
   "country": "US"
@@ -31919,7 +31919,7 @@ dataJSON = [{
   "dl": "2015-04-24",
   "goal": 30000,
   "laun": "2015-03-25 17:58:41",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -31931,7 +31931,7 @@ dataJSON = [{
   "dl": "2017-01-03",
   "goal": 3500,
   "laun": "2016-12-01 17:00:10",
-  "pled": 3983,
+  "pledged": 3983,
   "state": "successful",
   "backers": 102,
   "country": "US"
@@ -31943,7 +31943,7 @@ dataJSON = [{
   "dl": "2016-05-24",
   "goal": 5300,
   "laun": "2016-04-21 15:08:39",
-  "pled": 1575,
+  "pledged": 1575,
   "state": "canceled",
   "backers": 21,
   "country": "US"
@@ -31955,7 +31955,7 @@ dataJSON = [{
   "dl": "2013-05-11",
   "goal": 19500,
   "laun": "2013-04-06 20:13:17",
-  "pled": 205,
+  "pledged": 205,
   "state": "canceled",
   "backers": 7,
   "country": "GB"
@@ -31967,7 +31967,7 @@ dataJSON = [{
   "dl": "2013-03-15",
   "goal": 300,
   "laun": "2013-02-13 19:27:15",
-  "pled": 138,
+  "pledged": 138,
   "state": "failed",
   "backers": 27,
   "country": "US"
@@ -31979,7 +31979,7 @@ dataJSON = [{
   "dl": "2016-08-16",
   "goal": 10000,
   "laun": "2016-07-17 02:46:09",
-  "pled": 4550,
+  "pledged": 4550,
   "state": "failed",
   "backers": 34,
   "country": "US"
@@ -31991,7 +31991,7 @@ dataJSON = [{
   "dl": "2014-05-08",
   "goal": 140700,
   "laun": "2014-04-08 04:20:29",
-  "pled": 75,
+  "pledged": 75,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -32003,7 +32003,7 @@ dataJSON = [{
   "dl": "2017-03-23",
   "goal": 20000,
   "laun": "2017-02-21 20:46:14",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -32015,7 +32015,7 @@ dataJSON = [{
   "dl": "2015-12-21",
   "goal": 5000,
   "laun": "2015-11-21 05:21:38",
-  "pled": 80,
+  "pledged": 80,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -32027,7 +32027,7 @@ dataJSON = [{
   "dl": "2013-05-22",
   "goal": 99000,
   "laun": "2013-04-22 11:56:15",
-  "pled": 12128,
+  "pledged": 12128,
   "state": "failed",
   "backers": 106,
   "country": "US"
@@ -32039,7 +32039,7 @@ dataJSON = [{
   "dl": "2016-06-02",
   "goal": 10000,
   "laun": "2016-05-03 16:53:25",
-  "pled": 10270,
+  "pledged": 10270,
   "state": "successful",
   "backers": 78,
   "country": "US"
@@ -32051,7 +32051,7 @@ dataJSON = [{
   "dl": "2012-06-21",
   "goal": 600,
   "laun": "2012-05-22 22:23:04",
-  "pled": 140,
+  "pledged": 140,
   "state": "failed",
   "backers": 23,
   "country": "US"
@@ -32063,7 +32063,7 @@ dataJSON = [{
   "dl": "2010-12-26",
   "goal": 14216,
   "laun": "2010-10-12 18:48:42",
-  "pled": 525,
+  "pledged": 525,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -32075,7 +32075,7 @@ dataJSON = [{
   "dl": "2017-05-15",
   "goal": 4444,
   "laun": "2017-04-10 19:56:14",
-  "pled": 781,
+  "pledged": 781,
   "state": "failed",
   "backers": 16,
   "country": "US"
@@ -32087,7 +32087,7 @@ dataJSON = [{
   "dl": "2017-04-26",
   "goal": 4750,
   "laun": "2017-03-27 00:10:25",
-  "pled": 35,
+  "pledged": 35,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -32099,7 +32099,7 @@ dataJSON = [{
   "dl": "2017-02-12",
   "goal": 10000,
   "laun": "2016-12-18 06:08:16",
-  "pled": 75,
+  "pledged": 75,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -32111,7 +32111,7 @@ dataJSON = [{
   "dl": "2013-12-22",
   "goal": 3800,
   "laun": "2013-11-22 15:09:24",
-  "pled": 4020,
+  "pledged": 4020,
   "state": "successful",
   "backers": 60,
   "country": "US"
@@ -32123,7 +32123,7 @@ dataJSON = [{
   "dl": "2016-08-04",
   "goal": 500,
   "laun": "2016-07-19 04:51:45",
-  "pled": 1236,
+  "pledged": 1236,
   "state": "successful",
   "backers": 22,
   "country": "US"
@@ -32135,7 +32135,7 @@ dataJSON = [{
   "dl": "2015-06-21",
   "goal": 1000,
   "laun": "2015-05-22 12:54:05",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "AU"
@@ -32147,7 +32147,7 @@ dataJSON = [{
   "dl": "2014-07-02",
   "goal": 500,
   "laun": "2014-06-11 03:25:11",
-  "pled": 500,
+  "pledged": 500,
   "state": "successful",
   "backers": 3,
   "country": "US"
@@ -32159,7 +32159,7 @@ dataJSON = [{
   "dl": "2015-12-17",
   "goal": 7500,
   "laun": "2015-11-19 18:56:27",
-  "pled": 14497,
+  "pledged": 14497,
   "state": "successful",
   "backers": 553,
   "country": "GB"
@@ -32171,7 +32171,7 @@ dataJSON = [{
   "dl": "2017-09-18",
   "goal": 3000,
   "laun": "2017-08-31 16:02:20",
-  "pled": 3061,
+  "pledged": 3061,
   "state": "successful",
   "backers": 60,
   "country": "US"
@@ -32183,7 +32183,7 @@ dataJSON = [{
   "dl": "2015-08-14",
   "goal": 20000,
   "laun": "2015-07-20 18:05:07",
-  "pled": 20,
+  "pledged": 20,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -32195,7 +32195,7 @@ dataJSON = [{
   "dl": "2016-10-07",
   "goal": 750,
   "laun": "2016-09-16 09:08:14",
-  "pled": 753,
+  "pledged": 753,
   "state": "successful",
   "backers": 21,
   "country": "GB"
@@ -32207,7 +32207,7 @@ dataJSON = [{
   "dl": "2011-01-11",
   "goal": 8000,
   "laun": "2010-12-12 03:18:41",
-  "pled": 320,
+  "pledged": 320,
   "state": "failed",
   "backers": 8,
   "country": "US"
@@ -32219,7 +32219,7 @@ dataJSON = [{
   "dl": "2015-06-03",
   "goal": 6500,
   "laun": "2015-05-05 19:19:17",
-  "pled": 15,
+  "pledged": 15,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -32231,7 +32231,7 @@ dataJSON = [{
   "dl": "2009-11-18",
   "goal": 3000,
   "laun": "2009-10-20 14:25:28",
-  "pled": 1280,
+  "pledged": 1280,
   "state": "failed",
   "backers": 10,
   "country": "US"
@@ -32243,7 +32243,7 @@ dataJSON = [{
   "dl": "2014-10-05",
   "goal": 52500,
   "laun": "2014-09-05 15:35:59",
-  "pled": 2440.63,
+  "pledged": 2440.63,
   "state": "failed",
   "backers": 40,
   "country": "US"
@@ -32255,7 +32255,7 @@ dataJSON = [{
   "dl": "2015-01-17",
   "goal": 1000,
   "laun": "2014-12-18 17:33:59",
-  "pled": 1055,
+  "pledged": 1055,
   "state": "successful",
   "backers": 17,
   "country": "US"
@@ -32267,7 +32267,7 @@ dataJSON = [{
   "dl": "2013-12-07",
   "goal": 10000,
   "laun": "2013-11-07 03:24:56",
-  "pled": 10562.73,
+  "pledged": 10562.73,
   "state": "successful",
   "backers": 110,
   "country": "US"
@@ -32279,7 +32279,7 @@ dataJSON = [{
   "dl": "2017-12-08",
   "goal": 400,
   "laun": "2017-11-28 15:14:11",
-  "pled": 465,
+  "pledged": 465,
   "state": "successful",
   "backers": 8,
   "country": "GB"
@@ -32291,7 +32291,7 @@ dataJSON = [{
   "dl": "2013-12-18",
   "goal": 20000,
   "laun": "2013-10-23 02:10:41",
-  "pled": 22644.67,
+  "pledged": 22644.67,
   "state": "successful",
   "backers": 220,
   "country": "US"
@@ -32303,7 +32303,7 @@ dataJSON = [{
   "dl": "2012-02-26",
   "goal": 6250,
   "laun": "2012-01-27 07:08:50",
-  "pled": 6736.52,
+  "pledged": 6736.52,
   "state": "successful",
   "backers": 105,
   "country": "US"
@@ -32315,7 +32315,7 @@ dataJSON = [{
   "dl": "2012-07-09",
   "goal": 15809,
   "laun": "2012-05-25 00:00:46",
-  "pled": 26,
+  "pledged": 26,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -32327,7 +32327,7 @@ dataJSON = [{
   "dl": "2011-01-17",
   "goal": 12000,
   "laun": "2010-12-03 18:19:47",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -32339,7 +32339,7 @@ dataJSON = [{
   "dl": "2016-08-23",
   "goal": 2900,
   "laun": "2016-07-19 22:14:23",
-  "pled": 3210,
+  "pledged": 3210,
   "state": "successful",
   "backers": 50,
   "country": "US"
@@ -32351,7 +32351,7 @@ dataJSON = [{
   "dl": "2013-06-03",
   "goal": 5500,
   "laun": "2013-04-06 15:22:53",
-  "pled": 5930,
+  "pledged": 5930,
   "state": "successful",
   "backers": 39,
   "country": "US"
@@ -32363,7 +32363,7 @@ dataJSON = [{
   "dl": "2015-02-14",
   "goal": 10000,
   "laun": "2015-01-15 22:48:55",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -32375,7 +32375,7 @@ dataJSON = [{
   "dl": "2011-07-20",
   "goal": 4000,
   "laun": "2011-05-21 23:59:46",
-  "pled": 4268.34,
+  "pledged": 4268.34,
   "state": "successful",
   "backers": 60,
   "country": "US"
@@ -32387,7 +32387,7 @@ dataJSON = [{
   "dl": "2015-07-20",
   "goal": 15000,
   "laun": "2015-06-08 16:45:53",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -32399,7 +32399,7 @@ dataJSON = [{
   "dl": "2017-07-01",
   "goal": 10000,
   "laun": "2017-05-31 18:46:30",
-  "pled": 10021,
+  "pledged": 10021,
   "state": "successful",
   "backers": 38,
   "country": "GB"
@@ -32411,7 +32411,7 @@ dataJSON = [{
   "dl": "2017-06-15",
   "goal": 4000,
   "laun": "2017-04-16 01:18:15",
-  "pled": 4060,
+  "pledged": 4060,
   "state": "successful",
   "backers": 27,
   "country": "US"
@@ -32423,7 +32423,7 @@ dataJSON = [{
   "dl": "2016-07-15",
   "goal": 500,
   "laun": "2016-06-13 05:20:54",
-  "pled": 1677,
+  "pledged": 1677,
   "state": "successful",
   "backers": 56,
   "country": "US"
@@ -32435,7 +32435,7 @@ dataJSON = [{
   "dl": "2015-12-15",
   "goal": 800,
   "laun": "2015-12-08 06:25:47",
-  "pled": 70,
+  "pledged": 70,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -32447,7 +32447,7 @@ dataJSON = [{
   "dl": "2014-04-16",
   "goal": 25000,
   "laun": "2014-03-17 20:40:44",
-  "pled": 60,
+  "pledged": 60,
   "state": "failed",
   "backers": 3,
   "country": "GB"
@@ -32459,7 +32459,7 @@ dataJSON = [{
   "dl": "2017-02-14",
   "goal": 2000,
   "laun": "2017-01-31 20:22:37",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "CA"
@@ -32471,7 +32471,7 @@ dataJSON = [{
   "dl": "2013-05-24",
   "goal": 1000,
   "laun": "2013-05-09 02:12:15",
-  "pled": 1120,
+  "pledged": 1120,
   "state": "successful",
   "backers": 45,
   "country": "GB"
@@ -32483,7 +32483,7 @@ dataJSON = [{
   "dl": "2015-12-02",
   "goal": 3000,
   "laun": "2015-11-02 09:33:38",
-  "pled": 3517,
+  "pledged": 3517,
   "state": "undefined",
   "backers": 0,
   "country": "N,0"
@@ -32495,7 +32495,7 @@ dataJSON = [{
   "dl": "2013-05-17",
   "goal": 3000,
   "laun": "2013-04-26 23:23:36",
-  "pled": 3511.55,
+  "pledged": 3511.55,
   "state": "successful",
   "backers": 35,
   "country": "US"
@@ -32507,7 +32507,7 @@ dataJSON = [{
   "dl": "2017-11-23",
   "goal": 2000,
   "laun": "2017-10-24 17:44:28",
-  "pled": 38,
+  "pledged": 38,
   "state": "failed",
   "backers": 6,
   "country": "GB"
@@ -32519,7 +32519,7 @@ dataJSON = [{
   "dl": "2017-06-04",
   "goal": 15000,
   "laun": "2017-04-21 17:04:02",
-  "pled": 17316.99,
+  "pledged": 17316.99,
   "state": "successful",
   "backers": 155,
   "country": "US"
@@ -32531,7 +32531,7 @@ dataJSON = [{
   "dl": "2017-10-22",
   "goal": 3000,
   "laun": "2017-08-23 02:10:04",
-  "pled": 22,
+  "pledged": 22,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -32543,7 +32543,7 @@ dataJSON = [{
   "dl": "2015-03-14",
   "goal": 6700,
   "laun": "2015-02-12 09:47:14",
-  "pled": 224,
+  "pledged": 224,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -32555,7 +32555,7 @@ dataJSON = [{
   "dl": "2016-01-14",
   "goal": 25000,
   "laun": "2015-12-15 16:05:33",
-  "pled": 6205.01,
+  "pledged": 6205.01,
   "state": "failed",
   "backers": 68,
   "country": "US"
@@ -32567,7 +32567,7 @@ dataJSON = [{
   "dl": "2014-12-07",
   "goal": 20000,
   "laun": "2014-11-06 12:27:22",
-  "pled": 27349,
+  "pledged": 27349,
   "state": "successful",
   "backers": 502,
   "country": "GB"
@@ -32579,7 +32579,7 @@ dataJSON = [{
   "dl": "2016-08-02",
   "goal": 60000,
   "laun": "2016-06-28 14:34:20",
-  "pled": 62497.1,
+  "pledged": 62497.1,
   "state": "successful",
   "backers": 343,
   "country": "US"
@@ -32591,7 +32591,7 @@ dataJSON = [{
   "dl": "2011-10-25",
   "goal": 3000,
   "laun": "2011-09-25 19:35:18",
-  "pled": 105,
+  "pledged": 105,
   "state": "failed",
   "backers": 8,
   "country": "US"
@@ -32603,7 +32603,7 @@ dataJSON = [{
   "dl": "2016-06-20",
   "goal": 3400,
   "laun": "2016-05-21 02:36:09",
-  "pled": 1512,
+  "pledged": 1512,
   "state": "failed",
   "backers": 56,
   "country": "US"
@@ -32615,7 +32615,7 @@ dataJSON = [{
   "dl": "2016-11-17",
   "goal": 50000,
   "laun": "2016-11-02 10:19:43",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "FR"
@@ -32627,7 +32627,7 @@ dataJSON = [{
   "dl": "2014-11-16",
   "goal": 15000,
   "laun": "2014-10-17 18:41:47",
-  "pled": 15235,
+  "pledged": 15235,
   "state": "successful",
   "backers": 150,
   "country": "US"
@@ -32639,7 +32639,7 @@ dataJSON = [{
   "dl": "2013-12-27",
   "goal": 1000,
   "laun": "2013-11-27 02:58:51",
-  "pled": 1090,
+  "pledged": 1090,
   "state": "successful",
   "backers": 28,
   "country": "US"
@@ -32651,7 +32651,7 @@ dataJSON = [{
   "dl": "2014-03-13",
   "goal": 189000,
   "laun": "2014-02-11 07:24:26",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -32663,7 +32663,7 @@ dataJSON = [{
   "dl": "2015-01-22",
   "goal": 80000,
   "laun": "2014-12-23 17:31:06",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -32675,7 +32675,7 @@ dataJSON = [{
   "dl": "2014-11-14",
   "goal": 20000,
   "laun": "2014-10-15 05:55:28",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -32687,7 +32687,7 @@ dataJSON = [{
   "dl": "2017-06-30",
   "goal": 5000,
   "laun": "2017-05-31 23:56:49",
-  "pled": 65,
+  "pledged": 65,
   "state": "failed",
   "backers": 5,
   "country": "NL"
@@ -32699,7 +32699,7 @@ dataJSON = [{
   "dl": "2012-04-22",
   "goal": 1000,
   "laun": "2012-02-22 04:55:29",
-  "pled": 180,
+  "pledged": 180,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -32711,7 +32711,7 @@ dataJSON = [{
   "dl": "2017-02-08",
   "goal": 3300,
   "laun": "2017-01-09 22:27:05",
-  "pled": 6224.11,
+  "pledged": 6224.11,
   "state": "successful",
   "backers": 76,
   "country": "US"
@@ -32723,7 +32723,7 @@ dataJSON = [{
   "dl": "2016-10-15",
   "goal": 1000,
   "laun": "2016-09-16 17:44:32",
-  "pled": 172,
+  "pledged": 172,
   "state": "failed",
   "backers": 9,
   "country": "CA"
@@ -32735,7 +32735,7 @@ dataJSON = [{
   "dl": "2015-09-10",
   "goal": 7000,
   "laun": "2015-08-11 06:58:59",
-  "pled": 17126,
+  "pledged": 17126,
   "state": "successful",
   "backers": 457,
   "country": "US"
@@ -32747,7 +32747,7 @@ dataJSON = [{
   "dl": "2010-11-28",
   "goal": 3000,
   "laun": "2010-10-29 08:02:33",
-  "pled": 635,
+  "pledged": 635,
   "state": "failed",
   "backers": 8,
   "country": "US"
@@ -32759,7 +32759,7 @@ dataJSON = [{
   "dl": "2016-12-18",
   "goal": 7000,
   "laun": "2016-11-23 19:04:26",
-  "pled": 7523,
+  "pledged": 7523,
   "state": "successful",
   "backers": 47,
   "country": "US"
@@ -32771,7 +32771,7 @@ dataJSON = [{
   "dl": "2015-04-11",
   "goal": 7500,
   "laun": "2015-02-13 00:35:34",
-  "pled": 8215,
+  "pledged": 8215,
   "state": "successful",
   "backers": 54,
   "country": "US"
@@ -32783,7 +32783,7 @@ dataJSON = [{
   "dl": "2015-07-24",
   "goal": 15000,
   "laun": "2015-05-25 12:10:19",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -32795,7 +32795,7 @@ dataJSON = [{
   "dl": "2017-02-28",
   "goal": 20000,
   "laun": "2017-01-25 08:04:22",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "CA"
@@ -32807,7 +32807,7 @@ dataJSON = [{
   "dl": "2012-08-19",
   "goal": 30000,
   "laun": "2012-07-27 07:46:09",
-  "pled": 55362.12,
+  "pledged": 55362.12,
   "state": "successful",
   "backers": 1464,
   "country": "US"
@@ -32819,7 +32819,7 @@ dataJSON = [{
   "dl": "2015-09-16",
   "goal": 3500,
   "laun": "2015-08-17 08:16:19",
-  "pled": 100,
+  "pledged": 100,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -32831,7 +32831,7 @@ dataJSON = [{
   "dl": "2015-06-01",
   "goal": 15000,
   "laun": "2015-04-29 09:03:50",
-  "pled": 16731,
+  "pledged": 16731,
   "state": "successful",
   "backers": 234,
   "country": "US"
@@ -32843,7 +32843,7 @@ dataJSON = [{
   "dl": "2015-02-11",
   "goal": 2400,
   "laun": "2015-01-27 02:18:19",
-  "pled": 2,
+  "pledged": 2,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -32855,7 +32855,7 @@ dataJSON = [{
   "dl": "2015-10-10",
   "goal": 25000,
   "laun": "2015-09-10 01:25:34",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -32867,7 +32867,7 @@ dataJSON = [{
   "dl": "2016-01-15",
   "goal": 15000,
   "laun": "2015-12-16 15:13:39",
-  "pled": 24079,
+  "pledged": 24079,
   "state": "successful",
   "backers": 234,
   "country": "US"
@@ -32879,7 +32879,7 @@ dataJSON = [{
   "dl": "2015-04-10",
   "goal": 5500,
   "laun": "2015-03-12 03:50:44",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -32891,7 +32891,7 @@ dataJSON = [{
   "dl": "2017-11-27",
   "goal": 10000,
   "laun": "2017-10-28 02:38:07",
-  "pled": 11600,
+  "pledged": 11600,
   "state": "successful",
   "backers": 41,
   "country": "MX"
@@ -32903,7 +32903,7 @@ dataJSON = [{
   "dl": "2015-10-27",
   "goal": 1200,
   "laun": "2015-10-13 03:25:49",
-  "pled": 1773,
+  "pledged": 1773,
   "state": "successful",
   "backers": 35,
   "country": "US"
@@ -32915,7 +32915,7 @@ dataJSON = [{
   "dl": "2014-08-08",
   "goal": 4000,
   "laun": "2014-07-09 02:30:09",
-  "pled": 4510,
+  "pledged": 4510,
   "state": "successful",
   "backers": 55,
   "country": "US"
@@ -32927,7 +32927,7 @@ dataJSON = [{
   "dl": "2015-07-25",
   "goal": 30000,
   "laun": "2015-05-26 14:08:12",
-  "pled": 2742,
+  "pledged": 2742,
   "state": "failed",
   "backers": 53,
   "country": "US"
@@ -32939,7 +32939,7 @@ dataJSON = [{
   "dl": "2015-06-06",
   "goal": 5000,
   "laun": "2015-04-07 02:31:45",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -32951,7 +32951,7 @@ dataJSON = [{
   "dl": "2013-01-30",
   "goal": 7777,
   "laun": "2012-12-31 22:17:59",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -32963,7 +32963,7 @@ dataJSON = [{
   "dl": "2016-10-26",
   "goal": 100000,
   "laun": "2016-09-21 22:22:25",
-  "pled": 103066,
+  "pledged": 103066,
   "state": "successful",
   "backers": 117,
   "country": "US"
@@ -32975,7 +32975,7 @@ dataJSON = [{
   "dl": "2011-12-31",
   "goal": 6000,
   "laun": "2011-12-01 07:18:55",
-  "pled": 7305,
+  "pledged": 7305,
   "state": "successful",
   "backers": 49,
   "country": "US"
@@ -32987,7 +32987,7 @@ dataJSON = [{
   "dl": "2011-06-18",
   "goal": 1100,
   "laun": "2011-05-19 16:20:14",
-  "pled": 1125,
+  "pledged": 1125,
   "state": "successful",
   "backers": 18,
   "country": "US"
@@ -32999,7 +32999,7 @@ dataJSON = [{
   "dl": "2015-08-16",
   "goal": 200,
   "laun": "2015-08-06 03:13:14",
-  "pled": 566,
+  "pledged": 566,
   "state": "successful",
   "backers": 29,
   "country": "US"
@@ -33011,7 +33011,7 @@ dataJSON = [{
   "dl": "2017-10-18",
   "goal": 3000,
   "laun": "2017-09-18 23:09:38",
-  "pled": 3120,
+  "pledged": 3120,
   "state": "successful",
   "backers": 47,
   "country": "US"
@@ -33023,7 +33023,7 @@ dataJSON = [{
   "dl": "2013-12-12",
   "goal": 2000,
   "laun": "2013-11-22 18:18:44",
-  "pled": 2069,
+  "pledged": 2069,
   "state": "successful",
   "backers": 47,
   "country": "GB"
@@ -33035,7 +33035,7 @@ dataJSON = [{
   "dl": "2011-06-02",
   "goal": 5000,
   "laun": "2011-04-03 03:33:47",
-  "pled": 350,
+  "pledged": 350,
   "state": "canceled",
   "backers": 3,
   "country": "US"
@@ -33047,7 +33047,7 @@ dataJSON = [{
   "dl": "2016-10-14",
   "goal": 20000,
   "laun": "2016-09-14 21:04:24",
-  "pled": 28571,
+  "pledged": 28571,
   "state": "successful",
   "backers": 27,
   "country": "GB"
@@ -33059,7 +33059,7 @@ dataJSON = [{
   "dl": "2015-02-20",
   "goal": 14000,
   "laun": "2015-01-21 20:58:20",
-  "pled": 2853,
+  "pledged": 2853,
   "state": "failed",
   "backers": 29,
   "country": "US"
@@ -33071,7 +33071,7 @@ dataJSON = [{
   "dl": "2014-11-30",
   "goal": 50000,
   "laun": "2014-10-31 00:14:23",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -33083,7 +33083,7 @@ dataJSON = [{
   "dl": "2015-04-30",
   "goal": 400,
   "laun": "2015-03-31 19:05:03",
-  "pled": 407,
+  "pledged": 407,
   "state": "successful",
   "backers": 19,
   "country": "CA"
@@ -33095,7 +33095,7 @@ dataJSON = [{
   "dl": "2016-03-11",
   "goal": 28000,
   "laun": "2016-02-10 11:18:28",
-  "pled": 101,
+  "pledged": 101,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -33107,7 +33107,7 @@ dataJSON = [{
   "dl": "2014-09-13",
   "goal": 10000,
   "laun": "2014-08-14 16:57:41",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "GB"
@@ -33119,7 +33119,7 @@ dataJSON = [{
   "dl": "2012-01-02",
   "goal": 15000,
   "laun": "2011-11-18 17:27:10",
-  "pled": 1480,
+  "pledged": 1480,
   "state": "failed",
   "backers": 27,
   "country": "US"
@@ -33131,7 +33131,7 @@ dataJSON = [{
   "dl": "2015-05-09",
   "goal": 35000,
   "laun": "2015-04-09 13:48:23",
-  "pled": 40192.5,
+  "pledged": 40192.5,
   "state": "successful",
   "backers": 382,
   "country": "GB"
@@ -33143,7 +33143,7 @@ dataJSON = [{
   "dl": "2016-03-16",
   "goal": 120000,
   "laun": "2016-02-14 11:16:22",
-  "pled": 10937,
+  "pledged": 10937,
   "state": "failed",
   "backers": 42,
   "country": "DE"
@@ -33155,7 +33155,7 @@ dataJSON = [{
   "dl": "2015-07-10",
   "goal": 55000,
   "laun": "2015-05-22 00:22:38",
-  "pled": 90,
+  "pledged": 90,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -33167,7 +33167,7 @@ dataJSON = [{
   "dl": "2012-12-06",
   "goal": 10000,
   "laun": "2012-11-06 23:42:59",
-  "pled": 500,
+  "pledged": 500,
   "state": "failed",
   "backers": 1,
   "country": "GB"
@@ -33179,7 +33179,7 @@ dataJSON = [{
   "dl": "2012-06-12",
   "goal": 32400,
   "laun": "2012-05-16 20:03:52",
-  "pled": 1340,
+  "pledged": 1340,
   "state": "failed",
   "backers": 11,
   "country": "US"
@@ -33191,7 +33191,7 @@ dataJSON = [{
   "dl": "2014-05-01",
   "goal": 1000,
   "laun": "2014-04-01 02:43:20",
-  "pled": 2935,
+  "pledged": 2935,
   "state": "successful",
   "backers": 56,
   "country": "US"
@@ -33203,7 +33203,7 @@ dataJSON = [{
   "dl": "2015-02-15",
   "goal": 500,
   "laun": "2015-01-16 23:13:57",
-  "pled": 21,
+  "pledged": 21,
   "state": "failed",
   "backers": 1,
   "country": "CA"
@@ -33215,7 +33215,7 @@ dataJSON = [{
   "dl": "2017-07-19",
   "goal": 2000,
   "laun": "2017-06-19 19:01:11",
-  "pled": 305,
+  "pledged": 305,
   "state": "failed",
   "backers": 17,
   "country": "GB"
@@ -33227,7 +33227,7 @@ dataJSON = [{
   "dl": "2013-05-24",
   "goal": 4500,
   "laun": "2013-04-24 00:32:27",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -33239,7 +33239,7 @@ dataJSON = [{
   "dl": "2014-12-03",
   "goal": 15000,
   "laun": "2014-10-29 01:20:57",
-  "pled": 25835,
+  "pledged": 25835,
   "state": "successful",
   "backers": 290,
   "country": "CA"
@@ -33251,7 +33251,7 @@ dataJSON = [{
   "dl": "2016-06-11",
   "goal": 20000,
   "laun": "2016-04-18 11:53:46",
-  "pled": 13124,
+  "pledged": 13124,
   "state": "failed",
   "backers": 233,
   "country": "US"
@@ -33263,7 +33263,7 @@ dataJSON = [{
   "dl": "2016-03-19",
   "goal": 15000,
   "laun": "2016-02-16 15:08:38",
-  "pled": 2070,
+  "pledged": 2070,
   "state": "canceled",
   "backers": 44,
   "country": "US"
@@ -33275,7 +33275,7 @@ dataJSON = [{
   "dl": "2015-06-08",
   "goal": 9000,
   "laun": "2015-05-04 18:35:18",
-  "pled": 48,
+  "pledged": 48,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -33287,7 +33287,7 @@ dataJSON = [{
   "dl": "2012-10-27",
   "goal": 5000,
   "laun": "2012-09-27 18:44:35",
-  "pled": 5139,
+  "pledged": 5139,
   "state": "successful",
   "backers": 78,
   "country": "US"
@@ -33299,7 +33299,7 @@ dataJSON = [{
   "dl": "2016-03-19",
   "goal": 15000,
   "laun": "2016-02-13 23:23:55",
-  "pled": 2343,
+  "pledged": 2343,
   "state": "failed",
   "backers": 20,
   "country": "US"
@@ -33311,7 +33311,7 @@ dataJSON = [{
   "dl": "2014-11-12",
   "goal": 3600,
   "laun": "2014-10-13 18:51:00",
-  "pled": 395,
+  "pledged": 395,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -33323,7 +33323,7 @@ dataJSON = [{
   "dl": "2018-01-25",
   "goal": 1000,
   "laun": "2017-12-26 17:04:29",
-  "pled": 720,
+  "pledged": 720,
   "state": "live",
   "backers": 16,
   "country": "GB"
@@ -33335,7 +33335,7 @@ dataJSON = [{
   "dl": "2015-04-26",
   "goal": 1500,
   "laun": "2015-02-25 17:12:59",
-  "pled": 2501,
+  "pledged": 2501,
   "state": "successful",
   "backers": 50,
   "country": "GB"
@@ -33347,7 +33347,7 @@ dataJSON = [{
   "dl": "2013-09-07",
   "goal": 1500,
   "laun": "2013-08-08 06:08:54",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -33359,7 +33359,7 @@ dataJSON = [{
   "dl": "2015-12-05",
   "goal": 500,
   "laun": "2015-11-05 21:52:41",
-  "pled": 2369,
+  "pledged": 2369,
   "state": "successful",
   "backers": 34,
   "country": "US"
@@ -33371,7 +33371,7 @@ dataJSON = [{
   "dl": "2014-01-05",
   "goal": 250,
   "laun": "2013-12-06 16:23:04",
-  "pled": 643,
+  "pledged": 643,
   "state": "successful",
   "backers": 28,
   "country": "US"
@@ -33383,7 +33383,7 @@ dataJSON = [{
   "dl": "2015-03-27",
   "goal": 1000,
   "laun": "2015-02-03 00:21:34",
-  "pled": 776,
+  "pledged": 776,
   "state": "failed",
   "backers": 7,
   "country": "NL"
@@ -33395,7 +33395,7 @@ dataJSON = [{
   "dl": "2014-10-13",
   "goal": 1000,
   "laun": "2014-09-30 17:37:03",
-  "pled": 1280,
+  "pledged": 1280,
   "state": "successful",
   "backers": 34,
   "country": "US"
@@ -33407,7 +33407,7 @@ dataJSON = [{
   "dl": "2017-08-16",
   "goal": 33725,
   "laun": "2017-07-17 15:19:58",
-  "pled": 34031,
+  "pledged": 34031,
   "state": "successful",
   "backers": 219,
   "country": "CA"
@@ -33419,7 +33419,7 @@ dataJSON = [{
   "dl": "2012-03-12",
   "goal": 20000,
   "laun": "2012-02-05 23:59:48",
-  "pled": 40780.77,
+  "pledged": 40780.77,
   "state": "successful",
   "backers": 679,
   "country": "US"
@@ -33431,7 +33431,7 @@ dataJSON = [{
   "dl": "2013-05-20",
   "goal": 15000,
   "laun": "2013-04-10 20:24:33",
-  "pled": 15613.55,
+  "pledged": 15613.55,
   "state": "successful",
   "backers": 380,
   "country": "US"
@@ -33443,7 +33443,7 @@ dataJSON = [{
   "dl": "2015-02-15",
   "goal": 47000,
   "laun": "2014-12-17 18:50:46",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -33455,7 +33455,7 @@ dataJSON = [{
   "dl": "2013-06-09",
   "goal": 36000,
   "laun": "2013-04-25 06:03:11",
-  "pled": 3662,
+  "pledged": 3662,
   "state": "failed",
   "backers": 29,
   "country": "US"
@@ -33467,7 +33467,7 @@ dataJSON = [{
   "dl": "2012-05-27",
   "goal": 9000,
   "laun": "2012-04-27 18:48:55",
-  "pled": 19487,
+  "pledged": 19487,
   "state": "successful",
   "backers": 424,
   "country": "US"
@@ -33479,7 +33479,7 @@ dataJSON = [{
   "dl": "2012-11-30",
   "goal": 12000,
   "laun": "2012-10-31 19:35:51",
-  "pled": 65,
+  "pledged": 65,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -33491,7 +33491,7 @@ dataJSON = [{
   "dl": "2013-11-14",
   "goal": 50,
   "laun": "2013-11-07 00:47:55",
-  "pled": 4,
+  "pledged": 4,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -33503,7 +33503,7 @@ dataJSON = [{
   "dl": "2016-01-12",
   "goal": 1000,
   "laun": "2015-12-13 10:52:49",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "IT"
@@ -33515,7 +33515,7 @@ dataJSON = [{
   "dl": "2013-10-17",
   "goal": 35000,
   "laun": "2013-09-17 22:00:21",
-  "pled": 36145.21,
+  "pledged": 36145.21,
   "state": "successful",
   "backers": 301,
   "country": "US"
@@ -33527,7 +33527,7 @@ dataJSON = [{
   "dl": "2016-06-02",
   "goal": 15000,
   "laun": "2016-04-22 11:02:39",
-  "pled": 725,
+  "pledged": 725,
   "state": "canceled",
   "backers": 8,
   "country": "US"
@@ -33539,7 +33539,7 @@ dataJSON = [{
   "dl": "2016-09-17",
   "goal": 2500,
   "laun": "2016-08-18 18:04:34",
-  "pled": 2897,
+  "pledged": 2897,
   "state": "successful",
   "backers": 200,
   "country": "GB"
@@ -33551,7 +33551,7 @@ dataJSON = [{
   "dl": "2017-07-03",
   "goal": 16000,
   "laun": "2017-06-07 23:05:58",
-  "pled": 16861.1,
+  "pledged": 16861.1,
   "state": "successful",
   "backers": 31,
   "country": "US"
@@ -33563,7 +33563,7 @@ dataJSON = [{
   "dl": "2012-05-27",
   "goal": 15500,
   "laun": "2012-04-12 00:53:48",
-  "pled": 295,
+  "pledged": 295,
   "state": "failed",
   "backers": 7,
   "country": "US"
@@ -33575,7 +33575,7 @@ dataJSON = [{
   "dl": "2016-03-30",
   "goal": 20000,
   "laun": "2016-03-01 00:08:59",
-  "pled": 23022,
+  "pledged": 23022,
   "state": "successful",
   "backers": 318,
   "country": "US"
@@ -33587,7 +33587,7 @@ dataJSON = [{
   "dl": "2014-09-30",
   "goal": 75000,
   "laun": "2014-08-01 17:14:52",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "GB"
@@ -33599,7 +33599,7 @@ dataJSON = [{
   "dl": "2014-08-07",
   "goal": 100,
   "laun": "2014-07-08 18:38:09",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -33611,7 +33611,7 @@ dataJSON = [{
   "dl": "2014-10-07",
   "goal": 40000,
   "laun": "2014-08-23 07:46:12",
-  "pled": 30,
+  "pledged": 30,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -33623,7 +33623,7 @@ dataJSON = [{
   "dl": "2014-10-01",
   "goal": 1000,
   "laun": "2014-08-09 09:51:50",
-  "pled": 382,
+  "pledged": 382,
   "state": "failed",
   "backers": 19,
   "country": "GB"
@@ -33635,7 +33635,7 @@ dataJSON = [{
   "dl": "2016-08-16",
   "goal": 108000,
   "laun": "2016-06-17 23:48:27",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 1,
   "country": "IT"
@@ -33647,7 +33647,7 @@ dataJSON = [{
   "dl": "2016-08-14",
   "goal": 5000,
   "laun": "2016-07-31 20:20:57",
-  "pled": 13671,
+  "pledged": 13671,
   "state": "successful",
   "backers": 20,
   "country": "SE"
@@ -33659,7 +33659,7 @@ dataJSON = [{
   "dl": "2010-09-11",
   "goal": 2500,
   "laun": "2010-08-01 04:16:25",
-  "pled": 281,
+  "pledged": 281,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -33671,7 +33671,7 @@ dataJSON = [{
   "dl": "2016-03-24",
   "goal": 1500,
   "laun": "2016-02-27 00:37:04",
-  "pled": 1846,
+  "pledged": 1846,
   "state": "successful",
   "backers": 83,
   "country": "US"
@@ -33683,7 +33683,7 @@ dataJSON = [{
   "dl": "2012-02-05",
   "goal": 10000,
   "laun": "2011-12-22 21:21:24",
-  "pled": 1197,
+  "pledged": 1197,
   "state": "failed",
   "backers": 29,
   "country": "US"
@@ -33695,7 +33695,7 @@ dataJSON = [{
   "dl": "2015-01-01",
   "goal": 50000,
   "laun": "2014-12-02 00:09:16",
-  "pled": 230,
+  "pledged": 230,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -33707,7 +33707,7 @@ dataJSON = [{
   "dl": "2015-05-31",
   "goal": 5000,
   "laun": "2015-04-22 18:52:59",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "CA"
@@ -33719,7 +33719,7 @@ dataJSON = [{
   "dl": "2012-08-01",
   "goal": 500,
   "laun": "2012-07-12 13:54:54",
-  "pled": 554,
+  "pledged": 554,
   "state": "successful",
   "backers": 14,
   "country": "US"
@@ -33731,7 +33731,7 @@ dataJSON = [{
   "dl": "2014-01-03",
   "goal": 5000,
   "laun": "2013-12-04 01:58:56",
-  "pled": 20,
+  "pledged": 20,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -33743,7 +33743,7 @@ dataJSON = [{
   "dl": "2017-12-29",
   "goal": 250000,
   "laun": "2017-11-29 22:29:45",
-  "pled": 3201,
+  "pledged": 3201,
   "state": "failed",
   "backers": 29,
   "country": "US"
@@ -33755,7 +33755,7 @@ dataJSON = [{
   "dl": "2010-12-17",
   "goal": 5000,
   "laun": "2010-10-18 18:05:27",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -33767,7 +33767,7 @@ dataJSON = [{
   "dl": "2011-05-13",
   "goal": 3000,
   "laun": "2011-04-13 21:59:58",
-  "pled": 270,
+  "pledged": 270,
   "state": "failed",
   "backers": 7,
   "country": "US"
@@ -33779,7 +33779,7 @@ dataJSON = [{
   "dl": "2016-06-08",
   "goal": 1000,
   "laun": "2016-05-09 18:32:21",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "GB"
@@ -33791,7 +33791,7 @@ dataJSON = [{
   "dl": "2015-08-05",
   "goal": 150,
   "laun": "2015-07-06 22:20:39",
-  "pled": 256,
+  "pledged": 256,
   "state": "successful",
   "backers": 16,
   "country": "GB"
@@ -33803,7 +33803,7 @@ dataJSON = [{
   "dl": "2015-07-28",
   "goal": 2500,
   "laun": "2015-07-07 13:59:58",
-  "pled": 4157,
+  "pledged": 4157,
   "state": "successful",
   "backers": 96,
   "country": "US"
@@ -33815,7 +33815,7 @@ dataJSON = [{
   "dl": "2016-07-28",
   "goal": 17500,
   "laun": "2016-06-28 09:36:42",
-  "pled": 18697,
+  "pledged": 18697,
   "state": "successful",
   "backers": 386,
   "country": "GB"
@@ -33827,7 +33827,7 @@ dataJSON = [{
   "dl": "2017-07-05",
   "goal": 20000,
   "laun": "2017-06-05 00:50:47",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "GB"
@@ -33839,7 +33839,7 @@ dataJSON = [{
   "dl": "2013-06-10",
   "goal": 2500,
   "laun": "2013-05-11 03:26:54",
-  "pled": 2685,
+  "pledged": 2685,
   "state": "successful",
   "backers": 57,
   "country": "US"
@@ -33851,7 +33851,7 @@ dataJSON = [{
   "dl": "2016-06-12",
   "goal": 160000,
   "laun": "2016-05-22 13:58:36",
-  "pled": 13395,
+  "pledged": 13395,
   "state": "failed",
   "backers": 18,
   "country": "NO"
@@ -33863,7 +33863,7 @@ dataJSON = [{
   "dl": "2014-03-20",
   "goal": 2000,
   "laun": "2014-02-18 20:20:13",
-  "pled": 396,
+  "pledged": 396,
   "state": "failed",
   "backers": 18,
   "country": "US"
@@ -33875,7 +33875,7 @@ dataJSON = [{
   "dl": "2016-12-07",
   "goal": 650,
   "laun": "2016-11-06 22:08:44",
-  "pled": 650,
+  "pledged": 650,
   "state": "successful",
   "backers": 15,
   "country": "GB"
@@ -33887,7 +33887,7 @@ dataJSON = [{
   "dl": "2017-01-06",
   "goal": 30000,
   "laun": "2016-12-07 20:31:32",
-  "pled": 3132,
+  "pledged": 3132,
   "state": "failed",
   "backers": 41,
   "country": "AT"
@@ -33899,7 +33899,7 @@ dataJSON = [{
   "dl": "2016-04-16",
   "goal": 625000,
   "laun": "2016-03-17 17:47:19",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -33911,7 +33911,7 @@ dataJSON = [{
   "dl": "2014-06-23",
   "goal": 50000,
   "laun": "2014-04-24 00:03:55",
-  "pled": 40500,
+  "pledged": 40500,
   "state": "failed",
   "backers": 117,
   "country": "US"
@@ -33923,7 +33923,7 @@ dataJSON = [{
   "dl": "2014-08-10",
   "goal": 1000,
   "laun": "2014-07-11 22:36:05",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -33935,7 +33935,7 @@ dataJSON = [{
   "dl": "2015-01-21",
   "goal": 5000,
   "laun": "2014-12-18 22:19:28",
-  "pled": 5391,
+  "pledged": 5391,
   "state": "successful",
   "backers": 99,
   "country": "US"
@@ -33947,7 +33947,7 @@ dataJSON = [{
   "dl": "2015-10-29",
   "goal": 2850,
   "laun": "2015-10-22 16:22:59",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "DE"
@@ -33959,7 +33959,7 @@ dataJSON = [{
   "dl": "2017-04-26",
   "goal": 20000,
   "laun": "2017-04-04 17:52:57",
-  "pled": 297663.5,
+  "pledged": 297663.5,
   "state": "successful",
   "backers": 7855,
   "country": "US"
@@ -33971,7 +33971,7 @@ dataJSON = [{
   "dl": "2016-04-21",
   "goal": 12000,
   "laun": "2016-03-22 18:35:04",
-  "pled": 4024.81,
+  "pledged": 4024.81,
   "state": "failed",
   "backers": 72,
   "country": "US"
@@ -33983,7 +33983,7 @@ dataJSON = [{
   "dl": "2015-04-19",
   "goal": 10000,
   "laun": "2015-03-30 18:16:20",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 1,
   "country": "NO"
@@ -33995,7 +33995,7 @@ dataJSON = [{
   "dl": "2014-09-12",
   "goal": 1000,
   "laun": "2014-08-22 19:32:51",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -34007,7 +34007,7 @@ dataJSON = [{
   "dl": "2014-05-04",
   "goal": 5000,
   "laun": "2014-03-15 19:38:37",
-  "pled": 120,
+  "pledged": 120,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -34019,7 +34019,7 @@ dataJSON = [{
   "dl": "2016-10-07",
   "goal": 500,
   "laun": "2016-09-07 21:30:54",
-  "pled": 31,
+  "pledged": 31,
   "state": "canceled",
   "backers": 3,
   "country": "CA"
@@ -34031,7 +34031,7 @@ dataJSON = [{
   "dl": "2014-08-15",
   "goal": 500,
   "laun": "2014-07-16 12:14:53",
-  "pled": 572,
+  "pledged": 572,
   "state": "successful",
   "backers": 56,
   "country": "AU"
@@ -34043,7 +34043,7 @@ dataJSON = [{
   "dl": "2013-01-25",
   "goal": 10000,
   "laun": "2012-12-06 00:07:12",
-  "pled": 64069,
+  "pledged": 64069,
   "state": "successful",
   "backers": 2813,
   "country": "US"
@@ -34055,7 +34055,7 @@ dataJSON = [{
   "dl": "2017-11-12",
   "goal": 30000,
   "laun": "2017-10-13 18:44:20",
-  "pled": 374,
+  "pledged": 374,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -34067,7 +34067,7 @@ dataJSON = [{
   "dl": "2017-10-01",
   "goal": 700,
   "laun": "2017-09-16 00:41:14",
-  "pled": 774,
+  "pledged": 774,
   "state": "successful",
   "backers": 7,
   "country": "US"
@@ -34079,7 +34079,7 @@ dataJSON = [{
   "dl": "2016-04-03",
   "goal": 20000,
   "laun": "2016-03-04 21:52:11",
-  "pled": 1266,
+  "pledged": 1266,
   "state": "failed",
   "backers": 9,
   "country": "US"
@@ -34091,7 +34091,7 @@ dataJSON = [{
   "dl": "2015-06-03",
   "goal": 50,
   "laun": "2015-05-04 23:41:36",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -34103,7 +34103,7 @@ dataJSON = [{
   "dl": "2016-08-29",
   "goal": 250,
   "laun": "2016-08-14 12:07:49",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "IT"
@@ -34115,7 +34115,7 @@ dataJSON = [{
   "dl": "2013-11-13",
   "goal": 1000,
   "laun": "2013-10-14 19:28:01",
-  "pled": 1120,
+  "pledged": 1120,
   "state": "successful",
   "backers": 31,
   "country": "GB"
@@ -34127,7 +34127,7 @@ dataJSON = [{
   "dl": "2013-03-01",
   "goal": 570,
   "laun": "2013-01-30 05:33:17",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "GB"
@@ -34139,7 +34139,7 @@ dataJSON = [{
   "dl": "2011-07-19",
   "goal": 1000,
   "laun": "2011-06-22 22:58:06",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -34151,7 +34151,7 @@ dataJSON = [{
   "dl": "2015-09-13",
   "goal": 8000,
   "laun": "2015-07-30 03:01:31",
-  "pled": 0,
+  "pledged": 0,
   "state": "undefined",
   "backers": 0,
   "country": "N,0"
@@ -34163,7 +34163,7 @@ dataJSON = [{
   "dl": "2017-03-04",
   "goal": 25000,
   "laun": "2017-02-02 12:00:28",
-  "pled": 35125,
+  "pledged": 35125,
   "state": "successful",
   "backers": 289,
   "country": "FR"
@@ -34175,7 +34175,7 @@ dataJSON = [{
   "dl": "2014-04-16",
   "goal": 10000,
   "laun": "2014-03-17 06:00:26",
-  "pled": 10651,
+  "pledged": 10651,
   "state": "successful",
   "backers": 174,
   "country": "US"
@@ -34187,7 +34187,7 @@ dataJSON = [{
   "dl": "2013-07-31",
   "goal": 5000,
   "laun": "2013-07-01 20:49:23",
-  "pled": 5040.65,
+  "pledged": 5040.65,
   "state": "successful",
   "backers": 83,
   "country": "US"
@@ -34199,7 +34199,7 @@ dataJSON = [{
   "dl": "2012-11-01",
   "goal": 8500,
   "laun": "2012-10-02 02:56:43",
-  "pled": 2136,
+  "pledged": 2136,
   "state": "failed",
   "backers": 33,
   "country": "US"
@@ -34211,7 +34211,7 @@ dataJSON = [{
   "dl": "2017-08-15",
   "goal": 1000,
   "laun": "2017-07-25 19:39:14",
-  "pled": 12875,
+  "pledged": 12875,
   "state": "successful",
   "backers": 522,
   "country": "AU"
@@ -34223,7 +34223,7 @@ dataJSON = [{
   "dl": "2014-10-19",
   "goal": 500,
   "laun": "2014-09-19 14:40:42",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -34235,7 +34235,7 @@ dataJSON = [{
   "dl": "2014-10-12",
   "goal": 1100,
   "laun": "2014-10-01 16:18:34",
-  "pled": 666,
+  "pledged": 666,
   "state": "canceled",
   "backers": 7,
   "country": "US"
@@ -34247,7 +34247,7 @@ dataJSON = [{
   "dl": "2016-06-15",
   "goal": 3500,
   "laun": "2016-05-16 15:00:08",
-  "pled": 3720,
+  "pledged": 3720,
   "state": "successful",
   "backers": 23,
   "country": "US"
@@ -34259,7 +34259,7 @@ dataJSON = [{
   "dl": "2012-12-15",
   "goal": 3000,
   "laun": "2012-10-16 05:16:41",
-  "pled": 260,
+  "pledged": 260,
   "state": "failed",
   "backers": 8,
   "country": "US"
@@ -34271,7 +34271,7 @@ dataJSON = [{
   "dl": "2017-10-01",
   "goal": 10000,
   "laun": "2017-08-02 01:05:59",
-  "pled": 1505,
+  "pledged": 1505,
   "state": "failed",
   "backers": 11,
   "country": "US"
@@ -34283,7 +34283,7 @@ dataJSON = [{
   "dl": "2014-08-31",
   "goal": 1000,
   "laun": "2014-08-06 07:55:45",
-  "pled": 280,
+  "pledged": 280,
   "state": "failed",
   "backers": 16,
   "country": "CA"
@@ -34295,7 +34295,7 @@ dataJSON = [{
   "dl": "2016-08-02",
   "goal": 550,
   "laun": "2016-07-03 06:49:13",
-  "pled": 900,
+  "pledged": 900,
   "state": "successful",
   "backers": 18,
   "country": "US"
@@ -34307,7 +34307,7 @@ dataJSON = [{
   "dl": "2015-10-02",
   "goal": 65000,
   "laun": "2015-09-02 07:54:01",
-  "pled": 19190,
+  "pledged": 19190,
   "state": "failed",
   "backers": 64,
   "country": "DK"
@@ -34319,7 +34319,7 @@ dataJSON = [{
   "dl": "2014-11-01",
   "goal": 18000,
   "laun": "2014-10-10 00:21:25",
-  "pled": 2013,
+  "pledged": 2013,
   "state": "failed",
   "backers": 7,
   "country": "GB"
@@ -34331,7 +34331,7 @@ dataJSON = [{
   "dl": "2016-06-22",
   "goal": 2500,
   "laun": "2016-06-07 01:33:40",
-  "pled": 21,
+  "pledged": 21,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -34343,7 +34343,7 @@ dataJSON = [{
   "dl": "2011-04-02",
   "goal": 5000,
   "laun": "2011-01-25 18:57:37",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -34355,7 +34355,7 @@ dataJSON = [{
   "dl": "2016-03-02",
   "goal": 4597,
   "laun": "2016-02-01 18:04:26",
-  "pled": 2732,
+  "pledged": 2732,
   "state": "failed",
   "backers": 96,
   "country": "GB"
@@ -34367,7 +34367,7 @@ dataJSON = [{
   "dl": "2012-09-13",
   "goal": 8500,
   "laun": "2012-08-21 02:40:02",
-  "pled": 50,
+  "pledged": 50,
   "state": "canceled",
   "backers": 1,
   "country": "US"
@@ -34379,7 +34379,7 @@ dataJSON = [{
   "dl": "2016-08-31",
   "goal": 1000,
   "laun": "2016-07-31 21:07:46",
-  "pled": 4222,
+  "pledged": 4222,
   "state": "successful",
   "backers": 210,
   "country": "US"
@@ -34391,7 +34391,7 @@ dataJSON = [{
   "dl": "2015-07-11",
   "goal": 5000,
   "laun": "2015-05-12 17:19:44",
-  "pled": 261,
+  "pledged": 261,
   "state": "failed",
   "backers": 5,
   "country": "DE"
@@ -34403,7 +34403,7 @@ dataJSON = [{
   "dl": "2011-05-28",
   "goal": 2500,
   "laun": "2011-04-28 06:10:16",
-  "pled": 2531,
+  "pledged": 2531,
   "state": "successful",
   "backers": 45,
   "country": "US"
@@ -34415,7 +34415,7 @@ dataJSON = [{
   "dl": "2015-03-07",
   "goal": 10000,
   "laun": "2015-02-05 21:26:59",
-  "pled": 101,
+  "pledged": 101,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -34427,7 +34427,7 @@ dataJSON = [{
   "dl": "2017-01-05",
   "goal": 250000,
   "laun": "2016-12-06 07:30:52",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -34439,7 +34439,7 @@ dataJSON = [{
   "dl": "2011-07-19",
   "goal": 6000,
   "laun": "2011-06-02 06:20:24",
-  "pled": 6125,
+  "pledged": 6125,
   "state": "successful",
   "backers": 70,
   "country": "US"
@@ -34451,7 +34451,7 @@ dataJSON = [{
   "dl": "2010-12-26",
   "goal": 2500,
   "laun": "2010-11-11 02:59:36",
-  "pled": 4006,
+  "pledged": 4006,
   "state": "successful",
   "backers": 34,
   "country": "US"
@@ -34463,7 +34463,7 @@ dataJSON = [{
   "dl": "2016-01-13",
   "goal": 800,
   "laun": "2015-12-24 07:50:13",
-  "pled": 1215,
+  "pledged": 1215,
   "state": "successful",
   "backers": 16,
   "country": "US"
@@ -34475,7 +34475,7 @@ dataJSON = [{
   "dl": "2014-01-08",
   "goal": 2000,
   "laun": "2013-11-27 00:21:44",
-  "pled": 2052,
+  "pledged": 2052,
   "state": "successful",
   "backers": 60,
   "country": "US"
@@ -34487,7 +34487,7 @@ dataJSON = [{
   "dl": "2014-10-01",
   "goal": 9000,
   "laun": "2014-09-01 11:07:41",
-  "pled": 11324,
+  "pledged": 11324,
   "state": "successful",
   "backers": 76,
   "country": "CA"
@@ -34499,7 +34499,7 @@ dataJSON = [{
   "dl": "2012-05-18",
   "goal": 60000,
   "laun": "2012-03-19 04:06:11",
-  "pled": 11725,
+  "pledged": 11725,
   "state": "failed",
   "backers": 19,
   "country": "US"
@@ -34511,7 +34511,7 @@ dataJSON = [{
   "dl": "2016-09-22",
   "goal": 50000,
   "laun": "2016-08-22 20:08:21",
-  "pled": 152076,
+  "pledged": 152076,
   "state": "successful",
   "backers": 119,
   "country": "US"
@@ -34523,7 +34523,7 @@ dataJSON = [{
   "dl": "2012-03-20",
   "goal": 5000,
   "laun": "2012-02-18 18:10:41",
-  "pled": 1506,
+  "pledged": 1506,
   "state": "failed",
   "backers": 43,
   "country": "US"
@@ -34535,7 +34535,7 @@ dataJSON = [{
   "dl": "2015-12-11",
   "goal": 750,
   "laun": "2015-11-11 20:14:20",
-  "pled": 100,
+  "pledged": 100,
   "state": "canceled",
   "backers": 6,
   "country": "US"
@@ -34547,7 +34547,7 @@ dataJSON = [{
   "dl": "2013-05-28",
   "goal": 85000,
   "laun": "2013-04-13 02:04:47",
-  "pled": 3143,
+  "pledged": 3143,
   "state": "failed",
   "backers": 33,
   "country": "US"
@@ -34559,7 +34559,7 @@ dataJSON = [{
   "dl": "2014-04-04",
   "goal": 2100,
   "laun": "2014-02-03 19:42:28",
-  "pled": 2540,
+  "pledged": 2540,
   "state": "successful",
   "backers": 33,
   "country": "US"
@@ -34571,7 +34571,7 @@ dataJSON = [{
   "dl": "2012-03-04",
   "goal": 100,
   "laun": "2012-02-09 03:00:56",
-  "pled": 140,
+  "pledged": 140,
   "state": "successful",
   "backers": 5,
   "country": "US"
@@ -34583,7 +34583,7 @@ dataJSON = [{
   "dl": "2015-03-12",
   "goal": 10000,
   "laun": "2015-02-10 12:05:18",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -34595,7 +34595,7 @@ dataJSON = [{
   "dl": "2014-07-25",
   "goal": 5000,
   "laun": "2014-06-25 22:08:51",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -34607,7 +34607,7 @@ dataJSON = [{
   "dl": "2016-01-12",
   "goal": 1000,
   "laun": "2015-11-13 17:59:05",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "AU"
@@ -34619,7 +34619,7 @@ dataJSON = [{
   "dl": "2013-02-01",
   "goal": 2200,
   "laun": "2013-01-11 22:56:37",
-  "pled": 245,
+  "pledged": 245,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -34631,7 +34631,7 @@ dataJSON = [{
   "dl": "2015-06-05",
   "goal": 5000,
   "laun": "2015-05-06 19:06:24",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -34643,7 +34643,7 @@ dataJSON = [{
   "dl": "2013-02-25",
   "goal": 3000,
   "laun": "2013-01-26 15:22:14",
-  "pled": 11919.82,
+  "pledged": 11919.82,
   "state": "successful",
   "backers": 288,
   "country": "US"
@@ -34655,7 +34655,7 @@ dataJSON = [{
   "dl": "2015-08-20",
   "goal": 1000,
   "laun": "2015-07-21 20:46:59",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -34667,7 +34667,7 @@ dataJSON = [{
   "dl": "2015-05-29",
   "goal": 30000,
   "laun": "2015-04-29 07:13:12",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -34679,7 +34679,7 @@ dataJSON = [{
   "dl": "2017-09-01",
   "goal": 8000,
   "laun": "2017-07-07 22:37:54",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -34691,7 +34691,7 @@ dataJSON = [{
   "dl": "2015-08-02",
   "goal": 250000,
   "laun": "2015-07-03 15:51:45",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -34703,7 +34703,7 @@ dataJSON = [{
   "dl": "2015-05-24",
   "goal": 11000,
   "laun": "2015-04-24 19:58:37",
-  "pled": 11185,
+  "pledged": 11185,
   "state": "successful",
   "backers": 31,
   "country": "US"
@@ -34715,7 +34715,7 @@ dataJSON = [{
   "dl": "2014-09-03",
   "goal": 5900,
   "laun": "2014-08-12 23:35:29",
-  "pled": 7678,
+  "pledged": 7678,
   "state": "successful",
   "backers": 165,
   "country": "GB"
@@ -34727,7 +34727,7 @@ dataJSON = [{
   "dl": "2017-08-18",
   "goal": 5000,
   "laun": "2017-07-04 22:38:31",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -34739,7 +34739,7 @@ dataJSON = [{
   "dl": "2015-08-26",
   "goal": 1000,
   "laun": "2015-07-27 21:43:46",
-  "pled": 1070,
+  "pledged": 1070,
   "state": "successful",
   "backers": 27,
   "country": "US"
@@ -34751,7 +34751,7 @@ dataJSON = [{
   "dl": "2012-03-02",
   "goal": 5000,
   "laun": "2012-02-01 20:59:31",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -34763,7 +34763,7 @@ dataJSON = [{
   "dl": "2011-09-30",
   "goal": 3000,
   "laun": "2011-08-31 13:59:59",
-  "pled": 275,
+  "pledged": 275,
   "state": "failed",
   "backers": 9,
   "country": "US"
@@ -34775,7 +34775,7 @@ dataJSON = [{
   "dl": "2014-09-22",
   "goal": 27500,
   "laun": "2014-08-23 17:14:03",
-  "pled": 10864,
+  "pledged": 10864,
   "state": "failed",
   "backers": 37,
   "country": "US"
@@ -34787,7 +34787,7 @@ dataJSON = [{
   "dl": "2016-08-28",
   "goal": 7500,
   "laun": "2016-07-29 20:16:10",
-  "pled": 1726,
+  "pledged": 1726,
   "state": "failed",
   "backers": 40,
   "country": "US"
@@ -34799,7 +34799,7 @@ dataJSON = [{
   "dl": "2014-07-18",
   "goal": 12500,
   "laun": "2014-06-19 15:14:55",
-  "pled": 4540,
+  "pledged": 4540,
   "state": "failed",
   "backers": 29,
   "country": "US"
@@ -34811,7 +34811,7 @@ dataJSON = [{
   "dl": "2012-09-20",
   "goal": 4400,
   "laun": "2012-08-21 21:07:20",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -34823,7 +34823,7 @@ dataJSON = [{
   "dl": "2017-12-31",
   "goal": 10000,
   "laun": "2017-12-01 08:12:55",
-  "pled": 20,
+  "pledged": 20,
   "state": "canceled",
   "backers": 2,
   "country": "AU"
@@ -34835,7 +34835,7 @@ dataJSON = [{
   "dl": "2017-02-05",
   "goal": 300,
   "laun": "2016-12-27 19:23:48",
-  "pled": 5621,
+  "pledged": 5621,
   "state": "successful",
   "backers": 141,
   "country": "DE"
@@ -34847,7 +34847,7 @@ dataJSON = [{
   "dl": "2012-02-24",
   "goal": 2500,
   "laun": "2012-01-25 01:50:47",
-  "pled": 2729.12,
+  "pledged": 2729.12,
   "state": "successful",
   "backers": 68,
   "country": "US"
@@ -34859,7 +34859,7 @@ dataJSON = [{
   "dl": "2014-09-27",
   "goal": 1200,
   "laun": "2014-08-28 21:45:54",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -34871,7 +34871,7 @@ dataJSON = [{
   "dl": "2017-04-16",
   "goal": 500000,
   "laun": "2017-02-15 16:00:57",
-  "pled": 155675.37,
+  "pledged": 155675.37,
   "state": "failed",
   "backers": 9,
   "country": "MX"
@@ -34883,7 +34883,7 @@ dataJSON = [{
   "dl": "2012-12-01",
   "goal": 5000,
   "laun": "2012-11-01 20:04:28",
-  "pled": 470,
+  "pledged": 470,
   "state": "canceled",
   "backers": 19,
   "country": "US"
@@ -34895,7 +34895,7 @@ dataJSON = [{
   "dl": "2013-09-27",
   "goal": 12000,
   "laun": "2013-08-28 20:57:38",
-  "pled": 4859,
+  "pledged": 4859,
   "state": "failed",
   "backers": 62,
   "country": "US"
@@ -34907,7 +34907,7 @@ dataJSON = [{
   "dl": "2016-07-06",
   "goal": 8500,
   "laun": "2016-06-01 16:11:30",
-  "pled": 2731,
+  "pledged": 2731,
   "state": "failed",
   "backers": 88,
   "country": "US"
@@ -34919,7 +34919,7 @@ dataJSON = [{
   "dl": "2012-10-11",
   "goal": 3000,
   "laun": "2012-09-11 02:46:09",
-  "pled": 704,
+  "pledged": 704,
   "state": "failed",
   "backers": 8,
   "country": "US"
@@ -34931,7 +34931,7 @@ dataJSON = [{
   "dl": "2013-02-28",
   "goal": 15000,
   "laun": "2013-01-29 16:51:09",
-  "pled": 21538.21,
+  "pledged": 21538.21,
   "state": "successful",
   "backers": 533,
   "country": "US"
@@ -34943,7 +34943,7 @@ dataJSON = [{
   "dl": "2014-09-19",
   "goal": 100000,
   "laun": "2014-08-20 00:03:21",
-  "pled": 110567.77,
+  "pledged": 110567.77,
   "state": "successful",
   "backers": 192,
   "country": "US"
@@ -34955,7 +34955,7 @@ dataJSON = [{
   "dl": "2011-08-19",
   "goal": 10000,
   "laun": "2011-07-17 20:35:50",
-  "pled": 2276,
+  "pledged": 2276,
   "state": "failed",
   "backers": 26,
   "country": "US"
@@ -34967,7 +34967,7 @@ dataJSON = [{
   "dl": "2015-02-02",
   "goal": 2500,
   "laun": "2015-01-03 09:06:30",
-  "pled": 35,
+  "pledged": 35,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -34979,7 +34979,7 @@ dataJSON = [{
   "dl": "2011-04-01",
   "goal": 4000,
   "laun": "2011-03-04 03:57:24",
-  "pled": 7625,
+  "pledged": 7625,
   "state": "successful",
   "backers": 83,
   "country": "US"
@@ -34991,7 +34991,7 @@ dataJSON = [{
   "dl": "2015-04-28",
   "goal": 1500,
   "laun": "2015-04-14 10:26:58",
-  "pled": 2573,
+  "pledged": 2573,
   "state": "successful",
   "backers": 40,
   "country": "CA"
@@ -35003,7 +35003,7 @@ dataJSON = [{
   "dl": "2015-08-28",
   "goal": 2500,
   "laun": "2015-07-29 19:28:05",
-  "pled": 350,
+  "pledged": 350,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -35015,7 +35015,7 @@ dataJSON = [{
   "dl": "2016-08-07",
   "goal": 10000,
   "laun": "2016-07-08 18:41:27",
-  "pled": 121,
+  "pledged": 121,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -35027,7 +35027,7 @@ dataJSON = [{
   "dl": "2016-05-08",
   "goal": 30000,
   "laun": "2016-04-08 22:18:23",
-  "pled": 394930,
+  "pledged": 394930,
   "state": "successful",
   "backers": 213,
   "country": "US"
@@ -35039,7 +35039,7 @@ dataJSON = [{
   "dl": "2017-07-13",
   "goal": 50000,
   "laun": "2017-06-13 00:47:14",
-  "pled": 190,
+  "pledged": 190,
   "state": "failed",
   "backers": 5,
   "country": "CA"
@@ -35051,7 +35051,7 @@ dataJSON = [{
   "dl": "2016-09-02",
   "goal": 3000,
   "laun": "2016-08-03 00:32:11",
-  "pled": 16,
+  "pledged": 16,
   "state": "canceled",
   "backers": 2,
   "country": "US"
@@ -35063,7 +35063,7 @@ dataJSON = [{
   "dl": "2016-02-07",
   "goal": 5500,
   "laun": "2016-01-08 01:20:17",
-  "pled": 5,
+  "pledged": 5,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -35075,7 +35075,7 @@ dataJSON = [{
   "dl": "2012-03-15",
   "goal": 10000,
   "laun": "2012-01-30 06:25:24",
-  "pled": 16319.13,
+  "pledged": 16319.13,
   "state": "successful",
   "backers": 489,
   "country": "US"
@@ -35087,7 +35087,7 @@ dataJSON = [{
   "dl": "2017-10-15",
   "goal": 4000,
   "laun": "2017-09-15 08:43:27",
-  "pled": 16067,
+  "pledged": 16067,
   "state": "successful",
   "backers": 159,
   "country": "IT"
@@ -35099,7 +35099,7 @@ dataJSON = [{
   "dl": "2017-10-25",
   "goal": 20000,
   "laun": "2017-09-25 08:25:40",
-  "pled": 403,
+  "pledged": 403,
   "state": "failed",
   "backers": 10,
   "country": "US"
@@ -35111,7 +35111,7 @@ dataJSON = [{
   "dl": "2011-04-03",
   "goal": 550,
   "laun": "2011-03-02 06:07:03",
-  "pled": 1346,
+  "pledged": 1346,
   "state": "successful",
   "backers": 31,
   "country": "US"
@@ -35123,7 +35123,7 @@ dataJSON = [{
   "dl": "2015-10-24",
   "goal": 10000,
   "laun": "2015-09-24 03:11:19",
-  "pled": 11367,
+  "pledged": 11367,
   "state": "successful",
   "backers": 91,
   "country": "US"
@@ -35135,7 +35135,7 @@ dataJSON = [{
   "dl": "2017-11-09",
   "goal": 3500,
   "laun": "2017-10-10 10:45:41",
-  "pled": 100,
+  "pledged": 100,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -35147,7 +35147,7 @@ dataJSON = [{
   "dl": "2015-05-18",
   "goal": 165,
   "laun": "2015-04-10 18:08:19",
-  "pled": 374,
+  "pledged": 374,
   "state": "canceled",
   "backers": 15,
   "country": "US"
@@ -35159,7 +35159,7 @@ dataJSON = [{
   "dl": "2012-02-01",
   "goal": 7500,
   "laun": "2012-01-03 20:07:44",
-  "pled": 791,
+  "pledged": 791,
   "state": "failed",
   "backers": 29,
   "country": "US"
@@ -35171,7 +35171,7 @@ dataJSON = [{
   "dl": "2015-07-17",
   "goal": 500,
   "laun": "2015-07-07 14:15:06",
-  "pled": 3010,
+  "pledged": 3010,
   "state": "successful",
   "backers": 185,
   "country": "US"
@@ -35183,7 +35183,7 @@ dataJSON = [{
   "dl": "2014-01-16",
   "goal": 100000,
   "laun": "2013-12-07 07:59:46",
-  "pled": 70,
+  "pledged": 70,
   "state": "failed",
   "backers": 2,
   "country": "AU"
@@ -35195,7 +35195,7 @@ dataJSON = [{
   "dl": "2014-11-12",
   "goal": 550,
   "laun": "2014-10-13 22:41:37",
-  "pled": 81,
+  "pledged": 81,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -35207,7 +35207,7 @@ dataJSON = [{
   "dl": "2016-10-14",
   "goal": 165000,
   "laun": "2016-08-30 15:33:56",
-  "pled": 26,
+  "pledged": 26,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -35219,7 +35219,7 @@ dataJSON = [{
   "dl": "2016-04-17",
   "goal": 2500,
   "laun": "2016-03-17 13:43:26",
-  "pled": 2500,
+  "pledged": 2500,
   "state": "undefined",
   "backers": 0,
   "country": "N,0"
@@ -35231,7 +35231,7 @@ dataJSON = [{
   "dl": "2010-06-05",
   "goal": 3500,
   "laun": "2010-04-05 07:02:33",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -35243,7 +35243,7 @@ dataJSON = [{
   "dl": "2012-11-30",
   "goal": 1000,
   "laun": "2012-10-31 07:42:03",
-  "pled": 7.5,
+  "pledged": 7.5,
   "state": "failed",
   "backers": 2,
   "country": "GB"
@@ -35255,7 +35255,7 @@ dataJSON = [{
   "dl": "2016-11-08",
   "goal": 20000,
   "laun": "2016-10-11 15:56:39",
-  "pled": 4074,
+  "pledged": 4074,
   "state": "failed",
   "backers": 85,
   "country": "BE"
@@ -35267,7 +35267,7 @@ dataJSON = [{
   "dl": "2014-06-13",
   "goal": 800,
   "laun": "2014-05-23 02:43:59",
-  "pled": 205,
+  "pledged": 205,
   "state": "failed",
   "backers": 8,
   "country": "US"
@@ -35279,7 +35279,7 @@ dataJSON = [{
   "dl": "2014-09-20",
   "goal": 10000,
   "laun": "2014-08-21 18:21:41",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -35291,7 +35291,7 @@ dataJSON = [{
   "dl": "2016-03-13",
   "goal": 13000,
   "laun": "2016-02-12 20:54:12",
-  "pled": 175,
+  "pledged": 175,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -35303,7 +35303,7 @@ dataJSON = [{
   "dl": "2016-03-12",
   "goal": 650,
   "laun": "2016-01-16 09:56:09",
-  "pled": 650,
+  "pledged": 650,
   "state": "successful",
   "backers": 16,
   "country": "GB"
@@ -35315,7 +35315,7 @@ dataJSON = [{
   "dl": "2017-04-04",
   "goal": 1000,
   "laun": "2017-02-03 21:29:22",
-  "pled": 53,
+  "pledged": 53,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -35327,7 +35327,7 @@ dataJSON = [{
   "dl": "2013-11-27",
   "goal": 6000,
   "laun": "2013-10-12 08:42:48",
-  "pled": 6921,
+  "pledged": 6921,
   "state": "successful",
   "backers": 167,
   "country": "US"
@@ -35339,7 +35339,7 @@ dataJSON = [{
   "dl": "2011-09-02",
   "goal": 10000,
   "laun": "2011-07-19 00:14:42",
-  "pled": 171.5,
+  "pledged": 171.5,
   "state": "canceled",
   "backers": 8,
   "country": "US"
@@ -35351,7 +35351,7 @@ dataJSON = [{
   "dl": "2011-07-28",
   "goal": 2500,
   "laun": "2011-04-29 05:45:55",
-  "pled": 610,
+  "pledged": 610,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -35363,7 +35363,7 @@ dataJSON = [{
   "dl": "2014-08-01",
   "goal": 3000,
   "laun": "2014-07-02 17:22:23",
-  "pled": 331,
+  "pledged": 331,
   "state": "failed",
   "backers": 13,
   "country": "US"
@@ -35375,7 +35375,7 @@ dataJSON = [{
   "dl": "2015-10-21",
   "goal": 20000,
   "laun": "2015-09-21 21:17:32",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -35387,7 +35387,7 @@ dataJSON = [{
   "dl": "2012-05-28",
   "goal": 1000,
   "laun": "2012-04-28 07:12:06",
-  "pled": 1358,
+  "pledged": 1358,
   "state": "canceled",
   "backers": 35,
   "country": "US"
@@ -35399,7 +35399,7 @@ dataJSON = [{
   "dl": "2013-12-05",
   "goal": 35000,
   "laun": "2013-11-05 23:06:49",
-  "pled": 50,
+  "pledged": 50,
   "state": "canceled",
   "backers": 1,
   "country": "GB"
@@ -35411,7 +35411,7 @@ dataJSON = [{
   "dl": "2014-03-22",
   "goal": 15500,
   "laun": "2014-02-20 04:23:04",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -35423,7 +35423,7 @@ dataJSON = [{
   "dl": "2015-12-25",
   "goal": 50000,
   "laun": "2015-11-25 02:15:53",
-  "pled": 1000,
+  "pledged": 1000,
   "state": "failed",
   "backers": 1,
   "country": "CA"
@@ -35435,7 +35435,7 @@ dataJSON = [{
   "dl": "2010-08-04",
   "goal": 3300,
   "laun": "2010-07-19 17:59:09",
-  "pled": 615,
+  "pledged": 615,
   "state": "failed",
   "backers": 12,
   "country": "US"
@@ -35447,7 +35447,7 @@ dataJSON = [{
   "dl": "2014-12-20",
   "goal": 1500,
   "laun": "2014-11-20 21:01:29",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -35459,7 +35459,7 @@ dataJSON = [{
   "dl": "2010-08-21",
   "goal": 3500,
   "laun": "2010-07-06 04:12:59",
-  "pled": 4480.69,
+  "pledged": 4480.69,
   "state": "successful",
   "backers": 62,
   "country": "US"
@@ -35471,7 +35471,7 @@ dataJSON = [{
   "dl": "2017-08-07",
   "goal": 18500,
   "laun": "2017-07-08 01:33:12",
-  "pled": 24027,
+  "pledged": 24027,
   "state": "successful",
   "backers": 149,
   "country": "US"
@@ -35483,7 +35483,7 @@ dataJSON = [{
   "dl": "2012-03-02",
   "goal": 5000,
   "laun": "2012-01-17 14:40:49",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -35495,7 +35495,7 @@ dataJSON = [{
   "dl": "2012-08-20",
   "goal": 2000,
   "laun": "2012-08-09 18:43:38",
-  "pled": 50,
+  "pledged": 50,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -35507,7 +35507,7 @@ dataJSON = [{
   "dl": "2014-11-01",
   "goal": 900,
   "laun": "2014-10-16 17:57:12",
-  "pled": 1107,
+  "pledged": 1107,
   "state": "successful",
   "backers": 34,
   "country": "US"
@@ -35519,7 +35519,7 @@ dataJSON = [{
   "dl": "2015-09-20",
   "goal": 500,
   "laun": "2015-08-21 09:59:29",
-  "pled": 20,
+  "pledged": 20,
   "state": "failed",
   "backers": 1,
   "country": "GB"
@@ -35531,7 +35531,7 @@ dataJSON = [{
   "dl": "2012-01-30",
   "goal": 35000,
   "laun": "2011-12-11 06:11:30",
-  "pled": 6669,
+  "pledged": 6669,
   "state": "canceled",
   "backers": 42,
   "country": "US"
@@ -35543,7 +35543,7 @@ dataJSON = [{
   "dl": "2017-11-10",
   "goal": 15000,
   "laun": "2017-10-12 18:35:00",
-  "pled": 21841,
+  "pledged": 21841,
   "state": "successful",
   "backers": 222,
   "country": "US"
@@ -35555,7 +35555,7 @@ dataJSON = [{
   "dl": "2010-10-15",
   "goal": 1000,
   "laun": "2010-08-01 00:01:33",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -35567,7 +35567,7 @@ dataJSON = [{
   "dl": "2015-05-13",
   "goal": 5000,
   "laun": "2015-03-29 20:23:58",
-  "pled": 96,
+  "pledged": 96,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -35579,7 +35579,7 @@ dataJSON = [{
   "dl": "2013-05-30",
   "goal": 10000,
   "laun": "2013-05-09 18:35:41",
-  "pled": 827,
+  "pledged": 827,
   "state": "failed",
   "backers": 18,
   "country": "US"
@@ -35591,7 +35591,7 @@ dataJSON = [{
   "dl": "2016-08-12",
   "goal": 20000,
   "laun": "2016-06-28 20:00:33",
-  "pled": 30391,
+  "pledged": 30391,
   "state": "successful",
   "backers": 250,
   "country": "US"
@@ -35603,7 +35603,7 @@ dataJSON = [{
   "dl": "2015-12-30",
   "goal": 35000,
   "laun": "2015-11-30 03:25:55",
-  "pled": 36,
+  "pledged": 36,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -35615,7 +35615,7 @@ dataJSON = [{
   "dl": "2013-09-13",
   "goal": 20000,
   "laun": "2013-08-14 19:53:02",
-  "pled": 7023.17,
+  "pledged": 7023.17,
   "state": "failed",
   "backers": 72,
   "country": "US"
@@ -35627,7 +35627,7 @@ dataJSON = [{
   "dl": "2014-02-01",
   "goal": 5000,
   "laun": "2014-01-02 21:55:13",
-  "pled": 51,
+  "pledged": 51,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -35639,7 +35639,7 @@ dataJSON = [{
   "dl": "2016-06-07",
   "goal": 15000,
   "laun": "2016-04-28 19:39:43",
-  "pled": 243,
+  "pledged": 243,
   "state": "canceled",
   "backers": 9,
   "country": "GB"
@@ -35651,7 +35651,7 @@ dataJSON = [{
   "dl": "2016-05-22",
   "goal": 2100,
   "laun": "2016-04-22 16:59:34",
-  "pled": 1058,
+  "pledged": 1058,
   "state": "failed",
   "backers": 9,
   "country": "CA"
@@ -35663,7 +35663,7 @@ dataJSON = [{
   "dl": "2011-01-04",
   "goal": 3800,
   "laun": "2010-11-05 19:22:25",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -35675,7 +35675,7 @@ dataJSON = [{
   "dl": "2017-09-17",
   "goal": 1500,
   "laun": "2017-08-26 17:59:06",
-  "pled": 1715,
+  "pledged": 1715,
   "state": "successful",
   "backers": 53,
   "country": "US"
@@ -35687,7 +35687,7 @@ dataJSON = [{
   "dl": "2015-05-02",
   "goal": 100000,
   "laun": "2015-03-19 23:26:42",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -35699,7 +35699,7 @@ dataJSON = [{
   "dl": "2015-01-25",
   "goal": 300,
   "laun": "2014-12-26 18:04:28",
-  "pled": 600,
+  "pledged": 600,
   "state": "successful",
   "backers": 15,
   "country": "US"
@@ -35711,7 +35711,7 @@ dataJSON = [{
   "dl": "2015-11-01",
   "goal": 300,
   "laun": "2015-10-09 20:40:52",
-  "pled": 150,
+  "pledged": 150,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -35723,7 +35723,7 @@ dataJSON = [{
   "dl": "2015-03-01",
   "goal": 8000,
   "laun": "2015-01-31 20:58:01",
-  "pled": 8582,
+  "pledged": 8582,
   "state": "undefined",
   "backers": 0,
   "country": "N,0"
@@ -35735,7 +35735,7 @@ dataJSON = [{
   "dl": "2017-02-14",
   "goal": 50000,
   "laun": "2016-12-16 03:24:33",
-  "pled": 1231,
+  "pledged": 1231,
   "state": "failed",
   "backers": 38,
   "country": "US"
@@ -35747,7 +35747,7 @@ dataJSON = [{
   "dl": "2017-08-28",
   "goal": 7500,
   "laun": "2017-08-11 23:46:25",
-  "pled": 10585,
+  "pledged": 10585,
   "state": "successful",
   "backers": 83,
   "country": "US"
@@ -35759,7 +35759,7 @@ dataJSON = [{
   "dl": "2018-01-13",
   "goal": 5800,
   "laun": "2017-11-14 18:07:08",
-  "pled": 3500,
+  "pledged": 3500,
   "state": "live",
   "backers": 39,
   "country": "US"
@@ -35771,7 +35771,7 @@ dataJSON = [{
   "dl": "2016-10-10",
   "goal": 100000,
   "laun": "2016-09-01 19:33:27",
-  "pled": 1535,
+  "pledged": 1535,
   "state": "canceled",
   "backers": 22,
   "country": "US"
@@ -35783,7 +35783,7 @@ dataJSON = [{
   "dl": "2015-12-22",
   "goal": 5200,
   "laun": "2015-12-11 07:54:06",
-  "pled": 24339,
+  "pledged": 24339,
   "state": "successful",
   "backers": 273,
   "country": "US"
@@ -35795,7 +35795,7 @@ dataJSON = [{
   "dl": "2016-03-24",
   "goal": 12000,
   "laun": "2016-02-23 22:17:42",
-  "pled": 15674,
+  "pledged": 15674,
   "state": "successful",
   "backers": 319,
   "country": "US"
@@ -35807,7 +35807,7 @@ dataJSON = [{
   "dl": "2012-11-26",
   "goal": 5000,
   "laun": "2012-11-01 19:27:48",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -35819,7 +35819,7 @@ dataJSON = [{
   "dl": "2012-04-03",
   "goal": 10000,
   "laun": "2012-02-18 08:33:25",
-  "pled": 753,
+  "pledged": 753,
   "state": "failed",
   "backers": 18,
   "country": "US"
@@ -35831,7 +35831,7 @@ dataJSON = [{
   "dl": "2013-07-18",
   "goal": 5000,
   "laun": "2013-06-04 00:56:09",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -35843,7 +35843,7 @@ dataJSON = [{
   "dl": "2015-11-26",
   "goal": 50000,
   "laun": "2015-10-17 16:16:31",
-  "pled": 9464,
+  "pledged": 9464,
   "state": "canceled",
   "backers": 98,
   "country": "US"
@@ -35855,7 +35855,7 @@ dataJSON = [{
   "dl": "2010-11-22",
   "goal": 5500,
   "laun": "2010-10-19 16:23:35",
-  "pled": 5845.99,
+  "pledged": 5845.99,
   "state": "successful",
   "backers": 139,
   "country": "US"
@@ -35867,7 +35867,7 @@ dataJSON = [{
   "dl": "2011-09-06",
   "goal": 2500,
   "laun": "2011-07-27 01:25:05",
-  "pled": 2553.01,
+  "pledged": 2553.01,
   "state": "successful",
   "backers": 26,
   "country": "US"
@@ -35879,7 +35879,7 @@ dataJSON = [{
   "dl": "2014-09-21",
   "goal": 10000,
   "laun": "2014-08-22 23:16:42",
-  "pled": 10367,
+  "pledged": 10367,
   "state": "successful",
   "backers": 54,
   "country": "US"
@@ -35891,7 +35891,7 @@ dataJSON = [{
   "dl": "2011-03-02",
   "goal": 27000,
   "laun": "2011-01-31 20:09:36",
-  "pled": 112159.11,
+  "pledged": 112159.11,
   "state": "successful",
   "backers": 2109,
   "country": "US"
@@ -35903,7 +35903,7 @@ dataJSON = [{
   "dl": "2017-10-18",
   "goal": 50000,
   "laun": "2017-09-18 18:10:24",
-  "pled": 82158,
+  "pledged": 82158,
   "state": "successful",
   "backers": 370,
   "country": "US"
@@ -35915,7 +35915,7 @@ dataJSON = [{
   "dl": "2016-11-10",
   "goal": 2000,
   "laun": "2016-10-18 05:16:00",
-  "pled": 2397,
+  "pledged": 2397,
   "state": "successful",
   "backers": 74,
   "country": "CA"
@@ -35927,7 +35927,7 @@ dataJSON = [{
   "dl": "2014-01-16",
   "goal": 1000,
   "laun": "2013-12-02 23:55:44",
-  "pled": 1131,
+  "pledged": 1131,
   "state": "successful",
   "backers": 32,
   "country": "US"
@@ -35939,7 +35939,7 @@ dataJSON = [{
   "dl": "2016-02-19",
   "goal": 1500,
   "laun": "2016-01-20 16:01:06",
-  "pled": 2382,
+  "pledged": 2382,
   "state": "successful",
   "backers": 77,
   "country": "US"
@@ -35951,7 +35951,7 @@ dataJSON = [{
   "dl": "2013-08-29",
   "goal": 40000,
   "laun": "2013-07-30 15:01:21",
-  "pled": 44620.09,
+  "pledged": 44620.09,
   "state": "successful",
   "backers": 168,
   "country": "US"
@@ -35963,7 +35963,7 @@ dataJSON = [{
   "dl": "2015-11-05",
   "goal": 5000,
   "laun": "2015-10-22 18:24:28",
-  "pled": 1567,
+  "pledged": 1567,
   "state": "failed",
   "backers": 56,
   "country": "US"
@@ -35975,7 +35975,7 @@ dataJSON = [{
   "dl": "2014-05-13",
   "goal": 5000,
   "laun": "2014-04-29 19:04:48",
-  "pled": 7075.69,
+  "pledged": 7075.69,
   "state": "successful",
   "backers": 102,
   "country": "US"
@@ -35987,7 +35987,7 @@ dataJSON = [{
   "dl": "2013-05-05",
   "goal": 100,
   "laun": "2013-04-05 17:55:30",
-  "pled": 6,
+  "pledged": 6,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -35999,7 +35999,7 @@ dataJSON = [{
   "dl": "2014-12-08",
   "goal": 4500000,
   "laun": "2014-11-24 02:13:49",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "AU"
@@ -36011,7 +36011,7 @@ dataJSON = [{
   "dl": "2016-07-27",
   "goal": 45000,
   "laun": "2016-06-27 22:14:17",
-  "pled": 501,
+  "pledged": 501,
   "state": "failed",
   "backers": 12,
   "country": "US"
@@ -36023,7 +36023,7 @@ dataJSON = [{
   "dl": "2011-10-02",
   "goal": 7000,
   "laun": "2011-08-03 21:20:42",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -36035,7 +36035,7 @@ dataJSON = [{
   "dl": "2013-11-21",
   "goal": 1000,
   "laun": "2013-10-22 19:39:13",
-  "pled": 25704,
+  "pledged": 25704,
   "state": "successful",
   "backers": 624,
   "country": "US"
@@ -36047,7 +36047,7 @@ dataJSON = [{
   "dl": "2014-08-16",
   "goal": 500,
   "laun": "2014-07-17 09:43:10",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -36059,7 +36059,7 @@ dataJSON = [{
   "dl": "2012-05-13",
   "goal": 10000,
   "laun": "2012-03-14 04:10:11",
-  "pled": 27,
+  "pledged": 27,
   "state": "canceled",
   "backers": 3,
   "country": "US"
@@ -36071,7 +36071,7 @@ dataJSON = [{
   "dl": "2017-07-23",
   "goal": 350000,
   "laun": "2017-06-23 22:51:28",
-  "pled": 96,
+  "pledged": 96,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -36083,7 +36083,7 @@ dataJSON = [{
   "dl": "2012-04-01",
   "goal": 5000,
   "laun": "2012-02-01 23:55:49",
-  "pled": 990,
+  "pledged": 990,
   "state": "failed",
   "backers": 8,
   "country": "US"
@@ -36095,7 +36095,7 @@ dataJSON = [{
   "dl": "2011-05-06",
   "goal": 400,
   "laun": "2011-03-15 23:38:18",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -36107,7 +36107,7 @@ dataJSON = [{
   "dl": "2015-02-25",
   "goal": 20000,
   "laun": "2015-01-21 18:51:35",
-  "pled": 22357,
+  "pledged": 22357,
   "state": "successful",
   "backers": 248,
   "country": "US"
@@ -36119,7 +36119,7 @@ dataJSON = [{
   "dl": "2017-04-02",
   "goal": 17000,
   "laun": "2017-02-01 01:54:07",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -36131,7 +36131,7 @@ dataJSON = [{
   "dl": "2012-09-28",
   "goal": 5000,
   "laun": "2012-08-29 14:06:40",
-  "pled": 9971.01,
+  "pledged": 9971.01,
   "state": "successful",
   "backers": 562,
   "country": "US"
@@ -36143,7 +36143,7 @@ dataJSON = [{
   "dl": "2014-05-15",
   "goal": 1150,
   "laun": "2014-04-15 00:15:41",
-  "pled": 175,
+  "pledged": 175,
   "state": "failed",
   "backers": 7,
   "country": "US"
@@ -36155,7 +36155,7 @@ dataJSON = [{
   "dl": "2017-10-08",
   "goal": 30000,
   "laun": "2017-09-08 16:35:02",
-  "pled": 30292,
+  "pledged": 30292,
   "state": "successful",
   "backers": 252,
   "country": "US"
@@ -36167,7 +36167,7 @@ dataJSON = [{
   "dl": "2011-07-24",
   "goal": 2500,
   "laun": "2011-06-29 04:32:46",
-  "pled": 305,
+  "pledged": 305,
   "state": "failed",
   "backers": 8,
   "country": "US"
@@ -36179,7 +36179,7 @@ dataJSON = [{
   "dl": "2015-01-07",
   "goal": 3000,
   "laun": "2014-12-23 23:24:09",
-  "pled": 101,
+  "pledged": 101,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -36191,7 +36191,7 @@ dataJSON = [{
   "dl": "2011-03-01",
   "goal": 20000,
   "laun": "2011-01-19 19:48:19",
-  "pled": 38105.22,
+  "pledged": 38105.22,
   "state": "successful",
   "backers": 281,
   "country": "US"
@@ -36203,7 +36203,7 @@ dataJSON = [{
   "dl": "2016-10-16",
   "goal": 2500,
   "laun": "2016-10-01 19:59:58",
-  "pled": 25,
+  "pledged": 25,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -36215,7 +36215,7 @@ dataJSON = [{
   "dl": "2015-02-26",
   "goal": 3000,
   "laun": "2015-01-27 00:36:04",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -36227,7 +36227,7 @@ dataJSON = [{
   "dl": "2012-04-08",
   "goal": 500,
   "laun": "2012-03-03 19:07:45",
-  "pled": 501,
+  "pledged": 501,
   "state": "successful",
   "backers": 4,
   "country": "US"
@@ -36239,7 +36239,7 @@ dataJSON = [{
   "dl": "2014-08-31",
   "goal": 75000,
   "laun": "2014-07-18 20:23:24",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "CA"
@@ -36251,7 +36251,7 @@ dataJSON = [{
   "dl": "2015-11-23",
   "goal": 2000,
   "laun": "2015-10-24 10:09:38",
-  "pled": 2001,
+  "pledged": 2001,
   "state": "successful",
   "backers": 29,
   "country": "ES"
@@ -36263,7 +36263,7 @@ dataJSON = [{
   "dl": "2012-12-10",
   "goal": 1500,
   "laun": "2012-11-20 00:06:27",
-  "pled": 1610,
+  "pledged": 1610,
   "state": "successful",
   "backers": 24,
   "country": "US"
@@ -36275,7 +36275,7 @@ dataJSON = [{
   "dl": "2016-05-14",
   "goal": 2000,
   "laun": "2016-04-14 01:27:27",
-  "pled": 2300,
+  "pledged": 2300,
   "state": "successful",
   "backers": 0,
   "country": "N,0"
@@ -36287,7 +36287,7 @@ dataJSON = [{
   "dl": "2014-11-13",
   "goal": 60000,
   "laun": "2014-10-14 12:24:36",
-  "pled": 2677,
+  "pledged": 2677,
   "state": "canceled",
   "backers": 88,
   "country": "US"
@@ -36299,7 +36299,7 @@ dataJSON = [{
   "dl": "2012-01-02",
   "goal": 25000,
   "laun": "2011-11-14 20:50:59",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -36311,7 +36311,7 @@ dataJSON = [{
   "dl": "2011-08-28",
   "goal": 10000,
   "laun": "2011-07-29 23:17:16",
-  "pled": 80,
+  "pledged": 80,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -36323,7 +36323,7 @@ dataJSON = [{
   "dl": "2010-06-02",
   "goal": 10000,
   "laun": "2010-03-04 01:30:45",
-  "pled": 10583,
+  "pledged": 10583,
   "state": "successful",
   "backers": 118,
   "country": "US"
@@ -36335,7 +36335,7 @@ dataJSON = [{
   "dl": "2015-10-02",
   "goal": 15000,
   "laun": "2015-09-02 20:13:45",
-  "pled": 50,
+  "pledged": 50,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -36347,7 +36347,7 @@ dataJSON = [{
   "dl": "2011-05-07",
   "goal": 4000,
   "laun": "2011-03-07 21:23:33",
-  "pled": 27,
+  "pledged": 27,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -36359,7 +36359,7 @@ dataJSON = [{
   "dl": "2015-08-29",
   "goal": 100000,
   "laun": "2015-06-30 16:16:13",
-  "pled": 102003,
+  "pledged": 102003,
   "state": "successful",
   "backers": 587,
   "country": "DE"
@@ -36371,7 +36371,7 @@ dataJSON = [{
   "dl": "2014-05-24",
   "goal": 3500,
   "laun": "2014-04-24 13:17:16",
-  "pled": 5747.11,
+  "pledged": 5747.11,
   "state": "successful",
   "backers": 68,
   "country": "US"
@@ -36383,7 +36383,7 @@ dataJSON = [{
   "dl": "2012-02-23",
   "goal": 4444,
   "laun": "2012-01-25 10:02:28",
-  "pled": 632,
+  "pledged": 632,
   "state": "failed",
   "backers": 22,
   "country": "US"
@@ -36395,7 +36395,7 @@ dataJSON = [{
   "dl": "2016-08-05",
   "goal": 3000,
   "laun": "2016-07-06 05:35:32",
-  "pled": 15,
+  "pledged": 15,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -36407,7 +36407,7 @@ dataJSON = [{
   "dl": "2016-04-25",
   "goal": 3400,
   "laun": "2016-03-24 10:41:55",
-  "pled": 1268,
+  "pledged": 1268,
   "state": "canceled",
   "backers": 26,
   "country": "GB"
@@ -36419,7 +36419,7 @@ dataJSON = [{
   "dl": "2014-01-02",
   "goal": 10000,
   "laun": "2013-12-03 17:48:33",
-  "pled": 12022,
+  "pledged": 12022,
   "state": "successful",
   "backers": 31,
   "country": "US"
@@ -36431,7 +36431,7 @@ dataJSON = [{
   "dl": "2010-06-20",
   "goal": 2000,
   "laun": "2010-05-09 10:15:48",
-  "pled": 40,
+  "pledged": 40,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -36443,7 +36443,7 @@ dataJSON = [{
   "dl": "2011-10-25",
   "goal": 4000,
   "laun": "2011-09-25 23:51:34",
-  "pled": 4170.77,
+  "pledged": 4170.77,
   "state": "successful",
   "backers": 67,
   "country": "US"
@@ -36455,7 +36455,7 @@ dataJSON = [{
   "dl": "2017-05-19",
   "goal": 20000,
   "laun": "2017-04-16 13:14:15",
-  "pled": 213,
+  "pledged": 213,
   "state": "canceled",
   "backers": 6,
   "country": "DE"
@@ -36467,7 +36467,7 @@ dataJSON = [{
   "dl": "2015-05-21",
   "goal": 100,
   "laun": "2015-04-11 01:06:58",
-  "pled": 102,
+  "pledged": 102,
   "state": "successful",
   "backers": 2,
   "country": "US"
@@ -36479,7 +36479,7 @@ dataJSON = [{
   "dl": "2017-05-27",
   "goal": 1100,
   "laun": "2017-04-07 18:30:56",
-  "pled": 1460,
+  "pledged": 1460,
   "state": "successful",
   "backers": 18,
   "country": "US"
@@ -36491,7 +36491,7 @@ dataJSON = [{
   "dl": "2017-10-20",
   "goal": 20000,
   "laun": "2017-09-20 13:36:24",
-  "pled": 4425,
+  "pledged": 4425,
   "state": "failed",
   "backers": 57,
   "country": "AU"
@@ -36503,7 +36503,7 @@ dataJSON = [{
   "dl": "2016-08-19",
   "goal": 9000,
   "laun": "2016-07-20 01:24:49",
-  "pled": 13034,
+  "pledged": 13034,
   "state": "successful",
   "backers": 160,
   "country": "US"
@@ -36515,7 +36515,7 @@ dataJSON = [{
   "dl": "2016-12-30",
   "goal": 35000,
   "laun": "2016-11-30 19:53:45",
-  "pled": 8389,
+  "pledged": 8389,
   "state": "failed",
   "backers": 22,
   "country": "CH"
@@ -36527,7 +36527,7 @@ dataJSON = [{
   "dl": "2017-06-12",
   "goal": 500,
   "laun": "2017-05-23 19:28:08",
-  "pled": 923,
+  "pledged": 923,
   "state": "successful",
   "backers": 72,
   "country": "GB"
@@ -36539,7 +36539,7 @@ dataJSON = [{
   "dl": "2014-04-18",
   "goal": 1000,
   "laun": "2014-03-19 03:33:36",
-  "pled": 5308,
+  "pledged": 5308,
   "state": "successful",
   "backers": 95,
   "country": "US"
@@ -36551,7 +36551,7 @@ dataJSON = [{
   "dl": "2013-07-31",
   "goal": 1500,
   "laun": "2013-06-20 22:33:09",
-  "pled": 2655,
+  "pledged": 2655,
   "state": "successful",
   "backers": 24,
   "country": "US"
@@ -36563,7 +36563,7 @@ dataJSON = [{
   "dl": "2012-08-08",
   "goal": 1200,
   "laun": "2012-07-05 21:12:32",
-  "pled": 1200,
+  "pledged": 1200,
   "state": "successful",
   "backers": 24,
   "country": "US"
@@ -36575,7 +36575,7 @@ dataJSON = [{
   "dl": "2011-12-19",
   "goal": 1200,
   "laun": "2011-11-18 01:29:44",
-  "pled": 1200,
+  "pledged": 1200,
   "state": "successful",
   "backers": 10,
   "country": "US"
@@ -36587,7 +36587,7 @@ dataJSON = [{
   "dl": "2013-10-17",
   "goal": 500,
   "laun": "2013-09-17 17:45:07",
-  "pled": 75,
+  "pledged": 75,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -36599,7 +36599,7 @@ dataJSON = [{
   "dl": "2016-11-28",
   "goal": 500,
   "laun": "2016-11-06 21:31:12",
-  "pled": 2949,
+  "pledged": 2949,
   "state": "successful",
   "backers": 60,
   "country": "US"
@@ -36611,7 +36611,7 @@ dataJSON = [{
   "dl": "2015-11-30",
   "goal": 200000,
   "laun": "2015-10-16 12:15:10",
-  "pled": 80,
+  "pledged": 80,
   "state": "failed",
   "backers": 4,
   "country": "AU"
@@ -36623,7 +36623,7 @@ dataJSON = [{
   "dl": "2012-11-29",
   "goal": 1500,
   "laun": "2012-10-30 03:12:23",
-  "pled": 1961,
+  "pledged": 1961,
   "state": "successful",
   "backers": 70,
   "country": "US"
@@ -36635,7 +36635,7 @@ dataJSON = [{
   "dl": "2014-11-21",
   "goal": 2500,
   "laun": "2014-10-21 18:55:44",
-  "pled": 4517,
+  "pledged": 4517,
   "state": "successful",
   "backers": 92,
   "country": "US"
@@ -36647,7 +36647,7 @@ dataJSON = [{
   "dl": "2015-12-31",
   "goal": 5000,
   "laun": "2015-12-01 00:25:06",
-  "pled": 6065.26,
+  "pledged": 6065.26,
   "state": "undefined",
   "backers": 0,
   "country": "N,0"
@@ -36659,7 +36659,7 @@ dataJSON = [{
   "dl": "2012-12-27",
   "goal": 9999,
   "laun": "2012-11-12 20:12:27",
-  "pled": 10274,
+  "pledged": 10274,
   "state": "successful",
   "backers": 57,
   "country": "US"
@@ -36671,7 +36671,7 @@ dataJSON = [{
   "dl": "2013-05-07",
   "goal": 7500,
   "laun": "2013-03-08 23:48:17",
-  "pled": 10010.44,
+  "pledged": 10010.44,
   "state": "successful",
   "backers": 139,
   "country": "US"
@@ -36683,7 +36683,7 @@ dataJSON = [{
   "dl": "2011-11-08",
   "goal": 250,
   "laun": "2011-09-24 07:48:30",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -36695,7 +36695,7 @@ dataJSON = [{
   "dl": "2012-03-10",
   "goal": 1000,
   "laun": "2012-02-11 06:29:08",
-  "pled": 1243,
+  "pledged": 1243,
   "state": "successful",
   "backers": 29,
   "country": "US"
@@ -36707,7 +36707,7 @@ dataJSON = [{
   "dl": "2017-09-14",
   "goal": 10000,
   "laun": "2017-08-15 18:36:18",
-  "pled": 21,
+  "pledged": 21,
   "state": "failed",
   "backers": 3,
   "country": "IE"
@@ -36719,7 +36719,7 @@ dataJSON = [{
   "dl": "2012-12-13",
   "goal": 5000,
   "laun": "2012-11-13 01:26:23",
-  "pled": 60,
+  "pledged": 60,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -36731,7 +36731,7 @@ dataJSON = [{
   "dl": "2014-05-11",
   "goal": 97000,
   "laun": "2014-04-11 16:11:53",
-  "pled": 36454,
+  "pledged": 36454,
   "state": "failed",
   "backers": 1244,
   "country": "US"
@@ -36743,7 +36743,7 @@ dataJSON = [{
   "dl": "2015-04-25",
   "goal": 125000,
   "laun": "2015-02-24 02:42:01",
-  "pled": 25,
+  "pledged": 25,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -36755,7 +36755,7 @@ dataJSON = [{
   "dl": "2012-04-12",
   "goal": 5500,
   "laun": "2012-03-11 16:16:20",
-  "pled": 5735.17,
+  "pledged": 5735.17,
   "state": "successful",
   "backers": 176,
   "country": "US"
@@ -36767,7 +36767,7 @@ dataJSON = [{
   "dl": "2016-12-16",
   "goal": 12500,
   "laun": "2016-11-16 04:59:57",
-  "pled": 13834,
+  "pledged": 13834,
   "state": "successful",
   "backers": 82,
   "country": "US"
@@ -36779,7 +36779,7 @@ dataJSON = [{
   "dl": "2012-03-20",
   "goal": 30000,
   "laun": "2012-02-19 16:40:20",
-  "pled": 761,
+  "pledged": 761,
   "state": "failed",
   "backers": 15,
   "country": "US"
@@ -36791,7 +36791,7 @@ dataJSON = [{
   "dl": "2017-06-04",
   "goal": 20000,
   "laun": "2017-04-05 17:22:27",
-  "pled": 4057,
+  "pledged": 4057,
   "state": "failed",
   "backers": 14,
   "country": "IT"
@@ -36803,7 +36803,7 @@ dataJSON = [{
   "dl": "2016-06-02",
   "goal": 1750,
   "laun": "2016-05-03 18:40:42",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -36815,7 +36815,7 @@ dataJSON = [{
   "dl": "2015-02-03",
   "goal": 7500,
   "laun": "2014-12-05 04:19:14",
-  "pled": 10,
+  "pledged": 10,
   "state": "undefined",
   "backers": 0,
   "country": "N,0"
@@ -36827,7 +36827,7 @@ dataJSON = [{
   "dl": "2014-07-27",
   "goal": 10000,
   "laun": "2014-06-27 00:26:27",
-  "pled": 955,
+  "pledged": 955,
   "state": "failed",
   "backers": 20,
   "country": "US"
@@ -36839,7 +36839,7 @@ dataJSON = [{
   "dl": "2013-06-05",
   "goal": 10000,
   "laun": "2013-05-06 22:19:51",
-  "pled": 10338,
+  "pledged": 10338,
   "state": "successful",
   "backers": 113,
   "country": "US"
@@ -36851,7 +36851,7 @@ dataJSON = [{
   "dl": "2013-12-14",
   "goal": 7000,
   "laun": "2013-11-14 21:00:53",
-  "pled": 149,
+  "pledged": 149,
   "state": "failed",
   "backers": 7,
   "country": "US"
@@ -36863,7 +36863,7 @@ dataJSON = [{
   "dl": "2014-10-07",
   "goal": 1126,
   "laun": "2014-08-29 16:47:30",
-  "pled": 1147,
+  "pledged": 1147,
   "state": "successful",
   "backers": 9,
   "country": "CA"
@@ -36875,7 +36875,7 @@ dataJSON = [{
   "dl": "2012-03-28",
   "goal": 10000,
   "laun": "2012-01-28 00:44:34",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -36887,7 +36887,7 @@ dataJSON = [{
   "dl": "2012-10-21",
   "goal": 5000,
   "laun": "2012-09-21 18:59:39",
-  "pled": 1400,
+  "pledged": 1400,
   "state": "failed",
   "backers": 29,
   "country": "US"
@@ -36899,7 +36899,7 @@ dataJSON = [{
   "dl": "2012-01-20",
   "goal": 25000,
   "laun": "2011-12-30 04:56:12",
-  "pled": 13700,
+  "pledged": 13700,
   "state": "failed",
   "backers": 21,
   "country": "US"
@@ -36911,7 +36911,7 @@ dataJSON = [{
   "dl": "2014-10-24",
   "goal": 15000,
   "laun": "2014-09-24 23:22:34",
-  "pled": 16414,
+  "pledged": 16414,
   "state": "successful",
   "backers": 122,
   "country": "CA"
@@ -36923,7 +36923,7 @@ dataJSON = [{
   "dl": "2016-11-27",
   "goal": 1000,
   "laun": "2016-10-28 01:58:51",
-  "pled": 10,
+  "pledged": 10,
   "state": "canceled",
   "backers": 1,
   "country": "US"
@@ -36935,7 +36935,7 @@ dataJSON = [{
   "dl": "2012-02-18",
   "goal": 10000,
   "laun": "2012-01-09 22:07:35",
-  "pled": 11542,
+  "pledged": 11542,
   "state": "successful",
   "backers": 98,
   "country": "US"
@@ -36947,7 +36947,7 @@ dataJSON = [{
   "dl": "2014-10-31",
   "goal": 7003,
   "laun": "2014-10-01 16:07:26",
-  "pled": 5,
+  "pledged": 5,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -36959,7 +36959,7 @@ dataJSON = [{
   "dl": "2017-11-30",
   "goal": 1285,
   "laun": "2017-11-15 18:01:35",
-  "pled": 2755,
+  "pledged": 2755,
   "state": "successful",
   "backers": 76,
   "country": "US"
@@ -36971,7 +36971,7 @@ dataJSON = [{
   "dl": "2013-07-03",
   "goal": 8000,
   "laun": "2013-06-03 19:39:04",
-  "pled": 8310,
+  "pledged": 8310,
   "state": "successful",
   "backers": 153,
   "country": "US"
@@ -36983,7 +36983,7 @@ dataJSON = [{
   "dl": "2011-11-07",
   "goal": 1500,
   "laun": "2011-10-01 06:17:16",
-  "pled": 1500,
+  "pledged": 1500,
   "state": "successful",
   "backers": 25,
   "country": "US"
@@ -36995,7 +36995,7 @@ dataJSON = [{
   "dl": "2011-08-17",
   "goal": 240000,
   "laun": "2011-06-18 02:22:49",
-  "pled": 180,
+  "pledged": 180,
   "state": "canceled",
   "backers": 6,
   "country": "US"
@@ -37007,7 +37007,7 @@ dataJSON = [{
   "dl": "2016-04-07",
   "goal": 12000,
   "laun": "2016-03-01 13:05:11",
-  "pled": 88771,
+  "pledged": 88771,
   "state": "successful",
   "backers": 795,
   "country": "US"
@@ -37019,7 +37019,7 @@ dataJSON = [{
   "dl": "2015-04-08",
   "goal": 18000,
   "laun": "2015-03-09 00:31:26",
-  "pled": 21077,
+  "pledged": 21077,
   "state": "successful",
   "backers": 299,
   "country": "US"
@@ -37031,7 +37031,7 @@ dataJSON = [{
   "dl": "2012-11-05",
   "goal": 20000,
   "laun": "2012-10-06 02:06:43",
-  "pled": 3992,
+  "pledged": 3992,
   "state": "failed",
   "backers": 77,
   "country": "US"
@@ -37043,7 +37043,7 @@ dataJSON = [{
   "dl": "2016-05-15",
   "goal": 32000,
   "laun": "2016-04-15 22:45:30",
-  "pled": 61,
+  "pledged": 61,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -37055,7 +37055,7 @@ dataJSON = [{
   "dl": "2016-09-10",
   "goal": 35000,
   "laun": "2016-07-27 12:40:14",
-  "pled": 324,
+  "pledged": 324,
   "state": "failed",
   "backers": 13,
   "country": "GB"
@@ -37067,7 +37067,7 @@ dataJSON = [{
   "dl": "2014-08-07",
   "goal": 600,
   "laun": "2014-07-08 01:00:41",
-  "pled": 165,
+  "pledged": 165,
   "state": "failed",
   "backers": 4,
   "country": "CA"
@@ -37079,7 +37079,7 @@ dataJSON = [{
   "dl": "2013-09-11",
   "goal": 30000,
   "laun": "2013-08-07 07:00:08",
-  "pled": 167226,
+  "pledged": 167226,
   "state": "successful",
   "backers": 569,
   "country": "US"
@@ -37091,7 +37091,7 @@ dataJSON = [{
   "dl": "2016-01-31",
   "goal": 500,
   "laun": "2016-01-01 21:00:19",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -37103,7 +37103,7 @@ dataJSON = [{
   "dl": "2016-05-04",
   "goal": 4500,
   "laun": "2016-03-17 14:23:18",
-  "pled": 77,
+  "pledged": 77,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -37115,7 +37115,7 @@ dataJSON = [{
   "dl": "2016-10-22",
   "goal": 21000,
   "laun": "2016-10-01 05:47:31",
-  "pled": 26348.83,
+  "pledged": 26348.83,
   "state": "successful",
   "backers": 431,
   "country": "US"
@@ -37127,7 +37127,7 @@ dataJSON = [{
   "dl": "2017-01-20",
   "goal": 2000,
   "laun": "2016-12-16 12:24:05",
-  "pled": 2096.2,
+  "pledged": 2096.2,
   "state": "successful",
   "backers": 59,
   "country": "GB"
@@ -37139,7 +37139,7 @@ dataJSON = [{
   "dl": "2014-07-02",
   "goal": 2000,
   "laun": "2014-06-06 06:30:30",
-  "pled": 3050,
+  "pledged": 3050,
   "state": "successful",
   "backers": 44,
   "country": "US"
@@ -37151,7 +37151,7 @@ dataJSON = [{
   "dl": "2015-05-04",
   "goal": 3500,
   "laun": "2015-04-04 04:39:32",
-  "pled": 3585,
+  "pledged": 3585,
   "state": "successful",
   "backers": 15,
   "country": "US"
@@ -37163,7 +37163,7 @@ dataJSON = [{
   "dl": "2012-09-23",
   "goal": 1000,
   "laun": "2012-08-24 22:07:17",
-  "pled": 6,
+  "pledged": 6,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -37175,7 +37175,7 @@ dataJSON = [{
   "dl": "2016-11-11",
   "goal": 600,
   "laun": "2016-10-28 00:20:23",
-  "pled": 90,
+  "pledged": 90,
   "state": "canceled",
   "backers": 1,
   "country": "CA"
@@ -37187,7 +37187,7 @@ dataJSON = [{
   "dl": "2015-03-08",
   "goal": 3500,
   "laun": "2015-02-04 05:28:49",
-  "pled": 52,
+  "pledged": 52,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -37199,7 +37199,7 @@ dataJSON = [{
   "dl": "2014-05-14",
   "goal": 33000,
   "laun": "2014-03-14 23:04:07",
-  "pled": 2209.84,
+  "pledged": 2209.84,
   "state": "failed",
   "backers": 11,
   "country": "US"
@@ -37211,7 +37211,7 @@ dataJSON = [{
   "dl": "2014-06-10",
   "goal": 4700,
   "laun": "2014-05-11 16:34:32",
-  "pled": 4886,
+  "pledged": 4886,
   "state": "successful",
   "backers": 67,
   "country": "US"
@@ -37223,7 +37223,7 @@ dataJSON = [{
   "dl": "2013-06-18",
   "goal": 15000,
   "laun": "2013-05-04 04:00:52",
-  "pled": 16131.55,
+  "pledged": 16131.55,
   "state": "successful",
   "backers": 211,
   "country": "US"
@@ -37235,7 +37235,7 @@ dataJSON = [{
   "dl": "2011-04-12",
   "goal": 5000,
   "laun": "2011-03-09 23:44:31",
-  "pled": 5142,
+  "pledged": 5142,
   "state": "successful",
   "backers": 80,
   "country": "US"
@@ -37247,7 +37247,7 @@ dataJSON = [{
   "dl": "2011-07-04",
   "goal": 1000,
   "laun": "2011-05-17 14:10:09",
-  "pled": 1015,
+  "pledged": 1015,
   "state": "successful",
   "backers": 22,
   "country": "US"
@@ -37259,7 +37259,7 @@ dataJSON = [{
   "dl": "2012-12-08",
   "goal": 50000,
   "laun": "2012-11-08 20:00:01",
-  "pled": 15613,
+  "pledged": 15613,
   "state": "failed",
   "backers": 34,
   "country": "US"
@@ -37271,7 +37271,7 @@ dataJSON = [{
   "dl": "2014-09-09",
   "goal": 200000,
   "laun": "2014-07-11 23:25:14",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "CA"
@@ -37283,7 +37283,7 @@ dataJSON = [{
   "dl": "2014-04-12",
   "goal": 65000,
   "laun": "2014-02-11 04:47:17",
-  "pled": 827.01,
+  "pledged": 827.01,
   "state": "canceled",
   "backers": 6,
   "country": "US"
@@ -37295,7 +37295,7 @@ dataJSON = [{
   "dl": "2015-12-19",
   "goal": 1500,
   "laun": "2015-12-04 03:37:39",
-  "pled": 2600,
+  "pledged": 2600,
   "state": "successful",
   "backers": 10,
   "country": "US"
@@ -37307,7 +37307,7 @@ dataJSON = [{
   "dl": "2016-11-28",
   "goal": 1200,
   "laun": "2016-11-05 17:45:43",
-  "pled": 1420,
+  "pledged": 1420,
   "state": "successful",
   "backers": 30,
   "country": "US"
@@ -37319,7 +37319,7 @@ dataJSON = [{
   "dl": "2014-12-07",
   "goal": 150,
   "laun": "2014-11-07 02:59:45",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "GB"
@@ -37331,7 +37331,7 @@ dataJSON = [{
   "dl": "2011-03-27",
   "goal": 10000,
   "laun": "2011-01-26 04:38:43",
-  "pled": 57,
+  "pledged": 57,
   "state": "canceled",
   "backers": 6,
   "country": "US"
@@ -37343,7 +37343,7 @@ dataJSON = [{
   "dl": "2012-06-09",
   "goal": 15000,
   "laun": "2012-04-10 00:28:59",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -37355,7 +37355,7 @@ dataJSON = [{
   "dl": "2016-11-09",
   "goal": 12000,
   "laun": "2016-10-10 15:19:31",
-  "pled": 21141,
+  "pledged": 21141,
   "state": "successful",
   "backers": 446,
   "country": "US"
@@ -37367,7 +37367,7 @@ dataJSON = [{
   "dl": "2014-07-31",
   "goal": 2000,
   "laun": "2014-06-16 07:25:49",
-  "pled": 705,
+  "pledged": 705,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -37379,7 +37379,7 @@ dataJSON = [{
   "dl": "2015-01-14",
   "goal": 5000,
   "laun": "2014-11-18 23:27:21",
-  "pled": 70,
+  "pledged": 70,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -37391,7 +37391,7 @@ dataJSON = [{
   "dl": "2016-08-06",
   "goal": 15000,
   "laun": "2016-07-07 08:55:02",
-  "pled": 85,
+  "pledged": 85,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -37403,7 +37403,7 @@ dataJSON = [{
   "dl": "2012-11-24",
   "goal": 25500,
   "laun": "2012-10-25 04:52:16",
-  "pled": 25661,
+  "pledged": 25661,
   "state": "successful",
   "backers": 58,
   "country": "US"
@@ -37415,7 +37415,7 @@ dataJSON = [{
   "dl": "2015-10-19",
   "goal": 1800,
   "laun": "2015-09-17 19:36:49",
-  "pled": 1806,
+  "pledged": 1806,
   "state": "successful",
   "backers": 79,
   "country": "FR"
@@ -37427,7 +37427,7 @@ dataJSON = [{
   "dl": "2014-08-09",
   "goal": 10000,
   "laun": "2014-07-10 12:29:30",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -37439,7 +37439,7 @@ dataJSON = [{
   "dl": "2014-09-21",
   "goal": 21000,
   "laun": "2014-08-22 21:00:15",
-  "pled": 198415.01,
+  "pledged": 198415.01,
   "state": "successful",
   "backers": 1204,
   "country": "GB"
@@ -37451,7 +37451,7 @@ dataJSON = [{
   "dl": "2015-01-28",
   "goal": 10000,
   "laun": "2014-12-29 23:46:20",
-  "pled": 176,
+  "pledged": 176,
   "state": "failed",
   "backers": 7,
   "country": "US"
@@ -37463,7 +37463,7 @@ dataJSON = [{
   "dl": "2014-08-19",
   "goal": 1000,
   "laun": "2014-07-23 05:45:59",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -37475,7 +37475,7 @@ dataJSON = [{
   "dl": "2012-06-22",
   "goal": 3000,
   "laun": "2012-04-24 02:41:10",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -37487,7 +37487,7 @@ dataJSON = [{
   "dl": "2014-04-12",
   "goal": 5000,
   "laun": "2014-02-26 20:35:00",
-  "pled": 5405,
+  "pledged": 5405,
   "state": "successful",
   "backers": 40,
   "country": "US"
@@ -37499,7 +37499,7 @@ dataJSON = [{
   "dl": "2016-03-30",
   "goal": 78500,
   "laun": "2016-02-29 18:34:30",
-  "pled": 60,
+  "pledged": 60,
   "state": "canceled",
   "backers": 1,
   "country": "US"
@@ -37511,7 +37511,7 @@ dataJSON = [{
   "dl": "2017-03-19",
   "goal": 350,
   "laun": "2017-02-17 18:18:31",
-  "pled": 11,
+  "pledged": 11,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -37523,7 +37523,7 @@ dataJSON = [{
   "dl": "2017-03-15",
   "goal": 180,
   "laun": "2017-03-08 06:10:27",
-  "pled": 3,
+  "pledged": 3,
   "state": "failed",
   "backers": 1,
   "country": "CA"
@@ -37535,7 +37535,7 @@ dataJSON = [{
   "dl": "2012-01-07",
   "goal": 30000,
   "laun": "2011-11-08 20:03:19",
-  "pled": 48399.16,
+  "pledged": 48399.16,
   "state": "successful",
   "backers": 787,
   "country": "US"
@@ -37547,7 +37547,7 @@ dataJSON = [{
   "dl": "2016-03-20",
   "goal": 8000,
   "laun": "2016-02-19 21:29:53",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -37559,7 +37559,7 @@ dataJSON = [{
   "dl": "2012-04-26",
   "goal": 6600,
   "laun": "2012-03-24 03:44:23",
-  "pled": 7015.53,
+  "pledged": 7015.53,
   "state": "successful",
   "backers": 157,
   "country": "US"
@@ -37571,7 +37571,7 @@ dataJSON = [{
   "dl": "2012-12-16",
   "goal": 7500,
   "laun": "2012-11-16 22:05:35",
-  "pled": 3307,
+  "pledged": 3307,
   "state": "failed",
   "backers": 40,
   "country": "US"
@@ -37583,7 +37583,7 @@ dataJSON = [{
   "dl": "2014-09-27",
   "goal": 600,
   "laun": "2014-09-06 05:17:11",
-  "pled": 631,
+  "pledged": 631,
   "state": "successful",
   "backers": 18,
   "country": "US"
@@ -37595,7 +37595,7 @@ dataJSON = [{
   "dl": "2015-09-01",
   "goal": 5000,
   "laun": "2015-08-02 19:20:07",
-  "pled": 205,
+  "pledged": 205,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -37607,7 +37607,7 @@ dataJSON = [{
   "dl": "2012-09-26",
   "goal": 2000,
   "laun": "2012-08-27 22:01:03",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -37619,7 +37619,7 @@ dataJSON = [{
   "dl": "2016-09-28",
   "goal": 850,
   "laun": "2016-08-29 15:07:18",
-  "pled": 910,
+  "pledged": 910,
   "state": "successful",
   "backers": 19,
   "country": "US"
@@ -37631,7 +37631,7 @@ dataJSON = [{
   "dl": "2012-03-02",
   "goal": 500,
   "laun": "2012-02-06 09:38:19",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -37643,7 +37643,7 @@ dataJSON = [{
   "dl": "2017-05-13",
   "goal": 2800,
   "laun": "2017-04-28 23:14:05",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -37655,7 +37655,7 @@ dataJSON = [{
   "dl": "2014-05-23",
   "goal": 3000,
   "laun": "2014-04-08 00:30:09",
-  "pled": 3102,
+  "pledged": 3102,
   "state": "undefined",
   "backers": 0,
   "country": "N,0"
@@ -37667,7 +37667,7 @@ dataJSON = [{
   "dl": "2011-12-11",
   "goal": 2500,
   "laun": "2011-11-17 15:30:58",
-  "pled": 50,
+  "pledged": 50,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -37679,7 +37679,7 @@ dataJSON = [{
   "dl": "2015-07-18",
   "goal": 60000,
   "laun": "2015-05-19 02:46:05",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -37691,7 +37691,7 @@ dataJSON = [{
   "dl": "2016-12-12",
   "goal": 9000,
   "laun": "2016-11-09 21:45:25",
-  "pled": 3406,
+  "pledged": 3406,
   "state": "canceled",
   "backers": 56,
   "country": "US"
@@ -37703,7 +37703,7 @@ dataJSON = [{
   "dl": "2013-06-05",
   "goal": 8000,
   "laun": "2013-05-06 12:52:24",
-  "pled": 188,
+  "pledged": 188,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -37715,7 +37715,7 @@ dataJSON = [{
   "dl": "2012-06-16",
   "goal": 6310,
   "laun": "2012-05-17 17:28:20",
-  "pled": 3130,
+  "pledged": 3130,
   "state": "failed",
   "backers": 97,
   "country": "US"
@@ -37727,7 +37727,7 @@ dataJSON = [{
   "dl": "2013-02-10",
   "goal": 20000,
   "laun": "2013-01-11 02:02:22",
-  "pled": 440,
+  "pledged": 440,
   "state": "failed",
   "backers": 9,
   "country": "US"
@@ -37739,7 +37739,7 @@ dataJSON = [{
   "dl": "2015-11-24",
   "goal": 50000,
   "laun": "2015-10-15 02:15:22",
-  "pled": 1434,
+  "pledged": 1434,
   "state": "canceled",
   "backers": 12,
   "country": "US"
@@ -37751,7 +37751,7 @@ dataJSON = [{
   "dl": "2013-01-18",
   "goal": 7500,
   "laun": "2013-01-10 23:49:54",
-  "pled": 710,
+  "pledged": 710,
   "state": "failed",
   "backers": 21,
   "country": "US"
@@ -37763,7 +37763,7 @@ dataJSON = [{
   "dl": "2013-04-20",
   "goal": 2200,
   "laun": "2013-03-06 15:12:31",
-  "pled": 605,
+  "pledged": 605,
   "state": "failed",
   "backers": 17,
   "country": "US"
@@ -37775,7 +37775,7 @@ dataJSON = [{
   "dl": "2013-04-16",
   "goal": 3000,
   "laun": "2013-02-15 19:34:24",
-  "pled": 874.69,
+  "pledged": 874.69,
   "state": "failed",
   "backers": 23,
   "country": "US"
@@ -37787,7 +37787,7 @@ dataJSON = [{
   "dl": "2014-07-09",
   "goal": 2000,
   "laun": "2014-06-09 20:20:46",
-  "pled": 166,
+  "pledged": 166,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -37799,7 +37799,7 @@ dataJSON = [{
   "dl": "2015-08-31",
   "goal": 15000,
   "laun": "2015-08-01 01:31:05",
-  "pled": 51,
+  "pledged": 51,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -37811,7 +37811,7 @@ dataJSON = [{
   "dl": "2013-01-04",
   "goal": 1000,
   "laun": "2012-12-05 00:21:53",
-  "pled": 26,
+  "pledged": 26,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -37823,7 +37823,7 @@ dataJSON = [{
   "dl": "2015-04-01",
   "goal": 5000,
   "laun": "2015-03-02 19:00:26",
-  "pled": 5000,
+  "pledged": 5000,
   "state": "successful",
   "backers": 77,
   "country": "US"
@@ -37835,7 +37835,7 @@ dataJSON = [{
   "dl": "2014-01-08",
   "goal": 20000,
   "laun": "2013-12-09 18:12:11",
-  "pled": 596,
+  "pledged": 596,
   "state": "canceled",
   "backers": 29,
   "country": "CA"
@@ -37847,7 +37847,7 @@ dataJSON = [{
   "dl": "2017-03-30",
   "goal": 2000,
   "laun": "2017-03-10 02:55:18",
-  "pled": 230,
+  "pledged": 230,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -37859,7 +37859,7 @@ dataJSON = [{
   "dl": "2015-01-10",
   "goal": 10000,
   "laun": "2014-11-26 19:53:44",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -37871,7 +37871,7 @@ dataJSON = [{
   "dl": "2015-01-17",
   "goal": 500,
   "laun": "2014-12-18 10:41:24",
-  "pled": 50,
+  "pledged": 50,
   "state": "failed",
   "backers": 1,
   "country": "GB"
@@ -37883,7 +37883,7 @@ dataJSON = [{
   "dl": "2011-06-25",
   "goal": 20000,
   "laun": "2011-04-25 18:50:30",
-  "pled": 1476,
+  "pledged": 1476,
   "state": "canceled",
   "backers": 27,
   "country": "US"
@@ -37895,7 +37895,7 @@ dataJSON = [{
   "dl": "2012-11-28",
   "goal": 19500,
   "laun": "2012-10-27 17:32:06",
-  "pled": 42947.2,
+  "pledged": 42947.2,
   "state": "successful",
   "backers": 412,
   "country": "US"
@@ -37907,7 +37907,7 @@ dataJSON = [{
   "dl": "2014-08-02",
   "goal": 119,
   "laun": "2014-07-18 19:06:47",
-  "pled": 45,
+  "pledged": 45,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -37919,7 +37919,7 @@ dataJSON = [{
   "dl": "2017-10-07",
   "goal": 1500,
   "laun": "2017-09-25 16:38:35",
-  "pled": 6715,
+  "pledged": 6715,
   "state": "successful",
   "backers": 330,
   "country": "US"
@@ -37931,7 +37931,7 @@ dataJSON = [{
   "dl": "2014-05-17",
   "goal": 7500,
   "laun": "2014-04-02 15:00:40",
-  "pled": 9273,
+  "pledged": 9273,
   "state": "successful",
   "backers": 310,
   "country": "US"
@@ -37943,7 +37943,7 @@ dataJSON = [{
   "dl": "2015-03-09",
   "goal": 35000,
   "laun": "2015-02-03 04:15:11",
-  "pled": 36650,
+  "pledged": 36650,
   "state": "successful",
   "backers": 181,
   "country": "US"
@@ -37955,7 +37955,7 @@ dataJSON = [{
   "dl": "2011-11-08",
   "goal": 1000,
   "laun": "2011-10-19 21:58:33",
-  "pled": 35,
+  "pledged": 35,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -37967,7 +37967,7 @@ dataJSON = [{
   "dl": "2015-10-25",
   "goal": 400,
   "laun": "2015-09-25 04:11:49",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "FR"
@@ -37979,7 +37979,7 @@ dataJSON = [{
   "dl": "2017-01-23",
   "goal": 4000,
   "laun": "2016-12-09 20:12:44",
-  "pled": 7326,
+  "pledged": 7326,
   "state": "successful",
   "backers": 217,
   "country": "US"
@@ -37991,7 +37991,7 @@ dataJSON = [{
   "dl": "2014-07-03",
   "goal": 3000,
   "laun": "2014-05-30 12:55:41",
-  "pled": 4064,
+  "pledged": 4064,
   "state": "successful",
   "backers": 81,
   "country": "US"
@@ -38003,7 +38003,7 @@ dataJSON = [{
   "dl": "2014-07-30",
   "goal": 15000,
   "laun": "2014-07-10 19:25:36",
-  "pled": 11,
+  "pledged": 11,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -38015,7 +38015,7 @@ dataJSON = [{
   "dl": "2016-04-03",
   "goal": 1000,
   "laun": "2016-03-04 00:48:29",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -38027,7 +38027,7 @@ dataJSON = [{
   "dl": "2015-03-19",
   "goal": 6500,
   "laun": "2015-02-17 17:38:24",
-  "pled": 6971,
+  "pledged": 6971,
   "state": "successful",
   "backers": 88,
   "country": "US"
@@ -38039,7 +38039,7 @@ dataJSON = [{
   "dl": "2017-12-13",
   "goal": 400,
   "laun": "2017-11-13 18:56:42",
-  "pled": 105,
+  "pledged": 105,
   "state": "failed",
   "backers": 6,
   "country": "GB"
@@ -38051,7 +38051,7 @@ dataJSON = [{
   "dl": "2017-06-12",
   "goal": 25000,
   "laun": "2017-06-05 17:14:53",
-  "pled": 50,
+  "pledged": 50,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -38063,7 +38063,7 @@ dataJSON = [{
   "dl": "2014-11-16",
   "goal": 500,
   "laun": "2014-11-04 15:38:42",
-  "pled": 41,
+  "pledged": 41,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -38075,7 +38075,7 @@ dataJSON = [{
   "dl": "2012-06-10",
   "goal": 50000,
   "laun": "2012-05-01 00:52:22",
-  "pled": 4195,
+  "pledged": 4195,
   "state": "failed",
   "backers": 94,
   "country": "US"
@@ -38087,7 +38087,7 @@ dataJSON = [{
   "dl": "2012-03-24",
   "goal": 2000,
   "laun": "2012-02-23 22:52:33",
-  "pled": 150,
+  "pledged": 150,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -38099,7 +38099,7 @@ dataJSON = [{
   "dl": "2015-01-24",
   "goal": 50000,
   "laun": "2014-11-25 08:42:07",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -38111,7 +38111,7 @@ dataJSON = [{
   "dl": "2015-04-03",
   "goal": 35000,
   "laun": "2015-03-04 03:48:13",
-  "pled": 110,
+  "pledged": 110,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -38123,7 +38123,7 @@ dataJSON = [{
   "dl": "2016-04-17",
   "goal": 1,
   "laun": "2016-03-17 03:57:51",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -38135,7 +38135,7 @@ dataJSON = [{
   "dl": "2011-12-21",
   "goal": 650,
   "laun": "2011-11-06 20:29:41",
-  "pled": 85,
+  "pledged": 85,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -38147,7 +38147,7 @@ dataJSON = [{
   "dl": "2013-07-30",
   "goal": 1000,
   "laun": "2013-06-25 12:24:58",
-  "pled": 1040,
+  "pledged": 1040,
   "state": "successful",
   "backers": 19,
   "country": "GB"
@@ -38159,7 +38159,7 @@ dataJSON = [{
   "dl": "2012-05-21",
   "goal": 10000,
   "laun": "2012-03-22 19:53:05",
-  "pled": 12146.15,
+  "pledged": 12146.15,
   "state": "successful",
   "backers": 68,
   "country": "US"
@@ -38171,7 +38171,7 @@ dataJSON = [{
   "dl": "2011-10-20",
   "goal": 2500,
   "laun": "2011-09-20 04:49:39",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -38183,7 +38183,7 @@ dataJSON = [{
   "dl": "2013-03-05",
   "goal": 2500,
   "laun": "2013-02-05 08:09:32",
-  "pled": 2634,
+  "pledged": 2634,
   "state": "successful",
   "backers": 34,
   "country": "US"
@@ -38195,7 +38195,7 @@ dataJSON = [{
   "dl": "2017-07-25",
   "goal": 250,
   "laun": "2017-07-05 12:43:40",
-  "pled": 76,
+  "pledged": 76,
   "state": "failed",
   "backers": 4,
   "country": "GB"
@@ -38207,7 +38207,7 @@ dataJSON = [{
   "dl": "2013-01-09",
   "goal": 2800,
   "laun": "2012-12-10 21:32:07",
-  "pled": 2820,
+  "pledged": 2820,
   "state": "successful",
   "backers": 3,
   "country": "US"
@@ -38219,7 +38219,7 @@ dataJSON = [{
   "dl": "2016-10-26",
   "goal": 8000,
   "laun": "2016-10-05 04:16:52",
-  "pled": 2280,
+  "pledged": 2280,
   "state": "failed",
   "backers": 29,
   "country": "US"
@@ -38231,7 +38231,7 @@ dataJSON = [{
   "dl": "2015-08-30",
   "goal": 100000,
   "laun": "2015-07-31 16:23:02",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -38243,7 +38243,7 @@ dataJSON = [{
   "dl": "2015-02-13",
   "goal": 500,
   "laun": "2015-01-14 23:16:14",
-  "pled": 120,
+  "pledged": 120,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -38255,7 +38255,7 @@ dataJSON = [{
   "dl": "2017-01-31",
   "goal": 15000,
   "laun": "2016-12-03 16:12:05",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "DE"
@@ -38267,7 +38267,7 @@ dataJSON = [{
   "dl": "2017-03-17",
   "goal": 2000,
   "laun": "2017-02-16 00:24:06",
-  "pled": 40,
+  "pledged": 40,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -38279,7 +38279,7 @@ dataJSON = [{
   "dl": "2012-09-08",
   "goal": 3200,
   "laun": "2012-08-06 19:09:02",
-  "pled": 436,
+  "pledged": 436,
   "state": "failed",
   "backers": 11,
   "country": "US"
@@ -38291,7 +38291,7 @@ dataJSON = [{
   "dl": "2014-10-19",
   "goal": 3000,
   "laun": "2014-09-19 01:36:24",
-  "pled": 3130,
+  "pledged": 3130,
   "state": "successful",
   "backers": 42,
   "country": "CA"
@@ -38303,7 +38303,7 @@ dataJSON = [{
   "dl": "2012-08-12",
   "goal": 25000,
   "laun": "2012-07-13 05:27:29",
-  "pled": 28039.58,
+  "pledged": 28039.58,
   "state": "successful",
   "backers": 578,
   "country": "US"
@@ -38315,7 +38315,7 @@ dataJSON = [{
   "dl": "2017-06-27",
   "goal": 1500,
   "laun": "2017-05-18 00:59:24",
-  "pled": 7711,
+  "pledged": 7711,
   "state": "successful",
   "backers": 303,
   "country": "CA"
@@ -38327,7 +38327,7 @@ dataJSON = [{
   "dl": "2014-01-25",
   "goal": 1000,
   "laun": "2014-01-01 22:56:18",
-  "pled": 1,
+  "pledged": 1,
   "state": "canceled",
   "backers": 1,
   "country": "GB"
@@ -38339,7 +38339,7 @@ dataJSON = [{
   "dl": "2014-07-20",
   "goal": 25000,
   "laun": "2014-05-21 02:00:59",
-  "pled": 9,
+  "pledged": 9,
   "state": "canceled",
   "backers": 5,
   "country": "GB"
@@ -38351,7 +38351,7 @@ dataJSON = [{
   "dl": "2017-04-14",
   "goal": 10000,
   "laun": "2017-02-13 21:00:31",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -38363,7 +38363,7 @@ dataJSON = [{
   "dl": "2015-04-12",
   "goal": 2500,
   "laun": "2015-03-04 02:10:31",
-  "pled": 841,
+  "pledged": 841,
   "state": "failed",
   "backers": 28,
   "country": "US"
@@ -38375,7 +38375,7 @@ dataJSON = [{
   "dl": "2017-11-27",
   "goal": 6000,
   "laun": "2017-10-23 10:41:05",
-  "pled": 2339,
+  "pledged": 2339,
   "state": "failed",
   "backers": 44,
   "country": "GB"
@@ -38387,7 +38387,7 @@ dataJSON = [{
   "dl": "2013-12-10",
   "goal": 10000,
   "laun": "2013-11-05 09:59:28",
-  "pled": 571,
+  "pledged": 571,
   "state": "failed",
   "backers": 22,
   "country": "GB"
@@ -38399,7 +38399,7 @@ dataJSON = [{
   "dl": "2015-08-01",
   "goal": 1000,
   "laun": "2015-07-02 03:03:56",
-  "pled": 2380,
+  "pledged": 2380,
   "state": "successful",
   "backers": 68,
   "country": "AU"
@@ -38411,7 +38411,7 @@ dataJSON = [{
   "dl": "2015-12-22",
   "goal": 300,
   "laun": "2015-10-23 00:43:43",
-  "pled": 440,
+  "pledged": 440,
   "state": "successful",
   "backers": 12,
   "country": "US"
@@ -38423,7 +38423,7 @@ dataJSON = [{
   "dl": "2009-12-28",
   "goal": 3500,
   "laun": "2009-10-29 23:41:49",
-  "pled": 65,
+  "pledged": 65,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -38435,7 +38435,7 @@ dataJSON = [{
   "dl": "2017-04-24",
   "goal": 250,
   "laun": "2017-03-25 03:48:53",
-  "pled": 664,
+  "pledged": 664,
   "state": "successful",
   "backers": 22,
   "country": "US"
@@ -38447,7 +38447,7 @@ dataJSON = [{
   "dl": "2015-08-15",
   "goal": 1300,
   "laun": "2015-07-31 01:48:28",
-  "pled": 1362,
+  "pledged": 1362,
   "state": "successful",
   "backers": 31,
   "country": "US"
@@ -38459,7 +38459,7 @@ dataJSON = [{
   "dl": "2015-03-23",
   "goal": 4536,
   "laun": "2015-02-06 18:27:05",
-  "pled": 605,
+  "pledged": 605,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -38471,7 +38471,7 @@ dataJSON = [{
   "dl": "2013-03-18",
   "goal": 1100,
   "laun": "2013-02-16 02:20:43",
-  "pled": 2112,
+  "pledged": 2112,
   "state": "successful",
   "backers": 61,
   "country": "US"
@@ -38483,7 +38483,7 @@ dataJSON = [{
   "dl": "2017-01-19",
   "goal": 1500,
   "laun": "2016-12-29 18:46:39",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -38495,7 +38495,7 @@ dataJSON = [{
   "dl": "2015-06-21",
   "goal": 8000,
   "laun": "2015-05-22 21:28:55",
-  "pled": 8345,
+  "pledged": 8345,
   "state": "successful",
   "backers": 49,
   "country": "US"
@@ -38507,7 +38507,7 @@ dataJSON = [{
   "dl": "2015-07-19",
   "goal": 48700,
   "laun": "2015-06-19 06:08:29",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -38519,7 +38519,7 @@ dataJSON = [{
   "dl": "2011-12-13",
   "goal": 3500,
   "laun": "2011-11-13 04:02:04",
-  "pled": 3852,
+  "pledged": 3852,
   "state": "successful",
   "backers": 65,
   "country": "US"
@@ -38531,7 +38531,7 @@ dataJSON = [{
   "dl": "2017-04-27",
   "goal": 7500,
   "laun": "2017-03-28 17:35:52",
-  "pled": 53622,
+  "pledged": 53622,
   "state": "successful",
   "backers": 1065,
   "country": "US"
@@ -38543,7 +38543,7 @@ dataJSON = [{
   "dl": "2015-03-25",
   "goal": 500,
   "laun": "2015-02-23 14:29:40",
-  "pled": 40,
+  "pledged": 40,
   "state": "failed",
   "backers": 2,
   "country": "NL"
@@ -38555,7 +38555,7 @@ dataJSON = [{
   "dl": "2011-05-20",
   "goal": 1100,
   "laun": "2011-04-20 15:32:09",
-  "pled": 1100,
+  "pledged": 1100,
   "state": "successful",
   "backers": 18,
   "country": "US"
@@ -38567,7 +38567,7 @@ dataJSON = [{
   "dl": "2016-07-21",
   "goal": 15000,
   "laun": "2016-06-21 18:20:57",
-  "pled": 239,
+  "pledged": 239,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -38579,7 +38579,7 @@ dataJSON = [{
   "dl": "2012-10-18",
   "goal": 13500,
   "laun": "2012-09-18 15:48:04",
-  "pled": 2829,
+  "pledged": 2829,
   "state": "failed",
   "backers": 36,
   "country": "US"
@@ -38591,7 +38591,7 @@ dataJSON = [{
   "dl": "2015-05-28",
   "goal": 640,
   "laun": "2015-04-28 07:18:27",
-  "pled": 159,
+  "pledged": 159,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -38603,7 +38603,7 @@ dataJSON = [{
   "dl": "2017-08-30",
   "goal": 15000,
   "laun": "2017-07-12 17:57:01",
-  "pled": 94964,
+  "pledged": 94964,
   "state": "successful",
   "backers": 487,
   "country": "US"
@@ -38615,7 +38615,7 @@ dataJSON = [{
   "dl": "2015-09-30",
   "goal": 500,
   "laun": "2015-08-31 16:29:25",
-  "pled": 629,
+  "pledged": 629,
   "state": "successful",
   "backers": 59,
   "country": "GB"
@@ -38627,7 +38627,7 @@ dataJSON = [{
   "dl": "2015-08-04",
   "goal": 2000,
   "laun": "2015-07-20 23:23:28",
-  "pled": 2003,
+  "pledged": 2003,
   "state": "successful",
   "backers": 28,
   "country": "US"
@@ -38639,7 +38639,7 @@ dataJSON = [{
   "dl": "2013-11-25",
   "goal": 35000,
   "laun": "2013-10-25 00:59:41",
-  "pled": 2231,
+  "pledged": 2231,
   "state": "failed",
   "backers": 48,
   "country": "US"
@@ -38651,7 +38651,7 @@ dataJSON = [{
   "dl": "2017-01-24",
   "goal": 30000,
   "laun": "2016-11-25 03:58:28",
-  "pled": 571,
+  "pledged": 571,
   "state": "failed",
   "backers": 17,
   "country": "US"
@@ -38663,7 +38663,7 @@ dataJSON = [{
   "dl": "2017-03-19",
   "goal": 800,
   "laun": "2017-02-18 00:40:30",
-  "pled": 81,
+  "pledged": 81,
   "state": "failed",
   "backers": 9,
   "country": "US"
@@ -38675,7 +38675,7 @@ dataJSON = [{
   "dl": "2015-11-15",
   "goal": 45000,
   "laun": "2015-09-16 16:02:51",
-  "pled": 50182.5,
+  "pledged": 50182.5,
   "state": "successful",
   "backers": 636,
   "country": "US"
@@ -38687,7 +38687,7 @@ dataJSON = [{
   "dl": "2017-06-08",
   "goal": 2089000,
   "laun": "2017-05-09 17:11:29",
-  "pled": 71,
+  "pledged": 71,
   "state": "failed",
   "backers": 3,
   "country": "GB"
@@ -38699,7 +38699,7 @@ dataJSON = [{
   "dl": "2015-01-23",
   "goal": 1500,
   "laun": "2014-12-12 03:58:03",
-  "pled": 212,
+  "pledged": 212,
   "state": "failed",
   "backers": 10,
   "country": "US"
@@ -38711,7 +38711,7 @@ dataJSON = [{
   "dl": "2016-07-04",
   "goal": 4000,
   "laun": "2016-06-04 10:28:36",
-  "pled": 124,
+  "pledged": 124,
   "state": "failed",
   "backers": 7,
   "country": "CA"
@@ -38723,7 +38723,7 @@ dataJSON = [{
   "dl": "2016-07-11",
   "goal": 200000,
   "laun": "2016-05-12 05:19:37",
-  "pled": 1,
+  "pledged": 1,
   "state": "canceled",
   "backers": 1,
   "country": "US"
@@ -38735,7 +38735,7 @@ dataJSON = [{
   "dl": "2013-12-22",
   "goal": 10000,
   "laun": "2013-11-25 23:32:42",
-  "pled": 12467,
+  "pledged": 12467,
   "state": "successful",
   "backers": 165,
   "country": "US"
@@ -38747,7 +38747,7 @@ dataJSON = [{
   "dl": "2014-04-24",
   "goal": 15000,
   "laun": "2014-03-25 14:57:45",
-  "pled": 19465,
+  "pledged": 19465,
   "state": "successful",
   "backers": 70,
   "country": "US"
@@ -38759,7 +38759,7 @@ dataJSON = [{
   "dl": "2013-12-28",
   "goal": 12000,
   "laun": "2013-10-28 23:15:08",
-  "pled": 6599,
+  "pledged": 6599,
   "state": "failed",
   "backers": 172,
   "country": "US"
@@ -38771,7 +38771,7 @@ dataJSON = [{
   "dl": "2014-10-23",
   "goal": 5900,
   "laun": "2014-09-23 23:53:09",
-  "pled": 6870,
+  "pledged": 6870,
   "state": "successful",
   "backers": 122,
   "country": "US"
@@ -38783,7 +38783,7 @@ dataJSON = [{
   "dl": "2014-04-30",
   "goal": 500,
   "laun": "2014-03-31 18:48:32",
-  "pled": 561,
+  "pledged": 561,
   "state": "successful",
   "backers": 15,
   "country": "US"
@@ -38795,7 +38795,7 @@ dataJSON = [{
   "dl": "2014-03-06",
   "goal": 20000,
   "laun": "2014-02-04 20:59:00",
-  "pled": 20284,
+  "pledged": 20284,
   "state": "successful",
   "backers": 222,
   "country": "US"
@@ -38807,7 +38807,7 @@ dataJSON = [{
   "dl": "2014-11-13",
   "goal": 15000,
   "laun": "2014-10-15 22:37:54",
-  "pled": 17169,
+  "pledged": 17169,
   "state": "successful",
   "backers": 297,
   "country": "US"
@@ -38819,7 +38819,7 @@ dataJSON = [{
   "dl": "2015-02-26",
   "goal": 10000,
   "laun": "2014-12-31 16:43:12",
-  "pled": 170,
+  "pledged": 170,
   "state": "canceled",
   "backers": 3,
   "country": "US"
@@ -38831,7 +38831,7 @@ dataJSON = [{
   "dl": "2016-06-26",
   "goal": 4500,
   "laun": "2016-05-27 19:18:41",
-  "pled": 265,
+  "pledged": 265,
   "state": "failed",
   "backers": 7,
   "country": "US"
@@ -38843,7 +38843,7 @@ dataJSON = [{
   "dl": "2013-05-02",
   "goal": 800,
   "laun": "2013-04-02 15:08:22",
-  "pled": 18,
+  "pledged": 18,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -38855,7 +38855,7 @@ dataJSON = [{
   "dl": "2015-04-02",
   "goal": 500,
   "laun": "2015-03-03 23:00:28",
-  "pled": 500,
+  "pledged": 500,
   "state": "successful",
   "backers": 9,
   "country": "GB"
@@ -38867,7 +38867,7 @@ dataJSON = [{
   "dl": "2016-07-20",
   "goal": 15200,
   "laun": "2016-06-20 23:27:23",
-  "pled": 25,
+  "pledged": 25,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -38879,7 +38879,7 @@ dataJSON = [{
   "dl": "2017-11-28",
   "goal": 3000,
   "laun": "2017-09-29 15:17:07",
-  "pled": 11,
+  "pledged": 11,
   "state": "failed",
   "backers": 2,
   "country": "GB"
@@ -38891,7 +38891,7 @@ dataJSON = [{
   "dl": "2012-07-17",
   "goal": 100000,
   "laun": "2012-05-18 23:55:09",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -38903,7 +38903,7 @@ dataJSON = [{
   "dl": "2017-12-07",
   "goal": 9600,
   "laun": "2017-11-07 10:03:24",
-  "pled": 1991,
+  "pledged": 1991,
   "state": "failed",
   "backers": 47,
   "country": "ES"
@@ -38915,7 +38915,7 @@ dataJSON = [{
   "dl": "2011-11-08",
   "goal": 1500,
   "laun": "2011-10-05 04:30:13",
-  "pled": 2140,
+  "pledged": 2140,
   "state": "successful",
   "backers": 61,
   "country": "US"
@@ -38927,7 +38927,7 @@ dataJSON = [{
   "dl": "2014-01-17",
   "goal": 50000,
   "laun": "2013-12-18 18:26:51",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "AU"
@@ -38939,7 +38939,7 @@ dataJSON = [{
   "dl": "2017-10-01",
   "goal": 500,
   "laun": "2017-09-01 11:12:24",
-  "pled": 925,
+  "pledged": 925,
   "state": "successful",
   "backers": 38,
   "country": "GB"
@@ -38951,7 +38951,7 @@ dataJSON = [{
   "dl": "2013-11-22",
   "goal": 200000,
   "laun": "2013-10-21 17:00:58",
-  "pled": 30890,
+  "pledged": 30890,
   "state": "failed",
   "backers": 47,
   "country": "CA"
@@ -38963,7 +38963,7 @@ dataJSON = [{
   "dl": "2012-10-31",
   "goal": 1800,
   "laun": "2012-09-26 20:57:13",
-  "pled": 228,
+  "pledged": 228,
   "state": "failed",
   "backers": 7,
   "country": "US"
@@ -38975,7 +38975,7 @@ dataJSON = [{
   "dl": "2011-05-07",
   "goal": 100000,
   "laun": "2011-04-07 05:02:03",
-  "pled": 922,
+  "pledged": 922,
   "state": "failed",
   "backers": 15,
   "country": "US"
@@ -38987,7 +38987,7 @@ dataJSON = [{
   "dl": "2016-01-03",
   "goal": 10000,
   "laun": "2015-12-04 11:08:15",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "GB"
@@ -38999,7 +38999,7 @@ dataJSON = [{
   "dl": "2017-03-28",
   "goal": 25000,
   "laun": "2017-02-26 07:51:19",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -39011,7 +39011,7 @@ dataJSON = [{
   "dl": "2017-08-08",
   "goal": 200,
   "laun": "2017-06-29 06:36:17",
-  "pled": 310,
+  "pledged": 310,
   "state": "successful",
   "backers": 14,
   "country": "US"
@@ -39023,7 +39023,7 @@ dataJSON = [{
   "dl": "2017-07-01",
   "goal": 1000,
   "laun": "2017-06-01 21:14:05",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -39035,7 +39035,7 @@ dataJSON = [{
   "dl": "2011-10-31",
   "goal": 6000,
   "laun": "2011-10-01 04:28:25",
-  "pled": 30,
+  "pledged": 30,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -39047,7 +39047,7 @@ dataJSON = [{
   "dl": "2013-09-15",
   "goal": 1300,
   "laun": "2013-08-21 21:59:27",
-  "pled": 1350,
+  "pledged": 1350,
   "state": "successful",
   "backers": 23,
   "country": "US"
@@ -39059,7 +39059,7 @@ dataJSON = [{
   "dl": "2017-09-16",
   "goal": 2000,
   "laun": "2017-08-07 07:06:26",
-  "pled": 3045,
+  "pledged": 3045,
   "state": "successful",
   "backers": 68,
   "country": "US"
@@ -39071,7 +39071,7 @@ dataJSON = [{
   "dl": "2017-02-28",
   "goal": 3500,
   "laun": "2017-01-15 13:43:39",
-  "pled": 400,
+  "pledged": 400,
   "state": "failed",
   "backers": 5,
   "country": "GB"
@@ -39083,7 +39083,7 @@ dataJSON = [{
   "dl": "2015-08-25",
   "goal": 20000,
   "laun": "2015-06-26 02:19:58",
-  "pled": 2329,
+  "pledged": 2329,
   "state": "failed",
   "backers": 10,
   "country": "US"
@@ -39095,7 +39095,7 @@ dataJSON = [{
   "dl": "2015-07-14",
   "goal": 30000,
   "laun": "2015-05-15 21:40:02",
-  "pled": 5,
+  "pledged": 5,
   "state": "suspended",
   "backers": 1,
   "country": "CA"
@@ -39107,7 +39107,7 @@ dataJSON = [{
   "dl": "2017-10-18",
   "goal": 35000,
   "laun": "2017-09-15 06:37:10",
-  "pled": 54,
+  "pledged": 54,
   "state": "failed",
   "backers": 5,
   "country": "IT"
@@ -39119,7 +39119,7 @@ dataJSON = [{
   "dl": "2016-11-02",
   "goal": 10000,
   "laun": "2016-09-28 05:12:31",
-  "pled": 10025,
+  "pledged": 10025,
   "state": "successful",
   "backers": 18,
   "country": "US"
@@ -39131,7 +39131,7 @@ dataJSON = [{
   "dl": "2016-07-29",
   "goal": 80000,
   "laun": "2016-06-28 04:00:08",
-  "pled": 670,
+  "pledged": 670,
   "state": "canceled",
   "backers": 5,
   "country": "US"
@@ -39143,7 +39143,7 @@ dataJSON = [{
   "dl": "2015-02-24",
   "goal": 1000,
   "laun": "2015-01-25 23:37:36",
-  "pled": 1053,
+  "pledged": 1053,
   "state": "successful",
   "backers": 15,
   "country": "US"
@@ -39155,7 +39155,7 @@ dataJSON = [{
   "dl": "2015-10-13",
   "goal": 100000,
   "laun": "2015-08-14 10:28:26",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "FR"
@@ -39167,7 +39167,7 @@ dataJSON = [{
   "dl": "2018-01-13",
   "goal": 1500,
   "laun": "2017-11-14 00:13:10",
-  "pled": 1080,
+  "pledged": 1080,
   "state": "live",
   "backers": 20,
   "country": "US"
@@ -39179,7 +39179,7 @@ dataJSON = [{
   "dl": "2015-03-20",
   "goal": 1,
   "laun": "2015-02-18 20:38:44",
-  "pled": 1,
+  "pledged": 1,
   "state": "successful",
   "backers": 1,
   "country": "US"
@@ -39191,7 +39191,7 @@ dataJSON = [{
   "dl": "2015-06-22",
   "goal": 3000,
   "laun": "2015-05-30 20:17:21",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -39203,7 +39203,7 @@ dataJSON = [{
   "dl": "2016-01-28",
   "goal": 2000,
   "laun": "2015-12-29 22:22:34",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -39215,7 +39215,7 @@ dataJSON = [{
   "dl": "2011-11-26",
   "goal": 900,
   "laun": "2011-10-27 01:53:42",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -39227,7 +39227,7 @@ dataJSON = [{
   "dl": "2016-02-05",
   "goal": 5000,
   "laun": "2016-01-06 21:59:23",
-  "pled": 235,
+  "pledged": 235,
   "state": "undefined",
   "backers": 0,
   "country": "N,0"
@@ -39239,7 +39239,7 @@ dataJSON = [{
   "dl": "2011-01-17",
   "goal": 8500,
   "laun": "2010-12-02 23:29:54",
-  "pled": 8820,
+  "pledged": 8820,
   "state": "successful",
   "backers": 81,
   "country": "US"
@@ -39251,7 +39251,7 @@ dataJSON = [{
   "dl": "2017-02-08",
   "goal": 6000,
   "laun": "2017-01-09 18:18:16",
-  "pled": 6798,
+  "pledged": 6798,
   "state": "successful",
   "backers": 66,
   "country": "US"
@@ -39263,7 +39263,7 @@ dataJSON = [{
   "dl": "2015-07-01",
   "goal": 30000,
   "laun": "2015-06-04 17:42:58",
-  "pled": 110319,
+  "pledged": 110319,
   "state": "successful",
   "backers": 2314,
   "country": "US"
@@ -39275,7 +39275,7 @@ dataJSON = [{
   "dl": "2017-06-24",
   "goal": 5000,
   "laun": "2017-05-25 05:05:56",
-  "pled": 266,
+  "pledged": 266,
   "state": "failed",
   "backers": 7,
   "country": "US"
@@ -39287,7 +39287,7 @@ dataJSON = [{
   "dl": "2015-03-01",
   "goal": 10000,
   "laun": "2015-02-04 05:35:00",
-  "pled": 10378,
+  "pledged": 10378,
   "state": "successful",
   "backers": 149,
   "country": "US"
@@ -39299,7 +39299,7 @@ dataJSON = [{
   "dl": "2014-04-20",
   "goal": 15000,
   "laun": "2014-03-22 02:34:06",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -39311,7 +39311,7 @@ dataJSON = [{
   "dl": "2015-12-09",
   "goal": 4000,
   "laun": "2015-11-09 13:55:03",
-  "pled": 4415,
+  "pledged": 4415,
   "state": "successful",
   "backers": 54,
   "country": "US"
@@ -39323,7 +39323,7 @@ dataJSON = [{
   "dl": "2014-08-15",
   "goal": 10000,
   "laun": "2014-07-16 15:25:38",
-  "pled": 1682,
+  "pledged": 1682,
   "state": "failed",
   "backers": 16,
   "country": "US"
@@ -39335,7 +39335,7 @@ dataJSON = [{
   "dl": "2016-04-26",
   "goal": 400,
   "laun": "2016-04-14 03:54:18",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -39347,7 +39347,7 @@ dataJSON = [{
   "dl": "2016-01-10",
   "goal": 1000,
   "laun": "2015-12-11 08:33:30",
-  "pled": 2,
+  "pledged": 2,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -39359,7 +39359,7 @@ dataJSON = [{
   "dl": "2015-11-03",
   "goal": 6000,
   "laun": "2015-10-02 21:53:14",
-  "pled": 10064.87,
+  "pledged": 10064.87,
   "state": "successful",
   "backers": 101,
   "country": "US"
@@ -39371,7 +39371,7 @@ dataJSON = [{
   "dl": "2015-06-11",
   "goal": 8000,
   "laun": "2015-04-27 22:12:58",
-  "pled": 842,
+  "pledged": 842,
   "state": "canceled",
   "backers": 9,
   "country": "US"
@@ -39383,7 +39383,7 @@ dataJSON = [{
   "dl": "2016-07-11",
   "goal": 100000,
   "laun": "2016-06-20 10:10:29",
-  "pled": 2,
+  "pledged": 2,
   "state": "failed",
   "backers": 2,
   "country": "IT"
@@ -39395,7 +39395,7 @@ dataJSON = [{
   "dl": "2016-01-28",
   "goal": 4500,
   "laun": "2015-12-29 10:02:31",
-  "pled": 39,
+  "pledged": 39,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -39407,7 +39407,7 @@ dataJSON = [{
   "dl": "2010-12-04",
   "goal": 575,
   "laun": "2010-11-09 01:48:12",
-  "pled": 1070,
+  "pledged": 1070,
   "state": "successful",
   "backers": 19,
   "country": "US"
@@ -39419,7 +39419,7 @@ dataJSON = [{
   "dl": "2012-12-13",
   "goal": 20000,
   "laun": "2012-11-12 08:23:18",
-  "pled": 5216.14,
+  "pledged": 5216.14,
   "state": "failed",
   "backers": 121,
   "country": "US"
@@ -39431,7 +39431,7 @@ dataJSON = [{
   "dl": "2011-06-30",
   "goal": 3500,
   "laun": "2011-05-29 21:09:51",
-  "pled": 3827,
+  "pledged": 3827,
   "state": "successful",
   "backers": 34,
   "country": "US"
@@ -39443,7 +39443,7 @@ dataJSON = [{
   "dl": "2012-05-23",
   "goal": 2500,
   "laun": "2012-04-23 23:43:30",
-  "pled": 25,
+  "pledged": 25,
   "state": "canceled",
   "backers": 1,
   "country": "US"
@@ -39455,7 +39455,7 @@ dataJSON = [{
   "dl": "2015-10-10",
   "goal": 50000,
   "laun": "2015-09-11 00:33:32",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 1,
   "country": "CA"
@@ -39467,7 +39467,7 @@ dataJSON = [{
   "dl": "2013-10-26",
   "goal": 5500,
   "laun": "2013-09-26 17:16:38",
-  "pled": 1125,
+  "pledged": 1125,
   "state": "failed",
   "backers": 20,
   "country": "US"
@@ -39479,7 +39479,7 @@ dataJSON = [{
   "dl": "2014-12-25",
   "goal": 3000,
   "laun": "2014-11-25 13:59:52",
-  "pled": 65,
+  "pledged": 65,
   "state": "failed",
   "backers": 1,
   "country": "GB"
@@ -39491,7 +39491,7 @@ dataJSON = [{
   "dl": "2012-01-07",
   "goal": 2500,
   "laun": "2011-12-21 02:59:09",
-  "pled": 2620,
+  "pledged": 2620,
   "state": "successful",
   "backers": 49,
   "country": "US"
@@ -39503,7 +39503,7 @@ dataJSON = [{
   "dl": "2016-01-15",
   "goal": 1000,
   "laun": "2016-01-05 16:38:10",
-  "pled": 1119,
+  "pledged": 1119,
   "state": "successful",
   "backers": 18,
   "country": "US"
@@ -39515,7 +39515,7 @@ dataJSON = [{
   "dl": "2012-02-10",
   "goal": 1500,
   "laun": "2012-01-31 18:07:19",
-  "pled": 646,
+  "pledged": 646,
   "state": "failed",
   "backers": 12,
   "country": "US"
@@ -39527,7 +39527,7 @@ dataJSON = [{
   "dl": "2012-04-04",
   "goal": 1500,
   "laun": "2012-03-05 17:03:54",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -39539,7 +39539,7 @@ dataJSON = [{
   "dl": "2013-10-03",
   "goal": 12000,
   "laun": "2013-09-03 19:14:10",
-  "pled": 76,
+  "pledged": 76,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -39551,7 +39551,7 @@ dataJSON = [{
   "dl": "2011-05-20",
   "goal": 11000,
   "laun": "2011-04-06 01:44:46",
-  "pled": 100,
+  "pledged": 100,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -39563,7 +39563,7 @@ dataJSON = [{
   "dl": "2016-09-20",
   "goal": 3500,
   "laun": "2016-08-21 05:46:19",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -39575,7 +39575,7 @@ dataJSON = [{
   "dl": "2016-04-22",
   "goal": 10000,
   "laun": "2016-02-22 23:27:24",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -39587,7 +39587,7 @@ dataJSON = [{
   "dl": "2016-06-24",
   "goal": 18500,
   "laun": "2016-05-25 05:34:53",
-  "pled": 19610,
+  "pledged": 19610,
   "state": "successful",
   "backers": 125,
   "country": "US"
@@ -39599,7 +39599,7 @@ dataJSON = [{
   "dl": "2010-08-07",
   "goal": 20000,
   "laun": "2010-06-18 03:21:57",
-  "pled": 23097,
+  "pledged": 23097,
   "state": "successful",
   "backers": 135,
   "country": "US"
@@ -39611,7 +39611,7 @@ dataJSON = [{
   "dl": "2014-01-03",
   "goal": 10000,
   "laun": "2013-11-18 13:09:36",
-  "pled": 16896,
+  "pledged": 16896,
   "state": "successful",
   "backers": 134,
   "country": "US"
@@ -39623,7 +39623,7 @@ dataJSON = [{
   "dl": "2014-06-01",
   "goal": 80,
   "laun": "2014-05-09 22:27:21",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -39635,7 +39635,7 @@ dataJSON = [{
   "dl": "2017-10-06",
   "goal": 35000,
   "laun": "2017-08-07 19:13:15",
-  "pled": 18,
+  "pledged": 18,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -39647,7 +39647,7 @@ dataJSON = [{
   "dl": "2016-08-20",
   "goal": 10000,
   "laun": "2016-07-21 15:59:02",
-  "pled": 10465,
+  "pledged": 10465,
   "state": "successful",
   "backers": 134,
   "country": "US"
@@ -39659,7 +39659,7 @@ dataJSON = [{
   "dl": "2014-11-14",
   "goal": 15000,
   "laun": "2014-10-15 02:59:06",
-  "pled": 19508,
+  "pledged": 19508,
   "state": "successful",
   "backers": 185,
   "country": "US"
@@ -39671,7 +39671,7 @@ dataJSON = [{
   "dl": "2017-10-20",
   "goal": 600,
   "laun": "2017-09-05 01:56:44",
-  "pled": 726,
+  "pledged": 726,
   "state": "successful",
   "backers": 36,
   "country": "GB"
@@ -39683,7 +39683,7 @@ dataJSON = [{
   "dl": "2016-12-06",
   "goal": 666,
   "laun": "2016-11-22 15:52:54",
-  "pled": 1236,
+  "pledged": 1236,
   "state": "successful",
   "backers": 95,
   "country": "US"
@@ -39695,7 +39695,7 @@ dataJSON = [{
   "dl": "2011-03-04",
   "goal": 2500,
   "laun": "2011-01-03 21:07:27",
-  "pled": 220,
+  "pledged": 220,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -39707,7 +39707,7 @@ dataJSON = [{
   "dl": "2016-03-22",
   "goal": 12000,
   "laun": "2016-02-21 11:38:13",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "DE"
@@ -39719,7 +39719,7 @@ dataJSON = [{
   "dl": "2012-06-03",
   "goal": 5500,
   "laun": "2012-05-04 15:20:41",
-  "pled": 7665,
+  "pledged": 7665,
   "state": "successful",
   "backers": 69,
   "country": "US"
@@ -39731,7 +39731,7 @@ dataJSON = [{
   "dl": "2010-08-21",
   "goal": 2000,
   "laun": "2010-06-10 19:59:21",
-  "pled": 2040,
+  "pledged": 2040,
   "state": "successful",
   "backers": 19,
   "country": "US"
@@ -39743,7 +39743,7 @@ dataJSON = [{
   "dl": "2017-01-02",
   "goal": 10000,
   "laun": "2016-12-23 22:10:02",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -39755,7 +39755,7 @@ dataJSON = [{
   "dl": "2010-07-17",
   "goal": 4000,
   "laun": "2010-06-08 00:26:23",
-  "pled": 4289,
+  "pledged": 4289,
   "state": "successful",
   "backers": 109,
   "country": "US"
@@ -39767,7 +39767,7 @@ dataJSON = [{
   "dl": "2014-11-15",
   "goal": 100000,
   "laun": "2014-10-16 04:23:13",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -39779,7 +39779,7 @@ dataJSON = [{
   "dl": "2016-02-25",
   "goal": 135000,
   "laun": "2016-01-11 17:58:56",
-  "pled": 2878,
+  "pledged": 2878,
   "state": "failed",
   "backers": 14,
   "country": "US"
@@ -39791,7 +39791,7 @@ dataJSON = [{
   "dl": "2015-03-07",
   "goal": 10000,
   "laun": "2015-01-06 04:02:56",
-  "pled": 10050,
+  "pledged": 10050,
   "state": "successful",
   "backers": 61,
   "country": "US"
@@ -39803,7 +39803,7 @@ dataJSON = [{
   "dl": "2016-05-22",
   "goal": 3000,
   "laun": "2016-04-22 23:14:11",
-  "pled": 3865,
+  "pledged": 3865,
   "state": "successful",
   "backers": 72,
   "country": "US"
@@ -39815,7 +39815,7 @@ dataJSON = [{
   "dl": "2015-03-21",
   "goal": 14000,
   "laun": "2015-02-19 20:49:10",
-  "pled": 14976,
+  "pledged": 14976,
   "state": "successful",
   "backers": 127,
   "country": "US"
@@ -39827,7 +39827,7 @@ dataJSON = [{
   "dl": "2010-04-30",
   "goal": 3800,
   "laun": "2010-02-26 06:54:47",
-  "pled": 5731,
+  "pledged": 5731,
   "state": "successful",
   "backers": 163,
   "country": "US"
@@ -39839,7 +39839,7 @@ dataJSON = [{
   "dl": "2017-11-09",
   "goal": 7200,
   "laun": "2017-10-10 18:06:22",
-  "pled": 2601,
+  "pledged": 2601,
   "state": "failed",
   "backers": 71,
   "country": "US"
@@ -39851,7 +39851,7 @@ dataJSON = [{
   "dl": "2015-02-28",
   "goal": 50000,
   "laun": "2014-12-31 00:30:49",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -39863,7 +39863,7 @@ dataJSON = [{
   "dl": "2016-12-01",
   "goal": 12000,
   "laun": "2016-11-01 18:15:04",
-  "pled": 12206,
+  "pledged": 12206,
   "state": "successful",
   "backers": 152,
   "country": "US"
@@ -39875,7 +39875,7 @@ dataJSON = [{
   "dl": "2010-06-30",
   "goal": 3800,
   "laun": "2010-05-16 22:54:44",
-  "pled": 500,
+  "pledged": 500,
   "state": "failed",
   "backers": 20,
   "country": "US"
@@ -39887,7 +39887,7 @@ dataJSON = [{
   "dl": "2017-11-10",
   "goal": 1600,
   "laun": "2017-10-11 01:00:01",
-  "pled": 2110,
+  "pledged": 2110,
   "state": "successful",
   "backers": 72,
   "country": "CA"
@@ -39899,7 +39899,7 @@ dataJSON = [{
   "dl": "2016-08-14",
   "goal": 10000,
   "laun": "2016-07-13 01:58:44",
-  "pled": 10588,
+  "pledged": 10588,
   "state": "successful",
   "backers": 181,
   "country": "US"
@@ -39911,7 +39911,7 @@ dataJSON = [{
   "dl": "2013-07-29",
   "goal": 2000,
   "laun": "2013-06-29 02:02:47",
-  "pled": 417,
+  "pledged": 417,
   "state": "failed",
   "backers": 26,
   "country": "US"
@@ -39923,7 +39923,7 @@ dataJSON = [{
   "dl": "2016-02-11",
   "goal": 4800,
   "laun": "2015-12-13 23:51:46",
-  "pled": 35,
+  "pledged": 35,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -39935,7 +39935,7 @@ dataJSON = [{
   "dl": "2012-02-11",
   "goal": 10000,
   "laun": "2011-12-13 20:55:02",
-  "pled": 11100,
+  "pledged": 11100,
   "state": "successful",
   "backers": 89,
   "country": "US"
@@ -39947,7 +39947,7 @@ dataJSON = [{
   "dl": "2017-02-24",
   "goal": 1100,
   "laun": "2017-02-08 22:02:49",
-  "pled": 18361,
+  "pledged": 18361,
   "state": "successful",
   "backers": 213,
   "country": "US"
@@ -39959,7 +39959,7 @@ dataJSON = [{
   "dl": "2016-03-06",
   "goal": 1000,
   "laun": "2016-02-05 18:24:36",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -39971,7 +39971,7 @@ dataJSON = [{
   "dl": "2018-01-04",
   "goal": 300000,
   "laun": "2017-11-20 02:52:28",
-  "pled": 0,
+  "pledged": 0,
   "state": "live",
   "backers": 0,
   "country": "MX"
@@ -39983,7 +39983,7 @@ dataJSON = [{
   "dl": "2016-11-17",
   "goal": 30000,
   "laun": "2016-10-18 03:23:45",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -39995,7 +39995,7 @@ dataJSON = [{
   "dl": "2016-07-09",
   "goal": 15000,
   "laun": "2016-06-17 14:19:35",
-  "pled": 35,
+  "pledged": 35,
   "state": "failed",
   "backers": 1,
   "country": "GB"
@@ -40007,7 +40007,7 @@ dataJSON = [{
   "dl": "2014-01-25",
   "goal": 45000,
   "laun": "2013-11-26 19:35:40",
-  "pled": 50,
+  "pledged": 50,
   "state": "canceled",
   "backers": 1,
   "country": "US"
@@ -40019,7 +40019,7 @@ dataJSON = [{
   "dl": "2017-04-30",
   "goal": 6500,
   "laun": "2017-03-22 20:40:24",
-  "pled": 35,
+  "pledged": 35,
   "state": "canceled",
   "backers": 8,
   "country": "IT"
@@ -40031,7 +40031,7 @@ dataJSON = [{
   "dl": "2017-02-14",
   "goal": 1600,
   "laun": "2017-01-30 22:24:49",
-  "pled": 4906,
+  "pledged": 4906,
   "state": "successful",
   "backers": 216,
   "country": "US"
@@ -40043,7 +40043,7 @@ dataJSON = [{
   "dl": "2014-01-03",
   "goal": 15000,
   "laun": "2013-12-04 04:23:15",
-  "pled": 18443,
+  "pledged": 18443,
   "state": "successful",
   "backers": 121,
   "country": "US"
@@ -40055,7 +40055,7 @@ dataJSON = [{
   "dl": "2017-12-16",
   "goal": 19500,
   "laun": "2017-11-01 01:39:15",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "MX"
@@ -40067,7 +40067,7 @@ dataJSON = [{
   "dl": "2017-12-21",
   "goal": 4500,
   "laun": "2017-11-21 04:28:47",
-  "pled": 60,
+  "pledged": 60,
   "state": "canceled",
   "backers": 1,
   "country": "US"
@@ -40079,7 +40079,7 @@ dataJSON = [{
   "dl": "2015-08-07",
   "goal": 1200,
   "laun": "2015-07-08 22:41:49",
-  "pled": 13,
+  "pledged": 13,
   "state": "suspended",
   "backers": 1,
   "country": "US"
@@ -40091,7 +40091,7 @@ dataJSON = [{
   "dl": "2017-10-16",
   "goal": 10000,
   "laun": "2017-09-09 00:42:47",
-  "pled": 5031,
+  "pledged": 5031,
   "state": "failed",
   "backers": 38,
   "country": "GB"
@@ -40103,7 +40103,7 @@ dataJSON = [{
   "dl": "2017-08-10",
   "goal": 14000,
   "laun": "2017-07-06 11:06:49",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "FR"
@@ -40115,7 +40115,7 @@ dataJSON = [{
   "dl": "2015-10-06",
   "goal": 25000,
   "laun": "2015-08-07 21:01:40",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -40127,7 +40127,7 @@ dataJSON = [{
   "dl": "2015-08-15",
   "goal": 15000,
   "laun": "2015-07-22 17:44:54",
-  "pled": 600,
+  "pledged": 600,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -40139,7 +40139,7 @@ dataJSON = [{
   "dl": "2017-09-13",
   "goal": 35000,
   "laun": "2017-08-14 19:19:32",
-  "pled": 15,
+  "pledged": 15,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -40151,7 +40151,7 @@ dataJSON = [{
   "dl": "2017-09-30",
   "goal": 2700,
   "laun": "2017-09-27 22:51:09",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "AU"
@@ -40163,7 +40163,7 @@ dataJSON = [{
   "dl": "2018-01-19",
   "goal": 186037,
   "laun": "2017-12-05 11:11:01",
-  "pled": 1000,
+  "pledged": 1000,
   "state": "live",
   "backers": 9,
   "country": "DK"
@@ -40175,7 +40175,7 @@ dataJSON = [{
   "dl": "2012-06-16",
   "goal": 200,
   "laun": "2012-05-17 22:42:56",
-  "pled": 335.26,
+  "pledged": 335.26,
   "state": "successful",
   "backers": 8,
   "country": "US"
@@ -40187,7 +40187,7 @@ dataJSON = [{
   "dl": "2011-12-12",
   "goal": 5000,
   "laun": "2011-11-28 19:12:53",
-  "pled": 305,
+  "pledged": 305,
   "state": "failed",
   "backers": 10,
   "country": "US"
@@ -40199,7 +40199,7 @@ dataJSON = [{
   "dl": "2017-07-21",
   "goal": 15000,
   "laun": "2017-06-21 10:39:20",
-  "pled": 545,
+  "pledged": 545,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -40211,7 +40211,7 @@ dataJSON = [{
   "dl": "2015-06-19",
   "goal": 2800,
   "laun": "2015-05-20 04:22:54",
-  "pled": 101,
+  "pledged": 101,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -40223,7 +40223,7 @@ dataJSON = [{
   "dl": "2017-01-16",
   "goal": 2500,
   "laun": "2017-01-01 19:50:39",
-  "pled": 6636,
+  "pledged": 6636,
   "state": "successful",
   "backers": 191,
   "country": "US"
@@ -40235,7 +40235,7 @@ dataJSON = [{
   "dl": "2016-06-20",
   "goal": 700,
   "laun": "2016-05-05 17:40:20",
-  "pled": 731,
+  "pledged": 731,
   "state": "successful",
   "backers": 15,
   "country": "US"
@@ -40247,7 +40247,7 @@ dataJSON = [{
   "dl": "2016-02-09",
   "goal": 100000,
   "laun": "2016-01-10 22:21:57",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "DE"
@@ -40259,7 +40259,7 @@ dataJSON = [{
   "dl": "2011-09-20",
   "goal": 5000,
   "laun": "2011-08-21 03:35:56",
-  "pled": 55,
+  "pledged": 55,
   "state": "suspended",
   "backers": 2,
   "country": "US"
@@ -40271,7 +40271,7 @@ dataJSON = [{
   "dl": "2017-01-14",
   "goal": 100000,
   "laun": "2016-11-30 23:20:13",
-  "pled": 120120,
+  "pledged": 120120,
   "state": "successful",
   "backers": 121,
   "country": "MX"
@@ -40283,7 +40283,7 @@ dataJSON = [{
   "dl": "2017-01-19",
   "goal": 25000,
   "laun": "2016-11-20 08:00:35",
-  "pled": 6477,
+  "pledged": 6477,
   "state": "canceled",
   "backers": 124,
   "country": "US"
@@ -40295,7 +40295,7 @@ dataJSON = [{
   "dl": "2013-04-17",
   "goal": 25000,
   "laun": "2013-03-18 19:09:37",
-  "pled": 540,
+  "pledged": 540,
   "state": "canceled",
   "backers": 20,
   "country": "GB"
@@ -40307,7 +40307,7 @@ dataJSON = [{
   "dl": "2012-01-07",
   "goal": 8000,
   "laun": "2011-11-08 05:48:35",
-  "pled": 840,
+  "pledged": 840,
   "state": "failed",
   "backers": 8,
   "country": "US"
@@ -40319,7 +40319,7 @@ dataJSON = [{
   "dl": "2015-12-09",
   "goal": 18000,
   "laun": "2015-11-10 21:28:01",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -40331,7 +40331,7 @@ dataJSON = [{
   "dl": "2016-07-31",
   "goal": 500,
   "laun": "2016-06-28 07:12:59",
-  "pled": 1795,
+  "pledged": 1795,
   "state": "successful",
   "backers": 53,
   "country": "GB"
@@ -40343,7 +40343,7 @@ dataJSON = [{
   "dl": "2015-09-27",
   "goal": 3500,
   "laun": "2015-08-31 17:38:40",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -40355,7 +40355,7 @@ dataJSON = [{
   "dl": "2014-07-01",
   "goal": 3000,
   "laun": "2014-06-09 17:43:35",
-  "pled": 504,
+  "pledged": 504,
   "state": "canceled",
   "backers": 14,
   "country": "US"
@@ -40367,7 +40367,7 @@ dataJSON = [{
   "dl": "2014-03-06",
   "goal": 3500,
   "laun": "2014-02-20 11:16:40",
-  "pled": 1270,
+  "pledged": 1270,
   "state": "failed",
   "backers": 9,
   "country": "GB"
@@ -40379,7 +40379,7 @@ dataJSON = [{
   "dl": "2015-05-07",
   "goal": 50000,
   "laun": "2015-04-07 20:01:13",
-  "pled": 532,
+  "pledged": 532,
   "state": "failed",
   "backers": 8,
   "country": "GB"
@@ -40391,7 +40391,7 @@ dataJSON = [{
   "dl": "2012-11-07",
   "goal": 8000,
   "laun": "2012-10-08 16:23:28",
-  "pled": 8376,
+  "pledged": 8376,
   "state": "successful",
   "backers": 39,
   "country": "US"
@@ -40403,7 +40403,7 @@ dataJSON = [{
   "dl": "2015-11-16",
   "goal": 9700,
   "laun": "2015-10-11 23:29:07",
-  "pled": 1375,
+  "pledged": 1375,
   "state": "failed",
   "backers": 16,
   "country": "US"
@@ -40415,7 +40415,7 @@ dataJSON = [{
   "dl": "2012-12-24",
   "goal": 2306,
   "laun": "2012-11-24 10:04:02",
-  "pled": 815,
+  "pledged": 815,
   "state": "failed",
   "backers": 19,
   "country": "US"
@@ -40427,7 +40427,7 @@ dataJSON = [{
   "dl": "2016-02-09",
   "goal": 5000,
   "laun": "2015-12-11 01:55:42",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -40439,7 +40439,7 @@ dataJSON = [{
   "dl": "2015-03-11",
   "goal": 150,
   "laun": "2015-02-25 20:41:21",
-  "pled": 235,
+  "pledged": 235,
   "state": "successful",
   "backers": 10,
   "country": "US"
@@ -40451,7 +40451,7 @@ dataJSON = [{
   "dl": "2017-09-01",
   "goal": 4750,
   "laun": "2017-07-29 00:52:48",
-  "pled": 5058,
+  "pledged": 5058,
   "state": "successful",
   "backers": 143,
   "country": "US"
@@ -40463,7 +40463,7 @@ dataJSON = [{
   "dl": "2014-09-13",
   "goal": 35000,
   "laun": "2014-07-15 16:42:45",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -40475,7 +40475,7 @@ dataJSON = [{
   "dl": "2014-08-10",
   "goal": 900000,
   "laun": "2014-07-04 06:17:30",
-  "pled": 80,
+  "pledged": 80,
   "state": "canceled",
   "backers": 1,
   "country": "US"
@@ -40487,7 +40487,7 @@ dataJSON = [{
   "dl": "2015-03-17",
   "goal": 15,
   "laun": "2015-02-25 07:22:48",
-  "pled": 66,
+  "pledged": 66,
   "state": "successful",
   "backers": 4,
   "country": "US"
@@ -40499,7 +40499,7 @@ dataJSON = [{
   "dl": "2017-09-08",
   "goal": 5000,
   "laun": "2017-07-25 16:32:20",
-  "pled": 252311,
+  "pledged": 252311,
   "state": "successful",
   "backers": 839,
   "country": "US"
@@ -40511,7 +40511,7 @@ dataJSON = [{
   "dl": "2011-03-21",
   "goal": 8000,
   "laun": "2011-02-09 20:11:50",
-  "pled": 8940,
+  "pledged": 8940,
   "state": "successful",
   "backers": 74,
   "country": "US"
@@ -40523,7 +40523,7 @@ dataJSON = [{
   "dl": "2011-08-24",
   "goal": 6200,
   "laun": "2011-07-25 03:21:07",
-  "pled": 6747,
+  "pledged": 6747,
   "state": "successful",
   "backers": 92,
   "country": "US"
@@ -40535,7 +40535,7 @@ dataJSON = [{
   "dl": "2014-11-27",
   "goal": 250,
   "laun": "2014-11-07 15:04:43",
-  "pled": 105,
+  "pledged": 105,
   "state": "failed",
   "backers": 13,
   "country": "GB"
@@ -40547,7 +40547,7 @@ dataJSON = [{
   "dl": "2017-09-14",
   "goal": 500,
   "laun": "2017-08-25 20:55:06",
-  "pled": 311,
+  "pledged": 311,
   "state": "failed",
   "backers": 16,
   "country": "CA"
@@ -40559,7 +40559,7 @@ dataJSON = [{
   "dl": "2013-04-22",
   "goal": 9500,
   "laun": "2013-04-06 01:59:13",
-  "pled": 11260,
+  "pledged": 11260,
   "state": "successful",
   "backers": 37,
   "country": "US"
@@ -40571,7 +40571,7 @@ dataJSON = [{
   "dl": "2013-06-02",
   "goal": 50000,
   "laun": "2013-05-01 05:41:04",
-  "pled": 58355.5,
+  "pledged": 58355.5,
   "state": "successful",
   "backers": 709,
   "country": "US"
@@ -40583,7 +40583,7 @@ dataJSON = [{
   "dl": "2011-09-01",
   "goal": 8000,
   "laun": "2011-07-18 05:48:52",
-  "pled": 766,
+  "pledged": 766,
   "state": "failed",
   "backers": 16,
   "country": "US"
@@ -40595,7 +40595,7 @@ dataJSON = [{
   "dl": "2014-05-16",
   "goal": 65000,
   "laun": "2014-04-16 17:45:46",
-  "pled": 791,
+  "pledged": 791,
   "state": "failed",
   "backers": 7,
   "country": "US"
@@ -40607,7 +40607,7 @@ dataJSON = [{
   "dl": "2013-03-21",
   "goal": 33000,
   "laun": "2013-02-19 20:54:32",
-  "pled": 7629,
+  "pledged": 7629,
   "state": "failed",
   "backers": 46,
   "country": "US"
@@ -40619,7 +40619,7 @@ dataJSON = [{
   "dl": "2014-05-31",
   "goal": 50000,
   "laun": "2014-04-16 03:01:39",
-  "pled": 1541,
+  "pledged": 1541,
   "state": "failed",
   "backers": 24,
   "country": "US"
@@ -40631,7 +40631,7 @@ dataJSON = [{
   "dl": "2017-12-05",
   "goal": 25000,
   "laun": "2017-11-05 14:45:59",
-  "pled": 10270,
+  "pledged": 10270,
   "state": "failed",
   "backers": 134,
   "country": "NL"
@@ -40643,7 +40643,7 @@ dataJSON = [{
   "dl": "2011-02-02",
   "goal": 2000,
   "laun": "2010-11-04 21:56:08",
-  "pled": 78,
+  "pledged": 78,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -40655,7 +40655,7 @@ dataJSON = [{
   "dl": "2014-09-16",
   "goal": 20000,
   "laun": "2014-08-01 09:36:36",
-  "pled": 20425,
+  "pledged": 20425,
   "state": "successful",
   "backers": 353,
   "country": "US"
@@ -40667,7 +40667,7 @@ dataJSON = [{
   "dl": "2016-12-30",
   "goal": 7500,
   "laun": "2016-11-30 23:16:50",
-  "pled": 118,
+  "pledged": 118,
   "state": "failed",
   "backers": 5,
   "country": "CA"
@@ -40679,7 +40679,7 @@ dataJSON = [{
   "dl": "2015-04-14",
   "goal": 8000,
   "laun": "2015-02-13 22:48:15",
-  "pled": 8640,
+  "pledged": 8640,
   "state": "successful",
   "backers": 25,
   "country": "NO"
@@ -40691,7 +40691,7 @@ dataJSON = [{
   "dl": "2014-10-03",
   "goal": 16000,
   "laun": "2014-08-29 23:52:12",
-  "pled": 16750,
+  "pledged": 16750,
   "state": "successful",
   "backers": 136,
   "country": "US"
@@ -40703,7 +40703,7 @@ dataJSON = [{
   "dl": "2017-12-27",
   "goal": 510,
   "laun": "2017-11-27 20:38:03",
-  "pled": 144,
+  "pledged": 144,
   "state": "canceled",
   "backers": 9,
   "country": "SG"
@@ -40715,7 +40715,7 @@ dataJSON = [{
   "dl": "2017-08-13",
   "goal": 2000,
   "laun": "2017-07-13 07:49:29",
-  "pled": 2916,
+  "pledged": 2916,
   "state": "successful",
   "backers": 60,
   "country": "GB"
@@ -40727,7 +40727,7 @@ dataJSON = [{
   "dl": "2017-09-23",
   "goal": 20,
   "laun": "2017-08-29 02:48:25",
-  "pled": 51,
+  "pledged": 51,
   "state": "successful",
   "backers": 3,
   "country": "US"
@@ -40739,7 +40739,7 @@ dataJSON = [{
   "dl": "2011-09-18",
   "goal": 4300,
   "laun": "2011-08-29 21:45:12",
-  "pled": 4307.05,
+  "pledged": 4307.05,
   "state": "successful",
   "backers": 20,
   "country": "US"
@@ -40751,7 +40751,7 @@ dataJSON = [{
   "dl": "2017-09-09",
   "goal": 10000,
   "laun": "2017-08-25 01:57:15",
-  "pled": 10746,
+  "pledged": 10746,
   "state": "successful",
   "backers": 98,
   "country": "US"
@@ -40763,7 +40763,7 @@ dataJSON = [{
   "dl": "2013-08-16",
   "goal": 7500,
   "laun": "2013-06-27 10:16:19",
-  "pled": 17910,
+  "pledged": 17910,
   "state": "successful",
   "backers": 29,
   "country": "US"
@@ -40775,7 +40775,7 @@ dataJSON = [{
   "dl": "2015-12-22",
   "goal": 15000,
   "laun": "2015-11-22 10:14:49",
-  "pled": 3236,
+  "pledged": 3236,
   "state": "failed",
   "backers": 51,
   "country": "ES"
@@ -40787,7 +40787,7 @@ dataJSON = [{
   "dl": "2013-10-12",
   "goal": 1000,
   "laun": "2013-08-13 07:11:56",
-  "pled": 28931,
+  "pledged": 28931,
   "state": "successful",
   "backers": 368,
   "country": "US"
@@ -40799,7 +40799,7 @@ dataJSON = [{
   "dl": "2015-09-13",
   "goal": 85000,
   "laun": "2015-08-14 04:18:42",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -40811,7 +40811,7 @@ dataJSON = [{
   "dl": "2017-10-21",
   "goal": 2800,
   "laun": "2017-09-21 13:12:37",
-  "pled": 3015,
+  "pledged": 3015,
   "state": "successful",
   "backers": 62,
   "country": "GB"
@@ -40823,7 +40823,7 @@ dataJSON = [{
   "dl": "2013-12-12",
   "goal": 5000,
   "laun": "2013-11-15 15:59:13",
-  "pled": 5140,
+  "pledged": 5140,
   "state": "successful",
   "backers": 58,
   "country": "CA"
@@ -40835,7 +40835,7 @@ dataJSON = [{
   "dl": "2015-07-28",
   "goal": 400000,
   "laun": "2015-06-23 15:01:09",
-  "pled": 1444,
+  "pledged": 1444,
   "state": "failed",
   "backers": 15,
   "country": "DE"
@@ -40847,7 +40847,7 @@ dataJSON = [{
   "dl": "2016-04-23",
   "goal": 3000,
   "laun": "2016-03-28 15:50:57",
-  "pled": 676,
+  "pledged": 676,
   "state": "canceled",
   "backers": 65,
   "country": "US"
@@ -40859,7 +40859,7 @@ dataJSON = [{
   "dl": "2015-09-17",
   "goal": 20000,
   "laun": "2015-08-18 06:21:46",
-  "pled": 60,
+  "pledged": 60,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -40871,7 +40871,7 @@ dataJSON = [{
   "dl": "2014-02-22",
   "goal": 4000,
   "laun": "2014-01-22 18:21:34",
-  "pled": 280,
+  "pledged": 280,
   "state": "failed",
   "backers": 9,
   "country": "US"
@@ -40883,7 +40883,7 @@ dataJSON = [{
   "dl": "2016-06-20",
   "goal": 10000,
   "laun": "2016-05-16 06:47:08",
-  "pled": 1211,
+  "pledged": 1211,
   "state": "canceled",
   "backers": 14,
   "country": "US"
@@ -40895,7 +40895,7 @@ dataJSON = [{
   "dl": "2011-08-06",
   "goal": 5000,
   "laun": "2011-07-07 06:18:58",
-  "pled": 125,
+  "pledged": 125,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -40907,7 +40907,7 @@ dataJSON = [{
   "dl": "2015-02-27",
   "goal": 20000,
   "laun": "2015-01-28 03:19:58",
-  "pled": 3,
+  "pledged": 3,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -40919,7 +40919,7 @@ dataJSON = [{
   "dl": "2013-05-17",
   "goal": 280000,
   "laun": "2013-04-17 12:34:03",
-  "pled": 7280,
+  "pledged": 7280,
   "state": "failed",
   "backers": 18,
   "country": "US"
@@ -40931,7 +40931,7 @@ dataJSON = [{
   "dl": "2014-10-01",
   "goal": 1200,
   "laun": "2014-09-01 05:14:38",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -40943,7 +40943,7 @@ dataJSON = [{
   "dl": "2012-07-07",
   "goal": 1000,
   "laun": "2012-05-30 02:09:48",
-  "pled": 2035.05,
+  "pledged": 2035.05,
   "state": "successful",
   "backers": 34,
   "country": "US"
@@ -40955,7 +40955,7 @@ dataJSON = [{
   "dl": "2015-05-07",
   "goal": 7500,
   "laun": "2015-04-17 16:45:46",
-  "pled": 14646,
+  "pledged": 14646,
   "state": "successful",
   "backers": 69,
   "country": "CA"
@@ -40967,7 +40967,7 @@ dataJSON = [{
   "dl": "2015-12-04",
   "goal": 10000,
   "laun": "2015-11-04 08:50:21",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "CH"
@@ -40979,7 +40979,7 @@ dataJSON = [{
   "dl": "2015-12-18",
   "goal": 15000,
   "laun": "2015-11-18 16:24:56",
-  "pled": 3345,
+  "pledged": 3345,
   "state": "failed",
   "backers": 33,
   "country": "US"
@@ -40991,7 +40991,7 @@ dataJSON = [{
   "dl": "2015-04-18",
   "goal": 50000,
   "laun": "2015-03-19 20:01:10",
-  "pled": 3,
+  "pledged": 3,
   "state": "failed",
   "backers": 1,
   "country": "NZ"
@@ -41003,7 +41003,7 @@ dataJSON = [{
   "dl": "2016-09-19",
   "goal": 1500,
   "laun": "2016-08-26 01:09:58",
-  "pled": 6771,
+  "pledged": 6771,
   "state": "successful",
   "backers": 285,
   "country": "US"
@@ -41015,7 +41015,7 @@ dataJSON = [{
   "dl": "2010-10-06",
   "goal": 40000,
   "laun": "2010-07-08 05:46:49",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -41027,7 +41027,7 @@ dataJSON = [{
   "dl": "2016-08-04",
   "goal": 50000,
   "laun": "2016-07-07 02:52:23",
-  "pled": 10016,
+  "pledged": 10016,
   "state": "failed",
   "backers": 54,
   "country": "AU"
@@ -41039,7 +41039,7 @@ dataJSON = [{
   "dl": "2015-10-19",
   "goal": 2000,
   "laun": "2015-09-21 22:33:18",
-  "pled": 2125,
+  "pledged": 2125,
   "state": "undefined",
   "backers": 0,
   "country": "N,0"
@@ -41051,7 +41051,7 @@ dataJSON = [{
   "dl": "2017-11-24",
   "goal": 6000,
   "laun": "2017-10-25 22:48:18",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "GB"
@@ -41063,7 +41063,7 @@ dataJSON = [{
   "dl": "2016-09-03",
   "goal": 5000,
   "laun": "2016-08-04 09:04:16",
-  "pled": 20,
+  "pledged": 20,
   "state": "canceled",
   "backers": 1,
   "country": "AU"
@@ -41075,7 +41075,7 @@ dataJSON = [{
   "dl": "2015-11-20",
   "goal": 1600,
   "laun": "2015-10-21 21:28:13",
-  "pled": 0,
+  "pledged": 0,
   "state": "undefined",
   "backers": 0,
   "country": "N,0"
@@ -41087,7 +41087,7 @@ dataJSON = [{
   "dl": "2013-05-22",
   "goal": 1000,
   "laun": "2013-04-22 17:07:27",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -41099,7 +41099,7 @@ dataJSON = [{
   "dl": "2014-07-31",
   "goal": 75000,
   "laun": "2014-07-11 17:55:18",
-  "pled": 2645,
+  "pledged": 2645,
   "state": "failed",
   "backers": 21,
   "country": "US"
@@ -41111,7 +41111,7 @@ dataJSON = [{
   "dl": "2015-12-10",
   "goal": 40000,
   "laun": "2015-11-10 23:46:17",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -41123,7 +41123,7 @@ dataJSON = [{
   "dl": "2013-10-25",
   "goal": 375000,
   "laun": "2013-09-25 22:13:27",
-  "pled": 556,
+  "pledged": 556,
   "state": "failed",
   "backers": 4,
   "country": "CA"
@@ -41135,7 +41135,7 @@ dataJSON = [{
   "dl": "2010-07-05",
   "goal": 9000,
   "laun": "2010-04-07 19:35:09",
-  "pled": 53,
+  "pledged": 53,
   "state": "canceled",
   "backers": 2,
   "country": "US"
@@ -41147,7 +41147,7 @@ dataJSON = [{
   "dl": "2017-07-07",
   "goal": 325,
   "laun": "2017-06-30 03:51:43",
-  "pled": 425,
+  "pledged": 425,
   "state": "successful",
   "backers": 7,
   "country": "US"
@@ -41159,7 +41159,7 @@ dataJSON = [{
   "dl": "2011-05-27",
   "goal": 7500,
   "laun": "2011-02-25 00:25:31",
-  "pled": 8462,
+  "pledged": 8462,
   "state": "successful",
   "backers": 123,
   "country": "US"
@@ -41171,7 +41171,7 @@ dataJSON = [{
   "dl": "2012-10-13",
   "goal": 5000,
   "laun": "2012-09-18 00:57:54",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -41183,7 +41183,7 @@ dataJSON = [{
   "dl": "2015-11-27",
   "goal": 15000,
   "laun": "2015-10-26 10:10:52",
-  "pled": 5446,
+  "pledged": 5446,
   "state": "failed",
   "backers": 55,
   "country": "GB"
@@ -41195,7 +41195,7 @@ dataJSON = [{
   "dl": "2013-07-15",
   "goal": 15000,
   "laun": "2013-06-20 16:50:53",
-  "pled": 225,
+  "pledged": 225,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -41207,7 +41207,7 @@ dataJSON = [{
   "dl": "2017-11-27",
   "goal": 1500,
   "laun": "2017-11-15 21:51:30",
-  "pled": 377,
+  "pledged": 377,
   "state": "failed",
   "backers": 7,
   "country": "US"
@@ -41219,7 +41219,7 @@ dataJSON = [{
   "dl": "2015-08-02",
   "goal": 1000,
   "laun": "2015-06-03 22:36:30",
-  "pled": 1214,
+  "pledged": 1214,
   "state": "successful",
   "backers": 47,
   "country": "US"
@@ -41231,7 +41231,7 @@ dataJSON = [{
   "dl": "2014-04-17",
   "goal": 10000,
   "laun": "2014-03-18 05:24:18",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -41243,7 +41243,7 @@ dataJSON = [{
   "dl": "2011-08-04",
   "goal": 5500,
   "laun": "2011-07-05 21:25:03",
-  "pled": 6023,
+  "pledged": 6023,
   "state": "successful",
   "backers": 79,
   "country": "US"
@@ -41255,7 +41255,7 @@ dataJSON = [{
   "dl": "2017-05-22",
   "goal": 3000,
   "laun": "2017-04-22 02:27:41",
-  "pled": 10,
+  "pledged": 10,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -41267,7 +41267,7 @@ dataJSON = [{
   "dl": "2013-05-05",
   "goal": 1000,
   "laun": "2013-04-05 22:09:08",
-  "pled": 1303,
+  "pledged": 1303,
   "state": "successful",
   "backers": 19,
   "country": "US"
@@ -41279,7 +41279,7 @@ dataJSON = [{
   "dl": "2011-08-07",
   "goal": 1000,
   "laun": "2011-07-08 04:24:20",
-  "pled": 661,
+  "pledged": 661,
   "state": "failed",
   "backers": 15,
   "country": "US"
@@ -41291,7 +41291,7 @@ dataJSON = [{
   "dl": "2014-09-20",
   "goal": 20000,
   "laun": "2014-08-21 16:46:34",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "CA"
@@ -41303,7 +41303,7 @@ dataJSON = [{
   "dl": "2016-03-21",
   "goal": 10000,
   "laun": "2016-02-05 20:00:44",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -41315,7 +41315,7 @@ dataJSON = [{
   "dl": "2011-03-15",
   "goal": 10000,
   "laun": "2010-12-15 03:00:18",
-  "pled": 275,
+  "pledged": 275,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -41327,7 +41327,7 @@ dataJSON = [{
   "dl": "2013-12-12",
   "goal": 5000,
   "laun": "2013-10-28 18:37:30",
-  "pled": 15052,
+  "pledged": 15052,
   "state": "successful",
   "backers": 87,
   "country": "US"
@@ -41339,7 +41339,7 @@ dataJSON = [{
   "dl": "2013-05-15",
   "goal": 500,
   "laun": "2013-04-25 01:59:29",
-  "pled": 505,
+  "pledged": 505,
   "state": "successful",
   "backers": 14,
   "country": "US"
@@ -41351,7 +41351,7 @@ dataJSON = [{
   "dl": "2017-01-07",
   "goal": 25000,
   "laun": "2016-11-08 23:40:40",
-  "pled": 120,
+  "pledged": 120,
   "state": "failed",
   "backers": 2,
   "country": "US"
@@ -41363,7 +41363,7 @@ dataJSON = [{
   "dl": "2013-03-20",
   "goal": 8000,
   "laun": "2013-02-18 18:46:29",
-  "pled": 8935,
+  "pledged": 8935,
   "state": "successful",
   "backers": 121,
   "country": "US"
@@ -41375,7 +41375,7 @@ dataJSON = [{
   "dl": "2012-05-18",
   "goal": 7000,
   "laun": "2012-04-08 22:49:06",
-  "pled": 7120,
+  "pledged": 7120,
   "state": "successful",
   "backers": 75,
   "country": "US"
@@ -41387,7 +41387,7 @@ dataJSON = [{
   "dl": "2012-02-01",
   "goal": 10000,
   "laun": "2011-12-12 21:19:01",
-  "pled": 12300,
+  "pledged": 12300,
   "state": "successful",
   "backers": 162,
   "country": "US"
@@ -41399,7 +41399,7 @@ dataJSON = [{
   "dl": "2014-03-03",
   "goal": 33975,
   "laun": "2014-02-01 22:00:47",
-  "pled": 5652,
+  "pledged": 5652,
   "state": "failed",
   "backers": 13,
   "country": "US"
@@ -41411,7 +41411,7 @@ dataJSON = [{
   "dl": "2015-02-05",
   "goal": 16000,
   "laun": "2015-01-06 04:17:32",
-  "pled": 1,
+  "pledged": 1,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -41423,7 +41423,7 @@ dataJSON = [{
   "dl": "2011-04-05",
   "goal": 5000,
   "laun": "2011-02-03 05:21:45",
-  "pled": 5025,
+  "pledged": 5025,
   "state": "successful",
   "backers": 31,
   "country": "US"
@@ -41435,7 +41435,7 @@ dataJSON = [{
   "dl": "2012-07-10",
   "goal": 12500,
   "laun": "2012-06-10 19:35:15",
-  "pled": 15,
+  "pledged": 15,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -41447,7 +41447,7 @@ dataJSON = [{
   "dl": "2016-08-28",
   "goal": 5000,
   "laun": "2016-07-29 05:27:43",
-  "pled": 11,
+  "pledged": 11,
   "state": "failed",
   "backers": 3,
   "country": "US"
@@ -41459,7 +41459,7 @@ dataJSON = [{
   "dl": "2014-03-08",
   "goal": 10000,
   "laun": "2014-01-27 09:25:24",
-  "pled": 4676,
+  "pledged": 4676,
   "state": "failed",
   "backers": 78,
   "country": "US"
@@ -41471,7 +41471,7 @@ dataJSON = [{
   "dl": "2015-01-01",
   "goal": 30000,
   "laun": "2014-11-30 03:11:48",
-  "pled": 42647,
+  "pledged": 42647,
   "state": "successful",
   "backers": 215,
   "country": "US"
@@ -41483,7 +41483,7 @@ dataJSON = [{
   "dl": "2012-05-04",
   "goal": 10000,
   "laun": "2012-03-05 23:12:03",
-  "pled": 10300,
+  "pledged": 10300,
   "state": "successful",
   "backers": 78,
   "country": "US"
@@ -41495,7 +41495,7 @@ dataJSON = [{
   "dl": "2016-05-07",
   "goal": 300,
   "laun": "2016-04-07 20:04:26",
-  "pled": 300,
+  "pledged": 300,
   "state": "successful",
   "backers": 5,
   "country": "US"
@@ -41507,7 +41507,7 @@ dataJSON = [{
   "dl": "2013-03-29",
   "goal": 5000,
   "laun": "2013-02-12 00:44:04",
-  "pled": 1721,
+  "pledged": 1721,
   "state": "canceled",
   "backers": 36,
   "country": "US"
@@ -41519,7 +41519,7 @@ dataJSON = [{
   "dl": "2013-06-13",
   "goal": 4000,
   "laun": "2013-05-14 01:18:54",
-  "pled": 4005,
+  "pledged": 4005,
   "state": "successful",
   "backers": 14,
   "country": "US"
@@ -41531,7 +41531,7 @@ dataJSON = [{
   "dl": "2010-12-31",
   "goal": 28559,
   "laun": "2010-12-01 21:41:15",
-  "pled": 50,
+  "pledged": 50,
   "state": "canceled",
   "backers": 1,
   "country": "US"
@@ -41543,7 +41543,7 @@ dataJSON = [{
   "dl": "2015-12-10",
   "goal": 5000,
   "laun": "2015-11-25 22:06:44",
-  "pled": 1574,
+  "pledged": 1574,
   "state": "failed",
   "backers": 37,
   "country": "FR"
@@ -41555,7 +41555,7 @@ dataJSON = [{
   "dl": "2017-05-03",
   "goal": 5000,
   "laun": "2017-04-03 01:07:20",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "GB"
@@ -41567,7 +41567,7 @@ dataJSON = [{
   "dl": "2014-07-28",
   "goal": 12000,
   "laun": "2014-06-28 13:28:12",
-  "pled": 2090,
+  "pledged": 2090,
   "state": "failed",
   "backers": 42,
   "country": "US"
@@ -41579,7 +41579,7 @@ dataJSON = [{
   "dl": "2016-06-07",
   "goal": 1500,
   "laun": "2016-05-08 09:33:08",
-  "pled": 1699,
+  "pledged": 1699,
   "state": "successful",
   "backers": 39,
   "country": "NL"
@@ -41591,7 +41591,7 @@ dataJSON = [{
   "dl": "2014-10-03",
   "goal": 10000,
   "laun": "2014-09-03 19:53:50",
-  "pled": 13861.5,
+  "pledged": 13861.5,
   "state": "successful",
   "backers": 413,
   "country": "US"
@@ -41603,7 +41603,7 @@ dataJSON = [{
   "dl": "2014-06-05",
   "goal": 12000,
   "laun": "2014-05-06 23:50:34",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -41615,7 +41615,7 @@ dataJSON = [{
   "dl": "2014-12-13",
   "goal": 25000,
   "laun": "2014-11-13 17:16:17",
-  "pled": 11643,
+  "pledged": 11643,
   "state": "failed",
   "backers": 97,
   "country": "US"
@@ -41627,7 +41627,7 @@ dataJSON = [{
   "dl": "2011-01-08",
   "goal": 4000,
   "laun": "2010-11-08 02:43:59",
-  "pled": 3531,
+  "pledged": 3531,
   "state": "failed",
   "backers": 37,
   "country": "US"
@@ -41639,7 +41639,7 @@ dataJSON = [{
   "dl": "2015-09-24",
   "goal": 800,
   "laun": "2015-08-25 22:37:14",
-  "pled": 70,
+  "pledged": 70,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -41651,7 +41651,7 @@ dataJSON = [{
   "dl": "2014-12-17",
   "goal": 5000,
   "laun": "2014-11-17 17:50:12",
-  "pled": 5435,
+  "pledged": 5435,
   "state": "successful",
   "backers": 78,
   "country": "CA"
@@ -41663,7 +41663,7 @@ dataJSON = [{
   "dl": "2017-10-13",
   "goal": 10000,
   "laun": "2017-08-29 06:57:28",
-  "pled": 10245,
+  "pledged": 10245,
   "state": "successful",
   "backers": 123,
   "country": "US"
@@ -41675,7 +41675,7 @@ dataJSON = [{
   "dl": "2014-08-15",
   "goal": 5000,
   "laun": "2014-07-15 02:10:39",
-  "pled": 18,
+  "pledged": 18,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -41687,7 +41687,7 @@ dataJSON = [{
   "dl": "2015-12-03",
   "goal": 5000,
   "laun": "2015-11-03 13:04:14",
-  "pled": 5579,
+  "pledged": 5579,
   "state": "successful",
   "backers": 103,
   "country": "US"
@@ -41699,7 +41699,7 @@ dataJSON = [{
   "dl": "2014-09-11",
   "goal": 1000,
   "laun": "2014-08-08 21:49:31",
-  "pled": 100,
+  "pledged": 100,
   "state": "canceled",
   "backers": 2,
   "country": "US"
@@ -41711,7 +41711,7 @@ dataJSON = [{
   "dl": "2015-09-04",
   "goal": 80000,
   "laun": "2015-07-06 18:00:47",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "CH"
@@ -41723,7 +41723,7 @@ dataJSON = [{
   "dl": "2017-10-31",
   "goal": 1000,
   "laun": "2017-10-04 11:26:44",
-  "pled": 1246,
+  "pledged": 1246,
   "state": "successful",
   "backers": 35,
   "country": "FR"
@@ -41735,7 +41735,7 @@ dataJSON = [{
   "dl": "2014-05-26",
   "goal": 6500,
   "laun": "2014-05-05 20:22:45",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "US"
@@ -41747,7 +41747,7 @@ dataJSON = [{
   "dl": "2015-12-15",
   "goal": 3500,
   "laun": "2015-11-23 07:33:14",
-  "pled": 6169,
+  "pledged": 6169,
   "state": "successful",
   "backers": 120,
   "country": "US"
@@ -41759,7 +41759,7 @@ dataJSON = [{
   "dl": "2013-10-10",
   "goal": 16000,
   "laun": "2013-09-10 22:45:26",
-  "pled": 2738,
+  "pledged": 2738,
   "state": "failed",
   "backers": 38,
   "country": "GB"
@@ -41771,7 +41771,7 @@ dataJSON = [{
   "dl": "2013-11-30",
   "goal": 950,
   "laun": "2013-10-18 21:35:04",
-  "pled": 1732.02,
+  "pledged": 1732.02,
   "state": "successful",
   "backers": 31,
   "country": "US"
@@ -41783,7 +41783,7 @@ dataJSON = [{
   "dl": "2012-09-14",
   "goal": 4999,
   "laun": "2012-08-15 17:11:00",
-  "pled": 980,
+  "pledged": 980,
   "state": "failed",
   "backers": 16,
   "country": "US"
@@ -41795,7 +41795,7 @@ dataJSON = [{
   "dl": "2016-02-23",
   "goal": 500,
   "laun": "2016-01-24 16:03:27",
-  "pled": 121,
+  "pledged": 121,
   "state": "canceled",
   "backers": 5,
   "country": "US"
@@ -41807,7 +41807,7 @@ dataJSON = [{
   "dl": "2017-04-09",
   "goal": 500,
   "laun": "2017-02-08 02:28:44",
-  "pled": 135,
+  "pledged": 135,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -41819,7 +41819,7 @@ dataJSON = [{
   "dl": "2016-09-05",
   "goal": 6000,
   "laun": "2016-07-29 15:36:29",
-  "pled": 0,
+  "pledged": 0,
   "state": "failed",
   "backers": 0,
   "country": "US"
@@ -41831,7 +41831,7 @@ dataJSON = [{
   "dl": "2014-03-22",
   "goal": 5000,
   "laun": "2014-02-20 01:00:16",
-  "pled": 5501,
+  "pledged": 5501,
   "state": "successful",
   "backers": 78,
   "country": "CA"
@@ -41843,7 +41843,7 @@ dataJSON = [{
   "dl": "2015-04-28",
   "goal": 20000,
   "laun": "2015-03-29 21:30:33",
-  "pled": 21500,
+  "pledged": 21500,
   "state": "successful",
   "backers": 36,
   "country": "NO"
@@ -41855,7 +41855,7 @@ dataJSON = [{
   "dl": "2012-03-16",
   "goal": 1700,
   "laun": "2012-02-15 04:31:10",
-  "pled": 25,
+  "pledged": 25,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -41867,7 +41867,7 @@ dataJSON = [{
   "dl": "2017-04-19",
   "goal": 6500,
   "laun": "2017-03-20 22:08:22",
-  "pled": 154,
+  "pledged": 154,
   "state": "failed",
   "backers": 4,
   "country": "US"
@@ -41879,7 +41879,7 @@ dataJSON = [{
   "dl": "2014-09-20",
   "goal": 5500,
   "laun": "2014-08-06 03:46:07",
-  "pled": 0,
+  "pledged": 0,
   "state": "canceled",
   "backers": 0,
   "country": "CA"
@@ -41891,7 +41891,7 @@ dataJSON = [{
   "dl": "2014-10-17",
   "goal": 50000,
   "laun": "2014-09-17 02:35:30",
-  "pled": 25,
+  "pledged": 25,
   "state": "canceled",
   "backers": 1,
   "country": "US"
@@ -41903,7 +41903,7 @@ dataJSON = [{
   "dl": "2011-07-19",
   "goal": 1500,
   "laun": "2011-06-22 03:35:14",
-  "pled": 155,
+  "pledged": 155,
   "state": "failed",
   "backers": 5,
   "country": "US"
@@ -41915,7 +41915,7 @@ dataJSON = [{
   "dl": "2010-08-16",
   "goal": 15000,
   "laun": "2010-07-01 19:40:30",
-  "pled": 20,
+  "pledged": 20,
   "state": "failed",
   "backers": 1,
   "country": "US"
@@ -41927,7 +41927,7 @@ dataJSON = [{
   "dl": "2016-02-13",
   "goal": 15000,
   "laun": "2016-01-13 18:13:53",
-  "pled": 200,
+  "pledged": 200,
   "state": "failed",
   "backers": 6,
   "country": "US"
@@ -41939,7 +41939,7 @@ dataJSON = [{
   "dl": "2011-08-16",
   "goal": 2000,
   "laun": "2011-07-19 09:07:47",
-  "pled": 524,
+  "pledged": 524,
   "state": "failed",
   "backers": 17,
   "country": "US"

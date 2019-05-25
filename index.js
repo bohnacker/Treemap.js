@@ -25,7 +25,7 @@ var packageInfo = require('./package.json');
  * @constructor (mainly for internal use)
  * @param  {Treemap} parent   the parent Treemap
  * @param  {String|Number|Object|Array} data  one data element to store. could be anything. 
- * @param  {Number} count     initial count
+ * @param  {Number} value     initial value
  * @return {Treemap}          the new Treemap that represents one item
  */
 
@@ -40,7 +40,7 @@ var packageInfo = require('./package.json');
 function Treemap() {
   this.parent;
   this.data;
-  this.count = 0;
+  this.value = 0;
   this.items = [];
 
   /**
@@ -78,7 +78,7 @@ function Treemap() {
   } else {
     this.parent = arguments[0];
     this.data = arguments[1];
-    this.count = arguments[2] || 0;
+    this.value = arguments[2] || 0;
   }
 
   this.x = this.x || 0;
@@ -87,13 +87,13 @@ function Treemap() {
   this.h = this.h || 0;
 
   /**
-   * the minimum count value of the items in the items array
+   * the minimum value of the items in the items array
    * @property minCount
    * @type {Number}
    */
   this.minCount = 0;
   /**
-   * the maximum count value of the items in the items array
+   * the maximum value of the items in the items array
    * @property maxCount
    * @type {Number}
    */
@@ -141,15 +141,15 @@ function Treemap() {
   /**
    * Adds a data structure to the Treemap. 
    * You can provide an object or array of nested subitems. The optional second parameter defines what keys should be used to build the Treemap. This second parameter is in the form
-   * `{children:"items", count:"size", data:"name"}`. 
+   * `{children:"items", value:"size", data:"name"}`. 
    * The key `children` defines, where to find the nested arrays. If you have a plain nested array, just leave this out. 
-   * The key `count` defines, which value to map to the size of the rectangles of the Treemap.
+   * The key `value` defines, which value to map to the size of the rectangles of the Treemap.
    * The key `data` defines, which data to store. If omitted, the complete object or array branch is stored. 
    * This might be the way to choose in most cases. That way you keep all the information accessible when drawing the treemap.
    *
    * @method addData
    * @param {String|Number|Object|Array} data   the data element (e.g. a String) 
-   * @param {Object} [keys]                     which keys should be used to build the Treemap: e.g. {children:"items", count:"size", data:"name"}. See the example for different ways how to use that. 
+   * @param {Object} [keys]                     which keys should be used to build the Treemap: e.g. {children:"items", value:"size", data:"name"}. See the example for different ways how to use that. 
    * @return {Boolean}                          returns true, if adding succeeded
    */
 
@@ -160,9 +160,9 @@ function Treemap() {
     if (keys.data) this.data = data[keys.data];
     else this.data = data;
 
-    // store counter. if data is a number, just use that as a counter. if data is an object, store what's given at the key 'count'. 
-    if (typeof data === "number") this.count = data;
-    else this.count = data[keys.count] || 0;
+    // store counter. if data is a number, just use that as a counter. if data is an object, store what's given at the key 'value'. 
+    if (typeof data === "number") this.value = data;
+    else this.value = data[keys.value] || 0;
 
     // get children. if the key 'children' is defined use that. otherwise data might be just an array, so use it directly.
     var children = data;
@@ -187,10 +187,13 @@ function Treemap() {
    * @method addItem
    * @param {String|Number|Object|Array} data   the data element (e.g. a String) 
    * @param {Array} [keys]                      if `keys` is given, data has to be an object. It searches for the first key on the first level, for the second key on the second level, ...
+   * @param {Number} [value]                    how much should this item add to the size. If not given, 1 is added.
    * @return {Treemap}                          returns the treemap where the data was added
    */
 
-  Treemap.prototype.addItem = function(data, keys) {
+  Treemap.prototype.addItem = function(data, keys, value) {
+    value = value || 1;
+
     if (keys) {
       // Find element in hierarchy
       var currItem = this;
@@ -200,11 +203,11 @@ function Treemap() {
         var i = currItem.items.findIndex(function(el) { return el.data == data[k]; });
         if (i >= 0) {
           // the element is already in this Treemap, so just increase counter
-          currItem.items[i].count++;
+          currItem.items[i].value += value;
           currItem = currItem.items[i];
         } else {
           // the element is not found, so create a new Treemap for it
-          var newItem = new Treemap(this, data[k], 1);
+          var newItem = new Treemap(this, data[k], value);
           currItem.items.push(newItem);
           currItem = newItem;
         }
@@ -217,11 +220,11 @@ function Treemap() {
       var i = this.items.findIndex(function(el) { return el.data == data; });
       if (i >= 0) {
         // the element is already in this Treemap, so just increase counter
-        this.items[i].count++;
+        this.items[i].value += value;
         return false;
       } else {
         // the element is not found, so create a new Treemap for it
-        var newItem = new Treemap(this, data, 1);
+        var newItem = new Treemap(this, data, value);
         this.items.push(newItem);
       }
       return newItem;
@@ -229,8 +232,8 @@ function Treemap() {
   }
 
   // Probably not really useful. Same could be done with addData
-  Treemap.prototype.addTreemap = function(data, count) {
-    var t = new Treemap(this, data, count);
+  Treemap.prototype.addTreemap = function(data, value) {
+    var t = new Treemap(this, data, value);
     this.items.push(t);
     return t;
   }
@@ -247,7 +250,7 @@ function Treemap() {
       }
     }
 
-    // return count or 0 depending on this.ignored
+    // return value or 0 depending on this.ignored
     if (this.items.length == 0) {
       if (this.ignored) return 0;
 
@@ -256,20 +259,20 @@ function Treemap() {
       this.maxCount = 0;
       this.depth = 0;
       this.itemCount = 1;
-      this.count = 0;
+      this.value = 0;
 
       if (this.ignored) return 0;
 
       for (var i = 0; i < this.items.length; i++) {
         var sum = this.items[i].sumUpCounters();
-        this.count += sum;
+        this.value += sum;
         this.minCount = Math.min(this.minCount, sum);
         this.maxCount = Math.max(this.maxCount, sum);
         this.depth = Math.max(this.depth, this.items[i].depth + 1);
         this.itemCount += this.items[i].itemCount;
       }
     }
-    return this.count;
+    return this.value;
   }
 
   /**
@@ -298,8 +301,8 @@ function Treemap() {
     if (this.options.sort == true || this.options.sort == undefined) {
       // sort items
       this.items.sort(function(a, b) {
-        if (a.count < b.count) return 1;
-        if (a.count > b.count) return -1;
+        if (a.value < b.value) return 1;
+        if (a.value > b.value) return -1;
         else return 0;
       });
     } else {
@@ -314,7 +317,7 @@ function Treemap() {
 
     // Starting point is a rectangle and a number of counters to fit in.
     // So, as nothing has fit in the rect, restSum, restW, ... are the starting rect and the sum of all counters
-    var restSum = this.count;
+    var restSum = this.value;
     var pad = this.options.padding || 0;
     var restX = this.x + pad;
     var restY = this.y + pad;
@@ -342,7 +345,7 @@ function Treemap() {
       var rowCount = 0;
       var avRelPrev = Number.MAX_VALUE;
       for (var i = actIndex; i < this.items.length; i++) {
-        rowSum += this.items[i].count;
+        rowSum += this.items[i].value;
         rowCount++;
 
         // a * bLen is the rect of the row
@@ -356,7 +359,7 @@ function Treemap() {
           // Which is better, the actual or the previous fitting?
           if (avRelPrev < 1 / avRel) {
             // previous fitting is better, so revert to that
-            rowSum -= this.items[i].count;
+            rowSum -= this.items[i].value;
             rowCount--;
             bLen = b * rowSum / restSum;
             i--;
@@ -375,7 +378,7 @@ function Treemap() {
           // now we can transform the counters between index actIndex and i to rects (in fact to treemaps)
           for (var j = actIndex; j <= i; j++) {
             // map aLen according to the value of the counter
-            var aPart = aLen * this.items[j].count / rowSum;
+            var aPart = aLen * this.items[j].value / rowSum;
             if (isHorizontal) {
               this.items[j].x = aPos;
               this.items[j].y = bPos;

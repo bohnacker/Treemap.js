@@ -63,11 +63,11 @@ height of the rectangle.
 
 #### minCount
 
-the minimum count value of the items in the items array
+the minimum value of the items in the items array
 
 #### maxCount
 
-the maximum count value of the items in the items array
+the maximum value of the items in the items array
 
 #### level
 
@@ -89,16 +89,16 @@ index of the item in the sorted items array.
 
 Adds a data structure to the Treemap. 
 You can provide an object or array of nested subitems. The optional second parameter defines what keys should be used to build the Treemap. This second parameter is in the form
-`{children:"items", count:"size", data:"name"}`. 
+`{children:"items", value:"size", data:"name"}`. 
 The key `children` defines, where to find the nested arrays. If you have a plain nested array, just leave this out. 
-The key `count` defines, which value to map to the size of the rectangles of the Treemap.
+The key `value` defines, which value to map to the size of the rectangles of the Treemap.
 The key `data` defines, which data to store. If omitted, the complete object or array branch is stored. 
 This might be the way to choose in most cases. That way you keep all the information accessible when drawing the treemap.
 
 **Parameters**
 
 -   `data` **([String](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String) \| [Number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number) \| [Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object) \| [Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array))** the data element (e.g. a String)
--   `keys` **[Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)?** which keys should be used to build the Treemap: e.g. {children:"items", count:"size", data:"name"}. See the example for different ways how to use that.
+-   `keys` **[Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)?** which keys should be used to build the Treemap: e.g. {children:"items", value:"size", data:"name"}. See the example for different ways how to use that.
 
 Returns **[Boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** returns true, if adding succeeded
 
@@ -112,6 +112,7 @@ If not, create a new Treemap with that data and init the counter with 1.
 
 -   `data` **([String](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String) \| [Number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number) \| [Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object) \| [Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array))** the data element (e.g. a String)
 -   `keys` **[Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)?** if `keys` is given, data has to be an object. It searches for the first key on the first level, for the second key on the second level, ...
+-   `value` **[Number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number)?** how much should this item add to the size. If not given, 1 is added.
 
 Returns **[Treemap](#treemap)** returns the treemap where the data was added
 

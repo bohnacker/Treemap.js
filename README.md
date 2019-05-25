@@ -24,6 +24,7 @@ I decided to puplish it here as a seperate library to have it as a pure, indepen
     -   [itemCount](#itemcount)
     -   [index](#index)
 -   [addData](#adddata)
+-   [addItem](#additem)
 -   [addTreemap](#addtreemap)
 -   [calculate](#calculate)
 -   [draw](#draw)
@@ -103,7 +104,18 @@ This might be the way to choose in most cases. That way you keep all the informa
 -   `data` **([String](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String) \| [Number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number) \| [Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object) \| [Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array))** the data element (e.g. a String)
 -   `keys` **[Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)?** which keys should be used to build the Treemap: e.g. {children:"items", count:"size", data:"name"}. See the example for different ways how to use that.
 
-Returns **[Boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** returns true, if a new treemap was created
+Returns **[Boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** returns true, if adding succeeded
+
+### addItem
+
+Adds one element to the treemap.
+
+**Parameters**
+
+-   `data` **([String](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String) \| [Number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number) \| [Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object) \| [Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array))** the data element (e.g. a String)
+-   `keys` **[Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)?** if `keys` is given, data has to be an object. It searches for the first key on the first level, for the second key on the second level, ...
+
+Returns **[Treemap](#treemap)** returns the treemap where the data was added
 
 ### addTreemap
 

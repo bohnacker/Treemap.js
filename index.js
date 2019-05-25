@@ -44,28 +44,28 @@ function Treemap() {
   this.items = [];
 
   /**
-  * x position of the rectangle.
-  * @property x
-  * @type {Number}
-  */
+   * x position of the rectangle.
+   * @property x
+   * @type {Number}
+   */
   this.x = 0;
   /**
-  * y position of the rectangle.
-  * @property y
-  * @type {Number}
-  */
+   * y position of the rectangle.
+   * @property y
+   * @type {Number}
+   */
   this.y = 0;
   /**
-  * width of the rectangle.
-  * @property w
-  * @type {Number}
-  */
+   * width of the rectangle.
+   * @property w
+   * @type {Number}
+   */
   this.w = 0;
   /**
-  * height of the rectangle.
-  * @property h
-  * @type {Number}
-  */
+   * height of the rectangle.
+   * @property h
+   * @type {Number}
+   */
   this.h = 0;
   this.options;
 
@@ -87,45 +87,45 @@ function Treemap() {
   this.h = this.h || 0;
 
   /**
-  * the minimum count value of the items in the items array
-  * @property minCount
-  * @type {Number}
-  */
-  this.minCount = 0; 
+   * the minimum count value of the items in the items array
+   * @property minCount
+   * @type {Number}
+   */
+  this.minCount = 0;
   /**
-  * the maximum count value of the items in the items array
-  * @property maxCount
-  * @type {Number}
-  */
-  this.maxCount = 0; 
+   * the maximum count value of the items in the items array
+   * @property maxCount
+   * @type {Number}
+   */
+  this.maxCount = 0;
 
   /**
-  * level of the item; the root node has level 0
-  * @property level
-  * @type {Number}
-  */
+   * level of the item; the root node has level 0
+   * @property level
+   * @type {Number}
+   */
   this.level = 0;
   if (this.parent) this.level = this.parent.level + 1;
-  
+
   /**
-  * the depth of the branch; end nodes have depth 0
-  * @property depth
-  * @type {Number}
-  */
+   * the depth of the branch; end nodes have depth 0
+   * @property depth
+   * @type {Number}
+   */
   this.depth = 0;
 
   /**
-  * the number of items in the complete branch
-  * @property itemCount
-  * @type {Number}
-  */
+   * the number of items in the complete branch
+   * @property itemCount
+   * @type {Number}
+   */
   this.itemCount = 1;
 
   /**
-  * index of the item in the sorted items array.
-  * @property index
-  * @type {Number}
-  */
+   * index of the item in the sorted items array.
+   * @property index
+   * @type {Number}
+   */
   this.index = 0;
 
   this.root = this;
@@ -139,47 +139,80 @@ function Treemap() {
   this.ignored = false;
 
   /**
-    * Adds data to the Treemap. If you give just one parameter, this value will be added to the items array.
-    * If there is already an item which has this value as data, just increase the counter of that item.
-    * If not, create a new Treemap with that data and init the counter with 1.
-    * If you have a complex object or array of nested subitems, you can give a second parameter, 
-    * which defines what keys should be used to build the Treemap. This second parameter is in the form
-    * {children:"items", count:"size", data:"name"}. 
-    * The key 'children' defines, where to find the nested arrays. If you have a plain nested array, just leave this out. 
-    * The key 'count' defines, which value to map to the size of the rectangles of the Treemap.
-    * The key 'data' defines, which data to store. If omitted, the complete object or array branch is stored. 
-    * This might be the way to choose in most cases. That way you keep all the information accessible when drawing the treemap.
-    *
-    * @method addData
-    * @param {String|Number|Object|Array} data   the data element (e.g. a String) 
-    * @param {Object} [keys]                     which keys should be used to build the Treemap: e.g. {children:"items", count:"size", data:"name"}. See the example for different ways how to use that. 
-    * @return {Boolean}                          returns true, if a new treemap was created
-  */
+   * Adds data to the Treemap. If you give just one parameter, this value will be added to the items array.
+   * If there is already an item which has this value as data, just increase the counter of that item.
+   * If not, create a new Treemap with that data and init the counter with 1.
+   * If you have a complex object or array of nested subitems, you can give a second parameter, 
+   * which defines what keys should be used to build the Treemap. This second parameter is in the form
+   * {children:"items", count:"size", data:"name"}. 
+   * The key 'children' defines, where to find the nested arrays. If you have a plain nested array, just leave this out. 
+   * The key 'count' defines, which value to map to the size of the rectangles of the Treemap.
+   * The key 'data' defines, which data to store. If omitted, the complete object or array branch is stored. 
+   * This might be the way to choose in most cases. That way you keep all the information accessible when drawing the treemap.
+   *
+   * @method addData
+   * @param {String|Number|Object|Array} data   the data element (e.g. a String) 
+   * @param {Object} [keys]                     which keys should be used to build the Treemap: e.g. {children:"items", count:"size", data:"name"}. See the example for different ways how to use that. 
+   * @return {Boolean}                          returns true, if adding succeeded
+   */
 
   Treemap.prototype.addData = function(data, keys) {
+    keys = keys || {};
+
+    // store data. If a key is given, just store that part of the object, otherwise the whole branch.
+    if (keys.data) this.data = data[keys.data];
+    else this.data = data;
+
+    // store counter. if data is a number, just use that as a counter. if data is an object, store what's given at the key 'count'. 
+    if (typeof data === "number") this.count = data;
+    else this.count = data[keys.count] || 0;
+
+    // get children. if the key 'children' is defined use that. otherwise data might be just an array, so use it directly.
+    var children = data;
+    if (keys.children) children = data[keys.children];
+
+    if (children instanceof Array) {
+      children.forEach(function(child) {
+        var t = new Treemap(this);
+        this.items.push(t);
+        t.addData(child, keys);
+      }.bind(this));
+      return true;
+    }
+    return false;
+  }
+
+  /**
+   * Adds one element to the treemap. 
+   *
+   * @method addItem
+   * @param {String|Number|Object|Array} data   the data element (e.g. a String) 
+   * @param {Array} [keys]                      if `keys` is given, data has to be an object. It searches for the first key on the first level, for the second key on the second level, ...
+   * @return {Treemap}                          returns the treemap where the data was added
+   */
+
+  Treemap.prototype.addItem = function(data, keys) {
     if (keys) {
-      // store data. If a key is given, just store that part of the object, otherwise the whole branch.
-      if (keys.data) this.data = data[keys.data];
-      else this.data = data;
+      // Find element in hierarchy
+      var currItem = this;
 
-      // store counter. if data is a number, just use that as a counter. if data is an object, store what's given at the key 'count'. 
-      if (typeof data === "number") this.count = data;
-      else this.count = data[keys.count] || 0;
+      for (var j = 0; j < keys.length; j++) {
+        var k = keys[j];
+        var i = currItem.items.findIndex(function(el) { return el.data == data[k]; });
+        if (i >= 0) {
+          // the element is already in this Treemap, so just increase counter
+          currItem.items[i].count++;
+          currItem = currItem.items[i];
+        } else {
+          // the element is not found, so create a new Treemap for it
+          var newItem = new Treemap(this, data[k], 1);
+          currItem.items.push(newItem);
+          currItem = newItem;
+        }
 
-      // get children. if the key 'children' is defined use that. otherwise data might be just an array, so use it directly.
-      var children = data;
-      if (keys.children) children = data[keys.children];
- 
-      if (children instanceof Array) {
-        children.forEach(function(child) {
-          var t = new Treemap(this);
-          this.items.push(t);
-          t.addData(child, keys);
-        }.bind(this));
-        return true;
       }
-      return false;
-    
+      return currItem;
+
     } else {
       // data is a "simple" value (String, Number, small Object or Array) which should be counted. 
       var i = this.items.findIndex(function(el) { return el.data == data; });
@@ -189,24 +222,24 @@ function Treemap() {
         return false;
       } else {
         // the element is not found, so create a new Treemap for it
-        this.items.push(new Treemap(this, data, 1));
+        var newItem = new Treemap(this, data, 1);
+        this.items.push(newItem);
       }
-      return true;
+      return newItem;
     }
-    // There should have been reached one of the other returns. If not:
-    return false;
   }
 
+
   /**
-    * Adds an empty treemap to this treemap. If data is given, this could be used 
-    * to show and hide a complete sub-treemap from the diagram. There is no check,
-    * if there is already another treemap with that data.
-    *
-    * @method addTreemap
-    * @param {String|Number|Object|Array} data the data element (e.g. a String) 
-    * @param {Number} [count]                  the initial counter 
-    * @return {Treemap}                        returns the new Treemap
-  */
+   * Adds an empty treemap to this treemap. If data is given, this could be used 
+   * to show and hide a complete sub-treemap from the diagram. There is no check,
+   * if there is already another treemap with that data.
+   *
+   * @method addTreemap
+   * @param {String|Number|Object|Array} data the data element (e.g. a String) 
+   * @param {Number} [count]                  the initial counter 
+   * @return {Treemap}                        returns the new Treemap
+   */
   Treemap.prototype.addTreemap = function(data, count) {
     var t = new Treemap(this, data, count);
     this.items.push(t);
@@ -251,11 +284,11 @@ function Treemap() {
   }
 
   /**
-    * Calculates the rectangles of each item. While doing this, all counters 
-    * and ignore flags are updated.
-    *
-    * @method calculate
-  */
+   * Calculates the rectangles of each item. While doing this, all counters 
+   * and ignore flags are updated.
+   *
+   * @method calculate
+   */
   Treemap.prototype.calculate = function() {
     // Stop immediately, if it's an empty array
     if (this.items.length == 0) return;
@@ -395,20 +428,20 @@ function Treemap() {
   };
 
   /**
-    * A simple recursive drawing routine. You have to supply a function for drawing one item. This function gets the actual item 
-    * as a parameter and has access to all the fields of that item, most important `x`, `y`, `w`, and `h`.
-    * `level` and `depth` tells you, how deep this item is nested in the tree. The root node has level 0, an end node has depth 0. `itemCount` gives you the number of items inside this item, counted recursively and the `index` of item inside the parents sorted items array.
-    * Example:         
-    * ``` 
-    * myTreemap.draw(function(item) { 
-    *   var r = Math.min(item.w/4, item.h/4, 5);
-    *   rect(item.x, item.y, item.w, item.h, r); 
-    * }); 
-    * ```
-    *
-    * @method draw
-    * @param {Function} drawItemFunction a function that draws one item 
-  */
+   * A simple recursive drawing routine. You have to supply a function for drawing one item. This function gets the actual item 
+   * as a parameter and has access to all the fields of that item, most important `x`, `y`, `w`, and `h`.
+   * `level` and `depth` tells you, how deep this item is nested in the tree. The root node has level 0, an end node has depth 0. `itemCount` gives you the number of items inside this item, counted recursively and the `index` of item inside the parents sorted items array.
+   * Example:         
+   * ``` 
+   * myTreemap.draw(function(item) { 
+   *   var r = Math.min(item.w/4, item.h/4, 5);
+   *   rect(item.x, item.y, item.w, item.h, r); 
+   * }); 
+   * ```
+   *
+   * @method draw
+   * @param {Function} drawItemFunction a function that draws one item 
+   */
   Treemap.prototype.draw = function(drawItemFunction) {
     if (!drawItemFunction) {
       console.warn('You have to supply a drawing function to see something');

@@ -139,15 +139,12 @@ function Treemap() {
   this.ignored = false;
 
   /**
-   * Adds data to the Treemap. If you give just one parameter, this value will be added to the items array.
-   * If there is already an item which has this value as data, just increase the counter of that item.
-   * If not, create a new Treemap with that data and init the counter with 1.
-   * If you have a complex object or array of nested subitems, you can give a second parameter, 
-   * which defines what keys should be used to build the Treemap. This second parameter is in the form
-   * {children:"items", count:"size", data:"name"}. 
-   * The key 'children' defines, where to find the nested arrays. If you have a plain nested array, just leave this out. 
-   * The key 'count' defines, which value to map to the size of the rectangles of the Treemap.
-   * The key 'data' defines, which data to store. If omitted, the complete object or array branch is stored. 
+   * Adds a data structure to the Treemap. 
+   * You can provide an object or array of nested subitems. The optional second parameter defines what keys should be used to build the Treemap. This second parameter is in the form
+   * `{children:"items", count:"size", data:"name"}`. 
+   * The key `children` defines, where to find the nested arrays. If you have a plain nested array, just leave this out. 
+   * The key `count` defines, which value to map to the size of the rectangles of the Treemap.
+   * The key `data` defines, which data to store. If omitted, the complete object or array branch is stored. 
    * This might be the way to choose in most cases. That way you keep all the information accessible when drawing the treemap.
    *
    * @method addData
@@ -184,6 +181,8 @@ function Treemap() {
 
   /**
    * Adds one element to the treemap. 
+   * If there is already an item which has this value as data, just increase the counter of that item.
+   * If not, create a new Treemap with that data and init the counter with 1.
    *
    * @method addItem
    * @param {String|Number|Object|Array} data   the data element (e.g. a String) 

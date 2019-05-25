@@ -18,7 +18,7 @@
       let treemap = new Treemap(2, 2, w - 6, h - 6, {
         sort: true,
         direction: 'both',
-        padding: 4,
+        padding: 0,
       });
 
 
@@ -43,9 +43,15 @@
         div.style.width = item.w;
         div.style.height = item.h;
 
-        // The level of an item is a value between 0 and the total depth of the hierarchy. Every item has a reference to the root of the treemap which could be used to get the total depth.
-        let luminance = map(item.level, 0, item.root.depth + 1, 20, 80);
-        div.style['background-color'] = 'hsl(200, 50%, ' + Math.floor(luminance) + '%)';
+        if (item.parent && item.items.length > 0) {
+          // if there are subitems then give the rectangle a color
+          let hue = map(item.index, 0, item.parent.items.length, 0, 360);
+
+          div.style['background-color'] = 'hsl(' + Math.floor(hue) + ', 70%, 70%)';
+        } else {
+          // otherwise fill it transparent
+          div.style['background-color'] = '#fff0';
+        }
 
         document.body.appendChild(div);
       });

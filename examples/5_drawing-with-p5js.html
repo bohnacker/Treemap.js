@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <script src="lib/p5.min.js"></script>
     <script src="lib/Treemap.js"></script>
-    <script src="data/example-json.js"></script>
+    <script src="data/example-json-hierarchical.js"></script>
     <style> body {padding: 0; margin: 0;} canvas {vertical-align: top;} </style>
   </head>
   <body>
@@ -26,7 +26,7 @@
           padding: 0,
         });
 
-        treemap.addData(dataJSON, {children:"children", count:"size"});
+        treemap.addData(dataJSON, {children:"children", value:"size"});
 
         treemap.calculate();
       }

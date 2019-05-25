@@ -25,7 +25,6 @@ I decided to puplish it here as a seperate library to have it as a pure, indepen
     -   [index](#index)
 -   [addData](#adddata)
 -   [addItem](#additem)
--   [addTreemap](#addtreemap)
 -   [calculate](#calculate)
 -   [draw](#draw)
 
@@ -34,7 +33,7 @@ I decided to puplish it here as a seperate library to have it as a pure, indepen
 Creates a new empty Treemap with position (x, y), width and height. 
 To specify drawing a bit more, you can give drawing options. 'sort' is true or false. If false, the elements will be shuffeled.
 'direction' is either "horizontal", "vertical" or "both". With 'ignore', you can easily switch on and off branches of the Treemap. 
-Content may be added using addData() or addTreemap().
+Content may be added using addData() or addItem().
 
 **Parameters**
 
@@ -115,19 +114,6 @@ If not, create a new Treemap with that data and init the counter with 1.
 -   `keys` **[Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)?** if `keys` is given, data has to be an object. It searches for the first key on the first level, for the second key on the second level, ...
 
 Returns **[Treemap](#treemap)** returns the treemap where the data was added
-
-### addTreemap
-
-Adds an empty treemap to this treemap. If data is given, this could be used 
-to show and hide a complete sub-treemap from the diagram. There is no check,
-if there is already another treemap with that data.
-
-**Parameters**
-
--   `data` **([String](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String) \| [Number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number) \| [Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object) \| [Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array))** the data element (e.g. a String)
--   `count` **[Number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number)?** the initial counter
-
-Returns **[Treemap](#treemap)** returns the new Treemap
 
 ### calculate
 

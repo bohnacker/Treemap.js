@@ -8,7 +8,7 @@ var packageInfo = require('./package.json');
  * Creates a new empty Treemap with position (x, y), width and height. 
  * To specify drawing a bit more, you can give drawing options. 'sort' is true or false. If false, the elements will be shuffeled.
  * 'direction' is either "horizontal", "vertical" or "both". With 'ignore', you can easily switch on and off branches of the Treemap. 
- * Content may be added using addData() or addTreemap().
+ * Content may be added using addData() or addItem().
  * 
  * @class Treemap
  * @constructor
@@ -229,17 +229,7 @@ function Treemap() {
     }
   }
 
-
-  /**
-   * Adds an empty treemap to this treemap. If data is given, this could be used 
-   * to show and hide a complete sub-treemap from the diagram. There is no check,
-   * if there is already another treemap with that data.
-   *
-   * @method addTreemap
-   * @param {String|Number|Object|Array} data the data element (e.g. a String) 
-   * @param {Number} [count]                  the initial counter 
-   * @return {Treemap}                        returns the new Treemap
-   */
+  // Probably not really useful. Same could be done with addData
   Treemap.prototype.addTreemap = function(data, count) {
     var t = new Treemap(this, data, count);
     this.items.push(t);

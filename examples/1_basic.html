@@ -11,11 +11,11 @@
   <body>
     <script type="text/javascript">
       
-      // Create an empty treemap at the position (2, 2) as the upper left corner and width and height a bit smaller than the browser window. 'sort' could be true or false. 'direction' could be set to 'both', 'horizontal' or 'vertical'.
+      // Create an empty treemap at the position (2, 2) as the upper left corner and width and height a bit smaller than the browser window. 'order' could be 'sort' or 'shuffle'. 'direction' could be set to 'both', 'horizontal' or 'vertical'.
       let w = window.innerWidth;
       let h = window.innerHeight;
       let treemap = new Treemap(2, 2, w - 4, h - 4, {
-        sort: true,
+        order: 'sort',
         direction: 'both',
         padding: 4,
       });

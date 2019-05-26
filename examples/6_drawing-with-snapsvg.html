@@ -13,14 +13,10 @@
   <body>
     <script type="text/javascript">
 
-      // Create an empty treemap at the position (2, 2) as the upper left corner and width and height a bit smaller than the browser window. 'sort' could be true or false. 'direction' could be set to 'both', 'horizontal' or 'vertical'.
+      // Create an empty treemap
       let w = window.innerWidth;
       let h = window.innerHeight;
-      let treemap = new Treemap(2, 2, w - 6, h - 6, {
-        sort: true,
-        direction: 'both',
-        padding: 0,
-      });
+      let treemap = new Treemap(2, 2, w - 6, h - 6);
 
       // add data giving a json object and the keys where to find the children, 
       // the value and optionally what data to store.
@@ -62,12 +58,6 @@
         }.bind(item));
 
       });
-   
-
-      // helper function for convenience
-      function map(val, in_min, in_max, out_min, out_max) {
-        return (val - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
-      }
 
 
     </script>

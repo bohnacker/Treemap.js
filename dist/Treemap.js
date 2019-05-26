@@ -6,9 +6,9 @@ var packageInfo = require('./package.json');
 
 /**
  * Creates a new empty Treemap with position (x, y), width and height. 
- * To specify drawing a bit more, you can give drawing options. 'sort' is true or false. If false, the elements will be shuffeled.
- * 'direction' is either "horizontal", "vertical" or "both". With 'ignore', you can easily switch on and off branches of the Treemap. 
- * Content may be added using addData() or addItem().
+ * To specify drawing a bit more, you can give drawing options. `order` is "sort" or "shuffle".
+ * `direction` is either "horizontal", "vertical" or "both". With 'ignore', you can easily switch on and off branches of the Treemap. 
+ * Content may be added using `addData()` or `addItem()`.
  * 
  * @class Treemap
  * @constructor
@@ -68,14 +68,14 @@ function Treemap() {
    * @type {Number}
    */
   this.h = 0;
-  this.options;
+  this.options = {};
 
   if (arguments.length >= 4) {
     this.x = arguments[0];
     this.y = arguments[1];
     this.w = arguments[2];
     this.h = arguments[3];
-    this.options = arguments[4];
+    this.options = arguments[4] || {};
   } else {
     this.parent = arguments[0];
     this.data = arguments[1];
@@ -299,14 +299,14 @@ function Treemap() {
     }
 
     // sort or shuffle according to the given option
-    if (this.options.sort == true || this.options.sort == undefined) {
+    if (this.options.order == 'sort' || this.options.order == undefined) {
       // sort items
       this.items.sort(function(a, b) {
         if (a.value < b.value) return 1;
         if (a.value > b.value) return -1;
         else return 0;
       });
-    } else {
+    } else if (this.options.order == 'shuffle') {
       // shuffle explicitly
       shuffleArray(this.items);
     }
@@ -478,8 +478,10 @@ module.exports={
   "main": "index.js",
   "scripts": {
     "bundle": "browserify index.js --standalone Treemap -o dist/Treemap.js",
+    "devbundle": "npm run bundle && copyfiles -u 1 dist/Treemap.js examples/lib/",
     "dist": "npm run bundle && browserify index.js --standalone Treemap | uglifyjs > dist/Treemap.min.js && copyfiles -u 1 dist/Treemap.js examples/lib/",
-    "documentation": "documentation readme index.js --section=Reference"
+    "documentation": "documentation readme index.js --section=Reference",
+    "onchange": "onchange 'index.js' -- npm run devbundle"
   },
   "repository": {
     "type": "git",
@@ -499,7 +501,9 @@ module.exports={
   "devDependencies": {
     "browserify": "^14.4.0",
     "documentation": "^5.2.2",
-    "uglify-js": "^3.0.28"
+    "uglify-js": "^3.0.28",
+    "watch": "1.0.2",
+    "onchange": "6.0.0"
   }
 }
 

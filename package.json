@@ -6,8 +6,10 @@
   "main": "index.js",
   "scripts": {
     "bundle": "browserify index.js --standalone Treemap -o dist/Treemap.js",
+    "devbundle": "npm run bundle && copyfiles -u 1 dist/Treemap.js examples/lib/",
     "dist": "npm run bundle && browserify index.js --standalone Treemap | uglifyjs > dist/Treemap.min.js && copyfiles -u 1 dist/Treemap.js examples/lib/",
-    "documentation": "documentation readme index.js --section=Reference"
+    "documentation": "documentation readme index.js --section=Reference",
+    "onchange": "onchange 'index.js' -- npm run devbundle"
   },
   "repository": {
     "type": "git",
@@ -27,6 +29,8 @@
   "devDependencies": {
     "browserify": "^14.4.0",
     "documentation": "^5.2.2",
-    "uglify-js": "^3.0.28"
+    "uglify-js": "^3.0.28",
+    "watch": "1.0.2",
+    "onchange": "6.0.0"
   }
 }

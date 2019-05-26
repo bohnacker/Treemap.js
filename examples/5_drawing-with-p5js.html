@@ -14,17 +14,13 @@
       var treemap;
 
       function setup() {
-        // Using WebGL is quite easy with p5.js, so let's try that.
+        // Using 3d stuff with WebGL is quite easy with p5.js, so let's try that.
         createCanvas(windowWidth, windowHeight, WEBGL);
 
         let w = width * 0.5;
         let h = height * 0.5;
 
-        treemap = new Treemap(-w / 2, -h / 2, w, h, {
-          sort: true,
-          direction: 'both',
-          padding: 0,
-        });
+        treemap = new Treemap(-w / 2, -h / 2, w, h);
 
         treemap.addData(dataJSON, {children:"children", value:"size"});
 

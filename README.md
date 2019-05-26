@@ -17,8 +17,8 @@ I decided to puplish it here as a seperate library to have it as a pure, indepen
     -   [y](#y)
     -   [w](#w)
     -   [h](#h)
-    -   [minCount](#mincount)
-    -   [maxCount](#maxcount)
+    -   [minValue](#minvalue)
+    -   [maxValue](#maxvalue)
     -   [level](#level)
     -   [depth](#depth)
     -   [itemCount](#itemcount)
@@ -31,9 +31,9 @@ I decided to puplish it here as a seperate library to have it as a pure, indepen
 ### Treemap
 
 Creates a new empty Treemap with position (x, y), width and height. 
-To specify drawing a bit more, you can give drawing options. 'sort' is true or false. If false, the elements will be shuffeled.
-'direction' is either "horizontal", "vertical" or "both". With 'ignore', you can easily switch on and off branches of the Treemap. 
-Content may be added using addData() or addItem().
+To specify drawing a bit more, you can give drawing options. `order` is "sort" or "shuffle".
+`direction` is either "horizontal", "vertical" or "both". With 'ignore', you can easily switch on and off branches of the Treemap. 
+Content may be added using `addData()` or `addItem()`.
 
 **Parameters**
 
@@ -61,11 +61,11 @@ width of the rectangle.
 
 height of the rectangle.
 
-#### minCount
+#### minValue
 
 the minimum value of the items in the items array
 
-#### maxCount
+#### maxValue
 
 the maximum value of the items in the items array
 

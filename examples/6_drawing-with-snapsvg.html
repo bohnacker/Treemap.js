@@ -1,0 +1,75 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script src="lib/snap.svg-min.js"></script>
+    <script src="lib/Treemap.js"></script>
+    <script src="data/example-json-hierarchical.js"></script>
+    <style> 
+      body {padding: 0; margin: 0;} 
+      canvas {vertical-align: top;}
+      div.treemap-item {position: absolute; border: 1px solid #0003;}
+    </style>
+  </head>
+  <body>
+    <script type="text/javascript">
+
+      // Create an empty treemap at the position (2, 2) as the upper left corner and width and height a bit smaller than the browser window. 'sort' could be true or false. 'direction' could be set to 'both', 'horizontal' or 'vertical'.
+      let w = window.innerWidth;
+      let h = window.innerHeight;
+      let treemap = new Treemap(2, 2, w - 6, h - 6, {
+        sort: true,
+        direction: 'both',
+        padding: 0,
+      });
+
+      // add data giving a json object and the keys where to find the children, 
+      // the value and optionally what data to store.
+      treemap.addData(dataJSON, {children:"children", value:"size"});
+
+
+      // Calculate the treemap
+      treemap.calculate();
+
+
+      // prepare snap-svg paper for drawing
+      let paper = Snap(w, h);
+
+      // Draw the treemap
+      treemap.draw(function(item) {
+        // Create a rectangle for every item
+        item.svgElement = paper.rect(item.x, item.y, item.w, item.h).attr({
+          fill: "#0000",
+          stroke: "#0003",
+          strokeWidth: 0.3
+        });
+
+        // Highlight on hover. Go all the way down to the root element 
+        item.svgElement.mouseover(function (e) {
+          let it = item;
+          it.svgElement.attr('fill', '#06ff');
+          while (it.parent) {
+            it = it.parent;
+            it.svgElement.attr('fill', '#06f3');
+          }
+        }.bind(item));
+
+        item.svgElement.mouseout(function (e) {
+          let it = item;
+          while (it.parent) {
+            it.svgElement.attr('fill', '#0000');
+            it = it.parent;
+          }
+        }.bind(item));
+
+      });
+   
+
+      // helper function for convenience
+      function map(val, in_min, in_max, out_min, out_max) {
+        return (val - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
+      }
+
+
+    </script>
+  </body>
+</html>

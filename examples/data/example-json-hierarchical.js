@@ -1,5505 +1,6017 @@
 dataJSON = {
   "type": "directory",
-  "name": "p5js",
-  "children": [
-    {
+  "name": "Code-Package-p5.js",
+  "children": [{
+    "type": "directory",
+    "name": "02_M",
+    "children": [{
       "type": "directory",
-      "name": "build",
-      "children": []
-    },
-    {
-      "type": "file",
-      "name": "CONTRIBUTING.md",
-      "size": 2292
-    },
-    {
+      "name": "M_2_2_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1070
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "M_2_2_01.png",
+        "size": 7390
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 4126
+      }]
+    }, {
       "type": "directory",
-      "name": "docs",
-      "children": [
-        {
+      "name": "M_1_5_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 3869
+      }, {
+        "type": "directory",
+        "name": "data",
+        "children": [{
+          "count": 1,
           "type": "file",
-          "name": "preprocessor.js",
-          "size": 4667
-        },
-        {
-          "type": "directory",
-          "name": "yuidoc-p5-theme",
-          "children": [
-            {
-              "type": "directory",
-              "name": "assets",
-              "children": [
-                {
-                  "type": "file",
-                  "name": "Avenir.otf",
-                  "size": 127448
-                },
-                {
-                  "type": "file",
-                  "name": "AvenirNextLTPro-Demi.otf",
-                  "size": 69940
-                },
-                {
-                  "type": "file",
-                  "name": "beat.mp3",
-                  "size": 254118
-                },
-                {
-                  "type": "file",
-                  "name": "beat.ogg",
-                  "size": 77736
-                },
-                {
-                  "type": "file",
-                  "name": "beatbox.mp3",
-                  "size": 8095
-                },
-                {
-                  "type": "file",
-                  "name": "beatbox.ogg",
-                  "size": 12726
-                },
-                {
-                  "type": "file",
-                  "name": "Bold.ttf",
-                  "size": 148932
-                },
-                {
-                  "type": "file",
-                  "name": "bricks.jpg",
-                  "size": 3547
-                },
-                {
-                  "type": "file",
-                  "name": "bricks_third.jpg",
-                  "size": 5167
-                },
-                {
-                  "type": "file",
-                  "name": "bx-spring.mp3",
-                  "size": 129628
-                },
-                {
-                  "type": "file",
-                  "name": "bx-spring.ogg",
-                  "size": 149177
-                },
-                {
-                  "type": "file",
-                  "name": "concrete-tunnel.mp3",
-                  "size": 96124
-                },
-                {
-                  "type": "file",
-                  "name": "concrete-tunnel.ogg",
-                  "size": 123737
-                },
-                {
-                  "type": "file",
-                  "name": "Damscray_-_Dancing_Tiger_01.mp3",
-                  "size": 25933
-                },
-                {
-                  "type": "file",
-                  "name": "Damscray_-_Dancing_Tiger_01.ogg",
-                  "size": 31943
-                },
-                {
-                  "type": "file",
-                  "name": "Damscray_-_Dancing_Tiger_02.mp3",
-                  "size": 57362
-                },
-                {
-                  "type": "file",
-                  "name": "Damscray_-_Dancing_Tiger_02.ogg",
-                  "size": 62905
-                },
-                {
-                  "type": "file",
-                  "name": "Damscray_DancingTiger.mp3",
-                  "size": 57362
-                },
-                {
-                  "type": "file",
-                  "name": "Damscray_DancingTiger.ogg",
-                  "size": 62905
-                },
-                {
-                  "type": "file",
-                  "name": "doorbell.mp3",
-                  "size": 93408
-                },
-                {
-                  "type": "file",
-                  "name": "doorbell.ogg",
-                  "size": 75385
-                },
-                {
-                  "type": "file",
-                  "name": "drum.mp3",
-                  "size": 34495
-                },
-                {
-                  "type": "file",
-                  "name": "drum.ogg",
-                  "size": 15995
-                },
-                {
-                  "type": "file",
-                  "name": "fingers.mov",
-                  "size": 238059
-                },
-                {
-                  "type": "file",
-                  "name": "Italic.ttf",
-                  "size": 117328
-                },
-                {
-                  "type": "directory",
-                  "name": "js",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "require.min.js",
-                      "size": 15234
-                    }
-                  ]
-                },
-                {
-                  "type": "file",
-                  "name": "laDefense.jpg",
-                  "size": 16451
-                },
-                {
-                  "type": "file",
-                  "name": "large-dark-plate.mp3",
-                  "size": 115324
-                },
-                {
-                  "type": "file",
-                  "name": "large-dark-plate.ogg",
-                  "size": 135199
-                },
-                {
-                  "type": "file",
-                  "name": "lucky_dragons_-_power_melody.mp3",
-                  "size": 139997
-                },
-                {
-                  "type": "file",
-                  "name": "lucky_dragons_-_power_melody.ogg",
-                  "size": 151321
-                },
-                {
-                  "type": "file",
-                  "name": "mammals.csv",
-                  "size": 81
-                },
-                {
-                  "type": "file",
-                  "name": "mammals.xml",
-                  "size": 210
-                },
-                {
-                  "type": "file",
-                  "name": "mask.png",
-                  "size": 81093
-                },
-                {
-                  "type": "file",
-                  "name": "mask2.png",
-                  "size": 6273
-                },
-                {
-                  "type": "file",
-                  "name": "moonwalk.jpg",
-                  "size": 269690
-                },
-                {
-                  "type": "file",
-                  "name": "reference.css",
-                  "size": 869
-                },
-                {
-                  "type": "file",
-                  "name": "Regular.otf",
-                  "size": 127448
-                },
-                {
-                  "type": "file",
-                  "name": "rockies.jpg",
-                  "size": 23073
-                },
-                {
-                  "type": "file",
-                  "name": "small-plate.mp3",
-                  "size": 38428
-                },
-                {
-                  "type": "file",
-                  "name": "small-plate.ogg",
-                  "size": 52187
-                },
-                {
-                  "type": "file",
-                  "name": "studio-b.mp3",
-                  "size": 24316
-                },
-                {
-                  "type": "file",
-                  "name": "studio-b.ogg",
-                  "size": 32614
-                },
-                {
-                  "type": "file",
-                  "name": "teapot.obj",
-                  "size": 51493
-                },
-                {
-                  "type": "file",
-                  "name": "test.txt",
-                  "size": 99
-                }
-              ]
-            },
-            {
-              "type": "directory",
-              "name": "helpers",
-              "children": [
-                {
-                  "type": "file",
-                  "name": "helpers_dev.js",
-                  "size": 591
-                },
-                {
-                  "type": "file",
-                  "name": "helpers_prod.js",
-                  "size": 524
-                }
-              ]
-            },
-            {
-              "type": "directory",
-              "name": "layouts",
-              "children": [
-                {
-                  "type": "file",
-                  "name": "main.handlebars",
-                  "size": 7563
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "directory",
-          "name": "yuidoc-p5-theme-src",
-          "children": [
-            {
-              "type": "directory",
-              "name": "scripts",
-              "children": [
-                {
-                  "type": "file",
-                  "name": "config.js",
-                  "size": 959
-                },
-                {
-                  "type": "file",
-                  "name": "documented-method.js",
-                  "size": 1554
-                },
-                {
-                  "type": "file",
-                  "name": "main.js",
-                  "size": 2243
-                },
-                {
-                  "type": "file",
-                  "name": "router.js",
-                  "size": 5379
-                },
-                {
-                  "type": "directory",
-                  "name": "tpl",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "class.html",
-                      "size": 1004
-                    },
-                    {
-                      "type": "file",
-                      "name": "item.html",
-                      "size": 4083
-                    },
-                    {
-                      "type": "file",
-                      "name": "itemEnd.html",
-                      "size": 1083
-                    },
-                    {
-                      "type": "file",
-                      "name": "library.html",
-                      "size": 893
-                    },
-                    {
-                      "type": "file",
-                      "name": "list.html",
-                      "size": 623
-                    },
-                    {
-                      "type": "file",
-                      "name": "menu.html",
-                      "size": 696
-                    },
-                    {
-                      "type": "file",
-                      "name": "search.html",
-                      "size": 161
-                    },
-                    {
-                      "type": "file",
-                      "name": "search_suggestion.html",
-                      "size": 423
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "vendor",
-                  "children": [
-                    {
-                      "type": "directory",
-                      "name": "backbone-amd",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "backbone.js",
-                          "size": 60280
-                        },
-                        {
-                          "type": "file",
-                          "name": "backbone.min.js",
-                          "size": 19651
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "bootstrap",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "affix.js",
-                          "size": 4039
-                        },
-                        {
-                          "type": "file",
-                          "name": "alert.js",
-                          "size": 2113
-                        },
-                        {
-                          "type": "file",
-                          "name": "button.js",
-                          "size": 2883
-                        },
-                        {
-                          "type": "file",
-                          "name": "carousel.js",
-                          "size": 6018
-                        },
-                        {
-                          "type": "file",
-                          "name": "collapse.js",
-                          "size": 4840
-                        },
-                        {
-                          "type": "file",
-                          "name": "dropdown.js",
-                          "size": 4246
-                        },
-                        {
-                          "type": "file",
-                          "name": "modal.js",
-                          "size": 6687
-                        },
-                        {
-                          "type": "file",
-                          "name": "popover.js",
-                          "size": 3178
-                        },
-                        {
-                          "type": "file",
-                          "name": "scrollspy.js",
-                          "size": 4352
-                        },
-                        {
-                          "type": "file",
-                          "name": "tab.js",
-                          "size": 2945
-                        },
-                        {
-                          "type": "file",
-                          "name": "tooltip.js",
-                          "size": 12133
-                        },
-                        {
-                          "type": "file",
-                          "name": "transition.js",
-                          "size": 1544
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "jquery",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "jquery-1.11.0.js",
-                          "size": 282944
-                        },
-                        {
-                          "type": "file",
-                          "name": "jquery-1.11.0.min.js",
-                          "size": 96381
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "prettify",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "prettify-min.js",
-                          "size": 13632
-                        },
-                        {
-                          "type": "file",
-                          "name": "prettify.js",
-                          "size": 63320
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "require",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "domReady.js",
-                          "size": 4035
-                        },
-                        {
-                          "type": "file",
-                          "name": "require.js",
-                          "size": 15234
-                        },
-                        {
-                          "type": "file",
-                          "name": "require.min.js",
-                          "size": 15234
-                        },
-                        {
-                          "type": "file",
-                          "name": "text.js",
-                          "size": 15464
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "typeahead-amd",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "typeahead.bundle.js",
-                          "size": 68551
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "underscore-amd",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "underscore.js",
-                          "size": 43813
-                        },
-                        {
-                          "type": "file",
-                          "name": "underscore.min.js",
-                          "size": 14399
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "views",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "itemView.js",
-                      "size": 5572
-                    },
-                    {
-                      "type": "file",
-                      "name": "libraryView.js",
-                      "size": 2662
-                    },
-                    {
-                      "type": "file",
-                      "name": "listView.js",
-                      "size": 3339
-                    },
-                    {
-                      "type": "file",
-                      "name": "menuView.js",
-                      "size": 1314
-                    },
-                    {
-                      "type": "file",
-                      "name": "pageView.js",
-                      "size": 1689
-                    },
-                    {
-                      "type": "file",
-                      "name": "searchView.js",
-                      "size": 3439
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "file",
-      "name": "Gruntfile.js",
-      "size": 11331
-    },
-    {
-      "type": "file",
-      "name": "ISSUE_TEMPLATE.md",
-      "size": 1300
-    },
-    {
+          "name": "arrow.svg",
+          "size": 3091
+        }]
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "M_1_5_01.png",
+        "size": 81193
+      }]
+    }, {
       "type": "directory",
-      "name": "lib",
-      "children": [
-        {
-          "type": "directory",
-          "name": "addons",
-          "children": [
-            {
-              "type": "file",
-              "name": "p5.dom.js",
-              "size": 71513
-            },
-            {
-              "type": "file",
-              "name": "p5.sound.js",
-              "size": 359327
-            },
-            {
-              "type": "file",
-              "name": "p5.sound.min.js",
-              "size": 126787
-            }
-          ]
-        },
-        {
-          "type": "directory",
-          "name": "empty-example",
-          "children": [
-            {
-              "type": "file",
-              "name": "index.html",
-              "size": 304
-            },
-            {
-              "type": "file",
-              "name": "sketch.js",
-              "size": 0
-            }
-          ]
-        }
-      ]
-    },
-    {
+      "name": "M_1_1_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "M_1_1_01.png",
+        "size": 120015
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 1911
+      }]
+    }, {
+      "type": "directory",
+      "name": "M_6_2_02",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1092
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "M_6_2_02.png",
+        "size": 27036
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 3093
+      }]
+    }, {
+      "type": "directory",
+      "name": "M_2_3_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "M_2_3_01.png",
+        "size": 11945
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1070
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 3353
+      }]
+    }, {
+      "type": "directory",
+      "name": "M_1_4_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1257
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "M_1_4_01.png",
+        "size": 680789
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 5079
+      }]
+    }, {
+      "type": "directory",
+      "name": "M_1_3_02",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "M_1_3_02.png",
+        "size": 303060
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 1608
+      }]
+    }, {
+      "type": "directory",
+      "name": "M_1_3_03",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 2853
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "M_1_3_03.png",
+        "size": 81886
+      }]
+    }, {
+      "count": 1,
       "type": "file",
-      "name": "license.txt",
-      "size": 24480
-    },
-    {
+      "name": ".gitkeep",
+      "size": 0
+    }, {
+      "type": "directory",
+      "name": "M_2_5_02",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "M_2_5_02.png",
+        "size": 91345
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 3984
+      }]
+    }, {
+      "type": "directory",
+      "name": "M_6_1_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1129
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "Node.js",
+        "size": 2150
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 2157
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "M_6_1_01.png",
+        "size": 74409
+      }]
+    }, {
+      "type": "directory",
+      "name": "M_1_5_02",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1213
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 2278
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "M_1_5_02.png",
+        "size": 443760
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "Agent.js",
+        "size": 1327
+      }]
+    }, {
+      "type": "directory",
+      "name": "M_5_1_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1070
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "M_5_1_01.png",
+        "size": 28557
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 2646
+      }]
+    }, {
+      "type": "directory",
+      "name": "M_1_5_04",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1214
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 2561
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "M_1_5_04.png",
+        "size": 514861
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "Agent.js",
+        "size": 2384
+      }]
+    }, {
+      "type": "directory",
+      "name": "M_1_5_03",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1214
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 2455
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "M_1_5_03.png",
+        "size": 448472
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "Agent.js",
+        "size": 1530
+      }]
+    }, {
+      "type": "directory",
+      "name": "M_6_2_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1092
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "M_6_2_01.png",
+        "size": 27812
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 2364
+      }]
+    }, {
+      "type": "directory",
+      "name": "M_2_3_02",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "M_2_3_02.png",
+        "size": 34675
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1070
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 3707
+      }]
+    }, {
+      "type": "directory",
+      "name": "M_1_3_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "M_1_3_01.png",
+        "size": 6884
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 2064
+      }]
+    }, {
+      "type": "directory",
+      "name": "M_2_1_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1070
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "M_2_1_01.png",
+        "size": 4917
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 3427
+      }]
+    }, {
+      "type": "directory",
+      "name": "M_6_1_03",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1190
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "Node.js",
+        "size": 2150
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 3978
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "M_6_1_03.png",
+        "size": 34212
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "Spring.js",
+        "size": 794
+      }]
+    }, {
+      "type": "directory",
+      "name": "M_1_2_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "M_1_2_01.png",
+        "size": 28719
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 2084
+      }]
+    }, {
+      "type": "directory",
+      "name": "M_2_5_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1070
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "M_2_5_01.png",
+        "size": 246999
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 3552
+      }]
+    }, {
+      "type": "directory",
+      "name": "M_6_1_02",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1190
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "Node.js",
+        "size": 2150
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 2213
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "M_6_1_02.png",
+        "size": 4568
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "Spring.js",
+        "size": 794
+      }]
+    }]
+  }, {
+    "count": 1,
+    "type": "file",
+    "name": "index.html",
+    "size": 28042
+  }, {
+    "count": 1,
+    "type": "file",
+    "name": "LICENSE",
+    "size": 11357
+  }, {
+    "count": 1,
+    "type": "file",
+    "name": ".eslintrc",
+    "size": 1253
+  }, {
+    "type": "directory",
+    "name": "libraries",
+    "children": [{
+      "type": "directory",
+      "name": "treemap-squarify",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "README.md",
+        "size": 11593
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "treemap-squarify.js",
+        "size": 10108
+      }]
+    }, {
+      "type": "directory",
+      "name": "quantize",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "quantize.js",
+        "size": 16188
+      }]
+    }, {
+      "type": "directory",
+      "name": "gif.js",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "gif.js",
+        "size": 13451
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "gif.js.map",
+        "size": 29120
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "gif.worker.js.map",
+        "size": 55277
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "gif.worker.js",
+        "size": 16636
+      }]
+    }, {
+      "type": "directory",
+      "name": "rita",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "rita-tiny.js",
+        "size": 421566
+      }]
+    }, {
+      "type": "directory",
+      "name": "p5",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "p5.dom.js",
+        "size": 97488
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "p5.min.js",
+        "size": 461484
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "p5.js",
+        "size": 3010453
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "p5.dom.min.js",
+        "size": 20978
+      }]
+    }, {
+      "type": "directory",
+      "name": "filesaver",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "FileSaver.js",
+        "size": 5965
+      }]
+    }, {
+      "type": "directory",
+      "name": "opentype.js",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "opentype.js",
+        "size": 306878
+      }]
+    }, {
+      "count": 1,
       "type": "file",
-      "name": "package.json",
-      "size": 2103
-    },
-    {
+      "name": "encapsulate.js",
+      "size": 3692
+    }, {
+      "type": "directory",
+      "name": "kd-tree",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "kdTree.js",
+        "size": 12864
+      }]
+    }, {
+      "type": "directory",
+      "name": "jquery",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "jquery.js",
+        "size": 268039
+      }]
+    }, {
+      "type": "directory",
+      "name": "generative-design-library",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "generative-design-library.js",
+        "size": 310821
+      }]
+    }, {
+      "type": "directory",
+      "name": "quicksettings",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "quicksettings.js",
+        "size": 59168
+      }]
+    }, {
+      "count": 1,
+      "type": "file",
+      "name": "concatenator-with-sourcemap.js",
+      "size": 1412
+    }, {
+      "count": 1,
+      "type": "file",
+      "name": "concatenator.js",
+      "size": 867
+    }, {
+      "count": 1,
+      "type": "file",
+      "name": "concatenator-readme.md",
+      "size": 429
+    }, {
+      "type": "directory",
+      "name": "chroma-js",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "chroma.js",
+        "size": 76474
+      }]
+    }, {
+      "count": 1,
+      "type": "file",
+      "name": "help-tooltip.js",
+      "size": 1824
+    }, {
+      "count": 1,
+      "type": "file",
+      "name": "setup.js",
+      "size": 1652
+    }, {
+      "type": "directory",
+      "name": "g.js",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "g.js",
+        "size": 1001500
+      }]
+    }, {
+      "type": "directory",
+      "name": "gg-dep-bundle",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "gg-dep-bundle.js.map",
+        "size": 1314491
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "gif.worker.js.map",
+        "size": 55277
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "gg-dep-bundle.js",
+        "size": 1447227
+      }]
+    }, {
+      "type": "directory",
+      "name": "tooltipster",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "tooltipster.bundle.css",
+        "size": 9686
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "tooltipster.bundle.js",
+        "size": 119776
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "tooltipster-sideTip-noir.min.css",
+        "size": 1324
+      }]
+    }]
+  }, {
+    "type": "directory",
+    "name": "01_P",
+    "children": [{
+      "type": "directory",
+      "name": "P_2_2_6_02",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_2_2_6_02.png",
+        "size": 277791
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 5157
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_2_6_05",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_2_2_6_05.png",
+        "size": 187134
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 7523
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_1_1_02",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_2_1_1_02.png",
+        "size": 173217
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 3859
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_3_2_2_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1322
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_3_2_2_01.png",
+        "size": 278075
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 3207
+      }, {
+        "type": "directory",
+        "name": "data",
+        "children": [{
+          "count": 1,
+          "type": "file",
+          "name": "FreeSans_CREDITS",
+          "size": 19517
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "FreeSans_COPYING",
+          "size": 18045
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "FreeSans_README",
+          "size": 4313
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "FreeSans.otf",
+          "size": 706688
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "FreeSans_AUTHORS",
+          "size": 4926
+        }]
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_1_5_04",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_2_1_5_04.png",
+        "size": 77332
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 3802
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_1_2_3_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_1_2_3_01.png",
+        "size": 5345
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 5037
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_1_5_03",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_2_1_5_03.png",
+        "size": 1036504
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 2971
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_4_3_1_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1070
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_4_3_1_01.png",
+        "size": 316160
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 5372
+      }, {
+        "type": "directory",
+        "name": "data",
+        "children": [{
+          "count": 1,
+          "type": "file",
+          "name": "pic.png",
+          "size": 11602
+        }]
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_1_5_02",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_2_1_5_02.png",
+        "size": 1827034
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 1856
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_2_2_02",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1070
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_2_2_2_02.png",
+        "size": 434890
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 3749
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_3_1_1_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_3_1_1_01.png",
+        "size": 14517
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 3037
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_2_6_04",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_2_2_6_04.png",
+        "size": 1421643
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 7208
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_3_0_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_3_0_01.png",
+        "size": 5183
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 1670
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_1_1_03",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "P_2_1_1_03.png",
+        "size": 169785
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 3911
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_2_6_03",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_2_2_6_03.png",
+        "size": 503310
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 6580
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_1_1_04",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "P_2_1_1_04.png",
+        "size": 74804
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 3811
+      }, {
+        "type": "directory",
+        "name": "data",
+        "children": [{
+          "count": 1,
+          "type": "file",
+          "name": "module_1.svg",
+          "size": 262
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "module_3.svg",
+          "size": 259
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "module_2.svg",
+          "size": 1175
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "module_6.svg",
+          "size": 1345
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "module_7.svg",
+          "size": 702
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "module_5.svg",
+          "size": 656
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "module_4.svg",
+          "size": 319
+        }]
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_0_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_2_0_01.png",
+        "size": 37352
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 1628
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_1_4_02",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 2485
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_2_1_4_02.png",
+        "size": 178306
+      }, {
+        "type": "directory",
+        "name": "data",
+        "children": [{
+          "count": 1,
+          "type": "file",
+          "name": "ball.mov",
+          "size": 38379
+        }]
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_2_4_02_class_version",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 2786
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_2_2_4_02_class_version.png",
+        "size": 906736
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_2_3_02",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1070
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_2_2_3_02.png",
+        "size": 142539
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 4439
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_4_2_1_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1070
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_4_2_1_01.png",
+        "size": 403809
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 6395
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_1_1_1_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 1520
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_1_1_1_01.png",
+        "size": 5900
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_3_6_02",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1070
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_2_3_6_02.png",
+        "size": 37359
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 6912
+      }, {
+        "type": "directory",
+        "name": "data",
+        "children": [{
+          "count": 1,
+          "type": "file",
+          "name": "A_10.svg",
+          "size": 565
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "A_04.svg",
+          "size": 619
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "C_15.svg",
+          "size": 3616
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "D_08.svg",
+          "size": 1086
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "C_01.svg",
+          "size": 1128
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "D_09.svg",
+          "size": 1294
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "C_00.svg",
+          "size": 1104
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "C_14.svg",
+          "size": 2233
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "A_05.svg",
+          "size": 581
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "A_11.svg",
+          "size": 1002
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "A_07.svg",
+          "size": 1024
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "A_13.svg",
+          "size": 1028
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "C_02.svg",
+          "size": 1214
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "C_03.svg",
+          "size": 1417
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "A_12.svg",
+          "size": 724
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "A_06.svg",
+          "size": 729
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "A_02.svg",
+          "size": 620
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "C_07.svg",
+          "size": 2069
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "C_13.svg",
+          "size": 2196
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "C_12.svg",
+          "size": 1415
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "C_06.svg",
+          "size": 1452
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "A_03.svg",
+          "size": 738
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "A_15.svg",
+          "size": 1091
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "F_08.svg",
+          "size": 969
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "A_01.svg",
+          "size": 620
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "C_10.svg",
+          "size": 1065
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "C_04.svg",
+          "size": 1217
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "J_08.svg",
+          "size": 1091
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "J_09.svg",
+          "size": 1295
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "C_05.svg",
+          "size": 1082
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "C_11.svg",
+          "size": 2210
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "F_09.svg",
+          "size": 652
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "A_00.svg",
+          "size": 540
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "A_14.svg",
+          "size": 1032
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "K_06.svg",
+          "size": 1609
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "K_12.svg",
+          "size": 1611
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "E_03.svg",
+          "size": 898
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "E_02.svg",
+          "size": 823
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "K_13.svg",
+          "size": 1150
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "K_07.svg",
+          "size": 1174
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "K_11.svg",
+          "size": 1174
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "K_05.svg",
+          "size": 1223
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "B_09.svg",
+          "size": 1009
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "E_00.svg",
+          "size": 855
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "E_14.svg",
+          "size": 730
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "E_15.svg",
+          "size": 897
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "B_08.svg",
+          "size": 724
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "E_01.svg",
+          "size": 765
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "K_04.svg",
+          "size": 706
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "K_10.svg",
+          "size": 1267
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "E_05.svg",
+          "size": 802
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "E_11.svg",
+          "size": 748
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "K_14.svg",
+          "size": 1153
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "K_00.svg",
+          "size": 841
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "K_01.svg",
+          "size": 686
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "K_15.svg",
+          "size": 1703
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "E_10.svg",
+          "size": 840
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "E_04.svg",
+          "size": 790
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "E_12.svg",
+          "size": 826
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "E_06.svg",
+          "size": 926
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "K_03.svg",
+          "size": 1614
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "K_02.svg",
+          "size": 682
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "E_07.svg",
+          "size": 747
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "E_13.svg",
+          "size": 755
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "B_03.svg",
+          "size": 1145
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "B_02.svg",
+          "size": 883
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "B_14.svg",
+          "size": 1299
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "E_09.svg",
+          "size": 936
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "B_00.svg",
+          "size": 487
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "E_08.svg",
+          "size": 736
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "B_01.svg",
+          "size": 748
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "B_15.svg",
+          "size": 1569
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "K_09.svg",
+          "size": 1594
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "B_11.svg",
+          "size": 1481
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "B_05.svg",
+          "size": 589
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "B_04.svg",
+          "size": 771
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "B_10.svg",
+          "size": 572
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "K_08.svg",
+          "size": 681
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "B_06.svg",
+          "size": 1265
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "B_12.svg",
+          "size": 1027
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "B_13.svg",
+          "size": 1286
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "B_07.svg",
+          "size": 1425
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "F_04.svg",
+          "size": 1145
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "F_10.svg",
+          "size": 1532
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "C_08.svg",
+          "size": 1075
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "D_01.svg",
+          "size": 1069
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "D_15.svg",
+          "size": 1330
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "J_10.svg",
+          "size": 1162
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "J_04.svg",
+          "size": 1096
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "J_05.svg",
+          "size": 1174
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "J_11.svg",
+          "size": 1375
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "D_14.svg",
+          "size": 1264
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "C_09.svg",
+          "size": 1394
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "D_00.svg",
+          "size": 692
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "F_11.svg",
+          "size": 749
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "F_05.svg",
+          "size": 1562
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "F_13.svg",
+          "size": 735
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "F_07.svg",
+          "size": 780
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "D_02.svg",
+          "size": 980
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "J_07.svg",
+          "size": 1494
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "J_13.svg",
+          "size": 1411
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "J_12.svg",
+          "size": 1307
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "J_06.svg",
+          "size": 1398
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "D_03.svg",
+          "size": 1218
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "F_06.svg",
+          "size": 659
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "F_12.svg",
+          "size": 640
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "F_02.svg",
+          "size": 1065
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "J_02.svg",
+          "size": 973
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "D_13.svg",
+          "size": 1355
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "D_07.svg",
+          "size": 1226
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "D_06.svg",
+          "size": 1167
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "D_12.svg",
+          "size": 1202
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "J_03.svg",
+          "size": 1306
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "F_03.svg",
+          "size": 710
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "A_08.svg",
+          "size": 620
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "F_01.svg",
+          "size": 1017
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "F_15.svg",
+          "size": 892
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "J_15.svg",
+          "size": 1755
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "J_01.svg",
+          "size": 940
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "D_04.svg",
+          "size": 1115
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "D_10.svg",
+          "size": 1492
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "D_11.svg",
+          "size": 1281
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "D_05.svg",
+          "size": 1785
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "J_00.svg",
+          "size": 738
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "J_14.svg",
+          "size": 1546
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "F_14.svg",
+          "size": 766
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "A_09.svg",
+          "size": 729
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "F_00.svg",
+          "size": 614
+        }]
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_4_3_4_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1232
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_4_3_4_01.png",
+        "size": 1296058
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 2875
+      }, {
+        "type": "directory",
+        "name": "data",
+        "children": [{
+          "count": 1,
+          "type": "file",
+          "name": "pic.png",
+          "size": 11602
+        }]
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "emoji-average-colors.js",
+        "size": 80445
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_3_1_4_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1070
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_3_1_4_01.png",
+        "size": 706444
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 3313
+      }, {
+        "type": "directory",
+        "name": "data",
+        "children": [{
+          "count": 1,
+          "type": "file",
+          "name": "miso-info.txt",
+          "size": 1091
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "pride_and_prejudice_CREDITS.txt",
+          "size": 1740
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "pride_and_prejudice.txt",
+          "size": 686536
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Faust.txt",
+          "size": 191862
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "pride_and_prejudice_short.txt",
+          "size": 376
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "miso-bold.ttf",
+          "size": 60860
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Macbeth.txt",
+          "size": 103605
+        }]
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_3_2_3_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "P_3_2_3_01.png",
+        "size": 678166
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1322
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 4404
+      }, {
+        "type": "directory",
+        "name": "data",
+        "children": [{
+          "count": 1,
+          "type": "file",
+          "name": "FreeSans_CREDITS",
+          "size": 19517
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "FreeSans_COPYING",
+          "size": 18045
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "FreeSansNoPunch.otf",
+          "size": 83328
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "FreeSans_README",
+          "size": 4313
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "FreeSans.otf",
+          "size": 706688
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "FreeSans_AUTHORS",
+          "size": 4926
+        }]
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_4_1_2_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1070
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_4_1_2_01.png",
+        "size": 299281
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 1570
+      }, {
+        "type": "directory",
+        "name": "data",
+        "children": [{
+          "count": 1,
+          "type": "file",
+          "name": "pic.png",
+          "size": 787557
+        }]
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_1_4_04",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 2798
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_2_1_4_04.png",
+        "size": 414979
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_1_2_2_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1241
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 3005
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_1_2_2_01.png",
+        "size": 27587
+      }, {
+        "type": "directory",
+        "name": "data",
+        "children": [{
+          "count": 1,
+          "type": "file",
+          "name": "pic4_alt.jpg",
+          "size": 349449
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "pic1.jpg",
+          "size": 312187
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "pic3.jpg",
+          "size": 609502
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "pic2.jpg",
+          "size": 400513
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "pic5.jpg",
+          "size": 451970
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "pic4.jpg",
+          "size": 1678179
+        }]
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_1_4_03",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1292
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 2786
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_2_1_4_03.png",
+        "size": 200772
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_4_2_2_02",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 1926
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_4_2_2_02.png",
+        "size": 350925
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_3_1_3_02",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1070
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_3_1_3_02.png",
+        "size": 653119
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 3669
+      }, {
+        "type": "directory",
+        "name": "data",
+        "children": [{
+          "count": 1,
+          "type": "file",
+          "name": "faust_kurz.txt",
+          "size": 715
+        }]
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_3_1_3_05",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1155
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_3_1_3_05.png",
+        "size": 690511
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 5838
+      }, {
+        "type": "directory",
+        "name": "data",
+        "children": [{
+          "count": 1,
+          "type": "file",
+          "name": "AllTheWorldsAStage.txt",
+          "size": 1218
+        }]
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_4_3_3_02",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1241
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_4_3_3_02.png",
+        "size": 389104
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 3945
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_3_1_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1070
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_2_3_1_01.png",
+        "size": 181360
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 2716
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_1_3_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "P_2_1_3_01.png",
+        "size": 16853
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1070
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 2620
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_2_4_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_2_2_4_01.png",
+        "size": 27932
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 2454
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_3_1_3_04",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1070
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_3_1_3_04.png",
+        "size": 900962
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 5167
+      }, {
+        "type": "directory",
+        "name": "data",
+        "children": [{
+          "count": 1,
+          "type": "file",
+          "name": "faust_kurz.txt",
+          "size": 715
+        }]
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_3_1_3_03",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1070
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_3_1_3_03.png",
+        "size": 1133011
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 4238
+      }, {
+        "type": "directory",
+        "name": "data",
+        "children": [{
+          "count": 1,
+          "type": "file",
+          "name": "faust_short.txt",
+          "size": 183
+        }]
+      }]
+    }, {
+      "count": 1,
+      "type": "file",
+      "name": ".gitkeep",
+      "size": 0
+    }, {
+      "type": "directory",
+      "name": "P_3_2_1_02",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1322
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_3_2_1_02.png",
+        "size": 326891
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 4505
+      }, {
+        "type": "directory",
+        "name": "data",
+        "children": [{
+          "count": 1,
+          "type": "file",
+          "name": "C_01.svg",
+          "size": 678
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "C_02.svg",
+          "size": 1785
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "A_02.svg",
+          "size": 633
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "A_01.svg",
+          "size": 550
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "FreeSans_CREDITS",
+          "size": 19517
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "FreeSans_COPYING",
+          "size": 18045
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "B_02.svg",
+          "size": 633
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "B_01.svg",
+          "size": 647
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "FreeSans_README",
+          "size": 4313
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "D_01.svg",
+          "size": 2412
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "D_02.svg",
+          "size": 1683
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "FreeSans.otf",
+          "size": 706688
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "FreeSans_AUTHORS",
+          "size": 4926
+        }]
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_1_2_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_2_1_2_01.png",
+        "size": 74698
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 2031
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_2_5_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1070
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 3940
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_2_2_5_01.png",
+        "size": 409291
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_3_2_5_03",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1322
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_3_2_5_03.png",
+        "size": 501397
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 13890
+      }, {
+        "type": "directory",
+        "name": "data",
+        "children": [{
+          "count": 1,
+          "type": "file",
+          "name": "FreeSans_CREDITS",
+          "size": 19517
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "FreeSans_COPYING",
+          "size": 18045
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "FreeSans_README",
+          "size": 4313
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "FreeSans.otf",
+          "size": 706688
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "FreeSans_AUTHORS",
+          "size": 4926
+        }]
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_4_2_3_04",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1749
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_4_2_3_04.png",
+        "size": 1108670
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "gui.js",
+        "size": 1695
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 5907
+      }, {
+        "type": "directory",
+        "name": "data",
+        "children": [{
+          "count": 1,
+          "type": "file",
+          "name": "subs.vtt",
+          "size": 27735
+        }]
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_4_2_3_03",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1834
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_4_2_3_03.png",
+        "size": 844030
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "gui.js",
+        "size": 1642
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 6557
+      }, {
+        "type": "directory",
+        "name": "data",
+        "children": [{
+          "count": 1,
+          "type": "file",
+          "name": "subs.vtt",
+          "size": 27735
+        }]
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_3_4_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_2_3_4_01.png",
+        "size": 422417
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 3383
+      }, {
+        "type": "directory",
+        "name": "data",
+        "children": [{
+          "count": 1,
+          "type": "file",
+          "name": "04.svg",
+          "size": 587
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "05.svg",
+          "size": 590
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "07.svg",
+          "size": 913
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "06.svg",
+          "size": 595
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "02.svg",
+          "size": 580
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "03.svg",
+          "size": 639
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "01.svg",
+          "size": 580
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "08.svg",
+          "size": 1227
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "09.svg",
+          "size": 669
+        }]
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_3_1_2_02",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "P_3_1_2_02.png",
+        "size": 243318
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1070
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 6863
+      }, {
+        "type": "directory",
+        "name": "data",
+        "children": [{
+          "count": 1,
+          "type": "file",
+          "name": "miso-info.txt",
+          "size": 1052
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "space.svg",
+          "size": 258
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "return.svg",
+          "size": 287
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "comma.svg",
+          "size": 272
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "space2.svg",
+          "size": 265
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "exclamationmark.svg",
+          "size": 284
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "period.svg",
+          "size": 288
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "questionmark.svg",
+          "size": 279
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "icon4.svg",
+          "size": 408
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "icon5.svg",
+          "size": 734
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "miso-bold.ttf",
+          "size": 60860
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "icon2.svg",
+          "size": 431
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "icon3.svg",
+          "size": 2787
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "icon1.svg",
+          "size": 313
+        }]
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_4_2_3_02",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1834
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_4_2_3_02.png",
+        "size": 1120190
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "gui.js",
+        "size": 1642
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 5874
+      }, {
+        "type": "directory",
+        "name": "data",
+        "children": [{
+          "count": 1,
+          "type": "file",
+          "name": "subs.vtt",
+          "size": 27735
+        }]
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_2_1_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1070
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_2_2_1_01.png",
+        "size": 31852
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 2464
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_4_0_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1070
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_4_0_01.png",
+        "size": 104242
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 1637
+      }, {
+        "type": "directory",
+        "name": "data",
+        "children": [{
+          "count": 1,
+          "type": "file",
+          "name": "image_gross.jpg",
+          "size": 523294
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "image.jpg",
+          "size": 305611
+        }]
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_3_2_5_02",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_3_2_5_02.png",
+        "size": 45400
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 23420
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_3_7_02_TABLET",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1691
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_2_3_7_02_TABLET.png",
+        "size": 1359565
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 6334
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_1_1_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_2_1_1_01.png",
+        "size": 36399
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 2336
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_2_6_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_2_2_6_01.png",
+        "size": 748385
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 4194
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_2_6_01_class_version",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "P_2_2_6_01_class_version.png",
+        "size": 748385
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 4557
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_1_2_3_05",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_1_2_3_05.png",
+        "size": 339224
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 4326
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_1_2_3_02",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_1_2_3_02.png",
+        "size": 49385
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 3579
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_3_7_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1325
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 5740
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_2_3_7_01.png",
+        "size": 469607
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_3_3_01_TABLET",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_2_3_3_01_TABLET.png",
+        "size": 170661
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 2901
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_2_2_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1070
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_2_2_2_01.png",
+        "size": 33555
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 3400
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_1_2_3_03",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_1_2_3_03.png",
+        "size": 38575
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 3936
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_1_2_3_04",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_1_2_3_04.png",
+        "size": 123692
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 3988
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_1_5_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_2_1_5_01.png",
+        "size": 885534
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 2312
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_3_3_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 2612
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_2_3_3_01.png",
+        "size": 5814
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_4_3_1_02",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1070
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_4_3_1_02.png",
+        "size": 485916
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 2611
+      }, {
+        "type": "directory",
+        "name": "data",
+        "children": [{
+          "count": 1,
+          "type": "file",
+          "name": "117.svg",
+          "size": 605
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "076.svg",
+          "size": 960
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "166.svg",
+          "size": 1220
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "198.svg",
+          "size": 987
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "164.svg",
+          "size": 1022
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "148.svg",
+          "size": 846
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "224.svg",
+          "size": 599
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "152.svg",
+          "size": 742
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "186.svg",
+          "size": 665
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "157.svg",
+          "size": 986
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "pic.png",
+          "size": 12718
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "056.svg",
+          "size": 700
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "082.svg",
+          "size": 668
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "096.svg",
+          "size": 904
+        }]
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_2_3_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1070
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 3314
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_2_2_3_01.png",
+        "size": 80816
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_4_2_1_02",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1070
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_4_2_1_02.png",
+        "size": 495615
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 6538
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_1_4_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 2999
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_2_1_4_01.png",
+        "size": 380117
+      }, {
+        "type": "directory",
+        "name": "data",
+        "children": [{
+          "count": 1,
+          "type": "file",
+          "name": "shapes.png",
+          "size": 694
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "draw.png",
+          "size": 2136
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "toner.png",
+          "size": 593605
+        }]
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_3_5_01_TABLET",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1520
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_2_3_5_01_TABLET.png",
+        "size": 234803
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 3700
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_0_02",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_2_0_02.png",
+        "size": 229868
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 1898
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_3_2_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_2_3_2_01.png",
+        "size": 432275
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 2687
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_4_1_2_02",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1070
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_4_1_2_02.png",
+        "size": 302634
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 1547
+      }, {
+        "type": "directory",
+        "name": "data",
+        "children": [{
+          "count": 1,
+          "type": "file",
+          "name": "pic.png",
+          "size": 787557
+        }]
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_3_1_4_02",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1070
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_3_1_4_02.png",
+        "size": 849706
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 4980
+      }, {
+        "type": "directory",
+        "name": "data",
+        "children": [{
+          "count": 1,
+          "type": "file",
+          "name": "miso-info.txt",
+          "size": 1091
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "pride_and_prejudice_CREDITS.txt",
+          "size": 1740
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "pride_and_prejudice.txt",
+          "size": 686536
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "pride_and_prejudice_short.txt",
+          "size": 376
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "miso-bold.ttf",
+          "size": 60860
+        }]
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_3_6_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1100
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_2_3_6_01.png",
+        "size": 14128
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 5360
+      }, {
+        "type": "directory",
+        "name": "data",
+        "children": [{
+          "count": 1,
+          "type": "file",
+          "name": "10.svg",
+          "size": 572
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "04.svg",
+          "size": 627
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "05.svg",
+          "size": 588
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "11.svg",
+          "size": 1013
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "07.svg",
+          "size": 1035
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "13.svg",
+          "size": 1039
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "12.svg",
+          "size": 733
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "06.svg",
+          "size": 738
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "02.svg",
+          "size": 630
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "03.svg",
+          "size": 747
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "15.svg",
+          "size": 1102
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "01.svg",
+          "size": 630
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "00.svg",
+          "size": 547
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "14.svg",
+          "size": 1043
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "08.svg",
+          "size": 630
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "09.svg",
+          "size": 738
+        }]
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_4_3_4_02",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1316
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_4_3_4_02.png",
+        "size": 2090912
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 3264
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "emoji-average-colors.js",
+        "size": 80445
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_0_03",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_2_0_03.png",
+        "size": 559311
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 2178
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_4_3_3_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1241
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_4_3_3_01.png",
+        "size": 413284
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 2966
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_3_1_02",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1070
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_2_3_1_02.png",
+        "size": 286309
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 3866
+      }, {
+        "type": "directory",
+        "name": "data",
+        "children": [{
+          "count": 1,
+          "type": "file",
+          "name": "04.svg",
+          "size": 614
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "05.svg",
+          "size": 1227
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "02.svg",
+          "size": 653
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "03.svg",
+          "size": 670
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "01.svg",
+          "size": 582
+        }]
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_3_2_4_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 3895
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_3_2_4_01.png",
+        "size": 498869
+      }, {
+        "type": "directory",
+        "name": "data",
+        "children": [{
+          "count": 1,
+          "type": "file",
+          "name": "NotoSans-Bold.ttf",
+          "size": 203012
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "LICENSE_OFL.txt",
+          "size": 4301
+        }]
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_3_1_3_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1070
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_3_1_3_01.png",
+        "size": 141769
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 3328
+      }, {
+        "type": "directory",
+        "name": "data",
+        "children": [{
+          "count": 1,
+          "type": "file",
+          "name": "faust_kurz.txt",
+          "size": 715
+        }]
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_4_2_2_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 2179
+      }, {
+        "type": "directory",
+        "name": "data",
+        "children": [{
+          "count": 1,
+          "type": "file",
+          "name": "video.mp4",
+          "size": 18930579
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "video.ogg",
+          "size": 19881599
+        }]
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_4_2_2_01.png",
+        "size": 415229
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_1_3_03",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "P_2_1_3_03.png",
+        "size": 92778
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1070
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 3576
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_1_1_2_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_1_1_2_01.png",
+        "size": 77756
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 1999
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_1_3_04",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1070
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_2_1_3_04.png",
+        "size": 119761
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 3425
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_1_0_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 1418
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_1_0_01.png",
+        "size": 5879
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_1_3_05",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1070
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_2_1_3_05.png",
+        "size": 58426
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 2449
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_2_4_02",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_2_2_4_02.png",
+        "size": 222000
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 2746
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_1_3_02",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "P_2_1_3_02.png",
+        "size": 40651
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1070
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 3418
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_4_1_1_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1070
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 3331
+      }, {
+        "type": "directory",
+        "name": "data",
+        "children": [{
+          "count": 1,
+          "type": "file",
+          "name": "image.jpg",
+          "size": 127224
+        }]
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_4_1_1_01.png",
+        "size": 349923
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_1_2_1_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_1_2_1_01.png",
+        "size": 3246
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 2956
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_2_5_02",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1070
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 4378
+      }, {
+        "type": "directory",
+        "name": "data",
+        "children": [{
+          "count": 1,
+          "type": "file",
+          "name": "stern2_sw.svg",
+          "size": 2785
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "schraffur_sw.svg",
+          "size": 619
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "konzent_kreise_farbe.svg",
+          "size": 566
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "02.svg",
+          "size": 554
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "01.svg",
+          "size": 554
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "stern2_farbe.svg",
+          "size": 2785
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "stern3_sw.svg",
+          "size": 206
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "stern_sw.svg",
+          "size": 3110
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "stern_farbe.svg",
+          "size": 4842
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "schraffur_farbe.svg",
+          "size": 618
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "konzent_kreise_sw.svg",
+          "size": 566
+        }]
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_2_2_5_02.png",
+        "size": 791075
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_1_2_02",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_2_1_2_02.png",
+        "size": 31512
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 4690
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_3_2_1_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1322
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_3_2_1_01.png",
+        "size": 34795
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 2755
+      }, {
+        "type": "directory",
+        "name": "data",
+        "children": [{
+          "count": 1,
+          "type": "file",
+          "name": "FreeSans_CREDITS",
+          "size": 19517
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "FreeSans_COPYING",
+          "size": 18045
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "FreeSans_README",
+          "size": 4313
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "FreeSans.otf",
+          "size": 706688
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "FreeSans_AUTHORS",
+          "size": 4926
+        }]
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_4_3_2_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1070
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 4870
+      }, {
+        "type": "directory",
+        "name": "data",
+        "children": [{
+          "count": 1,
+          "type": "file",
+          "name": "pic.png",
+          "size": 12530
+        }]
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_4_3_2_01.png",
+        "size": 376766
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_3_2_5_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1322
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_3_2_5_01.png",
+        "size": 607437
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 5874
+      }, {
+        "type": "directory",
+        "name": "data",
+        "children": [{
+          "count": 1,
+          "type": "file",
+          "name": "SIL Open Font License.txt",
+          "size": 4595
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "FiraSansCondensed-Bold.otf",
+          "size": 90168
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "FiraSansCompressed-Light.otf",
+          "size": 358508
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "FiraSansCompressed-Regular.otf",
+          "size": 358984
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "FiraSansCompressed-Bold.otf",
+          "size": 369028
+        }]
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_4_3_4_01_emoji_icon_analyser",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 947
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_4_3_4_01_emoji_icon_analyser.png",
+        "size": 1296058
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 2478
+      }, {
+        "type": "directory",
+        "name": "data",
+        "children": [{
+          "count": 1,
+          "type": "file",
+          "name": "emoji-names.csv",
+          "size": 5197
+        }]
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_4_2_3_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1749
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_4_2_3_01.png",
+        "size": 1108670
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "gui.js",
+        "size": 1642
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 5762
+      }, {
+        "type": "directory",
+        "name": "data",
+        "children": [{
+          "count": 1,
+          "type": "file",
+          "name": "subs.vtt",
+          "size": 27735
+        }]
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_2_1_02",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1070
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_2_2_1_02.png",
+        "size": 47282
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 3182
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_3_1_2_01",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1070
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_3_1_2_01.png",
+        "size": 35334
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 5196
+      }, {
+        "type": "directory",
+        "name": "data",
+        "children": [{
+          "count": 1,
+          "type": "file",
+          "name": "miso-info.txt",
+          "size": 1091
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "space.svg",
+          "size": 681
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "return.svg",
+          "size": 737
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "comma.svg",
+          "size": 673
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "space2.svg",
+          "size": 678
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "exclamationmark.svg",
+          "size": 701
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "period.svg",
+          "size": 707
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "questionmark.svg",
+          "size": 693
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "miso-bold.ttf",
+          "size": 60860
+        }]
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_1_2_03",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_2_1_2_03.png",
+        "size": 21753
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 1789
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_2_1_2_04",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 1154
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "P_2_1_2_04.png",
+        "size": 236022
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 2411
+      }]
+    }]
+  }, {
+    "type": "directory",
+    "name": "03_A",
+    "children": [{
+      "type": "directory",
+      "name": "Cover_Barcode",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 567
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "Cover_Barcode.png",
+        "size": 708372
+      }, {
+        "type": "directory",
+        "name": "lib",
+        "children": [{
+          "count": 1,
+          "type": "file",
+          "name": "Ribbon.js",
+          "size": 3946
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "barcodeInfo.js",
+          "size": 1500
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "imageColors.js",
+          "size": 615
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "p5.js",
+          "size": 1274150
+        }]
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 1996
+      }]
+    }, {
+      "type": "directory",
+      "name": "Cover_Image_Colors",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 553
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "Cover_Image_Colors.png",
+        "size": 3046
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 4391
+      }, {
+        "type": "directory",
+        "name": "PNG150",
+        "children": [{
+          "count": 1,
+          "type": "file",
+          "name": "Seite_074.png",
+          "size": 8514
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_060.png",
+          "size": 13919
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_048.png",
+          "size": 10996
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_100.png",
+          "size": 12971
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_114.png",
+          "size": 13339
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_128.png",
+          "size": 11575
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_129.png",
+          "size": 12441
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_115.png",
+          "size": 11700
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_101.png",
+          "size": 10897
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_049.png",
+          "size": 11340
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_061.png",
+          "size": 11883
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_075.png",
+          "size": 19741
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_249.png",
+          "size": 4491
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_088.png",
+          "size": 12118
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_063.png",
+          "size": 9799
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_077.png",
+          "size": 9701
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_117.png",
+          "size": 18985
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_103.png",
+          "size": 13750
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_102.png",
+          "size": 13229
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_116.png",
+          "size": 38903
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_076.png",
+          "size": 695
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_062.png",
+          "size": 11899
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_089.png",
+          "size": 15067
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_248.png",
+          "size": 10490
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_099.png",
+          "size": 27895
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_066.png",
+          "size": 12260
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_072.png",
+          "size": 9088
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_112.png",
+          "size": 5848
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_106.png",
+          "size": 8979
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_107.png",
+          "size": 10998
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_113.png",
+          "size": 23101
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_073.png",
+          "size": 14504
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_067.png",
+          "size": 14454
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_098.png",
+          "size": 30221
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_059.png",
+          "size": 4193
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_071.png",
+          "size": 13722
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_065.png",
+          "size": 11798
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_139.png",
+          "size": 11539
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_105.png",
+          "size": 26899
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_111.png",
+          "size": 10624
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_110.png",
+          "size": 11466
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_104.png",
+          "size": 17702
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_138.png",
+          "size": 6804
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_064.png",
+          "size": 10996
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_070.png",
+          "size": 11773
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_058.png",
+          "size": 11044
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_215.png",
+          "size": 28104
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_201.png",
+          "size": 28789
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_229.png",
+          "size": 18793
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_017.png",
+          "size": 10142
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_003.png",
+          "size": 6139
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_188.png",
+          "size": 13817
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_163.png",
+          "size": 15625
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_177.png",
+          "size": 13627
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_176.png",
+          "size": 11599
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_162.png",
+          "size": 9523
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_189.png",
+          "size": 14311
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_002.png",
+          "size": 8524
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_016.png",
+          "size": 25099
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_228.png",
+          "size": 17991
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_200.png",
+          "size": 12293
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_214.png",
+          "size": 27023
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_202.png",
+          "size": 8785
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_216.png",
+          "size": 24442
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_014.png",
+          "size": 34007
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_028.png",
+          "size": 23011
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_174.png",
+          "size": 9802
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_160.png",
+          "size": 21261
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_148.png",
+          "size": 693
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_149.png",
+          "size": 9741
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_161.png",
+          "size": 23035
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_175.png",
+          "size": 8737
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_029.png",
+          "size": 23925
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_015.png",
+          "size": 18583
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_001.png",
+          "size": 599
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_217.png",
+          "size": 27874
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_203.png",
+          "size": 17349
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_207.png",
+          "size": 31956
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_213.png",
+          "size": 12722
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_039.png",
+          "size": 31639
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_005.png",
+          "size": 10924
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_011.png",
+          "size": 29911
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_159.png",
+          "size": 14944
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_171.png",
+          "size": 17637
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_165.png",
+          "size": 13218
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_164.png",
+          "size": 10647
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_170.png",
+          "size": 19290
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_158.png",
+          "size": 10719
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_010.png",
+          "size": 20172
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_004.png",
+          "size": 12322
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_038.png",
+          "size": 31898
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_212.png",
+          "size": 14500
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_206.png",
+          "size": 32275
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_238.png",
+          "size": 18999
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_210.png",
+          "size": 23929
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_204.png",
+          "size": 18448
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_012.png",
+          "size": 27221
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_006.png",
+          "size": 7983
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_199.png",
+          "size": 28642
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_166.png",
+          "size": 17027
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_172.png",
+          "size": 13757
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_173.png",
+          "size": 10835
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_167.png",
+          "size": 16653
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_198.png",
+          "size": 28317
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_007.png",
+          "size": 21175
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_013.png",
+          "size": 29314
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_205.png",
+          "size": 30917
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_211.png",
+          "size": 20085
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_239.png",
+          "size": 16764
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_234.png",
+          "size": 12849
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_220.png",
+          "size": 24613
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_208.png",
+          "size": 14638
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_036.png",
+          "size": 22473
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_022.png",
+          "size": 17062
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_181.png",
+          "size": 12229
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_195.png",
+          "size": 15724
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_142.png",
+          "size": 15092
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_156.png",
+          "size": 13811
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_157.png",
+          "size": 13999
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_143.png",
+          "size": 12455
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_194.png",
+          "size": 16555
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_180.png",
+          "size": 11973
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_023.png",
+          "size": 23408
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_037.png",
+          "size": 26170
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_209.png",
+          "size": 10814
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_221.png",
+          "size": 23022
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_235.png",
+          "size": 11406
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_223.png",
+          "size": 18290
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_237.png",
+          "size": 16226
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_021.png",
+          "size": 26552
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_035.png",
+          "size": 26956
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_009.png",
+          "size": 30350
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_196.png",
+          "size": 15613
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_182.png",
+          "size": 13648
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_155.png",
+          "size": 11470
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_141.png",
+          "size": 11526
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_169.png",
+          "size": 11314
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_168.png",
+          "size": 16191
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_140.png",
+          "size": 10884
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_154.png",
+          "size": 13500
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_183.png",
+          "size": 12730
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_197.png",
+          "size": 9760
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_008.png",
+          "size": 17763
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_034.png",
+          "size": 27065
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_020.png",
+          "size": 20298
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_236.png",
+          "size": 26450
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_222.png",
+          "size": 19241
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_226.png",
+          "size": 13805
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_232.png",
+          "size": 19751
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_018.png",
+          "size": 26901
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_024.png",
+          "size": 12494
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_030.png",
+          "size": 14020
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_193.png",
+          "size": 27564
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_187.png",
+          "size": 9879
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_178.png",
+          "size": 10708
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_150.png",
+          "size": 10725
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_144.png",
+          "size": 11103
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_145.png",
+          "size": 12922
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_151.png",
+          "size": 9318
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_179.png",
+          "size": 13730
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_186.png",
+          "size": 702
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_192.png",
+          "size": 25135
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_031.png",
+          "size": 20881
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_025.png",
+          "size": 34776
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_019.png",
+          "size": 23251
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_233.png",
+          "size": 11242
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_227.png",
+          "size": 27042
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_219.png",
+          "size": 10775
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_231.png",
+          "size": 19545
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_225.png",
+          "size": 2093
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_033.png",
+          "size": 19608
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_027.png",
+          "size": 14362
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_184.png",
+          "size": 22224
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_190.png",
+          "size": 16162
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_147.png",
+          "size": 28947
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_153.png",
+          "size": 13028
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_152.png",
+          "size": 11954
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_146.png",
+          "size": 28606
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_191.png",
+          "size": 21493
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_185.png",
+          "size": 23748
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_026.png",
+          "size": 29086
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_032.png",
+          "size": 26155
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_224.png",
+          "size": 704
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_230.png",
+          "size": 18447
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_218.png",
+          "size": 12729
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_243.png",
+          "size": 26676
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_096.png",
+          "size": 11735
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_082.png",
+          "size": 13334
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_055.png",
+          "size": 5144
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_041.png",
+          "size": 2308
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_069.png",
+          "size": 16948
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_121.png",
+          "size": 15498
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_135.png",
+          "size": 15258
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_109.png",
+          "size": 9333
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_108.png",
+          "size": 17508
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_134.png",
+          "size": 15686
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_120.png",
+          "size": 14112
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_068.png",
+          "size": 15223
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_040.png",
+          "size": 762
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_054.png",
+          "size": 9403
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_083.png",
+          "size": 11274
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_097.png",
+          "size": 12209
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_242.png",
+          "size": 18391
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_256.png",
+          "size": 599
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_240.png",
+          "size": 17230
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_254.png",
+          "size": 6991
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_081.png",
+          "size": 17367
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_095.png",
+          "size": 15729
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_042.png",
+          "size": 9180
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_056.png",
+          "size": 696
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_136.png",
+          "size": 12397
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_122.png",
+          "size": 22079
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_123.png",
+          "size": 20639
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_137.png",
+          "size": 9528
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_057.png",
+          "size": 8366
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_043.png",
+          "size": 6820
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_094.png",
+          "size": 9895
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_080.png",
+          "size": 11328
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_255.png",
+          "size": 6370
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_241.png",
+          "size": 16423
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_245.png",
+          "size": 10879
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_251.png",
+          "size": 7838
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_084.png",
+          "size": 11536
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_090.png",
+          "size": 16071
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_047.png",
+          "size": 11343
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_053.png",
+          "size": 5925
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_133.png",
+          "size": 8209
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_127.png",
+          "size": 18847
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_126.png",
+          "size": 17549
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_132.png",
+          "size": 11914
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_052.png",
+          "size": 10845
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_046.png",
+          "size": 11453
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_091.png",
+          "size": 24329
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_085.png",
+          "size": 16349
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_250.png",
+          "size": 7169
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_244.png",
+          "size": 11384
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_252.png",
+          "size": 9942
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_246.png",
+          "size": 11949
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_093.png",
+          "size": 11028
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_087.png",
+          "size": 23025
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_078.png",
+          "size": 12533
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_050.png",
+          "size": 12214
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_044.png",
+          "size": 9543
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_118.png",
+          "size": 9685
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_124.png",
+          "size": 11898
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_130.png",
+          "size": 11542
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_131.png",
+          "size": 8691
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_125.png",
+          "size": 13398
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_119.png",
+          "size": 11618
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_045.png",
+          "size": 8794
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_051.png",
+          "size": 8556
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_079.png",
+          "size": 18202
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_086.png",
+          "size": 27992
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_092.png",
+          "size": 9473
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_247.png",
+          "size": 10981
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "Seite_253.png",
+          "size": 3215
+        }]
+      }]
+    }, {
+      "type": "directory",
+      "name": "Cover_Lines",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "2_P.1.png",
+        "size": 482525
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "3_P.2.png",
+        "size": 1003420
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "index.html",
+        "size": 475
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "1_P.0.png",
+        "size": 142324
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "5_P.4.png",
+        "size": 492327
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "4_P.3.png",
+        "size": 363832
+      }, {
+        "type": "directory",
+        "name": "lib",
+        "children": [{
+          "count": 1,
+          "type": "file",
+          "name": "Ribbon.js",
+          "size": 2813
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "imageColors.js",
+          "size": 12602
+        }, {
+          "count": 1,
+          "type": "file",
+          "name": "p5.js",
+          "size": 1274150
+        }]
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "sketch.js",
+        "size": 2625
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "6_A.png",
+        "size": 335231
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "0_E.png",
+        "size": 639372
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "Cover_Lines.png",
+        "size": 1861953
+      }]
+    }]
+  }, {
+    "count": 1,
+    "type": "file",
+    "name": ".editorconfig",
+    "size": 287
+  }, {
+    "count": 1,
+    "type": "file",
+    "name": "README.md",
+    "size": 3694
+  }, {
+    "type": "directory",
+    "name": "styles",
+    "children": [{
+      "count": 1,
+      "type": "file",
+      "name": "arrow.svg",
+      "size": 305
+    }, {
+      "count": 1,
+      "type": "file",
+      "name": "list.css",
+      "size": 1049
+    }, {
+      "count": 1,
+      "type": "file",
+      "name": "main.css",
+      "size": 715
+    }]
+  }, {
+    "count": 1,
+    "type": "file",
+    "name": ".gitignore",
+    "size": 167
+  }, {
+    "count": 1,
+    "type": "file",
+    "name": "package-lock.json",
+    "size": 140046
+  }, {
+    "count": 1,
+    "type": "file",
+    "name": "package.json",
+    "size": 2394
+  }, {
+    "count": 1,
+    "type": "file",
+    "name": "changelog.txt",
+    "size": 409
+  }, {
+    "count": 1,
+    "type": "file",
+    "name": ".eslintignore",
+    "size": 36
+  }, {
+    "type": "directory",
+    "name": "data",
+    "children": [{
+      "type": "directory",
+      "name": "twemoji",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": ".gitkeep",
+        "size": 9
+      }]
+    }, {
+      "type": "directory",
+      "name": "P_4_2_3_supercut-media",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": ".gitkeep",
+        "size": 9
+      }]
+    }, {
+      "count": 1,
+      "type": "file",
+      "name": ".gitkeep",
+      "size": 9
+    }, {
+      "count": 1,
       "type": "file",
       "name": "README.md",
-      "size": 3823
-    },
-    {
+      "size": 1229
+    }, {
       "type": "directory",
-      "name": "src",
-      "children": [
-        {
-          "type": "file",
-          "name": "app.js",
-          "size": 1748
-        },
-        {
-          "type": "directory",
-          "name": "color",
-          "children": [
-            {
-              "type": "file",
-              "name": "color_conversion.js",
-              "size": 6000
-            },
-            {
-              "type": "file",
-              "name": "creating_reading.js",
-              "size": 17603
-            },
-            {
-              "type": "file",
-              "name": "p5.Color.js",
-              "size": 20511
-            },
-            {
-              "type": "file",
-              "name": "setting.js",
-              "size": 17245
-            }
-          ]
-        },
-        {
-          "type": "directory",
-          "name": "core",
-          "children": [
-            {
-              "type": "file",
-              "name": "2d_primitives.js",
-              "size": 14161
-            },
-            {
-              "type": "file",
-              "name": "attributes.js",
-              "size": 8798
-            },
-            {
-              "type": "file",
-              "name": "canvas.js",
-              "size": 921
-            },
-            {
-              "type": "file",
-              "name": "constants.js",
-              "size": 8527
-            },
-            {
-              "type": "file",
-              "name": "core.js",
-              "size": 20909
-            },
-            {
-              "type": "file",
-              "name": "curves.js",
-              "size": 15800
-            },
-            {
-              "type": "file",
-              "name": "environment.js",
-              "size": 18160
-            },
-            {
-              "type": "file",
-              "name": "error_helpers.js",
-              "size": 13546
-            },
-            {
-              "type": "file",
-              "name": "init.js",
-              "size": 706
-            },
-            {
-              "type": "file",
-              "name": "p5.Element.js",
-              "size": 23485
-            },
-            {
-              "type": "file",
-              "name": "p5.Graphics.js",
-              "size": 2057
-            },
-            {
-              "type": "file",
-              "name": "p5.Renderer.js",
-              "size": 5542
-            },
-            {
-              "type": "file",
-              "name": "p5.Renderer2D.js",
-              "size": 37110
-            },
-            {
-              "type": "file",
-              "name": "rendering.js",
-              "size": 9095
-            },
-            {
-              "type": "file",
-              "name": "shim.js",
-              "size": 2668
-            },
-            {
-              "type": "file",
-              "name": "structure.js",
-              "size": 9962
-            },
-            {
-              "type": "file",
-              "name": "transform.js",
-              "size": 10937
-            },
-            {
-              "type": "file",
-              "name": "vertex.js",
-              "size": 16357
-            }
-          ]
-        },
-        {
-          "type": "directory",
-          "name": "data",
-          "children": [
-            {
-              "type": "file",
-              "name": "p5.TypedDict.js",
-              "size": 13328
-            }
-          ]
-        },
-        {
-          "type": "directory",
-          "name": "events",
-          "children": [
-            {
-              "type": "file",
-              "name": "acceleration.js",
-              "size": 16752
-            },
-            {
-              "type": "file",
-              "name": "keyboard.js",
-              "size": 9795
-            },
-            {
-              "type": "file",
-              "name": "mouse.js",
-              "size": 20148
-            },
-            {
-              "type": "file",
-              "name": "touch.js",
-              "size": 5947
-            }
-          ]
-        },
-        {
-          "type": "directory",
-          "name": "image",
-          "children": [
-            {
-              "type": "file",
-              "name": "filters.js",
-              "size": 15937
-            },
-            {
-              "type": "file",
-              "name": "image.js",
-              "size": 9560
-            },
-            {
-              "type": "file",
-              "name": "loading_displaying.js",
-              "size": 12841
-            },
-            {
-              "type": "file",
-              "name": "p5.Image.js",
-              "size": 19188
-            },
-            {
-              "type": "file",
-              "name": "pixels.js",
-              "size": 17228
-            }
-          ]
-        },
-        {
-          "type": "directory",
-          "name": "io",
-          "children": [
-            {
-              "type": "file",
-              "name": "files.js",
-              "size": 43208
-            },
-            {
-              "type": "file",
-              "name": "p5.Table.js",
-              "size": 29588
-            },
-            {
-              "type": "file",
-              "name": "p5.TableRow.js",
-              "size": 4517
-            },
-            {
-              "type": "file",
-              "name": "p5.XML.js",
-              "size": 20838
-            }
-          ]
-        },
-        {
-          "type": "directory",
-          "name": "math",
-          "children": [
-            {
-              "type": "file",
-              "name": "calculation.js",
-              "size": 20852
-            },
-            {
-              "type": "file",
-              "name": "math.js",
-              "size": 765
-            },
-            {
-              "type": "file",
-              "name": "noise.js",
-              "size": 9154
-            },
-            {
-              "type": "file",
-              "name": "p5.Vector.js",
-              "size": 27724
-            },
-            {
-              "type": "file",
-              "name": "polargeometry.js",
-              "size": 173
-            },
-            {
-              "type": "file",
-              "name": "random.js",
-              "size": 5929
-            },
-            {
-              "type": "file",
-              "name": "trigonometry.js",
-              "size": 8910
-            }
-          ]
-        },
-        {
-          "type": "directory",
-          "name": "typography",
-          "children": [
-            {
-              "type": "file",
-              "name": "attributes.js",
-              "size": 6504
-            },
-            {
-              "type": "file",
-              "name": "loading_displaying.js",
-              "size": 7256
-            },
-            {
-              "type": "file",
-              "name": "p5.Font.js",
-              "size": 28574
-            }
-          ]
-        },
-        {
-          "type": "directory",
-          "name": "utilities",
-          "children": [
-            {
-              "type": "file",
-              "name": "array_functions.js",
-              "size": 9926
-            },
-            {
-              "type": "file",
-              "name": "conversion.js",
-              "size": 9481
-            },
-            {
-              "type": "file",
-              "name": "string_functions.js",
-              "size": 16527
-            },
-            {
-              "type": "file",
-              "name": "time_date.js",
-              "size": 3273
-            }
-          ]
-        },
-        {
-          "type": "directory",
-          "name": "webgl",
-          "children": [
-            {
-              "type": "file",
-              "name": "camera.js",
-              "size": 3795
-            },
-            {
-              "type": "file",
-              "name": "interaction.js",
-              "size": 387
-            },
-            {
-              "type": "file",
-              "name": "light.js",
-              "size": 8269
-            },
-            {
-              "type": "file",
-              "name": "loading.js",
-              "size": 7288
-            },
-            {
-              "type": "file",
-              "name": "material.js",
-              "size": 9406
-            },
-            {
-              "type": "file",
-              "name": "p5.Geometry.js",
-              "size": 5498
-            },
-            {
-              "type": "file",
-              "name": "p5.Matrix.js",
-              "size": 19496
-            },
-            {
-              "type": "file",
-              "name": "p5.RendererGL.Immediate.js",
-              "size": 6421
-            },
-            {
-              "type": "file",
-              "name": "p5.RendererGL.js",
-              "size": 14102
-            },
-            {
-              "type": "file",
-              "name": "p5.RendererGL.Retained.js",
-              "size": 4940
-            },
-            {
-              "type": "file",
-              "name": "primitives.js",
-              "size": 24457
-            },
-            {
-              "type": "file",
-              "name": "shader.js",
-              "size": 720
-            },
-            {
-              "type": "directory",
-              "name": "shaders",
-              "children": [
-                {
-                  "type": "file",
-                  "name": "basic.frag",
-                  "size": 134
-                },
-                {
-                  "type": "file",
-                  "name": "immediate.vert",
-                  "size": 404
-                },
-                {
-                  "type": "file",
-                  "name": "light.vert",
-                  "size": 2452
-                },
-                {
-                  "type": "file",
-                  "name": "light_texture.frag",
-                  "size": 552
-                },
-                {
-                  "type": "file",
-                  "name": "normal.frag",
-                  "size": 115
-                },
-                {
-                  "type": "file",
-                  "name": "normal.vert",
-                  "size": 468
-                },
-                {
-                  "type": "file",
-                  "name": "vertexColor.frag",
-                  "size": 90
-                },
-                {
-                  "type": "file",
-                  "name": "vertexColor.vert",
-                  "size": 323
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "directory",
-      "name": "tasks",
-      "children": [
-        {
-          "type": "directory",
-          "name": "build",
-          "children": [
-            {
-              "type": "file",
-              "name": "browserify.js",
-              "size": 1699
-            },
-            {
-              "type": "file",
-              "name": "combineModules.js",
-              "size": 2601
-            }
-          ]
-        },
-        {
-          "type": "directory",
-          "name": "release",
-          "children": [
-            {
-              "type": "file",
-              "name": "release-bower.js",
-              "size": 2126
-            },
-            {
-              "type": "file",
-              "name": "release-docs.js",
-              "size": 1868
-            },
-            {
-              "type": "file",
-              "name": "release-github.js",
-              "size": 2900
-            },
-            {
-              "type": "file",
-              "name": "release-p5.js",
-              "size": 2245
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "directory",
-      "name": "test",
-      "children": [
-        {
-          "type": "directory",
-          "name": "js",
-          "children": [
-            {
-              "type": "file",
-              "name": "bind.js",
-              "size": 999
-            },
-            {
-              "type": "file",
-              "name": "chai.js",
-              "size": 109820
-            },
-            {
-              "type": "file",
-              "name": "modernizr.js",
-              "size": 89610
-            },
-            {
-              "type": "file",
-              "name": "sinon.js",
-              "size": 191698
-            }
-          ]
-        },
-        {
-          "type": "directory",
-          "name": "manual-test-examples",
-          "children": [
-            {
-              "type": "directory",
-              "name": "addons",
-              "children": [
-                {
-                  "type": "directory",
-                  "name": "p5.dom",
-                  "children": [
-                    {
-                      "type": "directory",
-                      "name": "audio_button_slider",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 414
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 922
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "audioelt_onended",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 303
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 206
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "audioEltSpotify",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 344
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 1313
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "audioEltSpotifyCrossOrigin",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 453
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 1723
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "brightness_mirror",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 345
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 1682
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "capture_audio",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 345
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 137
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "capture_video",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 337
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 235
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "capture_video_sizing",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 345
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 344
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "checkbox_test",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 397
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 706
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "dropdown_test",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 320
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 530
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "file_input",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 464
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 568
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "file_input_div",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 606
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 1109
-                        }
-                      ]
-                    },
-                    {
-                      "type": "file",
-                      "name": "fingers.mov",
-                      "size": 238059
-                    },
-                    {
-                      "type": "file",
-                      "name": "fingers.webm",
-                      "size": 180517
-                    },
-                    {
-                      "type": "directory",
-                      "name": "global",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 345
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 1046
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "input_button",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 345
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 656
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "instance",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 369
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 686
-                        }
-                      ]
-                    },
-                    {
-                      "type": "file",
-                      "name": "lucky_dragons_-_power_melody.mp3",
-                      "size": 139997
-                    },
-                    {
-                      "type": "file",
-                      "name": "lucky_dragons_-_power_melody.ogg",
-                      "size": 151321
-                    },
-                    {
-                      "type": "directory",
-                      "name": "radio_test",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 320
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 580
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "selectbox_test",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 320
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 365
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "slider_button",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 345
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 764
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "slider_tests",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 345
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 282
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "video_button",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 345
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 348
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "video_circles",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 345
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 558
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "video_pixels",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 345
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 348
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "video_scrub",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 345
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 294
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "video_speed",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 345
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 798
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "video_to_canvas",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 345
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 203
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "p5.sound",
-                  "children": [
-                    {
-                      "type": "directory",
-                      "name": "_files",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "beat.mp3",
-                          "size": 254118
-                        },
-                        {
-                          "type": "file",
-                          "name": "beat.ogg",
-                          "size": 77736
-                        },
-                        {
-                          "type": "file",
-                          "name": "beatbox.mp3",
-                          "size": 8095
-                        },
-                        {
-                          "type": "file",
-                          "name": "beatbox.ogg",
-                          "size": 12726
-                        },
-                        {
-                          "type": "file",
-                          "name": "bx-spring.mp3",
-                          "size": 129628
-                        },
-                        {
-                          "type": "file",
-                          "name": "bx-spring.ogg",
-                          "size": 149177
-                        },
-                        {
-                          "type": "file",
-                          "name": "concrete-tunnel.mp3",
-                          "size": 96124
-                        },
-                        {
-                          "type": "file",
-                          "name": "concrete-tunnel.ogg",
-                          "size": 123737
-                        },
-                        {
-                          "type": "file",
-                          "name": "Damscray_-_Dancing_Tiger_01.mp3",
-                          "size": 25933
-                        },
-                        {
-                          "type": "file",
-                          "name": "Damscray_-_Dancing_Tiger_01.ogg",
-                          "size": 31943
-                        },
-                        {
-                          "type": "file",
-                          "name": "Damscray_-_Dancing_Tiger_02.mp3",
-                          "size": 57362
-                        },
-                        {
-                          "type": "file",
-                          "name": "Damscray_-_Dancing_Tiger_02.ogg",
-                          "size": 62905
-                        },
-                        {
-                          "type": "file",
-                          "name": "doorbell.mp3",
-                          "size": 93408
-                        },
-                        {
-                          "type": "file",
-                          "name": "doorbell.ogg",
-                          "size": 75385
-                        },
-                        {
-                          "type": "file",
-                          "name": "drum.mp3",
-                          "size": 34495
-                        },
-                        {
-                          "type": "file",
-                          "name": "drum.ogg",
-                          "size": 15995
-                        },
-                        {
-                          "type": "file",
-                          "name": "large-dark-plate.mp3",
-                          "size": 115324
-                        },
-                        {
-                          "type": "file",
-                          "name": "large-dark-plate.ogg",
-                          "size": 135199
-                        },
-                        {
-                          "type": "file",
-                          "name": "lucky_dragons_-_power_melody.mp3",
-                          "size": 139997
-                        },
-                        {
-                          "type": "file",
-                          "name": "lucky_dragons_-_power_melody.ogg",
-                          "size": 151321
-                        },
-                        {
-                          "type": "file",
-                          "name": "small-plate.mp3",
-                          "size": 38428
-                        },
-                        {
-                          "type": "file",
-                          "name": "small-plate.ogg",
-                          "size": 52187
-                        },
-                        {
-                          "type": "file",
-                          "name": "studio-b.mp3",
-                          "size": 24316
-                        },
-                        {
-                          "type": "file",
-                          "name": "studio-b.ogg",
-                          "size": 32614
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "amplitude_analysis",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 415
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 1992
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "autoCorrelation",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 415
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 2054
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "DelayNoiseEnvelope",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 415
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 1606
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "DelaySoundFile",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 415
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 1312
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "envelope",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 415
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 2215
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "envelopeOnOff",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 415
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 1405
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "FFT_freqRange",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 415
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 2256
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "FFT_frequency_spectrum",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 415
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 2710
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "FFT_waveform",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 415
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 1122
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "FFT_waveform_2",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 415
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 1529
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "Filter_BandPass",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 415
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 1777
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "Filter_LowPass",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 415
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 1902
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "loadSound_callback",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 415
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 691
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "loadSound_preload",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 415
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 680
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "looper_simple",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 415
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 1680
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "micFFT",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 415
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 480
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "micLevel",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 415
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 334
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "micLevel_on_off",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 415
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 1938
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "noiseMod_AM",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 415
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 2651
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "oscillator_FMSynth",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 415
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 715
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "oscillatorMod_AM",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 415
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 2570
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "oscillatorMod_FM",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 415
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 2621
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "oscillatorSecondsFromNow",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 415
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 596
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "oscillatorWaveform",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 415
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 2233
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "outOfPhase",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 415
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 985
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "pan_soundfile",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 415
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 997
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "pause_soundfile",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 415
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 591
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "peakDetect",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 415
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 3878
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "peakDetect_basic",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 415
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 642
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "play_soundfile",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 415
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 643
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "playbackRate",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 415
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 795
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "PulseFFT",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 415
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 1593
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "record",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 415
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 1454
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "recordLoops",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 415
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 1341
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "Reverb_basic",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 415
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 594
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "Reverb_convolve",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 415
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 1540
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "Reverb_convolve_FFT",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 415
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 2372
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "soundfile_playMode",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 415
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 1480
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "soundfileMod_AM",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 415
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 2683
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "soundFormats",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 415
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 736
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "waveform",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 415
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 1136
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "waveform_peaks_with_playhead",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 415
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 1360
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "waveform_with_playhead",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 415
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 1348
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "directory",
-              "name": "async",
-              "children": [
-                {
-                  "type": "directory",
-                  "name": "loadFont",
-                  "children": [
-                    {
-                      "type": "directory",
-                      "name": "global",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "acmesa.ttf",
-                          "size": 81212
-                        },
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 233
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 1484
-                        },
-                        {
-                          "type": "file",
-                          "name": "SourceSansPro-Regular.otf",
-                          "size": 127448
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "instance",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "acmesa.ttf",
-                          "size": 81212
-                        },
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 208
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 927
-                        },
-                        {
-                          "type": "file",
-                          "name": "SourceSansPro-Regular.otf",
-                          "size": 127448
-                        },
-                        {
-                          "type": "file",
-                          "name": "test.gif",
-                          "size": 17855
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "loadImage",
-                  "children": [
-                    {
-                      "type": "directory",
-                      "name": "global",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 207
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 739
-                        },
-                        {
-                          "type": "file",
-                          "name": "test.gif",
-                          "size": 17855
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "instance",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 207
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 836
-                        },
-                        {
-                          "type": "file",
-                          "name": "test.gif",
-                          "size": 17855
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "loadJSON_callback",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 308
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 1480
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "loadJSON_options",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 204
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 184
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "loadJSON_preload",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 204
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 1086
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "loadStrings_callback",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 204
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 861
-                    },
-                    {
-                      "type": "file",
-                      "name": "tenderbuttons_excerpt.txt",
-                      "size": 489
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "loadStrings_preload",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 204
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 744
-                    },
-                    {
-                      "type": "file",
-                      "name": "tenderbuttons_excerpt.txt",
-                      "size": 489
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "loadTable_callback",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 341
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 370
-                    },
-                    {
-                      "type": "file",
-                      "name": "table.csv",
-                      "size": 81
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "loadTable_options",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 341
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 360
-                    },
-                    {
-                      "type": "file",
-                      "name": "table.csv",
-                      "size": 65
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "loadTable_preload",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 341
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 330
-                    },
-                    {
-                      "type": "file",
-                      "name": "table.csv",
-                      "size": 81
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "loadXML_preload",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "books.xml",
-                      "size": 780
-                    },
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 204
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 863
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "directory",
-              "name": "empty-example",
-              "children": [
-                {
-                  "type": "file",
-                  "name": "index.html",
-                  "size": 525
-                },
-                {
-                  "type": "file",
-                  "name": "sketch.js",
-                  "size": 119
-                }
-              ]
-            },
-            {
-              "type": "directory",
-              "name": "env",
-              "children": [
-                {
-                  "type": "directory",
-                  "name": "cursor",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "banana.png",
-                      "size": 270
-                    },
-                    {
-                      "type": "file",
-                      "name": "cursor.js",
-                      "size": 707
-                    },
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 386
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "directory",
-              "name": "instantiation-global",
-              "children": [
-                {
-                  "type": "directory",
-                  "name": "case1",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 203
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 192
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "case2",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 203
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 303
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "case3",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 203
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 153
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "case4",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 203
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 229
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "case5",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 203
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 197
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "case6",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 226
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 333
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "directory",
-              "name": "instantiation-instance",
-              "children": [
-                {
-                  "type": "directory",
-                  "name": "case0",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 203
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 307
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "case1",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 203
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 384
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "case3",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 236
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 419
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "case4",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 234
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 514
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "case5",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 203
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 345
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "case6",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 252
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 1256
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "directory",
-              "name": "keyboard",
-              "children": [
-                {
-                  "type": "file",
-                  "name": "gamestyle.html",
-                  "size": 244
-                },
-                {
-                  "type": "file",
-                  "name": "gamestyle.js",
-                  "size": 381
-                },
-                {
-                  "type": "file",
-                  "name": "keyIsPressed.html",
-                  "size": 248
-                },
-                {
-                  "type": "file",
-                  "name": "keyIsPressed.js",
-                  "size": 421
-                }
-              ]
-            },
-            {
-              "type": "directory",
-              "name": "learningprocessing",
-              "children": [
-                {
-                  "type": "directory",
-                  "name": "chp1",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "example_1_1.js",
-                      "size": 272
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_1_2.js",
-                      "size": 327
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_1_3.js",
-                      "size": 393
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_1_4.js",
-                      "size": 565
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_1_5.js",
-                      "size": 509
-                    },
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 207
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "chp10",
-                  "children": [
-                    {
-                      "type": "directory",
-                      "name": "example_10_1",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "catcher.js",
-                          "size": 330
-                        },
-                        {
-                          "type": "file",
-                          "name": "example_10_1.js",
-                          "size": 337
-                        },
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 292
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "example_10_10",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "catcher.js",
-                          "size": 851
-                        },
-                        {
-                          "type": "file",
-                          "name": "drop.js",
-                          "size": 1152
-                        },
-                        {
-                          "type": "file",
-                          "name": "example_10_10.js",
-                          "size": 1236
-                        },
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 450
-                        },
-                        {
-                          "type": "file",
-                          "name": "timer.js",
-                          "size": 796
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "example_10_2",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "ball.js",
-                          "size": 765
-                        },
-                        {
-                          "type": "file",
-                          "name": "example_10_2.js",
-                          "size": 467
-                        },
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 289
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "example_10_3",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "ball.js",
-                          "size": 1528
-                        },
-                        {
-                          "type": "file",
-                          "name": "example_10_3.js",
-                          "size": 744
-                        },
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 289
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "example_10_4",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "example_10_4.js",
-                          "size": 611
-                        },
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 211
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "example_10_5",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "example_10_5.js",
-                          "size": 371
-                        },
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 290
-                        },
-                        {
-                          "type": "file",
-                          "name": "timer.js",
-                          "size": 660
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "example_10_6",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "example_10_6.js",
-                          "size": 438
-                        },
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 211
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "example_10_7",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "drop.js",
-                          "size": 1205
-                        },
-                        {
-                          "type": "file",
-                          "name": "example_10_7.js",
-                          "size": 828
-                        },
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 289
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "example_10_8",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "example_10_8.js",
-                          "size": 339
-                        },
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 211
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "example_10_9",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "catcher.js",
-                          "size": 449
-                        },
-                        {
-                          "type": "file",
-                          "name": "drop.js",
-                          "size": 1143
-                        },
-                        {
-                          "type": "file",
-                          "name": "example_10_9.js",
-                          "size": 1262
-                        },
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 449
-                        },
-                        {
-                          "type": "file",
-                          "name": "timer.js",
-                          "size": 796
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "chp2",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "example_2_1.js",
-                      "size": 666
-                    },
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 207
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "chp3",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "example_3_1.js",
-                      "size": 920
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_3_2.js",
-                      "size": 570
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_3_3.js",
-                      "size": 891
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_3_4.js",
-                      "size": 378
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_3_5.js",
-                      "size": 605
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_3_6.js",
-                      "size": 1095
-                    },
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 207
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "chp4",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "example_4_1.js",
-                      "size": 850
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_4_2.js",
-                      "size": 466
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_4_3.js",
-                      "size": 566
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_4_4.js",
-                      "size": 998
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_4_5.js",
-                      "size": 545
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_4_6.js",
-                      "size": 560
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_4_7.js",
-                      "size": 637
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_4_8.js",
-                      "size": 1763
-                    },
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 207
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "chp5",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "example_5_1.js",
-                      "size": 710
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_5_10.js",
-                      "size": 1299
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_5_2.js",
-                      "size": 1167
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_5_3.js",
-                      "size": 694
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_5_4.js",
-                      "size": 664
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_5_5.js",
-                      "size": 688
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_5_6.js",
-                      "size": 594
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_5_7.js",
-                      "size": 963
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_5_8.js",
-                      "size": 1212
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_5_9.js",
-                      "size": 1157
-                    },
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 208
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "chp6",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "example_6_1.js",
-                      "size": 506
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_6_10.js",
-                      "size": 1240
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_6_11.js",
-                      "size": 931
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_6_2.js",
-                      "size": 1038
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_6_3.js",
-                      "size": 614
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_6_4.js",
-                      "size": 545
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_6_5.js",
-                      "size": 1068
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_6_6.js",
-                      "size": 499
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_6_7.js",
-                      "size": 797
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_6_8.js",
-                      "size": 612
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_6_9.js",
-                      "size": 719
-                    },
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 208
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "chp7",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "example_7_1.js",
-                      "size": 218
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_7_2.js",
-                      "size": 337
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_7_3.js",
-                      "size": 1149
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_7_4.js",
-                      "size": 1064
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_7_5.js",
-                      "size": 1786
-                    },
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 207
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "chp8",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "example_8_1.js",
-                      "size": 1011
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_8_2.js",
-                      "size": 1078
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_8_3.js",
-                      "size": 1777
-                    },
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 207
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "chp9",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "example_9_10.js",
-                      "size": 1622
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_9_11.js",
-                      "size": 1858
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_9_12.js",
-                      "size": 2123
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_9_2.js",
-                      "size": 366
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_9_3.js",
-                      "size": 259
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_9_4.js",
-                      "size": 275
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_9_5.js",
-                      "size": 265
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_9_6.js",
-                      "size": 229
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_9_7.js",
-                      "size": 267
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_9_8.js",
-                      "size": 1101
-                    },
-                    {
-                      "type": "file",
-                      "name": "example_9_9.js",
-                      "size": 998
-                    },
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 208
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "directory",
-              "name": "loadingscreen",
-              "children": [
-                {
-                  "type": "file",
-                  "name": "AvenirNextLTPro-Demi.otf",
-                  "size": 69940
-                },
-                {
-                  "type": "file",
-                  "name": "banana.png",
-                  "size": 270
-                },
-                {
-                  "type": "file",
-                  "name": "index.html",
-                  "size": 1077
-                },
-                {
-                  "type": "file",
-                  "name": "invalid.json",
-                  "size": 48
-                },
-                {
-                  "type": "file",
-                  "name": "invalid_json.html",
-                  "size": 313
-                },
-                {
-                  "type": "file",
-                  "name": "invalid_json.js",
-                  "size": 170
-                },
-                {
-                  "type": "file",
-                  "name": "loadingscreen.js",
-                  "size": 742
-                },
-                {
-                  "type": "file",
-                  "name": "mammals.csv",
-                  "size": 81
-                },
-                {
-                  "type": "file",
-                  "name": "preload_success_callbacks.html",
-                  "size": 348
-                },
-                {
-                  "type": "file",
-                  "name": "preload_success_callbacks.js",
-                  "size": 1974
-                },
-                {
-                  "type": "file",
-                  "name": "test.json",
-                  "size": 12
-                },
-                {
-                  "type": "file",
-                  "name": "test.txt",
-                  "size": 99
-                },
-                {
-                  "type": "file",
-                  "name": "test.xml",
-                  "size": 52
-                }
-              ]
-            },
-            {
-              "type": "file",
-              "name": "module.html",
-              "size": 469
-            },
-            {
-              "type": "directory",
-              "name": "mouse-events",
-              "children": [
-                {
-                  "type": "file",
-                  "name": "fingers.mov",
-                  "size": 238059
-                },
-                {
-                  "type": "directory",
-                  "name": "global-mousex",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 505
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 223
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "global-mousex-offset",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 511
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 232
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "instance-mousex",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 509
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 312
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "instance-mousex-css",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 931
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 224
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "instance-mousex-offset",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 511
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 345
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "directory",
-              "name": "p5.Font",
-              "children": [
-                {
-                  "type": "file",
-                  "name": "acmesa.ttf",
-                  "size": 81212
-                },
-                {
-                  "type": "file",
-                  "name": "AndaleMono.ttf",
-                  "size": 109700
-                },
-                {
-                  "type": "directory",
-                  "name": "callback",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 626
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 401
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "custom",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 2583
-                    },
-                    {
-                      "type": "file",
-                      "name": "LEFT.BL.lead.png",
-                      "size": 14712
-                    },
-                    {
-                      "type": "file",
-                      "name": "LEFT.BOTTOM.lead.png",
-                      "size": 13269
-                    },
-                    {
-                      "type": "file",
-                      "name": "LEFT.CENTER.lead.png",
-                      "size": 13983
-                    },
-                    {
-                      "type": "file",
-                      "name": "LEFT.TOP.lead.png",
-                      "size": 13783
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 21459
-                    },
-                    {
-                      "type": "file",
-                      "name": "textAlignmentSketch.png",
-                      "size": 21515
-                    },
-                    {
-                      "type": "file",
-                      "name": "textAlignSketch.png",
-                      "size": 2677
-                    },
-                    {
-                      "type": "file",
-                      "name": "textLineSketch.png",
-                      "size": 7831
-                    },
-                    {
-                      "type": "file",
-                      "name": "textOverlapSketch.png",
-                      "size": 4169
-                    },
-                    {
-                      "type": "file",
-                      "name": "textSizeSketch.png",
-                      "size": 3164
-                    },
-                    {
-                      "type": "file",
-                      "name": "textSketch.png",
-                      "size": 4452
-                    },
-                    {
-                      "type": "file",
-                      "name": "textVertAlignmentSketch.png",
-                      "size": 27749
-                    },
-                    {
-                      "type": "file",
-                      "name": "textWidthSketch.png",
-                      "size": 2203
-                    },
-                    {
-                      "type": "file",
-                      "name": "textWrapSketch.png",
-                      "size": 13082
-                    }
-                  ]
-                },
-                {
-                  "type": "file",
-                  "name": "FiraSans-Book.otf",
-                  "size": 296368
-                },
-                {
-                  "type": "file",
-                  "name": "Helvetica.ttf",
-                  "size": 312540
-                },
-                {
-                  "type": "file",
-                  "name": "Inconsolata-Bold.ttf",
-                  "size": 66352
-                },
-                {
-                  "type": "file",
-                  "name": "Lato-Black.ttf",
-                  "size": 114588
-                },
-                {
-                  "type": "file",
-                  "name": "Merriweather-LightItalic.ttf",
-                  "size": 114316
-                },
-                {
-                  "type": "file",
-                  "name": "Montserrat-Regular.ttf",
-                  "size": 53224
-                },
-                {
-                  "type": "file",
-                  "name": "OpenSans-Regular.ttf",
-                  "size": 217360
-                },
-                {
-                  "type": "directory",
-                  "name": "opentype",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "AvenirNextLTPro-Demi.otf",
-                      "size": 69940
-                    },
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 268
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 1094
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "pathpoints",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "boids.js",
-                      "size": 6949
-                    },
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 383
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 587
-                    }
-                  ]
-                },
-                {
-                  "type": "file",
-                  "name": "PlayfairDisplay-Regular.ttf",
-                  "size": 216264
-                },
-                {
-                  "type": "directory",
-                  "name": "renderpath",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 307
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 690
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "simple",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 696
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 3565
-                    }
-                  ]
-                },
-                {
-                  "type": "file",
-                  "name": "SourceSansPro-Bold.ttf",
-                  "size": 148932
-                },
-                {
-                  "type": "file",
-                  "name": "SourceSansPro-Italic.ttf",
-                  "size": 117328
-                },
-                {
-                  "type": "file",
-                  "name": "SourceSansPro-Regular.otf",
-                  "size": 127448
-                },
-                {
-                  "type": "directory",
-                  "name": "style",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 335
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 172
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "svgpath",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 306
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 1119
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "system",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 2088
-                    },
-                    {
-                      "type": "file",
-                      "name": "LEFT.BL.lead.png",
-                      "size": 2989
-                    },
-                    {
-                      "type": "file",
-                      "name": "LEFT.BOTTOM.lead.png",
-                      "size": 2988
-                    },
-                    {
-                      "type": "file",
-                      "name": "LEFT.CENTER.lead.png",
-                      "size": 2927
-                    },
-                    {
-                      "type": "file",
-                      "name": "LEFT.TOP.lead.png",
-                      "size": 2733
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 17534
-                    },
-                    {
-                      "type": "file",
-                      "name": "textAlignSketch.png",
-                      "size": 2697
-                    },
-                    {
-                      "type": "file",
-                      "name": "textAllAlignmentsSketch.png",
-                      "size": 14287
-                    },
-                    {
-                      "type": "file",
-                      "name": "textLineSketch.png",
-                      "size": 7928
-                    },
-                    {
-                      "type": "file",
-                      "name": "textOverlapSketch.png",
-                      "size": 4277
-                    },
-                    {
-                      "type": "file",
-                      "name": "textSizeSketch.png",
-                      "size": 2928
-                    },
-                    {
-                      "type": "file",
-                      "name": "textSketch.png",
-                      "size": 5386
-                    },
-                    {
-                      "type": "file",
-                      "name": "textWidthSketch.png",
-                      "size": 2160
-                    },
-                    {
-                      "type": "file",
-                      "name": "textWrapSketch.png",
-                      "size": 11979
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "textAsWords",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 644
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 2034
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "directory",
-              "name": "p5.Image",
-              "children": [
-                {
-                  "type": "file",
-                  "name": "african-savanna.png",
-                  "size": 148563
-                },
-                {
-                  "type": "file",
-                  "name": "animate-image.js",
-                  "size": 624
-                },
-                {
-                  "type": "file",
-                  "name": "animate.html",
-                  "size": 208
-                },
-                {
-                  "type": "file",
-                  "name": "cat-with-alpha.png",
-                  "size": 33979
-                },
-                {
-                  "type": "file",
-                  "name": "cat.jpg",
-                  "size": 10951
-                },
-                {
-                  "type": "file",
-                  "name": "copying-images.js",
-                  "size": 541
-                },
-                {
-                  "type": "file",
-                  "name": "copying.html",
-                  "size": 208
-                },
-                {
-                  "type": "file",
-                  "name": "cropping-images.js",
-                  "size": 858
-                },
-                {
-                  "type": "file",
-                  "name": "cropping.html",
-                  "size": 209
-                },
-                {
-                  "type": "file",
-                  "name": "drawing-images.js",
-                  "size": 2581
-                },
-                {
-                  "type": "file",
-                  "name": "drawing.html",
-                  "size": 208
-                },
-                {
-                  "type": "file",
-                  "name": "filter-images.js",
-                  "size": 1204
-                },
-                {
-                  "type": "file",
-                  "name": "filter.html",
-                  "size": 207
-                },
-                {
-                  "type": "file",
-                  "name": "manipulate-images.js",
-                  "size": 736
-                },
-                {
-                  "type": "file",
-                  "name": "manipulate.html",
-                  "size": 211
-                },
-                {
-                  "type": "file",
-                  "name": "running-cat.png",
-                  "size": 97393
-                },
-                {
-                  "type": "file",
-                  "name": "saving-images.js",
-                  "size": 280
-                },
-                {
-                  "type": "file",
-                  "name": "saving.html",
-                  "size": 207
-                },
-                {
-                  "type": "file",
-                  "name": "sprite_sheet.jpg",
-                  "size": 61186
-                },
-                {
-                  "type": "file",
-                  "name": "unicorn.jpg",
-                  "size": 18136
-                }
-              ]
-            },
-            {
-              "type": "directory",
-              "name": "p5.Shape",
-              "children": [
-                {
-                  "type": "directory",
-                  "name": "test0",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "circle.svg",
-                      "size": 585
-                    },
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 204
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 44
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "directory",
-              "name": "p5.Table",
-              "children": [
-                {
-                  "type": "directory",
-                  "name": "findRows",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 341
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 759
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "getColumn",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 341
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 520
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "getObject",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 341
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 601
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "matchRow",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 341
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 533
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "matchRows",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 341
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 759
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "removeTokens",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 341
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 630
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "saveTable",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 283
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 595
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "trim",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 341
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 808
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "directory",
-              "name": "p5.Vector",
-              "children": [
-                {
-                  "type": "directory",
-                  "name": "NOC_2_5_fluidresistance",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 484
-                    },
-                    {
-                      "type": "file",
-                      "name": "liquid.js",
-                      "size": 943
-                    },
-                    {
-                      "type": "file",
-                      "name": "mover.js",
-                      "size": 1055
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 1553
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "NOC_2_7_attraction_many",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "attractor.js",
-                      "size": 2143
-                    },
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 383
-                    },
-                    {
-                      "type": "file",
-                      "name": "mover.js",
-                      "size": 999
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 850
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "NOC_6_09_Flocking",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "boid.js",
-                      "size": 5048
-                    },
-                    {
-                      "type": "file",
-                      "name": "flock.js",
-                      "size": 499
-                    },
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 535
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 736
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "directory",
-              "name": "pixel",
-              "children": [
-                {
-                  "type": "file",
-                  "name": "set-pixels.html",
-                  "size": 204
-                },
-                {
-                  "type": "file",
-                  "name": "set-pixels.js",
-                  "size": 444
-                },
-                {
-                  "type": "file",
-                  "name": "unicorn.jpg",
-                  "size": 18136
-                },
-                {
-                  "type": "file",
-                  "name": "update-pixels.html",
-                  "size": 207
-                },
-                {
-                  "type": "file",
-                  "name": "update-pixels.js",
-                  "size": 630
-                }
-              ]
-            },
-            {
-              "type": "directory",
-              "name": "saveData",
-              "children": [
-                {
-                  "type": "directory",
-                  "name": "saveJSONArray",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 283
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 836
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "saveJSONObject",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 283
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 301
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "saveStrings",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 283
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 229
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "directory",
-              "name": "tint",
-              "children": [
-                {
-                  "type": "file",
-                  "name": "flowers.jpg",
-                  "size": 5620
-                },
-                {
-                  "type": "file",
-                  "name": "index.html",
-                  "size": 200
-                },
-                {
-                  "type": "file",
-                  "name": "sketch.js",
-                  "size": 383
-                }
-              ]
-            },
-            {
-              "type": "directory",
-              "name": "tutorials",
-              "children": [
-                {
-                  "type": "directory",
-                  "name": "DOM-extensions",
-                  "children": [
-                    {
-                      "type": "directory",
-                      "name": "0",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 348
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 1219
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "1",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 315
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 1331
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "2",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 315
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 959
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "3",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 315
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 1305
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "4",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 315
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 1421
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "6",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 315
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 1505
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "7",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 315
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 1694
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "8",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 315
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 1363
-                        }
-                      ]
-                    },
-                    {
-                      "type": "file",
-                      "name": "dom_1.png",
-                      "size": 26854
-                    },
-                    {
-                      "type": "file",
-                      "name": "dom_2-0.png",
-                      "size": 42541
-                    },
-                    {
-                      "type": "file",
-                      "name": "dom_2-1.png",
-                      "size": 38938
-                    },
-                    {
-                      "type": "file",
-                      "name": "dom_7.png",
-                      "size": 15924
-                    },
-                    {
-                      "type": "file",
-                      "name": "dom_8.png",
-                      "size": 28327
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "Integrating-other-libraries",
-                  "children": [
-                    {
-                      "type": "directory",
-                      "name": "0",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "buzz.js",
-                          "size": 24648
-                        },
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 328
-                        },
-                        {
-                          "type": "file",
-                          "name": "rhodes_loop.wav",
-                          "size": 734028
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 827
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "1",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "buzz.js",
-                          "size": 24648
-                        },
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 328
-                        },
-                        {
-                          "type": "file",
-                          "name": "red.jpg",
-                          "size": 15405
-                        },
-                        {
-                          "type": "file",
-                          "name": "rhodes_loop.wav",
-                          "size": 734028
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 659
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "2",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "buzz.js",
-                          "size": 24648
-                        },
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 328
-                        },
-                        {
-                          "type": "file",
-                          "name": "red.jpg",
-                          "size": 15405
-                        },
-                        {
-                          "type": "file",
-                          "name": "rhodes_loop.wav",
-                          "size": 734028
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 920
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "directory",
-              "name": "webgl",
-              "children": [
-                {
-                  "type": "directory",
-                  "name": "camera",
-                  "children": [
-                    {
-                      "type": "directory",
-                      "name": "ortho",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 1003
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 412
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "perspective",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 1002
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 478
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "geometry",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 975
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 1190
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "immediateMode",
-                  "children": [
-                    {
-                      "type": "directory",
-                      "name": "basic",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 1014
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 799
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "performance",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 1014
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 479
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "interaction",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 1010
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 469
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "lights",
-                  "children": [
-                    {
-                      "type": "directory",
-                      "name": "ambientLight",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 871
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 171
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "directionalLight",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 1021
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 306
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "multipleLights",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 1021
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 564
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "pointLight",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 1021
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 300
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "material",
-                  "children": [
-                    {
-                      "type": "directory",
-                      "name": "simple",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 871
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 437
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "specular_ambient",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 871
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 636
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "texture",
-                      "children": [
-                        {
-                          "type": "directory",
-                          "name": "assets",
-                          "children": [
-                            {
-                              "type": "file",
-                              "name": "360video_256crop_v2.mp4",
-                              "size": 2869326
-                            },
-                            {
-                              "type": "file",
-                              "name": "cat.jpg",
-                              "size": 16038
-                            },
-                            {
-                              "type": "file",
-                              "name": "tiny_grid_@2X.png",
-                              "size": 18500
-                            },
-                            {
-                              "type": "file",
-                              "name": "UV_Grid_Lg.jpg",
-                              "size": 650948
-                            },
-                            {
-                              "type": "file",
-                              "name": "UV_Grid_Med.jpg",
-                              "size": 133538
-                            },
-                            {
-                              "type": "file",
-                              "name": "UV_Grid_Sm.jpg",
-                              "size": 40108
-                            }
-                          ]
-                        },
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 930
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 1325
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "mixedMode",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 1111
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 502
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "mobile",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 865
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 217
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "origin",
-                  "children": [
-                    {
-                      "type": "directory",
-                      "name": "center_origin",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 1036
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 563
-                        }
-                      ]
-                    },
-                    {
-                      "type": "directory",
-                      "name": "topleft_origin",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "index.html",
-                          "size": 992
-                        },
-                        {
-                          "type": "file",
-                          "name": "sketch.js",
-                          "size": 489
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "performance",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "index.html",
-                      "size": 1008
-                    },
-                    {
-                      "type": "file",
-                      "name": "sketch.js",
-                      "size": 482
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "file",
-          "name": "mocha.css",
-          "size": 4242
-        },
-        {
-          "type": "directory",
-          "name": "node",
-          "children": [
-            {
-              "type": "file",
-              "name": "test-docs-preprocessor.js",
-              "size": 2493
-            }
-          ]
-        },
-        {
-          "type": "directory",
-          "name": "reporter",
-          "children": [
-            {
-              "type": "file",
-              "name": "simple.js",
-              "size": 1162
-            }
-          ]
-        },
-        {
-          "type": "file",
-          "name": "test-minified.html",
-          "size": 3232
-        },
-        {
-          "type": "file",
-          "name": "test-reference.html",
-          "size": 6737
-        },
-        {
-          "type": "file",
-          "name": "test.html",
-          "size": 4153
-        },
-        {
-          "type": "directory",
-          "name": "unit",
-          "children": [
-            {
-              "type": "directory",
-              "name": "addons",
-              "children": [
-                {
-                  "type": "file",
-                  "name": "p5.dom.js",
-                  "size": 1444
-                }
-              ]
-            },
-            {
-              "type": "directory",
-              "name": "assets",
-              "children": [
-                {
-                  "type": "file",
-                  "name": "acmesa.ttf",
-                  "size": 81212
-                },
-                {
-                  "type": "file",
-                  "name": "array.json",
-                  "size": 224
-                },
-                {
-                  "type": "file",
-                  "name": "books.xml",
-                  "size": 4411
-                },
-                {
-                  "type": "file",
-                  "name": "csv.csv",
-                  "size": 80
-                },
-                {
-                  "type": "file",
-                  "name": "nyan_cat.gif",
-                  "size": 2326
-                },
-                {
-                  "type": "file",
-                  "name": "object.json",
-                  "size": 57
-                },
-                {
-                  "type": "file",
-                  "name": "sentences.txt",
-                  "size": 4387
-                },
-                {
-                  "type": "file",
-                  "name": "target.gif",
-                  "size": 80
-                },
-                {
-                  "type": "file",
-                  "name": "target_small.gif",
-                  "size": 64
-                }
-              ]
-            },
-            {
-              "type": "directory",
-              "name": "color",
-              "children": [
-                {
-                  "type": "file",
-                  "name": "color_conversion.js",
-                  "size": 3340
-                },
-                {
-                  "type": "file",
-                  "name": "creating_reading.js",
-                  "size": 6550
-                },
-                {
-                  "type": "file",
-                  "name": "p5.Color.js",
-                  "size": 32142
-                },
-                {
-                  "type": "file",
-                  "name": "setting.js",
-                  "size": 2526
-                }
-              ]
-            },
-            {
-              "type": "directory",
-              "name": "core",
-              "children": [
-                {
-                  "type": "file",
-                  "name": "2d_primitives.js",
-                  "size": 8078
-                },
-                {
-                  "type": "file",
-                  "name": "core.js",
-                  "size": 9425
-                },
-                {
-                  "type": "file",
-                  "name": "curves.js",
-                  "size": 4705
-                },
-                {
-                  "type": "file",
-                  "name": "error_helpers.js",
-                  "size": 3686
-                },
-                {
-                  "type": "file",
-                  "name": "renderer.js",
-                  "size": 1956
-                },
-                {
-                  "type": "file",
-                  "name": "structure.js",
-                  "size": 4734
-                }
-              ]
-            },
-            {
-              "type": "directory",
-              "name": "data",
-              "children": [
-                {
-                  "type": "file",
-                  "name": "dictionary.js",
-                  "size": 2937
-                }
-              ]
-            },
-            {
-              "type": "directory",
-              "name": "image",
-              "children": [
-                {
-                  "type": "file",
-                  "name": "loading.js",
-                  "size": 3932
-                },
-                {
-                  "type": "file",
-                  "name": "pixels.js",
-                  "size": 1070
-                }
-              ]
-            },
-            {
-              "type": "directory",
-              "name": "io",
-              "children": [
-                {
-                  "type": "file",
-                  "name": "files_input.js",
-                  "size": 9511
-                }
-              ]
-            },
-            {
-              "type": "directory",
-              "name": "math",
-              "children": [
-                {
-                  "type": "file",
-                  "name": "calculation.js",
-                  "size": 12530
-                },
-                {
-                  "type": "file",
-                  "name": "noise.js",
-                  "size": 1519
-                },
-                {
-                  "type": "file",
-                  "name": "p5.Vector.js",
-                  "size": 26016
-                },
-                {
-                  "type": "file",
-                  "name": "random.js",
-                  "size": 1836
-                },
-                {
-                  "type": "file",
-                  "name": "trigonometry.js",
-                  "size": 3491
-                }
-              ]
-            },
-            {
-              "type": "directory",
-              "name": "typography",
-              "children": [
-                {
-                  "type": "file",
-                  "name": "font_loading.js",
-                  "size": 2540
-                }
-              ]
-            },
-            {
-              "type": "directory",
-              "name": "utilities",
-              "children": [
-                {
-                  "type": "file",
-                  "name": "array_functions.js",
-                  "size": 5103
-                },
-                {
-                  "type": "file",
-                  "name": "string_functions.js",
-                  "size": 5123
-                },
-                {
-                  "type": "file",
-                  "name": "time_date.js",
-                  "size": 3689
-                }
-              ]
-            },
-            {
-              "type": "directory",
-              "name": "webgl",
-              "children": [
-                {
-                  "type": "file",
-                  "name": "matrix.js",
-                  "size": 7
-                },
-                {
-                  "type": "file",
-                  "name": "p5.RendererGL.js",
-                  "size": 480
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ]
+      "name": "P_4_2_1_footage",
+      "children": [{
+        "count": 1,
+        "type": "file",
+        "name": "layer3_16.png",
+        "size": 135758
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "layer3_02.png",
+        "size": 30478
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "layer1_07.png",
+        "size": 619034
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "layer1_06.png",
+        "size": 376536
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "layer3_03.png",
+        "size": 169137
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "layer3_17.png",
+        "size": 126577
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "layer3_01.png",
+        "size": 168736
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "layer3_15.png",
+        "size": 100245
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "layer1_04.png",
+        "size": 252704
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "layer1_10.png",
+        "size": 396291
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "layer1_11.png",
+        "size": 794785
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "layer1_05.png",
+        "size": 214880
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "layer3_14.png",
+        "size": 208543
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "layer3_04.png",
+        "size": 188627
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "layer3_10.png",
+        "size": 107097
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "layer1_01.png",
+        "size": 398637
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "layer3_11.png",
+        "size": 493473
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "layer3_05.png",
+        "size": 21602
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "layer3_13.png",
+        "size": 319930
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "layer3_07.png",
+        "size": 208895
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "layer1_02.png",
+        "size": 403409
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "layer1_03.png",
+        "size": 416368
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "layer3_06.png",
+        "size": 810925
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "layer3_12.png",
+        "size": 419680
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "layer2_01.png",
+        "size": 191909
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "layer2_03.png",
+        "size": 48208
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "layer2_02.png",
+        "size": 283182
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "layer2_05.png",
+        "size": 8497
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "layer2_04.png",
+        "size": 13646
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "layer3_22.png",
+        "size": 281334
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "layer3_08.png",
+        "size": 25827
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "layer3_20.png",
+        "size": 97638
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "layer3_21.png",
+        "size": 222173
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "layer3_09.png",
+        "size": 111720
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "layer3_19.png",
+        "size": 103520
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "layer1_08.png",
+        "size": 984041
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "layer1_09.png",
+        "size": 1194009
+      }, {
+        "count": 1,
+        "type": "file",
+        "name": "layer3_18.png",
+        "size": 101215
+      }]
+    }]
+  }]
 }

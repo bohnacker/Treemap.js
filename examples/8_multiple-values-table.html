@@ -1,10 +1,12 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <script src="https://unpkg.com/popper.js@1"></script>
+    <script src="https://unpkg.com/tippy.js@4"></script>
     <script src="lib/Treemap.js"></script>
     <script src="data/example-json-table.js"></script>
     <style> 
-      body {padding: 0; margin: 0;} 
+      body {padding: 0; margin: 0; font-family: sans-serif; font-size: 9px;} 
       canvas {vertical-align: top;}
       div.treemap-item {position: absolute; border: 1px solid #0003;}
     </style>
@@ -24,13 +26,19 @@
 
       // Add data giving a flat json object. You usually have something like this, if you convert a csv file to json. Every line in the csv gets converted to a flat object without nested objects or arrays.
       for (var i = 0; i < dataJSON.length; i++) {
-        // Add each line of the table seperately to the treemap. The main category (mcat) and the category (cat) should be used to build the hierarchy.
-        treemap.addItem(dataJSON[i], ['mcat', 'cat'], dataJSON[i].pledged);
+        // Add each line of the table seperately to the treemap. In this example, the third parameter is used, to supply an object with multiple values.
+        treemap.addItem(dataJSON[i], ['mcat', 'cat'], {
+          goal: dataJSON[i].goal,
+          pledged: dataJSON[i].pledged,
+          backers: dataJSON[i].backers,
+          count: 1,
+        });
       }
 
 
-      // Calculate the treemap
-      treemap.calculate();
+      // Calculate the treemap. If you have multiple values, you have to supply the name of the value. Try setting 'showValue' to 'goal', 'pledged', 'backers' or 'count'.
+      var showValue = 'goal';
+      treemap.calculate(showValue);
 
 
       // Draw the treemap
@@ -41,6 +49,15 @@
         div.style.top = item.y;
         div.style.width = item.w;
         div.style.height = item.h;
+
+        // Add a tooltip which shows main category, category and value
+        if (item.depth == 0) {
+          tippy(div, {
+            content: '<div style="font-size:11px; text-align:left">Main category: ' + item.parent.data + '<br> Category: ' + item.data + '<br>Value ' + showValue + ': ' + item.value[showValue] + '</div>',
+            arrow: true,
+            duration: 100,
+          });
+        }
 
         if (item.parent && item.items.length > 0) {
           // if there are subitems then give the rectangle a color

@@ -1,10 +1,12 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <script src="https://unpkg.com/popper.js@1"></script>
+    <script src="https://unpkg.com/tippy.js@4"></script>
     <script src="lib/Treemap.js"></script>
     <script src="data/example-json-hierarchical.js"></script>
     <style> 
-      body {padding: 0; margin: 0;} 
+      body {padding: 0; margin: 0; font-family: sans-serif; font-size: 9px;} 
       canvas {vertical-align: top;}
       div.treemap-item {position: absolute; border: 1px solid #0003;}
     </style>
@@ -15,28 +17,49 @@
       // Create an empty treemap
       let w = window.innerWidth;
       let h = window.innerHeight;
-      let treemap = new Treemap(2, 2, w - 6, h - 6);
+      let treemap = new Treemap(2, 2, w - 6, h - 6, {
+        order: 'sort',
+        direction: 'both',
+        padding: 4,
+      });
 
 
       // add data giving a json object and the keys where to find the children, 
       // the value and optionally what data to store.
-      treemap.addData(dataJSON, {children:"children", value:"size"});
+      treemap.addData(dataJSON, {children:"children", value:["count", "size"]});
 
 
-      // Calculate the treemap
-      treemap.calculate();
+      // Calculate the treemap. If you have multiple values, you have to supply the name of the value. Try setting 'showValue' to 'count' or 'size'.
+      var showValue = 'size';
+      treemap.calculate(showValue);
 
 
       // Draw the treemap
       treemap.draw(function(item) {
         let div = document.createElement('div');
-        div.setAttribute('class', 'treemap-item');
+        div.setAttribute('class', 'treemap-item')
         div.style.left = item.x;
         div.style.top = item.y;
         div.style.width = item.w;
         div.style.height = item.h;
 
-        // The level of an item is a value between 0 and the total depth of the hierarchy. Every item has a reference to the root of the treemap which could be used to get the total depth.
+        // Add a tooltip which shows main category, category and value
+        // if (item.depth == 0) {
+          // Create path of all parent items
+          let it = item;
+          let path = "";
+          while (!it.isRoot) {
+            path = it.data.name + '/' + path;
+            it = it.parent;
+          }
+
+          tippy(div, {
+            content: '<div style="font-size:11px; text-align:left">' + path + '</div>',
+            arrow: true,
+            duration: 100,
+          });
+        // }
+
         let luminance = map(item.level, 0, item.root.depth + 1, 20, 80);
         div.style['background-color'] = 'hsl(200, 50%, ' + Math.floor(luminance) + '%)';
 

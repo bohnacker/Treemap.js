@@ -6,7 +6,7 @@ A [treemap](https://en.wikipedia.org/wiki/Treemapping) is a type of data diagram
 
 **This is work in process!**
 
-I decided to puplish it here as a seperate library to have it as a pure, independent, tiny and single-purpose class. It might be the right thing for you, if you want to generate and draw a treemap without having all the great but distractive stuff in big libraries like D3.js.
+I decided to publish it here as a seperate library to have it as a pure, independent, tiny and single-purpose class. It might be the right thing for you, if you want to generate and draw a treemap without having all the great but distractive stuff in big libraries like D3.js.
 
 ## Reference
 

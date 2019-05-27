@@ -2,7 +2,9 @@
 
 ![Cover](images/cover.png)
 
-A treemap is a type of data diagram  which shows a (hierarchical) list of values as nested rectangles. This class is also part of the [Generative Design Library](https://github.com/generative-design/generative-design-library.js).
+A [treemap](https://en.wikipedia.org/wiki/Treemapping) is a type of data diagram  which shows a (hierarchical) list of values as nested rectangles. The original version of this class is also part of the [Generative Design Library](https://github.com/generative-design/generative-design-library.js). For this standalone version I added some functionality and renamed/restructured things. 
+
+**This is work in process!**
 
 I decided to puplish it here as a seperate library to have it as a pure, independent, tiny and single-purpose class. It might be the right thing for you, if you want to generate and draw a treemap without having all the great but distractive stuff in big libraries like D3.js.
 

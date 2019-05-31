@@ -2,11 +2,116 @@
 
 ![Cover](images/cover.png)
 
-A [treemap](https://en.wikipedia.org/wiki/Treemapping) is a type of data diagram  which shows a (hierarchical) list of values as nested rectangles. The original version of this class is also part of the [Generative Design Library](https://github.com/generative-design/generative-design-library.js). For this standalone version I added some functionality and renamed/restructured things. 
+A [treemap](https://en.wikipedia.org/wiki/Treemapping) is a type of data diagram which shows a (hierarchical) list of values as nested rectangles. The original version of this class is also part of the [Generative Design Library](https://github.com/generative-design/generative-design-library.js). For this standalone version I added some functionality and renamed/restructured things. 
 
 **This is work in process!**
 
 I decided to publish it here as a seperate library to have it as a pure, independent, tiny and single-purpose class. It might be the right thing for you, if you want to generate and draw a treemap without having all the great but distractive stuff in big libraries like D3.js.
+
+--- 
+
+## Quick start
+
+A treemap is one good way of visualizing the sizes of a list of values. It works on plain lists, just like a bar chard does. But the real strength of a treemap is to show relative sizes of hierarchical data. This library helps with parsing or building this hierarchical data and calculating the rectangles. There is no graphics engine attached. But this way you can easiliy use it with every drawing method (plain html, p5.js, snap.svg, paper.js, ...). Have a look at the examples, there I try to show every implemented feature. For the full reference just scroll down to the reference section.
+
+### To create a treemap you need these steps:
+
+#### 1. Create an instance of the class
+
+```javascript
+let treemap = new Treemap(20, 20, 400, 300, {
+  order: 'sort',
+  direction: 'both',
+  padding: 4,
+});
+```
+
+This will create a treemap a position (x = 20, y = 20) as the upper left corner, with a width of 400 and a height of 300. You can give some options, how to calculate the rectangles. `order` could be set to `sort` of `shuffle`. Default is `sort`, which will sort all the items from largest to smallest. That's the best way from a data visualization point of view. `direction` might be `both`, `horizontal` or `vertical`. A value bigger than 0 for `padding` makes every nested item smaller than the containing one. You have to be aware that this in fact produces a "wrong" visualization, because the sizes of the rectangles are not proportional to the values in the data any more. Still, this might be insignificant, if you do not have many values in your data.
+
+#### 2. Add data to the treemap
+
+You can provide data in several ways. If you already have hierarchical data, just do it like this:
+
+```javascript
+treemap.addData(data);
+```
+
+The contents of `data` might be structured in different ways. Most simple, a (nested) array of values.
+```javascript
+let data = [1, 2, 3, 4, [2, 3, 4, 1, 1], 6, [4, 1, 1], [2, 3, 4, 1, 1, 2, 2], 9, 10, 11, 12];
+```
+
+The values of a (nested) array might also be objects. In this case you need to specify which value to use for sizing the rectangles.
+```javascript
+let data = [
+  {name:'John', weight:'80'}, 
+  {name:'Ann', weight:'65'}, 
+  {name:'Carl', weight:'75'}, 
+  ...
+];
+
+treemap.addData(data, {value: 'weigth'});
+```
+
+If you have a JSON-like structure like the following it works almost the same. You just have to specify, where to find the children.
+```javascript
+let data = {
+  "name": "02_M",
+  "files": [{
+    "name": "M_2_2_01",
+    "files": [{
+      "name": "index.html",
+      "size": 1070
+    }, {
+      "name": "M_2_2_01.png",
+      "size": 7390
+    }, {
+      "name": "sketch.js",
+      "size": 4126
+    }]
+  }, ... ]
+} 
+
+treemap.addData(data, {children: 'files', value: 'weigth'});
+```
+
+If you do not already have your data in the needed form you can use the function `addItem()` to help you with that. See examples `2_count-up.html` or `4_json-table.html` for how this is done.
+
+#### 3. Calculate the treemap
+
+In most cases it will look like this:
+
+```javascript
+treemap.calculate();
+```
+
+This produces x and y positions, width and height for all the rectangles in the treemap.
+
+#### 4. Drawing the treemap
+
+Drawing is always done with a customized drawing function to keep this library independ of any library that helps with drawing stuff. In the following sample, the elements are drawn to the document as divs. 
+
+```javascript
+treemap.draw(function(item) {
+  let div = document.createElement('div');
+
+  div.style.left = item.x;
+  div.style.top = item.y;
+  div.style.width = item.w;
+  div.style.height = item.h;
+
+  document.body.appendChild(div);
+});
+```
+
+The `draw()` function parses through all the items of the treemap. You could use a lot of information stored or calculated for that item:
+ - item.x, item.y, item.w, item.h – Dimensions of the rect
+ - item.minValue, item.maxValue - Smallest and largest item inside this item
+ - item.level, item.depth - How deep is this item nested in the tree? The root node has level 0, an end node has depth 0 
+ - item.itemCount - Number of items inside this item, counted recursively
+ - item.index - Index of this item inside the parents sorted items array
+
+---
 
 ## Reference
 

@@ -33,11 +33,11 @@
       treemap.calculate();
 
 
-      // Draw the treemap. Drawing is always done with a customized drawing function. To this library is independ of any library that helps with drawing stuff. For this example, the elements are drawn to the document as divs. 
+      // Drawing is always done with a customized drawing function to keep this library independ of any library that helps with drawing stuff. For this example, the elements are drawn to the document as divs. 
 
       // When going through the treemap, item holds all the information of the treemap element. There is lots of information you could use for drawing:
       // item.x, item.y, item.w, item.h – Dimensions of the rect
-      // item.minCount, item.maxCount - Smallest and largest item in this item
+      // item.minValue, item.maxValue - Smallest and largest item in this item
       // item.level, item.depth - How deep is this item nested in the tree? The root node has level 0, an end node has depth 0 
       // item.itemCount - Number of items inside this item, counted recursively
       // item.index - Index of this item inside the parents sorted items array

@@ -481,7 +481,7 @@ function Treemap() {
    */
   Treemap.prototype.draw = function(drawItemFunction) {
     if (!drawItemFunction) {
-      console.warn('You have to supply a drawing function to see something');
+      console.warn('You have to supply a drawing function to see something.');
       return;
     }
 

@@ -26,7 +26,7 @@ let treemap = new Treemap(20, 20, 400, 300, {
 });
 ```
 
-This will create a treemap at position (x = 20, y = 20) as the upper left corner, with a width of 400 and a height of 300. You can give some options, how to calculate the rectangles. `order` could be set to `sort` of `shuffle`. Default is `sort`, which will sort all the items from largest to smallest. That's the best way from a data visualization point of view. `direction` might be `both`, `horizontal` or `vertical`. A value bigger than 0 for `padding` makes every nested item smaller than the containing one. You have to be aware that this in fact produces a "wrong" visualization, because the sizes of the rectangles are not proportional to the values in the data any more. Still, this might be insignificant, if you do not have many values in your data.
+This will create a treemap at position (x = 20, y = 20) as the upper left corner, with a width of 400 and a height of 300. You can give some options, how to calculate the rectangles. `order` could be set to `sort` or `shuffle`. Default is `sort`, which will sort all the items from largest to smallest. From a data visualization point of view that's the best. `direction` might be `both`, `horizontal` or `vertical`. A value bigger than 0 for `padding` makes every nested item smaller than the containing one. You have to be aware that in fact this produces a "wrong" visualization, because the sizes of the rectangles are not proportional to the values in the data any more. Still, this might be insignificant, if you do not have many values in your data and padding is small compared to the size of the whole treemap.
 
 #### 2. Add data to the treemap
 

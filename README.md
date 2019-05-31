@@ -26,19 +26,16 @@ let treemap = new Treemap(20, 20, 400, 300, {
 });
 ```
 
-This will create a treemap a position (x = 20, y = 20) as the upper left corner, with a width of 400 and a height of 300. You can give some options, how to calculate the rectangles. `order` could be set to `sort` of `shuffle`. Default is `sort`, which will sort all the items from largest to smallest. That's the best way from a data visualization point of view. `direction` might be `both`, `horizontal` or `vertical`. A value bigger than 0 for `padding` makes every nested item smaller than the containing one. You have to be aware that this in fact produces a "wrong" visualization, because the sizes of the rectangles are not proportional to the values in the data any more. Still, this might be insignificant, if you do not have many values in your data.
+This will create a treemap at position (x = 20, y = 20) as the upper left corner, with a width of 400 and a height of 300. You can give some options, how to calculate the rectangles. `order` could be set to `sort` of `shuffle`. Default is `sort`, which will sort all the items from largest to smallest. That's the best way from a data visualization point of view. `direction` might be `both`, `horizontal` or `vertical`. A value bigger than 0 for `padding` makes every nested item smaller than the containing one. You have to be aware that this in fact produces a "wrong" visualization, because the sizes of the rectangles are not proportional to the values in the data any more. Still, this might be insignificant, if you do not have many values in your data.
 
 #### 2. Add data to the treemap
 
-You can provide data in several ways. If you already have hierarchical data, just do it like this:
+You can provide data in several ways. If you already have hierarchical data as a (nested) array of values, just do it like this:
 
 ```javascript
+let data = [1, 2, 3, 4, [2, 3, 4, 1, 1], 6, [4, 1, 1], [2, 3, 4, [1, 1, 2, 2]], 9, 10, 7, 12];
+
 treemap.addData(data);
-```
-
-The contents of `data` might be structured in different ways. Most simple, a (nested) array of values.
-```javascript
-let data = [1, 2, 3, 4, [2, 3, 4, 1, 1], 6, [4, 1, 1], [2, 3, 4, 1, 1, 2, 2], 9, 10, 11, 12];
 ```
 
 The values of a (nested) array might also be objects. In this case you need to specify which value to use for sizing the rectangles.
@@ -50,7 +47,7 @@ let data = [
   ...
 ];
 
-treemap.addData(data, {value: 'weigth'});
+treemap.addData(data, {value: 'weight'});
 ```
 
 If you have a JSON-like structure like the following it works almost the same. You just have to specify, where to find the children.
@@ -60,15 +57,16 @@ let data = {
   "files": [{
     "name": "M_2_2_01",
     "files": [{
-      "name": "index.html",
-      "size": 1070
-    }, {
-      "name": "M_2_2_01.png",
-      "size": 7390
-    }, {
-      "name": "sketch.js",
-      "size": 4126
-    }]
+        "name": "index.html",
+        "size": 1070
+      }, {
+        "name": "M_2_2_01.png",
+        "size": 7390
+      }, {
+        "name": "sketch.js",
+        "size": 4126
+      }
+    ]
   }, ... ]
 } 
 

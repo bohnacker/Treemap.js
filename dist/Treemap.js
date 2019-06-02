@@ -82,7 +82,7 @@ function Treemap() {
     this.value = arguments[2] || 0;
     // make sure only numbers get saved
     Object.keys(this.value).forEach(function(k) {
-      let v = parseFloat(this.value[k]);
+      var v = parseFloat(this.value[k]);
       v = isNaN(v) ? 0 : v;
       this.value[k] = v;
     }.bind(this));
@@ -279,7 +279,7 @@ function Treemap() {
         this.value = {};
       }
       Object.keys(val).forEach(function(k) {
-        let v = parseFloat(val[k]);
+        var v = parseFloat(val[k]);
         v = isNaN(v) ? 0 : v;
 
         // if (isNaN(v)) console.log(this);
@@ -292,7 +292,7 @@ function Treemap() {
       }.bind(this));
 
     } else {
-      let v = parseFloat(val);
+      var v = parseFloat(val);
       this.value += isNaN(v) ? 0 : v;
     }
   }

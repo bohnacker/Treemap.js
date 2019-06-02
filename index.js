@@ -79,6 +79,12 @@ function Treemap() {
     this.parent = arguments[0];
     this.data = arguments[1];
     this.value = arguments[2] || 0;
+    // make sure only numbers get saved
+    Object.keys(this.value).forEach(function(k) {
+      let v = parseFloat(this.value[k]);
+      v = isNaN(v) ? 0 : v;
+      this.value[k] = v;
+    }.bind(this));
   }
 
   this.x = this.x || 0;
@@ -138,6 +144,17 @@ function Treemap() {
   this.options = this.options || this.root.options;
 
   this.ignored = false;
+
+
+  Treemap.prototype.setOptions = function(opts) {
+    Object.keys(opts).forEach(function(k) {
+      this.options[k] = opts[k];
+    }.bind(this));
+
+    this.items.forEach(function(el) {
+      el.setOptions(opts);
+    });
+  }
 
   /**
    * Adds a data structure to the Treemap. 
@@ -216,9 +233,10 @@ function Treemap() {
       for (var j = 0; j < keys.length; j++) {
         var k = keys[j];
         var i = currItem.items.findIndex(function(el) { return el.data == data[k]; });
+
         if (i >= 0) {
-          // the element is already in this Treemap, so just increase counter
-          currItem.items[i].addValue(value);
+          // the element is already in this Treemap, so just increase value
+          if (j == keys.length - 1) currItem.items[i].addValue(value);
           currItem = currItem.items[i];
         } else {
           // the element is not found, so create a new Treemap for it
@@ -234,7 +252,7 @@ function Treemap() {
       // data is a "simple" value (String, Number, small Object or Array) which should be counted. 
       var i = this.items.findIndex(function(el) { return el.data == data; });
       if (i >= 0) {
-        // the element is already in this Treemap, so just increase counter
+        // the element is already in this Treemap, so just increase value
         this.items[i].addValue(value);
         return false;
       } else {
@@ -260,17 +278,21 @@ function Treemap() {
         this.value = {};
       }
       Object.keys(val).forEach(function(k) {
-        if (val[k]) {
-          if (this.value[k]) {
-            this.value[k] += val[k];
-          } else {
-            this.value[k] = val[k];
-          }
+        let v = parseFloat(val[k]);
+        v = isNaN(v) ? 0 : v;
+
+        // if (isNaN(v)) console.log(this);
+
+        if (this.value[k]) {
+          this.value[k] += v;
+        } else {
+          this.value[k] = v;
         }
       }.bind(this));
 
     } else {
-      this.value += val;
+      let v = parseFloat(val);
+      this.value += isNaN(v) ? 0 : v;
     }
   }
 
@@ -325,7 +347,9 @@ function Treemap() {
     if (this.items.length == 0) return;
 
     // if it's the root node, sum up all counters recursively
-    if (this == this.root) this.sumUpValues(valueKey);
+    if (this == this.root) {
+      this.sumUpValues(valueKey);
+    }
 
     // If to ignore this element, adjust parameters and stop
     if (this.ignored) {
@@ -368,100 +392,190 @@ function Treemap() {
     var restW = this.w - pad * 2;
     var restH = this.h - pad * 2;
 
-    // Fit in rows. One row consits of one or more rects that should be as square as possible in average.
-    // actIndex always points on the first counter, that has not fitted in.
-    var actIndex = 0;
-    while (actIndex < this.items.length) {
-      // A row is always along the shorter edge (a).
-      var isHorizontal = true; // horizontal row
-      var a = restW;
-      var b = restH;
-      if (this.root.options.direction != 'horizontal') {
-        if (restW > restH || this.root.options.direction == 'vertical') {
-          isHorizontal = false; // vertical row
+    if (this.root.options.order == 'keep') {
+      // use information in fields 'isHorizontal' and 'wrap' to build the rects
+
+      for (var i = 0; i < this.items.length; i++) {
+        // console.log(`Calculating item ${this.items[i].data.Country}`);
+        // var this.items[i].isHorizontal = this.items[i].this.items[i].isHorizontal;
+
+        var a = restW;
+        var b = restH;
+        if (!this.items[i].isHorizontal) {
           a = restH;
           b = restW;
         }
-      }
 
-      // How many items to fit into the row?
-      var rowSum = 0;
-      var rowCount = 0;
-      var avRelPrev = Number.MAX_VALUE;
-      for (var i = actIndex; i < this.items.length; i++) {
-        rowSum += valueKey ? this.items[i].value[valueKey] : this.items[i].value;
-        rowCount++;
+        // sum up all actual values in this row (until the is a wrap)
+        var rowSum = 0;
+        for (var j = i; j < this.items.length; j++) {
+          rowSum += valueKey ? this.items[j].value[valueKey] : this.items[j].value;
+          if (this.items[j].wrap) break;
+        }
+        var startI = i;
+        var endI = j;
 
-        // a * bLen is the rect of the row
+
         var percentage = rowSum / restSum;
         var bLen = b * percentage;
-        var avRel = (a / rowCount) / bLen;
 
-        // Let's assume it's a horizontal row. The rects are as square as possible,
-        // as soon as the average width (a / rowCount) gets smaller than the row height (bLen).
-        if (avRel < 1 || i == this.items.length - 1) {
-          // Which is better, the actual or the previous fitting?
-          if (avRelPrev < 1 / avRel) {
-            // previous fitting is better, so revert to that
-            rowSum -= valueKey ? this.items[i].value[valueKey] : this.items[i].value;
-            rowCount--;
-            bLen = b * rowSum / restSum;
-            i--;
-          }
 
-          // get the position and length of the row according to isHorizontal (horizontal or not).
-          var aPos = restX;
-          var bPos = restY;
-          var aLen = restW;
-          if (!isHorizontal) {
-            aPos = restY;
-            bPos = restX;
-            aLen = restH;
-          }
-
-          // now we can transform the counters between index actIndex and i to rects (in fact to treemaps)
-          for (var j = actIndex; j <= i; j++) {
-            // map aLen according to the value of the counter
-            var val = valueKey ? this.items[j].value[valueKey] : this.items[j].value;
-            var aPart = aLen * val / rowSum;
-            if (isHorizontal) {
-              this.items[j].x = aPos;
-              this.items[j].y = bPos;
-              this.items[j].w = aPart;
-              this.items[j].h = bLen;
-            } else {
-              this.items[j].x = bPos;
-              this.items[j].y = aPos;
-              this.items[j].w = bLen;
-              this.items[j].h = aPart;
-            }
-            // negative width or height not allowed
-            this.items[j].w = Math.max(this.items[j].w, 0);
-            this.items[j].h = Math.max(this.items[j].h, 0);
-
-            // now that the position, width and height is set, it's possible to calculate the nested treemap.
-            this.items[j].calculate(valueKey);
-            aPos += aPart;
-          }
-
-          // adjust dimensions for the next row
-          if (isHorizontal) {
-            restY += bLen;
-            restH -= bLen;
-          } else {
-            restX += bLen;
-            restW -= bLen;
-          }
-          restSum -= rowSum;
-
-          break;
+        // get the position and length of the row according to isHorizontal (horizontal or not).
+        var aPos = restX;
+        var bPos = restY;
+        var aLen = restW;
+        if (!this.items[i].isHorizontal) {
+          aPos = restY;
+          bPos = restX;
+          aLen = restH;
         }
 
-        avRelPrev = avRel;
+        // now we can transform the values between index startI and endI to rects (in fact to treemaps)
+        for (var j = startI; j <= endI; j++) {
+          // console.log(`Moving ${j}: ${this.items[j]}`);
+
+          // map aLen according to the value of the counter
+          var val = valueKey ? this.items[j].value[valueKey] : this.items[j].value;
+          var aPart = aLen * val / rowSum;
+          if (this.items[i].isHorizontal) {
+            this.items[j].x = aPos;
+            this.items[j].y = bPos;
+            this.items[j].w = aPart;
+            this.items[j].h = bLen;
+          } else {
+            this.items[j].x = bPos;
+            this.items[j].y = aPos;
+            this.items[j].w = bLen;
+            this.items[j].h = aPart;
+          }
+          // negative width or height not allowed
+          this.items[j].w = Math.max(this.items[j].w, 0);
+          this.items[j].h = Math.max(this.items[j].h, 0);
+
+          // now that the position, width and height is set, it's possible to calculate the nested treemap.
+          this.items[j].calculate(valueKey);
+          aPos += aPart;
+        }
+
+        // adjust dimensions for the next row
+        if (this.items[i].isHorizontal) {
+          restY += bLen;
+          restH -= bLen;
+        } else {
+          restX += bLen;
+          restW -= bLen;
+        }
+        restSum -= rowSum;
+
+        i = endI;
+
       }
 
-      actIndex = i + 1;
+    } else {
+      // Fit in rows. One row consits of one or more rects that should be as square as possible in average.
+      // actIndex always points on the first counter, that has not fitted in.
+      var actIndex = 0;
+      while (actIndex < this.items.length) {
+        // A row is always along the shorter edge (a).
+        var isHorizontal = true; // horizontal row
+        var a = restW;
+        var b = restH;
+        if (this.root.options.direction != 'horizontal') {
+          if (restW > restH || this.root.options.direction == 'vertical') {
+            isHorizontal = false; // vertical row
+            a = restH;
+            b = restW;
+          }
+        }
+
+        // How many items to fit into the row?
+        var rowSum = 0;
+        var rowCount = 0;
+        var avRelPrev = Number.MAX_VALUE;
+        for (var i = actIndex; i < this.items.length; i++) {
+          rowSum += valueKey ? this.items[i].value[valueKey] : this.items[i].value;
+          rowCount++;
+
+          // a * bLen is the rect of the row
+          var percentage = rowSum / restSum;
+          var bLen = b * percentage;
+          var avRel = (a / rowCount) / bLen;
+
+          // store the information if the actual item is in a horizontal row or not
+          this.items[i].isHorizontal = isHorizontal;
+
+          // Let's assume it's a horizontal row. The rects are as square as possible,
+          // as soon as the average width (a / rowCount) gets smaller than the row height (bLen).
+          if (avRel < 1 || i == this.items.length - 1) {
+            // Which is better, the actual or the previous fitting?
+            if (avRelPrev < 1 / avRel) {
+              // previous fitting is better, so revert to that
+              rowSum -= valueKey ? this.items[i].value[valueKey] : this.items[i].value;
+              rowCount--;
+              bLen = b * rowSum / restSum;
+              i--;
+            }
+
+            // store the information, at which item wrapping was done
+            this.items[i].wrap = true;
+
+            // get the position and length of the row according to isHorizontal (horizontal or not).
+            var aPos = restX;
+            var bPos = restY;
+            var aLen = restW;
+            if (!isHorizontal) {
+              aPos = restY;
+              bPos = restX;
+              aLen = restH;
+            }
+
+            // now we can transform the counters between index actIndex and i to rects (in fact to treemaps)
+            for (var j = actIndex; j <= i; j++) {
+              // map aLen according to the value of the counter
+              var val = valueKey ? this.items[j].value[valueKey] : this.items[j].value;
+              var aPart = aLen * val / rowSum;
+              if (isHorizontal) {
+                this.items[j].x = aPos;
+                this.items[j].y = bPos;
+                this.items[j].w = aPart;
+                this.items[j].h = bLen;
+              } else {
+                this.items[j].x = bPos;
+                this.items[j].y = aPos;
+                this.items[j].w = bLen;
+                this.items[j].h = aPart;
+              }
+              // negative width or height not allowed
+              this.items[j].w = Math.max(this.items[j].w, 0);
+              this.items[j].h = Math.max(this.items[j].h, 0);
+
+              // now that the position, width and height is set, it's possible to calculate the nested treemap.
+              this.items[j].calculate(valueKey);
+              aPos += aPart;
+            }
+
+            // adjust dimensions for the next row
+            if (isHorizontal) {
+              restY += bLen;
+              restH -= bLen;
+            } else {
+              restX += bLen;
+              restW -= bLen;
+            }
+            restSum -= rowSum;
+
+            break;
+          }
+
+          avRelPrev = avRel;
+        }
+
+        actIndex = i + 1;
+      }
+
     }
+
+
   };
 
   /**

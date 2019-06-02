@@ -1,0 +1,93 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script src="https://unpkg.com/popper.js@1"></script>
+    <script src="https://unpkg.com/tippy.js@4"></script>
+    <script src="lib/snap.svg-min.js"></script>
+    <script src="lib/Treemap.js"></script>
+    <script src="data/example-json-countries.js"></script>
+    <style> 
+      body {padding: 0; margin: 0; font-family: sans-serif; font-size: 12px;} 
+      canvas {vertical-align: top;}
+      div.treemap-item {position: absolute; border: 1px solid #0003;}
+      div.heading {padding: 10px;}
+    </style>
+  </head>
+  <body>
+    <div class='heading'>
+      Press keys 1 (Area) or 2 (Population) to change the displayed value. Note, that the order will be kept.
+    </div>
+
+    <script type="text/javascript">
+
+      let valueNames = ["Area", "Population"];
+      let showValue = valueNames[0];
+
+      // Create an empty treemap
+      let w = window.innerWidth;
+      let h = window.innerHeight - 40;
+      let treemap = new Treemap(2, 2, w - 5, h - 5);
+
+      // add data giving a json object and the keys where to find the children, 
+      // the value and optionally what data to store.
+      treemap.addData(dataJSON, {value:valueNames});
+
+
+      // Calculate the treemap
+      treemap.calculate(showValue);
+
+
+      // Prepare snap-svg paper for drawing
+      let paper = Snap(w, h);
+
+      // Draw the treemap
+      treemap.draw(drawItem);
+
+      function drawItem(item) {
+        if (item.svgElement) {
+          // The rect was already created so just change position and dimensions
+          item.svgElement.animate({
+            x: item.x,
+            y: item.y,
+            width: item.w,
+            height: item.h,
+          }, 500, mina.easeinout);
+
+        } else {
+          // Otherwise create a rectangle for every item
+          item.svgElement = paper.rect(item.x, item.y, item.w, item.h).attr({
+            fill: "#0000",
+            stroke: "#000",
+            strokeWidth: 0.3
+          });
+        }
+
+        // Create the tooltip
+        let content = '<div style="font-size:11px; text-align:left">Country: ' + item.data.Country + '<br>' + showValue + ': ' + item.value[showValue] + '</div>';
+        if (item.myTip) {
+          item.myTip.setContent(content);
+        } else {
+          item.myTip = tippy(item.svgElement.node, {
+            content: content,
+            arrow: true,
+            duration: 100,
+          });
+        }
+      }
+
+      window.addEventListener('keydown', function(e) {
+        let index = parseInt(e.key) - 1;
+        if (index >= 0 && index < valueNames.length) {
+          showValue = valueNames[index];
+
+          console.log(`Calculating treemap on value ${showValue}`);
+          treemap.setOptions({order: 'keep'});
+          treemap.calculate(showValue);
+          treemap.draw(drawItem);
+        }
+      });
+
+
+    </script>
+  </body>
+</html>

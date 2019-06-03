@@ -76,15 +76,23 @@ function Treemap() {
     this.h = arguments[3];
     this.options = arguments[4] || {};
   } else {
+    // call of this constructor for internal use to create sub-treemaps
     this.parent = arguments[0];
     this.data = arguments[1];
     this.value = arguments[2] || 0;
+
     // make sure only numbers get saved
-    Object.keys(this.value).forEach(function(k) {
-      var v = parseFloat(this.value[k]);
+    if (typeof this.value == 'object') {
+      Object.keys(this.value).forEach(function(k) {
+        var v = parseFloat(this.value[k]);
+        v = isNaN(v) ? 0 : v;
+        this.value[k] = v;
+      }.bind(this));
+    } else {
+      var v = parseFloat(this.value);
       v = isNaN(v) ? 0 : v;
-      this.value[k] = v;
-    }.bind(this));
+      this.value = v;
+    }
   }
 
   this.x = this.x || 0;
@@ -146,15 +154,6 @@ function Treemap() {
   this.ignored = false;
 
 
-  Treemap.prototype.setOptions = function(opts) {
-    Object.keys(opts).forEach(function(k) {
-      this.options[k] = opts[k];
-    }.bind(this));
-
-    this.items.forEach(function(el) {
-      el.setOptions(opts);
-    });
-  }
 
   /**
    * Adds a data structure to the Treemap. 
@@ -166,9 +165,9 @@ function Treemap() {
    * This might be the way to choose in most cases. That way you keep all the information accessible when drawing the treemap.
    *
    * @method addData
-   * @param {String|Number|Object|Array} data   the data element (e.g. a String) 
-   * @param {Object} [keys]                     which keys should be used to build the Treemap: e.g. {children:"items", value:"size", data:"name"}. See the example for different ways how to use that. 
-   * @return {Boolean}                          returns true, if adding succeeded
+   * @param {String|Number|Object|Array} data – The data element (e.g. a String) 
+   * @param {Object} [keys]                   – Which keys should be used to build the Treemap: e.g. {children:"items", value:"size", data:"name"}. See the example for different ways how to use that. 
+   * @return {Boolean}                         – Returns true, if adding succeeded
    */
 
   Treemap.prototype.addData = function(data, opts) {
@@ -217,10 +216,10 @@ function Treemap() {
    * If not, create a new Treemap with that data and init the counter with 1.
    *
    * @method addItem
-   * @param {String|Number|Object|Array} data   the data element (e.g. a String) 
-   * @param {Array} [keys]                      if `keys` is given, data has to be an object. It searches for the first key on the first level, for the second key on the second level, ...
-   * @param {Number} [value]                    how much should this item add to the size. If not given, 1 is added.
-   * @return {Treemap}                          returns the treemap where the data was added
+   * @param {String|Number|Object|Array} data – The data element (e.g. a String) 
+   * @param {Array} [keys]                    – If `keys` is given, data has to be an object. It searches for the first key on the first level, for the second key on the second level, ...
+   * @param {Number} [value]                  – How much should this item add to the size. If not given, 1 is added.
+   * @return {Treemap}                        – Returns the treemap where the data was added
    */
 
   Treemap.prototype.addItem = function(data, keys, value) {
@@ -236,7 +235,7 @@ function Treemap() {
 
         if (i >= 0) {
           // the element is already in this Treemap, so just increase value
-          if (j == keys.length - 1) currItem.items[i].addValue(value);
+          if (j == keys.length - 1) currItem.items[i].add(value);
           currItem = currItem.items[i];
         } else {
           // the element is not found, so create a new Treemap for it
@@ -253,7 +252,7 @@ function Treemap() {
       var i = this.items.findIndex(function(el) { return el.data == data; });
       if (i >= 0) {
         // the element is already in this Treemap, so just increase value
-        this.items[i].addValue(value);
+        this.items[i].add(value);
         return false;
       } else {
         // the element is not found, so create a new Treemap for it
@@ -264,6 +263,25 @@ function Treemap() {
     }
   }
 
+
+  /**
+   * Set order, padding, ... for next calculation of the treemap.
+   *
+   * @method setOptions
+   * @param {Object} options – Object in the form `{order: 'keep', padding: 4}`
+   */
+
+  Treemap.prototype.setOptions = function(opts) {
+    Object.keys(opts).forEach(function(k) {
+      this.options[k] = opts[k];
+    }.bind(this));
+
+    this.items.forEach(function(el) {
+      el.setOptions(opts);
+    });
+  }
+
+
   // Probably not really useful. Same could be done with addData
   Treemap.prototype.addTreemap = function(data, value) {
     var t = new Treemap(this, data, value);
@@ -272,7 +290,7 @@ function Treemap() {
   }
 
   // Helper function to add up values. if val is an object, add up all the values
-  Treemap.prototype.addValue = function(val) {
+  Treemap.prototype.add = function(val) {
     if (typeof val === 'object') {
       if (typeof this.value != 'object') {
         this.value = {};
@@ -280,8 +298,6 @@ function Treemap() {
       Object.keys(val).forEach(function(k) {
         var v = parseFloat(val[k]);
         v = isNaN(v) ? 0 : v;
-
-        // if (isNaN(v)) console.log(this);
 
         if (this.value[k]) {
           this.value[k] += v;
@@ -325,7 +341,7 @@ function Treemap() {
       for (var i = 0; i < this.items.length; i++) {
         var sum = this.items[i].sumUpValues(valueKey);
 
-        this.addValue(sum);
+        this.add(sum);
         var val = valueKey ? sum[valueKey] : sum;
         this.minValue = Math.min(this.minValue, val);
         this.maxValue = Math.max(this.maxValue, val);
@@ -338,9 +354,10 @@ function Treemap() {
 
   /**
    * Calculates the rectangles of each item. While doing this, all counters 
-   * and ignore flags are updated.
+   * and ignore flags are updated. If you have multiple values stored in your treemap you must give a key to define which value to use for calculation.
    *
    * @method calculate
+   * @param {String} [key]
    */
   Treemap.prototype.calculate = function(valueKey) {
     // Stop immediately, if it's an empty array
@@ -585,13 +602,17 @@ function Treemap() {
    * Example:         
    * ``` 
    * myTreemap.draw(function(item) { 
-   *   var r = Math.min(item.w/4, item.h/4, 5);
-   *   rect(item.x, item.y, item.w, item.h, r); 
+   *   let div = document.createElement('div');
+   *   div.style.left = item.x;
+   *   div.style.top = item.y;
+   *   div.style.width = item.w;
+   *   div.style.height = item.h;
+   *   document.body.appendChild(div);
    * }); 
    * ```
    *
    * @method draw
-   * @param {Function} drawItemFunction a function that draws one item 
+   * @param {Function} drawItemFunction – A function that draws one item 
    */
   Treemap.prototype.draw = function(drawItemFunction) {
     if (!drawItemFunction) {

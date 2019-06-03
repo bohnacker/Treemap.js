@@ -8,7 +8,7 @@ A [treemap](https://en.wikipedia.org/wiki/Treemapping) is a type of data diagram
 
 I decided to publish it here as a seperate library to have it as a pure, independent, tiny and single-purpose class. It might be the right thing for you, if you want to generate and draw a treemap without having all the great but distractive stuff in big libraries like D3.js.
 
---- 
+* * *
 
 ## Quick start
 
@@ -39,6 +39,7 @@ treemap.addData(data);
 ```
 
 The values of a (nested) array might also be objects. In this case you need to specify which value to use for sizing the rectangles.
+
 ```javascript
 let data = [
   {name:'John', weight:'80'}, 
@@ -51,6 +52,7 @@ treemap.addData(data, {value: 'weight'});
 ```
 
 If you have a JSON-like structure like the following it works almost the same. You just have to specify, where to find the children.
+
 ```javascript
 let data = {
   "name": "02_M",
@@ -103,13 +105,14 @@ treemap.draw(function(item) {
 ```
 
 The `draw()` function parses through all the items of the treemap. You could use a lot of information stored or calculated for that item:
- - item.x, item.y, item.w, item.h – Dimensions of the rect
- - item.minValue, item.maxValue - Smallest and largest item inside this item
- - item.level, item.depth - How deep is this item nested in the tree? The root node has level 0, an end node has depth 0 
- - item.itemCount - Number of items inside this item, counted recursively
- - item.index - Index of this item inside the parents sorted items array
 
----
+-   item.x, item.y, item.w, item.h – Dimensions of the rect
+-   item.minValue, item.maxValue - Smallest and largest item inside this item
+-   item.level, item.depth - How deep is this item nested in the tree? The root node has level 0, an end node has depth 0 
+-   item.itemCount - Number of items inside this item, counted recursively
+-   item.index - Index of this item inside the parents sorted items array
+
+* * *
 
 ## Reference
 
@@ -130,6 +133,7 @@ The `draw()` function parses through all the items of the treemap. You could use
     -   [index](#index)
 -   [addData](#adddata)
 -   [addItem](#additem)
+-   [setOptions](#setoptions)
 -   [calculate](#calculate)
 -   [draw](#draw)
 
@@ -202,10 +206,10 @@ This might be the way to choose in most cases. That way you keep all the informa
 
 **Parameters**
 
--   `data` **([String](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String) \| [Number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number) \| [Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object) \| [Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array))** the data element (e.g. a String)
--   `keys` **[Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)?** which keys should be used to build the Treemap: e.g. {children:"items", value:"size", data:"name"}. See the example for different ways how to use that.
+-   `data` **([String](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String) \| [Number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number) \| [Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object) \| [Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array))** – The data element (e.g. a String)
+-   `keys` **[Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)?** – Which keys should be used to build the Treemap: e.g. {children:"items", value:"size", data:"name"}. See the example for different ways how to use that.
 
-Returns **[Boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** returns true, if adding succeeded
+Returns **[Boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** – Returns true, if adding succeeded
 
 ### addItem
 
@@ -215,16 +219,28 @@ If not, create a new Treemap with that data and init the counter with 1.
 
 **Parameters**
 
--   `data` **([String](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String) \| [Number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number) \| [Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object) \| [Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array))** the data element (e.g. a String)
--   `keys` **[Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)?** if `keys` is given, data has to be an object. It searches for the first key on the first level, for the second key on the second level, ...
--   `value` **[Number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number)?** how much should this item add to the size. If not given, 1 is added.
+-   `data` **([String](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String) \| [Number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number) \| [Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object) \| [Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array))** – The data element (e.g. a String)
+-   `keys` **[Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)?** – If `keys` is given, data has to be an object. It searches for the first key on the first level, for the second key on the second level, ...
+-   `value` **[Number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number)?** – How much should this item add to the size. If not given, 1 is added.
 
-Returns **[Treemap](#treemap)** returns the treemap where the data was added
+Returns **[Treemap](#treemap)** – Returns the treemap where the data was added
+
+### setOptions
+
+Set order, padding, ... for next calculation of the treemap.
+
+**Parameters**
+
+-   `options` **[Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** – Object in the form `{order: 'keep', padding: 4}`
 
 ### calculate
 
 Calculates the rectangles of each item. While doing this, all counters 
-and ignore flags are updated.
+and ignore flags are updated. If you have multiple values stored in your treemap you must give a key to define which value to use for calculation.
+
+**Parameters**
+
+-   `key` **[String](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)?** 
 
 ### draw
 
@@ -234,10 +250,14 @@ as a parameter and has access to all the fields of that item, most important `x`
 Example:         
 
     myTreemap.draw(function(item) { 
-      var r = Math.min(item.w/4, item.h/4, 5);
-      rect(item.x, item.y, item.w, item.h, r); 
+      let div = document.createElement('div');
+      div.style.left = item.x;
+      div.style.top = item.y;
+      div.style.width = item.w;
+      div.style.height = item.h;
+      document.body.appendChild(div);
     }); 
 
 **Parameters**
 
--   `drawItemFunction` **[Function](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/function)** a function that draws one item
+-   `drawItemFunction` **[Function](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/function)** – A function that draws one item

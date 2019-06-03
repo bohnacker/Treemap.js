@@ -140,59 +140,58 @@ The `draw()` function parses through all the items of the treemap. You could use
 ### Treemap
 
 Creates a new empty Treemap with position (x, y), width and height. 
-To specify drawing a bit more, you can give drawing options. `order` is "sort" or "shuffle".
-`direction` is either "horizontal", "vertical" or "both". With 'ignore', you can easily switch on and off branches of the Treemap. 
+To specify drawing a bit more, you can give drawing options. See method `setOptions()` for more information.
 Content may be added using `addData()` or `addItem()`.
 
 **Parameters**
 
--   `x` **[Number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number)** x position
--   `y` **[Number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number)** y position
--   `w` **[Number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number)** width
--   `h` **[Number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number)** height
--   `options` **[Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)?** drawing and sorting options {sort:true or false, direction:"horizontal", "vertical" or "both", ignore:["abc", "xyz"]}
+-   `x` **[Number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number)** – X position
+-   `y` **[Number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number)** – Y position
+-   `w` **[Number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number)** – Width
+-   `h` **[Number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number)** – Height
+-   `options` **[Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)?** – Drawing options
 
-Returns **[Treemap](#treemap)** the new empty Treemap
+Returns **[Treemap](#treemap)** – The new empty Treemap
 
 #### x
 
-x position of the rectangle.
+X position of the rectangle.
 
 #### y
 
-y position of the rectangle.
+Y position of the rectangle.
 
 #### w
 
-width of the rectangle.
+Width of the rectangle.
 
 #### h
 
-height of the rectangle.
+Height of the rectangle.
 
 #### minValue
 
-the minimum value of the items in the items array
+The minimum value of the items in the items array
 
 #### maxValue
 
-the maximum value of the items in the items array
+The maximum value of the items in the items array
 
 #### level
 
-level of the item; the root node has level 0
+Level of the item; the root node has level 0
 
 #### depth
 
-the depth of the branch; end nodes have depth 0
+The depth of the branch; end nodes have depth 0
 
 #### itemCount
 
-the number of items in the complete branch
+The number of items in the complete branch
 
 #### index
 
-index of the item in the sorted items array.
+Index of the item in the sorted items array.
 
 ### addData
 
@@ -227,7 +226,11 @@ Returns **[Treemap](#treemap)** – Returns the treemap where the data was added
 
 ### setOptions
 
-Set order, padding, ... for next calculation of the treemap.
+Set options for next calculation of the treemap. Currently there are the following options you might set:
+
+-   order: 'sort', 'shuffle' or 'keep'. Default is 'sort'. Attention: don't use 'keep' for the first calculation of the treemap.
+-   direction: 'both, 'horizontal' or 'vertical'. Default is 'both'.
+-   padding: 0 (default) or any positive number.
 
 **Parameters**
 

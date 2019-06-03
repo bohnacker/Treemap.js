@@ -6,21 +6,20 @@ var packageInfo = require('./package.json');
 
 /**
  * Creates a new empty Treemap with position (x, y), width and height. 
- * To specify drawing a bit more, you can give drawing options. `order` is "sort" or "shuffle".
- * `direction` is either "horizontal", "vertical" or "both". With 'ignore', you can easily switch on and off branches of the Treemap. 
+ * To specify drawing a bit more, you can give drawing options. See method `setOptions()` for more information.
  * Content may be added using `addData()` or `addItem()`.
  * 
  * @class Treemap
  * @constructor
- * @param  {Number} x         x position
- * @param  {Number} y         y position
- * @param  {Number} w         width
- * @param  {Number} h         height
- * @param  {Object} [options] drawing and sorting options {sort:true or false, direction:"horizontal", "vertical" or "both", ignore:["abc", "xyz"]}
- * @return {Treemap}          the new empty Treemap 
+ * @param  {Number} x         – X position
+ * @param  {Number} y         – Y position
+ * @param  {Number} w         – Width
+ * @param  {Number} h         – Height
+ * @param  {Object} [options] – Drawing options
+ * @return {Treemap}          – The new empty Treemap 
  */
 
-/**
+/*
  * @class Treemap
  * @ignore
  * @constructor (mainly for internal use)
@@ -30,7 +29,7 @@ var packageInfo = require('./package.json');
  * @return {Treemap}          the new Treemap that represents one item
  */
 
-/**
+/*
  * @class Treemap
  * @ignore
  * @constructor (mainly for internal use)
@@ -45,25 +44,25 @@ function Treemap() {
   this.items = [];
 
   /**
-   * x position of the rectangle.
+   * X position of the rectangle.
    * @property x
    * @type {Number}
    */
   this.x = 0;
   /**
-   * y position of the rectangle.
+   * Y position of the rectangle.
    * @property y
    * @type {Number}
    */
   this.y = 0;
   /**
-   * width of the rectangle.
+   * Width of the rectangle.
    * @property w
    * @type {Number}
    */
   this.w = 0;
   /**
-   * height of the rectangle.
+   * Height of the rectangle.
    * @property h
    * @type {Number}
    */
@@ -103,20 +102,20 @@ function Treemap() {
 
 
   /**
-   * the minimum value of the items in the items array
+   * The minimum value of the items in the items array
    * @property minValue
    * @type {Number}
    */
   this.minValue = 0;
   /**
-   * the maximum value of the items in the items array
+   * The maximum value of the items in the items array
    * @property maxValue
    * @type {Number}
    */
   this.maxValue = 0;
 
   /**
-   * level of the item; the root node has level 0
+   * Level of the item; the root node has level 0
    * @property level
    * @type {Number}
    */
@@ -124,21 +123,21 @@ function Treemap() {
   if (this.parent) this.level = this.parent.level + 1;
 
   /**
-   * the depth of the branch; end nodes have depth 0
+   * The depth of the branch; end nodes have depth 0
    * @property depth
    * @type {Number}
    */
   this.depth = 0;
 
   /**
-   * the number of items in the complete branch
+   * The number of items in the complete branch
    * @property itemCount
    * @type {Number}
    */
   this.itemCount = 1;
 
   /**
-   * index of the item in the sorted items array.
+   * Index of the item in the sorted items array.
    * @property index
    * @type {Number}
    */
@@ -266,7 +265,10 @@ function Treemap() {
 
 
   /**
-   * Set order, padding, ... for next calculation of the treemap.
+   * Set options for next calculation of the treemap. Currently there are the following options you might set:
+   * - order: 'sort', 'shuffle' or 'keep'. Default is 'sort'. Attention: don't use 'keep' for the first calculation of the treemap.
+   * - direction: 'both, 'horizontal' or 'vertical'. Default is 'both'.
+   * - padding: 0 (default) or any positive number.
    *
    * @method setOptions
    * @param {Object} options – Object in the form `{order: 'keep', padding: 4}`
@@ -661,7 +663,7 @@ module.exports = Treemap;
 },{"./package.json":2}],2:[function(require,module,exports){
 module.exports={
   "name": "Treemap.js",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "A javascript library for calculating a treemap.",
   "license": "MIT",
   "main": "index.js",

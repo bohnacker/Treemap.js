@@ -252,14 +252,16 @@ as a parameter and has access to all the fields of that item, most important `x`
 `level` and `depth` tells you, how deep this item is nested in the tree. The root node has level 0, an end node has depth 0. `itemCount` gives you the number of items inside this item, counted recursively and the `index` of item inside the parents sorted items array.
 Example:         
 
-    myTreemap.draw(function(item) { 
-      let div = document.createElement('div');
-      div.style.left = item.x;
-      div.style.top = item.y;
-      div.style.width = item.w;
-      div.style.height = item.h;
-      document.body.appendChild(div);
-    }); 
+```javascript
+myTreemap.draw(function(item) { 
+  let div = document.createElement('div');
+  div.style.left = item.x;
+  div.style.top = item.y;
+  div.style.width = item.w;
+  div.style.height = item.h;
+  document.body.appendChild(div);
+}); 
+```
 
 **Parameters**
 

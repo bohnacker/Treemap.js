@@ -43,7 +43,7 @@ The values of a (nested) array might also be objects. In this case you need to s
 ```javascript
 let data = [
   {name:'John', weight:'80'}, 
-  {name:'Ann', weight:'65'}, 
+  {name:'Mary', weight:'65'}, 
   {name:'Carl', weight:'75'}, 
   ...
 ];
@@ -72,7 +72,7 @@ let data = {
   }, ... ]
 } 
 
-treemap.addData(data, {children: 'files', value: 'weigth'});
+treemap.addData(data, {children: 'files', value: 'size'});
 ```
 
 If you do not already have your data in the needed form you can use the function `addItem()` to help you with that. See examples `2_count-up.html` or `4_json-table.html` for how this is done.
@@ -106,11 +106,11 @@ treemap.draw(function(item) {
 
 The `draw()` function parses through all the items of the treemap. You could use a lot of information stored or calculated for that item:
 
--   item.x, item.y, item.w, item.h – Dimensions of the rect
--   item.minValue, item.maxValue - Smallest and largest item inside this item
--   item.level, item.depth - How deep is this item nested in the tree? The root node has level 0, an end node has depth 0 
--   item.itemCount - Number of items inside this item, counted recursively
--   item.index - Index of this item inside the parents sorted items array
+-   `item.x`, `item.y`, `item.w`, `item.h` – Dimensions of the rect
+-   `item.minValue`, `item.maxValue` - Smallest and largest item inside this item
+-   `item.level`, `item.depth` - How deep is this item nested in the tree? The root node has level 0, an end node has depth 0 
+-   `item.itemCount` - Number of items inside this item, counted recursively
+-   `item.index` - Index of this item inside the parents sorted items array
 
 * * *
 

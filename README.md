@@ -12,7 +12,7 @@ I decided to publish it here as a seperate library to have it as a pure, indepen
 
 ## Quick start
 
-A treemap is one good way of visualizing the sizes of a list of values. It works on plain lists, just like a bar chard does. But the real strength of a treemap is to show relative sizes of hierarchical data. This library helps with parsing or building this hierarchical data and calculating the rectangles. There is no graphics engine attached. But this way you can easiliy use it with every drawing method (plain html, p5.js, snap.svg, paper.js, ...). Have a look at the examples, there I try to show every implemented feature. For the full reference just scroll down to the reference section.
+A treemap is one good way of visualizing the sizes of a list of values. It works on plain lists, just like a bar chart does. But the real strength of a treemap is to show relative sizes in hierarchical data. This library helps with parsing or building this hierarchical data and calculating the rectangles. There is no graphics engine attached. But this way you can easiliy use it with every drawing method (plain html, p5.js, snap.svg, paper.js, ...). Have a look at the examples, there I try to show every implemented feature. For the full reference just scroll down to the reference section.
 
 ### To create a treemap you need these steps:
 

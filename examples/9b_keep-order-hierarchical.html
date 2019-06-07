@@ -20,9 +20,19 @@
 
     <script type="text/javascript">
 
-      let colors = ["#50D47C", "#DAD869", "#EB5772", "#8AC2FF", "#A665BF", "#5FD6C1", "#B4DA5C", "#948DFF", "#EBAD62"];
+      let colors = [
+        "#fAd839", 
+        "#fB5742", 
+        "#66cc33", 
+        "#5Aa2FF", 
+        "#f48A0C", 
+        "#A665BF", 
+        "#5FD6C1", 
+        "#fB2D62",
+        "#948DFF", 
+      ];
 
-      let valueNames = ["Count", "Area", "Population", "GDP"];
+      let valueNames = ["Area", "Population", "GDP", "Count"];
       let showValue = valueNames[0];
 
       // Create an empty treemap
@@ -61,7 +71,7 @@
             y: item.y,
             width: item.w,
             height: item.h,
-          }, 5002);
+          }, 500);
 
         } else {
           // Otherwise create a rectangle for every item
@@ -72,8 +82,8 @@
 
           item.svgElement = paper.rect(item.x, item.y, item.w, item.h).attr({
             fill: col,
-            stroke: "#000",
-            strokeWidth: 0.3
+            stroke: "#0004",
+            strokeWidth: 0.5
           });
         }
 

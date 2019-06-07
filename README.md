@@ -1,6 +1,6 @@
 # Treemap.js
 
-![Cover](images/cover.png)
+![Cover](images/cover2.png)
 
 A [treemap](https://en.wikipedia.org/wiki/Treemapping) is a type of data diagram which shows a (hierarchical) list of values as nested rectangles. The original version of this class is also part of the [Generative Design Library](https://github.com/generative-design/generative-design-library.js). For this standalone version I added some functionality and renamed/restructured things. 
 

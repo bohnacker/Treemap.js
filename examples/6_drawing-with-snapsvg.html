@@ -32,27 +32,29 @@
 
       // Draw the treemap
       treemap.draw(function(item) {
-        // Create a rectangle for every item
-        item.svgElement = paper.rect(item.x, item.y, item.w, item.h).attr({
+
+        // Create a rectangle for every item and store a reference to it in the treemap. It's no problem to store your own information in an item, but make sure not to overwrite an important field. Good practice would be to choose names starting with 'my' or 'user'. This way nothing will break when using future versions of this treemap library.
+
+        item.myRect = paper.rect(item.x, item.y, item.w, item.h).attr({
           fill: "#0000",
           stroke: "#0003",
           strokeWidth: 0.3
         });
 
         // Highlight on hover. Go all the way down to the root element 
-        item.svgElement.mouseover(function (e) {
+        item.myRect.mouseover(function (e) {
           let it = item;
-          it.svgElement.attr('fill', '#06ff');
+          it.myRect.attr('fill', '#06ff');
           while (it.parent) {
             it = it.parent;
-            it.svgElement.attr('fill', '#06f3');
+            it.myRect.attr('fill', '#06f3');
           }
         }.bind(item));
 
-        item.svgElement.mouseout(function (e) {
+        item.myRect.mouseout(function (e) {
           let it = item;
           while (it.parent) {
-            it.svgElement.attr('fill', '#0000');
+            it.myRect.attr('fill', '#0000');
             it = it.parent;
           }
         }.bind(item));

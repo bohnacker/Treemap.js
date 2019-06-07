@@ -64,9 +64,9 @@
       treemap.draw(drawItem);
 
       function drawItem(item) {
-        if (item.svgElement) {
+        if (item.myRect) {
           // The rect was already created so just change position and dimensions
-          item.svgElement.animate({
+          item.myRect.animate({
             x: item.x,
             y: item.y,
             width: item.w,
@@ -80,7 +80,7 @@
             col = colors[item.index % colors.length];
           }
 
-          item.svgElement = paper.rect(item.x, item.y, item.w, item.h).attr({
+          item.myRect = paper.rect(item.x, item.y, item.w, item.h).attr({
             fill: col,
             stroke: "#0004",
             strokeWidth: 0.5
@@ -94,7 +94,7 @@
           if (item.myTip) {
             item.myTip.setContent(content);
           } else {
-            item.myTip = tippy(item.svgElement.node, {
+            item.myTip = tippy(item.myRect.node, {
               content: content,
               arrow: true,
               duration: 100,

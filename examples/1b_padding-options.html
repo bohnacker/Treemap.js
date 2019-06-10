@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script src="lib/Treemap.js"></script>
+    <style> 
+      body {padding: 0; margin: 0;} 
+      canvas {vertical-align: top;}
+      div.treemap-item {position: absolute; border: 1px solid black;}
+    </style>
+  </head>
+  <body>
+    <script type="text/javascript">
+      
+      // Create an empty treemap at the position (2, 2) as the upper left corner and width and height a bit smaller than the browser window. 'order' could be 'sort' or 'shuffle'. 'direction' could be set to 'both', 'horizontal' or 'vertical'.
+      let w = window.innerWidth;
+      let h = window.innerHeight;
+      let treemap = new Treemap(2, 2, w - 4, h - 4, {
+        order: 'sort',
+        direction: 'both',
+        'padding-top': 10,
+        'padding-left': 5,
+        'padding-right': 2,
+        'padding-bottom': 2,
+      });
+
+
+      // One basic way of using this class is to build a treemap from a (nested) array of numbers 
+      let data = [[1, 2, 3, 4], [2, 3, 4, 1, 1], [6, 4, 1, 1], [2, 3, 4, 1, 1, 2, 2], [5, 3, 2, 2]];
+
+      // Adding the data structure to the empty treemap
+      treemap.addData(data);
+
+      // Calculate the treemap
+      treemap.calculate();
+
+
+      // Drawing is always done with a customized drawing function to keep this library independ of any library that helps with drawing stuff. For this example, the elements are drawn to the document as divs. 
+
+      // When going through the treemap, item holds all the information of the treemap element. There is lots of information you could use for drawing:
+      // item.x, item.y, item.w, item.h – Dimensions of the rect
+      // item.minValue, item.maxValue - Smallest and largest item in this item
+      // item.level, item.depth - How deep is this item nested in the tree? The root node has level 0, an end node has depth 0 
+      // item.itemCount - Number of items inside this item, counted recursively
+      // item.index - Index of this item inside the parents sorted items array
+
+      treemap.draw(function(item) {
+        let div = document.createElement('div');
+        div.setAttribute('class', 'treemap-item')
+        div.style.left = item.x;
+        div.style.top = item.y;
+        div.style.width = item.w - 2;
+        div.style.height = item.h - 2;
+
+        document.body.appendChild(div);
+      });
+
+
+    </script>
+  </body>
+</html>

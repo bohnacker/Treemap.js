@@ -275,6 +275,13 @@ function Treemap() {
    */
 
   Treemap.prototype.setOptions = function(opts) {
+    if (opts.padding) {
+      if (!opts['padding-top']) opts['padding-top'] = opts.padding;      
+      if (!opts['padding-bottom']) opts['padding-bottom'] = opts.padding;      
+      if (!opts['padding-left']) opts['padding-left'] = opts.padding;      
+      if (!opts['padding-right']) opts['padding-right'] = opts.padding;      
+    }
+
     Object.keys(opts).forEach(function(k) {
       this.options[k] = opts[k];
     }.bind(this));
@@ -282,6 +289,7 @@ function Treemap() {
     this.items.forEach(function(el) {
       el.setOptions(opts);
     });
+
   }
 
 
@@ -407,10 +415,15 @@ function Treemap() {
     // So, as nothing has fit in the rect, restSum, restW, ... are the starting rect and the sum of all counters
     var restSum = valueKey ? this.value[valueKey] : this.value;
     var pad = this.root.options.padding || 0;
-    var restX = this.x + pad;
-    var restY = this.y + pad;
-    var restW = this.w - pad * 2;
-    var restH = this.h - pad * 2;
+    var padTop = this.root.options['padding-top'] || pad;
+    var padBottom = this.root.options['padding-bottom'] || pad;
+    var padLeft = this.root.options['padding-left'] || pad;
+    var padRight = this.root.options['padding-right'] || pad;
+
+    var restX = this.x + padLeft;
+    var restY = this.y + padTop;
+    var restW = this.w - (padLeft + padRight);
+    var restH = this.h - (padTop + padBottom);
 
     if (this.root.options.order == 'keep') {
       // use information in fields 'isHorizontal' and 'wrap' to build the rects
@@ -603,7 +616,7 @@ function Treemap() {
    * as a parameter and has access to all the fields of that item, most important `x`, `y`, `w`, and `h`.
    * `level` and `depth` tells you, how deep this item is nested in the tree. The root node has level 0, an end node has depth 0. `itemCount` gives you the number of items inside this item, counted recursively and the `index` of item inside the parents sorted items array.
    * Example:         
-   * ``` 
+   * ```javascript 
    * myTreemap.draw(function(item) { 
    *   let div = document.createElement('div');
    *   div.style.left = item.x;

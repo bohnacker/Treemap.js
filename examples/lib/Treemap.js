@@ -676,7 +676,7 @@ module.exports = Treemap;
 },{"./package.json":2}],2:[function(require,module,exports){
 module.exports={
   "name": "Treemap.js",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "A javascript library for calculating a treemap.",
   "license": "MIT",
   "main": "index.js",

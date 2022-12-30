@@ -28,7 +28,7 @@
   "homepage": "https://github.com/bohnacker/Treemap.js",
   "devDependencies": {
     "browserify": "^14.4.0",
-    "documentation": "^5.2.2",
+    "documentation": "^14.0.1",
     "uglify-js": "^3.0.28",
     "watch": "1.0.2",
     "onchange": "6.0.0"
